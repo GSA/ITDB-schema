@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
+<schema targetNamespace="urn:us:gov:businessCase-update"
+        xmlns:businessCase-type="urn:us:gov:businessCase-type"
+        xmlns:businessCase-facet="urn:us:gov:businessCase-facet"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:businessCase-update="urn:us:gov:businessCase-update"
+        version="FY_2018">
+  <annotation>
+    <documentation>
+      1. This schema SHOULD NOT BE directly used to Submit Data to ITDashboard.
+      2. Any dates that are referred in this schema should be in 'YYYY-MM-DD' format.
+    </documentation>
+  </annotation>
+
+  <import namespace="urn:us:gov:businessCase-type" schemaLocation="../Subset/businessCaseTypes.xsd"/>
+  <import namespace="urn:us:gov:businessCase-facet" schemaLocation="../Subset/businessCaseFacet.xsd"/>
+
+  <element name="capitalAssetPlan">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:capitalAssetSummary"/>
+        <element ref="businessCase-update:performanceMeasureReport" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="capitalAssetSummary">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agency"/>
+        <element ref="businessCase-update:uniqueInvestmentIdentifier"/>
+        <element ref="businessCase-update:investmentDetails" minOccurs="0"/>
+        <element ref="businessCase-update:lifeCycleCosts" minOccurs="0"/>
+        <element ref="businessCase-update:investmentStartEndDates" minOccurs="0"/>
+        <element ref="businessCase-update:changesFromPreviousBudget" minOccurs="0"/>
+        <element ref="businessCase-update:acquisitionStrategy" minOccurs="0"/>
+        <element ref="businessCase-update:cioRating" minOccurs="0"/>
+        <element ref="businessCase-update:systemsInventory" minOccurs="0"/>
+        <element ref="businessCase-update:securityCostsAndCapabilities" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="investmentDetails">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:investmentDescription" minOccurs="0"/>
+        <element ref="businessCase-update:objectivesOrGoals" minOccurs="0"/>
+        <element ref="businessCase-update:returnOnInvestmentDescription" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRequirements" minOccurs="0"/>
+        <element ref="businessCase-update:programCodeFPI" minOccurs="0"/>
+        <element ref="businessCase-update:investmentsEliminatedorReduced" minOccurs="0"/>
+        <element ref="businessCase-update:investmentSharedService" minOccurs="0"/>
+        <element ref="businessCase-update:investmentPivEnabled" minOccurs="0"/>
+        <element ref="businessCase-update:publicURLs" minOccurs="0"/>
+        <element ref="businessCase-update:pmDetails" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="performanceMeasureReport">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:projectFundingPlan" minOccurs="0"/>
+        <element ref="businessCase-update:reviseInvestment" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:operationalAnalysis" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetrics" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRisks" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="investmentsEliminatedorReduced">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:addInvestmentEliminatedorReduced" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:updateInvestmentEliminatedorReduced" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <complexType name="addContactInformationType">
+    <sequence>
+      <element ref="businessCase-update:agencyContactId" minOccurs="0"/>
+      <element ref="businessCase-update:contactType"/>
+      <element ref="businessCase-update:contactTitle" minOccurs="0"/>
+      <element ref="businessCase-update:contactDetail"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateContactInformationType">
+    <sequence>
+      <element ref="businessCase-update:contactId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyContactId" minOccurs="0"/>
+      <element ref="businessCase-update:contactTitle" minOccurs="0"/>
+      <element ref="businessCase-update:contactDetail" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="contactDetailType">
+    <sequence>
+      <element ref="businessCase-update:contactName"/>
+      <element ref="businessCase-update:contactNumber" minOccurs="0"/>
+      <element ref="businessCase-update:contactNumberExt" minOccurs="0"/>
+      <element ref="businessCase-update:contactEmail" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <element name="lifeCycleCosts">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:planningBudgetaryResourcesPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesPY" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesCY" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesBY" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:planningBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesPY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesCY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesBY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsPY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsCY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsBY" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:dmeGovernmentFTECostsBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesPY" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesCY" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesBY" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:maintenanceBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsPY" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsCY" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsBY" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:omdGovernmentFTECostsBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberPY-1" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberPY" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberCY" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberBY" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberBY_1" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberBY_2" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberBY_3" minOccurs="0"/>
+        <element ref="businessCase-update:governmentFTENumberBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-update:priorYearCostChangePY" minOccurs="0"/>
+        <element ref="businessCase-update:priorYearCostChangeCY" minOccurs="0"/>
+        <element ref="businessCase-update:priorYearCostPercentageChangePY" minOccurs="0"/>
+        <element ref="businessCase-update:priorYearCostPercentageChangeCY" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="investmentStartEndDates">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:investmentStartYear"/>
+        <element ref="businessCase-update:investmentEndYear"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="publicURLs">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:publicURL" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="pmDetails">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:pmName"/>
+        <element ref="businessCase-update:pmEmail"/>
+        <element ref="businessCase-update:pmQualifications"/>
+      </sequence>
+    </complexType>
+  </element>
+
+
+  <element name="acquisitionStrategy">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:existingContracts" minOccurs="0"/>
+        <element ref="businessCase-update:plannedAcquisitions" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <complexType name="attachment">
+    <sequence>
+      <element ref="businessCase-update:title"/>
+      <element ref="businessCase-update:binaryObject"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="binaryType">
+    <sequence>
+      <element ref="businessCase-update:binaryObject"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="base64Binary">
+    <simpleContent>
+      <extension base="base64Binary">
+        <attribute name="contentType" type="string" use="required"/>
+      </extension>
+    </simpleContent>
+  </complexType>
+
+  <element name="existingContracts">
+    <complexType>
+      <sequence>
+        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:updateContract"/>
+        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:addContract"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="plannedAcquisitions">
+    <complexType>
+      <sequence>
+        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:updateAcquisition"/>
+        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:addAcquisition"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <complexType name="replacedContractsType">
+    <sequence>
+      <element ref="businessCase-update:updateReplacedContract" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:addReplacedContract" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addReplacedContractType">
+    <sequence>
+      <element ref="businessCase-update:agencyReplacedContractId" minOccurs="0"/>
+      <element ref="businessCase-update:contractNumber"/>
+      <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateReplacedContractType">
+    <sequence>
+      <element ref="businessCase-update:replacedContractId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyReplacedContractId" minOccurs="0"/>
+      <element ref="businessCase-update:contractNumber" minOccurs="0"/>
+      <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <element name="addContract">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencyContractId" minOccurs="0"/>
+        <element ref="businessCase-update:contractNumber"/>
+        <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
+        <element ref="businessCase-update:isModularApproach"/>
+        <element ref="businessCase-update:agileDevelopment"/>
+        <element ref="businessCase-update:EVMRequired"/>
+        <element ref="businessCase-update:contractPurpose"/>
+        <element ref="businessCase-update:ITLeaseCategory" minOccurs="0"/>
+        <element ref="businessCase-update:informationSecurityClause"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateContract">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:contractId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyContractId" minOccurs="0"/>
+        <element ref="businessCase-update:contractNumber" minOccurs="0"/>
+        <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
+        <element ref="businessCase-update:isModularApproach" minOccurs="0"/>
+        <element ref="businessCase-update:agileDevelopment" minOccurs="0"/>
+        <element ref="businessCase-update:EVMRequired" minOccurs="0"/>
+        <element ref="businessCase-update:contractPurpose" minOccurs="0"/>
+        <element ref="businessCase-update:ITLeaseCategory" minOccurs="0"/>
+        <element ref="businessCase-update:informationSecurityClause" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addAcquisition">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencyAcquisitionId" minOccurs="0"/>
+        <element ref="businessCase-update:plannedContractDescription"/>
+        <element ref="businessCase-update:plannedAwardDate"/>
+        <element ref="businessCase-update:lengthOfPlannedSupport"/>
+        <element ref="businessCase-update:anticipatedValue"/>
+        <element ref="businessCase-update:isModularApproach"/>
+        <element ref="businessCase-update:agileDevelopment"/>
+        <element ref="businessCase-update:EVMRequired"/>
+        <element ref="businessCase-update:potentialSources"/>
+        <element ref="businessCase-update:providerEngagement"/>
+        <element ref="businessCase-update:containsITLease"/>
+        <element ref="businessCase-update:replacedContracts" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateAcquisition">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:acquisitionId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyAcquisitionId" minOccurs="0"/>
+        <element ref="businessCase-update:plannedContractDescription" minOccurs="0"/>
+        <element ref="businessCase-update:plannedAwardDate" minOccurs="0"/>
+        <element ref="businessCase-update:lengthOfPlannedSupport" minOccurs="0"/>
+        <element ref="businessCase-update:anticipatedValue" minOccurs="0"/>
+        <element ref="businessCase-update:isModularApproach" minOccurs="0"/>
+        <element ref="businessCase-update:agileDevelopment" minOccurs="0"/>
+        <element ref="businessCase-update:EVMRequired" minOccurs="0"/>
+        <element ref="businessCase-update:potentialSources" minOccurs="0"/>
+        <element ref="businessCase-update:providerEngagement" minOccurs="0"/>
+        <element ref="businessCase-update:containsITLease" minOccurs="0"/>
+        <element ref="businessCase-update:replacedContracts" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="performanceMetrics">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:addPerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:updatePerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updatePerformanceMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:performanceMetricId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyPerformanceMetricId" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricCategory" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricBaselineCapability" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricCYTarget" minOccurs="0"/>
+        <element ref="businessCase-update:performancePeriodicity" minOccurs="0"/>
+        <element ref="businessCase-update:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:performanceMetricObjectiveOrGoal" minOccurs="0"/>
+        <element ref="businessCase-update:isClosed" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addPerformanceMetricActual">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencyPerformanceMetricActualID" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricActualResult"/>
+        <element ref="businessCase-update:performanceMetricDateofActual"/>
+        <element ref="businessCase-update:performanceMetricComment" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="reviseUpdatePerformanceMetricActual">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:performanceMetricActualID" minOccurs="0"/>
+        <element ref="businessCase-update:agencyPerformanceMetricActualID" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricActualResult" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricDateofActual" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricComment" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="investmentRisks">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:updateInvestmentRisk" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:addInvestmentRisk" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateInvestmentRisk">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:investmentRiskId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyInvestmentRiskId" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskName" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskCategory" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskProbability" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskImpact" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskMitigationPlan" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addInvestmentRisk">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencyInvestmentRiskId" minOccurs="0"/>
+        <element ref="businessCase-update:investmentRiskName"/>
+        <element ref="businessCase-update:investmentRiskCategory"/>
+        <element ref="businessCase-update:investmentRiskProbability"/>
+        <element ref="businessCase-update:investmentRiskImpact"/>
+        <element ref="businessCase-update:investmentRiskMitigationPlan"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="projectFundingPlan">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:projects"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="projects">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:addProject" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:updateProject" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateProject">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:projectId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
+        <element ref="businessCase-update:updateProjectDetail" minOccurs="0"/>
+        <element ref="businessCase-update:updateProjectActivities" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateProjectDetail">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
+        <element ref="businessCase-update:otherSDLC" minOccurs="0"/>
+        <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
+        <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
+        <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateProjectActivities">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:updateProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:updateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateProjectActivity">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:activityId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+        <element ref="businessCase-update:activityType" minOccurs="0"/>
+        <element ref="businessCase-update:criticalPath" minOccurs="0"/>
+        <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
+        <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+        <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateAgileProjectActivity">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:activityId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+        <element ref="businessCase-update:releaseName" minOccurs="0"/>
+        <element ref="businessCase-update:releaseNumber" minOccurs="0"/>
+        <element ref="businessCase-update:releaseDescription" minOccurs="0"/>
+        <element ref="businessCase-update:NPI" minOccurs="0"/>
+        <element ref="businessCase-update:NPE" minOccurs="0"/>
+        <element ref="businessCase-update:NCE" minOccurs="0"/>
+        <element ref="businessCase-update:NCI" minOccurs="0"/>
+        <element ref="businessCase-update:DTC" minOccurs="0"/>
+        <element ref="businessCase-update:DPC" minOccurs="0"/>
+        <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
+        <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
+        <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+        <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-update:plannedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+  
+  <element name="reviseInvestment">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:baselineApprovalDate"/>
+        <element ref="businessCase-update:reviseOption"/>
+        <element ref="businessCase-update:reviseComments"/>
+        <element ref="businessCase-update:reviseAddProject" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:reviseUpdateProject" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:reviseAddPerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:reviseUpdatePerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+      <attribute name="id" type="string" use="required"/>
+    </complexType>
+  </element>
+
+  <complexType name="addProjectType">
+    <sequence>
+      <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
+      <element ref="businessCase-update:addProjectDetail"/>
+      <element ref="businessCase-update:addProjectActivities"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectType">
+    <sequence>
+      <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
+      <element ref="businessCase-update:reviseAddProjectDetail"/>
+      <element ref="businessCase-update:reviseAddProjectActivities"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectDetailType">
+    <sequence>
+      <element ref="businessCase-update:uniqueProjectId"/>
+      <element ref="businessCase-update:projectName"/>
+      <element ref="businessCase-update:objectivesExpectedOutcomes"/>
+      <element ref="businessCase-update:projectStartDate"/>
+      <element ref="businessCase-update:projectCompletionDate"/>
+      <element ref="businessCase-update:projectLifeCycleCost"/>
+      <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
+      <element ref="businessCase-update:otherSDLC" minOccurs="0"/>
+      <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
+      <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
+      <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addProjectActivitiesType">
+    <sequence>
+      <element ref="businessCase-update:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectActivitiesType">
+    <sequence>
+      <element ref="businessCase-update:reviseAddProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectActivityType">
+    <sequence>
+      <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+      <element ref="businessCase-update:activityName"/>
+      <element ref="businessCase-update:activityDescription" minOccurs="0"/>
+      <element ref="businessCase-update:structureId"/>
+      <element ref="businessCase-update:activityType" minOccurs="0"/>
+      <element ref="businessCase-update:criticalPath" minOccurs="0"/>
+      <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddAgileProjectActivityType">
+    <sequence>
+      <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+      <element ref="businessCase-update:releaseName"/>
+      <element ref="businessCase-update:releaseNumber"/>
+      <element ref="businessCase-update:releaseDescription"/>
+      <element ref="businessCase-update:NPI"/>
+      <element ref="businessCase-update:NPE"/>
+      <element ref="businessCase-update:NCE" minOccurs="0"/>
+      <element ref="businessCase-update:NCI" minOccurs="0"/>
+      <element ref="businessCase-update:DTC" minOccurs="0"/>
+      <element ref="businessCase-update:DPC" minOccurs="0"/>
+      <element ref="businessCase-update:plannedStartDate"/>
+      <element ref="businessCase-update:projectedStartDate"/>
+      <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedCompletionDate"/>
+      <element ref="businessCase-update:projectedCompletionDate"/>
+      <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedTotalCost"/>
+      <element ref="businessCase-update:projectedTotalCost"/>
+      <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectType">
+    <sequence>
+      <element ref="businessCase-update:projectId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
+      <element ref="businessCase-update:reviseUpdateProjectDetail" minOccurs="0"/>
+      <element ref="businessCase-update:reviseUpdateProjectActivities" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectDetailType">
+    <sequence>
+      <element ref="businessCase-update:uniqueProjectId" minOccurs="0"/>
+      <element ref="businessCase-update:projectName" minOccurs="0"/>
+      <element ref="businessCase-update:objectivesExpectedOutcomes" minOccurs="0"/>
+      <element ref="businessCase-update:projectStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectLifeCycleCost" minOccurs="0"/>
+      <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
+      <element ref="businessCase-update:otherSDLC" minOccurs="0"/>
+      <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
+      <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
+      <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectActivitiesType">
+    <sequence>
+      <element ref="businessCase-update:reviseUpdateProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:reviseAddProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:reviseUpdateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectActivityType">
+    <sequence>
+      <element ref="businessCase-update:activityId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+      <element ref="businessCase-update:activityName" minOccurs="0"/>
+      <element ref="businessCase-update:activityDescription" minOccurs="0"/>
+      <element ref="businessCase-update:structureId" minOccurs="0"/>
+      <element ref="businessCase-update:activityType" minOccurs="0"/>
+      <element ref="businessCase-update:criticalPath" minOccurs="0"/>
+      <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateAgileProjectActivityType">
+    <sequence>
+      <element ref="businessCase-update:activityId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+      <element ref="businessCase-update:releaseName" minOccurs="0"/>
+      <element ref="businessCase-update:releaseNumber" minOccurs="0"/>
+      <element ref="businessCase-update:releaseDescription" minOccurs="0"/>
+      <element ref="businessCase-update:NPI" minOccurs="0"/>
+      <element ref="businessCase-update:NPE" minOccurs="0"/>
+      <element ref="businessCase-update:NCE" minOccurs="0"/>
+      <element ref="businessCase-update:NCI" minOccurs="0"/>
+      <element ref="businessCase-update:DTC" minOccurs="0"/>
+      <element ref="businessCase-update:DPC" minOccurs="0"/>
+      <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:plannedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddPerformanceMetricType">
+    <sequence>
+      <element ref="businessCase-update:agencyPerformanceMetricId" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricDescription"/>
+      <element ref="businessCase-update:performanceMetricUOM"/>
+      <element ref="businessCase-update:performanceMetricCategory"/>
+      <element ref="businessCase-update:performanceMetricBaselineCapability" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricPYTarget" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricCYTarget"/>
+      <element ref="businessCase-update:performanceMetricCondition"/>
+      <element ref="businessCase-update:performancePeriodicity"/>
+      <element ref="businessCase-update:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:performanceMetricObjectiveOrGoal" minOccurs="0"/>
+      <element ref="businessCase-update:isClosed" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdatePerformanceMetricType">
+    <sequence>
+      <element ref="businessCase-update:performanceMetricId" minOccurs="0"/>
+      <element ref="businessCase-update:agencyPerformanceMetricId" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricDescription" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricUOM" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricCategory" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricBaselineCapability" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricPYTarget" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricCYTarget" minOccurs="0"/>
+      <element ref="businessCase-update:performanceMetricCondition" minOccurs="0"/>
+      <element ref="businessCase-update:performancePeriodicity" minOccurs="0"/>
+      <element ref="businessCase-update:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:reviseUpdatePerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:performanceMetricObjectiveOrGoal" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+      <element ref="businessCase-update:isClosed" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addInvestmentEliminatedorReducedType">
+    <sequence>
+      <element ref="businessCase-update:agencyInvestmentEliminatedorReducedID" minOccurs="0"/>
+      <element ref="businessCase-update:UII"/>
+      <element ref="businessCase-update:eliminationReduction"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateInvestmentEliminatedorReducedType">
+    <sequence>
+      <element ref="businessCase-update:investmentEliminatedorReducedID" minOccurs="0"/>
+      <element ref="businessCase-update:agencyInvestmentEliminatedorReducedID" minOccurs="0"/>
+      <element ref="businessCase-update:UII" minOccurs="0"/>
+      <element ref="businessCase-update:eliminationReduction" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="objectivesOrGoalsType">
+    <sequence>
+      <element ref="businessCase-update:addObjectiveOrGoal" minOccurs="0" maxOccurs="unbounded"/>
+      <element ref="businessCase-update:updateObjectiveOrGoal" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addObjectiveOrGoalType">
+    <sequence>
+      <element ref="businessCase-update:agencyObjectiveOrGoalID" minOccurs="0"/>
+      <element ref="businessCase-update:objectiveOrGoal"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateObjectiveOrGoalType">
+    <sequence>
+      <element ref="businessCase-update:objectiveOrGoalID" minOccurs="0"/>
+      <element ref="businessCase-update:agencyObjectiveOrGoalID" minOccurs="0"/>
+      <element ref="businessCase-update:objectiveOrGoal" minOccurs="0"/>
+      <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <element name="cioRating">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:cioRatingEval"/>
+        <element ref="businessCase-update:cioComment"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="systemsInventory">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:updateSystem" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:addSystem" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addSystem">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencySystemId" minOccurs="0"/>
+        <element ref="businessCase-update:systemName"/>
+        <element ref="businessCase-update:initialOperatingYear" minOccurs="0"/>
+        <element ref="businessCase-update:techRefreshDate" minOccurs="0"/>
+        <element ref="businessCase-update:endOfContractedSupportDate" minOccurs="0"/>
+        <element ref="businessCase-update:averageUsersPerMonth" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateSystem">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:systemId" minOccurs="0"/>
+        <element ref="businessCase-update:agencySystemId" minOccurs="0"/>
+        <element ref="businessCase-update:systemName" minOccurs="0"/>
+        <element ref="businessCase-update:initialOperatingYear" minOccurs="0"/>
+        <element ref="businessCase-update:techRefreshDate" minOccurs="0"/>
+        <element ref="businessCase-update:endOfContractedSupportDate" minOccurs="0"/>
+        <element ref="businessCase-update:averageUsersPerMonth" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="securityCostsAndCapabilities">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:updateCapability" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:addCapability" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addCapability">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:agencyCapabilityId" minOccurs="0"/>
+        <element ref="businessCase-update:capabilityCode"/>
+        <element ref="businessCase-update:purposeOutcome"/>
+        <element ref="businessCase-update:totalSpendingPY"/>
+        <element ref="businessCase-update:totalSpendingCY"/>
+        <element ref="businessCase-update:totalSpendingBY"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateCapability">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:capabilityId" minOccurs="0"/>
+        <element ref="businessCase-update:agencyCapabilityId" minOccurs="0"/>
+        <element ref="businessCase-update:capabilityCode" minOccurs="0"/>
+        <element ref="businessCase-update:purposeOutcome" minOccurs="0"/>
+        <element ref="businessCase-update:totalSpendingPY" minOccurs="0"/>
+        <element ref="businessCase-update:totalSpendingCY" minOccurs="0"/>
+        <element ref="businessCase-update:totalSpendingBY" minOccurs="0"/>
+        <element ref="businessCase-update:isActive" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="operationalAnalysis">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:dateOfAnalysis" minOccurs="0"/>
+        <element ref="businessCase-update:analysisResults" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="agency" type="businessCase-facet:agencyString"/>
+  <element name="uniqueInvestmentIdentifier" type="businessCase-type:investmentIdentifierType"/>
+  <element name="investmentDescription" type="businessCase-type:longTextString"/>
+  <element name="objectivesOrGoals" type="businessCase-update:objectivesOrGoalsType"/>
+  <element name="addObjectiveOrGoal" type="businessCase-update:addObjectiveOrGoalType"/>
+  <element name="updateObjectiveOrGoal" type="businessCase-update:updateObjectiveOrGoalType"/>
+  <element name="objectiveOrGoalID" type="integer"/>
+  <element name="agencyObjectiveOrGoalID" type="businessCase-type:shortTextString"/>
+  <element name="objectiveOrGoal" type="businessCase-type:objectiveOrGoalType"/>
+  <element name="programCodeFPI" type="businessCase-type:programCodeFPIType"/>
+  <element name="investmentSharedService" type="businessCase-facet:yesNoString"/>
+  <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
+  <element name="publicURL" type="businessCase-type:URLString"/>
+  <element name="pmName" type="businessCase-type:shortTextString"/>
+  <element name="pmEmail" type="businessCase-type:shortTextString"/>
+  <element name="pmQualifications" type="businessCase-facet:projectManagerQualification"/>
+  <element name="investmentURL" type="businessCase-type:URLString"/>
+  <element name="addInvestmentEliminatedorReduced" type="businessCase-update:addInvestmentEliminatedorReducedType"/>
+  <element name="updateInvestmentEliminatedorReduced" type="businessCase-update:updateInvestmentEliminatedorReducedType"/>
+  <element name="UII" type="businessCase-type:investmentIdentifierType"/>
+  <element name="eliminationReduction" type="businessCase-facet:eliminationReductionType"/>
+  <element name="investmentEliminatedorReducedID" type="integer"/>
+  <element name="agencyInvestmentEliminatedorReducedID" type="businessCase-type:shortTextString"/>
+  <element name="returnOnInvestmentDescription" type="businessCase-type:longTextString"/>
+  <element name="investmentRequirements" type="businessCase-type:longTextString"/>
+
+  <element name="addContactInformation" type="businessCase-update:addContactInformationType"/>
+  <element name="updateContactInformation" type="businessCase-update:updateContactInformationType"/>
+  <element name="contactId" type="integer"/>
+  <element name="agencyContactId" type="businessCase-type:shortTextString"/>
+  <element name="contactType" type="businessCase-facet:contactTypes"/>
+  <element name="contactDetail" type="businessCase-update:contactDetailType"/>
+  <element name="contactTitle" type="businessCase-type:shortTextString"/>
+  <element name="contactName" type="businessCase-type:shortTextString"/>
+  <element name="contactNumber" type="businessCase-type:phoneNumber" nillable="true"/>
+  <element name="contactNumberExt" type="businessCase-type:phoneExtension" nillable="true"/>
+  <element name="contactEmail" type="businessCase-type:shortTextString"/>
+
+  <element name="planningBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="planningBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeGovernmentFTECostsPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeGovernmentFTECostsPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="omdGovernmentFTECostsPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="omdGovernmentFTECostsPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="governmentFTENumberPY-1" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberPY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberCY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberBY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberBY_1" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberBY_2" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberBY_3" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberBY_4_Beyond" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="priorYearCostChangePY" type="businessCase-type:negativeDollarAmount" nillable="true"/>
+  <element name="priorYearCostChangeCY" type="businessCase-type:negativeDollarAmount" nillable="true"/>
+  <element name="priorYearCostPercentageChangePY" type="businessCase-type:ITPercentage" nillable="true"/>
+  <element name="priorYearCostPercentageChangeCY" type="businessCase-type:ITPercentage" nillable="true"/>
+
+  <element name="investmentStartYear" type="businessCase-type:investmentYear" nillable="true"/>
+  <element name="investmentEndYear" type="businessCase-type:investmentYear" nillable="true"/>
+  <element name="changesFromPreviousBudget" type="businessCase-type:mediumTextString"/>
+  <element name="contractNumber" type="businessCase-type:shortTextString"/>
+  <element name="EVMRequired" type="businessCase-facet:yesNoString"/>
+  <element name="contractPurpose" type="businessCase-type:mediumTextString"/>
+  <element name="ITLeaseCategory" type="businessCase-facet:ITLeaseCategoryType" nillable="true"/>
+  <element name="informationSecurityClause" type="businessCase-facet:yesNoString"/>
+  <element name="isActive" type="businessCase-facet:isActiveString"/>
+
+  <element name="cioRatingEval" type="businessCase-type:cioRatingType"/>
+  <element name="cioComment" type="businessCase-type:longTextString"/>
+  <element name="contractId" type="integer"/>
+  <element name="agencyContractId" type="businessCase-type:shortTextString"/>
+
+  <element name="referencedPIID" type="businessCase-type:referencedPIIDType"/>
+  <element name="isModularApproach" type="businessCase-facet:yesNoString"/>
+  <element name="agileDevelopment" type="businessCase-facet:yesNoString"/>
+
+  <element name="performanceMetricId" type="integer"/>
+  <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString"/>
+  <element name="performanceMetricDescription" type="businessCase-type:mediumTextString"/>
+  <element name="performanceMetricUOM" type="businessCase-type:string50"/>
+  <element name="performanceMetricCategory" type="businessCase-facet:metricCategoryTypes"/>
+  <element name="performanceMetricBaselineCapability" type="businessCase-type:metricUnitType"/>
+  <element name="performanceMetricPYTarget" type="businessCase-type:metricUnitType" nillable="true"/>
+  <element name="performanceMetricCYTarget" type="businessCase-type:metricUnitType"/>
+  <element name="performanceMetricCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="performancePeriodicity" type="businessCase-facet:measureReportingFrequencyType"/>
+  <element name="performanceMetricActualID" type="integer"/>
+  <element name="agencyPerformanceMetricActualID" type="businessCase-type:shortTextString"/>
+  <element name="performanceMetricActualResult" type="businessCase-type:metricUnitType"/>
+  <element name="performanceMetricComment" type="businessCase-type:mediumTextString"/>
+  <element name="performanceMetricDateofActual" type="businessCase-type:investmentDateType"/>
+  <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" nillable="true"/>
+  <element name="isClosed" type="businessCase-facet:yesNoString"/>
+
+  <element name="dateOfAnalysis" type="businessCase-type:investmentDateType" nillable="true"/>
+  <element name="analysisResults" type="businessCase-type:longTextString" nillable="true"/>
+
+  <!-- investment risk elements -->
+  <element name="investmentRiskId" type="integer"/>
+  <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString"/>
+  <element name="investmentRiskName" type="businessCase-type:mediumTextString"/>
+  <element name="investmentRiskCategory" type="businessCase-facet:riskType"/>
+  <element name="investmentRiskProbability" type="businessCase-facet:impactType"/>
+  <element name="investmentRiskImpact" type="businessCase-facet:impactType"/>
+  <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString"/>
+
+  <!-- project elements -->
+  <element name="projectId" type="integer"/>
+  <element name="agencyProjectId" type="businessCase-type:shortTextString"/>
+  <element name="uniqueProjectId" type="businessCase-type:string10"/>
+  <element name="projectName" type="businessCase-type:shortTextString"/>
+  <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString"/>
+  <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
+  <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
+  <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
+  <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType"/>
+  <element name="otherSDLC" type="businessCase-type:mediumTextString"/>
+  <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType"/>
+  <element name="releaseEverySixMoComment" type="businessCase-type:string1000"/>
+  <element name="productionDeploymentDate" type="businessCase-type:investmentDateType"/>
+
+  <!-- activity elements -->
+  <element name="activityId" type="integer"/>
+  <element name="agencyActivityId" type="businessCase-type:shortTextString"/>
+  <element name="activityName" type="businessCase-type:shortTextString"/>
+  <element name="activityDescription" type="businessCase-type:longTextString"/>
+  <element name="structureId" type="string"/>
+  <element name="activityType" type="businessCase-facet:activityType"/>
+  <element name="criticalPath" type="businessCase-facet:yesNoString"/>
+  <element name="plannedStartDate" type="businessCase-type:investmentDateType"/>
+  <element name="projectedStartDate" type="businessCase-type:investmentDateType" nillable="true"/>
+  <element name="actualStartDate" type="businessCase-type:investmentDateType" nillable="true"/>
+  <element name="plannedTotalCost" type="businessCase-type:dollarAmount"/>
+  <element name="projectedTotalCost" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="actualTotalCost" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="plannedCompletionDate" type="businessCase-type:investmentDateType"/>
+  <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" nillable="true"/>
+  <element name="actualCompletionDate" type="businessCase-type:investmentDateType" nillable="true"/>
+
+  <!-- agile activity elements -->
+  <element name="releaseName" type="businessCase-type:shortTextString"/>
+  <element name="releaseNumber" type="businessCase-type:string50"/>
+  <element name="releaseDescription" type="businessCase-type:longTextString"/>
+  <element name="NPI" type="businessCase-type:agileSprints"/>
+  <element name="NPE" type="businessCase-type:agileEpics"/>
+  <element name="NCE" type="businessCase-type:agileEpics"/>
+  <element name="NCI" type="businessCase-type:agileSprints"/>
+  <element name="DTC" type="businessCase-type:agileContributors"/>
+  <element name="DPC" type="businessCase-type:agileContributors"/>
+
+  <!-- revise Elements -->
+  <element name="baselineApprovalDate" type="businessCase-type:investmentDateType"/>
+  <element name="reviseOption" type="businessCase-facet:reviseOptionType"/>
+  <element name="reviseComments" type="string"/>
+  <element name="reviseAddProject" type="businessCase-update:reviseAddProjectType"/>
+  <element name="reviseAddProjectDetail" type="businessCase-update:reviseAddProjectDetailType"/>
+  <element name="reviseAddProjectActivities" type="businessCase-update:reviseAddProjectActivitiesType"/>
+  <element name="reviseAddProjectActivity" type="businessCase-update:reviseAddProjectActivityType"/>
+  <element name="reviseAddAgileProjectActivity" type="businessCase-update:reviseAddAgileProjectActivityType"/>
+  <element name="reviseUpdateProject" type="businessCase-update:reviseUpdateProjectType"/>
+  <element name="reviseUpdateProjectDetail" type="businessCase-update:reviseUpdateProjectDetailType"/>
+  <element name="reviseUpdateProjectActivities" type="businessCase-update:reviseUpdateProjectActivitiesType"/>
+  <element name="reviseUpdateProjectActivity" type="businessCase-update:reviseUpdateProjectActivityType"/>
+  <element name="reviseUpdateAgileProjectActivity" type="businessCase-update:reviseUpdateAgileProjectActivityType"/>
+  <element name="reviseAddPerformanceMetric" type="businessCase-update:reviseAddPerformanceMetricType"/>
+  <element name="reviseUpdatePerformanceMetric" type="businessCase-update:reviseUpdatePerformanceMetricType"/>
+  <element name="addPerformanceMetric" type="businessCase-update:reviseAddPerformanceMetricType"/>
+
+  <!-- Project elements -->
+  <element name="addProject" type="businessCase-update:addProjectType"/>
+  <element name="addProjectDetail" type="businessCase-update:reviseAddProjectDetailType"/>
+  <element name="addProjectActivities" type="businessCase-update:addProjectActivitiesType"/>
+  <element name="addProjectActivity" type="businessCase-update:reviseAddProjectActivityType"/>
+  <element name="addAgileProjectActivity" type="businessCase-update:reviseAddAgileProjectActivityType"/>
+
+  <element name="binaryObject" abstract="true"/>
+  <element substitutionGroup="businessCase-update:binaryObject" name="binaryBase64Object" type="businessCase-update:base64Binary"/>
+  <element name="title" type="businessCase-type:shortTextString"/>
+
+  <!-- Planned Acquisition Elements -->
+  <element name="acquisitionId" type="integer"/>
+  <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" nillable="true"/>
+  <element name="plannedContractDescription" type="businessCase-type:string1000"/>
+  <element name="plannedAwardDate" type="businessCase-type:contractDateType"/>
+  <element name="lengthOfPlannedSupport" type="businessCase-type:string20"/>
+  <element name="anticipatedValue" type="businessCase-type:dollarAmount"/>
+  <element name="potentialSources" type="businessCase-type:mediumTextString"/>
+  <element name="providerEngagement" type="businessCase-type:string1000"/>
+  <element name="containsITLease" type="businessCase-facet:yesNoString"/>
+  <element name="replacedContracts" type="businessCase-update:replacedContractsType"/>
+
+  <!-- Replaced Contract Elements -->
+  <element name="addReplacedContract" type="businessCase-update:addReplacedContractType"/>
+  <element name="updateReplacedContract" type="businessCase-update:updateReplacedContractType"/>
+  <element name="replacedContractId" type="businessCase-type:shortTextString"/>
+  <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" nillable="true"/>
+
+  <!-- Systems Inventory Elements -->
+  <element name="systemId" type="integer"/>
+  <element name="agencySystemId" type="businessCase-type:shortTextString" nillable="true"/>
+  <element name="systemName" type="businessCase-type:shortTextString"/>
+  <element name="initialOperatingYear" type="businessCase-type:investmentYear"/>
+  <element name="techRefreshDate" type="businessCase-type:investmentDateType"/>
+  <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType"/>
+  <element name="averageUsersPerMonth" type="integer"/>
+
+  <!-- Security Costs and Capabilities Elements -->
+  <element name="capabilityId" type="integer"/>
+  <element name="agencyCapabilityId" type="businessCase-type:shortTextString" nillable="true"/>
+  <element name="capabilityCode" type="integer"/>
+  <element name="purposeOutcome" type="businessCase-type:string1000"/>
+  <element name="totalSpendingPY" type="businessCase-type:dollarAmount"/>
+  <element name="totalSpendingCY" type="businessCase-type:dollarAmount"/>
+  <element name="totalSpendingBY" type="businessCase-type:dollarAmount"/>
+
+</schema>
