@@ -33,6 +33,13 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
 
 ## Quick Links to Files
 
+  * **XSD**
+    * [BusinessCase](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Exchange)
+    * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Exchange)
+  * **SAMPLE XML**
+    * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
+    * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
+  * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/validations.md)
   * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/DataDictionary.pdf)
   * [Entity Relation Diagram](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/ER_Diagram.pdf)
 
