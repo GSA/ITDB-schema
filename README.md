@@ -27,7 +27,7 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  Guidance Release |  May 12, 2017 |
-|  Announcement of When Vendors will receive the XSD File |  May 12, 2017 |
+|  Finalize taget dates based on guidance |  May 12, 2017 |
 |  Target Date for XSD Candidate shared to vendors   |  May 19, 2017  |
 |  Target Date for XSD Plus Canidate   |  May 26, 2017 |
 
