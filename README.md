@@ -3,7 +3,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  
  * Community members should be able to download the latest CPIC Guidance, XSD and XML files.
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
- * Members of this repository recieve alerts when files are updated, asssuming they subscribe to GitHub alerts.
+ * Members of this repository recieve alerts when files are updated, asssuming they subscribe to GitHub notifications.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema.
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are propsed.
 
