@@ -28,9 +28,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  Guidance Release |  May 12, 2017 |
-|  Finalize taget dates based on guidance |  May 12, 2017 |
+|  Finalize target dates based on guidance |  May 12, 2017 |
 |  Target Date for XSD Candidate shared to vendors   |  May 19, 2017  |
-|  Target Date for XSD Plus Canidate   |  May 26, 2017 |
+|  Target Date for XSD Plus Candidate   |  May 26, 2017 |
 
 ## Quick Links to Files
 
