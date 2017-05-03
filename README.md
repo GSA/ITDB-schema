@@ -40,7 +40,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
   * **SAMPLE XML**
     * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
-  * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/validations.md)
+  * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)
   * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/DataDictionary.pdf)
   * [Entity Relation Diagram](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/ER_Diagram.pdf)
 
