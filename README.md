@@ -13,12 +13,12 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
 |:-------------:|---|---|
 | 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  May 3, 2017 |
 |  | Target FY19 Guidance   |  May 12, 2017  |
-|  | Current XSD Schema   | TBD  |
-|  | Current XML Sample Files   | TBD |
-|  | Current Validations   | TBD  |
-|  | Technical Documents   | TBD  |
-|  | How to submit data  | TBD  |
-|  | Diagram of submission process  | TBD  |
+| &#x2714;  | Current XSD Schema   | DONE  |
+| &#x2714;  | Current XML Sample Files   | DONE |
+| &#x2714;  | Current Validations   | DONE  |
+| &#x2714;  | Technical Documents   | DONE  |
+|  | How to submit data to IT Dashboard | SOON  |
+|  | Diagram of submission process  | SOON  |
 
 
 
