@@ -9,7 +9,7 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
 
 ## Repo Deliverables
 
-| Included  | Object  |  Date Expected |
+| In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
 | 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  May 3, 2017 |
 |  | Target FY19 Guidance   |  May 12, 2017  |
