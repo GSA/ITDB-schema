@@ -6,10 +6,46 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
  * Members of this repository should recieve automated alerts when repository files are updated, asssuming they subscribe to GitHub alerts.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema.
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are propsed.
- * A [Kanban board](https://github.com/ombegov/ITDB-schema/projects/1) has been created to manage the review of all issues, questions, and proposed code changes.
+
+## Repo Deliverables
+
+| Complete  | Object  |  Delivery Date |
+|:-------------:|---|---|
+| 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  May 3, 2017 |
+|  | Target FY19 Guidance   |  May 12, 2017  |
+|  | Current XSD Schema   | TBD  |
+|  | Current XML Sample Files   | TBD |
+|  | Current Validations   | TBD  |
+|  | Technical Documents   | TBD  |
+|  | How to submit data  | TBD  |
+|  | Diagram of submission process  | TBD  |
+
+
+
+## Important Dates
+
+|  Event  |  Date |
+|:-------------|:-------------:|
+|  Guidance Release |  May 12, 2017 |
+|  Announcement of When Vendors will receive the XSD File |  May 12, 2017 |
+|  Target XSD Delivered to vendors   |  May 19, 2017  |
+|  Target XSD Plus   |  May 26, 2017 |
+
+## Quick Links to Files
+
+  * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/DataDictionary.pdf)
+  * [Entity Relation Diagram](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/ER_Diagram.pdf)
+
 
 ## Asking questions and getting help
 
 We encourage the CPIC community to comment and ask questions here on GitHub. 
-Go to the [Issues](https://github.com/ombegov/ITDB-schema/issues) and add comments and questions. If you wish to contribute to the code base please fork this repository and, after committing your changes to the schema files, create a pull request. As issues are updated, community subscribers will receive automated updates from Github. You can check the status of your issue by visting the issue page or our [Kanban board](https://github.com/ombegov/ITDB-schema/projects/1).
+Go to the Issues  and add comments and questions. If you wish to contribute to the code base please fork this repository and, after committing your changes to the schema files, create a pull request. As issues are updated, community subscribers will receive automated updates from Github. You can check the status of your issue by visting the issue page.
+
+
+## Contributing to the Repo
+
+If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive your pull request is sent we will review your suggested list of changes. Track the status of your pull request here [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls)
+
+
 
