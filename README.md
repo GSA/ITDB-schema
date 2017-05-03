@@ -47,7 +47,7 @@ This repository is supplied by OMB for the eCPIC Community. It's purpose is to a
 ## Asking questions and getting help
 
 We encourage the CPIC community to comment and ask questions here on GitHub. 
-Go to the Issues  and add comments and questions. If you wish to contribute to the code base please fork this repository and, after committing your changes to the schema files, create a pull request. As issues are updated, community subscribers will receive automated updates from Github. You can check the status of your issue by visting the issue page.
+Go to the Issues  and add comments and questions. If you wish to contribute to the code base please fork this repository and, after committing your changes to the schema files, create a pull request. As issues are updated, community subscribers will receive automated updates from Github. You can check the status of your issue by visiting the issue page.
 
 
 ## Contributing to the Repo
