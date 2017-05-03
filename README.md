@@ -11,7 +11,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 | In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
-| 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  May 3, 2017 |
+| 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  DONE |
 |  | Target FY19 Guidance   |  May 12, 2017  |
 | &#x2714;  | Current XSD Schema   | DONE  |
 | &#x2714;  | Current XML Sample Files   | DONE |
