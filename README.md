@@ -5,7 +5,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
  * Members of this repository recieve alerts when files are updated, asssuming they subscribe to GitHub notifications.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
- * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are propsed.
+ * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
 
 ## Repo Deliverables
 
