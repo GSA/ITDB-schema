@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-   Copyright 2009-2011 United States Government. 
-
-   This software is licensed under the GNU General Public License 
-   version 2 (see the file LICENSE for details)
--->
-
 <schema targetNamespace="urn:us:gov:businessCase-update"
         xmlns:businessCase-type="urn:us:gov:businessCase-type"
         xmlns:businessCase-facet="urn:us:gov:businessCase-facet"

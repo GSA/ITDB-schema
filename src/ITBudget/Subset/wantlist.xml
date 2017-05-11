@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-   Copyright 2009-2011 United States Government. 
-
-   This software is licensed under the GNU General Public License 
-   version 2 (see the file LICENSE for details)
--->
-
 <w:WantList w:release="2.1" w:product="NIEM"
   xmlns:nc="http://niem.gov/niem/niem-core/2.0"
   xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:w="http://niem.gov/niem/wantlist/2">
