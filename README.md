@@ -13,15 +13,13 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |:-------------:|---|---|
 | 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  DONE |
 |  | Target FY19 Guidance   |  May 12, 2017  |
-| &#x2714;  | Current XSD Schema   | DONE  |
-| &#x2714;  | Current XML Sample Files   | DONE |
-| &#x2714;  | [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
+| &#x2714;  | Baseline XSD Schema   | DONE  |
+| &#x2714;  | Baseline XML Sample Files   | DONE |
+| &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
 | &#x2714;  | [Technical Documents](https://github.com/ombegov/ITDB-schema/tree/master/docs/TechnicalDocumentation)   | DONE  |
 | &#x2714; | [How to submit data to IT Dashboard](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions.pdf) | DONE  |
 |  | Diagram of submission process  | SOON  |
 |  | Archive versions (BY17, BY16, etc) | TBD  |
-
-
 
 ## Important Dates
 
@@ -42,8 +40,6 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
   * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)
   * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/DataDictionary.pdf)
-  * [Entity Relation Diagram](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/ER_Diagram.pdf)
-
 
 ## Asking questions and getting help
 
