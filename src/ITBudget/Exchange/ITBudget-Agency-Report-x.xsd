@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ITBudget="urn:us:gov:ITBudget" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:get-ITBudget-ext="urn:us:gov:get-ITBudget-ext" xmlns:update-ITBudget-ext="urn:us:gov:update-ITBudget-ext" targetNamespace="urn:us:gov:ITBudget" elementFormDefault="qualified" version="4.0.0">
+	<xsd:annotation>
+		<xsd:documentation/>
+		<xsd:appinfo>
+			<i:ConformantIndicator>true</i:ConformantIndicator>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://niem.gov/niem/appinfo/2.0" schemaLocation="../Subset/niem/appinfo/2.0/appinfo.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/structures/2.0" schemaLocation="../Subset/niem/structures/2.0/structures.xsd"/>
+	<xsd:import namespace="urn:us:gov:get-ITBudget-ext" schemaLocation="../Extension/Get-ITBudget-EXT-e.xsd"/>
+	<xsd:import namespace="urn:us:gov:update-ITBudget-ext" schemaLocation="../Extension/Update-ITBudget-EXT-e.xsd"/>
+	<xsd:complexType name="ITBudgetReportType">
+		<xsd:annotation>
+			<xsd:appinfo>
+				<i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:choice>
+						<xsd:element ref="ITBudget:UpdateITBudgetReport"/>
+						<xsd:element ref="ITBudget:GetITBudgetReport"/>
+					</xsd:choice>
+				</xsd:sequence>
+				<xsd:attribute ref="ITBudget:validateOnlyIndicator"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="ITBudgetReport" type="ITBudget:ITBudgetReportType"/>
+	<xsd:attribute name="validateOnlyIndicator" type="xsd:boolean"/>
+	<xsd:element name="GetITBudgetReport" type="get-ITBudget-ext:ITBudgetReportType"/>
+	<xsd:element name="UpdateITBudgetReport" type="update-ITBudget-ext:ITBudgetReportType"/>
+</xsd:schema>

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itdashboard.gov/service"
+        xmlns:tns="http://www.itdashboard.gov/service"
+        xmlns:businessCase-add="urn:us:gov:businessCase-add"
+        xmlns:businessCase-update="urn:us:gov:businessCase-update"
+        xmlns:businessCase-type="urn:us:gov:businessCase-type"
+        xmlns:businessCase-facet="urn:us:gov:businessCase-facet"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        elementFormDefault="qualified"
+        version="FY_2017">
+
+  <annotation>
+    <documentation>
+      1. This schema should be used to Submit Data to ITDashboard.
+      2. Any dates that are referred in this schema should be in 'YYYY-MM-DD' format.
+    </documentation>
+  </annotation>
+
+  <import namespace="urn:us:gov:businessCase-add" schemaLocation="../Extension/addInvestment.xsd"/>
+  <import namespace="urn:us:gov:businessCase-update" schemaLocation="../Extension/updateInvestment.xsd"/>
+  <import namespace="urn:us:gov:businessCase-type" schemaLocation="../Subset/businessCaseTypes.xsd"/>
+  <import namespace="urn:us:gov:businessCase-facet" schemaLocation="../Subset/businessCaseFacet.xsd"/>
+
+  <element name="operations" type="tns:operationsType"/>
+
+  <complexType name="operationsType">
+    <sequence>
+      <element name="investmentInformation" type="tns:investmentInformationType" maxOccurs="unbounded"/>
+    </sequence>
+    <attribute name="validateOnlyIndicator" type="boolean"/>
+  </complexType>
+
+  <complexType name="investmentInformationType">
+    <choice>
+      <element name="getInformation" type="tns:getInvestmentInformationType"/>
+      <element name="monthlySubmission" type="tns:monthlySubmissionType"/>
+      <element name="annualSubmission" type="tns:annualSubmissionType"/>
+    </choice>
+    <attribute name="uniqueInvestmentIdentifier" type="businessCase-type:investmentIdentifierType" use="required"/>
+  </complexType>
+
+  <complexType name="getInvestmentInformationType">
+    <sequence>
+      <element name="getInvestment" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            Use this operation to get investment details.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getCIORating" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getContracts" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get Contracts.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getAcquisitions" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get Contracts.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getSystemsInventory" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get Systems Inventory.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getSecurityCostsAndCapabilities" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get Security Costs and Capabilities.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getPerformanceMetrics" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to get Performance Metrics.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getInvestmentRisks" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to get Operation Risks.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getProjects" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to get Projects information.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="getProjectsInProgress" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to get In-Progress Projects information.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="annualSubmissionType">
+    <sequence>
+      <element name="updateInvestment" type="tns:updateInvestmentType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to update an investment.
+            Should be used for annual updates only.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addInvestment" type="tns:addInvestmentType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used add a new investment.
+            Should be used for annual updates only.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="monthlySubmissionType">
+    <sequence>
+      <element name="updateContract" type="tns:updateContractType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update Contracts.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addContract" type="tns:addContractType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add Contracts.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateAcquisition" type="tns:updateAcquisitionType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update Acquisitions.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addAcquisition" type="tns:addAcquisitionType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add Acquisitions.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateSystem" type="tns:updateSystemType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update Systems Inventory.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addSystem" type="tns:addSystemType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add Systems Inventory.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateCapability" type="tns:updateCapabilityType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update Security Costs and Capabilities.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addCapability" type="tns:addCapabilityType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add Security Costs and Capabilities.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addPerformanceMetric" type="tns:addPerformanceMetricType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used add Performance Metrics.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updatePerformanceMetric" type="tns:updatePerformanceMetricType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update Performance Metrics.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateCIORating" type="tns:updateCIORatingType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used update CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateOperationalAnalysis" type="tns:updateOperationalAnalysisType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to update Operational Analysis.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateInvestmentRisk" type="tns:updateInvestmentRiskType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to update Investment Risk.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addInvestmentRisk" type="tns:addInvestmentRiskType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add Investment Risk.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="addProject" type="tns:addProjectType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to add project information.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateProject" type="tns:updateProjectType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to update project information.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="reviseInvestment" type="tns:reviseInvestmentType" maxOccurs="unbounded" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used to revise an investment.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="updateInvestmentDetails" type="tns:updateInvestmentDetailsType" minOccurs="0">
+        <!-- Doesn't have an addInvestmentDetails operation because it is handled in the annualSubmissionType, under capitalAssetPlan > capitalAssetSummary > InvestmentDetails. -->
+        <annotation>
+          <documentation>
+            Use this operation to update a subset of investment data.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="operationsOut">
+    <choice>
+      <element name="getInvestment" type="tns:getInformationType"/>
+      <element name="getCIORating" type="tns:getInformationType"/>
+      <element name="getContracts" type="tns:getInformationType"/>
+      <element name="getAcquisitions" type="tns:getInformationType"/>
+      <element name="getSystemsInventory" type="tns:getInformationType"/>
+      <element name="getSecurityCostsAndCapabilities" type="tns:getInformationType"/>
+      <element name="getInvestmentRisks" type="tns:getInformationType"/>
+      <element name="getProjects" type="tns:getInformationType"/>
+      <element name="getProjectsInProgress" type="tns:getInformationType"/>
+      <element name="updateContract" type="tns:updateContractType"/>
+      <element name="addContract" type="tns:addContractType"/>
+      <element name="updateAcquisition" type="tns:updateAcquisitionType"/>
+      <element name="addAcquisition" type="tns:addAcquisitionType"/>
+      <element name="updateSystem" type="tns:updateSystemType"/>
+      <element name="addSystem" type="tns:addSystemType"/>
+      <element name="updateCapability" type="tns:updateCapabilityType"/>
+      <element name="addCapability" type="tns:addCapabilityType"/>
+      <element name="updateReplacedContract" type="tns:updateReplacedContractType"/>
+      <element name="addReplacedContract" type="tns:addReplacedContractType"/>
+      <element name="addPerformanceMetric" type="tns:addPerformanceMetricType"/>
+      <element name="updatePerformanceMetric" type="tns:updatePerformanceMetricType"/>
+      <element name="updateCIORating" type="tns:updateCIORatingType"/>
+      <element name="updateOperationalAnalysis" type="tns:updateOperationalAnalysisType"/>
+      <element name="updateInvestmentRisk" type="tns:updateInvestmentRiskType"/>
+      <element name="addInvestmentRisk" type="tns:addInvestmentRiskType"/>
+      <element name="addProject" type="tns:addProjectType"/>
+      <element name="updateProject" type="tns:updateProjectType"/>
+      <element name="reviseInvestment" type="tns:reviseInvestmentType"/>
+      <element name="updateInvestment" type="tns:updateInvestmentType"/>
+      <element name="addInvestment" type="tns:addInvestmentType"/>
+      <element name="updateInvestmentDetails" type="tns:updateInvestmentDetailsType"/>
+    </choice>
+  </complexType>
+
+  <complexType name="addPerformanceMetricType">
+    <sequence>
+      <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricDescription" type="businessCase-type:mediumTextString"/>
+      <element name="performanceMetricUOM" type="businessCase-type:string50"/>
+      <element name="performanceMetricCategory" type="businessCase-facet:metricCategoryTypes"/>
+      <element name="performanceMetricBaselineCapability" type="businessCase-type:metricUnitType" minOccurs="0" nillable="true"/>
+      <element name="performanceMetricPYTarget" type="businessCase-type:metricUnitType" minOccurs='0'/>
+      <element name="performanceMetricCYTarget" type="businessCase-type:metricUnitType"/>
+      <element name="performanceMetricCondition" type="businessCase-facet:prmConditionTypes"/>
+      <element name="performancePeriodicity" type="businessCase-facet:measureReportingFrequencyType"/>
+      <element name="addPerformanceMetricActual" type="tns:addPerformanceMetricActualType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
+      <element name="isClosed" type="businessCase-facet:yesNoString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string"/>
+  </complexType>
+
+  <complexType name="addProjectType">
+    <sequence>
+      <element name="agencyProjectId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="addProjectDetail" type="tns:addProjectDetailType"/>
+      <element name="addProjectActivities" type="tns:addProjectActivitiesType"/>
+    </sequence>
+    <attribute name="id" type="string"/>
+  </complexType>
+
+  <complexType name="addProjectDetailType">
+    <sequence>
+      <element name="uniqueProjectId" type="businessCase-type:string10"/>
+      <element name="projectName" type="businessCase-type:shortTextString"/>
+      <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString"/>
+      <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
+      <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
+      <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
+      <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
+      <element name="otherSDLC" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
+      <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addProjectActivitiesType">
+    <sequence>
+      <element name="addProjectActivity" type="tns:addProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="addAgileProjectActivity" type="tns:addAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addProjectActivityType">
+    <sequence>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="activityName" type="businessCase-type:shortTextString"/>
+      <element name="activityDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="structureId" type="string"/>
+      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
+      <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addAgileProjectActivitiesType">
+    <sequence>
+      <element name="addAgileProjectActivity" type="tns:addAgileProjectActivityType" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addAgileProjectActivityType">
+    <sequence>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseName" type="businessCase-type:shortTextString"/>
+      <element name="releaseNumber" type="businessCase-type:string50"/>
+      <element name="releaseDescription" type="businessCase-type:longTextString"/>
+      <element name="NPI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="NPE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updatePerformanceMetricType">
+    <sequence>
+      <element name="performanceMetricId" type="integer" minOccurs="0"/>
+      <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricBaselineCapability" type="businessCase-type:metricUnitType" minOccurs="0" nillable="true"/>
+      <element name="performanceMetricCYTarget" type="businessCase-type:metricUnitType" minOccurs="0"/>
+      <element name="addPerformanceMetricActual" type="tns:addPerformanceMetricActualType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0" nillable="true"/>
+      <element name="isClosed" type="businessCase-facet:yesNoString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="addInvestmentRiskType">
+    <sequence>
+      <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="investmentRiskName" type="businessCase-type:mediumTextString"/>
+      <element name="investmentRiskCategory" type="businessCase-facet:riskType"/>
+      <element name="investmentRiskProbability" type="businessCase-facet:impactType"/>
+      <element name="investmentRiskImpact" type="businessCase-facet:impactType"/>
+      <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="updateInvestmentRiskType">
+    <sequence>
+      <element name="investmentRiskId" type="integer" minOccurs="0"/>
+      <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="investmentRiskName" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="investmentRiskCategory" type="businessCase-facet:riskType" minOccurs="0"/>
+      <element name="investmentRiskProbability" type="businessCase-facet:impactType" minOccurs="0"/>
+      <element name="investmentRiskImpact" type="businessCase-facet:impactType" minOccurs="0"/>
+      <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="updateCIORatingType">
+    <sequence>
+      <element name="cioRatingEval" type="businessCase-type:cioRatingType"/>
+      <element name="cioComment" type="businessCase-type:longTextString"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="updateContractType">
+    <sequence>
+      <element name="contractId" type="integer" minOccurs="0"/>
+      <element name="agencyContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="contractNumber" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
+      <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="EVMRequired" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="contractPurpose" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="ITLeaseCategory" type="businessCase-facet:ITLeaseCategoryType" minOccurs="0" nillable="true"/>
+      <element name="informationSecurityClause" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="reviseInvestmentType">
+    <sequence>
+      <element name="baselineApprovalDate" type="businessCase-type:investmentDateType"/>
+      <element name="reviseOption" type="businessCase-facet:reviseOptionType"/>
+      <element name="reviseComments" type="string"/>
+      <element name="reviseAddProject" type="tns:reviseAddProjectType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseUpdateProject" type="tns:reviseUpdateProjectType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseAddPerformanceMetric" type="tns:reviseAddPerformanceMetricType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseUpdatePerformanceMetric" type="tns:reviseUpdatePerformanceMetricType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseUpdateFundingDetails" type="tns:reviseUpdateFundingDetailsType" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="reviseUpdateFundingDetailsType">
+    <sequence>
+      <element name="lifeCycleCosts" type="tns:lifeCycleCostsType" minOccurs="0"/>
+      <element name="investmentStartEndDates" type="tns:investmentStartEndDatesType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateFundingDetailsType">
+    <sequence>
+      <element name="lifeCycleCosts" type="tns:lifeCycleCostsType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddPerformanceMetricType">
+    <sequence>
+      <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricDescription" type="businessCase-type:mediumTextString"/>
+      <element name="performanceMetricUOM" type="businessCase-type:string50"/>
+      <element name="performanceMetricCategory" type="businessCase-facet:metricCategoryTypes"/>
+      <element name="performanceMetricBaselineCapability" type="businessCase-type:metricUnitType" minOccurs="0" nillable="true"/>
+      <element name="performanceMetricPYTarget" type="businessCase-type:metricUnitType" minOccurs="0"/>
+      <element name="performanceMetricCYTarget" type="businessCase-type:metricUnitType"/>
+      <element name="performanceMetricCondition" type="businessCase-facet:prmConditionTypes"/>
+      <element name="performancePeriodicity" type="businessCase-facet:measureReportingFrequencyType"/>
+      <element name="addPerformanceMetricActual" type="tns:addPerformanceMetricActualType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
+      <element name="isClosed" type="businessCase-facet:yesNoString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdatePerformanceMetricType">
+    <sequence>
+      <element name="performanceMetricId" type="integer" minOccurs="0"/>
+      <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricDescription" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="performanceMetricUOM" type="businessCase-type:string50" minOccurs="0"/>
+      <element name="performanceMetricCategory" type="businessCase-facet:metricCategoryTypes" minOccurs="0"/>
+      <element name="performanceMetricBaselineCapability" type="businessCase-type:metricUnitType" minOccurs="0" nillable="true"/>
+      <element name="performanceMetricPYTarget" type="businessCase-type:metricUnitType" minOccurs="0" nillable="true"/>
+      <element name="performanceMetricCYTarget" type="businessCase-type:metricUnitType" minOccurs="0"/>
+      <element name="performanceMetricCondition" type="businessCase-facet:prmConditionTypes" minOccurs="0"/>
+      <element name="performancePeriodicity" type="businessCase-facet:measureReportingFrequencyType" minOccurs="0"/>
+      <element name="addPerformanceMetricActual" type="tns:addPerformanceMetricActualType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseUpdatePerformanceMetricActual" type="tns:reviseUpdatePerformanceMetricActualType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0" nillable="true"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+      <element name="isClosed" type="businessCase-facet:yesNoString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addPerformanceMetricActualType">
+    <sequence>
+      <element name="agencyPerformanceMetricActualID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricActualResult" type="businessCase-type:metricUnitType"/>
+      <element name="performanceMetricDateofActual" type="businessCase-type:investmentDateType"/>
+      <element name="performanceMetricComment" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdatePerformanceMetricActualType">
+    <sequence>
+      <element name="performanceMetricActualID" type="integer" minOccurs="0"/>
+      <element name="agencyPerformanceMetricActualID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="performanceMetricActualResult" type="businessCase-type:metricUnitType" minOccurs="0"/>
+      <element name="performanceMetricDateofActual" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="performanceMetricComment" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectType">
+    <sequence>
+      <element name="agencyProjectId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="reviseAddProjectDetail" type="tns:reviseAddProjectDetailType"/>
+      <element name="reviseAddProjectActivities" type="tns:reviseAddProjectActivitiesType"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectDetailType">
+    <sequence>
+      <element name="uniqueProjectId" type="businessCase-type:string10"/>
+      <element name="projectName" type="businessCase-type:shortTextString"/>
+      <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString"/>
+      <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
+      <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
+      <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
+      <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
+      <element name="otherSDLC" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
+      <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectActivitiesType">
+    <sequence>
+      <element name="reviseAddProjectActivity" type="tns:reviseAddProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseAddAgileProjectActivity" type="tns:reviseAddAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectActivityType">
+    <sequence>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="activityName" type="businessCase-type:shortTextString"/>
+      <element name="activityDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="structureId" type="string"/>
+      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
+      <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddAgileProjectActivityType">
+    <sequence>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseName" type="businessCase-type:shortTextString"/>
+      <element name="releaseNumber" type="businessCase-type:string50"/>
+      <element name="releaseDescription" type="businessCase-type:longTextString"/>
+      <element name="NPI" type="businessCase-type:agileSprints" />
+      <element name="NPE" type="businessCase-type:agileEpics" />
+      <element name="NCE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" />
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" />
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" />
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" />
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" />
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" />
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+     </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectType">
+    <sequence>
+      <element name="projectId" type="integer" minOccurs="0"/>
+      <element name="agencyProjectId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="reviseUpdateProjectDetail" type="tns:reviseUpdateProjectDetailType" minOccurs="0"/>
+      <element name="reviseUpdateProjectActivities" type="tns:reviseUpdateProjectActivitiesType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectDetailType">
+    <sequence>
+      <element name="uniqueProjectId" type="businessCase-type:string10" minOccurs="0"/>
+      <element name="projectName" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="projectStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
+      <element name="otherSDLC" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
+      <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectActivitiesType">
+    <sequence>
+      <element name="reviseUpdateProjectActivity" type="tns:reviseUpdateProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseAddProjectActivity" type="tns:reviseAddProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseUpdateAgileProjectActivity" type="tns:reviseUpdateAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="reviseAddAgileProjectActivity" type="tns:reviseAddAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectActivityType">
+    <sequence>
+      <element name="activityId" type="integer" minOccurs="0"/>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="activityName" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="activityDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="structureId" type="string" minOccurs="0"/>
+      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
+      <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateAgileProjectActivityType">
+    <sequence>
+      <element name="activityId" type="integer" minOccurs="0"/>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseName" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseNumber" type="businessCase-type:string50" minOccurs="0"/>
+      <element name="releaseDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="NPI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="NPE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateProjectType">
+    <sequence>
+      <element name="projectId" type="integer" minOccurs="0"/>
+      <element name="agencyProjectId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="updateProjectDetail" type="tns:updateProjectDetailType" minOccurs="0"/>
+      <element name="updateProjectActivities" type="tns:updateProjectActivitiesType" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="updateProjectDetailType">
+    <sequence>
+      <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
+      <element name="otherSDLC" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
+      <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateProjectActivitiesType">
+    <sequence>
+      <element name="updateProjectActivity" type="tns:updateProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="addProjectActivity" type="tns:addProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="updateAgileProjectActivity" type="tns:updateAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="addAgileProjectActivity" type="tns:addAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateProjectActivityType">
+    <sequence>
+      <element name="activityId" type="integer" minOccurs="0"/>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
+      <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateAgileProjectActivitiesType">
+    <sequence>
+      <element name="updateAgileProjectActivity" type="tns:updateAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="addAgileProjectActivity" type="tns:addAgileProjectActivityType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateAgileProjectActivityType">
+    <sequence>
+      <element name="activityId" type="integer" minOccurs="0"/>
+      <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseName" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="releaseNumber" type="businessCase-type:string50" minOccurs="0"/>
+      <element name="releaseDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="NPI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="NPE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCE" type="businessCase-type:agileEpics" minOccurs="0"/>
+      <element name="NCI" type="businessCase-type:agileSprints" minOccurs="0"/>
+      <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
+      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateInvestmentDetailsType">
+    <sequence>
+      <element name="investmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="objectivesOrGoals" type="tns:objectivesOrGoalsType" minOccurs="0"/>
+      <element name="returnOnInvestmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="investmentRequirements" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="programCodeFPI" type="businessCase-type:programCodeFPIType" minOccurs="0"/>
+      <element name="investmentsEliminatedorReduced" type="tns:investmentsEliminatedorReducedType" minOccurs="0"/>
+      <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>
+      <element name="pmDetails" type="tns:pmDetailsType" minOccurs="0"/>
+      <element name="updateFundingDetails" type="tns:updateFundingDetailsType" minOccurs="0"/>
+      <element name="changesFromPreviousBudget" type="businessCase-type:mediumTextString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="objectivesOrGoalsType">
+    <sequence>
+      <element name="addObjectiveOrGoal" type="tns:addObjectiveOrGoalType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="updateObjectiveOrGoal" type="tns:updateObjectiveOrGoalType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addObjectiveOrGoalType">
+    <sequence>
+      <element name="agencyObjectiveOrGoalID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="objectiveOrGoal" type="businessCase-type:objectiveOrGoalType"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateObjectiveOrGoalType">
+    <sequence>
+      <element name="objectiveOrGoalID" type="integer" minOccurs="0"/>
+      <element name="agencyObjectiveOrGoalID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="objectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="investmentStartEndDatesType">
+    <sequence>
+      <element name="investmentStartYear" type="businessCase-type:investmentYear" nillable="true"/>
+      <element name="investmentEndYear" type="businessCase-type:investmentYear" nillable="true"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="lifeCycleCostsType">
+    <sequence>
+      <element name="planningBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="planningBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="omdGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="omdGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="governmentFTENumberPY-1" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberPY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberCY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberBY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberBY_1" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberBY_2" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberBY_3" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberBY_4_Beyond" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="priorYearCostChangePY" minOccurs="0" type="businessCase-type:negativeDollarAmount" nillable="true"/>
+      <element name="priorYearCostChangeCY" minOccurs="0" type="businessCase-type:negativeDollarAmount" nillable="true"/>
+      <element name="priorYearCostPercentageChangePY" minOccurs="0" type="businessCase-type:ITPercentage" nillable="true"/>
+      <element name="priorYearCostPercentageChangeCY" minOccurs="0" type="businessCase-type:ITPercentage" nillable="true"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="investmentsEliminatedorReducedType">
+    <sequence>
+      <element name="addInvestmentEliminatedorReduced" type="tns:addInvestmentEliminatedorReducedType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="updateInvestmentEliminatedorReduced" type="tns:updateInvestmentEliminatedorReducedType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addInvestmentEliminatedorReducedType">
+    <sequence>
+      <element name="agencyInvestmentEliminatedorReducedID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="UII" type="businessCase-type:investmentIdentifierType"/>
+      <element name="eliminationReduction" type="businessCase-facet:eliminationReductionType"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateInvestmentEliminatedorReducedType">
+    <sequence>
+      <element name="investmentEliminatedorReducedID" type="integer" minOccurs="0"/>
+      <element name="agencyInvestmentEliminatedorReducedID" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="UII" type="businessCase-type:investmentIdentifierType" minOccurs="0"/>
+      <element name="eliminationReduction" type="businessCase-facet:eliminationReductionType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="publicURLsType">
+    <sequence>
+      <element name="publicURL" type="businessCase-type:URLString" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="pmDetailsType">
+    <sequence>
+      <element name="pmName" type="businessCase-type:shortTextString"/>
+      <element name="pmEmail" type="businessCase-type:shortTextString"/>
+      <element name="pmQualifications" type="businessCase-facet:projectManagerQualification"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="contactDetailType">
+    <sequence>
+      <element name="contactName" type="businessCase-type:shortTextString"/>
+      <element name="contactNumber" type="businessCase-type:phoneNumber" nillable="true" minOccurs="0"/>
+      <element name="contactNumberExt" type="businessCase-type:phoneExtension" nillable="true" minOccurs="0"/>
+      <element name="contactEmail" type="businessCase-type:shortTextString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <element name="binaryObject" abstract="true"/>
+  <element substitutionGroup="tns:binaryObject" name="binaryBase64Object" type="tns:base64Binary"/>
+
+  <complexType name="attachment">
+    <sequence>
+      <element name="title" type="businessCase-type:shortTextString"/>
+      <element ref="tns:binaryObject"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="binaryType">
+    <sequence>
+      <element ref="tns:binaryObject"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="base64Binary">
+    <simpleContent>
+      <extension base="base64Binary">
+        <attribute name="contentType" type="string" use="required"/>
+      </extension>
+    </simpleContent>
+  </complexType>
+
+  <complexType name="addContractType">
+    <sequence>
+      <element name="agencyContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="contractNumber" type="businessCase-type:shortTextString"/>
+      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
+      <element name="isModularApproach" type="businessCase-facet:yesNoString"/>
+      <element name="agileDevelopment" type="businessCase-facet:yesNoString"/>
+      <element name="EVMRequired" type="businessCase-facet:yesNoString"/>
+      <element name="contractPurpose" type="businessCase-type:mediumTextString"/>
+      <element name="ITLeaseCategory" type="businessCase-facet:ITLeaseCategoryType" minOccurs="0"/>
+      <element name="informationSecurityClause" type="businessCase-facet:yesNoString"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="addAcquisitionType">
+    <sequence>
+      <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" minOccurs="0" nillable="true"/>
+      <element name="plannedContractDescription" type="businessCase-type:string1000"/>
+      <element name="plannedAwardDate" type="businessCase-type:contractDateType"/>
+      <element name="lengthOfPlannedSupport" type="businessCase-type:string20"/>
+      <element name="anticipatedValue" type="businessCase-type:dollarAmount"/>
+      <element name="isModularApproach" type="businessCase-facet:yesNoString"/>
+      <element name="agileDevelopment" type="businessCase-facet:yesNoString"/>
+      <element name="EVMRequired" type="businessCase-facet:yesNoString"/>
+      <element name="potentialSources" type="businessCase-type:mediumTextString"/>
+      <element name="providerEngagement" type="businessCase-type:string1000"/>
+      <element name="containsITLease" type="businessCase-facet:yesNoString"/>
+      <element name="replacedContracts" type="tns:replacedContractsType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateAcquisitionType">
+    <sequence>
+      <element name="acquisitionId" type="integer" minOccurs="0"/>
+      <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" minOccurs="0" nillable="true"/>
+      <element name="plannedContractDescription" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="plannedAwardDate" type="businessCase-type:contractDateType" minOccurs="0"/>
+      <element name="lengthOfPlannedSupport" type="businessCase-type:string20" minOccurs="0"/>
+      <element name="anticipatedValue" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="EVMRequired" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="potentialSources" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="providerEngagement" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="containsITLease" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="replacedContracts" type="tns:replacedContractsType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="replacedContractsType">                     
+    <sequence>
+      <element name="addReplacedContract" type="tns:addReplacedContractType" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="updateReplacedContract" type="tns:updateReplacedContractType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="addReplacedContractType">
+    <sequence>
+      <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" minOccurs="0" nillable="true"/>
+      <element name="contractNumber" type="businessCase-type:shortTextString"/>
+      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateReplacedContractType">
+    <sequence>
+      <element name="replacedContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" nillable="true" minOccurs="0"/>
+      <element name="contractNumber" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="addSystemType">
+    <sequence>
+      <element name="agencySystemId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="systemName" type="businessCase-type:shortTextString"/>
+      <element name="initialOperatingYear" type="businessCase-type:investmentYear" minOccurs="0"/>
+      <element name="techRefreshDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="averageUsersPerMonth" type="integer" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateSystemType">
+    <sequence>
+      <element name="systemId" type="integer" minOccurs="0"/>
+      <element name="agencySystemId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="systemName" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="initialOperatingYear" type="businessCase-type:investmentYear" minOccurs="0"/>
+      <element name="techRefreshDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="averageUsersPerMonth" type="integer" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="addCapabilityType">
+    <sequence>
+      <element name="agencyCapabilityId" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="capabilityCode" type="integer"/>
+      <element name="purposeOutcome" type="businessCase-type:string1000"/>
+      <element name="totalSpendingPY" type="businessCase-type:dollarAmount"/>
+      <element name="totalSpendingCY" type="businessCase-type:dollarAmount"/>
+      <element name="totalSpendingBY" type="businessCase-type:dollarAmount"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateCapabilityType">
+    <sequence>
+      <element name="capabilityId" type="integer" minOccurs="0"/>
+      <element name="agencyCapabilityId" type="businessCase-type:shortTextString" minOccurs="0" nillable="true"/>
+      <element name="capabilityCode" type="integer" minOccurs="0"/>
+      <element name="purposeOutcome" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="totalSpendingPY" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="totalSpendingCY" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="totalSpendingBY" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="operationalAnalysis">
+    <sequence>
+      <element name="dateOfAnalysis" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="analysisResults" type="businessCase-type:longTextString" minOccurs="0" nillable="true"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="updateOperationalAnalysisType">
+    <sequence>
+      <element name="dateOfAnalysis" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
+      <element name="analysisResults" type="businessCase-type:longTextString" minOccurs="0" nillable="true"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="addInvestmentType">
+    <sequence>
+      <element ref="businessCase-add:capitalAssetPlan"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="updateInvestmentType">
+    <sequence>
+      <element ref="businessCase-update:capitalAssetPlan"/>
+    </sequence>
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <complexType name="getInformationType">
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+</schema>

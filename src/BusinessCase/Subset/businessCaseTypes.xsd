@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:businessCase-type="urn:us:gov:businessCase-type" targetNamespace="urn:us:gov:businessCase-type"
+        version="FY_2016" xmlns="http://www.w3.org/2001/XMLSchema">
+  <simpleType name="longTextString">
+    <restriction base="string">
+      <maxLength value="2500"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="string1000">
+    <restriction base="string">
+      <maxLength value="1000"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="string10">
+    <restriction base="string">
+      <maxLength value="10"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="string20">
+    <restriction base="string">
+      <maxLength value="20"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="string50">
+    <restriction base="string">
+      <maxLength value="50"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="mediumTextString">
+    <restriction base="string">
+      <maxLength value="500"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="URLString">
+    <restriction base="string">
+      <maxLength value="2083"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="ITPercentage">
+    <restriction base="decimal">
+      <pattern value="-{0,1}[0-9]{0,15}(\.[0-9]{1,6})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="investmentYear">
+    <restriction base="integer">
+      <minInclusive value="1970"/>
+      <maxInclusive value="2099"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="dollarAmount">
+    <restriction base="decimal">
+      <pattern value="[0-9]{0,15}(\.[0-9]{1,6})?"/>
+      <maxInclusive value="10000"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="multiYearDollarType">
+    <restriction base="decimal">
+      <pattern value="[0-9]{0,15}(\.[0-9]{1,6})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="negativeDollarAmount">
+    <restriction base="decimal">
+      <pattern value="-{0,1}[0-9]{0,15}(\.[0-9]{1,6})?"/>
+      <maxInclusive value="10000"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="percentage">
+    <restriction base="decimal">
+      <minInclusive value="0"/>
+      <maxInclusive value="100"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="agileEpics">
+    <restriction base="decimal">
+      <pattern value="[0-9]{0,2}(\.[0-9]{0,1})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="agileContributors">
+    <restriction base="decimal">
+      <pattern value="[0-9]{0,2}(\.[0-9]{0,1})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="agileSprints">
+    <restriction base="integer">
+      <pattern value="[0-9]{1,2}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="investmentIdentifierType">
+    <restriction base="string">
+      <pattern value="[0-9]{3}\-[0-9]{9}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="objectiveOrGoalType">
+    <restriction base="integer">
+      <pattern value="[0-9]{1,6}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="phoneNumber">
+    <restriction base="integer">
+      <pattern value="[0-9]{10}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="phoneExtension">
+    <restriction base="integer">
+      <pattern value="[0-9]{1,6}"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="shortTextString">
+    <restriction base="string">
+      <maxLength value="250"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="investmentDateType">
+    <restriction base="date">
+      <minInclusive value="1970-01-01"/>
+      <maxInclusive value="2099-12-31"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="contractDateType">
+    <restriction base="date">
+      <minInclusive value="1970-01-01"/>
+      <maxInclusive value="2099-12-31"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="cioRatingType">
+    <restriction base="integer">
+      <minInclusive value="1"/>
+      <maxInclusive value="5"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="FPDSAgencyType">
+    <restriction base="string">
+      <minLength value="4"/>
+      <maxLength value="4"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="referencedPIIDType">
+    <restriction base="string">
+      <maxLength value="50"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="metricUnitType">
+    <restriction base="decimal">
+      <pattern value="-{0,1}[0-9]{0,15}(\.[0-9]{1,6})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="governmentFTENumberType">
+    <restriction base="decimal">
+      <pattern value="([0-9]{1,10})?(\.[0-9]{0,1})?"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="programCodeFPIType">
+    <restriction base="string">
+      <pattern value="[0-9]{3}\-[0-9]{3}"/>
+    </restriction>
+  </simpleType>
+</schema>
