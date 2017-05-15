@@ -50,7 +50,7 @@ Go to the Issues  and add comments and questions. If you wish to contribute to t
 
 ## Contributing to the Repo
 
-If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive your pull request is sent we will review your suggested list of changes. Track the status of your pull request here [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls)
+If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive the pull request, we will review the suggested list of changes and update the status. Track the status of your pull request here [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls)
 
 
 
