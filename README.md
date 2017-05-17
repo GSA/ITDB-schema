@@ -31,7 +31,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Publish Baseline XSD Plus (v1.8.x)|  May 26, 2017 |
 |  Target Date for XSD Candidate (v1.9.0) shared to vendors    |  June 1, 2017  |
 |  Validation logic development | June , 2017  |
-|  Target Date for XSD **Plus** Candidate   |  June 31, 2017 |
+|  Target Date for XSD **Plus** Candidate (v1.9.0)  |  June 31, 2017 |
 
 
 
