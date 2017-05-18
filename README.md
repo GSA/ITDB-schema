@@ -55,11 +55,11 @@ Go to the Issues  and add comments and questions. If you wish to contribute to t
 
 We recommend the following format for submitting issues:
 
-**Name:** Your name here
-**Organization:** Your organization here
-**Urgency:** Critical/High/Medium/Low
-**Description of Issue:** Describe your issue here
-**Associated Links:** Put internal and external links to resources or data related to this issue here
+  * **Name:** Your name here
+  * **Organization:** Your organization here
+  * **Urgency:** Critical/High/Medium/Low
+  * **Description of Issue:** Describe your issue here
+  * **Associated Links:** Put internal and external links to resources or data related to this issue here
 
 
 ## Contributing to the Repo
