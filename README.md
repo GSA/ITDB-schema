@@ -53,6 +53,14 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 We encourage the CPIC community to comment and ask questions here on GitHub. 
 Go to the Issues  and add comments and questions. If you wish to contribute to the code base please fork this repository and, after committing your changes to the schema files, create a pull request. As issues are updated, community subscribers will receive automated updates from Github. You can check the status of your issue by visiting the issue page.
 
+We recommend the following format for submitting issues:
+
+**Name:** Your name here
+**Organization:** Your organization here
+**Urgency:** Critical/High/Medium/Low
+**Description of Issue:** Describe your issue here
+**Associated Links:** Put internal and external links to resources or data related to this issue here
+
 
 ## Contributing to the Repo
 
