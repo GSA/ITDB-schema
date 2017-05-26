@@ -1,0 +1,17 @@
+<tower>	
+    <category>Security And Compliance</category>
+    <towerDetails>
+        <investmentName></investmentName>
+        <UII></UII>
+    </towerDetails>
+    <costsAndCapabilities>
+        <costAndCapability>
+            <NISTFrameworkCategory></NISTFrameworkCategory>
+            <capability></capability>
+            <purposeOrOutcome></purposeOrOutcome>
+            <pyFunding></pyFunding>
+            <cyFunding></cyFunding>
+            <byFunding></byFunding>
+        </costAndCapability>			
+    </costsAndCapabilities>
+</tower>
