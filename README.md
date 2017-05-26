@@ -42,6 +42,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
   * **XSD**
     * [BusinessCase](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Exchange)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Exchange)
+    * [BY19 Draft](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19)
   * **SAMPLE XML**
     * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
@@ -70,3 +71,7 @@ If you are interested in making modifications to the code in our repo please for
 GitHubFlowChart2.jpg
 
 GitHub_Flow-v2.jpg
+
+
+
+
