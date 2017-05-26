@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
+<xsd:schema xmlns:get-ITBudget-ext="urn:us:gov:get-ITBudget-ext" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ITBudgetFacet="urn:us:gov:ITBudget-facets" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" targetNamespace="urn:us:gov:get-ITBudget-ext" elementFormDefault="qualified" version="4.0.0">
+	<xsd:annotation>
+		<xsd:documentation>e</xsd:documentation>
+		<xsd:appinfo>
+			<i:ConformantIndicator>true</i:ConformantIndicator>
+		</xsd:appinfo>
+	</xsd:annotation>
+	<xsd:import namespace="http://niem.gov/niem/appinfo/2.0" schemaLocation="../Subset/niem/appinfo/2.0/appinfo.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/structures/2.0" schemaLocation="../Subset/niem/structures/2.0/structures.xsd"/>
+	<xsd:import namespace="urn:us:gov:ITBudget-facets" schemaLocation="../Subset/ITBudget-facet.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/proxy/xsd/2.0" schemaLocation="../Subset/niem/proxy/xsd/2.0/xsd.xsd"/>
+	<xsd:import namespace="http://niem.gov/niem/niem-core/2.0" schemaLocation="../Subset/niem/niem-core/2.0/niem-core.xsd"/>
+	<xsd:complexType name="ITBudgetReportType">
+		<xsd:annotation>
+			<xsd:appinfo>
+				<i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="get-ITBudget-ext:MessageInformation" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="MessageInformationType">
+		<xsd:annotation>
+			<xsd:appinfo>
+				<i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="s:ComplexObjectType">
+				<xsd:sequence>
+					<xsd:element ref="get-ITBudget-ext:AgencyCode"/>
+                    <xsd:element ref="get-ITBudget-ext:PBGCflag" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="AgencyCode" type="ITBudgetFacet:AgencyCodeType">
+		<xsd:annotation>
+			<xsd:documentation>The assigned code of a particular agency</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+    <xsd:element name="PBGCflag" type="ITBudgetFacet:YesNoCodeType" nillable="true">
+        <xsd:annotation>
+            <xsd:documentation>Indicates whether the submission is from PBGC or not. Will be allowed only for agency 012.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+	<xsd:element name="MessageInformation" type="get-ITBudget-ext:MessageInformationType">
+		<xsd:annotation>
+			<xsd:documentation>Information related not to a particuliar investment but to the message itself is contained here.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+</xsd:schema>
