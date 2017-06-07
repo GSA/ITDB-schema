@@ -1,0 +1,622 @@
+Field,Data Type,Example,Description,XML Elements,Guidance Section,Delta,Comment,Tab Name
+PreviousUII,text,,"
+This is the identifier depicting agency code and unique Investment number used to report the Investment in the previous FY 2018 Agency IT Portfolio Summary submission to OMB. Indicating the UII used for a previous submission allows cross-walk and historical analysis spanning FYs. Previous UII is mandatory, with the exception of new Investments. To indicate consolidations/splits/reorganizations, Agencies should provide more than one entry and separate UIIs with commas.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+CurrentUII,char(31),,"
+The Current UII includes an agency code and a nine-digit unique identifier. Variable information formerly included in the UII of previous years is not part of the UII primary key.
+XXX- xxxxxxxxx: The first three digits represent your agency code (see  Appendix C of OMB Circular No. A-11).
+xxx- XXXXXXXXX: The last nine digits serve as the Investment’s unique identifier. This identifier should be system-generated and applied at the agency level. It will allow Agencies up to one billion unique identifiers to associate with IT Investments. Once used, the unique identifier must be retired from use for any future new Investment and should remain unchanged for any continuing Investment that is not split, consolidated, reorganized. If an IT Investment is retired, discontinued, or merged with another IT Investment, the UII persists with that IT Investment.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+SharedServicesCategory,char(2),,"
+00:  Code for all Investments other than those coded “24”, “36”or “48”.
+24:  E-Gov initiatives or an individual agency's participation in one of the E- Gov/LoB initiatives listed in Appendix B.
+36:  Shared Service Providers (SSP) s (and their customers) previously designated by Treasury’s FIT and OPM’s HRLoB as well as any providers designated by the USSM. Agency contributions to a shared service provider or a Multi-agency (Inter- or Intra-agency) collaboration should use code 24, not code 36. 48:  Any Multi-agency (Inter- or Intra-agency) collaboration or an individual agency’s participation in one of these initiatives. This includes shared services not officially designated by USSM and excludes E-Gov/LoB initiatives and USSM designated shared services.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+SharedServicesIdentifier,char(4),,"These four digits are applicable for all Investments with a Shared Services Category of 24, 36 or 48. A code will be specifically assigned for all E-Gov/LoB and USSM designated shared services in Appendix B, while Agencies should assign their own four-digit unique codes for Multi-agency initiatives using the “48” shared services category. This code represents the same 4-digit identifier previously provided in the last nine digits of the UII for Investments starting with xxx-99999XXXX.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+BureauCode,char(2),,"The two digits indicate the bureau code of the Investment (see Appendix C of OMB Circular No. A-11). If this is a department-level or an agency-wide activity, use “00” as your bureau code.Note: This field refers to the bureau with management responsibility for the IT Investment, which may differ from the “bureau” code embedded in OMB budget accounts used when providing funding sources.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+PartofExhibit,char(2),,"These two digits indicate one of the three parts of the Agency IT Portfolio Summary, to which the Investment belongs:
+01:  Part 1. IT Investments for Mission Delivery
+02:  Part 2. IT Investments for Administrative Services and Support Systems 03:  Part 3. IT Investments for IT Infrastructure, IT Security, and IT Management",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+InfrastructureManagementCategory,char(2),,"These two digits indicate the sub-category of Investments identified as Part 3: IT Investments for IT Infrastructure, IT Security, and IT Management.
+Agencies must continue to report the two standard Investments introduced last year; IT Security programs should be reflected within an Investment called IT Security and Compliance and use Category 02, and all CIO Function Investments should be reflected within an Investment called IT Management and use Category 03. Three additional standard Investments are being introduced: Network, Data Center and Cloud, and End User. Reporting these three new standard Investments is optional in FY 2019 and will be required in FY 2020. Agencies are encouraged to begin re-aligning Part 3 costs based upon these standard Investments. All other Investments should use Category 01, which will represent Non-Standard Infrastructure Investments.
+01: Not Applicable
+02: IT Security and Compliance 03: IT Management
+04: Network
+05: Data Center and Cloud 06: End User",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+MissionArea,char(2),,"
+These two digits indicate the mission delivery and management support areas. Agencies should assign a unique code for each mission delivery and management support area reported. Agencies shall provide a reference table for mission areas to the ITDB to include:
+o Agency Code [3-digits]
+o Mission Delivery and Management Support Area [2-digit code]
+o Description [500 characters]",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+type,char(2),,"
+These two digits indicate the type of Investment being reported as follows: 01: Major IT Investments
+02:  Non-major IT Investments
+03:  IT Migration Investment: The portion of a larger asset and for which there is an existing Business Case for the overall asset. The description of the IT Investment should indicate the UII of the major asset Investment of the managing partner.
+04:  Funding Transfer Investments: These are primarily used to indicate the partner contribution to an Investment in another Agency's IT Investment Portfolio Summary. The description of the IT Investment should indicate the UII of the managing partner Investment. Intra-agency collaboration should also use this Investment type.
+05: Standard IT Infrastructure Investments in Part 3: IT Infrastructure, IT Security, IT Management Investments (IT Security and Compliance, IT Management, Network,  End User, Data Center and Cloud)
+06: Non-Standard Infrastructure Investments in Part 3: IT Infrastructure, IT Security, IT Management Investments: These investments should report as 01: Not Applicable under the Standard IT Infrastructure and Management Category (Field 8). Because Agencies are transitioning to this TBM-based model, but the full model will not be available it is critical that Agencies leverage the structure for elements in infrastructure Investments that don’t fit into the previous sections. In all instances for these Investments Agencies may downgrade a “Major” Part 3 Investment to “06: Non-Standard Infrastructure Investment” provided that they have disaggregated to the greatest extent practical through the use of the other “Standard Investments”. Additionally, agencies may not have the capacity or the maturity to deliver all of the available Standard Investment reporting identified in the prior sections of this guidance. For those instances in which there is an organization that isn’t prepared to report the standard Investments, Agencies should consider leveraging the Non-Standard Infrastructure Investment to build up the competence and maturity.",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+NationalSecuritySystemsIdentifier,char(2),,"
+These two digits indicate whether the Investment is a National Security System per the Federal Information Security Management Act of 2002 (FISMA), 44
+U.S.C. 3542(b)(2) as follows:
+01:  Non-National Security System Investment
+02:  National Security System Investment (these investments will not be publically viewable on the IT Dashboard)",,6. How do I complete the Agency IT Investment Portfolio Summary? ,Existed,,IT Portfolio
+Line Item Descriptor, [2-digit code] (variable element),,"
+These two digits identify the nature of the “line item” in the Agency IT  Portfolio Summary structure. The digits represent the line number in both the XML format used for Agencies on the ITDB and the line number in an equivalent spreadsheet file (CSV or XLS file), for Agencies not on the ITDB, as follows:
+00: Total Investment title line, structurally the first line for reporting this particular Investment
+04:  Funding source or appropriation 09: Any subtotal",,,,,IT Portfolio
+Change in Investment Status Identifier ,[2-digit code],,"
+This is used when an Investment has a change in status (e.g., downgraded to non-major IT Investment, eliminated, retired, consolidated, split) for the current budget submission relative to the previous budget cycle. The change of status should be indicated with one of the following reasons:
+01:  Upgraded from non-major to major IT Investment 02:  Downgraded from major to non-major IT Investment 03:  Split into multiple Investments
+04:  Consolidation of Investments 05:  Reorganization
+06:  Eliminated by funding 07:  Eliminated by split
+08:  Eliminated by consolidation 09:  Eliminated by reorganization 10:  New
+11:  No Change in Status
+Note: For any new Standard IT Infrastructure, Security, and Management Investment, use Change in Investment Status Identifier 05 (Reorganization). Investments that have been split (Change in Investment Status Identifier 3) must be included in the Agency IT Portfolio Summary, with new UIIs in the Current UII field. Investments that have been consolidated (Change in Investment Status Identifier 4) must include their Previous UII in column 1.",,,,,IT Portfolio
+Agency Description of Change in Investment Status ,255 char max] ,,"This is used when an indicator has been chosen for “Change in Investment Status Identifier” in order to provide a description of the rationale for the change, which may include impacted UIIs, specific references to legislative requirements, or governance board decisions and effective dates.",,,,,IT Portfolio
+title,varchar(255),,"
+This is a text field to provide the Investment title. To the extent that they are not part of the name used by the agency, other identifiers such as bureaus or other numeric codes should not be included as part of an Investment title.",,,Existed,,IT Portfolio
+description,varchar(300),,"
+This is a short public-facing description for each Investment. This description should explain the purpose of the Investment and what program(s) it supports, including the value to the public. The description should be understandable to someone who is not an expert of the agency. If the Investment is part of a Multi-agency initiative or another Business Case, the agency should describe where that Business Case is located in the appropriate agency budget submission (e.g., managing partner UII). For example, if the Investment represents the agency's participation in an E-Gov or Shared Service initiative, the description should state this information and refer to the Current UII of the managing partner's Business Case.",,,Existed,,IT Portfolio
+legacy_FEAServiceComponent,char(3),,"
+This is the three (3) -digit code that indicates the predominant business function served by the Investment (not necessarily the agency’s mission/business). BRM  version 3.1 contains the current mapping codes. ",,,Existed,,IT Portfolio
+dmeAgencyFundingAmountPY,"decimal(18,6)",,"
+This should indicate FY 2017 amount. See definition of DME in Appendix C.",,,Existed,,IT Portfolio
+dmeAgencyContributionAmountPY,"decimal(18,6)",,"
+This should indicate the FY 2017 amount contributed from other Agencies. See definition of DME in Appendix C. For Funding Transfer Investments (Investment Type “04”), this field should be 0",,,Existed,,IT Portfolio
+dmeAgencyFundingAmountCY,"decimal(18,6)",,"
+This should indicate FY 2018 amount. See definition of DME in Appendix C.",,,Existed,,IT Portfolio
+dmeAgencyContributionAmountCY,"decimal(18,6)",,"
+This should indicate the FY 2018 amount contributed from other Agencies. See definition of DME in Appendix C. For Funding Transfer Investments (Investment Type “04”), this field should be 0",,,Existed,,IT Portfolio
+dmeAgencyFundingAmountBY,"decimal(18,6)",,"
+This should indicate FY 2019 amount. See definition of DME in Appendix C.",,,Existed,,IT Portfolio
+dmeAgencyContributionAmountBY,"decimal(18,6)",,"
+This should indicate the FY 2019 amount contributed from other Agencies. See definition of O&M in Appendix C. For Funding Transfer Investments (Investment Type “04”), this field should be 0.",,,Existed,,IT Portfolio
+omAgencyFundingAmountPY,"decimal(18,6)",,"
+This is the total PY cost represented by the number of government FTEs associated with the Investment. This includes employee wages, benefits, and occupancy expenses, This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.  If an FTE’s costs are included in the Investment costs for PY, the FTE or portion of the FTE should be reported, regardless of the FTE’s role in the Investment (e.g., technical, managerial, functional, or governance). FTE cost should reflect the fully-loaded cost of government FTEs (as defined by OMB Circular A-76).
+While the definition of Internal Labor includes more than just Government FTE costs, Agencies can simply include these Government FTE costs For major IT Investments, the total FTE costs reported in this field should match the total FTE costs listed on the life cycle cost table in the Major Business Case..",,,Existed,,IT Portfolio
+omAgencyContributionAmountPY,"decimal(18,6)",,"This is the total CY cost represented by the number of government FTEs associated with the Investment. This includes employee wages, benefits, and occupancy expenses, This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.  If an FTE’s costs are included in the Investment costs for PY, the FTE or portion of the FTE should be reported, regardless of the FTE’s role in the Investment (e.g., technical, managerial, functional, or governance). FTE cost should reflect the fully-loaded cost of government FTEs (as defined by OMB Circular A-76). For major IT Investments, the total FTE costs reported in this field should match the total FTE costs listed on the life cycle cost table in the Major Business Case.
+While the definition of Internal Labor includes more than just Government FTE costs, Agencies can simply include these Government FTE costs.",,,Existed,,IT Portfolio
+omAgencyFundingAmountCY,"decimal(18,6)",,"This is the total BY cost represented by the number of government FTEs associated with the Investment. This includes employee wages, benefits, and occupancy expenses, This applies to all Investments; major, non-major, and standard IT Infrastructure, Security, and Management. If an FTE’s costs are included in the Investment costs for BY, the FTE or portion of the FTE should be reported, regardless of the FTE’s role in the Investment (e.g., technical, managerial, functional, or governance). FTE cost should reflect the fully-loaded cost of government FTEs (as defined by OMB Circular A-76). For major IT Investments, the total FTE costs reported in this field should match the total FTE costs listed on the life cycle cost table in the Major Business Case. While the definition of Internal Labor includes more than just Government FTE costs, Agencies can simply include these Government FTE costs.",,,Existed,,IT Portfolio
+omAgencyContributionAmountCY,"decimal(18,6)",,"
+This is the total PY cost for external labor; contractor fees, travel and expenses, associated with this Investment. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,Existed,,IT Portfolio
+omAgencyFundingAmountBY,"decimal(18,6)",,"This is the total CY cost for external labor; contractor fees, travel and expenses, associated with this Investment. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,Existed,,IT Portfolio
+omAgencyContributionAmountBY,"decimal(18,6)",,"
+This is the total BY cost for external labor; contractor fees, travel and expenses, associated with this Investment. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,Existed,,IT Portfolio
+Cost Pool: Total Outside Services Cost, (PY/2017) [$M] [Optional],,"
+This is the total PY cost for outside services including consulting, managed service providers and cloud service providers. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Outside Services Cost ,(CY/2018) [$M] [Optional],,"
+This is the total CY cost for outside services including consulting, managed service providers and cloud service providers. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Outside Services Cost ,(BY/2019) [$M] [Optional],,"This is the total BY cost for outside services including consulting, managed service providers and cloud service providers. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Hardware Cost, (PY/2017) [$M] [Optional],,"
+This is the total PY cost for hardware including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Hardware Cost ,(CY/2018) [$M] [Optional],,"
+This is the total CY cost for hardware including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Hardware Cost, (BY/2019) [$M] [Optional],,"
+This is the total BY cost for hardware including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Software Cost ,(PY/2017) [$M] [Optional],,"
+This is the total PY cost for software including expense, subscription, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Software Cost, (CY/2018) [$M] [Optional],,"
+This is the total CY cost for software including expense, subscription, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Software Cost, (BY/2019) [$M] [Optional],,"
+This is the total BY cost for software including expense, subscription, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Facilities and Power Cost, (PY/2017) [$M] [Optional] ,,"This is the total PY cost for facilities and power including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This
+applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Facilities and Power Cost, (CY/2018) [$M] [Optional] ,,"This is the total CY cost for facilities and power including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This
+applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Facilities and Power Cost, (BY/2019) [$M] [Optional] ,,"This is the total BY cost for facilities and power including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This
+applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Telecom Cost, (PY/2017) [$M] [Optional],,"
+This is the total PY cost for telecom including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Telecom Cost, (CY/2018) [$M] [Optional],,"
+This is the total CY cost for telecom including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Telecom Cost, (BY/2019) [$M] [Optional],,"
+This is the total BY cost for telecom including expense, lease, maintenance and support, and depreciation and amortization. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Other Cost ,(CY/2018) [$M] [Optional],,"
+This is the total other cost for CY including miscellaneous or non-standard expenses.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Other Cost, (BY/2019) [$M] [Optional],,"
+This is the total other cost for BY including miscellaneous or non-standard expenses.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Internal Services Cost, (PY/2017) [$M] [Optional],,"
+This is the total PY internal services cost for shared services charges received from other internal shared services groups. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Internal Services Cost, (CY/2018) [$M] [Optional],,"
+This is the total PY internal services cost for shared services charges received from other internal shared services groups. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+Cost Pool: Total Internal Services Cost, (BY/2019) [$M] [Optional],,"
+This is the total PY internal services cost for shared services charges received from other internal shared services groups. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Data Center Cost ,"(PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY data center cost associated with and included in this Investment’s total cost. This includes enterprise data center and other facilities costs. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Data Center Cost ,"(CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY data center cost associated with and included in this Investment’s total cost. This includes enterprise data center and other facilities costs. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in CY will equate to the total CY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Data Center Cost ,"(BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY data center cost associated with and included in this Investment’s total cost. This includes enterprise data center and other facilities costs. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in BY will equate to the total BY Investment cost. Additionally, BY Data Center costs associated with non- standard Data Center and Cloud Investments, must be added to a standard Data Center and Cloud Investments BY Contributions costs and incorporated into the relevant Investment report. This applies to all Investments; major, non-major, and standard IT Infrastructure, Security, and Management.",,,,,IT Portfolio
+IT Tower: Total Compute Cost ,"(PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY compute cost associated with and included in this Investment’s total cost. This includes physical and virtual servers, servers running Unix operating systems, IBM AS/400 platform, converged infrastructure that provide compute, storage and network capabilities in one box, and mainframe computers.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Compute Cost," (CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY compute cost associated with and included in this Investment’s total cost. This includes physical and virtual servers, servers running Unix operating systems, IBM AS/400 platform, converged infrastructure that provide compute, storage and network capabilities in one box, and mainframe computers.  Definitions are included in Appendix E: TBM
+Cost Pool and IT Tower definitions. For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in CY will equate to the total CY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Compute Cost," (BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY compute cost associated with and included in this Investment’s total cost. This includes physical and virtual servers, servers running Unix operating systems, IBM AS/400 platform, converged infrastructure that provide compute, storage and network capabilities in one box, and mainframe computers. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in BY will equate to the total BY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Storage Cost," (PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY storage cost associated with and included in this Investment’s total cost. This includes online storage, offline storage, mainframe online storage, and mainframe offline storage. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Storage Cost," (CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY storage cost associated with and included in this Investment’s total cost. This includes online storage, offline storage, mainframe online storage, and mainframe offline storage. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For Data Center and Cloud Investments, the expectation is that the sum of Data Center, Compute and Storage in CY will equate to the total CY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Storage Cost ,"(BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY storage cost associated with and included in this Investment’s total cost. This includes online storage, offline storage, mainframe online storage, and mainframe offline storage. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. For Data Center and Cloud Investments the expectation is that the sum of Data Center, Compute and Storage in BY will equate to the total BY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Network Cost ,"(PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY network cost associated with and included in this Investment’s total cost. This includes LAN/WAN, voice, and transport; data network circuits; and associated access facilities and services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the Network standard Investments, the expectation is that the sum of network costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Network Cost ,"(CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY network cost associated with and included in this Investment’s total cost. This includes LAN/WAN, voice and transport; data network circuits and associated access facilities and services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the Network standard Investments, the expectation is that the sum of network costs in CY will equate to the total CY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Network Cost ,"(BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY network cost associated with and included in this Investment’s total cost. This includes LAN/WAN, voice and transport; data network circuits and associated access facilities and services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the Network standard Investments, the expectation is that the sum of network costs in BY will equate to the total BY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Output Cost," (PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY output cost associated with and included in this Investment’s total cost. This includes central print services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Output Cost ,"(CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY output cost associated with and included in this Investment’s total cost. This includes central print services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Output Cost," (BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY output cost associated with and included in this Investment’s total cost. This includes central print services.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total End User Cost," (PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY end user cost associated with and included in this Investment’s total cost. This includes workspace (workstations), mobile devices, end user software, network printers, conferencing and AV equipment, IT help desk, and deskside support.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the End User standard Investments, the expectation is that the sum of End User costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total End User Cost," (CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY end user cost associated with and included in this Investment’s total cost. This includes workspace (workstations), mobile devices, end user software, network printers, conferencing and AV equipment, IT help desk, and deskside support.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the End User standard Investments, the expectation is that the sum of End User costs in CY will equate to the total CY Investment cost. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total End User Cost," (BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY end user cost associated with and included in this Investment’s total cost. This includes workspace (workstations), mobile devices, end user software, network printers, conferencing and AV equipment, IT help desk, and deskside support.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the End User standard Investments, the expectation is that the sum of End User costs in BY will equate to the total BY Investment cost. This applies to all Investments; major, non- major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Application Cost," (PY/2017) [$M] [Optional in September and January, if applicable]",,"
+This is the total PY application cost associated with and included in this Investment’s total cost. This includes application development, support and operations, business software, distributed database services, middleware, mainframe database services, and mainframe middleware. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Application Cost," (CY/2018) [$M] [Optional in September and January, if applicable]",,"
+This is the total PY application cost associated with and included in this Investment’s total cost. This includes application development, support and operations, business software, distributed database services, middleware, mainframe database services, and mainframe middleware. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Application Cost ,"(BY/2019) [$M] [Optional in September and January, if applicable]",,"
+This is the total BY application cost associated with and included in this Investment’s total cost. This includes application development, support and operations, business software, distributed database services, middleware, mainframe database services, and mainframe middleware.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Delivery Cost," (PY/2017) [$M] [Optional in September and January, if applicable]",,"
+This is the total PY delivery cost associated with and included in this Investment’s total cost. This includes IT service management, project management, client management and operations center resources. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Delivery Cost," (CY/2018) [$M] [Optional in September and January, if applicable]",,"
+This is the total CY delivery cost associated with and included in this Investment’s total cost. This includes IT service management, project management, client management and operations center resources. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total Delivery Cost," (BY/2019) [$M] [Optional in September and January, if applicable]",,"
+This is the total BY delivery cost associated with and included in this Investment’s total cost. This includes IT service management, project management, client management and operations center resources. Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Security and Compliance Cost ,(PY/2017) [$M] [Required],,"
+This is the total PY security and compliance cost included in this Investment’s total cost. This field replaces the Total Security Cost field in last year’s guidance. Definitions are included in Appendix D: List of IT Security Capability Definitions.  For the Security and Compliance standard Investments, the expectation is that the sum of Security and Compliance costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Security and Compliance Cost, (CY/2018) [$M] [Required],,"
+This is the total CY security and compliance cost included in this Investment’s total cost. This field replaces the Total Security Cost field in last year’s guidance. Definitions are included in Appendix D: List of IT Security Capability Definitions.  For the Security and Compliance standard Investments, the expectation is that the sum of Security and Compliance costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Security and Compliance Cost, (BY/2019) [$M] [Required],,"
+This is the total BY security and compliance cost included in this Investment’s total cost. This field replaces the Total Security Cost field in last year’s guidance. Definitions are included in Appendix D: List of IT Security Capability Definitions.  For the Security and Compliance standard Investments, the expectation is that the sum of Security and Compliance costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Management Cost," (PY/2017) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total PY IT Management cost associated with and included in this Investment’s total cost. This includes IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the IT Management standard Investments, the expectation is that the sum of IT Management costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Management Cost ,"(CY/2018) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total CY IT Management cost associated with and included in this Investment’s total cost. This includes IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the IT Management standard Investments, the expectation is that the sum of IT Management costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+IT Tower: Total IT Management Cost," (BY/2019) [$M] [Optional in September, Required in January, if applicable]",,"
+This is the total BY IT Management cost associated with and included in this Investment’s total cost. This includes IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management.  Definitions are included in Appendix E: TBM Cost Pool and IT Tower definitions.  For the IT Management standard Investments, the expectation is that the sum of IT Management costs in PY will equate to the total PY Investment cost. This applies to all Investments; major, non-major, and standard IT Infrastructure, IT Security, and IT Management.",,,,,IT Portfolio
+FunctionalBusinessSponsorName,varchar(255),,"
+The Functional/Business Sponsor is defined in Appendix C, and provides visibility for Agencies and OMB as to who the sponsor is for each Investment within the IT portfolio.",,,Existed,,IT Portfolio
+FunctionalBusinessSponsorTitle,varchar(255),,"
+Indicate the title of the Functional/Business Sponsor.",,,Existed,,IT Portfolio
+CloudComputingAlternativesEvaluation,char(1),,"
+This specifies whether, as of the date of the submission, the Investment, or a component of the Investment, is leveraging, considering, migrating or posing as a candidate for cloud computing. All Investments should answer this question regardless of the overall life cycle stage of the Investment, as operational Investments should consider cloud computing alternatives during or as a result of an operational analysis. Select one of the following answers:
+1.   This Investment or a portion of this Investment is leveraging cloud computing.
+2.   This Investment is migrating to the cloud.
+3.   This Investment is considering cloud computing.
+4.   Cloud computing has NOT been considered.
+5.   Cloud computing is NOT applicable for any portion of this Investment.
+6.   Cloud computing has been considered but was not selected.
+Note: For Funding Transfer Investments (Investment Type “04”), this field does not need to be completed.",,,Existed,,IT Portfolio
+Data Center Inventory ID– ,,,"The unique identifier (or list of the identifiers) from your agency’s data center inventory, which is submitted to OMB on a quarterly basis in conjunction with the Integrated Data Collection (IDC). To be put in contact with your agency's IDC submitters and obtain a list of your agency's correct ""Data Center ID""s, email DataPointSupport@omb.eop.gov.",,,,,IT Portfolio
+Total Cloud (PaaS/IaaS) Cost, (CY/2018) [$M],,"
+This should indicate the CY costs associated with Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) cloud service offerings for this Investment.  Previously this was asked for in the Agency Provisioned IT Services Spending Summary, which has been eliminated.",,,,,IT Portfolio
+Total Cloud (SaaS) Cost, (CY/2018) [$M],,"
+This should indicate the CY costs associated with Software as a Service (SaaS) cloud service offerings for this Investment.  Previously this was asked for in the Agency Provisioned IT Services Spending Summary, which has been eliminated.",,,,,IT Portfolio
+Total Other Managed Services (non-cloud) Cost ,(CY/2018) [$M],,"
+This should indicate the CY costs associated with non-cloud managed services service offerings. Previously this was asked for in the Agency Provisioned IT Services Spending Summary, which has been eliminated.",,,,,IT Portfolio
+,,,,,,,,IT Portfolio
+itPortfolioId,int,,,,,Existed,,IT Portfolio
+legacy_FEABRMSubFunction,char(3),,,,,Existed,,IT Portfolio
+InvestmentLineStructure,char(2),,,,,Existed,,IT Portfolio
+totalInvestmentsPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+agency,char(3),,,,,Existed,,IT Portfolio
+totalInvestmentsCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+totalInvestmentsBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+homelandSecurity,varchar(255),,,,,Existed,,IT Portfolio
+legacy_segmentArchitecture,char(7),,,,,Existed,,IT Portfolio
+activeYN,char(1),,,,,Existed,,IT Portfolio
+agencyReason,text,,,,,Existed,,IT Portfolio
+ombComment,text,,,,,Existed,,IT Portfolio
+StatusIdentifier,smallint,,,,,Existed,,IT Portfolio
+CrossBoundaryInformationIdentifier,int,,,,,Existed,,IT Portfolio
+SupportsAntiTerrorismISE,varchar(255),,,,,Existed,,IT Portfolio
+budgetYear,int,,,,,Existed,,IT Portfolio
+FunctionalBusinessSponsorPhone,varchar(15),,,,,Existed,,IT Portfolio
+FunctionalBusinessSponsorPhoneExt,smallint,,,,,Existed,,IT Portfolio
+governmentFTECostForTotalPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+governmentFTECostForTotalCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+governmentFTECostForTotalBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+governmentFTENumberForPY,"decimal(14,2)",,,,,Existed,,IT Portfolio
+governmentFTENumberForCY,"decimal(14,2)",,,,,Existed,,IT Portfolio
+governmentFTENumberForBY,"decimal(14,2)",,,,,Existed,,IT Portfolio
+HSPD12,"decimal(18,6)",,,,,Existed,,IT Portfolio
+FEAPrimaryBRMService,char(3),,,,,Existed,,IT Portfolio
+FEASecondaryBRMService,text,,,,,Existed,,IT Portfolio
+cloudComputingSpendingPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+CloudComputingSpending_CY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+CloudComputingSpending_BY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+FunctionalBusinessSponsorEmail,varchar(255),,,,,Existed,,IT Portfolio
+provisionedOandMagencyFundingAmountPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedOandMagencyContributionAmountPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedOandMagencyFundingAmountCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedOandMagencyContributionAmountCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedOandMagencyFundingAmountBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedOandMagencyContributionAmountBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyFundingAmountPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyContributionAmountPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyFundingAmountCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyContributionAmountCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyFundingAmountBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+provisionedDMEagencyContributionAmountBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+SecuritySpendingPY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+SecuritySpendingCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+SecuritySpendingBY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+EndofLifeSpendingCY,"decimal(18,6)",,,,,Existed,,IT Portfolio
+providesCloudToAgencyComponents,tinyint,,,,,Existed,,IT Portfolio
+providesCloudToOtherFedStateLocal,tinyint,,,,,Existed,,IT Portfolio
+xmlRequestID,int,,,,,Existed,,IT Portfolio
+lastUpdated,timestamp,,,,,Existed,,IT Portfolio
+createdBy,varchar(255),,,,,Existed,,IT Portfolio
+reiDerivedStatus,int,,,,,Existed,,IT Portfolio
+pbgcFlag,char(1),,,,,Existed,,IT Portfolio
+is_agency_submitted,char(1),,,,,Existed,,IT Portfolio
+associatedUpi,text,,,,,Existed,,IT Portfolio
+longStatus,varchar(2500),,,,,Existed,,IT Portfolio
+pbomb53Id,int,,,,,Existed,,IT Portfolio
+timePeriodID,int,,,,,Existed,,IT Portfolio
+SIRID,integer,,Standard Investment Report that this cost reporting corresponds to,??,Internal Reference - Not in Guidance,New,"Missing in XML, needed?",SIRCostDetail
+CostID,integer,,Primary key to identify this cost detail item,??,Internal Reference - Not in Guidance,New,"Missing in XML, needed?",SIRCostDetail
+Category,varchar (100),,"Each standard investment report type has different categories of spending that can be reported. Depending on the SIR, this will be one of a list of enumerated options",category,,New,SIRCostDetails,SIRCostDetail
+PY,float,,Indicate the PY 2017 spending on the reported capability that is funded from the associated investment.,PY,,New,,SIRCostDetail
+CY,float,,Indicate the CY 2018 spending on the reported capability that is funded from the associated investment.,CY,,New,,SIRCostDetail
+BY,float,,Indicate the BY 2019 spending on the reported capability that is funded from the associated investment.,BY,,New,,SIRCostDetail
+UII,varchar (15),,(12-digit primary key for all Investments),uII,,New,,SIRGeneralInformation
+Agency Code,varchar (7),123,"Three (3) digits represent your Agency code (see Appendix C of OMB Circular No. A-11).  
+
+Note: This field refers to the Agency with management responsibility for the IT Investment.",agencyCode,,New,Is varchar (7) a database storage type - wouldn't INT(3) be more aligned to the XML data type?,SIRGeneralInformation
+Bureau Code,varchar (3),11,"The two digits indicate the bureau code of the Investment (see Appendix C of OMB Circular No. A-11). If this is a department-level or an Agency-wide activity, use “00” as your bureau code. 
+
+Note: This field refers to the bureau with management responsibility for the IT Investment, which may differ from the “bureau” code embedded in OMB budget accounts used when providing funding sources.",BureauCode,,New,,SIRGeneralInformation
+Datacenter ID,varchar (15),DCOI-DC-12345,"List the Data Center ID(s) associated with this investment. The unique row/record identifier generated by DataPoint. Leave blank for all new data centers. 
+
+Note: The legacy “Data Center ID” from both the FDCCI and DCOI initiatives will continue to be used to capture cost at the data center level.",DataCenterID,,New,Applies to Datacenters only,SIRGeneralInformation
+Real Property ID,varchar (100),DC1234,"Federal Real Property Profile ID (for physical data centers in owned or leased property). The FRPP ID's first two (2) digit code indicate the state the property is located. (e.g. MD, VA, DC)
+The last four (4) digits serve as the unique identifier established by GSA.
+https://www.gsa.gov/portal/content/100783 
+
+Note:  Leave blank for all new data centers.",FederalRealPropertyProfileID,,New,Applies to Datacenters only,SIRGeneralInformation
+Procurement Instrument IDentifier,varchar (25),,"Procurement Instrument Identifier (PIID) – The unique identifier for each contract, agreement, or order (FPDS data element 1A). This field will be null for solicitations which are in the pre-award stage. Required for all non-physical data centers.
+
+Note: List all current contract vehicles your agency is using to purchase laptops and desktops, including BPAs, IDIQs, GWACs, GSA schedules, and stand-alone contracts. All contracts should be reported regardless of whether the equipment is purchased, leased, or outsourced as part of a managed service. Do not list purchase orders, purchase card transactions, or delivery orders placed under a parent contract. Group all spend data at the parent contract level.",PIID,,New,,SIRGeneralInformation
+Investment Name,varchar (255),,Note: This field will be auto-populated from the Agency IT Portfolio Summary.,InvestmentName,,New,Do we need this for this table in the database? It should be from the IT Portfolio table,SIRGeneralInformation
+SIRID?,integer,,"Primary key for network investment. 
+1. Transition Services
+2. Data Services
+3. Voice Services
+4. Satellite Services
+5. Managed Services
+6. Service Related Equipment
+7. Service Related Labor
+8. Cable and Wiring
+9. Access Arrangements",ID,Internal Reference - Not in Guidance,New,Doesn't only apply to network,SIRGeneralInformation
+Point of Contact,varchar (100),,The name of the primary point of contact for this network’s operations,POC,,New,,SIRGeneralInformation
+Point of Contact Email,varchar (100),Jane.doe@omb.eop.gov,The email address of the primary POC,POCEmail,,New,,SIRGeneralInformation
+Anticipated EIS Transition Date,date,[MM/DD/YYYY(N/A)],"The date by which it is expected that this network investment will be transitioned over to the future EIS contract. If this network is not intending to transition to EIS, please indicate such by identifying that it is not applicable, “N/A”.",anticipatedEISTransitionDate,,New,Applies to Network Report only,SIRGeneralInformation
+NIST Framework Category,5 choices in the description/ DD values?,,"Each capability will be mapped to one of the 5 categories below: 
+1) Identify
+2) Protect
+3) Detect
+4) Respond
+5) Recover",NISTFrameworkCategory,,New,,Cost&Capabilities
+Capability,ENUM,,"List the capability associated with the spending in the PY, CY and/or BY years. Agencies are not required to submit a record for each capability or NIST Framework Category; however, at the Agency level, Agencies should try to ensure they provide at least one Capability for each NIST Framework Category. To facilitate more complete reporting, each NIST Framework Category includes an Other capability category Agencies may utilize for cybersecurity costs that would not have otherwise been accounted for. Agency spending in any specific Other capability category should not exceed 10% of the total spending for that NIST Framework Category. If the reported spending exceeds 10% of overall NIST Function area, Agencies should revisit the capability descriptions to determine if any components of the Investment fall under an existing capability. The descriptions of each capability are included in Appendix D.",Capability,Options in Appendix D,New,Capabilities in Appendix D,Cost&Capabilities
+Purpose or Outcome,varchar (1000),,Describe the purpose and intended outcomes from money spent on the reported capability. Also describe any expected fluctuations in spending across the 3 years.,PurposeOrOutcome,,New,,Cost&Capabilities
+PY,float,,Indicate the PY 2017 spending on the reported capability that is funded from the Security Investment. The sum of all of the Investment’s capabilities should exactly match “Total IT Security Spending (PY/2017)” for the Investment.,pyFunding,,New,,Cost&Capabilities
+CY,float,,Indicate the CY 2018 spending on the reported capability that is funded from the Security Investment. The sum of all of the Investment’s capabilities should exactly match “Total IT Security Spending (CY/2018)” for the Investment.,cyFunding,,New,,Cost&Capabilities
+BY,float,,Indicate the BY 2019 spending on the reported capability that is funded from the Security Investment. The sum of all of the Investment’s capabilities should exactly match “Total IT Security Spending (BY/2019)” for the Investment.,byFunding,,New,,Cost&Capabilities
+referencedPIID,varchar (50),,"Procurement Instrument Identifier (PIID) – The unique identifier for each contract, agreement, or order (FPDS data element 1A). This field will be null for solicitations which are in the pre-award stage. Required for all non-physical data centers.
+
+Note: List all current contract vehicles your agency is using to purchase laptops and desktops, including BPAs, IDIQs, GWACs, GSA schedules, and stand-alone contracts. All contracts should be reported regardless of whether the equipment is purchased, leased, or outsourced as part of a managed service. Do not list purchase orders, purchase card transactions, or delivery orders placed under a parent contract. Group all spend data at the parent contract level.",PIID,,Existed,,Contracts
+contractStatus,varchar(30),,"Status of contract. Either ""Existing"" if the contract is in progress or ""Future"" if work has not yet started.",status,,Existed,"Values must be: [Existing, Future]",Contracts
+contractTypeUsed,varchar (100),,"The end of the end user under which the contract falls, limited to End User Conmponents defind specifically:
+1. Workspace
+2. Mobile Devices
+3. End User Software
+4. Network Printers
+5. Conferencing & AV
+6. IT Helpdesk
+7. Deskside Support",contractType,,Existed,Only applies to End User,Contracts
+Acquisition Strategy,text,,A brief description of the strategy including a description of the capabilities to be consolidated or retired by the future acquisition and the extent to which there is partnering and/or the sharing or resources of capabilities.,acquisitionStrategy,,New,,Contracts
+solicitationId,varchar(50),,"If in the active solicitation phase of the acquisition process, provide the identifier used to link transactions in FPDS-NG to solicitation information.",solicitationId,,Existed,,Contracts
+IPv4 Permitted,varchar(3),Yes or No,For Internet Protocol services in support of IPv4 capabilities.,isIPv4Permitted,,New,Allowed for Network submissions,Contracts
+Anticipated Award Date,date,[MM/DD/YYYY],The anticipated award date for the assoicated acquisition.,anticipatedAwardDate,,New,Allowed if Status = Future,Contracts
+IPv6 Supported,varchar(3),Yes or No,For Internet Protocol services in support of IPv6 capabilities.,isIPv6Supported,,New,Allowed for Network submissions,Contracts
+Physical Datacenter?,varchar(3),Yes or No,Identifying if this is a physical data center or virtual.,isPhysicalDataCenter,,New,Allowed for Datacenter submissions,Contracts
+Task Order Completion Date,date,[MM/DD/YYYY],The date by which this Task Order will be completed and have no additional options.,taskOrderCompletionDate,,New,Allowed if Status = Existing,Contracts
+contractsId,int,,,,,Existed,,Contracts
+agencyContractId,varchar(500),,,,,Existed,,Contracts
+businessCaseId,int,,,,,Existed,,Contracts
+contractNumber,varchar(500),,,,,Existed,,Contracts
+contractingAgencyId,char(4),,,,,Existed,,Contracts
+contractCompete,varchar(150),,,,,Existed,,Contracts
+contractDescription,mediumtext,,,,,Existed,,Contracts
+idvAgencyId,char(4),,,,,Existed,,Contracts
+contractStartDate,datetime,,,,,Existed,,Contracts
+contractEndDate,datetime,,,,,Existed,,Contracts
+contractTotalValue,"decimal(21,6)",,,,,Existed,,Contracts
+performanceBasedContract,varchar(3),,,,,Existed,,Contracts
+alternativeFinancing,varchar(50),,,,,Existed,,Contracts
+EVMRequired,varchar(3),,,,,Existed,,Contracts
+vendorName,mediumtext,,,,,Existed,,Contracts
+contractNumberAfterPatternRemoval,varchar(500),,,,,Existed,,Contracts
+usaSpendingMatchFlag,varchar(255),,,,,Existed,,Contracts
+usaSpendingContractTotalValue,"decimal(21,6)",,,,,Existed,,Contracts
+usaSpendingContractEndDate,date,,,,,Existed,,Contracts
+isModularApproach,char(3),,,,,Existed,,Contracts
+agileDevelopment,varchar(3),,,,,Existed,,Contracts
+contractPurpose,varchar(500),,,,,Existed,,Contracts
+ITLeaseCategory,char(1),,,,,Existed,,Contracts
+informationSecurityClause,varchar(3),,,,,Existed,,Contracts
+timestamp,timestamp,,,,,Existed,,Contracts
+updated_by,varchar(255),,,,,Existed,,Contracts
+projectName,varchar(250),,Name of the associated project.,projectName,"Section B, Project Plan and Execution Data",Existed,,Projects
+investmentProjectId,int,,An agency-specified number that uniquely identifies the project with the Investment. ,projectId,"Section B, Project Plan and Execution Data",Existed,,Projects
+projectObjectivesOrOutcomes,varchar(2500),,"Description of the project's functionality, capability, or goal.",objective,"Section B, Project Plan and Execution Data",Existed,,Projects
+Activity Name,,,"A short description consistent with the critical steps within the agency project
+management methodology.",,"Section B, Project Plan and Execution Data",,,Projects
+Activity Description,,,Describe what work is accomplished by the activity. ,,"Section B, Project Plan and Execution Data",,,Projects
+Structure ID,,,Agency-specified identifier that indicates the work breakdown structure (WBS) the agency uses to associate the activity with other activities or a project. Provide this in the format of “x.x.x.x.x” where the first string is the Unique Project ID and each following string (separated by periods) matches the structure ID of a parent activity. See below for more guidance about parent and child activities expressed through this structure.,,"Section B, Project Plan and Execution Data",,,Projects
+Type of Activity,,,"This should only be provided for activities that do not have a child (i.e., lowest level) and that are active/open as of October 1, 2016. Not every project will have every type of activity listed below. Completion of this activity primarily provides:
+1) Conceptualization/Planning
+2) Requirements Gathering
+3) Design / User Experience (UX)
+4) Prototype
+5) Development
+6) Security Testing
+7) Iterative Testing
+8) Iterative Release
+9) Regression Testing
+10) User Acceptance Testing
+11) Development Operations (DevOps) / Configuration Management
+12) Quality Assurance
+13) Production Release
+14) Retirement
+15) This is not a software development related activity
+16) Other",,,,,Projects
+Critical Path,,"[Yes, No]",Is this activity on the critical path of the successful completion of the project.,,,,,Projects
+businessCaseId,int,,,,,Existed,,Projects
+uniqueProjectId,varchar(10),,,,,Existed,,Projects
+agencyProjectId,varchar(500),,,,,Existed,,Projects
+baselineId,int,,,,,Existed,,Projects
+projectLifeCycleCost,"decimal(21,6)",,"Enter the total cost of all activities related to the project as described in OMB Circular A-131 (in $ millions). This only includes costs for the project, and does not include O&M or other sustainment costs.",,"Section B, Project Plan and Execution Data",Existed,,Projects
+SDLCMethodology,int,,"Which development methodology does this project use?
+1) Waterfall
+2) Iterative: Incremental, Spiral, Agile
+3) Not Primarily a Software Development Project",,"Section B, Project Plan and Execution Data",Existed,,Projects
+otherSDLC,varchar(500),,,,,Existed,Might be a delete,Projects
+releaseEverySixMo,varchar(3),"[Yes, No, N/A]","Does this Project have a production release containing useable functionality at least
+every 6 months? ",,"Section B, Project Plan and Execution Data",Existed,,Projects
+releaseEverySixMoComment,varchar(1000),,"If this Project does not provide a production release at least every 6 months, please provide a rationale as to why.",,"Section B, Project Plan and Execution Data",Existed,,Projects
+productionDeploymentDate,date,[MM/DD/YYYY],"This question collects information on how frequently changes to the system are deployed. A change can mean a new or removed feature, a patch, or a bug fix that was deployed via a change in the system’s application code. If a system is under version control, this date can be easily determined by looking at the date on which the most recent commit to the production version of the codebase was made. If there has not yet been a release to production, provide the projected first production deployment date. This field is not required for SDLC Methodology 7 “Not Primarily a Software Development Project.” ",,"Section B, Project Plan and Execution Data",Existed,,Projects
+PMName,varchar(250),,,,,Existed,Might be a delete,Projects
+PMLevelOfExperienceId,int,,,,,Existed,Might be a delete,Projects
+PMPhone,varchar(10),,,,,Existed,Might be a delete,Projects
+PMPhoneExt,varchar(6),,,,,Existed,Might be a delete,Projects
+PMEmail,varchar(250),,,,,Existed,Might be a delete,Projects
+scheduleVarianceInDays,int,,,,,Existed,Might be a delete,Projects
+scheduleDurationInDays,int,,,,,Existed,Might be a delete,Projects
+scheduleVariancePercent,"decimal(10,2)",,,,,Existed,Might be a delete,Projects
+costVarianceAmount,"decimal(25,6)",,,,,Existed,Might be a delete,Projects
+costVariancePercent,"decimal(10,2)",,,,,Existed,Might be a delete,Projects
+projectStartDate,date,[MM/DD/YYYY],The planned start date of the project. This is the baseline value. ,startDatePlanned,"Section B, Project Plan and Execution Data",Existed,,Projects
+Start Date Projected,date,[MM/DD/YYYY],"If the activity has not yet completed, enter the current planned completion date of the activity. 
+",,"Section B, Project Plan and Execution Data",,,Projects
+Start Date Actual,date,[MM/DD/YYYY],"When the project starts, enter the actual start date here.",startDateActual,"Section B, Project Plan and Execution Data",New,,Projects
+projectCompletionDate,date,[MM/DD/YYYY],The planned completion date for the project. This is the baseline value.,completionDatePlanned,"Section B, Project Plan and Execution Data",Existed,,Projects
+Completion Date Projected,date,[MM/DD/YYYY],"If the activity has not yet completed, enter the current projected completion date of the activity. 
+",,"Section B, Project Plan and Execution Data",,,Projects
+Completion Date Actual ,date,[MM/DD/YYYY],"When the project ends, enter the actual completion date here.",completionDateActual,"Section B, Project Plan and Execution Data",New,,Projects
+plannedCost,"decimal(21,6)",,"The planned total cost for the project. This is the baseline value. [$M] When the project is not yet completed, enter the current planned total cost of the activity.",totalCostsPlanned,"Section B, Project Plan and Execution Data",Existed,,Projects
+Total Costs Projected,,,"When the activity is not yet completed, enter the current planned total cost of the activity. [$M] 
+
+Note: For programs that are employing earned value management, Agencies should reflect “budget at completion” in the “Total Costs Planned” field and “estimated at completion” in the “Total Costs Projected” field. 
+",,"Section B, Project Plan and Execution Data",,,Projects
+Total Costs Actual ,integer,,"When the project ends, enter the actual total costs for the project here. [$M]",totalCostsActual,"Section B, Project Plan and Execution Data",New,,Projects
+Unique Project ID,int,,An agency-specified number that uniquely identifies the project with this Investment. ,,Project Activity Table B.2.2,New,,Projects
+Release Name,,,Activity name/feature as defined in the product backlog.,,Project Activity Table B.2.2,New,,Projects
+Release Number,,,Iteration/Feature as defined in the product backlog.,,Project Activity Table B.2.2,New,,Projects
+Release Description,,,Activity description.,,Project Activity Table B.2.2,New,,Projects
+Start Date Planned ,date,[MM/DD/YYYY],Release start date planned. ,,Project Activity Table B.2.2,New,,Projects
+Start Date Actual,date,[MM/DD/YYYY],Release start date acutal. ,,Project Activity Table B.2.2,New,,Projects
+Completion Date Planned ,date,[MM/DD/YYYY],Release completion date planned. ,,Project Activity Table B.2.2,New,,Projects
+Completion Date Actual ,date,[MM/DD/YYYY],Release completion date acutal. ,,Project Activity Table B.2.2,New,,Projects
+Total Costs Planned ,"decimal(21,6)",,Total cost planned for the release. [$M] ,,Project Activity Table B.2.2,New,,Projects
+Total Costs Actual ,integer,,Total costs actual for the release. [$M],,Project Activity Table B.2.2,New,,Projects
+NPI,,,Number of planned iterations/sprints in the release. ,,Project Activity Table B.2.2,New,,Projects
+NPE,,,Number of planned Epics (fraction of an Epic is acceptable).,,Project Activity Table B.2.2,New,,Projects
+NCE,,,Number of completed Epics in a release (fraction of an Epic is acceptable),,Project Activity Table B.2.2,New,,Projects
+NCI,,,Number of completed iterations/sprints in a release. ,,Project Activity Table B.2.2,New,,Projects
+DTC,,,How many direct technical contributors are on the project (inclusive of government or contractor engineers and designers that contribute directly to the code base; this number might not equate to the total FTE at the Investment level).,,Project Activity Table B.2.2,New,,Projects
+DPC,,,"How many other staff contribute directly to the project (inclusive of government or contractor project managers, testers, agile coaches, and others; this number might not equate to the total FTE at the Investment level).",,Project Activity Table B.2.2,New,,Projects
+Operational Analysis,varchar(2500),,"Provide the date and results of the last Operational Analysis (for operational and mixed life cycle systems/Investments).
+
+Note: [Drop Down menu: continue as is, initiate remediation action, initiate innovation action, initiate modernization/replacement
+action, initiate disposal action]
+",,Section C: Operational Data,New,,Projects
+performanceMetricId,integer,,"Unique ID provided by Agency for the metric. When reporting actual results, use this ID to reference the correct metric. ",id,Table C.1.A,Existed,,Metrics
+performanceMetricDescription,varchar(500),,"Description to help the user understand what is being measured. In this field, describe the units used, any calculation algorithm used, and the definition or limits of the population or “universe” measured.",description,Table C.1.A,Existed,,Metrics
+performanceMetricUOM,varchar (10),,"Brief indication of what quantity is measured (e.g. number, percentage, dollar value) for each metric.",unitOfMeasure,Table C.1.A,Existed,,Metrics
+Performance Measurement Category Mapping,6 choices in the description/ DD values?,,"Identify the measurement category
+1. Operational Analysis
+2. Operational Performance
+3. Customer Satisfaction (Process Results)
+4. Strategic and Business Results 
+5. Financial Performance
+6. Innovation ",performanceMeasurementCategorymapping,Table C.1.A,New,,Metrics
+Agency Baseline Capability,"decimal(21,6)",,"What was the quantitative value of your Agency’s capability per this metric prior to this Investment’s life cycle. If your Agency has not measured this capability before, you may leave this field blank; otherwise, provide the numeric value of the historic capability measurement.",agencyBaselineCapability,Table C.1.A,New,,Metrics
+2017 Target,float,,"Metric target value from 2017, relative to the reporting frequency.",PYTarget,Table C.1.A,New,,Metrics
+2018 Target,float,,"Metric target value from 2018, relative to the reporting frequency.",CYTarget,Table C.1.A,New,,Metrics
+Measurement Condition,varchar(15),,"Indicates whether a desired result would be “over target,” indicating that the trend should maintain or increase, or “under target,” indicating that the trend should maintain or decrease. ",measurementCondition,Table C.1.A,New,,Metrics
+Reporting Frequency,varchar (10) or ENUM,,"How often actual measurements will be reported (monthly, quarterly, semi-annually, or annually). Annual reporting frequencies are reserved for annual operating cost measures, performance measures associated with the Agency’s annual performance plan, or other measures that can only be appropriately measured on an annual basis. ",reportingFrequency,Table C.1.A,New,"Must be in: [Monthly, Weekly, Annually, Quarterly, etc.] - However we did this in the past",Metrics
+performanceMetricObjectiveOrGoal,integer,,"Each Investment must have at least one active metric in the Strategic and Business Results category  (of any reporting frequency) tied to the foremost Agency strategic objective (SO), or Agency priority goal (APG)  (as required by A-11 Section 230 and Section 250 respectively). Provide that code for the associated metric, using the appropriate code on performance.gov). Agencies that are not required to report to performance.gov may use the “0” code. [Goal Code]",agencyObjectiveOrGoal,Table C.1.A,Existed,,Metrics
+Is the Metric Retired?,boolean,,"Check this box when performance metrics are no longer useful for Investment management.
+",isMetricRetired,Table C.1.A,New,,Metrics
+businessCaseId,int,,,,,,,Metrics
+agencyPerformanceMetricId,varchar(500),,,,,,,Metrics
+baselineId,int,,,,,,,Metrics
+reportingPeriodofActuals,varchar(15),,,,,,,Metrics
+performanceMetricPRM,varchar(11),,,,,,,Metrics
+budgetYearofTarget,int,,,,,,,Metrics
+pmCategory,int,,,,,,,Metrics
+performanceMetricBaselineCapability,"decimal(21,6)",,,,,,,Metrics
+isClosed,char(1),,,,,,,Metrics
+updatedBy,varchar(255),,,,,,,Metrics
+updatedDate,timestamp,,,,,,,Metrics
+CurrentUII,char(31),,(12-digit primary key for all Investments),uII,,Existed,,CIO_Evaluation_Report
+investmentciorating,smallint,4,Provide CIO numeric evaluation (1-5) for all Part 1 and Part 2 major IT Investments that reflect the CIO’s best judgment of the current level of risk for the Investment in terms of its ability to accomplish its goals (per 40 U.S.C. § 11315 (c)(2)). 1 represents the lowest possible score and 5 represent teh highest possible score.,,,Existed,,CIO_Evaluation_Report
+CIO Comments,varchar (2000),This is a comment,Explanation and/or additional details regarding this reported value,comment,,New,,CIO_Evaluation_Report
+snapshot_date,date,,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+total_planned_cost,"decimal(21,6)",,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+lifecycle_cost,"decimal(21,6)",,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+investmentStartYear,int,,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+investmentEndYear,int,,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+totalSpendingCY,"decimal(21,6)",,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+dayIdentifier,smallint,,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+monthYN,char(1),,,,Internal Reference - Not in Guidance,Existed,,CIO_Evaluation_Report
+investmentName,varchar(500),,Note: This field will be auto-populated from the Agency IT Portfolio Summary.,InvestmentName,Section A: General Information,New,,Major Business Case Details
+CurrentUII,varchar(31),,(12-digit primary key for all Investments),uII,Section A: General Information,New,,Major Business Case Details
+investmentDescription,varchar(2550),,"Briefly describe the Investment’s purpose, goals, and current and/or anticipated benefits (quantitative and/or qualitative). Include the Investment’s specific contribution to mission delivery or agency management support functions and identify key customers, stakeholders, and other beneficiaries.",,Section B: Investment Detail,Existed,,Major Business Case Details
+strategicObjective,varchar (5),,"Provide at least one agency Strategic objective code (A-11 Section 230) and/or agency Priority Goal code (A-11 Section 250) that this Investment aligns to on performance.gov. If this Investment aligns to more than one agency strategic objective code and/or agency Priority goal code list all that apply. If your agency does not report to performance.gov please use “0”. You may locate the full list of current agency Strategic objective codes by downloading the spreadsheet available on performance.gov.
+
+Note: This is required for Agency IT Portfolio
+ Summary Part 1 and Part 2 Investments, not for Part 3 Investments. ",,Section B: Investment Detail,New,,Major Business Case Details
+returnOnInvestmentDescription,varchar (2500),,"Briefly describe the Investment’s return on Investment, including benefits (internal and external to the government), and outcomes achieved or planned. The planned performance measures in table C.1.A should map to the Investment’s planned outcomes and benefits as described in this section.",,Section B: Investment Detail,Existed,,Major Business Case Details
+investmentRequirements,longtext,,"Provide specific requirements for this Investment (i.e. legislative mandates, outstanding audit findings or material weakness, Presidential Directive) and how this Investment will meet the requirement. Additionally, provide any applicable URLs to associated requirements.",,Section B: Investment Detail,Existed,,Major Business Case Details
+programCodeFPI,varchar(7),XXX-XXX or “000-000” ,"Identify the foremost program supported by this Investment, using the Program Code in the Federal Program Inventory Reference Table. If this Investment does not primarily support a single program (e.g. provides Department-wide infrastructure, or supports multiple programs evenly), enter “No Primary Program”. ",,Section B: Investment Detail,Existed,,Major Business Case Details
+eliminatedReduced,varchar(2000),,"""If this Investment eliminates or reduces another major or non-major IT Investment(s), please list the Investment(s) and their status as represented below. (Eliminated or reduced Investments should be listed until removed from the Agency’s IT Investment Portfolio Summary. Most eliminated Investments should remain in the Agency’s IT Investment Portfolio Summary for two years.)
+    Investment UII(s)  [12-digit UII]
+    To Be Status [to be eliminated/to be reduced]""                                                    
+",,Section B: Investment Detail,Existed,,Major Business Case Details
+investmentSharedService,char(3),[Yes/No],Does the Investment include a shared service (intra-or Inter-agency (current and/or planned)? ,,Section B: Investment Detail,Existed,,Major Business Case Details
+investmentPIVEnabled,char(3),[Yes/No],Are all systems in this Investment PIV-enabled systems (per HSPD-12 and OMB Memorandum M-11-11)? ,,Section B: Investment Detail,Existed,,Major Business Case Details
+publicURLs,longtext,[Yes/No],"Provide any public facing URLs associated with this Investment, including APIs (if applicable). List as many URLs as apply, https://…",,Section B: Investment Detail,Existed,,Major Business Case Details
+Paperwork Reduction Act OMB Control Number(s),,,"If systems contained in this Investment collect data from the public, please identify the OMB Control Numbers which authorize that data collection as per the Paperwork Reduction Act. Use Reginfo at the following link to identify information collection requests and OMB control numbers.
+Agencies can work with their Records Officers to determine the applicability. [Optional]",,Section B: Investment Detail,New,,Major Business Case Details
+pmName,varchar(50),,Provide the name of the Investment-level project/program manager.,,Section B: Investment Detail,Existed,,Major Business Case Details
+pmEmail,varchar(100),,Provide the e-mail address of the Investment-level project/program manager.,,Section B: Investment Detail,Existed,,Major Business Case Details
+pmQualifications,varchar(200),,"PM Qualifications
+    The qualification/experience level of the PM (per OMB M-04-19).
+    Select one of the following:
+    FAC-P/PM(DAWIA-3) – Senior
+    FAC-P/PM(DAWIA-2) – Mid-Level
+    FAC-P/PM(DAWIA-1) – Entry Level
+    Other certification with 4 or more years of PM experience (within the last five years)
+    Other certification with between 2 and 4 years of PM experience (within the last five years)
+    Other certification with less than two years of PM experience (within the last five years)
+    No certification, but with 4 or more years of PM experience (within the last five years)
+    No certification, but with between 2 and 4 years of PM experience (within the last five years)
+    No certification, but with less than two years of PM experience (within the last five years",,Section B: Investment Detail,Existed,,Major Business Case Details
+businessCaseId,int,,,,,Existed,,Major Business Case Details
+budgetYear,int,,,,,Existed,,Major Business Case Details
+autoSubmissionDateTime,datetime,,,,,Existed,,Major Business Case Details
+agency,char(3),,,,,Existed,,Major Business Case Details
+baselineId,int,,,,,Existed,,Major Business Case Details
+changesFromPreviousBudget,longtext,,,,,Existed,,Major Business Case Details
+noEVMExplanation,longtext,,,,,Existed,,Major Business Case Details
+investmentEnterpriseContribution,varchar(2500),,,,,Existed,,Major Business Case Details
+investmentPYAccomplishments,varchar(1000),,,,,Existed,,Major Business Case Details
+investmentCYandBYAccomplishments,varchar(2500),,,,,Existed,,Major Business Case Details
+investmentLifeCycleModelInformation,varchar(1000),,,,,Existed,,Major Business Case Details
+investmentStartYear,int,[YYYY],"In which year did or will this Investment begin? (specify a year, e.g. 2016)",,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+investmentEndYear,int,[YYYY],"In which year will this Investment reach the end of its estimated useful life? (specify a year, e.g. 2024)",,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+investmentCorrectiveActionsPYCY,varchar(2500),,Compare the funding levels for PY and CY to the final FY 2019 President’s Budget for those same years. Briefly explain any significant changes. ,,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+investmentPublicAPI,char(3),,,,,Existed,,Major Business Case Details
+investmentIncrementalDevelopment,varchar(3),,,,,Existed,,Major Business Case Details
+consecutiveMonthsRed,int,,,,,Existed,,Major Business Case Details
+dateOfAnalysis,date,,,,,Existed,,Major Business Case Details
+analysisResults,mediumtext,,,,,Existed,,Major Business Case Details
+updatedBy,varchar(255),,,,,Existed,,Major Business Case Details
+lastUpdated,timestamp,,,,,Existed,,Major Business Case Details
+,,,,,,,,Major Business Case Details
+LIFECYCLE COSTS,,,,,,,,Major Business Case Details
+acquisitionBudgetaryResourcesPY1,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for prior fiscal year minus one (two year prior to the current fiscal year) and the cumulative cost prior to that year. For example, for submissions during budget year 2018, this cost represents fiscal year 2015 (PY-1) and the cumulative cost for all years prior to 2015. ",dmeBudgetaryResourcesPY-1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesPY,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) Government FTE costs for the prior fiscal year.",dmeBudgetaryResourcesPY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesCY,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) cost for the current fiscal year.",dmeBudgetaryResourcesCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesBY,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for the budget year.",dmeBudgetaryResourcesBY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesBY1,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for the budget year plus one (a year after the budget year).",dmeBudgetaryResourcesBY_1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesBY2,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for the budget year plus two (two years after the budget year).",dmeBudgetaryResourcesBY_2,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesBY3,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for the budget year plus three (three years after the budget year).",dmeBudgetaryResourcesBY_3,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+acquisitionBudgetaryResourcesBY4Beyond,"decimal(21,6)",,"Development, Modernization, and Enhancement (excluding planning) costs for the budget year plus four (starting four years after the budget year) and the cumulative cost for every year after. For example, for submission during budget year 2018, this cost represents fiscal year 2022 cost and all years after. ",dmeBudgetaryResourcesBY_4_Beyond,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsPY1,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for prior fiscal year minus one (two year prior to the current fiscal year) and the cumulative cost prior to that year. For example, for submissions during budget year 2018, this cost represents fiscal year 2015 (PY-1) and the cumulative cost for all years prior to 2015. ",dmeGovernmentFTECostsPY-1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsPY,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the prior fiscal year.",dmeGovernmentFTECostsPY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsCY,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the current fiscal year.",dmeGovernmentFTECostsCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsBY,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the budget year.",dmeGovernmentFTECostsBY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsBY1,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the budget year plus one (a year after the budget year).",dmeGovernmentFTECostsBY_1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsBY2,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the budget year plus two (two years after the budget year).",dmeGovernmentFTECostsBY_2,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsBY3,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the budget year plus three (three years after the budget year).",dmeGovernmentFTECostsBY_3,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+paGovernmentFTECostsBY4Beyond,"decimal(21,6)",,"Development, Modernization, and Enhancement (including planning) Government FTE costs for the budget year plus four (starting four years after the budget year) and the cumulative cost for every year after. For example, for submission during budget year 2018, this cost represents fiscal year 2022 cost and all years after. ",dmeGovernmentFTECostsBY_4_Beyond,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesPY1,"decimal(21,6)",,"Operations and maintenance (O&M) cost (excluding FTEs) for prior fiscal year minus one (two year prior to the current fiscal year) and the cumulative cost prior to that year. For example, for submissions during budget year 2018, this cost represents fiscal year 2015 (PY-1) and the cumulative cost for all years prior to 2015. ",maintenanceBudgetaryResourcesPY-1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesPY,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs) for the prior fiscal year.,maintenanceBudgetaryResourcesPY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesCY,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs) for the current fiscal year.,maintenanceBudgetaryResourcesCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesBY,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs)  for the budget year.,maintenanceBudgetaryResourcesBY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesBY1,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs) for the budget year plus one (a year after the budget year).,maintenanceBudgetaryResourcesBY_1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesBY2,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs) for the budget year plus two (two years after the budget year).,maintenanceBudgetaryResourcesBY_2,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesBY3,"decimal(21,6)",,Operations and maintenance (O&M) cost (excluding FTEs) for the budget year plus three (three years after the budget year).,maintenanceBudgetaryResourcesBY_3,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+maintenanceBudgetaryResourcesBY4Beyond,"decimal(21,6)",,"Operations and maintenance (O&M) cost (excluding FTEs) for the budget year plus four (starting four years after the budget year) and the cumulative cost for every year after. For example, for submission during budget year 2018, this cost represents fiscal year 2022 cost and all years after. ",maintenanceBudgetaryResourcesBY_4_Beyond,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsPY1,"decimal(21,6)",,"Operations and maintenance (O&M) Government FTE costs for prior fiscal year minus one (two year prior to the current fiscal year) and the cumulative cost prior to that year. For example, for submissions during budget year 2018, this cost represents fiscal year 2015 (PY-1) and the cumulative cost for all years prior to 2015. ",omdGovernmentFTECostsPY-1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsPY,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the prior fiscal year.,omdGovernmentFTECostsPY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsCY,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the current fiscal year.,omdGovernmentFTECostsCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsBY,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the budget year.,omdGovernmentFTECostsBY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsBY1,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the budget year plus one (a year after the budget year).,omdGovernmentFTECostsBY_1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsBY2,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the budget year plus two (two years after the budget year).,omdGovernmentFTECostsBY_2,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsBY3,"decimal(21,6)",,Operations and maintenance (O&M) Government FTE costs for the budget year plus three (three years after the budget year).,omdGovernmentFTECostsBY_3,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+omdGovernmentFTECostsBY4Beyond,"decimal(21,6)",,"Operations and maintenance (O&M) Government FTE costs for the budget year plus four (starting four years after the budget year) and the cumulative cost for every year after. For example, for submission during budget year 2018, this cost represents fiscal year 2022 cost and all years after. ",omdGovernmentFTECostsBY_4_Beyond,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberPY1,"decimal(12,2)",,"Number of FTEs represented by the costs in the Life Cycle table for prior fiscal year minus one (two year prior to the current fiscal year) and the cumulative cost prior to that year. For example, for submissions during budget year 2018, this cost represents fiscal year 2015 (PY-1) and the cumulative cost for all years prior to 2015. ",governmentFTENumberPY-1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberPY,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the prior fiscal year.,governmentFTENumberPY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberCY,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the current fiscal year.,governmentFTENumberCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberBY,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the budget year.,governmentFTENumberBY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberBY1,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the budget year plus one (a year after the budget year).,governmentFTENumberBY_1,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberBY2,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the budget year plus two (two years after the budget year).,governmentFTENumberBY_2,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberBY3,"decimal(12,2)",,Number of FTEs represented by the costs in the Life Cycle table for the budget year plus three (three years after the budget year).,governmentFTENumberBY_3,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+governmentFTENumberBY4Beyond,"decimal(12,2)",,"Number of FTEs represented by the costs in the Life Cycle table for the budget year plus four (starting four years after the budget year) and the cumulative cost for every year after. For example, for submission during budget year 2018, this cost represents fiscal year 2022 cost and all years after. ",governmentFTENumberBY_4_Beyond,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+amountChangeFromPriorYearPY,"decimal(21,6)",,"Provide the total change of your PY current submission compared to your most recent previous submission, please use the FY 2018 President’s Budget as your previous submission. When making comparisons, please ensure that you compare same-year-to-same-year (e.g., the FY17 level for 2017 versus the FY18 level for 2017).",priorYearCostChangePY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+amountChangeFromPriorYearCY,"decimal(21,6)",,"Provide the total change of your CY current submission compared to your most recent previous submission, please use the FY 2018 President’s Budget as your previous submission. When making comparisons, please ensure that you compare same-year-to-same-year (e.g., the FY17 level for 2017 versus the FY18 level for 2017).",priorYearCostChangeCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+percentChangeFromPriorYearPY,"decimal(21,6)",,"Provide the total change of your PY current submission compared to your most recent previous submission, please use the FY 2018 President’s Budget as your previous submission. When making comparisons, please ensure that you compare same-year-to-same-year (e.g., the FY17 level for 2017 versus the FY18 level for 2017).",priorYearCostPercentageChangePY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+percentChangeFromPriorYearCY,"decimal(21,6)",,"Provide the total change of your CY current submission compared to your most recent previous submission, please use the FY 2018 President’s Budget as your previous submission. When making comparisons, please ensure that you compare same-year-to-same-year (e.g., the FY17 level for 2017 versus the FY18 level for 2017).",priorYearCostPercentageChangeCY,Section C: Life Cycle Costs,Existed,,Major Business Case Details
+planningBudgetaryResourcesPY1,"decimal(21,6)",,,planningBudgetaryResourcesPY-1,,Existed,,Major Business Case Details
+planningBudgetaryResourcesPY,"decimal(21,6)",,,planningBudgetaryResourcesPY,,Existed,,Major Business Case Details
+planningBudgetaryResourcesCY,"decimal(21,6)",,,planningBudgetaryResourcesCY,,Existed,,Major Business Case Details
+planningBudgetaryResourcesBY,"decimal(21,6)",,,planningBudgetaryResourcesBY,,Existed,,Major Business Case Details
+planningBudgetaryResourcesBY1,"decimal(21,6)",,,planningBudgetaryResourcesBY_1,,Existed,,Major Business Case Details
+planningBudgetaryResourcesBY2,"decimal(21,6)",,,planningBudgetaryResourcesBY_2,,Existed,,Major Business Case Details
+planningBudgetaryResourcesBY3,"decimal(21,6)",,,planningBudgetaryResourcesBY_3,,Existed,,Major Business Case Details
+planningBudgetaryResourcesBY4Beyond,"decimal(21,6)",,,planningBudgetaryResourcesBY_4_Beyond,,Existed,,Major Business Case Details
+updatedDate,timestamp,,,,,Existed,,Major Business Case Details
+Investment Name,varchar(500),,"Agency-provided name of Investment, consistent with Agency IT Portfolio Summary. ",,Section A.1: General Information,Existed,,Major Business Case Investments
+UII ,varchar(31),,"Agency-provided UII, consistent with Agency IT Portfolio Summary.",,Section A.1: General Information,Existed,,Major Business Case Investments
+riskName,varchar(500),,"A short description that identifies the risk, the cause of the risk and the effect that the risk may have on the Investment.",,Section A.2: Investment Risk,Existed,,Major Business Case Investments
+riskCategory,char(2),,"The relevant OMB Risk Category for each risk.
+Risk categories include:
+1) Schedule
+2) Initial costs
+3) Life cycle costs
+4) Technical obsolescence
+5) Feasibility
+6) Reliability of systems
+7) Dependencies and interoperability between this Investment and others
+8) Surety (asset protection) considerations
+9) Risk of creating a monopoly for future procurements
+10) Capability of agency to manage the Investment
+11) Overall risk of Investment failure
+12) Organizational and change management
+13) Business
+14) Data/info
+15) Technology
+16) Strategic
+17) Security
+18) Privacy
+19) Project resources
+20) Records management",,Section A.2: Investment Risk,Existed,,Major Business Case Investments
+riskProbability,varchar(6),"Low, Medium, High",The likelihood of a negative impact for the risk.,,Section A.2: Investment Risk,Existed,,Major Business Case Investments
+riskImpact,varchar(6),"Low, Medium, High",The level of a potential negative impact for the risk.,,Section A.2: Investment Risk,Existed,,Major Business Case Investments
+mitigationPlan,varchar(500),,A short description of how to mitigate the risk.,,Section A.2: Investment Risk,Existed,,Major Business Case Investments
+investmentRiskId,int,,,,,Existed,,Major Business Case Investments
+businessCaseId,int,,,,,Existed,,Major Business Case Investments
+agencyInvestmentRiskId,varchar(500),,,,,Existed,,Major Business Case Investments
+isClosed,char(1),,,,,Existed,,Major Business Case Investments
+updatedBy,varchar(255),,,,,Existed,,Major Business Case Investments
+updatedDate,timestamp,,,,,Existed,,Major Business Case Investments
