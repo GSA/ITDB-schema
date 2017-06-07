@@ -62,7 +62,7 @@ We recommend the following format for submitting issues:
   * **Description of Issue:** Describe your issue here
   * **Associated Links:** Put internal and external links to resources or data related to this issue here
 
-When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [info@itdashboard.gov](mailto:info@itdashboard.gov). 
+When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [itdashboardsupport@omb.eop.gov](mailto:itdashboardsupport@omb.eop.gov). 
 
 
 ## Contributing to the Repo
