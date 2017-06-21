@@ -53,7 +53,7 @@
     <complexType>
       <sequence>
         <element ref="businessCase-add:investmentDescription"/>
-        <element ref="businessCase-add:objectivesOrGoals"/>
+        <element ref="businessCase-add:objectivesOrGoals" minOccurs="0"/>
         <element ref="businessCase-add:returnOnInvestmentDescription"/>
         <element ref="businessCase-add:investmentRequirements" minOccurs="1"/>
         <element ref="businessCase-add:programCodeFPI"/>
@@ -61,6 +61,7 @@
         <element ref="businessCase-add:investmentSharedService"/>
         <element ref="businessCase-add:investmentPivEnabled"/>
         <element ref="businessCase-add:publicURLs" minOccurs="0"/>
+        <element ref="businessCase-add:ombControlNumbers" minOccurs="0"/> 
         <element ref="businessCase-add:pmDetails"/>
       </sequence>
     </complexType>
@@ -415,7 +416,7 @@
 
   <complexType name="objectivesOrGoalsType">
     <sequence>
-      <element ref="businessCase-add:addObjectiveOrGoal" maxOccurs="unbounded"/>
+      <element ref="businessCase-add:addObjectiveOrGoal" maxOccurs="unbounded" minOccurs="0"/>
     </sequence>
   </complexType>
   <complexType name="addObjectiveOrGoalType">
@@ -438,6 +439,14 @@
     <complexType>
       <sequence>
         <element ref="businessCase-add:publicURL" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+ 
+  <element name="ombControlNumbers">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-add:ombControlNumber" maxOccurs="unbounded"/>
       </sequence>
     </complexType>
   </element>
@@ -514,6 +523,7 @@
   <element name="investmentSharedService" type="businessCase-facet:yesNoString"/>
   <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
   <element name="publicURL" type="businessCase-type:URLString"/>
+  <element name="ombControlNumber" type="businessCase-type:shortTextString"/>  
   <element name="pmName" type="businessCase-type:shortTextString"/>
   <element name="pmEmail" type="businessCase-type:shortTextString"/>
   <element name="pmQualifications" type="businessCase-facet:projectManagerQualification"/>

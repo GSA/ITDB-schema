@@ -40,7 +40,10 @@
               <businessCase-response:publicURLs>
                 <businessCase-response:publicURL></businessCase-response:publicURL>
               </businessCase-response:publicURLs>
-              <businessCase-response:pmDetails>
+              <businessCase-response:ombControlNumbers>
+                <businessCase-response:ombControlNumber></businessCase-response:ombControlNumber>
+              </businessCase-response:ombControlNumbers>
+                <businessCase-response:pmDetails>
                 <businessCase-response:pmName>a</businessCase-response:pmName>
                 <businessCase-response:pmEmail>a</businessCase-response:pmEmail>
                 <businessCase-response:pmQualifications>1</businessCase-response:pmQualifications>

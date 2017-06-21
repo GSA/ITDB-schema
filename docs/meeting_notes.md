@@ -1,4 +1,31 @@
-r Check-In Notes**
+**Vendor Check-In Notes**
+
+**June 14, 2017**
+
+In Room: Nico Ojeda OMB REI, Justin Grime OMB, Austin Moffa OMB TCG, Jeff Rossman OMB TCG
+
+On Phone: Kimler Corey OMB TCG, Tsisti Llewali OMB TCG, Dan York GSA, Giha OMB REI, Barry Cannel DHS, Bill Gehrke Oracle HHS, Treasury
+
+Purpose: Give vendors an update on our development efforts and address the action items from last week
+
+**Recap:**
+
+No slippage, no major deliverables this week.
+
+To improve - taking notes, making notes more available. Putting out agenda beforehand.
+
+Data dictionary availability, context, validations. Discussed selective prioritization of deliverables.
+
+**New:**
+
+Question preference: via e-mail or github. (Specifically a question regarding DOD and funding source level/investment level.)
+
+Emphasized -- if questions are agency specific/sensitive, use helpdesk e-mail. If uncertain, you can make a reference ticket for the following meeting.
+
+Clarify -- xsd, xsd+ (data dictionary) does or does not include validations? Answer: XSD+ will come with all supplemental technical material
+
+
+** Check-In Notes**
 **June 7, 2017**
 
 In Room: Srida Malsava Treasury, Austin Moffa OMB TCG, Keith Ott eCPIC, Mitchell Jarrett OMB TCG, Nico Ojeda OMB REI, Todd Messer OMB TCG, Justin Grimes OMB, Dan York eCPIC

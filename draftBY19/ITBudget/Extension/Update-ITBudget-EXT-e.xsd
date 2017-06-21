@@ -332,7 +332,7 @@
                     <xsd:element ref="update-ITBudget-ext:TotalCloudPaaSIaaSCostCY"/>
                     <xsd:element ref="update-ITBudget-ext:TotalCloudSaaSCostCY"/>
                     <xsd:element ref="update-ITBudget-ext:TotalOtherManagedServicesCostCY"/>
-                    <!-- DEPRECATED? --><xsd:element ref="update-ITBudget-ext:FundingSourceLineItems"/>
+                    <xsd:element ref="update-ITBudget-ext:FundingSourceLineItems"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -517,7 +517,7 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterID" type="niem-core:TextType">
+    <xsd:element name="DataCenterID" type="nc:TextType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>

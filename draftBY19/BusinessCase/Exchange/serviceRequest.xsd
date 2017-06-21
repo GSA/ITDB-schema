@@ -16,7 +16,7 @@
         xmlns:businessCase-facet="urn:us:gov:businessCase-facet"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         elementFormDefault="qualified"
-        version="FY_2017">
+        version="FY_2019">
 
   <annotation>
     <documentation>
@@ -790,6 +790,7 @@
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>
+      <element name="ombControlNumbers" type="tns:ombControlNumberType" minOccurs="0"/>
       <element name="pmDetails" type="tns:pmDetailsType" minOccurs="0"/>
       <element name="updateFundingDetails" type="tns:updateFundingDetailsType" minOccurs="0"/>
       <element name="changesFromPreviousBudget" type="businessCase-type:mediumTextString" minOccurs="0"/>
@@ -896,6 +897,12 @@
   <complexType name="publicURLsType">
     <sequence>
       <element name="publicURL" type="businessCase-type:URLString" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="ombControlNumberType">
+    <sequence>
+      <element name="ombControlNumber" type="businessCase-type:shortTextString" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
   </complexType>
 
