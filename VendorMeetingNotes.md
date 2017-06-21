@@ -7,7 +7,7 @@ The most recent meeting will always be on top
 **In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
 
 **On Phone:** Treasury, HHS, DHS, Oracle
-
+  
 **Purpose:** Give vendors an update on our development efforts and address the action items from last week
 
 **Timeline (posted on the GitHub page)**
