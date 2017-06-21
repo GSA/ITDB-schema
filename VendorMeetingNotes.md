@@ -15,18 +15,21 @@ Currently on schedule to deliver XSD-Candidate (v1.9.0) July 5th
        Including API and UAT
 Currently on schedule to deliver XSD-Candidate **Plus** (v1.9.0) July 31st
 
+
+
 **Recap last meeting and actions**
 1.	Meeting notes from previous meetings are posted to GitHub and the Agenda outline
- 
 2.	New draft of the XSD was just pushed today, will be finalized directly after meeting
  * Plan is to start doing weekly push in order to get more
  * Will happen Monday COB
  * Can send a follow-up email with the instructions on how to get the diff between files
 
 
+
 **Review new Deliverables from previous week**
-1.	Data Dictionary - Being wrapped up this week after final review, enumerations included in the Description and Example
-2.	Emphasized Austin’s field mapping will be subsumed by the data dictionary– if questions are agency specific/sensitive, use helpdesk e-mail. If uncertain, you can make a reference ticket for the following meeting.
+1. Data Dictionary - Being wrapped up this week after final review, enumerations included in the Description and Example
+2. Emphasized Austin’s field mapping will be subsumed by the data dictionary– if questions are agency specific/sensitive, use helpdesk e-mail. If uncertain, you can make a reference ticket for the following meeting.
+
 
 
 **Recap Tickets / Questions**
@@ -35,10 +38,12 @@ Currently on schedule to deliver XSD-Candidate **Plus** (v1.9.0) July 31st
 3. Would like vendors to use Issues section of the GitHub page for as many questions and problems as possible
 
 
+
 **General comments**
 1.	None
 2.	Is it more useful to be able to submit data and have it validate against the schema or that it goes into database?
  * Structure is more important and validations are important as well 
+ 
  
  
 **Next meeting**
