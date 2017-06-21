@@ -2,6 +2,40 @@
 The most recent meeting will always be on top
 
 
+## June 14th, 2017
+
+**In Room:** Nico Ojeda OMB REI, Justin Grime OMB, Austin Moffa OMB TCG, Jeff Rossman OMB TCG
+
+**On Phone:** Kimler Corey OMB TCG, Tsisti Llewali OMB TCG, Dan York GSA, Giha OMB REI, Barry Cannel DHS, Bill Gehrke Oracle HHS, Dan … Treasury
+
+**Purpose:** Give vendors an update on our development efforts and address the action items from last week
+
+**Timeline (posted on the GitHub page)**
+Currently on schedule to deliver XSD-Candidate (v1.9.0) July 5th 
+
+**Recap**
+1.	No slippage, no major deliverables this week.
+
+2.	To improve - taking notes, making notes more available. Putting out agenda beforehand.
+
+3.	Data dictionary availability, context, validations. Discussed selective prioritization of deliverables.
+
+**New**
+1.	Question preference: via e-mail or github. (Specifically a question regarding DOD and funding source level/investment level.)
+
+2.	Emphasized – if questions are agency specific/sensitive, use helpdesk e-mail. If uncertain, you can make a reference ticket for the following meeting.
+
+3.	Clarify – xsd, xsd+ (data dictionary) does or does not include validations? Answer: XSD+ will come with all supplemental technical material
+
+
+**Action Items for Next Meeting**
+1.	Official communication to explain issue submission protocol/etiquette. 
+2.	Provide information regarding technical discussion/overview for the upcoming week.
+
+
+
+
+
 ## June 7th, 2017
 
 **In Room:** Srida Malsava Treasury, Austin Moffa OMB TCG, Keith Ott eCPIC, Mitchell Jarrett OMB TCG, Nico Ojeda OMB REI, Todd Messer OMB TCG, Justin Grimes OMB, Dan York eCPIC
