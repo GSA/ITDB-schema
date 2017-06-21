@@ -2,6 +2,60 @@
 The most recent meeting will always be on top
 
 
+## June 21st, 2017
+
+**In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
+
+**On Phone:** Treasury, HHS, DHS, Oracle
+
+**Purpose:** Give vendors an update on our development efforts and address the action items from last week
+
+**Timeline (posted on the GitHub page)**
+Currently on schedule to deliver XSD-Candidate (v1.9.0) July 5th
+       Including API and UAT
+Currently on schedule to deliver XSD-Candidate **Plus** (v1.9.0) July 31st
+
+**Recap last meeting and actions**
+1.	Meeting notes from previous meetings are posted to GitHub and the Agenda outline
+ 
+2.	New draft of the XSD was just pushed today, will be finalized directly after meeting
+ * Plan is to start doing weekly push in order to get more
+ * Will happen Monday COB
+ * Can send a follow-up email with the instructions on how to get the diff between files
+
+
+**Review new Deliverables from previous week**
+1.	Data Dictionary - Being wrapped up this week after final review, enumerations included in the Description and Example
+2.	Emphasized Austin’s field mapping will be subsumed by the data dictionary– if questions are agency specific/sensitive, use helpdesk e-mail. If uncertain, you can make a reference ticket for the following meeting.
+
+
+**Recap Tickets / Questions**
+1. 2 new questions posted to GitHub since last week&#39;s meeting.
+2. Answered question on Capability codes working on answering AITPS Validations
+3. Would like vendors to use Issues section of the GitHub page for as many questions and problems as possible
+
+
+**General comments**
+1.	None
+2.	Is it more useful to be able to submit data and have it validate against the schema or that it goes into database?
+ * Structure is more important and validations are important as well 
+ 
+ 
+**Next meeting**
+Whiteboard Session to replace next week’s Wednesday Vendor Call
+ * **WHEN:** Thursday, June 29 1:00-2:30pm
+ * **WHERE:** GSA HQ, 1800 F St NW, Room 1420
+ * **PURPOSE:** Walk through a few scenarios on whiteboard to walk through cases of investments and important scenarios
+
+
+**Action Items for Next Meeting**
+1. Add enumerations explicitly in the data dictionary file by Thursday
+2. Begin pushing XSD updates by Monday COB
+3. Get to final blanket answer for Optional and Required fields by Thursday
+4. Send invite for next meeting as well as scope and risks as follow up to this meeting by COBOfficial communication to explain issue submission protocol/etiquette. 
+
+
+
 ## June 14th, 2017
 
 **In Room:** Nico Ojeda OMB REI, Justin Grime OMB, Austin Moffa OMB TCG, Jeff Rossman OMB TCG
