@@ -567,6 +567,9 @@
         <publicURLs>
           <publicURL>http:://agency.gov</publicURL>
         </publicURLs>
+        <ombControlNumbers>
+          <ombControlNumber>000</ombControlNumber>
+        </ombControlNumbers>
         <pmDetails>
           <pmName>a</pmName>
           <pmEmail>a</pmEmail>

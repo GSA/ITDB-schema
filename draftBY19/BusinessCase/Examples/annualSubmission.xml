@@ -35,6 +35,9 @@
               <businessCase-update:publicURLs>
                 <businessCase-update:publicURL>http://agency.gov</businessCase-update:publicURL>
               </businessCase-update:publicURLs>
+              <businessCase-update:ombControlNumbers>
+                <businessCase-update:ombControlNumber>000</businessCase-update:ombControlNumber>
+              </businessCase-update:ombControlNumbers>
               <businessCase-update:pmDetails>
                 <businessCase-update:pmName>a</businessCase-update:pmName>
                 <businessCase-update:pmEmail>a</businessCase-update:pmEmail>
