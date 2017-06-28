@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itdashboard.gov/service"
+        xmlns:tns="http://www.itdashboard.gov/service"
+        xmlns:cioRating-update="urn:us:gov:cioRating-update"
+        xmlns:cioRating-type="urn:us:gov:cioRating-type"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        elementFormDefault="qualified"
+        version="FY_2019">
+
+  <annotation>
+    <documentation>
+      1. This schema should be used to Submit Data to ITDashboard.
+      2. Any dates that are referred in this schema should be in 'YYYY-MM-DD' format.
+    </documentation>
+  </annotation>
+
+  <import namespace="urn:us:gov:cioRating-update" schemaLocation="../Extension/updateCIORating.xsd"/>
+  <import namespace="urn:us:gov:cioRating-type" schemaLocation="../Subset/cioRatingTypes.xsd"/>
+
+  <element name="operations" type="tns:operationsType"/>
+
+  <complexType name="operationsType">
+    <sequence>
+      <element name="cioRatingInformation" type="tns:cioRatingInformationType" maxOccurs="unbounded"/>
+    </sequence>
+    <attribute name="validateOnlyIndicator" type="boolean"/>
+  </complexType>
+
+  <complexType name="cioRatingInformationType">
+    <choice>
+      <element name="getInformation" type="tns:getCIORatingInformationType"/>
+      <element name="monthlySubmission" type="tns:monthlySubmissionType"/>
+    </choice>
+  </complexType>
+
+  <complexType name="getCIORatingInformationType">
+    <sequence>
+      <element name="getCIORating" type="cioRating-update:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="monthlySubmissionType">
+    <sequence>
+      <element name="updateCIORating" type="cioRating-update:updateCIORatingType" minOccurs="0" maxOccurs="unbounded">
+        <annotation>
+          <documentation>
+            This operation is used to update CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+      <element name="setCIORating" type="cioRating-update:setCIORatingType" minOccurs="0" maxOccurs="unbounded">
+        <annotation>
+          <documentation>
+            This operation is used to set CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="operationsOut">
+    <choice>
+      <element name="getCIORating" type="cioRating-update:getInformationType"/>
+      <element name="setCIORating" type="cioRating-update:setCIORatingType"/>
+    </choice>
+  </complexType>
+
+</schema>
