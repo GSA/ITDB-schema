@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="urn:us:gov:cioRating-update"
+        xmlns:cioRating-type="urn:us:gov:cioRating-type"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:cioRating-update="urn:us:gov:cioRating-update"
+        version="FY_2019">
+  <annotation>
+    <documentation>
+      1. This schema SHOULD NOT BE directly used to Submit Data to ITDashboard.
+      2. Any dates that are referred in this schema should be in 'YYYY-MM-DD' format.
+    </documentation>
+  </annotation>
+
+  <import namespace="urn:us:gov:cioRating-type" schemaLocation="../Subset/cioRatingTypes.xsd"/>
+
+  <element name="capitalAssetPlan">
+    <complexType>
+      <sequence>
+        <element ref="cioRating-update:capitalAssetSummary"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="capitalAssetSummary">
+    <complexType>
+      <sequence>
+        <element ref="cioRating-update:setCIORating" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+
+  <complexType name="setCIORatingType">
+    <sequence>
+      <element ref="cioRating-update:uniqueInvestmentIdentifier"/>
+      <element ref="cioRating-update:cioRatingEval"/>
+      <element ref="cioRating-update:cioComment"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="getInformationType">
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+  <element name="setCIORating" type="cioRating-update:setCIORatingType"/>
+  <element name="uniqueInvestmentIdentifier" type="cioRating-type:investmentIdentifierType"/>
+  <element name="cioRatingEval" type="cioRating-type:cioRatingType"/>
+  <element name="cioComment" type="cioRating-type:longTextString"/>
+
+</schema>

@@ -60,7 +60,7 @@
     </xsd:element>
 	<xsd:element name="MessageInformation" type="get-ITBudget-ext:MessageInformationType">
 		<xsd:annotation>
-			<xsd:documentation>Information related not to a particuliar investment but to the message itself is contained here.</xsd:documentation>
+			<xsd:documentation>Information related not to a particular investment but to the message itself is contained here.</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
 </xsd:schema>

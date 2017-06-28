@@ -136,10 +136,10 @@
         <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </updatePerformanceMetric>
-      <updateCIORating id="String">
+      <setCIORating id="String">
         <cioRatingEval>1</cioRatingEval>
         <cioComment>a</cioComment>
-      </updateCIORating>
+      </setCIORating>
       <updateOperationalAnalysis id="String">
         <dateOfAnalysis>2015-03-06</dateOfAnalysis>
         <analysisResults>test.</analysisResults>
