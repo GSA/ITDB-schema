@@ -67,7 +67,7 @@ We recommend the following format for submitting issues:
 
 When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [itdashboardsupport@omb.eop.gov](mailto:itdashboardsupport@omb.eop.gov). 
 
-Below you will find documentation outlining the GitHub Issue Process
+Below you will find documentation outlining the GitHub Issue Process:
   * [Issue Work Flow](https://github.com/ombegov/ITDB-schema/blob/master/GitHubFlowChart2.jpg)
   * [Issue Review Process](https://github.com/ombegov/ITDB-schema/blob/master/GitHub_Flow-v2.jpg)
 
