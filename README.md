@@ -67,14 +67,15 @@ We recommend the following format for submitting issues:
 
 When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [itdashboardsupport@omb.eop.gov](mailto:itdashboardsupport@omb.eop.gov). 
 
+Below you will find documentation outlining the GitHub Issue Process
+  * [Issue Work Flow](https://github.com/ombegov/ITDB-schema/blob/master/GitHubFlowChart2.jpg)
+  * [Issue Review Process](https://github.com/ombegov/ITDB-schema/blob/master/GitHub_Flow-v2.jpg)
+
 
 ## Contributing to the Repo
 
 If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive the pull request, we will review the suggested list of changes and update the status. Track the status of your pull request here: [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls).
 
-  * **GitHub Issues Work Flow**
-    * [Issue Work Flow](https://github.com/ombegov/ITDB-schema/blob/master/GitHubFlowChart2.jpg)
-    * [Issue Review Process](https://github.com/ombegov/ITDB-schema/blob/master/GitHub_Flow-v2.jpg)
 
 
 
