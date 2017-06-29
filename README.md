@@ -1,5 +1,5 @@
 # ITDB-schema
-This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest OMB CPIC Guidance, XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
+This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
  
  * Community members should be able to download the latest [CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD and XML files.
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
@@ -39,6 +39,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 ## Quick Links to Files
 
+  * **Guidance**
+    * [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)
+    * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
   * **XSD**
     * [BusinessCase](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Exchange)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Exchange)
@@ -69,10 +72,12 @@ When submitting issues on GitHub, do not include any sensitive data. If you have
 
 If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive the pull request, we will review the suggested list of changes and update the status. Track the status of your pull request here: [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls).
 
+  * **GitHub Issues Work Flow**
+    * [1](https://github.com/ombegov/ITDB-schema/GitHubFlowChart2.jpg)
+    * [2](https://github.com/ombegov/ITDB-schema/GitHub_Flow-v2.jpg)
 
-GitHubFlowChart2.jpg
 
-GitHub_Flow-v2.jpg
+
 
 
 
