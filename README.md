@@ -1,7 +1,7 @@
 # ITDB-schema
 This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest OMB CPIC Guidance, XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
  
- * Community members should be able to download the latest CPIC Guidance, XSD and XML files.
+ * Community members should be able to download the latest [CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD and XML files.
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
@@ -12,7 +12,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
 | 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  DONE |
-| &#x2714; | [FY19 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY19_Guidance.pdf)   |  DONE  |
+| &#x2714; | [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)   |  DONE  |
 | &#x2714;  | Baseline XSD Schema   | DONE  |
 | &#x2714;  | Baseline XML Sample Files   | DONE |
 | &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
