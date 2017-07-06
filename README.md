@@ -30,11 +30,12 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Published Baseline XSD (v1.8.x)|  May 19, 2017 |
 |  Publish Baseline XSD Plus (v1.8.x)|  May 26, 2017 |
 |  Validation logic development | June 2017  |
+| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
 |  Target Date for XSD Candidate (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
 |  Final XSD (v1.9.x) shared to vendors    |  TBD  |
 |  Final XSD **Plus** (v1.9.x)  |  TBD |
-| [2019 UAT Server Avaiable](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
+
 
 
 
