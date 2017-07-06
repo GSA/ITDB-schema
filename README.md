@@ -20,7 +20,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714; | [How to submit data to IT Dashboard](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions.pdf) | DONE  |
 |  | Diagram of submission process  | SOON  |
 |  | Archive versions (BY17, BY16, etc) | TBD  |
-| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
+| &#x2714; | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
 
 ## Important Dates
 
