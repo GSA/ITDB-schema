@@ -1,6 +1,43 @@
 # Weekly Notes from CPIC Vendor Meeting
 The most recent meeting will always be on top
 
+## June 29th, 2017
+
+**In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
+
+**On Phone:** Treasury, HHS, DHS, Oracle
+  
+**Purpose:** Whiteboarding Session
+
+**Action Items**
+1.	Text files process is between API, or Excel and the Agencies prefer Excel since that is the process they have been utilizing for past years. Follow up with Ateam.
+ * Note: What task is required from development team.
+
+2.	PIID is not a valid request for future contracts. Confirm with Kelly to remove the Field from the FY19 Guidance.
+
+3.	GitHub ownership for the FY19 Guidance, with a n synopsis of changes, as they occur, action is to speak with Kelly regarding further updates to the guidance.
+
+4.	FAQs for FY19 Guidance, there was one for FY18 but nothing for FY19, I have attached the link for FY18 FAQs for your convenience.
+ * Official FY 2018 Budget Guidance on IT Capital Planning
+
+5.	UII decision - when the previous investments are broken into the newer reporting methodology do they carry the UII over or should they have new UIIs?
+ * Our recommendation is when an investment is separated to follow the new methodology it should be carried over with a new UII. Much easier for traceability and future reporting
+
+6.	Pending confirmation for field validation on “Optional Fields”.
+
+
+**Pending questions:**
+1.	When an investment is broken into different types to meet the TBM requirements should it carry the same UII for the larger chunk?
+2.	CIO evaluation should it be part of business case for major investments and different section for other investment types?
+ * Our recommendation is CIO evaluation should be a separate section regardless of the type of investment.
+ 
+ 
+**Weekly Commitment:**
+1.	Updated XML Schema
+2.	Updated Data Dictionary
+3.	Update to Guidance – Justin will own this piece
+
+
 
 ## June 21st, 2017
 
