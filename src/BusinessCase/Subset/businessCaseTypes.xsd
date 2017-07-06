@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
 <schema xmlns:businessCase-type="urn:us:gov:businessCase-type" targetNamespace="urn:us:gov:businessCase-type"
         version="FY_2016" xmlns="http://www.w3.org/2001/XMLSchema">
   <simpleType name="longTextString">
@@ -21,7 +29,12 @@
       <maxLength value="20"/>
     </restriction>
   </simpleType>
-  <simpleType name="string50">
+  <simpleType name="string25">
+    <restriction base="string">
+      <maxLength value="25"/>
+    </restriction>
+   </simpleType>
+   <simpleType name="string50">
     <restriction base="string">
       <maxLength value="50"/>
     </restriction>
@@ -146,7 +159,7 @@
   </simpleType>
   <simpleType name="governmentFTENumberType">
     <restriction base="decimal">
-      <pattern value="([0-9]{1,10})?(\.[0-9]{0,1})?"/>
+      <pattern value="([0-9]{1,10})?(\.[0-9]{1,2})?"/>
     </restriction>
   </simpleType>
   <simpleType name="programCodeFPIType">

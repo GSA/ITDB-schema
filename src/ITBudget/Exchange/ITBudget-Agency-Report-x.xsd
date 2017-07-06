@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
 <xsd:schema xmlns:ITBudget="urn:us:gov:ITBudget" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:get-ITBudget-ext="urn:us:gov:get-ITBudget-ext" xmlns:update-ITBudget-ext="urn:us:gov:update-ITBudget-ext" targetNamespace="urn:us:gov:ITBudget" elementFormDefault="qualified" version="4.0.0">
 	<xsd:annotation>
 		<xsd:documentation/>

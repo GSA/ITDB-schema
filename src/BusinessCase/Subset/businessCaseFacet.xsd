@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
 <schema xmlns:businessCase-facet="urn:us:gov:businessCase-facet" targetNamespace="urn:us:gov:businessCase-facet"
         version="FY_2016" xmlns="http://www.w3.org/2001/XMLSchema">
   <simpleType name="reviseOptionType">
@@ -376,30 +384,10 @@
       </enumeration>
       <enumeration value="2">
         <annotation>
-          <documentation>Spiral</documentation>
+          <documentation>Iterative: Incremental, Spiral, Agile</documentation>
         </annotation>
       </enumeration>
       <enumeration value="3">
-        <annotation>
-          <documentation>Iterative (Prototyping/Incremental)</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="4">
-        <annotation>
-          <documentation>Agile</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="5">
-        <annotation>
-          <documentation>Mixed</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="6">
-        <annotation>
-          <documentation>Other</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="7">
         <annotation>
           <documentation>Not Primarily a Software Development Project</documentation>
         </annotation>
@@ -410,7 +398,7 @@
     <restriction base="string">
       <enumeration value="1">
         <annotation>
-          <documentation>Customer Satisfaction (Results)</documentation>
+          <documentation>Customer Satisfaction (Process Results)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2">
@@ -462,6 +450,35 @@
       <enumeration value="5">
         <annotation>
           <documentation>Other</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+   <simpleType name="analysisConclusionType">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>continue as is</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>initiate remediation action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>initiate innovation action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>initiate modernization/replacement action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>initiate disposal action</documentation>
         </annotation>
       </enumeration>
     </restriction>
