@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itdashboard.gov/service"
+        xmlns:tns="http://www.itdashboard.gov/service"
+        xmlns:cioRating-type="urn:us:gov:cioRating-type"
+        elementFormDefault="qualified"
+        version="FY_2019">
+
+  <annotation>
+    <documentation>
+      1. This schema should be used to Submit Data to ITDashboard.
+      2. Any dates that are referred in this schema should be in 'YYYY-MM-DD' format.
+    </documentation>
+  </annotation>
+
+  <import namespace="urn:us:gov:cioRating-type" schemaLocation="../Subset/cioRatingTypes.xsd"/>
+
+  <element name="operations" type="tns:operationsType"/>
+
+  <complexType name="operationsType">
+    <sequence>
+      <element name="cioRatingInformation" type="tns:cioRatingInformationType" maxOccurs="unbounded"/>
+    </sequence>
+    <attribute name="validateOnlyIndicator" type="boolean"/>
+  </complexType>
+
+  <complexType name="cioRatingInformationType">
+    <choice>
+      <element name="getInformation" type="tns:getCIORatingInformationType"/>
+      <element name="monthlySubmission" type="tns:monthlySubmissionType"/>
+    </choice>
+    <attribute name="uniqueInvestmentIdentifier" type="cioRating-type:investmentIdentifierType" use="required"/>
+  </complexType>
+
+  <complexType name="getCIORatingInformationType">
+    <sequence>
+        <element name="getCIORating" type="tns:getInformationType" minOccurs="0">
+        <annotation>
+          <documentation>
+            This operation is used get CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+  <complexType name="monthlySubmissionType">
+    <sequence>
+        <element name="setCIORating" type="tns:setCIORatingType" minOccurs="0" maxOccurs="unbounded">
+        <annotation>
+          <documentation>
+            This operation is used to set CIO rating.
+          </documentation>
+        </annotation>
+      </element>
+    </sequence>
+  </complexType>
+
+   <complexType name="setCIORatingType">
+     <sequence>
+       <element name="cioRatingEval" type="cioRating-type:cioRatingType"/>
+       <element name="cioComment" type="cioRating-type:longTextString"/>
+     </sequence>
+     <attribute name="id" type="string" use="required"/>
+   </complexType>
+
+  <complexType name="operationsOut">
+    <choice>
+      <element name="getCIORating" type="tns:getInformationType"/>
+      <element name="setCIORating" type="tns:setCIORatingType"/>
+    </choice>
+  </complexType>
+
+  <complexType name="getInformationType">
+    <attribute name="id" type="string" use="required"/>
+  </complexType>
+
+</schema>

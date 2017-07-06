@@ -1,0 +1,28 @@
+<towers>	
+    <tower>	
+        <operation>add</operation><!--add,update-->
+        <towerDetails>
+            <reportType>Security And Compliance</reportType>
+            <investmentName>secinvestment1</investmentName>
+            <UII>018-91231</UII>
+        </towerDetails>
+        <costsAndCapabilities>
+            <costAndCapability>
+                <NISTFrameworkCategory>1</NISTFrameworkCategory>
+                <capability>3</capability>
+                <purposeOrOutcome>Debug</purposeOrOutcome>
+                <PY>10</PY>
+                <CY>15</CY>
+                <BY>12</BY>
+            </costAndCapability>			
+            <costAndCapability>
+                <NISTFrameworkCategory>2</NISTFrameworkCategory>
+                <capability>5</capability>
+                <purposeOrOutcome>Debug2</purposeOrOutcome>
+                <PY>11</PY>
+                <CY>21</CY>
+                <BY>15</BY>
+            </costAndCapability>		
+        </costsAndCapabilities>
+    </tower>
+</towers>
