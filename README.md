@@ -20,6 +20,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714; | [How to submit data to IT Dashboard](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions.pdf) | DONE  |
 |  | Diagram of submission process  | SOON  |
 |  | Archive versions (BY17, BY16, etc) | TBD  |
+| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
 
 ## Important Dates
 
@@ -30,7 +31,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Published Baseline XSD (v1.8.x)|  May 19, 2017 |
 |  Publish Baseline XSD Plus (v1.8.x)|  May 26, 2017 |
 |  Validation logic development | June 2017  |
-| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| Done|
+| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017 Done|
 |  Target Date for XSD Candidate (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
 |  Final XSD (v1.9.x) shared to vendors    |  TBD  |
