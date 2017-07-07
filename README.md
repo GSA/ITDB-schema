@@ -50,9 +50,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
     * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
     * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/BY19%20CPIC%20Tables%20(Data%20Dictionary).xlsx)
   * **XSD**
-    * [BusinessCase](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Exchange)
-    * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Exchange)
     * [BY19 Draft](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19)
+    * [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src)
   * **SAMPLE XML**
     * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
