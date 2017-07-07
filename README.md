@@ -19,6 +19,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
 | &#x2714;  | [Technical Documents](https://github.com/ombegov/ITDB-schema/tree/master/docs/TechnicalDocumentation)   | DONE  |
 | &#x2714; | [How to submit data to IT Dashboard](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions.pdf) | DONE  |
+| &#x2714; | [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | DONE |
 | &#x2714; | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| DONE |
 |  | Diagram of submission process  | SOON  |
 |  | Archive versions (BY17, BY16, etc) | TBD  |
@@ -34,7 +35,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Publish Baseline XSD Plus (v1.8.x)|  May 26, 2017 |
 |  Validation logic development | June 2017  |
 | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017|
-|  Target Date for XSD Candidate (v1.9.0) shared to vendors    |  July 5, 2017  |
+|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
 |  Final XSD (v1.9.x) shared to vendors    |  TBD  |
 |  Final XSD **Plus** (v1.9.x)  |  TBD |
