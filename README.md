@@ -47,6 +47,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
   * **Guidance**
     * [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)
+    * [FY19 Guidance FAQs](https://community.max.gov/download/attachments/1206026892/CPIC%20CoP%20Meeting_20170627.pptx?api=v2)
     * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
     * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/BY19%20CPIC%20Tables%20(Data%20Dictionary).xlsx)
   * **XSD**
