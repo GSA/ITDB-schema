@@ -1,0 +1,38 @@
+<tower>
+    <category>DataCenter</category>
+    <towerDetails>
+        <investmentName></investmentName>
+        <UII></UII>
+        <agencyCode></agencyCode>
+        <bureauCode></bureauCode>
+        <dataCenterId></dataCenterId>
+        <federalRealPropertyProfileID></federalRealPropertyProfileID>
+        <PIID></PIID>
+    </towerDetails>
+    <investmentCostDetails>
+        <investmentCostDetail>
+            <category>Data Center</category>
+            <PY>100</PY>
+            <CY>10</CY>
+            <BY>120</BY>	
+        </investmentCostDetail>
+    </investmentCostDetails>	
+
+    <contracts>	
+        <contract>
+            <status>existing</status>
+            <PIID>12345</PIID>
+            <solicitationId>12345</solicitationId>	
+            <isPhysicalDataCenter></isPhysicalDataCenter>
+            <taskOrderCompletionDt></taskOrderCompletionDt>
+        </contract>	
+        <contract>
+            <status>future</status>
+            <acquisitionStrategy>A brief description of the strategy</acquisitionStrategy>
+            <solicitationId>54321</solicitationId>
+            <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+            <isPhysicalDataCenter></isPhysicalDataCenter>
+        </contract>
+    </contracts>
+
+</tower>

@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-   Copyright 2009-2017 United States Government.
-
-   This software is licensed under the GNU General Public License
-   version 2 (see the file LICENSE for details)
--->
-
 <xsd:schema xmlns:response-ITBudget-ext="urn:us:gov:response-ITBudget-ext"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:i="http://niem.gov/niem/appinfo/2.0"
             xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:ITBudgetFacet="urn:us:gov:ITBudget-facets"
@@ -19,11 +11,15 @@
             <i:ConformantIndicator>true</i:ConformantIndicator>
         </xsd:appinfo>
     </xsd:annotation>
-    <xsd:import namespace="http://niem.gov/niem/appinfo/2.0" schemaLocation="../Subset/niem/appinfo/2.0/appinfo.xsd"/>
-    <xsd:import namespace="http://niem.gov/niem/structures/2.0" schemaLocation="../Subset/niem/structures/2.0/structures.xsd"/>
+    <xsd:import namespace="http://niem.gov/niem/appinfo/2.0"
+                schemaLocation="../Subset/niem/appinfo/2.0/appinfo.xsd"/>
+    <xsd:import namespace="http://niem.gov/niem/structures/2.0"
+                schemaLocation="../Subset/niem/structures/2.0/structures.xsd"/>
     <xsd:import namespace="urn:us:gov:ITBudget-facets" schemaLocation="../Subset/ITBudget-facet.xsd"/>
-    <xsd:import namespace="http://niem.gov/niem/niem-core/2.0" schemaLocation="../Subset/niem/niem-core/2.0/niem-core.xsd"/>
-    <xsd:import namespace="http://niem.gov/niem/proxy/xsd/2.0" schemaLocation="../Subset/niem/proxy/xsd/2.0/xsd.xsd"/>
+    <xsd:import namespace="http://niem.gov/niem/niem-core/2.0"
+                schemaLocation="../Subset/niem/niem-core/2.0/niem-core.xsd"/>
+    <xsd:import namespace="http://niem.gov/niem/proxy/xsd/2.0"
+                schemaLocation="../Subset/niem/proxy/xsd/2.0/xsd.xsd"/>
     <xsd:complexType name="AnnualBudgetType">
         <xsd:annotation>
             <xsd:appinfo>
@@ -33,8 +29,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:AgencyFundingAmount" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:AgencyContributionAmount" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:AgencyFundingAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:AgencyContributionAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -48,8 +46,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -63,9 +63,12 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:PriorYear" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:CurrentYear" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:BudgetYear" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:PriorYear" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CurrentYear" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:BudgetYear" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -79,14 +82,17 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:BudgetYearAmount" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:BudgetYearAmount" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
-    <xsd:complexType name="BudgetAccountType">
+    <xsd:complexType name="ProvisionedITSummaryType">
         <xsd:annotation>
             <xsd:appinfo>
                 <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
@@ -95,9 +101,40 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:FundingCode"/>
-                    <xsd:element ref="response-ITBudget-ext:CIOAuthorityAmount"/>
-                    <xsd:element ref="response-ITBudget-ext:TotalAgencyFunding"/>
+                    <xsd:element ref="response-ITBudget-ext:PublicCloud" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:PrivateCloud" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CommunityCloud" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:HybridCloud" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DeploymentModelOtherService" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ResponseInformation" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="DataCenterSpendingSummaryType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterLabor" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterSoftware" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterHardware" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterElectricity" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterFacility" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -116,7 +153,7 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
-    <xsd:complexType name="CostPoolsType">
+    <xsd:complexType name="BudgetAccountType">
         <xsd:annotation>
             <xsd:appinfo>
                 <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
@@ -125,56 +162,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:CostPool" maxOccurs="unbounded"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="CostPoolType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:CostPoolCategory"/>
-                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount"/>
-                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount"/>
-                    <xsd:element ref="response-ITBudget-ext:BudgetYearAmount"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="DataCenterInventoryType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterID" minOccurs="0" maxOccurs="unbounded"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="DataCenterSpendingSummaryType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterLabor" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterSoftware" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterHardware" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterElectricity" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterFacility" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingCode"/>
+                    <xsd:element ref="response-ITBudget-ext:CIOAuthorityAmount"/>
+                    <xsd:element ref="response-ITBudget-ext:SummaryOandM"/>
+                    <xsd:element ref="response-ITBudget-ext:SummaryDME"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -188,8 +179,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:FundingSourceName" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:AlternativeBureauCode" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceName" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:AlternativeBureauCode" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -203,7 +196,8 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:FundingSourceLineItem" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceLineItem" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -217,10 +211,14 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:FundingSourceUniqueInvestmentID" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:FundingCode" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:FundingSourceCharacterization" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:OandM" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceUniqueInvestmentID"
+                                 minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingCode" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceCharacterization" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:OandM" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:DME" minOccurs="0" maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
@@ -235,8 +233,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:CurrentUII" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:FundingSourceInvestmentLineStructure" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CurrentUII" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceInvestmentLineStructure"
+                                 minOccurs="0" maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -278,6 +278,23 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+    <xsd:complexType name="InvestmentPortfolioClassificationsType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="response-ITBudget-ext:CrossBoundaryInformationIdentifier" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:SupportsAntiTerrorismISE"
+                                 minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
     <xsd:complexType name="InvestmentStatusChangeType">
         <xsd:annotation>
             <xsd:appinfo>
@@ -287,8 +304,10 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:StatusIdentifier" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:AgencyReasonforChange" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:StatusIdentifier" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:AgencyReasonforChange" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -303,6 +322,7 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="response-ITBudget-ext:ITPortfolio" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ProvisionedITSummary" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:DataCenterSpendingSummary" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:BudgetAccountSummary" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:MessageInformation" minOccurs="0"/>
@@ -322,49 +342,22 @@
                     <xsd:element ref="response-ITBudget-ext:UniqueInvestmentID" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:InvestmentCharacterization" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:InvestmentStatusChange" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:InvestmentPortfolioClassification" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FunctionalBusinessSponsorInformation" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:OandM" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:DME" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="resposne-ITBudget-ext:CostPools" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:ITTowers" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:FunctionalBusinessSponsorInformation" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTECostForTotalPY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTENumberForPY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTECostForTotalCY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTENumberForCY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTECostForTotalBY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:GovernmentFTENumberForBY" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:CloudComputingAlternativesEvaluation" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:DataCenterInventory" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:TotalCloudPaaSIaaSCostCY" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:TotalCloudSaaSCostCY" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="response-ITBudget-ext:TotalOtherManagedServicesCostCY" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ProvisionedITSpending" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:SecuritySpending" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:EndofLifeSpendingCY" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:FundingSourceLineItems" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:ResponseInformation" minOccurs="0" maxOccurs="unbounded"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="ITTowersType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:ITTower" maxOccurs="unbounded"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="ITTowerType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="response-ITBudget-ext:ITTowerCategory"/>
-                    <xsd:element ref="response-ITBudget-ext:PriorYearAmount"/>
-                    <xsd:element ref="response-ITBudget-ext:CurrentYearAmount"/>
-                    <xsd:element ref="response-ITBudget-ext:BudgetYearAmount"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -379,8 +372,26 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="response-ITBudget-ext:AgencyCode" minOccurs="0"/>
-                    <xsd:element ref="response-ITBudget-ext:ResponseInformation" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ResponseInformation" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:DraftIndicator" minOccurs="0"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    <xsd:complexType name="ProvisionedITSpendingType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="response-ITBudget-ext:ProvisionedOandM" minOccurs="0"
+                                 maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ProvisionedDME" minOccurs="0"
+                                 maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -446,16 +457,6 @@
             <xsd:documentation>Alternative Bureau Code is only required when specifying a bureau for this funding source that is different than bureau specified in the MAX Funding Account.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="BudgetAccount" type="response-ITBudget-ext:BudgetAccountType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="BudgetAccountSummary" type="response-ITBudget-ext:BudgetAccountSummaryType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="BudgetYear" type="response-ITBudget-ext:AnnualBudgetType">
         <xsd:annotation>
             <xsd:documentation>A complex type used to contain information about an agency's spending in a budget year for particuliar investment.</xsd:documentation>
@@ -471,12 +472,13 @@
             <xsd:documentation>Two digits are your bureau code. If this is a department only reporting or an agency-wide activity, use 00 as your bureau code. </xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="CIOAuthorityAmount" type="nc:AmountType">
+    <xsd:element name="CloudComputingAlternativesEvaluation"
+                 type="ITBudgetFacet:CloudComputingAlternativesEvaluationType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="CloudComputingAlternativesEvaluation" type="ITBudgetFacet:CloudComputingAlternativesEvaluationType">
+    <xsd:element name="ProvisionedITSummary" type="response-ITBudget-ext:ProvisionedITSummaryType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
@@ -486,19 +488,34 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="CostPool" type="response-ITBudget-ext:CostPoolType">
+    <xsd:element name="BudgetAccountSummary" type="response-ITBudget-ext:BudgetAccountSummaryType">
         <xsd:annotation>
-            <xsd:documentation>Element used for Cost Pool line items.</xsd:documentation>
+            <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="CostPoolCategory" type="ITBudgetFacet:CostPoolCategoryType">
+    <xsd:element name="BudgetAccount" type="response-ITBudget-ext:BudgetAccountType">
         <xsd:annotation>
-            <xsd:documentation>Element used for defining Cost Pool categories.</xsd:documentation>
+            <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="CostPools" type="response-ITBudget-ext:CostPoolsType">
+    <xsd:element name="CIOAuthorityAmount" type="nc:AmountType">
         <xsd:annotation>
-            <xsd:documentation>Element used for grouping Cost Pool line items.</xsd:documentation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SummaryOandM" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SummaryDME" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="CommunityCloud" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="CurrentUII" type="nc:UIIType">
@@ -531,22 +548,17 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterInventory" type="response-ITBudget-ext:DataCenterInventoryType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="DataCenterID" type="niem-core:TextType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="DataCenterLabor" type="response-ITBudget-ext:AnnualInfrastructureLineItemType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="DataCenterSoftware" type="response-ITBudget-ext:AnnualInfrastructureLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="DeploymentModelOtherService" type="response-ITBudget-ext:AnnualLineItemType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
@@ -566,22 +578,13 @@
             <xsd:documentation>The Xpath of the error or warning that the response message is associated with.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="EndofLifeSpendingCY" type="nc:AmountType" nillable="true">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="ErrorCode" type="ITBudgetFacet:ErrorCodeType">
         <xsd:annotation>
             <xsd:documentation>The standard error code associated with a message.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="FEAPrimaryBRMService" type="nc:FEABRMServiceType">
-        <xsd:annotation>
-            <xsd:documentation>This is the three (3) digit code that indicates the predominant business function served by the Investment (not necessarily the mission/business of the Agency)</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="FunctionalBusinessSponsorInformation" type="response-ITBudget-ext:FunctionalBusinessSponsorInformationType">
+    <xsd:element name="FunctionalBusinessSponsorInformation"
+                 type="response-ITBudget-ext:FunctionalBusinessSponsorInformationType">
         <xsd:annotation>
             <xsd:documentation>A complex element used to contain elements regarding Functional/Business Sponsor Information</xsd:documentation>
         </xsd:annotation>
@@ -596,19 +599,21 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="FundingCode" type="nc:TextType">
-        <xsd:annotation>
-            <xsd:documentation>Describes the code associated with an agency funding line item.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="FundingSourceCharacterization" type="response-ITBudget-ext:FundingSourceCharacterizationType">
+    <xsd:element name="FundingSourceCharacterization"
+                 type="response-ITBudget-ext:FundingSourceCharacterizationType">
         <xsd:annotation>
             <xsd:documentation>A complex element used to contain elements related to describing general attributes about an agency's investment.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="FundingSourceInvestmentLineStructure" type="ITBudgetFacet:FundingSourceInvestmentLineStructureType">
+    <xsd:element name="FundingSourceInvestmentLineStructure"
+                 type="ITBudgetFacet:FundingSourceInvestmentLineStructureType">
         <xsd:annotation>
             <xsd:documentation>These two digits indicate your agency's type of investment.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="FundingSourceName" type="nc:TextType">
+        <xsd:annotation>
+            <xsd:documentation>Funding source name.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="FundingSourceLineItems" type="response-ITBudget-ext:FundingSourceLineItemsType">
@@ -621,24 +626,75 @@
             <xsd:documentation>Element used for funding source (04 - Funding source or appropriation) line item.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="FundingSourceName" type="nc:TextType">
-        <xsd:annotation>
-            <xsd:documentation>Funding source name.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="FundingSourceUniqueInvestmentID" type="response-ITBudget-ext:FundingSourceUniqueInvestmentIDType">
         <xsd:annotation>
             <xsd:documentation>A complex element used to contain elements that describe the investment's UII.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="InfrastructureManagementCategory" type="ITBudgetFacet:InfrastructureManagementCategoryType">
+    <xsd:element name="FundingCode" type="nc:TextType">
         <xsd:annotation>
-            <xsd:documentation>These two digits indicate the sub-category of Investments identified as Part 3: IT Investments for IT Infrastructure, IT Security, and IT Management.</xsd:documentation>
+            <xsd:documentation>Describes the code associated with an agency funding line item.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTENumberForPY" type="nc:FTEAmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTENumberForCY" type="nc:FTEAmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTENumberForBY" type="nc:FTEAmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTECostForTotalPY" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>This is the total PY cost represented by the number of government FTEs associated with the Investment.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTECostForTotalCY" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="GovernmentFTECostForTotalBY" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="HybridCloud" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="CrossBoundaryInformationIdentifier" type="ITBudgetFacet:CrossBoundaryInformationIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>One that crosses a bureau or agency boundary, including information sharing with international, State, local, tribal, industry, or non-governmental organization partners. If the investment supports reusable, standardized information exchanges indicate which: 1) NIEM, 2) UCORE, 3) XBLR, 4) Other. If the investment does not support reusable, standardized information exchange, please leave blank.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SupportsAntiTerrorismISE"
+                 type="ITBudgetFacet:SupportsAntiTerrorismISEType">
+        <xsd:annotation>
+            <xsd:documentation>A data element that means an IT investment supporting the information sharing and access mission areas of 1) the national network of State and major urban area fusion centers, 2) Interoperability across Sensitive but Unclassified Networks targeting federal, state, local, and tribal law enforcement, public safety, homeland security, and intelligence personnel, 3) Classified National Security Information Program for State, local, tribal, and private sector partners, 4) National Suspicious Activity Reporting Initiative, and 5) Controlled Unclassified Information, or 0) none. If the investment supports one of these mission areas, indicate which one(s) by listing the corresponding number(s) listed above.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="InvestmentCharacterization" type="response-ITBudget-ext:InvestmentCharacterizationType">
         <xsd:annotation>
             <xsd:documentation>A complex element used to contain elements related to describing general attributes about an agency's investment.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SharedServicesCategory" type="ITBudgetFacet:SharedServicesCategoryType">
+        <xsd:annotation>
+            <xsd:documentation>These two digits identify the investment category of the investment you are reporting.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SharedServicesIdentifier" type="nc:SharedServicesIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>This code represents the same 4-digit identifier previously provided in the last nine (9) digits of the UII for Investments starting with xxx-99999XXXX.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="InvestmentDescription" type="nc:TextType">
@@ -649,6 +705,12 @@
     <xsd:element name="InvestmentLineStructure" type="ITBudgetFacet:InvestmentLineStructureType">
         <xsd:annotation>
             <xsd:documentation>These two digits identify the nature of the “line item” in the Exhibit 53 structure</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="InvestmentPortfolioClassification"
+                 type="response-ITBudget-ext:InvestmentPortfolioClassificationsType">
+        <xsd:annotation>
+            <xsd:documentation>A complex object used to contain elements that classify an investment as a certain type.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="InvestmentStatusChange" type="response-ITBudget-ext:InvestmentStatusChangeType">
@@ -666,21 +728,6 @@
             <xsd:documentation>An element representing an Exhibit 53 - Part 1</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="ITTower" type="response-ITBudget-ext:ITTowerType">
-        <xsd:annotation>
-            <xsd:documentation>Element used for IT Tower line items.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="ITTowerCategory" type="ITBudgetFacet:ITTowerCategoryType">
-        <xsd:annotation>
-            <xsd:documentation>Element used for defining IT Tower categories.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="ITTowers" type="reponse-ITBudget-ext:ITTowersType">
-        <xsd:annotation>
-            <xsd:documentation>Element used for grouping IT Tower line items.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="MessageInformation" type="response-ITBudget-ext:MessageInformationType">
         <xsd:annotation>
             <xsd:documentation>Information related not to a particuliar investment but to the message itself is contained here.</xsd:documentation>
@@ -691,11 +738,6 @@
             <xsd:documentation>These two digits indicate the mission area. Assign a unique code for each mission area reported.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="NationalSecuritySystemsIdentifier" type="ITBudgetFacet:NationalSecuritySystemsIdentifierType">
-        <xsd:annotation>
-            <xsd:documentation>These two digits indicate whether the Investment is a National Security System. </xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="OandM" type="response-ITBudget-ext:AnnualOverallBudgetType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
@@ -704,6 +746,11 @@
     <xsd:element name="PartofITPortfolio" type="ITBudgetFacet:PartofITPortfolioType">
         <xsd:annotation>
             <xsd:documentation>These two digits indicate the six parts of the IT Portfolio</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="InfrastructureManagementCategory" type="ITBudgetFacet:InfrastructureManagementCategoryType">
+        <xsd:annotation>
+            <xsd:documentation>These two digits indicate the sub-category of Investments identified as Part 3: IT Investments for IT Infrastructure, IT Security, and IT Management.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="PriorUII" type="nc:UIIType">
@@ -717,6 +764,41 @@
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="PriorYearAmount" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="ProvisionedDME" type="response-ITBudget-ext:AnnualOverallBudgetType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="ProvisionedITSpending" type="response-ITBudget-ext:ProvisionedITSpendingType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="SecuritySpending" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="EndofLifeSpendingCY" type="nc:AmountType" nillable="true">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="ProvisionedOandM" type="response-ITBudget-ext:AnnualOverallBudgetType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="PrivateCloud" type="response-ITBudget-ext:AnnualLineItemType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="PublicCloud" type="response-ITBudget-ext:AnnualLineItemType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
@@ -736,44 +818,24 @@
             <xsd:documentation>A description of the error or warning that the response message is associated with.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="SharedServicesCategory" type="ITBudgetFacet:SharedServicesCategoryType">
-        <xsd:annotation>
-            <xsd:documentation>These two digits identify the investment category of the investment you are reporting.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="SharedServicesIdentifier" type="nc:SharedServicesIdentifierType">
-        <xsd:annotation>
-            <xsd:documentation>This code represents the same 4-digit identifier previously provided in the last nine (9) digits of the UII for Investments starting with xxx-99999XXXX.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="StatusIdentifier" type="ITBudgetFacet:StatusIdentifierCodeType">
         <xsd:annotation>
             <xsd:documentation>A code list used to describe how an investment has changed. It can have values of 1 through 8 were 8 is none. The values represent: (0) None. (1) Downgraded to non-major because it does not fit the criteria for Major investment in FY 2012, or because of insufficient activities or funding. (2) In budget year, this consolidated investment is no longer included in Major Investments, due to the split up into separate component investments. (3) In budget year, this investment is no longer a major investment, due to consolidation of activities into another investment. (4) Investment was subject to agency-wide realignment of the IT portfolio. (5) Investment was retired. (6) Investment was eliminated. (7) Upgraded to a major investment. (8) Other.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="TotalAgencyFunding" type="response-ITBudget-ext:AnnualLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="TotalCloudPaaSIaaSCostCY" type="nc:AmountType">
-        <xsd:annotation>
-            <xsd:documentation>This should indicate the CY costs associated with Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) cloud service offerings for this Investment.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="TotalCloudSaaSCostCY" type="nc:AmountType">
-        <xsd:annotation>
-            <xsd:documentation>This should indicate the CY costs associated with Software as a Service (SaaS) cloud service offerings for this Investment.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="TotalOtherManagedServicesCostCY" type="nc:AmountType">
-        <xsd:annotation>
-            <xsd:documentation>This should indicate the CY costs associated with non-cloud managed services service.</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="TypeofInvestment" type="ITBudgetFacet:TypeofInvestmentType">
         <xsd:annotation>
             <xsd:documentation>These two digits indicate your agency's type of investment.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="NationalSecuritySystemsIdentifier" type="ITBudgetFacet:NationalSecuritySystemsIdentifierType">
+        <xsd:annotation>
+            <xsd:documentation>These two digits indicate whether the Investment is a National Security System. </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="FEAPrimaryBRMService" type="nc:FEABRMServiceType">
+        <xsd:annotation>
+            <xsd:documentation>This is the three (3) digit code that indicates the predominant business function served by the Investment (not necessarily the mission/business of the Agency)</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="UniqueInvestmentID" type="response-ITBudget-ext:UniqueInvestmentIDType">

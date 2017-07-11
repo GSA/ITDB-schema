@@ -13,6 +13,7 @@
         <referencedPIID>a</referencedPIID>
         <isModularApproach>yes</isModularApproach>
         <agileDevelopment>yes</agileDevelopment>
+        <EVMRequired>yes</EVMRequired>
         <contractPurpose>a</contractPurpose>
         <ITLeaseCategory>1</ITLeaseCategory>
         <informationSecurityClause>yes</informationSecurityClause>
@@ -24,6 +25,7 @@
         <referencedPIID>a</referencedPIID>
         <isModularApproach>yes</isModularApproach>
         <agileDevelopment>yes</agileDevelopment>
+        <EVMRequired>no</EVMRequired>
         <contractPurpose>a</contractPurpose>
         <ITLeaseCategory>1</ITLeaseCategory>
         <informationSecurityClause>yes</informationSecurityClause>
@@ -33,11 +35,11 @@
         <agencyAcquisitionId>a</agencyAcquisitionId>
         <plannedContractDescription>a</plannedContractDescription>
         <plannedAwardDate>2020-01-01</plannedAwardDate>
-        <solicitationId>a</solicitationId>
         <lengthOfPlannedSupport>a</lengthOfPlannedSupport>
         <anticipatedValue>1</anticipatedValue>
         <isModularApproach>yes</isModularApproach>
         <agileDevelopment>yes</agileDevelopment>
+        <EVMRequired>yes</EVMRequired>
         <potentialSources>a</potentialSources>
         <providerEngagement>a</providerEngagement>
         <containsITLease>yes</containsITLease>
@@ -59,12 +61,12 @@
       <addAcquisition>
         <agencyAcquisitionId>a</agencyAcquisitionId>
         <plannedContractDescription>a</plannedContractDescription>
-        <plannedAwardDate>2020-01-01</plannedAwardDate>
-        <solicitationId>a</solicitationId>
+        <plannedAwardDate>1970-01-01</plannedAwardDate>
         <lengthOfPlannedSupport>a</lengthOfPlannedSupport>
         <anticipatedValue>1</anticipatedValue>
         <isModularApproach>yes</isModularApproach>
         <agileDevelopment>yes</agileDevelopment>
+        <EVMRequired>yes</EVMRequired>
         <potentialSources>a</potentialSources>
         <providerEngagement>a</providerEngagement>
         <containsITLease>yes</containsITLease>
@@ -85,6 +87,24 @@
         <endOfContractedSupportDate>1970-01-01</endOfContractedSupportDate>
         <averageUsersPerMonth>100</averageUsersPerMonth>
       </addSystem>
+      <updateCapability id="String">
+        <capabilityId>0</capabilityId>
+        <agencyCapabilityId>a</agencyCapabilityId>
+        <capabilityCode>0</capabilityCode>
+        <purposeOutcome>a</purposeOutcome>
+        <totalSpendingPY>100</totalSpendingPY>
+        <totalSpendingCY>100</totalSpendingCY>
+        <totalSpendingBY>100</totalSpendingBY>
+        <isActive>active</isActive>
+      </updateCapability>
+      <addCapability>
+        <agencyCapabilityId>a</agencyCapabilityId>
+        <capabilityCode>0</capabilityCode>
+        <purposeOutcome>a</purposeOutcome>
+        <totalSpendingPY>100</totalSpendingPY>
+        <totalSpendingCY>100</totalSpendingCY>
+        <totalSpendingBY>100</totalSpendingBY>
+      </addCapability>
       <addPerformanceMetric>
         <agencyPerformanceMetricId>a</agencyPerformanceMetricId>
         <performanceMetricDescription>a</performanceMetricDescription>
@@ -118,14 +138,13 @@
         <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </updatePerformanceMetric>
-      <setCIORating id="String">
+      <updateCIORating id="String">
         <cioRatingEval>1</cioRatingEval>
         <cioComment>a</cioComment>
-      </setCIORating>
+      </updateCIORating>
       <updateOperationalAnalysis id="String">
         <dateOfAnalysis>2015-03-06</dateOfAnalysis>
         <analysisResults>test.</analysisResults>
-        <analysisConclusion>1</analysisConclusion>
       </updateOperationalAnalysis>
       <updateInvestmentRisk id="String">
         <investmentRiskId>0</investmentRiskId>
@@ -154,6 +173,7 @@
           <projectCompletionDate>1970-01-01</projectCompletionDate>
           <projectLifeCycleCost>10000</projectLifeCycleCost>
           <SDLCmethodology>2</SDLCmethodology>
+          <otherSDLC>a</otherSDLC>
           <releaseEverySixMo>no</releaseEverySixMo>
           <releaseEverySixMoComment>a</releaseEverySixMoComment>
           <productionDeploymentDate>1970-01-01</productionDeploymentDate>
@@ -167,13 +187,10 @@
             <activityType>12</activityType>
             <criticalPath>yes</criticalPath>
             <plannedStartDate>1970-01-01</plannedStartDate>
-            <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedTotalCost>10000</plannedTotalCost>
-            <projectedTotalCost>10000</projectedTotalCost>
             <actualTotalCost>10000</actualTotalCost>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-            <projectedCompletionDate>1970-01-01</projectedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
           </addProjectActivity>
           <addAgileProjectActivity>
@@ -201,6 +218,7 @@
         <agencyProjectId>a</agencyProjectId>
         <updateProjectDetail>
           <SDLCmethodology>2</SDLCmethodology>
+          <otherSDLC>a</otherSDLC>
           <releaseEverySixMo>no</releaseEverySixMo>
           <releaseEverySixMoComment>a</releaseEverySixMoComment>
           <productionDeploymentDate>1970-01-01</productionDeploymentDate>
@@ -211,11 +229,8 @@
             <agencyActivityId>a</agencyActivityId>
             <activityType>1</activityType>
             <criticalPath>yes</criticalPath>
-            <projectedStartDate>1970-01-01</projectedStartDate>
-            <actualStartDate>1970-01-01</actualStartDate>
-            <projectedTotalCost>10000</projectedTotalCost>
+             <actualStartDate>1970-01-01</actualStartDate>
             <actualTotalCost>10000</actualTotalCost>
-            <projectedCompletionDate>1970-01-01</projectedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
           </updateProjectActivity>
           <addProjectActivity>
@@ -226,40 +241,37 @@
             <activityType>13</activityType>
             <criticalPath>yes</criticalPath>
             <plannedStartDate>1970-01-01</plannedStartDate>
-            <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedTotalCost>10000</plannedTotalCost>
-            <projectedTotalCost>10000</projectedTotalCost>
             <actualTotalCost>10000</actualTotalCost>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-            <projectedCompletionDate>1970-01-01</projectedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
           </addProjectActivity>
-          <updateAgileProjectActivity>
+          <!--<updateAgileProjectActivity>
             <agencyActivityId>a</agencyActivityId>
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>
             <releaseDescription>String</releaseDescription>
+            <plannedStartDate>1970-01-01</plannedStartDate>
+           <actualStartDate>1970-01-01</actualStartDate>
+            <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+            <actualCompletionDate>1970-01-01</actualCompletionDate>
+            <plannedTotalCost>10000</plannedTotalCost>
+            <actualTotalCost>10000</actualTotalCost>
             <NPI>3</NPI>
             <NPE>3</NPE>
             <NCE>3</NCE>
             <NCI>4</NCI>
             <DTC>9</DTC>
             <DPC>5</DPC>
-            <plannedStartDate>1970-01-01</plannedStartDate>
-            <actualStartDate>1970-01-01</actualStartDate>
-            <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-            <actualCompletionDate>1970-01-01</actualCompletionDate>
-            <plannedTotalCost>10000</plannedTotalCost>
-            <actualTotalCost>10000</actualTotalCost>
-          </updateAgileProjectActivity>
+          </updateAgileProjectActivity>-->
           <addAgileProjectActivity>
             <agencyActivityId>a</agencyActivityId>
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>
             <releaseDescription>String</releaseDescription>
             <plannedStartDate>1970-01-01</plannedStartDate>
-            <actualStartDate>1970-01-01</actualStartDate>
+           <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
             <plannedTotalCost>10000</plannedTotalCost>
@@ -286,7 +298,8 @@
             <projectStartDate>1970-01-01</projectStartDate>
             <projectCompletionDate>1970-01-01</projectCompletionDate>
             <projectLifeCycleCost>10000</projectLifeCycleCost>
-            <SDLCmethodology>2</SDLCmethodology>
+            <SDLCmethodology>7</SDLCmethodology>
+            <otherSDLC>a</otherSDLC>
             <releaseEverySixMo>no</releaseEverySixMo>
             <releaseEverySixMoComment>a</releaseEverySixMoComment>
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
@@ -300,33 +313,12 @@
               <activityType>9</activityType>
               <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
-              <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedTotalCost>10000</plannedTotalCost>
-              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
             </reviseAddProjectActivity>
-            <reviseAddAgileProjectActivity>
-              <agencyActivityId>a</agencyActivityId>
-              <releaseName>a</releaseName>
-              <releaseNumber>a</releaseNumber>
-              <releaseDescription>String</releaseDescription>
-              <NPI>3</NPI>
-              <NPE>3</NPE>
-              <NCE>3</NCE>
-              <NCI>4</NCI>
-              <DTC>9</DTC>
-              <DPC>5</DPC>              
-              <plannedStartDate>1970-01-01</plannedStartDate>
-              <actualStartDate>1970-01-01</actualStartDate>
-              <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <actualCompletionDate>1970-01-01</actualCompletionDate>
-              <plannedTotalCost>10000</plannedTotalCost>
-              <actualTotalCost>10000</actualTotalCost>
-            </reviseAddAgileProjectActivity>
           </reviseAddProjectActivities>
         </reviseAddProject>
         <reviseUpdateProject>
@@ -339,7 +331,8 @@
             <projectStartDate>1970-01-01</projectStartDate>
             <projectCompletionDate>1970-01-01</projectCompletionDate>
             <projectLifeCycleCost>10000</projectLifeCycleCost>
-            <SDLCmethodology>2</SDLCmethodology>
+            <SDLCmethodology>5</SDLCmethodology>
+            <otherSDLC>a</otherSDLC>
             <releaseEverySixMo>yes</releaseEverySixMo>
             <releaseEverySixMoComment>a</releaseEverySixMoComment>
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
@@ -355,13 +348,10 @@
               <activityType>15</activityType>
               <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
-              <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedTotalCost>10000</plannedTotalCost>
-              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
               <isActive>deactivated</isActive>
             </reviseUpdateProjectActivity>
@@ -370,56 +360,15 @@
               <activityName>a</activityName>
               <activityDescription>a</activityDescription>
               <structureId>String</structureId>
-              <activityType>9</activityType>
+              <activityType>6</activityType>
               <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
-              <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedTotalCost>10000</plannedTotalCost>
-              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
             </reviseAddProjectActivity>
-            <reviseUpdateAgileProjectActivity>
-   	          <activityId>0</activityId>
-     	      <agencyActivityId>a</agencyActivityId>
-              <releaseName>a</releaseName>
-              <releaseNumber>a</releaseNumber>
-              <releaseDescription>String</releaseDescription>
-              <NPI>3</NPI>
-              <NPE>3</NPE>
-              <NCE>3</NCE>
-              <NCI>4</NCI>
-              <DTC>9</DTC>
-              <DPC>5</DPC>              
-              <plannedStartDate>1970-01-01</plannedStartDate>
-              <actualStartDate>1970-01-01</actualStartDate>
-              <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <actualCompletionDate>1970-01-01</actualCompletionDate>
-              <plannedTotalCost>10000</plannedTotalCost>
-              <actualTotalCost>10000</actualTotalCost>   
-              <isActive>deactivated</isActive>       
-            </reviseUpdateAgileProjectActivity>
-            <reviseAddAgileProjectActivity>
-              <agencyActivityId>a</agencyActivityId>
-              <releaseName>a</releaseName>
-              <releaseNumber>a</releaseNumber>
-              <releaseDescription>String</releaseDescription>
-              <NPI>3</NPI>
-              <NPE>3</NPE>
-              <NCE>3</NCE>
-              <NCI>4</NCI>
-              <DTC>9</DTC>
-              <DPC>5</DPC>              
-              <plannedStartDate>1970-01-01</plannedStartDate>
-              <actualStartDate>1970-01-01</actualStartDate>
-              <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-              <actualCompletionDate>1970-01-01</actualCompletionDate>
-              <plannedTotalCost>10000</plannedTotalCost>
-              <actualTotalCost>10000</actualTotalCost>
-            </reviseAddAgileProjectActivity>           
           </reviseUpdateProjectActivities>
         </reviseUpdateProject>
         <reviseAddPerformanceMetric>
@@ -472,6 +421,22 @@
         </reviseUpdatePerformanceMetric>
         <reviseUpdateFundingDetails>
           <lifeCycleCosts>
+            <planningBudgetaryResourcesPY-1>0</planningBudgetaryResourcesPY-1>
+            <planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
+            <planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
+            <planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
+            <planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
+            <planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
+            <planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
+            <planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+            <dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
+            <dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
+            <dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
+            <dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
+            <dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
+            <dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
+            <dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
+            <dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>
@@ -549,9 +514,6 @@
         <publicURLs>
           <publicURL>http:://agency.gov</publicURL>
         </publicURLs>
-        <ombControlNumbers>
-          <ombControlNumber>0000-0000</ombControlNumber>
-        </ombControlNumbers>
         <pmDetails>
           <pmName>a</pmName>
           <pmEmail>a</pmEmail>
@@ -559,6 +521,22 @@
         </pmDetails>
         <updateFundingDetails>
           <lifeCycleCosts>
+            <planningBudgetaryResourcesPY-1>0</planningBudgetaryResourcesPY-1>
+            <planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
+            <planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
+            <planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
+            <planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
+            <planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
+            <planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
+            <planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+            <dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
+            <dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
+            <dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
+            <dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
+            <dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
+            <dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
+            <dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
+            <dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>

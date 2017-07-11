@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- 
-   Copyright 2009-2011 United States Government. 
-
-   This software is licensed under the GNU General Public License 
-   version 2 (see the file LICENSE for details)
--->
-
 <xsd:schema targetNamespace="http://niem.gov/niem/proxy/xsd/2.0" version="1" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:i="http://niem.gov/niem/appinfo/2.0">
   <xsd:annotation>
     <xsd:appinfo>
