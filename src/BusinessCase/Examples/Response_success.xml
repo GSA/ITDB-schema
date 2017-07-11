@@ -41,7 +41,7 @@
                 <businessCase-response:publicURL></businessCase-response:publicURL>
               </businessCase-response:publicURLs>
               <businessCase-response:ombControlNumbers>
-                <businessCase-response:ombControlNumber></businessCase-response:ombControlNumber>
+                <businessCase-response:ombControlNumber>0000-0000</businessCase-response:ombControlNumber>
               </businessCase-response:ombControlNumbers>
                 <businessCase-response:pmDetails>
                 <businessCase-response:pmName>a</businessCase-response:pmName>

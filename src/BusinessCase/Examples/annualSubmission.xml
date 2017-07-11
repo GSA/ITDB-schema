@@ -36,7 +36,7 @@
                 <businessCase-update:publicURL>http://agency.gov</businessCase-update:publicURL>
               </businessCase-update:publicURLs>
               <businessCase-update:ombControlNumbers>
-                <businessCase-update:ombControlNumber>000</businessCase-update:ombControlNumber>
+                <businessCase-update:ombControlNumber>0000-0000</businessCase-update:ombControlNumber>
               </businessCase-update:ombControlNumbers>
               <businessCase-update:pmDetails>
                 <businessCase-update:pmName>a</businessCase-update:pmName>
