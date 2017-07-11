@@ -85,15 +85,17 @@ If you are interested in making modifications to the code in our repo please for
 
 
 
-## How to find weekly changes files and releases
+## FAQ
+# How do I view releases/weekly changes to files?
 
-
+On the ITDB-schema page under the code tab you will see releases – please select
 ![screenshot a](/docs/help/Capture1.PNG?raw=true "On the ITDB-schema page under the code tab you will see releases – please select")
 
 
+Under Releases you will see each release – if you select the hashtag icon it will take you to the file changes
 ![screenshot a](/docs/help/Capture2.PNG?raw=true "Under Releases you will see each release – if you select the hashtag icon it will take you to the file changes")
 
-
+Changes to the file will be high-lighted in green. 
 ![screenshot a](/docs/help/Capture3.PNG?raw=true "Changes to the file will be high-lighted in green ")
 
 If you see no changes, then the last version of the file is the latest version of the file!
