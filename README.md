@@ -86,7 +86,7 @@ If you are interested in making modifications to the code in our repo please for
 
 
 ## FAQ
-# How do I view releases/weekly changes to files?
+### How do I view releases/weekly changes to files?
 
 On the ITDB-schema page under the code tab you will see releases – please select
 ![screenshot a](/docs/help/Capture1.PNG?raw=true "On the ITDB-schema page under the code tab you will see releases – please select")
