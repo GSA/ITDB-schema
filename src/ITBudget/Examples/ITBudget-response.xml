@@ -6,27 +6,23 @@
                 <response-ITBudget-ext:CurrentUII>024-000002047</response-ITBudget-ext:CurrentUII>
                 <response-ITBudget-ext:InvestmentLineStructure>00</response-ITBudget-ext:InvestmentLineStructure>
                 <response-ITBudget-ext:SharedServicesCategory>00</response-ITBudget-ext:SharedServicesCategory>
+                <response-ITBudget-ext:SharedServicesIdentifier>1234</response-ITBudget-ext:SharedServicesIdentifier>
             </response-ITBudget-ext:UniqueInvestmentID>
             <response-ITBudget-ext:InvestmentCharacterization>
-                <response-ITBudget-ext:InvestmentTitle>gurttt</response-ITBudget-ext:InvestmentTitle>
-                <response-ITBudget-ext:InvestmentDescription>Sample Description Diegooo.</response-ITBudget-ext:InvestmentDescription>
+                <response-ITBudget-ext:InvestmentTitle>a</response-ITBudget-ext:InvestmentTitle>
+                <response-ITBudget-ext:InvestmentDescription>Sample Description.</response-ITBudget-ext:InvestmentDescription>
                 <response-ITBudget-ext:BureauCode>10</response-ITBudget-ext:BureauCode>
                 <response-ITBudget-ext:PartofITPortfolio>02</response-ITBudget-ext:PartofITPortfolio>
+                <response-ITBudget-ext:InfrastructureManagementCategory>01</response-ITBudget-ext:InfrastructureManagementCategory>
                 <response-ITBudget-ext:MissionArea>01</response-ITBudget-ext:MissionArea>
                 <response-ITBudget-ext:TypeofInvestment>02</response-ITBudget-ext:TypeofInvestment>
+                <response-ITBudget-ext:NationalSecuritySystemsIdentifier>01</response-ITBudget-ext:NationalSecuritySystemsIdentifier>
+                <response-ITBudget-ext:FEAPrimaryBRMService>123</response-ITBudget-ext:FEAPrimaryBRMService>
             </response-ITBudget-ext:InvestmentCharacterization>
             <response-ITBudget-ext:InvestmentStatusChange>
                 <response-ITBudget-ext:StatusIdentifier>11</response-ITBudget-ext:StatusIdentifier>
                 <response-ITBudget-ext:AgencyReasonforChange>No change</response-ITBudget-ext:AgencyReasonforChange>
             </response-ITBudget-ext:InvestmentStatusChange>
-            <response-ITBudget-ext:InvestmentPortfolioClassification>
-                <response-ITBudget-ext:CrossBoundaryInformationIdentifier>2</response-ITBudget-ext:CrossBoundaryInformationIdentifier>
-                <response-ITBudget-ext:SupportsAntiTerrorismISE>0</response-ITBudget-ext:SupportsAntiTerrorismISE>
-            </response-ITBudget-ext:InvestmentPortfolioClassification>
-            <response-ITBudget-ext:FunctionalBusinessSponsorInformation>
-                <response-ITBudget-ext:FunctionalBusinessSponsorName>Test</response-ITBudget-ext:FunctionalBusinessSponsorName>
-                <response-ITBudget-ext:FunctionalBusinessSponsorTitle>Test</response-ITBudget-ext:FunctionalBusinessSponsorTitle>
-            </response-ITBudget-ext:FunctionalBusinessSponsorInformation>
             <response-ITBudget-ext:OandM>
                 <response-ITBudget-ext:PriorYear>
                     <response-ITBudget-ext:AgencyFundingAmount>10.000000</response-ITBudget-ext:AgencyFundingAmount>
@@ -55,43 +51,135 @@
                     <response-ITBudget-ext:AgencyContributionAmount>3.000000</response-ITBudget-ext:AgencyContributionAmount>
                 </response-ITBudget-ext:BudgetYear>
             </response-ITBudget-ext:DME>
-            <response-ITBudget-ext:GovernmentFTECostForTotalPY>5.000000</response-ITBudget-ext:GovernmentFTECostForTotalPY>
-            <response-ITBudget-ext:GovernmentFTENumberForPY>6.00</response-ITBudget-ext:GovernmentFTENumberForPY>
-            <response-ITBudget-ext:GovernmentFTECostForTotalCY>5.000000</response-ITBudget-ext:GovernmentFTECostForTotalCY>
-            <response-ITBudget-ext:GovernmentFTENumberForCY>6.00</response-ITBudget-ext:GovernmentFTENumberForCY>
-            <response-ITBudget-ext:GovernmentFTECostForTotalBY>5.000000</response-ITBudget-ext:GovernmentFTECostForTotalBY>
-            <response-ITBudget-ext:GovernmentFTENumberForBY>6.00</response-ITBudget-ext:GovernmentFTENumberForBY>
+            <response-ITBudget-ext:CostPools>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Internal Labor Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total External Labor Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Outside Services Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Hardware Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Software Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Facilities and Power Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Telecom Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Other Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+                <response-ITBudget-ext:CostPool>
+                    <response-ITBudget-ext:CostPoolCategory>Total Internal Services Cost</response-ITBudget-ext:CostPoolCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:CostPool>
+            </response-ITBudget-ext:CostPools>
+            <response-ITBudget-ext:ITTowers>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Data Center Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Compute Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Storage Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Network Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Output Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total End User Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Application Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Delivery Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total IT Security and Compliance Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total IT Management Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
+            </response-ITBudget-ext:ITTowers>
+            <response-ITBudget-ext:FunctionalBusinessSponsorInformation>
+                <response-ITBudget-ext:FunctionalBusinessSponsorName>Test</response-ITBudget-ext:FunctionalBusinessSponsorName>
+                <response-ITBudget-ext:FunctionalBusinessSponsorTitle>Test</response-ITBudget-ext:FunctionalBusinessSponsorTitle>
+            </response-ITBudget-ext:FunctionalBusinessSponsorInformation>
             <response-ITBudget-ext:CloudComputingAlternativesEvaluation>3</response-ITBudget-ext:CloudComputingAlternativesEvaluation>
-            <response-ITBudget-ext:ProvisionedITSpending>
-                <response-ITBudget-ext:ProvisionedOandM>
-                    <response-ITBudget-ext:PriorYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:PriorYear>
-                    <response-ITBudget-ext:CurrentYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:CurrentYear>
-                    <response-ITBudget-ext:BudgetYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:BudgetYear>
-                </response-ITBudget-ext:ProvisionedOandM>
-                <response-ITBudget-ext:ProvisionedDME>
-                    <response-ITBudget-ext:PriorYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:PriorYear>
-                    <response-ITBudget-ext:CurrentYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:CurrentYear>
-                    <response-ITBudget-ext:BudgetYear>
-                        <response-ITBudget-ext:AgencyFundingAmount>0</response-ITBudget-ext:AgencyFundingAmount>
-                        <response-ITBudget-ext:AgencyContributionAmount>0</response-ITBudget-ext:AgencyContributionAmount>
-                    </response-ITBudget-ext:BudgetYear>
-                </response-ITBudget-ext:ProvisionedDME>
-            </response-ITBudget-ext:ProvisionedITSpending>
+            <response-ITBudget-ext:DataCenterInventory>
+                <response-ITBudget-ext:DataCenterID>a</response-ITBudget-ext:DataCenterID>
+            </response-ITBudget-ext:DataCenterInventory>
+            <response-ITBudget-ext:TotalCloudPaaSIaaSCostCY>0</response-ITBudget-ext:TotalCloudPaaSIaaSCostCY>
+            <response-ITBudget-ext:TotalCloudSaaSCostCY>0</response-ITBudget-ext:TotalCloudSaaSCostCY>
+            <response-ITBudget-ext:TotalOtherManagedServicesCostCY>0</response-ITBudget-ext:TotalOtherManagedServicesCostCY>
             <response-ITBudget-ext:FundingSourceLineItems>
                 <response-ITBudget-ext:FundingSourceLineItem>
                     <response-ITBudget-ext:FundingSourceUniqueInvestmentID>
@@ -133,33 +221,39 @@
                 </response-ITBudget-ext:FundingSourceLineItem>
             </response-ITBudget-ext:FundingSourceLineItems>
         </response-ITBudget-ext:ITPortfolio>
-        <response-ITBudget-ext:ProvisionedITSummary>
-            <response-ITBudget-ext:PublicCloud>
-                <response-ITBudget-ext:PriorYearAmount>1.500000</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>1.500000</response-ITBudget-ext:CurrentYearAmount>
-                <response-ITBudget-ext:BudgetYearAmount>1.800000</response-ITBudget-ext:BudgetYearAmount>
-            </response-ITBudget-ext:PublicCloud>
-            <response-ITBudget-ext:PrivateCloud>
-                <response-ITBudget-ext:PriorYearAmount>1.500000</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>1.500000</response-ITBudget-ext:CurrentYearAmount>
-                <response-ITBudget-ext:BudgetYearAmount>1.500000</response-ITBudget-ext:BudgetYearAmount>
-            </response-ITBudget-ext:PrivateCloud>
-            <response-ITBudget-ext:CommunityCloud>
-                <response-ITBudget-ext:PriorYearAmount>1.500000</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>1.500000</response-ITBudget-ext:CurrentYearAmount>
-                <response-ITBudget-ext:BudgetYearAmount>1.500000</response-ITBudget-ext:BudgetYearAmount>
-            </response-ITBudget-ext:CommunityCloud>
-            <response-ITBudget-ext:HybridCloud>
-                <response-ITBudget-ext:PriorYearAmount>1.500000</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>1.650000</response-ITBudget-ext:CurrentYearAmount>
-                <response-ITBudget-ext:BudgetYearAmount>1.500000</response-ITBudget-ext:BudgetYearAmount>
-            </response-ITBudget-ext:HybridCloud>
-            <response-ITBudget-ext:DeploymentModelOtherService>
-                <response-ITBudget-ext:PriorYearAmount>2.000000</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>2.000000</response-ITBudget-ext:CurrentYearAmount>
-                <response-ITBudget-ext:BudgetYearAmount>3.000000</response-ITBudget-ext:BudgetYearAmount>
-            </response-ITBudget-ext:DeploymentModelOtherService>
-        </response-ITBudget-ext:ProvisionedITSummary>
+        <response-ITBudget-ext:DataCenterSpendingSummary>
+            <response-ITBudget-ext:DataCenterLabor>
+                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+            </response-ITBudget-ext:DataCenterLabor>
+            <response-ITBudget-ext:DataCenterSoftware>
+                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+            </response-ITBudget-ext:DataCenterSoftware>
+            <response-ITBudget-ext:DataCenterHardware>
+                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+            </response-ITBudget-ext:DataCenterHardware>
+            <response-ITBudget-ext:DataCenterElectricity>
+                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+            </response-ITBudget-ext:DataCenterElectricity>
+            <response-ITBudget-ext:DataCenterFacility>
+                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+            </response-ITBudget-ext:DataCenterFacility>
+        </response-ITBudget-ext:DataCenterSpendingSummary>
+        <response-ITBudget-ext:BudgetAccountSummary>
+            <response-ITBudget-ext:BudgetAccount>
+                <response-ITBudget-ext:FundingCode>a</response-ITBudget-ext:FundingCode>
+                <response-ITBudget-ext:CIOAuthorityAmount>0</response-ITBudget-ext:CIOAuthorityAmount>
+                <response-ITBudget-ext:TotalAgencyFunding>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:TotalAgencyFunding>
+            </response-ITBudget-ext:BudgetAccount>
+        </response-ITBudget-ext:BudgetAccountSummary>
         <response-ITBudget-ext:MessageInformation>
             <response-ITBudget-ext:AgencyCode>024</response-ITBudget-ext:AgencyCode>
         </response-ITBudget-ext:MessageInformation>

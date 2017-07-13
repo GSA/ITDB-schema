@@ -35,6 +35,9 @@
               <businessCase-update:publicURLs>
                 <businessCase-update:publicURL>http://agency.gov</businessCase-update:publicURL>
               </businessCase-update:publicURLs>
+              <businessCase-update:ombControlNumbers>
+                <businessCase-update:ombControlNumber>0000-0000</businessCase-update:ombControlNumber>
+              </businessCase-update:ombControlNumbers>
               <businessCase-update:pmDetails>
                 <businessCase-update:pmName>a</businessCase-update:pmName>
                 <businessCase-update:pmEmail>a</businessCase-update:pmEmail>
@@ -42,22 +45,6 @@
               </businessCase-update:pmDetails>
             </businessCase-update:investmentDetails>
             <businessCase-update:lifeCycleCosts>
-              <businessCase-update:planningBudgetaryResourcesPY-1>0</businessCase-update:planningBudgetaryResourcesPY-1>
-              <businessCase-update:planningBudgetaryResourcesPY>10000</businessCase-update:planningBudgetaryResourcesPY>
-              <businessCase-update:planningBudgetaryResourcesCY>10000</businessCase-update:planningBudgetaryResourcesCY>
-              <businessCase-update:planningBudgetaryResourcesBY>10000</businessCase-update:planningBudgetaryResourcesBY>
-              <businessCase-update:planningBudgetaryResourcesBY_1>10000</businessCase-update:planningBudgetaryResourcesBY_1>
-              <businessCase-update:planningBudgetaryResourcesBY_2>10000</businessCase-update:planningBudgetaryResourcesBY_2>
-              <businessCase-update:planningBudgetaryResourcesBY_3>10000</businessCase-update:planningBudgetaryResourcesBY_3>
-              <businessCase-update:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-update:planningBudgetaryResourcesBY_4_Beyond>
-              <businessCase-update:dmeBudgetaryResourcesPY-1>0</businessCase-update:dmeBudgetaryResourcesPY-1>
-              <businessCase-update:dmeBudgetaryResourcesPY>10000</businessCase-update:dmeBudgetaryResourcesPY>
-              <businessCase-update:dmeBudgetaryResourcesCY>10000</businessCase-update:dmeBudgetaryResourcesCY>
-              <businessCase-update:dmeBudgetaryResourcesBY>10000</businessCase-update:dmeBudgetaryResourcesBY>
-              <businessCase-update:dmeBudgetaryResourcesBY_1>10000</businessCase-update:dmeBudgetaryResourcesBY_1>
-              <businessCase-update:dmeBudgetaryResourcesBY_2>10000</businessCase-update:dmeBudgetaryResourcesBY_2>
-              <businessCase-update:dmeBudgetaryResourcesBY_3>10000</businessCase-update:dmeBudgetaryResourcesBY_3>
-              <businessCase-update:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-update:dmeBudgetaryResourcesBY_4_Beyond>
               <businessCase-update:dmeGovernmentFTECostsPY-1>0</businessCase-update:dmeGovernmentFTECostsPY-1>
               <businessCase-update:dmeGovernmentFTECostsPY>10000</businessCase-update:dmeGovernmentFTECostsPY>
               <businessCase-update:dmeGovernmentFTECostsCY>10000</businessCase-update:dmeGovernmentFTECostsCY>
@@ -109,7 +96,6 @@
                   <businessCase-update:referencedPIID>a</businessCase-update:referencedPIID>
                   <businessCase-update:isModularApproach>no</businessCase-update:isModularApproach>
                   <businessCase-update:agileDevelopment>yes</businessCase-update:agileDevelopment>
-                  <businessCase-update:EVMRequired>no</businessCase-update:EVMRequired>
                   <businessCase-update:contractPurpose>String</businessCase-update:contractPurpose>
                   <businessCase-update:ITLeaseCategory>1</businessCase-update:ITLeaseCategory>
                   <businessCase-update:informationSecurityClause>yes</businessCase-update:informationSecurityClause>
@@ -121,7 +107,6 @@
                   <businessCase-update:referencedPIID>a</businessCase-update:referencedPIID>
                   <businessCase-update:isModularApproach>no</businessCase-update:isModularApproach>
                   <businessCase-update:agileDevelopment>yes</businessCase-update:agileDevelopment>
-                  <businessCase-update:EVMRequired>no</businessCase-update:EVMRequired>
                   <businessCase-update:contractPurpose>String</businessCase-update:contractPurpose>
                   <businessCase-update:ITLeaseCategory>1</businessCase-update:ITLeaseCategory>
                   <businessCase-update:informationSecurityClause>yes</businessCase-update:informationSecurityClause>
@@ -133,11 +118,11 @@
                   <businessCase-update:agencyAcquisitionId>aaaa</businessCase-update:agencyAcquisitionId>
                   <businessCase-update:plannedContractDescription>a</businessCase-update:plannedContractDescription>
                   <businessCase-update:plannedAwardDate>1970-01-01</businessCase-update:plannedAwardDate>
+                  <businessCase-update:solicitationId>a</businessCase-update:solicitationId>
                   <businessCase-update:lengthOfPlannedSupport>a</businessCase-update:lengthOfPlannedSupport>
                   <businessCase-update:anticipatedValue>1</businessCase-update:anticipatedValue>
                   <businessCase-update:isModularApproach>yes</businessCase-update:isModularApproach>
                   <businessCase-update:agileDevelopment>yes</businessCase-update:agileDevelopment>
-                  <businessCase-update:EVMRequired>yes</businessCase-update:EVMRequired>
                   <businessCase-update:potentialSources>a</businessCase-update:potentialSources>
                   <businessCase-update:providerEngagement>a</businessCase-update:providerEngagement>
                   <businessCase-update:containsITLease>yes</businessCase-update:containsITLease>
@@ -161,12 +146,12 @@
                   <businessCase-update:agencyAcquisitionId>aaa</businessCase-update:agencyAcquisitionId>
                   <businessCase-update:plannedContractDescription>a</businessCase-update:plannedContractDescription>
                   <businessCase-update:plannedAwardDate>1970-01-01</businessCase-update:plannedAwardDate>
+                  <businessCase-update:solicitationId>a</businessCase-update:solicitationId>
                   <businessCase-update:lengthOfPlannedSupport>a</businessCase-update:lengthOfPlannedSupport>
                   <businessCase-update:anticipatedValue>1</businessCase-update:anticipatedValue>
                   <businessCase-update:isModularApproach>yes</businessCase-update:isModularApproach>
                   <businessCase-update:agileDevelopment>yes</businessCase-update:agileDevelopment>
-                  <businessCase-update:EVMRequired>yes</businessCase-update:EVMRequired>
-                  <businessCase-update:potentialSources>a</businessCase-update:potentialSources>
+                   <businessCase-update:potentialSources>a</businessCase-update:potentialSources>
                   <businessCase-update:providerEngagement>a</businessCase-update:providerEngagement>
                   <businessCase-update:containsITLease>no</businessCase-update:containsITLease>
                   <businessCase-update:replacedContracts>
@@ -203,26 +188,6 @@
                 <businessCase-update:averageUsersPerMonth>1</businessCase-update:averageUsersPerMonth>
               </businessCase-update:addSystem>
             </businessCase-update:systemsInventory>
-            <businessCase-update:securityCostsAndCapabilities>
-              <businessCase-update:updateCapability>
-                <businessCase-update:capabilityId>0</businessCase-update:capabilityId>
-                <businessCase-update:agencyCapabilityId>a</businessCase-update:agencyCapabilityId>
-                <businessCase-update:capabilityCode>0</businessCase-update:capabilityCode>
-                <businessCase-update:purposeOutcome>a</businessCase-update:purposeOutcome>
-                <businessCase-update:totalSpendingPY>100</businessCase-update:totalSpendingPY>
-                <businessCase-update:totalSpendingCY>100</businessCase-update:totalSpendingCY>
-                <businessCase-update:totalSpendingBY>100</businessCase-update:totalSpendingBY>
-                <businessCase-update:isActive>active</businessCase-update:isActive>
-              </businessCase-update:updateCapability>
-              <businessCase-update:addCapability>
-                <businessCase-update:agencyCapabilityId>a</businessCase-update:agencyCapabilityId>
-                <businessCase-update:capabilityCode>0</businessCase-update:capabilityCode>
-                <businessCase-update:purposeOutcome>a</businessCase-update:purposeOutcome>
-                <businessCase-update:totalSpendingPY>100</businessCase-update:totalSpendingPY>
-                <businessCase-update:totalSpendingCY>100</businessCase-update:totalSpendingCY>
-                <businessCase-update:totalSpendingBY>100</businessCase-update:totalSpendingBY>
-              </businessCase-update:addCapability>
-            </businessCase-update:securityCostsAndCapabilities>
           </businessCase-update:capitalAssetSummary>
           <businessCase-update:performanceMeasureReport>
             <businessCase-update:projectFundingPlan>
@@ -236,8 +201,7 @@
                     <businessCase-update:projectStartDate>1970-01-01</businessCase-update:projectStartDate>
                     <businessCase-update:projectCompletionDate>1970-01-01</businessCase-update:projectCompletionDate>
                     <businessCase-update:projectLifeCycleCost>10000</businessCase-update:projectLifeCycleCost>
-                    <businessCase-update:SDLCmethodology>5</businessCase-update:SDLCmethodology>
-                    <businessCase-update:otherSDLC>a</businessCase-update:otherSDLC>
+                    <businessCase-update:SDLCmethodology>2</businessCase-update:SDLCmethodology>
                     <businessCase-update:releaseEverySixMo>yes</businessCase-update:releaseEverySixMo>
                     <businessCase-update:releaseEverySixMoComment>a</businessCase-update:releaseEverySixMoComment>
                     <businessCase-update:productionDeploymentDate>1970-01-01</businessCase-update:productionDeploymentDate>
@@ -266,13 +230,10 @@
                       <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                       <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                       <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                      <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                       <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                      <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
                       <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                       <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                      <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                       <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                       <businessCase-update:NPI>3</businessCase-update:NPI>
                       <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -287,8 +248,7 @@
                   <businessCase-update:projectId>0</businessCase-update:projectId>
                   <businessCase-update:agencyProjectId>a</businessCase-update:agencyProjectId>
                   <businessCase-update:updateProjectDetail>
-                    <businessCase-update:SDLCmethodology>2</businessCase-update:SDLCmethodology>
-                    <businessCase-update:otherSDLC>a</businessCase-update:otherSDLC>
+                    <businessCase-update:SDLCmethodology>1</businessCase-update:SDLCmethodology>
                     <businessCase-update:releaseEverySixMo>no</businessCase-update:releaseEverySixMo>
                     <businessCase-update:releaseEverySixMoComment>a</businessCase-update:releaseEverySixMoComment>
                     <businessCase-update:productionDeploymentDate>1970-01-01</businessCase-update:productionDeploymentDate>
@@ -330,13 +290,10 @@
                       <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                       <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                       <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                      <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                       <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                      <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
-                      <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                       <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                       <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                      <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                       <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                       <businessCase-update:NPI>3</businessCase-update:NPI>
                       <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -351,13 +308,10 @@
                       <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                       <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                       <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                      <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
-                      <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                       <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                      <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
-                      <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                       <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                       <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                      <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                       <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                       <businessCase-update:NPI>3</businessCase-update:NPI>
                       <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -383,8 +337,7 @@
                   <businessCase-update:projectStartDate>1970-01-01</businessCase-update:projectStartDate>
                   <businessCase-update:projectCompletionDate>1970-01-01</businessCase-update:projectCompletionDate>
                   <businessCase-update:projectLifeCycleCost>10000</businessCase-update:projectLifeCycleCost>
-                  <businessCase-update:SDLCmethodology>2</businessCase-update:SDLCmethodology>
-                  <businessCase-update:otherSDLC>a</businessCase-update:otherSDLC>
+                  <businessCase-update:SDLCmethodology>1</businessCase-update:SDLCmethodology>
                   <businessCase-update:releaseEverySixMo>no</businessCase-update:releaseEverySixMo>
                   <businessCase-update:releaseEverySixMoComment>a</businessCase-update:releaseEverySixMoComment>
                   <businessCase-update:productionDeploymentDate>a</businessCase-update:productionDeploymentDate>
@@ -413,13 +366,10 @@
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                     <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
-                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                   <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
                     <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                     <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                     <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -441,7 +391,6 @@
                   <businessCase-update:projectCompletionDate>1970-01-01</businessCase-update:projectCompletionDate>
                   <businessCase-update:projectLifeCycleCost>10000</businessCase-update:projectLifeCycleCost>
                   <businessCase-update:SDLCmethodology>1</businessCase-update:SDLCmethodology>
-                  <businessCase-update:otherSDLC>a</businessCase-update:otherSDLC>
                   <businessCase-update:releaseEverySixMo>no</businessCase-update:releaseEverySixMo>
                   <businessCase-update:releaseEverySixMoComment>a</businessCase-update:releaseEverySixMoComment>
                   <businessCase-update:productionDeploymentDate>a</businessCase-update:productionDeploymentDate>
@@ -473,13 +422,10 @@
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                     <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                     <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
                     <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                     <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                     <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -511,13 +457,10 @@
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
                     <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
-                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                   <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
                     <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
                     <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                     <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
@@ -578,6 +521,7 @@
             <businessCase-update:operationalAnalysis>
               <businessCase-update:dateOfAnalysis>2015-03-06</businessCase-update:dateOfAnalysis>
               <businessCase-update:analysisResults>test.</businessCase-update:analysisResults>
+              <businessCase-update:analysisConclusion>1</businessCase-update:analysisConclusion>
             </businessCase-update:operationalAnalysis>
             <businessCase-update:performanceMetrics>
               <businessCase-update:addPerformanceMetric>

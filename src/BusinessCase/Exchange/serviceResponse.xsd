@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	Copyright 2009-2011 United States Government.
+
+	This software is licensed under the GNU General Public License
+	version 2 (see the file LICENSE for details)
+-->
+
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         targetNamespace="http://www.itdashboard.gov/serviceResponse"
         xmlns:sr="http://www.itdashboard.gov/serviceResponse"
@@ -7,7 +15,7 @@
         xmlns:businessCase-type="urn:us:gov:businessCase-type"
         xmlns:businessCase-facet="urn:us:gov:businessCase-facet"
         elementFormDefault="qualified"
-        version="FY_2017">
+        version="FY_2019">
 
   <annotation>
     <documentation>
@@ -56,7 +64,7 @@
       <element name="addReplacedContractResult" type="sr:replacedContractResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addPerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updatePerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="updateCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
+      <element name="setCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addProjectResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
@@ -91,15 +99,6 @@
   <complexType name="getSystemsInventoryResultType">
     <sequence>
       <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="getSecurityCostsAndCapabilitiesResultType">
-    <sequence>
-      <element name="securityCostsAndCapabilities" type="sr:securityCostsAndCapabilitiesType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
       <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
     </sequence>
@@ -214,15 +213,6 @@
     <attribute name="id" type="string" use="required"/>
   </complexType>
 
-  <complexType name="securityCostsAndCapabilitiesResultType">
-    <sequence>
-      <element name="securityCostsAndCapabilities" type="sr:securityCostsAndCapabilitiesType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
   <complexType name="investmentRiskResultType">
     <sequence>
       <element name="investmentRisk" type="sr:investmentRiskType" maxOccurs="unbounded" minOccurs="0"/>
@@ -267,7 +257,6 @@
       <element name="contract" type="sr:contractType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="acquisition" type="sr:acquisitionType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="securityCostsAndCapabilities" type="sr:securityCostsAndCapabilitiesType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="performanceMetric" type="sr:performanceMetricType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="investmentRisk" type="sr:investmentRiskType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="project" type="sr:projectType" maxOccurs="unbounded" minOccurs="0"/>
@@ -355,7 +344,6 @@
       <element name="projectCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
-      <element name="otherSDLC" type="businessCase-type:mediumTextString" minOccurs="0"/>
       <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
       <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
@@ -414,13 +402,10 @@
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
-      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
@@ -446,23 +431,11 @@
     </sequence>
   </complexType>
 
-  <complexType name="securityCostsAndCapabilitiesType">
-    <sequence>
-      <element name="capabilityId" type="integer"/>
-      <element name="agencyCapabilityId" type="businessCase-type:shortTextString"/>
-      <element name="capabilityCode" type="integer"/>
-      <element name="purposeOutcome" type="businessCase-type:string1000"/>
-      <element name="totalSpendingPY" type="businessCase-type:dollarAmount"/>
-      <element name="totalSpendingCY" type="businessCase-type:dollarAmount"/>
-      <element name="totalSpendingBY" type="businessCase-type:dollarAmount"/>
-      <element name="isActive" type="businessCase-facet:isActiveString"/>
-    </sequence>
-  </complexType>
-
   <complexType name="operationalAnalysisType">
     <sequence>
       <element name="dateOfAnalysis" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="analysisResults" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="analysisConclusion" type="businessCase-facet:analysisConclusionType" minOccurs="0" />    
     </sequence>
   </complexType>
 
@@ -474,7 +447,6 @@
       <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
       <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="EVMRequired" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="contractPurpose" type="businessCase-type:mediumTextString" minOccurs="0"/>
       <element name="ITLeaseCategory" type="businessCase-facet:ITLeaseCategoryType" minOccurs="0"/>
       <element name="informationSecurityClause" type="businessCase-facet:yesNoString" minOccurs="0"/>
@@ -488,11 +460,11 @@
       <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="plannedContractDescription" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="plannedAwardDate" type="businessCase-type:contractDateType" minOccurs="0"/>
+      <element name="solicitationId" type="businessCase-type:string25" minOccurs="0"/>
       <element name="lengthOfPlannedSupport" type="businessCase-type:string20" minOccurs="0"/>
       <element name="anticipatedValue" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="EVMRequired" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="potentialSources" type="businessCase-type:mediumTextString" minOccurs="0"/>
       <element name="providerEngagement" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="containsITLease" type="businessCase-facet:yesNoString" minOccurs="0"/>
@@ -540,6 +512,7 @@
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="publicURLs" type="sr:publicURLsType" minOccurs="0"/>
+      <element name="ombControlNumbers" type="sr:ombControlNumberType" minOccurs="0"/>
       <element name="pmDetails" type="sr:pmDetailsType" minOccurs="0"/>
       <element name="investmentStartEndDates" minOccurs="0">
         <complexType>
@@ -562,22 +535,6 @@
 
   <complexType name="lifeCycleCostsResultType">
     <sequence>
-      <element name="planningBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
-      <element name="planningBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
-      <element name="dmeBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
-      <element name="dmeBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
@@ -653,6 +610,12 @@
   <complexType name="publicURLsType">
     <sequence>
       <element name="publicURL" type="businessCase-type:URLString" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+ 
+  <complexType name="ombControlNumberType">
+    <sequence>
+      <element name="ombControlNumber" type="businessCase-type:shortTextString" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
   </complexType>
 

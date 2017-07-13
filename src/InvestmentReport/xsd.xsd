@@ -1,143 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:include schemaLocation="types.xsd"/>
-    <xs:element name='tower'>
+    <xs:element name='towers'>
         <xs:complexType>
             <xs:sequence>
-                <xs:element name='category'/>
-                <xs:element name='towerDetails' minOccurs='1'>
+                <xs:element name='tower' maxOccurs="unbounded">
                     <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='UII'/>
-                            <xs:element name='agencyCode'/>
-                            <xs:element name='bureauCode'/>
-                            <xs:element name='dataCenterId'/>
-                            <xs:element name='federalRealPropertyProfileID'/>
-                            <xs:element name='PIID'/>
-                            <xs:element name='name'/>
-                            <xs:element name='investmentName'/>
-                            <xs:element name='id'/>
-                            <xs:element name='description'/>
-                            <xs:element name='POC'/>
-                            <xs:element name='POCEmail'/>
-                            <xs:element name='anticipatedEISTransitionDate'/>
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name='investmentCostDetails' minOccurs='0'>
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='investmentCostDetail' type='categorySpending'/>
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>
-                <xs:element name='costsAndCapabilities' minOccurs='0'>
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='costAndCapability'>
+                        <xs:sequence>
+                            <xs:element name='operation'/>
+                            <xs:element name='towerDetails' minOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='NISTFrameworkCategory'/>
-                                        <xs:element name='capability'/>
-                                        <xs:element name='purposeOrOutcome'/>
-                                        <xs:element name='PYFunding'/>
-                                        <xs:element name='CYFunding'/>
-                                        <xs:element name='BYFunding'/>
-                                    </xs:choice>
-                                </xs:complexType>			
-                            </xs:element>
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>       
-                <xs:element name='contracts' minOccurs='0'>
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='contract'>
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <!-- shared -->
-                                        <xs:element name='status'/> <!-- existing || future -->
+                                        <xs:element name='reportType'/>
+                                        <xs:element name='UII'/>
+                                        <xs:element name='agencyCode'/>
+                                        <xs:element name='bureauCode'/>
+                                        <xs:element name='dataCenterID'/>
+                                        <xs:element name='federalRealPropertyProfileID'/>
                                         <xs:element name='PIID'/>
-                                        <xs:element name='solicitationId'/>
-                                        <xs:element name='acquisitionStrategy'/>
-                                        <xs:element name='anticipatedAwardDate'/>
-                                        <xs:element name='contractType'/>
-                                        <!-- network -->
-                                        <xs:element name='isIPv4Permitted'/>
-                                        <xs:element name='isIPv6Supported'/>
-                                        <!-- data center fields --> 
-                                        <xs:element name='isPhysicalDataCenter'/>
-                                        <xs:element name='taskOrderCompletionDate'/>
+                                        <xs:element name='name'/>
+                                        <xs:element name='investmentName'/>
+                                        <xs:element name='description'/>
+                                        <xs:element name='POC'/>
+                                        <xs:element name='POCEmail'/>
+                                        <xs:element name='anticipatedEISTransitionDate'/>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
-                        </xs:choice>
+                            <xs:element name='investmentCostDetails' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='investmentCostDetail' type='categorySpending'/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='costsAndCapabilities' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='costAndCapability'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='NISTFrameworkCategory'/>
+                                                    <xs:element name='capability'/>
+                                                    <xs:element name='purposeOrOutcome'/>
+                                                    <xs:element name='PY'/>
+                                                    <xs:element name='CY'/>
+                                                    <xs:element name='BY'/>
+                                                </xs:choice>
+                                            </xs:complexType>			
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>       
+                            <xs:element name='contracts' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='contract'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <!-- shared -->
+                                                    <xs:element name='status'/> <!-- existing || future -->
+                                                    <xs:element name='PIID'/>
+                                                    <xs:element name='solicitationID'/>
+                                                    <xs:element name='acquisitionStrategy'/>
+                                                    <xs:element name='anticipatedAwardDate'/>
+                                                    <xs:element name='contractType'/>
+                                                    <!-- network -->
+                                                    <xs:element name='isIPv4Permitted'/>
+                                                    <xs:element name='isIPv6Supported'/>
+                                                    <!-- data center fields --> 
+                                                    <xs:element name='isPhysicalDataCenter'/>
+                                                    <xs:element name='taskOrderCompletionDate'/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='projects' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='project'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='projectName'/>
+                                                    <xs:element name='projectID'/>
+                                                    <xs:element name='description'/>
+                                                    <xs:element name='objective'/>
+                                                    <xs:element name='output'/>
+                                                    <xs:element name='startDatePlanned'/>
+                                                    <xs:element name='startDateProjected'/>
+                                                    <xs:element name='startDateActual'/>
+                                                    <xs:element name='completionDatePlanned'/>
+                                                    <xs:element name='completionDateProjected'/>
+                                                    <xs:element name='completionDateActual'/>
+                                                    <xs:element name='totalCostsPlanned'/>
+                                                    <xs:element name='totalCostsProjected'/>
+                                                    <xs:element name='totalCostsActual'/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>	
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>	
+                            <xs:element name='metrics' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='metric'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <!-- standard fields -->
+                                                    <xs:element name='agencyId'/>
+                                                    <xs:element name='description'/>
+                                                    <xs:element name='unitOfMeasure'/>
+                                                    <xs:element name='performanceMeasurementCategoryMapping'/>
+                                                    <xs:element name='agencyBaselineCapability'/>
+                                                    <xs:element name='PYTarget'/>
+                                                    <xs:element name='CYTarget'/>
+                                                    <xs:element name='measurementCondition'/>
+                                                    <xs:element name='reportingFrequency'/>
+                                                    <xs:element name='agencyObjectiveOrGoal'/>
+                                                    <xs:element name='isMetricRetired'/>	                             
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>	
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>					
+                            <xs:element name='metricActuals' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='metricActual'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <!-- standard fields -->                              
+                                                    <xs:element name='agencyId'/>
+                                                    <xs:element name='actualResult'/>
+                                                    <xs:element name='dateOfActualResult'/>
+                                                    <xs:element name='comment'/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>	
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>	
+                        </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <xs:element name='projects' minOccurs='0'>
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='project'>
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='projectName'/>
-                                        <xs:element name='projectID'/>
-                                        <xs:element name='description'/>
-                                        <xs:element name='objective'/>
-                                        <xs:element name='output'/>
-                                        <xs:element name='startDatePlanned'/>
-                                        <xs:element name='startDateActual'/>
-                                        <xs:element name='completionDatePlanned'/>
-                                        <xs:element name='completionDateActual'/>
-                                        <xs:element name='totalCostsPlanned'/>
-                                         <xs:element name='totalCostsActual'/>
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>	
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>	
-                <xs:element name='metrics' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='metric'>
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <!-- standard fields -->
-                                        <xs:element name='agencyId'/>
-                                        <xs:element name='description'/>
-                                        <xs:element name='unitOfMeasure'/>
-                                        <xs:element name='performanceMeasurementCategoryMapping'/>
-                                        <xs:element name='agencyBaselineCapability'/>
-                                        <xs:element name='PYTarget'/>
-                                        <xs:element name='CYTarget'/>
-                                        <xs:element name='measurementCondition'/>
-                                        <xs:element name='reportingFrequency'/>
-                                        <xs:element name='agencyObjectiveOrGoal'/>
-                                        <xs:element name='isMetricRetired'/>	                             
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>	
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>					
-                <xs:element name='metricActuals' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
-                    <xs:complexType>
-                        <xs:choice minOccurs="0" maxOccurs="unbounded">
-                            <xs:element name='metricActual'>
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <!-- standard fields -->                              
-                                        <xs:element name='agencyId'/>
-                                        <xs:element name='actualresult'/>
-                                        <xs:element name='dateOfActualResult'/>
-                                        <xs:element name='comment'/>	                                  
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>	
-                        </xs:choice>
-                    </xs:complexType>
-                </xs:element>	
             </xs:sequence>
         </xs:complexType>
     </xs:element>

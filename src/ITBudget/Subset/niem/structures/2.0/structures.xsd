@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
 <schema
     targetNamespace="http://niem.gov/niem/structures/2.0"
     version="alpha2"
