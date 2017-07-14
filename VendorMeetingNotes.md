@@ -1,6 +1,21 @@
 # Weekly Notes from CPIC Vendor Meeting
 The most recent meeting will always be on top
 
+## July 12th, 2017
+
+**In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
+  
+**Purpose:** Whiteboarding Session
+
+**Action Items**
+1.	Agencies are requesting vendor token and extension of time for their tokens.
+
+2.	Please do not close tickets unless the agencies are 100% comfortable with an answer, eCpic community feel free to reopen a ticket if you feel its does not meet the complete answer
+
+3.	Need better naming convention for all GitHub folders and inquiries
+
+
+
 ## June 29th, 2017
 
 **In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
