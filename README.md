@@ -37,6 +37,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017|
 |  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
+|  Final Draft Guidance  and A-11   |  July 31, 2017 **(Tentative Date)** |
+|  Pre-submission   |  August 21, 2017 **(Tentative Date)** |
+|  Budget Submission   |  September 11, 2017 **(Tentative Date)** |
 |  Final XSD (v1.9.x) shared to vendors    |  TBD  |
 |  Final XSD **Plus** (v1.9.x)  |  TBD |
 
