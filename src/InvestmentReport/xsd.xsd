@@ -11,7 +11,6 @@
                             <xs:element name='towerDetails' minOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='reportType'/>
                                         <xs:element name='UII'/>
                                         <xs:element name='agencyCode'/>
                                         <xs:element name='bureauCode'/>
@@ -40,6 +39,7 @@
                                         <xs:element name='costAndCapability'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='capabilityID'/>
                                                     <xs:element name='NISTFrameworkCategory'/>
                                                     <xs:element name='capability'/>
                                                     <xs:element name='purposeOrOutcome'/>
