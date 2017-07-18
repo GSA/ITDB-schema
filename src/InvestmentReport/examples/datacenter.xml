@@ -1,6 +1,6 @@
 <towers>
     <tower>
-        <operation>add</operation><!--add, update -->
+        <operation>add</operation><!--add, update-->
         <towerDetails>
             <reportType>DataCenter</reportType>
             <investmentName>test investment name</investmentName>
