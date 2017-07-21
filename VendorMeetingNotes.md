@@ -1,6 +1,19 @@
 # Weekly Notes from CPIC Vendor Meeting
 The most recent meeting will always be on top
 
+## July 19th, 2017
+
+**In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC, Justin Grimes OMB
+  
+**Purpose:** Give vendors an update on our development efforts and address the action items from last week
+
+**Action Items**
+1.	Rebaseline field which need to be lock and resubmit fields.
+
+2.	Gordon need to send out draft submission guidance for details to the CPIC Community of Practice.
+
+
+
 ## July 12th, 2017
 
 **In Room:** Austin Moffa OMB (Contractor), Keith Ott eCPIC, Mitchell Jarrett OMB (Contractor), Nico Ojeda OMB (Contractor), Matt Bailey OMB OFCIO, Dan York eCPIC
