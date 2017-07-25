@@ -328,7 +328,7 @@
                     <xsd:element ref="update-ITBudget-ext:ITTowers"/>
                     <xsd:element ref="update-ITBudget-ext:FunctionalBusinessSponsorInformation" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="update-ITBudget-ext:CloudComputingAlternativesEvaluation" minOccurs="0"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterInventory"/>
+                    <xsd:element ref="update-ITBudget-ext:DataCenterInventory" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:TotalCloudPaaSIaaSCostCY"/>
                     <xsd:element ref="update-ITBudget-ext:TotalCloudSaaSCostCY"/>
                     <xsd:element ref="update-ITBudget-ext:TotalOtherManagedServicesCostCY"/>
