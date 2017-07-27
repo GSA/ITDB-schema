@@ -356,7 +356,11 @@
           <documentation>project resources</documentation>
         </annotation>
       </enumeration>
-    </restriction>
+      <enumeration value="20">
+        <annotation>
+          <documentation>records management</documentation>
+        </annotation>
+      </enumeration>    </restriction>
   </simpleType>
   <simpleType name="impactType">
     <restriction base="string">
