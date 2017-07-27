@@ -37,15 +37,15 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017|
 |  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
-|  2019 UAT Server Delivered with Integrated Validations |  August 2, 2017 **(Tentative Date)** |
-|  Final Draft Guidance  and A-11   |  August 11, 2017 **(Tentative Date)** |
+|  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
+|  Final Draft Guidance  and A-11   |  August 11, 2017 |
 |  Publish Final XSD  &  XSD **Plus** (v1.9.x)    |  August 18, 2017 **(Tentative Date)**  |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
 |  Open 2019 UAT Servers to Agencies for Testing    |  August 21, 2017 **(Tentative Date)**  |
-|  Budget Submission Starts  |  September 4, 2017  9am **(Tentative Date)** |
-|  Budget Submission Ends  |  September 11, 2017 6pm **(Tentative Date)** |
-|  Business Case Submission Starts  |  September 11, 2017  6:30pm **(Tentative Date)** |
-|  Business Case Submission Ends  |  September 15, 2017 6pm **(Tentative Date)** |
+|  Budget Submission Starts  |  September 4, 2017  9am |
+|  Budget Submission Ends  |  September 11, 2017 6pm  |
+|  Business Case Submission Starts  |  September 11, 2017  6:30pm |
+|  Business Case Submission Ends  |  September 15, 2017 6pm |
 
 
 
