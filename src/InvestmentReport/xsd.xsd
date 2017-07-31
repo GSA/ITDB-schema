@@ -11,6 +11,7 @@
                             <xs:element name='towerDetails' minOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='investmentReportID'/>
                                         <xs:element name='UII'/>
                                         <xs:element name='agencyCode'/>
                                         <xs:element name='bureauCode'/>
@@ -29,7 +30,18 @@
                             <xs:element name='investmentCostDetails' minOccurs='0'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='investmentCostDetail' type='categorySpending'/>
+
+                                        <xs:element name='investmentCostDetail'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='costID'/>
+                                                    <xs:element name='category'/>
+                                                    <xs:element name='PY'/>
+                                                    <xs:element name='CY'/>
+                                                    <xs:element name='BY'/>
+                                                </xs:choice>
+                                            </xs:complexType>			
+                                        </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
@@ -59,6 +71,7 @@
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <!-- shared -->
+                                                    <xs:element name='contractID'/>
                                                     <xs:element name='status'/> <!-- existing || future -->
                                                     <xs:element name='PIID'/>
                                                     <xs:element name='solicitationID'/>
@@ -83,8 +96,8 @@
                                         <xs:element name='project'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='projectName'/>
                                                     <xs:element name='projectID'/>
+                                                    <xs:element name='projectName'/>
                                                     <xs:element name='description'/>
                                                     <xs:element name='objective'/>
                                                     <xs:element name='output'/>
@@ -110,7 +123,7 @@
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <!-- standard fields -->
-                                                    <xs:element name='agencyId'/>
+                                                    <xs:element name='metricID'/>
                                                     <xs:element name='description'/>
                                                     <xs:element name='unitOfMeasure'/>
                                                     <xs:element name='performanceMeasurementCategoryMapping'/>
@@ -134,7 +147,7 @@
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <!-- standard fields -->                              
-                                                    <xs:element name='agencyId'/>
+                                                    <xs:element name='metricActualID'/>
                                                     <xs:element name='actualResult'/>
                                                     <xs:element name='dateOfActualResult'/>
                                                     <xs:element name='comment'/>

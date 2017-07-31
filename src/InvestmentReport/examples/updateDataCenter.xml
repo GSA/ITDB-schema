@@ -1,6 +1,6 @@
 <towers>
     <tower>
-        <operation>add</operation><!--add,update-->
+        <operation>update</operation><!--add,update-->
         <towerDetails>
             <UII>018-010171991</UII>
 	    <dataCenterID>123</dataCenterID>
@@ -8,6 +8,7 @@
         </towerDetails>
         <investmentCostDetails>
             <investmentCostDetail>
+				<costID>1</costID>
                 <category>1</category> <!--data center, cloud, storage, compute-->
                 <PY>100</PY>
                 <CY>10</CY>
@@ -16,15 +17,17 @@
         </investmentCostDetails>	
         <contracts>	
             <contract>
+				<contractID>4890</contractID>
                 <status>existing</status>
-                <PIID>12345</PIID>
+                <PIID>12345update</PIID>
                 <solicitationID>12345</solicitationID>	
                 <isPhysicalDataCenter>no</isPhysicalDataCenter>
                 <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
             </contract>	
             <contract>
+				<contractID>4891</contractID>
                 <status>future</status>
-                <acquisitionStrategy>A brief description of the strategy</acquisitionStrategy>
+                <acquisitionStrategy>A brief description of the strategyupdate</acquisitionStrategy>
                 <solicitationID>54321</solicitationID>
                 <anticipatedAwardDate>10/17/2017</anticipatedAwardDate>
                 <isPhysicalDataCenter>yes</isPhysicalDataCenter>

@@ -2,14 +2,11 @@
     <tower>
         <operation>add</operation><!--add,update-->
         <towerDetails>
-            <reportType>End User</reportType>
-            <investmentName></investmentName>
-            <UII></UII>
+			<UII>018-010171991</UII>
         </towerDetails>
-
         <investmentCostDetails>
             <investmentCostDetail>
-                <category>transitionServices</category>
+                <category>1</category>
                 <PY>100</PY>
                 <CY>10</CY>
                 <BY>120</BY>	
@@ -27,7 +24,7 @@
                 <status>future</status>
                 <acquisitionStrategy>A brief description of the strategy</acquisitionStrategy>
                 <solicitationID>54321</solicitationID>
-                <anticipatedAwardDate>10/17/1991</anticipatedAwardDate>
+                <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
                 <contractType></contractType>				
             </contract>
         </contracts>
