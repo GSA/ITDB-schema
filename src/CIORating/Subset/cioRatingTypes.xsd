@@ -11,11 +11,5 @@
       <pattern value="[0-9]{3}\-[0-9]{9}"/>
     </restriction>
   </simpleType>
-  <simpleType name="cioRatingType">
-    <restriction base="integer">
-      <minInclusive value="1"/>
-      <maxInclusive value="5"/>
-    </restriction>
-  </simpleType>
 </schema>
   

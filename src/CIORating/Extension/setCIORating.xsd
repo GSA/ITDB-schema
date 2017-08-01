@@ -44,7 +44,7 @@
 
   <element name="setCIORating" type="cioRating-update:setCIORatingType"/>
   <element name="uniqueInvestmentIdentifier" type="cioRating-type:investmentIdentifierType"/>
-  <element name="cioRatingEval" type="cioRating-type:cioRatingType"/>
+  <element name="cioRatingEval"/>
   <element name="cioComment" type="cioRating-type:longTextString"/>
 
 </schema>

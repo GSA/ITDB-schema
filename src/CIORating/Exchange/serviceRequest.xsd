@@ -58,7 +58,7 @@
 
    <complexType name="setCIORatingType">
      <sequence>
-       <element name="cioRatingEval" type="cioRating-type:cioRatingType"/>
+       <element name="cioRatingEval"/>
        <element name="cioComment" type="cioRating-type:longTextString"/>
      </sequence>
      <attribute name="id" type="string" use="required"/>
