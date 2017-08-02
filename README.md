@@ -37,9 +37,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017|
 |  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v1.9.0) shared to vendors    |  July 5, 2017  |
 |  Target Date for XSD **Plus** Candidate (v1.9.0)  |  July 31, 2017 |
+|  Final Draft Guidance  and A-11   |  August 1, 2017 |
 |  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
-|  Final Draft Guidance  and A-11   |  August 11, 2017 |
-|  Publish Final XSD  &  XSD **Plus** (v1.9.x)    |  August 18, 2017 **(Tentative Date)**  |
+|  Publish Final XSD  &  XSD **Plus** (v1.9.x)    |  August 9, 2017  |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
 |  Open 2019 UAT Servers to Agencies for Testing    |  August 21, 2017 **(Tentative Date)**  |
 |  Budget Submission Starts  |  September 4, 2017  9am |
@@ -57,6 +57,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
     * [FY19 Guidance FAQs](https://community.max.gov/download/attachments/1206026892/CPIC%20CoP%20Meeting_20170627.pptx?api=v2)
     * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
     * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/Data%20Dictionary%20BY19%20CPIC%20Tables%20v1.9.4.xlsx)
+  * **A11**
+    * [OMB Circular A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)
   * **XSD**
     * [BY19 Draft](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19)
     * [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src)
