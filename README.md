@@ -65,7 +65,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
   * **SAMPLE XML**
     * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
-* **SAMPLE XML**    
+* **Validations**    
   * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)
   
 ## Asking questions and getting help
