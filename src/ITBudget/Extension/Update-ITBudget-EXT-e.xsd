@@ -140,9 +140,9 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="update-ITBudget-ext:CostPoolCategory"/>
-                    <xsd:element ref="update-ITBudget-ext:PriorYearAmount"/>
-                    <xsd:element ref="update-ITBudget-ext:CurrentYearAmount"/>
-                    <xsd:element ref="update-ITBudget-ext:BudgetYearAmount"/>
+                    <xsd:element ref="update-ITBudget-ext:PriorYearAmount" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:CurrentYearAmount" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:BudgetYearAmount" minOccurs="0"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -361,9 +361,9 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="update-ITBudget-ext:ITTowerCategory"/>
-                    <xsd:element ref="update-ITBudget-ext:PriorYearAmount"/>
-                    <xsd:element ref="update-ITBudget-ext:CurrentYearAmount"/>
-                    <xsd:element ref="update-ITBudget-ext:BudgetYearAmount"/>
+                    <xsd:element ref="update-ITBudget-ext:PriorYearAmount" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:CurrentYearAmount" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:BudgetYearAmount" minOccurs="0"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
