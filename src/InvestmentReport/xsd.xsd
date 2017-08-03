@@ -161,6 +161,7 @@
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="validateOnlyIndicator" type="xs:boolean"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>
