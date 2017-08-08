@@ -133,30 +133,30 @@
                                                     <xs:element name='measurementCondition'/>
                                                     <xs:element name='reportingFrequency'/>
                                                     <xs:element name='agencyObjectiveOrGoal'/>
-                                                    <xs:element name='isMetricRetired'/>	                             
+                                                    <xs:element name='isMetricRetired'/>
+                                                    <xs:element name='metricActuals' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='metricActual'>
+                                                                    <xs:complexType>
+                                                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                            <!-- standard fields -->
+                                                                            <xs:element name='metricActualID'/>
+                                                                            <xs:element name='actualResult'/>
+                                                                            <xs:element name='dateOfActualResult'/>
+                                                                            <xs:element name='comment'/>
+                                                                        </xs:choice>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                 </xs:choice>
                                             </xs:complexType>
                                         </xs:element>	
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>					
-                            <xs:element name='metricActuals' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='metricActual'>
-                                            <xs:complexType>
-                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <!-- standard fields -->                              
-                                                    <xs:element name='metricActualID'/>
-                                                    <xs:element name='actualResult'/>
-                                                    <xs:element name='dateOfActualResult'/>
-                                                    <xs:element name='comment'/>
-                                                </xs:choice>
-                                            </xs:complexType>
-                                        </xs:element>	
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>	
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

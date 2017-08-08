@@ -1,34 +1,34 @@
 <towers>
-    <tower>
-        <operation>add</operation><!--add,update-->
-        <towerDetails>
-            <UII>018-010171991</UII>
-	    <dataCenterID>123</dataCenterID>
-            <federalRealPropertyProfileID>4</federalRealPropertyProfileID>
-        </towerDetails>
-        <investmentCostDetails>
-            <investmentCostDetail>
-                <category>1</category> <!--data center, cloud, storage, compute-->
-                <PY>100</PY>
-                <CY>10</CY>
-                <BY>120</BY>	
-            </investmentCostDetail>
-        </investmentCostDetails>	
-        <contracts>	
-            <contract>
-                <status>existing</status>
-                <PIID>12345</PIID>
-                <solicitationID>12345</solicitationID>	
-                <isPhysicalDataCenter>no</isPhysicalDataCenter>
-                <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
-            </contract>	
-            <contract>
-                <status>future</status>
-                <acquisitionStrategy>A brief description of the strategy</acquisitionStrategy>
-                <solicitationID>54321</solicitationID>
-                <anticipatedAwardDate>10/17/2017</anticipatedAwardDate>
-                <isPhysicalDataCenter>yes</isPhysicalDataCenter>
-            </contract>
-        </contracts>
-    </tower>
+  <tower>
+    <operation>add</operation><!--add,update-->
+    <towerDetails>
+      <UII>018-010171991</UII>
+      <dataCenterID>123</dataCenterID>
+      <federalRealPropertyProfileID>4</federalRealPropertyProfileID>
+    </towerDetails>
+    <investmentCostDetails>
+      <investmentCostDetail>
+        <category>1</category> <!--data center, cloud, storage, compute-->
+        <PY>100</PY>
+        <CY>10</CY>
+        <BY>120</BY>
+      </investmentCostDetail>
+    </investmentCostDetails>
+    <contracts>
+      <contract>
+        <status>existing</status>
+        <PIID>12345</PIID>
+        <solicitationID>12345</solicitationID>
+        <isPhysicalDataCenter>no</isPhysicalDataCenter>
+        <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
+      </contract>
+      <contract>
+        <status>future</status>
+        <acquisitionStrategy>A brief description of the strategy</acquisitionStrategy>
+        <solicitationID>54321</solicitationID>
+        <anticipatedAwardDate>10/17/2017</anticipatedAwardDate>
+        <isPhysicalDataCenter>yes</isPhysicalDataCenter>
+      </contract>
+    </contracts>
+  </tower>
 </towers>
