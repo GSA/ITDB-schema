@@ -1,0 +1,89 @@
+<towers>
+  <tower>
+    <operation>add</operation><!--add,update-->
+    <towerDetails>
+      <UII>018-999990220</UII>
+      <description>n101</description>
+      <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
+    </towerDetails>
+    <investmentCostDetails>
+      <investmentCostDetail>
+        <category>2</category>
+        <PY>100</PY>
+        <CY>10</CY>
+        <BY>120</BY>
+      </investmentCostDetail>
+      <investmentCostDetail>
+        <category>5</category>
+        <PY>100</PY>
+        <CY>10</CY>
+        <BY>120</BY>
+      </investmentCostDetail>
+    </investmentCostDetails>
+    <contracts>
+      <contract>
+        <operation>add</operation>
+        <agencyContractID>Network-Contract-123</agencyContractID>
+        <status>existing</status>
+        <PIID>12345</PIID>
+        <acquisitionStrategy>Add contract</acquisitionStrategy>
+        <solicitationID>12345</solicitationID>
+        <isIPv4Permitted>Yes</isIPv4Permitted>
+        <taskOrderCompletionDate></taskOrderCompletionDate>
+      </contract>
+      <contract>
+        <operation>add</operation>
+        <agencyContractID>Network-Contract-234</agencyContractID>
+        <status>future</status>
+        <acquisitionStrategy>Add contract</acquisitionStrategy>
+        <solicitationID>54321</solicitationID>
+        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <isIPv6Supported></isIPv6Supported>
+      </contract>
+    </contracts>
+    <projects>
+      <project>
+        <operation>add</operation>
+        <agencyProjectID>Network-Project-123</agencyProjectID>
+        <projectName>Network-Project-123</projectName>
+        <description>Add project</description>
+        <objective></objective>
+        <output>Hello, world!</output>
+        <startDatePlanned>10/17/1991</startDatePlanned>
+        <startDateProjected>10/17/1991</startDateProjected>
+        <startDateActual>10/17/1991</startDateActual>
+        <completionDatePlanned>10/17/1991</completionDatePlanned>
+        <completionDateProjected>10/17/1991</completionDateProjected>
+        <completionDateActual>10/17/1991</completionDateActual>
+        <totalCostsPlanned>10</totalCostsPlanned>
+        <totalCostsProjected>10</totalCostsProjected>
+        <totalCostsActual>10</totalCostsActual>
+      </project>
+    </projects>
+    <metrics>
+      <metric>
+        <operation>add</operation>
+        <agencyMetricID>Network-Metric-123</agencyMetricID>
+        <description>Add metric</description>
+        <unitOfMeasure>1</unitOfMeasure>
+        <performanceMeasurementCategoryMapping>2</performanceMeasurementCategoryMapping>
+        <agencyBaselineCapability></agencyBaselineCapability>
+        <PYTarget>0.5</PYTarget>
+        <CYTarget>0.5</CYTarget>
+        <measurementCondition></measurementCondition>
+        <reportingFrequency></reportingFrequency>
+        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
+        <isMetricRetired>No</isMetricRetired>
+        <metricActuals>
+          <metricActual>
+            <operation>add</operation>
+            <agencyMetricActualID>Network-Mertic-123-Actual-123</agencyMetricActualID>
+            <actualResult>4.5</actualResult>
+            <dateOfActualResult>10/17/1991</dateOfActualResult>
+            <comment>Add actual</comment>
+          </metricActual>
+        </metricActuals>
+      </metric>
+    </metrics>
+  </tower>
+</towers>

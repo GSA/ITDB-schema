@@ -1,0 +1,125 @@
+<towers>
+  <tower>
+    <operation>update</operation><!--add,update-->
+    <towerDetails>
+      <UII>018-999990220</UII>
+    </towerDetails>
+    <investmentCostDetails>
+      <investmentCostDetail>
+        <category>1</category>
+        <PY>200</PY>
+        <CY>20</CY>
+        <BY>220</BY>
+      </investmentCostDetail>
+    </investmentCostDetails>
+    <contracts>
+      <contract>
+        <operation>update</operation>
+        <agencyContractID>EndUser-Contract-123</agencyContractID>
+        <status>existing</status>
+        <PIID>12345</PIID>
+        <acquisitionStrategy>Update contract</acquisitionStrategy>
+        <solicitationID>12345</solicitationID>
+        <contractType></contractType>
+        <taskOrderCompletionDate></taskOrderCompletionDate>
+      </contract>
+      <contract>
+        <operation>update</operation>
+        <agencyContractID>EndUser-Contract-234</agencyContractID>
+        <status>future</status>
+        <acquisitionStrategy>Update contract</acquisitionStrategy>
+        <solicitationID>54321</solicitationID>
+        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <contractType></contractType>
+      </contract>
+      <contract>
+        <operation>add</operation>
+        <agencyContractID>EndUser-Contract-345</agencyContractID>
+        <status>future</status>
+        <acquisitionStrategy>Add contract</acquisitionStrategy>
+        <solicitationID>54321</solicitationID>
+        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <contractType></contractType>
+      </contract>
+    </contracts>
+    <projects>
+      <project>
+        <operation>update</operation>
+        <agencyProjectID>EndUser-Project-123</agencyProjectID>
+        <projectName>EndUser-Project-123</projectName>
+        <projectID>123</projectID>
+        <description>Update project</description>
+        <startDatePlanned>10/17/1991</startDatePlanned>
+        <startDateActual></startDateActual>
+        <completionDatePlanned></completionDatePlanned>
+        <completionDateActual></completionDateActual>
+      </project>
+      <project>
+        <operation>add</operation>
+        <agencyProjectID>EndUser-Project-234</agencyProjectID>
+        <projectName>EndUser-Project-234</projectName>
+        <projectID>123</projectID>
+        <description>Add project</description>
+        <startDatePlanned>10/17/1991</startDatePlanned>
+        <startDateActual></startDateActual>
+        <completionDatePlanned></completionDatePlanned>
+        <completionDateActual></completionDateActual>
+      </project>
+    </projects>
+    <metrics>
+      <metric>
+        <operation>update</operation>
+        <agencyMetricID>EndUser-Metric-123</agencyMetricID>
+        <description>Update metric</description>
+        <unitOfMeasure>inches</unitOfMeasure>
+        <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+        <agencyBaselineCapability></agencyBaselineCapability>
+        <PYTarget>4.5</PYTarget>
+        <CYTarget></CYTarget>
+        <measurementCondition></measurementCondition>
+        <reportingFrequency></reportingFrequency>
+        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
+        <isMetricRetired></isMetricRetired>
+        <metricActuals>
+          <metricActual>
+            <operation>update</operation>
+            <agencyMetricActualID>EndUser-Metric-123-Actual-123</agencyMetricActualID>
+            <actualResult>2</actualResult>
+            <dateOfActualResult></dateOfActualResult>
+            <comment>Update actual</comment>
+          </metricActual>
+          <metricActual>
+            <operation>add</operation>
+            <agencyMetricActualID>EndUser-Metric-123-Actual-234</agencyMetricActualID>
+            <actualResult>2</actualResult>
+            <dateOfActualResult></dateOfActualResult>
+            <comment>Add actual</comment>
+          </metricActual>
+        </metricActuals>
+      </metric>
+      <metric>
+        <operation>add</operation>
+        <agencyMetricID>EndUser-Metric-234</agencyMetricID>
+        <description>Add metric</description>
+        <unitOfMeasure>inches</unitOfMeasure>
+        <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+        <agencyBaselineCapability></agencyBaselineCapability>
+        <PYTarget>4.5</PYTarget>
+        <CYTarget></CYTarget>
+        <measurementCondition></measurementCondition>
+        <reportingFrequency></reportingFrequency>
+        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
+        <isMetricRetired></isMetricRetired>
+        <metricActuals>
+          <metricActual>
+            <operation>add</operation>
+            <agencyMetricActualID>EndUser-Metric-234-Actual-123</agencyMetricActualID>
+            <actualResult>2</actualResult>
+            <dateOfActualResult></dateOfActualResult>
+            <comment>Add actual</comment>
+          </metricActual>
+        </metricActuals>
+      </metric>
+    </metrics>
+  </tower>
+</towers>
