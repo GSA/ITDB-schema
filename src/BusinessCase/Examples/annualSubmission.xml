@@ -45,6 +45,22 @@
               </businessCase-update:pmDetails>
             </businessCase-update:investmentDetails>
             <businessCase-update:lifeCycleCosts>
+			  <businessCase-update:planningBudgetaryResourcesPY-1>0</businessCase-update:planningBudgetaryResourcesPY-1>
+			  <businessCase-update:planningBudgetaryResourcesPY>10000</businessCase-update:planningBudgetaryResourcesPY>
+			  <businessCase-update:planningBudgetaryResourcesCY>10000</businessCase-update:planningBudgetaryResourcesCY>
+			  <businessCase-update:planningBudgetaryResourcesBY>10000</businessCase-update:planningBudgetaryResourcesBY>
+			  <businessCase-update:planningBudgetaryResourcesBY_1>10000</businessCase-update:planningBudgetaryResourcesBY_1>
+			  <businessCase-update:planningBudgetaryResourcesBY_2>10000</businessCase-update:planningBudgetaryResourcesBY_2>
+			  <businessCase-update:planningBudgetaryResourcesBY_3>10000</businessCase-update:planningBudgetaryResourcesBY_3>
+			  <businessCase-update:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-update:planningBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-update:dmeBudgetaryResourcesPY-1>0</businessCase-update:dmeBudgetaryResourcesPY-1>
+			  <businessCase-update:dmeBudgetaryResourcesPY>10000</businessCase-update:dmeBudgetaryResourcesPY>
+			  <businessCase-update:dmeBudgetaryResourcesCY>10000</businessCase-update:dmeBudgetaryResourcesCY>
+			  <businessCase-update:dmeBudgetaryResourcesBY>10000</businessCase-update:dmeBudgetaryResourcesBY>
+			  <businessCase-update:dmeBudgetaryResourcesBY_1>10000</businessCase-update:dmeBudgetaryResourcesBY_1>
+			  <businessCase-update:dmeBudgetaryResourcesBY_2>10000</businessCase-update:dmeBudgetaryResourcesBY_2>
+			  <businessCase-update:dmeBudgetaryResourcesBY_3>10000</businessCase-update:dmeBudgetaryResourcesBY_3>
+			  <businessCase-update:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-update:dmeBudgetaryResourcesBY_4_Beyond>
               <businessCase-update:dmeGovernmentFTECostsPY-1>0</businessCase-update:dmeGovernmentFTECostsPY-1>
               <businessCase-update:dmeGovernmentFTECostsPY>10000</businessCase-update:dmeGovernmentFTECostsPY>
               <businessCase-update:dmeGovernmentFTECostsCY>10000</businessCase-update:dmeGovernmentFTECostsCY>

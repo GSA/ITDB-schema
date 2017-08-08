@@ -472,6 +472,21 @@
         </reviseUpdatePerformanceMetric>
         <reviseUpdateFundingDetails>
           <lifeCycleCosts>
+			<planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
+			<planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
+			<planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
+			<planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
+			<planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
+			<planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
+			<planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+			<dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
+			<dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
+			<dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
+			<dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
+			<dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
+			<dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
+			<dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
+			<dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>          
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>
@@ -559,6 +574,21 @@
         </pmDetails>
         <updateFundingDetails>
           <lifeCycleCosts>
+			<planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
+			<planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
+			<planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
+			<planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
+			<planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
+			<planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
+			<planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+			<dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
+			<dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
+			<dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
+			<dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
+			<dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
+			<dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
+			<dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
+			<dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>           
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>

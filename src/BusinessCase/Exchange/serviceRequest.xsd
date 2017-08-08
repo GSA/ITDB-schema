@@ -806,6 +806,22 @@
 
   <complexType name="lifeCycleCostsType">
     <sequence>
+      <element name="planningBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="planningBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>    
       <element name="dmeGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>

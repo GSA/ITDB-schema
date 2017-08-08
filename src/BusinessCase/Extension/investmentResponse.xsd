@@ -136,6 +136,22 @@
   <element name="lifeCycleCosts">
     <complexType>
       <sequence>
+        <element ref="businessCase-response:planningBudgetaryResourcesPY-1" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesPY" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesCY" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesBY" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesBY_1" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesBY_2" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesBY_3" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesPY-1" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesPY" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesCY" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesBY" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesBY_1" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesBY_2" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesBY_3" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>      
         <element ref="businessCase-response:dmeGovernmentFTECostsPY-1" minOccurs="0"/>
         <element ref="businessCase-response:dmeGovernmentFTECostsPY" minOccurs="0"/>
         <element ref="businessCase-response:dmeGovernmentFTECostsCY" minOccurs="0"/>
@@ -573,7 +589,23 @@
 
   <element name="investmentStatus" type="businessCase-type:shortTextString"/>
   <element name="businessCaseId" type="integer"/>
-
+  
+  <element name="planningBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="planningBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
