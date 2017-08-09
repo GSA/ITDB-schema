@@ -56,6 +56,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Deployed |
 |:-------------:|---|---|
+|  Sprint 2017.07B                    |  July 17, 2017 |  &#x2714;  |
 |  Sprint 2017.07C                    |  July 31, 2017 |  &#x2714;  |
 |  Sprint 2017.08A                    |  August 14, 2017 |  |
 |  2017.08A Hotfix 1    |  August 17, 2017 **(Tentative Date)** | |
