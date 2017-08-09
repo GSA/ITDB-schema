@@ -40,11 +40,16 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Final Guidance  and [A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)   |  August 1, 2017 |
 |  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
 |  Publish Final XSD  &  XSD **Plus** (v1.9.x)    |  August 9, 2017  |
+|  **Sprint 2017.08A** Deployed |  August 15, 2017 |
+|  Open 2019 UAT Server Delivered with Complete Integrated Validations |  August 18, 2017 **(Tentative Date)** |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
-|  Open 2019 UAT Servers to Agencies for Testing    |  August 21, 2017 **(Tentative Date)**  |
+|  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017 **(Tentative Date)**  |
+|  **Sprint 2017.08B** Deployed |  August 29, 2017 |
+|  2019 Data Feeds availbale to Agencies    |  September 11, 2017 **(Tentative Date)**  |
 |  Budget Submission Starts  |  September 4, 2017  9am |
 |  Budget Submission Ends  |  September 11, 2017 6pm  |
 |  Business Case Submission Starts  |  September 11, 2017  6:30pm |
+|  **Sprint 2017.09A Deployed** |  September 11, 2017 |
 |  Business Case Submission Ends  |  September 15, 2017 6pm |
 
 
@@ -56,7 +61,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
     * [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)
     * [FY19 Guidance FAQs](https://community.max.gov/download/attachments/1206026892/CPIC%20CoP%20Meeting_20170627.pptx?api=v2)
     * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
-    * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/Data%20Dictionary%20BY19%20CPIC%20Tables%20v1.9.5.xlsx)
+    * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/Data%20Dictionary%20BY19%20CPIC%20Tables%20v1.9.4.xlsx)
   * **A11**
     * [OMB Circular A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)
   * **XSD**
