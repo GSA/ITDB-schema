@@ -49,7 +49,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  BY18 Submission Ends  |  August 31, 2017 |
 |  Budget Submission Starts  |  September 4, 2017  9am |
 |  2019 Data Feeds availbale to Agencies    |  September 8, 2017 **(Tentative Date)**  |
-|  **Sprint 2017.09A Deployed** |  September 11, 2017 |
+|  **Sprint 2017.09A** Deployed |  September 11, 2017 |
 |  Budget Submission Ends  |  September 11, 2017 6pm  |
 |  Business Case Submission Starts  |  September 11, 2017  6:30pm |
 |  Business Case Submission Ends  |  September 15, 2017 6pm |
