@@ -47,7 +47,6 @@
         <operation>update</operation>
         <agencyProjectID>EndUser-Project-123</agencyProjectID>
         <projectName>EndUser-Project-123</projectName>
-        <projectID>123</projectID>
         <description>Update project</description>
         <startDatePlanned>10/17/1991</startDatePlanned>
         <startDateActual></startDateActual>
@@ -58,7 +57,6 @@
         <operation>add</operation>
         <agencyProjectID>EndUser-Project-234</agencyProjectID>
         <projectName>EndUser-Project-234</projectName>
-        <projectID>123</projectID>
         <description>Add project</description>
         <startDatePlanned>10/17/1991</startDatePlanned>
         <startDateActual></startDateActual>
