@@ -56,10 +56,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  **Sprint 2017.08A**                    |  August 14, 2017 |
-|  **2017.08A Hotfix 1**    |  August 17, 2017 **(Tentative Date)** |
-|  **Sprint 2017.08B**                     |  August 28, 2017 |
-|  **Sprint 2017.09A**                     |  September 11, 2017 |
+|  Sprint 2017.08A                    |  August 14, 2017 |
+|  2017.08A Hotfix 1    |  August 17, 2017 **(Tentative Date)** |
+|  Sprint 2017.08B                     |  August 28, 2017 |
+|  Sprint 2017.09A                     |  September 11, 2017 |
 
 
 ## Quick Links to Files
