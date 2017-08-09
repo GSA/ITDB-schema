@@ -45,7 +45,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations |  August 18, 2017 **(Tentative Date)** |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
 |  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017 **(Tentative Date)**  |
-|  **Sprint 2017.08B** Deployed |  August 29, 2017 |
+|  **Sprint 2017.08B** Deployed |  August 28, 2017 |
 |  2019 Data Feeds availbale to Agencies    |  September 11, 2017 **(Tentative Date)**  |
 |  Budget Submission Starts  |  September 4, 2017  9am |
 |  Budget Submission Ends  |  September 11, 2017 6pm  |
