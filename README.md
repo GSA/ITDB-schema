@@ -39,7 +39,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Target Date for [XSD **Plus** Candidate](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19) (v1.9.0)  |  July 31, 2017 |
 |  Final Guidance  and [A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)   |  August 1, 2017 |
 |  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
-|  Publish Final XSD  &  XSD **Plus** (v1.9.x)    |  August 9, 2017  |
+|  Publish XSD  &  XSD **Plus** (v1.9.7)    |  August 9, 2017  |
+|  Publish Final XSD  &  XSD **Plus** (v1.9.8)    |  August 14, 2017  |
 |  **Sprint 2017.08A** Deployed |  August 15, 2017 |
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations |  August 18, 2017 **(Tentative Date)** |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
