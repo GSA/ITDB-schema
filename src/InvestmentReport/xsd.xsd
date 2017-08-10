@@ -11,15 +11,9 @@
                             <xs:element name='towerDetails' minOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='investmentReportID'/>
                                         <xs:element name='UII'/>
-                                        <xs:element name='agencyCode'/>
-                                        <xs:element name='bureauCode'/>
                                         <xs:element name='dataCenterID'/>
                                         <xs:element name='federalRealPropertyProfileID'/>
-                                        <xs:element name='PIID'/>
-                                        <xs:element name='name'/>
-                                        <xs:element name='investmentName'/>
                                         <xs:element name='description'/>
                                         <xs:element name='POC'/>
                                         <xs:element name='POCEmail'/>
@@ -105,13 +99,10 @@
                                                     <xs:element name='objective'/>
                                                     <xs:element name='output'/>
                                                     <xs:element name='startDatePlanned'/>
-                                                    <xs:element name='startDateProjected'/>
                                                     <xs:element name='startDateActual'/>
                                                     <xs:element name='completionDatePlanned'/>
-                                                    <xs:element name='completionDateProjected'/>
                                                     <xs:element name='completionDateActual'/>
                                                     <xs:element name='totalCostsPlanned'/>
-                                                    <xs:element name='totalCostsProjected'/>
                                                     <xs:element name='totalCostsActual'/>
                                                 </xs:choice>
                                             </xs:complexType>
