@@ -61,13 +61,10 @@
         <objective></objective>
         <output>Hello, world!</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
-        <startDateProjected>MM/DD/YYYY</startDateProjected>
         <startDateActual>MM/DD/YYYY</startDateActual>
         <completionDatePlanned>MM/DD/YYYY</completionDatePlanned>
-        <completionDateProjected>MM/DD/YYYY</completionDateProjected>
         <completionDateActual>MM/DD/YYYY</completionDateActual>
         <totalCostsPlanned>10</totalCostsPlanned>
-        <totalCostsProjected>10</totalCostsProjected>
         <totalCostsActual>10</totalCostsActual>
       </project>
       <project>
@@ -78,13 +75,10 @@
         <objective></objective>
         <output>Hello, world!</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
-        <startDateProjected>MM/DD/YYYY</startDateProjected>
         <startDateActual>MM/DD/YYYY</startDateActual>
         <completionDatePlanned>MM/DD/YYYY</completionDatePlanned>
-        <completionDateProjected>MM/DD/YYYY</completionDateProjected>
         <completionDateActual>MM/DD/YYYY</completionDateActual>
         <totalCostsPlanned>10</totalCostsPlanned>
-        <totalCostsProjected>10</totalCostsProjected>
         <totalCostsActual>10</totalCostsActual>
       </project>
     </projects>

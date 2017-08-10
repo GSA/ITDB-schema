@@ -50,13 +50,10 @@
         <objective></objective>
         <output>Hello, world!</output>
         <startDatePlanned>10/17/1991</startDatePlanned>
-        <startDateProjected>10/17/1991</startDateProjected>
         <startDateActual>10/17/1991</startDateActual>
         <completionDatePlanned>10/17/1991</completionDatePlanned>
-        <completionDateProjected>10/17/1991</completionDateProjected>
         <completionDateActual>10/17/1991</completionDateActual>
         <totalCostsPlanned>10</totalCostsPlanned>
-        <totalCostsProjected>10</totalCostsProjected>
         <totalCostsActual>10</totalCostsActual>
       </project>
     </projects>
