@@ -7,7 +7,6 @@
                 <xs:element name='tower' maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name='operation' type='operation'/>
                             <xs:element name='towerDetails' minOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -43,7 +42,6 @@
                                         <xs:element name='costAndCapability'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='operation' type='operation'/>
                                                     <xs:element name='capabilityID'/>
                                                     <xs:element name='agencyCapabilityID'/>
                                                     <xs:element name='capability'/>
@@ -63,7 +61,6 @@
                                         <xs:element name='contract'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='operation' type='operation'/>
                                                     <!-- shared -->
                                                     <xs:element name='contractID'/>
                                                     <xs:element name='agencyContractID'/>
@@ -72,13 +69,14 @@
                                                     <xs:element name='solicitationID'/>
                                                     <xs:element name='acquisitionStrategy'/>
                                                     <xs:element name='anticipatedAwardDate'/>
-                                                    <xs:element name='contractType'/>
+                                                    <xs:element name='taskOrderCompletionDate'/>
                                                     <!-- network -->
                                                     <xs:element name='isIPv4Permitted'/>
                                                     <xs:element name='isIPv6Supported'/>
                                                     <!-- data center fields --> 
                                                     <xs:element name='isPhysicalDataCenter'/>
-                                                    <xs:element name='taskOrderCompletionDate'/>
+                                                    <!-- end user fields -->
+                                                    <xs:element name='contractType'/>
                                                 </xs:choice>
                                             </xs:complexType>
                                         </xs:element>
@@ -91,7 +89,6 @@
                                         <xs:element name='project'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='operation' type='operation'/>
                                                     <xs:element name='projectID'/>
                                                     <xs:element name='agencyProjectID'/>
                                                     <xs:element name='projectName'/>
@@ -116,7 +113,6 @@
                                         <xs:element name='metric'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='operation' type='operation'/>
                                                     <!-- standard fields -->
                                                     <xs:element name='metricID'/>
                                                     <xs:element name='agencyMetricID'/>
@@ -136,7 +132,6 @@
                                                                 <xs:element name='metricActual'>
                                                                     <xs:complexType>
                                                                         <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                                            <xs:element name='operation' type='operation'/>
                                                                             <!-- standard fields -->
                                                                             <xs:element name='metricActualID'/>
                                                                             <xs:element name='agencyMetricActualID'/>

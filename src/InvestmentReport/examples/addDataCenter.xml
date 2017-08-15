@@ -1,6 +1,5 @@
 <towers>
   <tower>
-    <operation>add</operation><!--add,update-->
     <towerDetails>
       <UII>018-000006008</UII>
       <dataCenterID>123</dataCenterID>
@@ -16,7 +15,6 @@
     </investmentCostDetails>
     <contracts>
       <contract>
-        <operation>add</operation>
         <agencyContractID>DataCenter-Contract-123</agencyContractID>
         <status>existing</status>
         <PIID>12345</PIID>
@@ -26,7 +24,6 @@
         <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
       </contract>
       <contract>
-        <operation>add</operation>
         <agencyContractID>DataCenter-Contract-234</agencyContractID>
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>

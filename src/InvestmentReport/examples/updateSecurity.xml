@@ -1,12 +1,11 @@
 <towers>
   <tower>
-    <operation>update</operation><!--add,update-->
     <towerDetails>
       <UII>018-010171991</UII>
     </towerDetails>
     <costsAndCapabilities>
       <costAndCapability>
-        <operation>update</operation>
+        <capabilityID>123</capabilityID>
         <agencyCapabilityID>Security-Capability-123</agencyCapabilityID>
         <capability>3</capability>
         <purposeOrOutcome>Update capability</purposeOrOutcome>
@@ -15,7 +14,7 @@
         <BY>12</BY>
       </costAndCapability>
       <costAndCapability>
-        <operation>update</operation>
+        <capabilityID>234</capabilityID>
         <agencyCapabilityID>Security-Capability-234</agencyCapabilityID>
         <capability>5</capability>
         <purposeOrOutcome>Update capability</purposeOrOutcome>
@@ -24,7 +23,6 @@
         <BY>15</BY>
       </costAndCapability>
       <costAndCapability>
-        <operation>add</operation>
         <agencyCapabilityID>Security-Capability-345</agencyCapabilityID>
         <capability>5</capability>
         <purposeOrOutcome>Add capability</purposeOrOutcome>
