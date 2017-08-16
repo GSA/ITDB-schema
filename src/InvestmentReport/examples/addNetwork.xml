@@ -1,7 +1,8 @@
 <towers>
   <tower>
+    <operation>add</operation>
     <towerDetails>
-      <UII>018-999990220</UII>
+      <UII>018-999990221</UII>
       <description>n101</description>
       <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
     </towerDetails>
@@ -21,6 +22,7 @@
     </investmentCostDetails>
     <contracts>
       <contract>
+        <operation>add</operation>
         <agencyContractID>Network-Contract-123</agencyContractID>
         <status>existing</status>
         <PIID>12345</PIID>
@@ -30,6 +32,7 @@
         <taskOrderCompletionDate></taskOrderCompletionDate>
       </contract>
       <contract>
+        <operation>add</operation>
         <agencyContractID>Network-Contract-234</agencyContractID>
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
@@ -40,6 +43,7 @@
     </contracts>
     <projects>
       <project>
+        <operation>add</operation>
         <agencyProjectID>Network-Project-123</agencyProjectID>
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
@@ -55,6 +59,7 @@
     </projects>
     <metrics>
       <metric>
+        <operation>add</operation>
         <agencyMetricID>Network-Metric-123</agencyMetricID>
         <description>Add metric</description>
         <unitOfMeasure>1</unitOfMeasure>
@@ -68,6 +73,7 @@
         <isMetricRetired>No</isMetricRetired>
         <metricActuals>
           <metricActual>
+            <operation>add</operation>
             <agencyMetricActualID>Network-Mertic-123-Actual-123</agencyMetricActualID>
             <actualResult>4.5</actualResult>
             <dateOfActualResult>10/17/1991</dateOfActualResult>

@@ -13,52 +13,60 @@
     </investmentCostDetails>
     <contracts>
       <contract>
+        <operation>add</operation>
         <agencyContractID>EndUser-Contract-123</agencyContractID>
         <status>existing</status>
         <PIID>12345</PIID>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>12345</solicitationID>
-        <contractType></contractType>
-        <taskOrderCompletionDate></taskOrderCompletionDate>
+        <!-- Workspace, Mobile Devices, End User Software, Network Printers, Conferencing & AV, IT Helpdesk, Deskside Support -->
+        <contractType>Workspace</contractType>
+        <taskOrderCompletionDate>02/20/2018</taskOrderCompletionDate>
       </contract>
       <contract>
+        <operation>add</operation>
         <agencyContractID>EndUser-Contract-234</agencyContractID>
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <anticipatedAwardDate>05/07/2018</anticipatedAwardDate>
         <contractType></contractType>
       </contract>
     </contracts>
     <projects>
       <project>
+        <operation>add</operation>
         <agencyProjectID>EndUser-Project-123</agencyProjectID>
         <projectName>EndUser-Project-123</projectName>
         <description>Add project</description>
         <startDatePlanned>10/17/1991</startDatePlanned>
-        <startDateActual></startDateActual>
-        <completionDatePlanned></completionDatePlanned>
+        <startDateActual>01/02/1992</startDateActual>
+        <completionDatePlanned>10/01/2021</completionDatePlanned>
         <completionDateActual></completionDateActual>
       </project>
     </projects>
     <metrics>
       <metric>
+        <operation>add</operation>
         <agencyMetricID>EndUser-Metric-123</agencyMetricID>
         <description>Add metric</description>
         <unitOfMeasure>inches</unitOfMeasure>
         <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
-        <agencyBaselineCapability></agencyBaselineCapability>
+        <agencyBaselineCapability>2.153</agencyBaselineCapability>
         <PYTarget>4.5</PYTarget>
-        <CYTarget></CYTarget>
-        <measurementCondition></measurementCondition>
-        <reportingFrequency></reportingFrequency>
-        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
-        <isMetricRetired></isMetricRetired>
+        <CYTarget>4.6</CYTarget>
+        <!-- Over Target, Under Target -->
+        <measurementCondition>Under Target</measurementCondition>
+        <!-- Monthly, Quarterly -->
+        <reportingFrequency>Quarterly</reportingFrequency>
+        <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+        <isMetricRetired>n</isMetricRetired>
         <metricActuals>
           <metricActual>
+            <operation>add</operation>
             <agencyMetricActualID>EndUser-Metric-123-Actual-123</agencyMetricActualID>
             <actualResult>2</actualResult>
-            <dateOfActualResult></dateOfActualResult>
+            <dateOfActualResult>02/01/2017</dateOfActualResult>
             <comment>Add actual</comment>
           </metricActual>
         </metricActuals>

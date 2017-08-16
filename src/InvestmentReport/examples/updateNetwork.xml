@@ -1,7 +1,8 @@
 <towers>
   <tower>
+    <operation>update</operation>
     <towerDetails>
-      <UII>018-999990220</UII>
+      <UII>018-999990221</UII>
       <description>n101</description>
       <POC>John Doe</POC>
       <POCEmail>netcontact@mail.gov</POCEmail>
@@ -23,6 +24,7 @@
     </investmentCostDetails>
     <contracts>
       <contract>
+        <operation>update</operation>
         <contractID>123</contractID>
         <agencyContractID>Network-Contract-123</agencyContractID>
         <status>existing</status>
@@ -33,6 +35,7 @@
         <taskOrderCompletionDate></taskOrderCompletionDate>
       </contract>
       <contract>
+        <operation>update</operation>
         <contractID>234</contractID>
         <agencyContractID>Network-Contract-234</agencyContractID>
         <status>future</status>
@@ -42,6 +45,7 @@
         <isIPv6Supported></isIPv6Supported>
       </contract>
       <contract>
+        <operation>add</operation>
         <agencyContractID>Network-Contract-345</agencyContractID>
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
@@ -52,6 +56,7 @@
     </contracts>
     <projects>
       <project>
+        <operation>update</operation>
         <projectID>123</projectID>
         <agencyProjectID>Network-Project-123</agencyProjectID>
         <projectName>Network-Project-123</projectName>
@@ -66,6 +71,7 @@
         <totalCostsActual>10</totalCostsActual>
       </project>
       <project>
+        <operation>add</operation>
         <agencyProjectID>Network-Project-234</agencyProjectID>
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
@@ -81,6 +87,7 @@
     </projects>
     <metrics>
       <metric>
+        <operation>update</operation>
         <metricID>123</metricID>
         <agencyMetricID>Network-Metric-123</agencyMetricID>
         <description>Update metric</description>
@@ -95,6 +102,7 @@
         <isMetricRetired></isMetricRetired>
         <metricActuals>
           <metricActual>
+            <operation>update</operation>
             <metricActualID>123</metricActualID>
             <agencyMetricActualID>Network-Metric-123-Actual-123</agencyMetricActualID>
             <actualResult>123</actualResult>
@@ -102,6 +110,7 @@
             <comment>Update actual</comment>
           </metricActual>
           <metricActual>
+            <operation>add</operation>
             <agencyMetricActualID>Network-Metric-123-Actual-234</agencyMetricActualID>
             <actualResult>123</actualResult>
             <dateOfActualResult>12/12/2012</dateOfActualResult>
@@ -110,6 +119,7 @@
         </metricActuals>
       </metric>
       <metric>
+        <operation>add</operation>
         <agencyMetricID>Network-Metric-234</agencyMetricID>
         <description>Add metric</description>
         <unitOfMeasure></unitOfMeasure>
@@ -123,6 +133,7 @@
         <isMetricRetired></isMetricRetired>
         <metricActuals>
           <metricActual>
+            <operation>add</operation>
             <agencyMetricActualID>Network-Metric-234-Actual-123</agencyMetricActualID>
             <actualResult>123</actualResult>
             <dateOfActualResult>12/12/2012</dateOfActualResult>

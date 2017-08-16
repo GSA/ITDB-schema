@@ -402,25 +402,35 @@
     <restriction base="string">
       <enumeration value="1">
         <annotation>
-          <documentation>Customer Satisfaction (Process Results)</documentation>
+          <documentation>Operational Analysis</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2">
         <annotation>
-          <documentation>Strategic and Business Results</documentation>
+          <documentation>Operational Performance</documentation>
         </annotation>
       </enumeration>
       <enumeration value="3">
         <annotation>
-          <documentation>Financial Performance</documentation>
+          <documentation>Customer Satisfaction (Process Results)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="4">
         <annotation>
+          <documentation>Strategic and Business Results</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>Financial Performance</documentation>
+        </annotation>
+      </enumeration>
+       <enumeration value="6">
+        <annotation>
           <documentation>Innovation</documentation>
         </annotation>
       </enumeration>
-    </restriction>
+      </restriction>
   </simpleType>
   <simpleType name="yesNoNAType">
     <restriction base="string">
@@ -456,7 +466,12 @@
           <documentation>Other</documentation>
         </annotation>
       </enumeration>
-    </restriction>
+     <enumeration value="6">
+        <annotation>
+          <documentation>Not Applicable</documentation>
+        </annotation>
+      </enumeration>
+     </restriction>
   </simpleType>
    <simpleType name="analysisConclusionType">
     <restriction base="string">
