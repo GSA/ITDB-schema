@@ -1,0 +1,20 @@
+<towers>
+  <tower>
+    <operation>get</operation>
+    <towerDetails>
+      <UII>018-000006007</UII>
+    </towerDetails>
+  </tower>
+  <tower>
+    <operation>get</operation>
+    <towerDetails>
+      <UII>018-000006008</UII>
+    </towerDetails>
+  </tower>
+  <tower>
+    <operation>get</operation>
+    <towerDetails>
+      <UII>018-000006009</UII>
+    </towerDetails>
+  </tower>
+</towers>
