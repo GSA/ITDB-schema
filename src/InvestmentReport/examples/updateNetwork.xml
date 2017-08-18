@@ -41,7 +41,7 @@
         <status>future</status>
         <acquisitionStrategy>Update contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <anticipatedAwardDate>01/01/2010</anticipatedAwardDate>
         <isIPv6Supported>yes</isIPv6Supported>
       </contract>
       <contract>
@@ -50,7 +50,7 @@
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
+        <anticipatedAwardDate>01/01/2010</anticipatedAwardDate>
         <isIPv6Supported>yes</isIPv6Supported>
       </contract>
       <contract>
