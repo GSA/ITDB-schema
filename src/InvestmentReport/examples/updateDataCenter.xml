@@ -45,6 +45,16 @@
         <anticipatedAwardDate>10/17/2017</anticipatedAwardDate>
         <isPhysicalDataCenter>yes</isPhysicalDataCenter>
       </contract>
+      <contract>
+        <operation>add</operation>
+        <agencyContractID>DataCenter-Contract-543</agencyContractID>
+        <status>existing</status>
+        <PIID>12345</PIID>
+        <acquisitionStrategy>Add contract</acquisitionStrategy>
+        <solicitationID>12345</solicitationID>
+        <isPhysicalDataCenter>no</isPhysicalDataCenter>
+        <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
+      </contract>
     </contracts>
   </tower>
 </towers>

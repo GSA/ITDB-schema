@@ -4,6 +4,8 @@
     <towerDetails>
       <UII>018-999990221</UII>
       <description>n101</description>
+      <POC>John Doe</POC>
+      <POCEMail>john.doe@agency.gov</POCEMail>
       <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
     </towerDetails>
     <investmentCostDetails>
@@ -29,7 +31,7 @@
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>12345</solicitationID>
         <isIPv4Permitted>Yes</isIPv4Permitted>
-        <taskOrderCompletionDate></taskOrderCompletionDate>
+        <taskOrderCompletionDate>10/17/1991</taskOrderCompletionDate>
       </contract>
       <contract>
         <operation>add</operation>
@@ -38,7 +40,7 @@
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
         <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <isIPv6Supported></isIPv6Supported>
+        <isIPv6Supported>yes</isIPv6Supported>
       </contract>
     </contracts>
     <projects>
@@ -47,7 +49,7 @@
         <agencyProjectID>Network-Project-123</agencyProjectID>
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
-        <objective></objective>
+        <objective>World peace</objective>
         <output>Hello, world!</output>
         <startDatePlanned>10/17/1991</startDatePlanned>
         <startDateActual>10/17/1991</startDateActual>
@@ -64,12 +66,12 @@
         <description>Add metric</description>
         <unitOfMeasure>1</unitOfMeasure>
         <performanceMeasurementCategoryMapping>2</performanceMeasurementCategoryMapping>
-        <agencyBaselineCapability></agencyBaselineCapability>
+        <agencyBaselineCapability>1</agencyBaselineCapability>
         <PYTarget>0.5</PYTarget>
         <CYTarget>0.5</CYTarget>
-        <measurementCondition></measurementCondition>
-        <reportingFrequency></reportingFrequency>
-        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
+        <measurementCondition>over target</measurementCondition>
+        <reportingFrequency>monthly</reportingFrequency>
+        <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
         <isMetricRetired>No</isMetricRetired>
         <metricActuals>
           <metricActual>

@@ -32,7 +32,7 @@
         <acquisitionStrategy>Update contract</acquisitionStrategy>
         <solicitationID>12345</solicitationID>
         <isIPv4Permitted>Yes</isIPv4Permitted>
-        <taskOrderCompletionDate></taskOrderCompletionDate>
+        <taskOrderCompletionDate>10/17/1991</taskOrderCompletionDate>
       </contract>
       <contract>
         <operation>update</operation>
@@ -42,7 +42,7 @@
         <acquisitionStrategy>Update contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
         <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <isIPv6Supported></isIPv6Supported>
+        <isIPv6Supported>yes</isIPv6Supported>
       </contract>
       <contract>
         <operation>add</operation>
@@ -51,7 +51,17 @@
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
         <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <isIPv6Supported></isIPv6Supported>
+        <isIPv6Supported>yes</isIPv6Supported>
+      </contract>
+      <contract>
+        <operation>add</operation>
+        <agencyContractID>Network-Contract-543</agencyContractID>
+        <status>existing</status>
+        <PIID>12345</PIID>
+        <acquisitionStrategy>Add contract</acquisitionStrategy>
+        <solicitationID>12345</solicitationID>
+        <isIPv4Permitted>Yes</isIPv4Permitted>
+        <taskOrderCompletionDate></taskOrderCompletionDate>
       </contract>
     </contracts>
     <projects>
@@ -61,7 +71,7 @@
         <agencyProjectID>Network-Project-123</agencyProjectID>
         <projectName>Network-Project-123</projectName>
         <description>Update project</description>
-        <objective></objective>
+        <objective>World peace</objective>
         <output>Hello, world!</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
         <startDateActual>MM/DD/YYYY</startDateActual>
@@ -75,7 +85,7 @@
         <agencyProjectID>Network-Project-234</agencyProjectID>
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
-        <objective></objective>
+        <objective>World peace</objective>
         <output>Hello, world!</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
         <startDateActual>MM/DD/YYYY</startDateActual>
@@ -91,15 +101,15 @@
         <metricID>123</metricID>
         <agencyMetricID>Network-Metric-123</agencyMetricID>
         <description>Update metric</description>
-        <unitOfMeasure></unitOfMeasure>
-        <performanceMeasurementCategoryMapping></performanceMeasurementCategoryMapping>
-        <agencyBaselineCapability></agencyBaselineCapability>
+        <unitOfMeasure>number</unitOfMeasure>
+        <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+        <agencyBaselineCapability>1</agencyBaselineCapability>
         <PYTarget>5</PYTarget>
         <CYTarget>5</CYTarget>
-        <measurementCondition></measurementCondition>
-        <reportingFrequency></reportingFrequency>
-        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
-        <isMetricRetired></isMetricRetired>
+        <measurementCondition>over target</measurementCondition>
+        <reportingFrequency>monthly</reportingFrequency>
+        <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
+        <isMetricRetired>no</isMetricRetired>
         <metricActuals>
           <metricActual>
             <operation>update</operation>
@@ -122,15 +132,15 @@
         <operation>add</operation>
         <agencyMetricID>Network-Metric-234</agencyMetricID>
         <description>Add metric</description>
-        <unitOfMeasure></unitOfMeasure>
-        <performanceMeasurementCategoryMapping></performanceMeasurementCategoryMapping>
-        <agencyBaselineCapability></agencyBaselineCapability>
+        <unitOfMeasure>number</unitOfMeasure>
+        <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+        <agencyBaselineCapability>1</agencyBaselineCapability>
         <PYTarget>5</PYTarget>
         <CYTarget>5</CYTarget>
-        <measurementCondition></measurementCondition>
-        <reportingFrequency></reportingFrequency>
-        <agencyObjectiveOrGoal></agencyObjectiveOrGoal>
-        <isMetricRetired></isMetricRetired>
+        <measurementCondition>over target</measurementCondition>
+        <reportingFrequency>monthly</reportingFrequency>
+        <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
+        <isMetricRetired>no</isMetricRetired>
         <metricActuals>
           <metricActual>
             <operation>add</operation>

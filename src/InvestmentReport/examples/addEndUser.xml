@@ -30,7 +30,7 @@
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
         <anticipatedAwardDate>05/07/2018</anticipatedAwardDate>
-        <contractType></contractType>
+        <contractType>Workspace</contractType>
       </contract>
     </contracts>
     <projects>
@@ -42,7 +42,7 @@
         <startDatePlanned>10/17/1991</startDatePlanned>
         <startDateActual>01/02/1992</startDateActual>
         <completionDatePlanned>10/01/2021</completionDatePlanned>
-        <completionDateActual></completionDateActual>
+        <completionDateActual>10/01/2021</completionDateActual>
       </project>
     </projects>
     <metrics>
