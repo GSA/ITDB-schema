@@ -64,7 +64,7 @@
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <xs:element name='operation' type='operation'/>
-                                                    <!-- shared -->
+                                                    <!-- shared between end user, network and data center -->
                                                     <xs:element name='contractID'/>
                                                     <xs:element name='agencyContractID'/>
                                                     <xs:element name='status'/> <!-- existing || future -->
@@ -73,14 +73,13 @@
                                                     <xs:element name='acquisitionStrategy'/>
                                                     <xs:element name='anticipatedAwardDate'/>
                                                     <xs:element name='taskOrderCompletionDate'/>
+                                                    <!-- end user -->
+                                                    <xs:element name='contractType'/>
                                                     <!-- network -->
                                                     <xs:element name='isIPv4Permitted'/>
                                                     <xs:element name='isIPv6Supported'/>
-                                                    <!-- data center fields --> 
-                                                    <xs:element name='isPhysicalDataCenter'/>
-                                                    <!-- end user fields -->
-                                                    <xs:element name='contractType'/>
-                                                </xs:choice>
+                                                    <!-- data center fields -->
+                                                    <xs:element name='isPhysicalDataCenter'/>                                                </xs:choice>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:choice>
