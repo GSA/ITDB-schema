@@ -1,0 +1,219 @@
+﻿<?xml version="1.0"?>
+<InvestmentReportResponse>
+  <towers>
+    <tower>
+      <operation>add</operation>
+      <towerDetails>
+        <UII>000-999990220</UII>
+        <ErrorsAndWarnings>
+          <errors>
+            <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
+          </errors>
+          <warnings>
+            <warning>dataCenterID is unexpected for report type 06 and will not be saved.</warning>
+            <warning>POC is unexpected for report type 06 and will not be saved.</warning>
+          </warnings>
+        </ErrorsAndWarnings>
+        <investmentReportID>2</investmentReportID>
+        <dataCenterID/>
+        <federalRealPropertyProfileID/>
+        <POC/>
+        <POCEmail/>
+        <description/>
+        <anticipatedEISTransitionDate/>
+      </towerDetails>
+      <investmentCostDetails>
+        <investmentCostDetail>
+          <category>1</category>
+          <PY>100234234234234234234</PY>
+          <CY>1023423423424324243242</CY>
+          <BY>120</BY>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Field PY with value 100234234234234234234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+              <error>Field PY with value 100234234234234234234 is reported in millions and must be less than 10000.</error>
+              <error>Field CY with value 1023423423424324243242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+              <error>Field CY with value 1023423423424324243242 is reported in millions and must be less than 10000.</error>
+            </errors>
+          </ErrorsAndWarnings>
+        </investmentCostDetail>
+        <investmentCostDetail>
+          <category>1</category>
+          <PY>10werw234</PY>
+          <CY>10234we3242</CY>
+          <BY>120</BY>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Field PY with value 10werw234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+              <error>Field CY with value 10234we3242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+              <error>Field CY with value 10234we3242 is reported in millions and must be less than 10000.</error>
+            </errors>
+          </ErrorsAndWarnings>
+        </investmentCostDetail>
+      </investmentCostDetails>
+      <contracts>
+        <contract>
+          <operation>add</operation>
+          <agencyContractID>EndUser-Contract-123</agencyContractID>
+          <status>existing</status>
+          <PIID>12345</PIID>
+          <acquisitionStrategy>Add contract</acquisitionStrategy>
+          <solicitationID>12345</solicitationID>
+          <comment/>
+          <contractType>Workspace</contractType>
+          <isPhysicalDataCenter>no</isPhysicalDataCenter>
+          <isIPv4Permitted>no</isIPv4Permitted>
+          <taskOrderCompletionDate>2018-02-20</taskOrderCompletionDate>
+          <contractID>4898</contractID>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-123.</error>
+            </errors>
+          </ErrorsAndWarnings>
+          <anticipatedAwardDate/>
+          <isIPv6Supported/>
+        </contract>
+        <contract>
+          <operation>add</operation>
+          <agencyContractID>EndUser-Contract-234</agencyContractID>
+          <status>future</status>
+          <acquisitionStrategy>Add contract</acquisitionStrategy>
+          <solicitationID>54321</solicitationID>
+          <anticipatedAwardDate>2018-05-07</anticipatedAwardDate>
+          <contractType/>
+          <contractID>4899</contractID>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-234.</error>
+            </errors>
+          </ErrorsAndWarnings>
+          <PIID/>
+          <taskOrderCompletionDate/>
+          <isIPv4Permitted/>
+          <isIPv6Supported/>
+          <isPhysicalDataCenter/>
+        </contract>
+      </contracts>
+      <projects>
+        <project>
+          <operation>add</operation>
+          <agencyProjectID>EndUser-Project-123</agencyProjectID>
+          <projectName>EndUser-Project-123</projectName>
+          <description>Add project</description>
+          <startDatePlanned>1991-10-17</startDatePlanned>
+          <startDateActual>1992-01-02</startDateActual>
+          <completionDatePlanned>2021-10-01</completionDatePlanned>
+          <completionDateActual/>
+          <projectID>14621</projectID>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Add operation not allowed. A record already exists for project with agencyProjectID: EndUser-Project-123.</error>
+            </errors>
+          </ErrorsAndWarnings>
+          <objective/>
+          <output/>
+          <totalCostsPlanned/>
+          <totalCostsActual/>
+        </project>
+      </projects>
+      <metrics>
+        <metric>
+          <operation>add</operation>
+          <agencyMetricID>EndUser-Metric-123</agencyMetricID>
+          <description>Add metric</description>
+          <unitOfMeasure>inches</unitOfMeasure>
+          <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+          <agencyBaselineCapability>2.153</agencyBaselineCapability>
+          <PYTarget>4.5</PYTarget>
+          <CYTarget>4.6</CYTarget>
+          <comment>
+            <comment/>
+            <comment/>
+          </comment>
+          <measurementCondition>Under Target</measurementCondition>
+          <reportingFrequency>Quarterly</reportingFrequency>
+          <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+          <isMetricRetired>n</isMetricRetired>
+          <metricActuals>
+            <metricActual>
+              <operation>add</operation>
+              <agencyMetricActualID>EndUser-Metric-123-Actual-123</agencyMetricActualID>
+              <actualResult>2</actualResult>
+              <dateOfActualResult>2017-02-01</dateOfActualResult>
+              <comment>Add actual</comment>
+              <metricID>25719</metricID>
+              <metricActualID>177551</metricActualID>
+            </metricActual>
+          </metricActuals>
+          <metricID>25719</metricID>
+          <ErrorsAndWarnings>
+            <errors>
+              <error>Add operation not allowed. A record already exists for metric with agencyMetricID: EndUser-Metric-123.</error>
+            </errors>
+          </ErrorsAndWarnings>
+        </metric>
+      </metrics>
+    </tower>
+  </towers>
+  <response>
+    <tower1>
+      <towerDetails>
+        <errors>
+          <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
+        </errors>
+        <warnings>
+          <warning>dataCenterID is unexpected for report type 06 and will not be saved.</warning>
+          <warning>POC is unexpected for report type 06 and will not be saved.</warning>
+        </warnings>
+      </towerDetails>
+      <investmentCostDetails>
+        <investmentCostDetail>
+          <errors>
+            <error>Field PY with value 100234234234234234234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+            <error>Field PY with value 100234234234234234234 is reported in millions and must be less than 10000.</error>
+            <error>Field CY with value 1023423423424324243242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+            <error>Field CY with value 1023423423424324243242 is reported in millions and must be less than 10000.</error>
+          </errors>
+        </investmentCostDetail>
+        <investmentCostDetail>
+          <errors>
+            <error>Field PY with value 10werw234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+            <error>Field CY with value 10234we3242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
+            <error>Field CY with value 10234we3242 is reported in millions and must be less than 10000.</error>
+          </errors>
+        </investmentCostDetail>
+        <investmentCostDetail/>
+      </investmentCostDetails>
+      <contracts>
+        <contract>
+          <errors>
+            <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-123.</error>
+          </errors>
+        </contract>
+        <contract>
+          <errors>
+            <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-234.</error>
+          </errors>
+        </contract>
+        <contract/>
+      </contracts>
+      <projects>
+        <project>
+          <errors>
+            <error>Add operation not allowed. A record already exists for project with agencyProjectID: EndUser-Project-123.</error>
+          </errors>
+        </project>
+        <project/>
+      </projects>
+      <metrics>
+        <metric>
+          <errors>
+            <error>Add operation not allowed. A record already exists for metric with agencyMetricID: EndUser-Metric-123.</error>
+          </errors>
+        </metric>
+        <metric/>
+      </metrics>
+      <status>Submission Failed</status>
+    </tower1>
+  </response>
+</InvestmentReportResponse>
