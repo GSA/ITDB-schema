@@ -41,9 +41,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
   Publish XSD  &  XSD **Plus** (v1.9.7)    |  August 9, 2017  |
 |  Publish Final XSD  &  XSD **Plus** (v1.9.8)    |  August 14, 2017  |
-|  Open 2019 UAT Server Delivered with Complete Integrated Validations |  August 22, 2017 **(Tentative Date)** |
-|  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 **(Tentative Date)** |
+|  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 |
+|  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 1 |  August 22, 2017  |
 |  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017 **(Tentative Date)**  |
+|  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 2 (Hotfix) |  August 28, 2017  |
 |  BY18 Submission Ends  |  August 31, 2017 |
 |  Budget Submission Starts  |  September 5, 2017  9am |
 |  2019 Legacy Data Feeds available to Agencies    |  September 8, 2017 **(Tentative Date)**  |
@@ -60,8 +61,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.07B                    |  July 17, 2017 |  &#x2714;  |
 |  Sprint 2017.07C                    |  July 31, 2017 |  &#x2714;  |
 |  Sprint 2017.08A                    |  August 14, 2017 | &#x2714; |
-|  Sprint 2017.08B                    |  August 22, 2017 | |
-|  Sprint 2017.09A                    |  September 11, 2017 | |
+|  Sprint 2017.08B                    |  August 22, 2017 | &#x2714; |
+|  Sprint 2017.08B Hotfix 1           |  August 28, 2017 | |
+|  Sprint 2017.09A                    |  September 6, 2017 | |
 
 
 ## Quick Links to Files
