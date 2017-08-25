@@ -72,7 +72,7 @@
         <projectName>Network-Project-123</projectName>
         <description>Update project</description>
         <objective>World peace</objective>
-        <output>Hello, world!</output>
+        <output>2</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
         <startDateActual>MM/DD/YYYY</startDateActual>
         <completionDatePlanned>MM/DD/YYYY</completionDatePlanned>
@@ -86,7 +86,7 @@
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
         <objective>World peace</objective>
-        <output>Hello, world!</output>
+        <output>2</output>
         <startDatePlanned>MM/DD/YYYY</startDatePlanned>
         <startDateActual>MM/DD/YYYY</startDateActual>
         <completionDatePlanned>MM/DD/YYYY</completionDatePlanned>
