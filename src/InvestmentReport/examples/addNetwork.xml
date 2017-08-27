@@ -50,7 +50,7 @@
         <projectName>Network-Project-123</projectName>
         <description>Add project</description>
         <objective>World peace</objective>
-        <output>Hello, world!</output>
+        <output>2</output>
         <startDatePlanned>10/17/1991</startDatePlanned>
         <startDateActual>10/17/1991</startDateActual>
         <completionDatePlanned>10/17/1991</completionDatePlanned>
