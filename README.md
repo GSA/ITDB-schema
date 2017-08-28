@@ -13,7 +13,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
 | 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  DONE |
-| &#x2714; | [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)   |  DONE  |
+| &#x2714; | [FY19 Guidance]https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf  |  DONE  |
 | &#x2714;  | Baseline XSD Schema   | DONE  |
 | &#x2714;  | Baseline XML Sample Files   | DONE |
 | &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
