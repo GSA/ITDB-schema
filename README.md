@@ -47,8 +47,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 2 (Hotfix) |  August 28, 2017  |
 |  BY18 Submission Ends  |  August 31, 2017 |
 |  Budget Submission Starts  |  September 5, 2017  9am |
-|  2019 Legacy Data Feeds available to Agencies    |  September 8, 2017 **(Tentative Date)**  |
-|  2019 SIR Data Feeds available to Agencies    |  September 15, 2017 **(Tentative Date)**  |
+|  2019 IT Portfolio Data Feed available to Agencies    |  September 6, 2017   |
+|  2019 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 28, 2017   |
 |  Budget Submission Ends  |  September 11, 2017 6pm  |
 |  Business Case Submission Starts  |  September 11, 2017  6:30pm |
 |  Business Case Submission Ends  |  September 15, 2017 6pm |
@@ -62,7 +62,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.07C                    |  July 31, 2017 |  &#x2714;  |
 |  Sprint 2017.08A                    |  August 14, 2017 | &#x2714; |
 |  Sprint 2017.08B                    |  August 22, 2017 | &#x2714; |
-|  Sprint 2017.08B Hotfix 1           |  August 28, 2017 | |
+|  Sprint 2017.08B Hotfix 1           |  August 28, 2017 | &#x2714; |
 |  Sprint 2017.09A                    |  September 6, 2017 | |
 
 
