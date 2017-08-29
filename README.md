@@ -63,7 +63,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.08A                    |  August 14, 2017 | &#x2714; |
 |  Sprint 2017.08B                    |  August 22, 2017 | &#x2714; |
 |  Sprint 2017.08B Hotfix 1           |  August 28, 2017 | &#x2714; |
-|  Sprint 2017.08B Hotfix 2           |  August 30, 2017 | &#x2714; |
+|  Sprint 2017.08B Hotfix 2           |  August 30, 2017 | |
 |  Sprint 2017.09A                    |  September 6, 2017 | |
 
 
