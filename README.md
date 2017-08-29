@@ -25,7 +25,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  | Archive versions (BY17, BY16, etc) | TBD  |
 
 
-## Important Dates
+## Important Dates 
 
 |  Event  |  Date |
 |:-------------|:-------------:|
