@@ -1,4 +1,4 @@
-<towers>
+<towers validateOnlyIndicator="false">
   <tower>
     <operation>update</operation>
     <towerDetails>
@@ -21,7 +21,7 @@
         <PIID>12345</PIID>
         <acquisitionStrategy>Update contract</acquisitionStrategy>
         <solicitationID>12345</solicitationID>
-        <contractType>Workspace</contractType>
+        <contractType>1</contractType>
         <taskOrderCompletionDate></taskOrderCompletionDate>
       </contract>
       <contract>
@@ -31,8 +31,8 @@
         <status>future</status>
         <acquisitionStrategy>Update contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <contractType>Workspace</contractType>
+        <anticipatedAwardDate>09/28/2018</anticipatedAwardDate>
+        <contractType>1</contractType>
       </contract>
       <contract>
         <operation>add</operation>
@@ -40,8 +40,8 @@
         <status>future</status>
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <contractType>Workspace</contractType>
+        <anticipatedAwardDate>09/27/2018</anticipatedAwardDate>
+        <contractType>1</contractType>
       </contract>
       <contract>
         <operation>add</operation>

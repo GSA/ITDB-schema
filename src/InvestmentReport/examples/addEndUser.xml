@@ -1,5 +1,6 @@
-<towers>
+<towers validateOnlyIndicator="false">
   <tower>
+    <operation>add</operation>
     <towerDetails>
       <UII>018-999990220</UII>
     </towerDetails>
@@ -20,7 +21,7 @@
         <acquisitionStrategy>Add contract</acquisitionStrategy>
         <solicitationID>12345</solicitationID>
         <!-- Workspace, Mobile Devices, End User Software, Network Printers, Conferencing & AV, IT Helpdesk, Deskside Support -->
-        <contractType>Workspace</contractType>
+        <contractType>1</contractType>
         <taskOrderCompletionDate>02/20/2018</taskOrderCompletionDate>
       </contract>
       <contract>

@@ -324,8 +324,8 @@
                     <xsd:element ref="update-ITBudget-ext:InvestmentStatusChange"/>
                     <xsd:element ref="update-ITBudget-ext:OandM"/>
                     <xsd:element ref="update-ITBudget-ext:DME"/>
-                    <xsd:element ref="update-ITBudget-ext:CostPools"/>
-                    <xsd:element ref="update-ITBudget-ext:ITTowers"/>
+                    <xsd:element ref="update-ITBudget-ext:CostPools" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:ITTowers" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:FunctionalBusinessSponsorInformation" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="update-ITBudget-ext:CloudComputingAlternativesEvaluation" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:DataCenterInventory" minOccurs="0"/>

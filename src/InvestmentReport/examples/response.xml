@@ -10,12 +10,10 @@
             <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
           </errors>
           <warnings>
-            <warning>dataCenterID is unexpected for report type 06 and will not be saved.</warning>
             <warning>POC is unexpected for report type 06 and will not be saved.</warning>
           </warnings>
         </ErrorsAndWarnings>
         <investmentReportID>2</investmentReportID>
-        <dataCenterID/>
         <federalRealPropertyProfileID/>
         <POC/>
         <POCEmail/>
@@ -162,7 +160,6 @@
           <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
         </errors>
         <warnings>
-          <warning>dataCenterID is unexpected for report type 06 and will not be saved.</warning>
           <warning>POC is unexpected for report type 06 and will not be saved.</warning>
         </warnings>
       </towerDetails>

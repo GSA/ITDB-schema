@@ -1,9 +1,8 @@
-<towers>
+<towers validateOnlyIndicator="false">
   <tower>
     <operation>add</operation>
     <towerDetails>
       <UII>018-000006008</UII>
-      <dataCenterID>123</dataCenterID>
       <federalRealPropertyProfileID>4</federalRealPropertyProfileID>
     </towerDetails>
     <investmentCostDetails>
