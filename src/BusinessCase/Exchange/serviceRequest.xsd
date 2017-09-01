@@ -195,7 +195,7 @@
           </documentation>
         </annotation>
       </element>
-      <element name="setCIORating" type="tns:setCIORatingType" minOccurs="0">
+      <element name="updateCIORating" type="tns:updateCIORatingType" minOccurs="0">
         <annotation>
           <documentation>
             This operation is used update CIO rating.
@@ -275,7 +275,7 @@
       <element name="addReplacedContract" type="tns:addReplacedContractType"/>
       <element name="addPerformanceMetric" type="tns:addPerformanceMetricType"/>
       <element name="updatePerformanceMetric" type="tns:updatePerformanceMetricType"/>
-      <element name="setCIORating" type="tns:setCIORatingType"/>
+      <element name="updateCIORating" type="tns:updateCIORatingType"/>
       <element name="updateOperationalAnalysis" type="tns:updateOperationalAnalysisType"/>
       <element name="updateInvestmentRisk" type="tns:updateInvestmentRiskType"/>
       <element name="addInvestmentRisk" type="tns:addInvestmentRiskType"/>
@@ -423,7 +423,7 @@
     <attribute name="id" type="string" use="required"/>
   </complexType>
 
-  <complexType name="setCIORatingType">
+  <complexType name="updateCIORatingType">
     <sequence>
       <element name="cioRatingEval" type="businessCase-type:cioRatingType"/>
       <element name="cioComment" type="businessCase-type:longTextString"/>

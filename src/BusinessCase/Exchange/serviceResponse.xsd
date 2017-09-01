@@ -64,7 +64,7 @@
       <element name="addReplacedContractResult" type="sr:replacedContractResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addPerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updatePerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="setCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
+      <element name="updateCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addProjectResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
