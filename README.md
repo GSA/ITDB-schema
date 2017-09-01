@@ -47,6 +47,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 2 (Hotfix) |  August 28, 2017  |
 |  2019 IT Portfolio Data Feed available to Agencies    |  September 6, 2017   |
 |  2019 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 28, 2017   |
+
+
+## Submission Dates 
+|  Event  |  Date |
+|:-------------|:-------------:|
 |  BY18 Submission Ends  |  August 31, 2017 |
 |  Budget Submission Starts  |  September 5, 2017  9am |
 |  Budget Submission Ends  |  September 11, 2017 6pm  |
