@@ -62,6 +62,7 @@
         <element ref="businessCase-response:investmentSharedService" minOccurs="0"/>
         <element ref="businessCase-response:investmentPivEnabled" minOccurs="0"/>
         <element ref="businessCase-response:publicURLs" minOccurs="0"/>
+        <element ref="businessCase-response:ombControlNumbers" minOccurs="0"/>
         <element ref="businessCase-response:pmDetails" minOccurs="0"/>
       </sequence>
     </complexType>
@@ -208,6 +209,13 @@
       </sequence>
     </complexType>
   </element>
+
+  <complexType name="ombControlNumbers">
+    <sequence>
+      <element ref="businessCase-response:ombControlNumber" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+ 
 
   <element name="pmDetails">
     <complexType>
@@ -564,6 +572,7 @@
   <element name="investmentSharedService" type="businessCase-facet:yesNoString"/>
   <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
   <element name="publicURL" type="businessCase-type:URLString"/>
+  <element name="ombControlNumber" type="businessCase-type:longTextString"/>
   <element name="pmName" type="businessCase-type:shortTextString"/>
   <element name="pmEmail" type="businessCase-type:shortTextString"/>
   <element name="pmQualifications" type="businessCase-facet:projectManagerQualification"/>
