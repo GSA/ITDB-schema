@@ -43,7 +43,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Publish Final XSD  &  XSD **Plus** (v1.9.8)    |  August 14, 2017  |
 |  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 |
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 1 |  August 22, 2017  |
-|  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017 **(Tentative Date)**  |
+|  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017   |
 |  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 2 (Hotfix) |  August 28, 2017  |
 |  2019 IT Portfolio Data Feed available to Agencies    |  September 6, 2017   |
 |  2019 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 28, 2017   |
@@ -72,7 +72,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.08B Hotfix 3           |  August 31, 2017 | &#x2714; |
 |  Sprint 2017.09A                    |  September 6, 2017 | &#x2714; |
 |  Sprint 2017.09A Hotfix 1           |  September 8, 2017 | |
-|  Sprint 2017.09B                    |  September 28, 2017 | |
+|  Sprint 2017.09A Hotfix 2 **(Tentative Date)**          |  September 13, 2017 | |
+|  Sprint 2017.09B                    |  September 25, 2017 | |
 
 
 ## Quick Links to Files
