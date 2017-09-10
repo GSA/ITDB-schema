@@ -6,6 +6,7 @@
       <xs:enumeration value="add"/>
       <xs:enumeration value="update"/>
       <xs:enumeration value="get"/>
+      <xs:enumeration value="delete"/>
     </xs:restriction>
   </xs:simpleType>
 
