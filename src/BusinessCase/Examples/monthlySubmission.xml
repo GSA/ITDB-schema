@@ -75,6 +75,7 @@
             <referencedPIID>a</referencedPIID>
           </addReplacedContract>
         </replacedContracts>
+        <isActive>active</isActive>
       </addAcquisition>
       <addSystem>
         <agencySystemId>a</agencySystemId>
@@ -134,7 +135,6 @@
         <investmentRiskProbability>Medium</investmentRiskProbability>
         <investmentRiskImpact>Medium</investmentRiskImpact>
         <investmentRiskMitigationPlan>a</investmentRiskMitigationPlan>
-        <isActive>active</isActive>
       </updateInvestmentRisk>
       <addInvestmentRisk id="String">
         <agencyInvestmentRiskId>a</agencyInvestmentRiskId>
@@ -181,18 +181,18 @@
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>
             <releaseDescription>String</releaseDescription>
-            <NPI>3</NPI>
-            <NPE>3</NPE>
-            <NCE>3</NCE>
-            <NCI>4</NCI>
-            <DTC>9</DTC>
-            <DPC>5</DPC>
             <plannedStartDate>1970-01-01</plannedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
             <plannedTotalCost>10000</plannedTotalCost>
             <actualTotalCost>10000</actualTotalCost>
+            <NPI>3</NPI>
+            <NPE>3</NPE>
+            <NCE>3</NCE>
+            <NCI>4</NCI>
+            <DTC>9</DTC>
+            <DPC>5</DPC>
           </addAgileProjectActivity>
         </addProjectActivities>
       </addProject>
@@ -258,18 +258,18 @@
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>
             <releaseDescription>String</releaseDescription>
-            <NPI>3</NPI>
-            <NPE>3</NPE>
-            <NCE>3</NCE>
-            <NCI>4</NCI>
-            <DTC>9</DTC>
-            <DPC>5</DPC>
             <plannedStartDate>1970-01-01</plannedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
             <plannedTotalCost>10000</plannedTotalCost>
             <actualTotalCost>10000</actualTotalCost>
+            <NPI>3</NPI>
+            <NPE>3</NPE>
+            <NCE>3</NCE>
+            <NCI>4</NCI>
+            <DTC>9</DTC>
+            <DPC>5</DPC>
           </addAgileProjectActivity>
         </updateProjectActivities>
       </updateProject>
