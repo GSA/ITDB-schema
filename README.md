@@ -54,9 +54,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |:-------------|:-------------:|
 |  BY18 Submission Ends  |  August 31, 2017 |
 |  Budget Submission Starts  |  September 5, 2017  9am |
-|  Budget Submission Ends  |  September 11, 2017 6pm  |
+|  Budget Submission Ends  |  September 11, 2017 10pm  |
 |  Business Case Submission Starts  |  September 11, 2017  6:30pm |
-|  Business Case Submission Ends  |  September 15, 2017 6pm |
+|  Business Case Submission Ends  |  September 18, 2017 11:59pm |
+|  Standard Investment Reports Submission Starts  |  September 11, 2017  6:30pm |
+|  Standard Investment Reports Submission Ends  |  September 15, 2017 6pm |
 
 
 ## Sprint/Hotfix Deployment Dates
