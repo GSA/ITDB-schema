@@ -58,7 +58,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Business Case Submission Starts  |  September 11, 2017  6:30pm |
 |  Business Case Submission Ends  |  September 18, 2017 11:59pm |
 |  Standard Investment Reports Submission Starts  |  September 11, 2017  6:30pm |
-|  Standard Investment Reports Submission Ends  |  September 15, 2017 6pm |
+|  Standard Investment Reports Submission Ends  |  September 18, 2017 11:59pm |
 
 
 ## Sprint/Hotfix Deployment Dates
