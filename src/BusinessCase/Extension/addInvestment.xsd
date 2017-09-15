@@ -412,10 +412,12 @@
         <element ref="businessCase-add:DTC" minOccurs="0"/>
         <element ref="businessCase-add:DPC" minOccurs="0"/>
         <element ref="businessCase-add:plannedStartDate"/>
-         <element ref="businessCase-add:actualStartDate" minOccurs="0"/>
+        <element ref="businessCase-add:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-add:plannedCompletionDate"/>
+        <element ref="businessCase-add:projectedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-add:actualCompletionDate" minOccurs="0"/>
         <element ref="businessCase-add:plannedTotalCost"/>
+        <element ref="businessCase-add:projectedTotalCost" minOccurs="0"/>
         <element ref="businessCase-add:actualTotalCost" minOccurs="0"/>
       </sequence>
     </complexType>

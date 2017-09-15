@@ -181,18 +181,20 @@
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>
             <releaseDescription>String</releaseDescription>
-            <plannedStartDate>1970-01-01</plannedStartDate>
-            <actualStartDate>1970-01-01</actualStartDate>
-            <plannedCompletionDate>1970-01-01</plannedCompletionDate>
-            <actualCompletionDate>1970-01-01</actualCompletionDate>
-            <plannedTotalCost>10000</plannedTotalCost>
-            <actualTotalCost>10000</actualTotalCost>
             <NPI>3</NPI>
             <NPE>3</NPE>
             <NCE>3</NCE>
             <NCI>4</NCI>
             <DTC>9</DTC>
             <DPC>5</DPC>
+            <plannedStartDate>1970-01-01</plannedStartDate>
+            <actualStartDate>1970-01-01</actualStartDate>
+            <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+            <projectedCompletionDate>1970-01-01</projectedCompletionDate>
+            <actualCompletionDate>1970-01-01</actualCompletionDate>
+            <plannedTotalCost>10000</plannedTotalCost>
+            <projectedTotalCost>10000</projectedTotalCost>
+            <actualTotalCost>10000</actualTotalCost>
           </addAgileProjectActivity>
         </addProjectActivities>
       </addProject>
@@ -249,8 +251,10 @@
             <plannedStartDate>1970-01-01</plannedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+            <projectedCompletionDate>1970-01-01</projectedCompletionDate>
             <actualCompletionDate>1970-01-01</actualCompletionDate>
             <plannedTotalCost>10000</plannedTotalCost>
+            <projectedTotalCost>10000</projectedTotalCost>
             <actualTotalCost>10000</actualTotalCost>
           </updateAgileProjectActivity>
           <addAgileProjectActivity>
@@ -323,8 +327,10 @@
               <plannedStartDate>1970-01-01</plannedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
               <plannedTotalCost>10000</plannedTotalCost>
+              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>
             </reviseAddAgileProjectActivity>
           </reviseAddProjectActivities>
@@ -397,8 +403,10 @@
               <plannedStartDate>1970-01-01</plannedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
               <plannedTotalCost>10000</plannedTotalCost>
+              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>   
               <isActive>deactivated</isActive>       
             </reviseUpdateAgileProjectActivity>
@@ -416,8 +424,10 @@
               <plannedStartDate>1970-01-01</plannedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
+              <projectedCompletionDate>1970-01-01</projectedCompletionDate>
               <actualCompletionDate>1970-01-01</actualCompletionDate>
               <plannedTotalCost>10000</plannedTotalCost>
+              <projectedTotalCost>10000</projectedTotalCost>
               <actualTotalCost>10000</actualTotalCost>
             </reviseAddAgileProjectActivity>           
           </reviseUpdateProjectActivities>

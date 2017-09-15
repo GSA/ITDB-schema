@@ -379,8 +379,10 @@
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
               <sr:plannedCompletionDate>1970-01-01</sr:plannedCompletionDate>
+              <sr:projectedCompletionDate>1970-01-01</sr:projectedCompletionDate>
               <sr:actualCompletionDate>1970-01-01</sr:actualCompletionDate>
               <sr:plannedTotalCost>10000</sr:plannedTotalCost>
+              <sr:projectedTotalCost>10000</sr:projectedTotalCost>
               <sr:actualTotalCost>10000</sr:actualTotalCost>
             </sr:agileProjectActivity>
           </sr:projectActivities>
@@ -438,8 +440,10 @@
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
               <sr:plannedCompletionDate>1970-01-01</sr:plannedCompletionDate>
+              <sr:projectedCompletionDate>1970-01-01</sr:projectedCompletionDate>
               <sr:actualCompletionDate>1970-01-01</sr:actualCompletionDate>
               <sr:plannedTotalCost>10000</sr:plannedTotalCost>
+              <sr:projectedTotalCost>10000</sr:projectedTotalCost>
               <sr:actualTotalCost>10000</sr:actualTotalCost>
             </sr:agileProjectActivity>
           </sr:projectActivities>
@@ -607,8 +611,10 @@
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
               <sr:plannedCompletionDate>1970-01-01</sr:plannedCompletionDate>
+              <sr:projectedCompletionDate>1970-01-01</sr:projectedCompletionDate>
               <sr:actualCompletionDate>1970-01-01</sr:actualCompletionDate>
               <sr:plannedTotalCost>10000</sr:plannedTotalCost>
+              <sr:projectedTotalCost>10000</sr:projectedTotalCost>
               <sr:actualTotalCost>10000</sr:actualTotalCost>
             </sr:agileProjectActivity>
           </sr:projectActivities>
@@ -666,8 +672,10 @@
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
               <sr:plannedCompletionDate>1970-01-01</sr:plannedCompletionDate>
+              <sr:projectedCompletionDate>1970-01-01</sr:projectedCompletionDate>
               <sr:actualCompletionDate>1970-01-01</sr:actualCompletionDate>
               <sr:plannedTotalCost>10000</sr:plannedTotalCost>
+              <sr:projectedTotalCost>10000</sr:projectedTotalCost>
               <sr:actualTotalCost>10000</sr:actualTotalCost>
             </sr:agileProjectActivity>
           </sr:projectActivities>
@@ -874,8 +882,10 @@
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
                       <businessCase-response:plannedCompletionDate>1970-01-01</businessCase-response:plannedCompletionDate>
+                      <businessCase-response:projectedCompletionDate>1970-01-01</businessCase-response:projectedCompletionDate>
                       <businessCase-response:actualCompletionDate>1970-01-01</businessCase-response:actualCompletionDate>
                       <businessCase-response:plannedTotalCost>10000</businessCase-response:plannedTotalCost>
+                      <businessCase-response:projectedTotalCost>10000</businessCase-response:projectedTotalCost>
                       <businessCase-response:actualTotalCost>10000</businessCase-response:actualTotalCost>
                       <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                     </businessCase-response:agileProjectActivity>
@@ -1139,8 +1149,10 @@
                     <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                     <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
                     <businessCase-response:plannedCompletionDate>1970-01-01</businessCase-response:plannedCompletionDate>
+                    <businessCase-response:projectedCompletionDate>1970-01-01</businessCase-response:projectedCompletionDate>
                     <businessCase-response:actualCompletionDate>1970-01-01</businessCase-response:actualCompletionDate>
                     <businessCase-response:plannedTotalCost>10000</businessCase-response:plannedTotalCost>
+                    <businessCase-response:projectedTotalCost>10000</businessCase-response:projectedTotalCost>
                     <businessCase-response:actualTotalCost>10000</businessCase-response:actualTotalCost>
                   </businessCase-response:agileProjectActivity>
                 </businessCase-response:projectActivities>
@@ -1392,8 +1404,10 @@
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
                       <businessCase-response:plannedCompletionDate>1970-01-01</businessCase-response:plannedCompletionDate>
+                      <businessCase-response:projectedCompletionDate>1970-01-01</businessCase-response:projectedCompletionDate>
                       <businessCase-response:actualCompletionDate>1970-01-01</businessCase-response:actualCompletionDate>
                       <businessCase-response:plannedTotalCost>10000</businessCase-response:plannedTotalCost>
+                      <businessCase-response:projectedTotalCost>10000</businessCase-response:projectedTotalCost>
                       <businessCase-response:actualTotalCost>10000</businessCase-response:actualTotalCost>
                       <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                     </businessCase-response:agileProjectActivity>

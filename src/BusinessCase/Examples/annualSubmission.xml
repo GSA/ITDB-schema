@@ -245,18 +245,20 @@
                       <businessCase-update:releaseName>a</businessCase-update:releaseName>
                       <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                       <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
-                      <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                      <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                      <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                      <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                      <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                      <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                       <businessCase-update:NPI>3</businessCase-update:NPI>
                       <businessCase-update:NPE>3</businessCase-update:NPE>
                       <businessCase-update:NCE>3</businessCase-update:NCE>
                       <businessCase-update:NCI>4</businessCase-update:NCI>
                       <businessCase-update:DTC>9</businessCase-update:DTC>
                       <businessCase-update:DPC>5</businessCase-update:DPC>
+                      <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                      <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                      <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                      <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                      <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                      <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                      <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                      <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     </businessCase-update:addAgileProjectActivity>
                   </businessCase-update:addProjectActivities>
                 </businessCase-update:addProject>
@@ -305,19 +307,21 @@
                       <businessCase-update:releaseName>a</businessCase-update:releaseName>
                       <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                       <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
-                      <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                      <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                      <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                       <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                      <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                      <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                       <businessCase-update:NPI>3</businessCase-update:NPI>
                       <businessCase-update:NPE>3</businessCase-update:NPE>
                       <businessCase-update:NCE>3</businessCase-update:NCE>
                       <businessCase-update:NCI>4</businessCase-update:NCI>
                       <businessCase-update:DTC>9</businessCase-update:DTC>
                       <businessCase-update:DPC>5</businessCase-update:DPC>
-                    </businessCase-update:updateAgileProjectActivity>
+                      <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                      <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                      <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                      <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                      <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                      <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                      <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                      <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
+                     </businessCase-update:updateAgileProjectActivity>
                     <businessCase-update:addAgileProjectActivity>
                       <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
                       <businessCase-update:releaseName>a</businessCase-update:releaseName>
@@ -381,18 +385,20 @@
                     <businessCase-update:releaseName>a</businessCase-update:releaseName>
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                   <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
                     <businessCase-update:NCE>3</businessCase-update:NCE>
                     <businessCase-update:NCI>4</businessCase-update:NCI>
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                   </businessCase-update:reviseAddAgileProjectActivity>
                 </businessCase-update:reviseAddProjectActivities>
               </businessCase-update:reviseAddProject>
@@ -437,18 +443,20 @@
                     <businessCase-update:releaseName>a</businessCase-update:releaseName>
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
                     <businessCase-update:NCE>3</businessCase-update:NCE>
                     <businessCase-update:NCI>4</businessCase-update:NCI>
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:isActive>active</businessCase-update:isActive>
                   </businessCase-update:reviseUpdateAgileProjectActivity>
                   <businessCase-update:reviseAddProjectActivity>
@@ -472,19 +480,21 @@
                     <businessCase-update:releaseName>a</businessCase-update:releaseName>
                     <businessCase-update:releaseNumber>a</businessCase-update:releaseNumber>
                     <businessCase-update:releaseDescription>String</businessCase-update:releaseDescription>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                   <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:NPI>3</businessCase-update:NPI>
                     <businessCase-update:NPE>3</businessCase-update:NPE>
                     <businessCase-update:NCE>3</businessCase-update:NCE>
                     <businessCase-update:NCI>4</businessCase-update:NCI>
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
-                  </businessCase-update:reviseAddAgileProjectActivity>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
+                    </businessCase-update:reviseAddAgileProjectActivity>
                 </businessCase-update:reviseUpdateProjectActivities>
               </businessCase-update:reviseUpdateProject>
               <businessCase-update:reviseAddPerformanceMetric>

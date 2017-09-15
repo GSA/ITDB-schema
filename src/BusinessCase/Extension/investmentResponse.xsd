@@ -510,8 +510,10 @@
         <element ref="businessCase-response:plannedStartDate" minOccurs="0"/>
         <element ref="businessCase-response:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-response:plannedCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-response:projectedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-response:actualCompletionDate" minOccurs="0"/>
         <element ref="businessCase-response:plannedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-response:projectedTotalCost" minOccurs="0"/>
         <element ref="businessCase-response:actualTotalCost" minOccurs="0"/>
         <element ref="businessCase-response:isActive" minOccurs="0"/>
       </sequence>

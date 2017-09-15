@@ -404,8 +404,10 @@
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
+      <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
