@@ -142,6 +142,9 @@ If you see no changes, then the last version of the file is the latest version o
 
 
 
+### I'm having issues downloading Data Feeds with Chrome?
+
+This is a known issue. Please use IE, Firefox or Safari to download Data Feeds.
 
 
 
