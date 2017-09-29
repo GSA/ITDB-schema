@@ -138,10 +138,11 @@ Changes to the file will be high-lighted in green. 
 ![screenshot a](/docs/help/Capture3.PNG?raw=true "Changes to the file will be high-lighted in green ")
 
 If you see no changes, then the last version of the file is the latest version of the file!
-  
-  
 
-
+  
+    
+      
+      
 ### I'm having issues downloading Data Feeds with Chrome?
 
 This is a known issue. Please use IE, Firefox or Safari to download Data Feeds.
