@@ -508,7 +508,6 @@
         <element ref="businessCase-response:DTC" minOccurs="0"/>
         <element ref="businessCase-response:DPC" minOccurs="0"/>
         <element ref="businessCase-response:plannedStartDate" minOccurs="0"/>
-        <element ref="businessCase-response:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-response:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-response:plannedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-response:projectedCompletionDate" minOccurs="0"/>
