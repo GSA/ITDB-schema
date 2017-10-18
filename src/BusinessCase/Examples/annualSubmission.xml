@@ -252,6 +252,7 @@
                       <businessCase-update:DTC>9</businessCase-update:DTC>
                       <businessCase-update:DPC>5</businessCase-update:DPC>
                       <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                      <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                       <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                       <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
@@ -314,6 +315,7 @@
                       <businessCase-update:DTC>9</businessCase-update:DTC>
                       <businessCase-update:DPC>5</businessCase-update:DPC>
                       <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                      <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                       <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                       <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
@@ -392,6 +394,7 @@
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
                     <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                     <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                     <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
@@ -449,7 +452,8 @@
                     <businessCase-update:NCI>4</businessCase-update:NCI>
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>                     
+                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                     <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                     <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
@@ -486,7 +490,8 @@
                     <businessCase-update:NCI>4</businessCase-update:NCI>
                     <businessCase-update:DTC>9</businessCase-update:DTC>
                     <businessCase-update:DPC>5</businessCase-update:DPC>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>    
+                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                     <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
                     <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                     <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
