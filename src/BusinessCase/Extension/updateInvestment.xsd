@@ -523,7 +523,6 @@
         <element ref="businessCase-update:DTC" minOccurs="0"/>
         <element ref="businessCase-update:DPC" minOccurs="0"/>
         <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
-        <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
@@ -628,7 +627,6 @@
       <element ref="businessCase-update:DTC" minOccurs="0"/>
       <element ref="businessCase-update:DPC" minOccurs="0"/>
       <element ref="businessCase-update:plannedStartDate"/>
-      <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
       <element ref="businessCase-update:plannedCompletionDate"/>
       <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
@@ -709,7 +707,6 @@
       <element ref="businessCase-update:DTC" minOccurs="0"/>
       <element ref="businessCase-update:DPC" minOccurs="0"/>
       <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
-      <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
       <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
       <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
