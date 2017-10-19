@@ -376,6 +376,7 @@
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
@@ -598,6 +599,7 @@
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" />
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" />
       <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
@@ -678,6 +680,7 @@
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
@@ -753,6 +756,7 @@
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>

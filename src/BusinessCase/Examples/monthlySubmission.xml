@@ -188,6 +188,7 @@
             <DTC>9</DTC>
             <DPC>5</DPC>
             <plannedStartDate>1970-01-01</plannedStartDate>
+            <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
             <projectedCompletionDate>1970-01-01</projectedCompletionDate>
@@ -249,6 +250,7 @@
             <DTC>9</DTC>
             <DPC>5</DPC>
             <plannedStartDate>1970-01-01</plannedStartDate>
+            <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <plannedCompletionDate>1970-01-01</plannedCompletionDate>
             <projectedCompletionDate>1970-01-01</projectedCompletionDate>
@@ -327,6 +329,7 @@
               <DTC>9</DTC>
               <DPC>5</DPC>              
               <plannedStartDate>1970-01-01</plannedStartDate>
+              <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
               <projectedCompletionDate>1970-01-01</projectedCompletionDate>
@@ -403,6 +406,7 @@
               <DTC>9</DTC>
               <DPC>5</DPC>              
               <plannedStartDate>1970-01-01</plannedStartDate>
+              <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
               <plannedCompletionDate>1970-01-01</plannedCompletionDate>
               <projectedCompletionDate>1970-01-01</projectedCompletionDate>
