@@ -154,7 +154,7 @@
     </tower>
   </towers>
   <response>
-    <tower>
+    <tower1>
       <towerDetails>
         <errors>
           <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
@@ -211,6 +211,6 @@
         <metric/>
       </metrics>
       <status>Submission Failed</status>
-    </tower>
+    </tower1>
   </response>
 </InvestmentReportResponse>
