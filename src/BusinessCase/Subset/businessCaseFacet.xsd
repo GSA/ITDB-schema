@@ -402,30 +402,20 @@
     <restriction base="string">
       <enumeration value="1">
         <annotation>
-          <documentation>Operational Analysis</documentation>
+          <documentation>Customer Satisfaction (Process Results)</documentation>
         </annotation>
       </enumeration>
       <enumeration value="2">
         <annotation>
-          <documentation>Operational Performance</documentation>
+          <documentation>Strategic and Business Results</documentation>
         </annotation>
       </enumeration>
       <enumeration value="3">
         <annotation>
-          <documentation>Customer Satisfaction (Process Results)</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="4">
-        <annotation>
-          <documentation>Strategic and Business Results</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="5">
-        <annotation>
           <documentation>Financial Performance</documentation>
         </annotation>
       </enumeration>
-       <enumeration value="6">
+       <enumeration value="4">
         <annotation>
           <documentation>Innovation</documentation>
         </annotation>
