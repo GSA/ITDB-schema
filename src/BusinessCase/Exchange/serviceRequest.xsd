@@ -724,7 +724,6 @@
     <sequence>
       <element name="activityId" type="integer" minOccurs="0"/>
       <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
       <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
@@ -755,13 +754,10 @@
       <element name="NCI" type="businessCase-type:agileSprints" minOccurs="0"/>
       <element name="DTC" type="businessCase-type:agileContributors" minOccurs="0"/>
       <element name="DPC" type="businessCase-type:agileContributors" minOccurs="0"/>
-      <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="plannedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="plannedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
       <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
       <element name="actualTotalCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
     </sequence>

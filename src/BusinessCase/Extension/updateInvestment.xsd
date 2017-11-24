@@ -359,10 +359,8 @@
       <sequence>
         <element ref="businessCase-update:performanceMetricId" minOccurs="0"/>
         <element ref="businessCase-update:agencyPerformanceMetricId" minOccurs="0"/>
-        <element ref="businessCase-update:performanceMetricCategory" minOccurs="0"/>
         <element ref="businessCase-update:performanceMetricBaselineCapability" minOccurs="0"/>
         <element ref="businessCase-update:performanceMetricCYTarget" minOccurs="0"/>
-        <element ref="businessCase-update:performancePeriodicity" minOccurs="0"/>
         <element ref="businessCase-update:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:performanceMetricObjectiveOrGoal" minOccurs="0"/>
         <element ref="businessCase-update:isClosed" minOccurs="0"/>
@@ -486,7 +484,6 @@
       <sequence>
         <element ref="businessCase-update:activityId" minOccurs="0"/>
         <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
-        <element ref="businessCase-update:activityType" minOccurs="0"/>
         <element ref="businessCase-update:criticalPath" minOccurs="0"/>
         <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
@@ -512,13 +509,10 @@
         <element ref="businessCase-update:NCI" minOccurs="0"/>
         <element ref="businessCase-update:DTC" minOccurs="0"/>
         <element ref="businessCase-update:DPC" minOccurs="0"/>
-        <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
-        <element ref="businessCase-update:plannedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-update:actualCompletionDate" minOccurs="0"/>
-        <element ref="businessCase-update:plannedTotalCost" minOccurs="0"/>
         <element ref="businessCase-update:projectedTotalCost" minOccurs="0"/>
         <element ref="businessCase-update:actualTotalCost" minOccurs="0"/>
       </sequence>
