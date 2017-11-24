@@ -39,7 +39,6 @@
         <element ref="businessCase-update:uniqueInvestmentIdentifier"/>
         <element ref="businessCase-update:investmentDetails" minOccurs="0"/>
         <element ref="businessCase-update:lifeCycleCosts" minOccurs="0"/>
-        <element ref="businessCase-update:investmentStartEndDates" minOccurs="0"/>
         <element ref="businessCase-update:changesFromPreviousBudget" minOccurs="0"/>
         <element ref="businessCase-update:acquisitionStrategy" minOccurs="0"/>
         <element ref="businessCase-update:cioRating" minOccurs="0"/>
@@ -170,15 +169,6 @@
         <element ref="businessCase-update:priorYearCostChangeCY" minOccurs="0"/>
         <element ref="businessCase-update:priorYearCostPercentageChangePY" minOccurs="0"/>
         <element ref="businessCase-update:priorYearCostPercentageChangeCY" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="investmentStartEndDates">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:investmentStartYear"/>
-        <element ref="businessCase-update:investmentEndYear"/>
       </sequence>
     </complexType>
   </element>
@@ -545,11 +535,12 @@
         <element ref="businessCase-update:reviseUpdateProject" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:reviseAddPerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:reviseUpdatePerformanceMetric" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-update:reviseUpdateFundingDetails" minOccurs="0"/>
       </sequence>
       <attribute name="id" type="string" use="required"/>
     </complexType>
   </element>
-
+ 
   <complexType name="addProjectType">
     <sequence>
       <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
@@ -758,6 +749,21 @@
     </sequence>
   </complexType>
 
+  <complexType name="reviseUpdateFundingDetailsType">
+    <sequence>
+      <element ref="businessCase-update:investmentStartEndDates" minOccurs="0"/>
+    </sequence>
+  </complexType>
+  
+  <element name="investmentStartEndDates">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:investmentStartYear"/>
+        <element ref="businessCase-update:investmentEndYear"/>
+      </sequence>
+    </complexType>
+  </element>
+ 
   <complexType name="addInvestmentEliminatedorReducedType">
     <sequence>
       <element ref="businessCase-update:agencyInvestmentEliminatedorReducedID" minOccurs="0"/>
@@ -1055,6 +1061,7 @@
   <element name="reviseUpdateAgileProjectActivity" type="businessCase-update:reviseUpdateAgileProjectActivityType"/>
   <element name="reviseAddPerformanceMetric" type="businessCase-update:reviseAddPerformanceMetricType"/>
   <element name="reviseUpdatePerformanceMetric" type="businessCase-update:reviseUpdatePerformanceMetricType"/>
+  <element name="reviseUpdateFundingDetails" type="businessCase-update:reviseUpdateFundingDetailsType"/>
   <element name="addPerformanceMetric" type="businessCase-update:reviseAddPerformanceMetricType"/>
 
   <!-- Project elements -->
