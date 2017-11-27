@@ -210,11 +210,13 @@
     </complexType>
   </element>
 
-  <complexType name="ombControlNumbers">
-    <sequence>
-      <element ref="businessCase-response:ombControlNumber" minOccurs="0" maxOccurs="unbounded"/>
-    </sequence>
-  </complexType>
+  <element name="ombControlNumbers">
+     <complexType>
+       <sequence>
+         <element ref="businessCase-response:ombControlNumber" minOccurs="0" maxOccurs="unbounded"/>
+       </sequence>
+     </complexType>
+  </element>
  
 
   <element name="pmDetails">

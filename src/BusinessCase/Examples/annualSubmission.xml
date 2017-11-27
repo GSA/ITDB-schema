@@ -98,10 +98,6 @@
               <businessCase-update:priorYearCostPercentageChangePY>0</businessCase-update:priorYearCostPercentageChangePY>
               <businessCase-update:priorYearCostPercentageChangeCY>0</businessCase-update:priorYearCostPercentageChangeCY>
             </businessCase-update:lifeCycleCosts>
-            <businessCase-update:investmentStartEndDates>
-              <businessCase-update:investmentStartYear>2000</businessCase-update:investmentStartYear>
-              <businessCase-update:investmentEndYear>2020</businessCase-update:investmentEndYear>
-            </businessCase-update:investmentStartEndDates>
             <businessCase-update:changesFromPreviousBudget>a</businessCase-update:changesFromPreviousBudget>
             <businessCase-update:acquisitionStrategy>
               <businessCase-update:existingContracts>
@@ -276,7 +272,6 @@
                     <businessCase-update:updateProjectActivity>
                       <businessCase-update:activityId>0</businessCase-update:activityId>
                       <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
-                      <businessCase-update:activityType>9</businessCase-update:activityType>
                       <businessCase-update:criticalPath>yes</businessCase-update:criticalPath>
                       <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
@@ -314,13 +309,10 @@
                       <businessCase-update:NCI>4</businessCase-update:NCI>
                       <businessCase-update:DTC>9</businessCase-update:DTC>
                       <businessCase-update:DPC>5</businessCase-update:DPC>
-                      <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
                       <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
                       <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                      <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
                       <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
                       <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                      <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
                       <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
                       <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                      </businessCase-update:updateAgileProjectActivity>
@@ -443,6 +435,22 @@
                     <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:isActive>active</businessCase-update:isActive>
                   </businessCase-update:reviseUpdateProjectActivity>
+                  <businessCase-update:reviseAddProjectActivity>
+                    <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
+                    <businessCase-update:activityName>a</businessCase-update:activityName>
+                    <businessCase-update:activityDescription>a</businessCase-update:activityDescription>
+                    <businessCase-update:structureId>String</businessCase-update:structureId>
+                    <businessCase-update:activityType>11</businessCase-update:activityType>
+                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
+                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
+                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
+                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
+                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
+                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
+                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
+                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
+                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
+                  </businessCase-update:reviseAddProjectActivity>
                   <businessCase-update:reviseUpdateAgileProjectActivity>
                     <businessCase-update:activityId>123</businessCase-update:activityId>
                     <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
@@ -466,22 +474,6 @@
                     <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
                     <businessCase-update:isActive>active</businessCase-update:isActive>
                   </businessCase-update:reviseUpdateAgileProjectActivity>
-                  <businessCase-update:reviseAddProjectActivity>
-                    <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
-                    <businessCase-update:activityName>a</businessCase-update:activityName>
-                    <businessCase-update:activityDescription>a</businessCase-update:activityDescription>
-                    <businessCase-update:structureId>String</businessCase-update:structureId>
-                    <businessCase-update:activityType>11</businessCase-update:activityType>
-                    <businessCase-update:plannedStartDate>1970-01-01</businessCase-update:plannedStartDate>
-                    <businessCase-update:projectedStartDate>1970-01-01</businessCase-update:projectedStartDate>
-                    <businessCase-update:actualStartDate>1970-01-01</businessCase-update:actualStartDate>
-                    <businessCase-update:plannedCompletionDate>1970-01-01</businessCase-update:plannedCompletionDate>
-                    <businessCase-update:projectedCompletionDate>1970-01-01</businessCase-update:projectedCompletionDate>
-                    <businessCase-update:actualCompletionDate>1970-01-01</businessCase-update:actualCompletionDate>
-                    <businessCase-update:plannedTotalCost>10000</businessCase-update:plannedTotalCost>
-                    <businessCase-update:projectedTotalCost>10000</businessCase-update:projectedTotalCost>
-                    <businessCase-update:actualTotalCost>10000</businessCase-update:actualTotalCost>
-                  </businessCase-update:reviseAddProjectActivity>
                   <businessCase-update:reviseAddAgileProjectActivity>
                     <businessCase-update:agencyActivityId>a</businessCase-update:agencyActivityId>
                     <businessCase-update:releaseName>a</businessCase-update:releaseName>
@@ -551,6 +543,12 @@
                 <businessCase-update:isActive>deactivated</businessCase-update:isActive>
                 <businessCase-update:isClosed>yes</businessCase-update:isClosed>
               </businessCase-update:reviseUpdatePerformanceMetric>
+              <businessCase-update:reviseUpdateFundingDetails>
+                <businessCase-update:investmentStartEndDates>
+                  <businessCase-update:investmentStartYear>2000</businessCase-update:investmentStartYear>
+                  <businessCase-update:investmentEndYear>2020</businessCase-update:investmentEndYear>
+                </businessCase-update:investmentStartEndDates>
+              </businessCase-update:reviseUpdateFundingDetails>
             </businessCase-update:reviseInvestment>
             <businessCase-update:operationalAnalysis>
               <businessCase-update:dateOfAnalysis>2015-03-06</businessCase-update:dateOfAnalysis>
@@ -580,7 +578,6 @@
               <businessCase-update:updatePerformanceMetric>
                 <businessCase-update:performanceMetricId>0</businessCase-update:performanceMetricId>
                 <businessCase-update:agencyPerformanceMetricId>a</businessCase-update:agencyPerformanceMetricId>
-                <businessCase-update:performanceMetricCategory>1</businessCase-update:performanceMetricCategory>
                 <businessCase-update:performanceMetricBaselineCapability>0</businessCase-update:performanceMetricBaselineCapability>
                 <businessCase-update:performanceMetricCYTarget>0</businessCase-update:performanceMetricCYTarget>
                 <businessCase-update:addPerformanceMetricActual>

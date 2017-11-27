@@ -160,10 +160,10 @@
                 <businessCase-response:systemId>0</businessCase-response:systemId>
                 <businessCase-response:agencySystemId>a</businessCase-response:agencySystemId>
                 <businessCase-response:systemName>a</businessCase-response:systemName>
-                <businessCase-response:initialOperatingYear>a</businessCase-response:initialOperatingYear>
-                <businessCase-response:techRefreshDate>no</businessCase-response:techRefreshDate>
-                <businessCase-response:endOfContractedSupportDate>a</businessCase-response:endOfContractedSupportDate>
-                <businessCase-response:averageUsersPerMonth>no</businessCase-response:averageUsersPerMonth>
+                <businessCase-response:initialOperatingYear>1970</businessCase-response:initialOperatingYear>
+                <businessCase-response:techRefreshDate>1970-01-01</businessCase-response:techRefreshDate>
+                <businessCase-response:endOfContractedSupportDate>1970-01-01</businessCase-response:endOfContractedSupportDate>
+                <businessCase-response:averageUsersPerMonth>0</businessCase-response:averageUsersPerMonth>
                 <businessCase-response:isActive>active</businessCase-response:isActive>
               </businessCase-response:systemsInventoryRow>
             </businessCase-response:systemsInventory>
@@ -689,8 +689,7 @@
         <businessCase-response:capitalAssetPlan>
           <businessCase-response:capitalAssetSummary>
             <businessCase-response:agency>006</businessCase-response:agency>
-            <businessCase-response:uniqueInvestmentIdentifier>000-000000000
-            </businessCase-response:uniqueInvestmentIdentifier>
+            <businessCase-response:uniqueInvestmentIdentifier>000-000000000</businessCase-response:uniqueInvestmentIdentifier>
             <businessCase-response:investmentDetails>
               <businessCase-response:investmentDescription>a</businessCase-response:investmentDescription>
               <businessCase-response:objectivesOrGoals>
@@ -722,7 +721,7 @@
               <businessCase-response:pmDetails>
                 <businessCase-response:pmName>a</businessCase-response:pmName>
                 <businessCase-response:pmEmail>a</businessCase-response:pmEmail>
-                <businessCase-response:pmQualifications></businessCase-response:pmQualifications>
+                <businessCase-response:pmQualifications>1</businessCase-response:pmQualifications>
               </businessCase-response:pmDetails>
             </businessCase-response:investmentDetails>
             <businessCase-response:lifeCycleCosts>
@@ -957,8 +956,7 @@
         <businessCase-response:capitalAssetPlan>
           <businessCase-response:capitalAssetSummary>
             <businessCase-response:agency>006</businessCase-response:agency>
-            <businessCase-response:uniqueInvestmentIdentifier>000-000000000
-            </businessCase-response:uniqueInvestmentIdentifier>
+            <businessCase-response:uniqueInvestmentIdentifier>000-000000000</businessCase-response:uniqueInvestmentIdentifier>
             <businessCase-response:investmentDetails>
               <businessCase-response:investmentDescription>a</businessCase-response:investmentDescription>
               <businessCase-response:objectivesOrGoals>
@@ -990,7 +988,7 @@
               <businessCase-response:pmDetails>
                 <businessCase-response:pmName>a</businessCase-response:pmName>
                 <businessCase-response:pmEmail>a</businessCase-response:pmEmail>
-                <businessCase-response:pmQualifications></businessCase-response:pmQualifications>
+                <businessCase-response:pmQualifications>1</businessCase-response:pmQualifications>
               </businessCase-response:pmDetails>
             </businessCase-response:investmentDetails>
             <businessCase-response:lifeCycleCosts>
@@ -1246,7 +1244,7 @@
               <businessCase-response:pmDetails>
                 <businessCase-response:pmName>a</businessCase-response:pmName>
                 <businessCase-response:pmEmail>a</businessCase-response:pmEmail>
-                <businessCase-response:pmQualifications></businessCase-response:pmQualifications>
+                <businessCase-response:pmQualifications>1</businessCase-response:pmQualifications>
               </businessCase-response:pmDetails>
             </businessCase-response:investmentDetails>
             <businessCase-response:lifeCycleCosts>
