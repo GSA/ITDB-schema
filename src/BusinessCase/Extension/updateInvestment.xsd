@@ -359,8 +359,10 @@
       <sequence>
         <element ref="businessCase-update:performanceMetricId" minOccurs="0"/>
         <element ref="businessCase-update:agencyPerformanceMetricId" minOccurs="0"/>
+        <element ref="businessCase-update:performanceMetricCategory" minOccurs="0"/>
         <element ref="businessCase-update:performanceMetricBaselineCapability" minOccurs="0"/>
         <element ref="businessCase-update:performanceMetricCYTarget" minOccurs="0"/>
+        <element ref="businessCase-update:performancePeriodicity" minOccurs="0"/>
         <element ref="businessCase-update:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:performanceMetricObjectiveOrGoal" minOccurs="0"/>
         <element ref="businessCase-update:isClosed" minOccurs="0"/>
