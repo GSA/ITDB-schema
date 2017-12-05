@@ -201,8 +201,10 @@
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
                       <businessCase-response:plannedCompletionDate>1970-01-01</businessCase-response:plannedCompletionDate>
+                      <businessCase-response:projectedCompletionDate>1970-01-01</businessCase-response:projectedCompletionDate>
                       <businessCase-response:actualCompletionDate>1970-01-01</businessCase-response:actualCompletionDate>
                       <businessCase-response:plannedTotalCost>10000</businessCase-response:plannedTotalCost>
+                      <businessCase-response:projectedTotalCost>10000</businessCase-response:projectedTotalCost>
                       <businessCase-response:actualTotalCost>10000</businessCase-response:actualTotalCost>
                       <businessCase-response:isActive>active</businessCase-response:isActive>
                     </businessCase-response:projectActivity>
@@ -221,8 +223,10 @@
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
                       <businessCase-response:plannedCompletionDate>1970-01-01</businessCase-response:plannedCompletionDate>
+                      <businessCase-response:projectedCompletionDate>1970-01-01</businessCase-response:projectedCompletionDate>
                       <businessCase-response:actualCompletionDate>1970-01-01</businessCase-response:actualCompletionDate>
                       <businessCase-response:plannedTotalCost>10000</businessCase-response:plannedTotalCost>
+                      <businessCase-response:projectedTotalCost>10000</businessCase-response:projectedTotalCost>
                       <businessCase-response:actualTotalCost>10000</businessCase-response:actualTotalCost>
                       <businessCase-response:isActive>active</businessCase-response:isActive>
                     </businessCase-response:agileProjectActivity>
