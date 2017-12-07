@@ -18,7 +18,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714;  | Baseline XML Sample Files   | DONE |
 | &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
 | &#x2714;  | [Technical Documents](https://github.com/ombegov/ITDB-schema/tree/master/docs/TechnicalDocumentation)   | DONE  |
-| &#x2714; | [How to submit data to IT Dashboard for FY19](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions_v3_24.pdf) | DONE  |
+| &#x2714; | [How to submit data to IT Dashboard for FY19](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions_v3_25.pdf) | DONE  |
 | &#x2714; | [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | DONE |
 | &#x2714; | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| DONE |
 |  | Diagram of submission process  | SOON  |
