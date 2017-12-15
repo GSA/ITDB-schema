@@ -513,6 +513,7 @@
                   <businessCase-update:performanceMetricDateofActual>1970-01-01</businessCase-update:performanceMetricDateofActual>
                   <businessCase-update:performanceMetricComment>a</businessCase-update:performanceMetricComment>
                 </businessCase-update:addPerformanceMetricActual>
+                <businessCase-update:performanceMetricObjectiveOrGoal>123</businessCase-update:performanceMetricObjectiveOrGoal>                
                 <businessCase-update:isClosed>yes</businessCase-update:isClosed>
               </businessCase-update:reviseAddPerformanceMetric>
               <businessCase-update:reviseUpdatePerformanceMetric>
@@ -540,6 +541,7 @@
                   <businessCase-update:performanceMetricComment>a</businessCase-update:performanceMetricComment>
                   <businessCase-update:isActive>deactivated</businessCase-update:isActive>
                 </businessCase-update:reviseUpdatePerformanceMetricActual>
+                <businessCase-update:performanceMetricObjectiveOrGoal>1</businessCase-update:performanceMetricObjectiveOrGoal>
                 <businessCase-update:isActive>deactivated</businessCase-update:isActive>
                 <businessCase-update:isClosed>yes</businessCase-update:isClosed>
               </businessCase-update:reviseUpdatePerformanceMetric>
@@ -578,8 +580,10 @@
               <businessCase-update:updatePerformanceMetric>
                 <businessCase-update:performanceMetricId>0</businessCase-update:performanceMetricId>
                 <businessCase-update:agencyPerformanceMetricId>a</businessCase-update:agencyPerformanceMetricId>
+                <businessCase-update:performanceMetricCategory>1</businessCase-update:performanceMetricCategory>
                 <businessCase-update:performanceMetricBaselineCapability>0</businessCase-update:performanceMetricBaselineCapability>
                 <businessCase-update:performanceMetricCYTarget>0</businessCase-update:performanceMetricCYTarget>
+                <businessCase-update:performancePeriodicity>Monthly</businessCase-update:performancePeriodicity>
                 <businessCase-update:addPerformanceMetricActual>
                   <businessCase-update:agencyPerformanceMetricActualID>a</businessCase-update:agencyPerformanceMetricActualID>
                   <businessCase-update:performanceMetricActualResult>0</businessCase-update:performanceMetricActualResult>

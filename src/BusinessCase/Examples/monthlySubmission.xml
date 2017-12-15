@@ -238,6 +238,7 @@
             <actualCompletionDate>1970-01-01</actualCompletionDate>
           </addProjectActivity>
           <updateAgileProjectActivity>
+            <activityId>1</activityId>
             <agencyActivityId>a</agencyActivityId>
             <releaseName>a</releaseName>
             <releaseNumber>a</releaseNumber>

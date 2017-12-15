@@ -520,7 +520,6 @@
       <element name="performanceMetricActualResult" type="businessCase-type:metricUnitType"/>
       <element name="performanceMetricDateofActual" type="businessCase-type:investmentDateType"/>
       <element name="performanceMetricComment" type="businessCase-type:mediumTextString" minOccurs="0"/>
-      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -531,7 +530,6 @@
       <element name="performanceMetricActualResult" type="businessCase-type:metricUnitType" minOccurs="0"/>
       <element name="performanceMetricDateofActual" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="performanceMetricComment" type="businessCase-type:mediumTextString" minOccurs="0"/>
-      <element name="performanceMetricObjectiveOrGoal" type="businessCase-type:objectiveOrGoalType" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
   </complexType>
