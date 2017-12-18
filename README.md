@@ -59,28 +59,17 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Business Case Submission Ends  |  September 18, 2017 11:59pm |
 |  Standard Investment Reports Submission Starts  |  September 11, 2017  6:30pm |
 |  Standard Investment Reports Submission Ends  |  September 18, 2017 11:59pm |
-
+|  Agency IT Portfolio Summary Submission Starts  |  January 3, 2018 12:01am |
+|  Agency IT Portfolio Summary Submission Ends  |  January 9, 2018 11:59pm |
+|  Business Cases and Standard Investment Reports Submission Starts  |  January 10, 2018 12:30am |
+|  Business Cases and Standard Investment Reports Submission Ends  |  January 12, 2018 5:00pm |
+|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  February 5, 2018 12:01am |
 
 ## Sprint/Hotfix Deployment Dates
 
 |  Event  |  Date |  Deployed |
 |:-------------:|---|---|
-|  Sprint 2017.07B                    |  July 17, 2017 |  &#x2714;  |
-|  Sprint 2017.07C                    |  July 31, 2017 |  &#x2714;  |
-|  Sprint 2017.08A                    |  August 14, 2017 | &#x2714; |
-|  Sprint 2017.08B                    |  August 22, 2017 | &#x2714; |
-|  Sprint 2017.08B Hotfix 1           |  August 28, 2017 | &#x2714; |
-|  Sprint 2017.08B Hotfix 2           |  August 30, 2017 | &#x2714; |
-|  Sprint 2017.08B Hotfix 3           |  August 31, 2017 | &#x2714; |
-|  Sprint 2017.09A                    |  September 6, 2017 | &#x2714; |
-|  Sprint 2017.09A Hotfix 1           |  September 8, 2017 | &#x2714; |
-|  Sprint 2017.09A Hotfix 2           |  September 10, 2017 | &#x2714; |
-|  Sprint 2017.09A Hotfix 3           |  September 11, 2017 | &#x2714; |
-|  Sprint 2017.09A Hotfix 4           |  September 13, 2017 | &#x2714; |
-|  Sprint 2017.09A Hotfix 5           |  September 15, 2017 | &#x2714; |
-|  Sprint 2017.09B                    |  September 25, 2017 | &#x2714; |
-|  Sprint 2017.09B Hotfix 1           |  September 27, 2017 | &#x2714; |
-|  Sprint 2017.12B                    |  December 18, 2017 | |
+|  Sprint 2017.12B                    |  December 19, 2017 | |
 |  Sprint 2018.01A                    |  January 2, 2018   | |
 |  Sprint 2018.01B                    |  January 15, 2018  | |
 |  Sprint 2018.01C                    |  January 29, 2018  | |
