@@ -80,7 +80,14 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.09A Hotfix 5           |  September 15, 2017 | &#x2714; |
 |  Sprint 2017.09B                    |  September 25, 2017 | &#x2714; |
 |  Sprint 2017.09B Hotfix 1           |  September 27, 2017 | &#x2714; |
-
+|  Sprint 2017.12B                    |  December 18, 2017 | |
+|  Sprint 2018.01A                    |  January 2, 2018   | |
+|  Sprint 2018.01B                    |  January 15, 2018  | |
+|  Sprint 2018.01C                    |  January 29, 2018  | |
+|  Sprint 2018.02A                    |  February 12, 2018 | |
+|  Sprint 2018.02B                    |  February 26, 2018 | |
+|  Sprint 2018.03A                    |  March 12, 2018    | |
+|  Sprint 2018.03B                    |  March 26, 2018    | |
 
 ## Quick Links to Files
 
