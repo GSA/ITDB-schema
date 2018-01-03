@@ -70,7 +70,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Event  |  Date |  Deployed |
 |:-------------:|---|:---:|
 |  Sprint 2017.12B                    |  December 19, 2017 | &#x2714; |
-|  Sprint 2018.01A                    |  January 2, 2018   | |
+|  Sprint 2018.01A                    |  January 2, 2018   | &#x2714; |
 |  Sprint 2018.01B                    |  January 15, 2018  | |
 |  Sprint 2018.01C                    |  January 29, 2018  | |
 |  Sprint 2018.02A                    |  February 12, 2018 | |
