@@ -67,16 +67,16 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 ## Sprint/Hotfix Deployment Dates
 
-|  Event  |  Date |  Deployed |
-|:-------------:|---|:---:|
-|  Sprint 2017.12B                    |  December 19, 2017 | &#x2714; |
-|  Sprint 2018.01A                    |  January 2, 2018   | &#x2714; |
-|  Sprint 2018.01B                    |  January 15, 2018  | |
-|  Sprint 2018.01C                    |  January 29, 2018  | |
-|  Sprint 2018.02A                    |  February 12, 2018 | |
-|  Sprint 2018.02B                    |  February 26, 2018 | |
-|  Sprint 2018.03A                    |  March 12, 2018    | |
-|  Sprint 2018.03B                    |  March 26, 2018    | |
+|  Event  |  Date |  Highlights | Deployed |
+|:-------------:|---|--------|:---:|
+|  Sprint 2017.12B                    |  December 19, 2017 | <ul> <li> Resolved GitHub Issue #182 </li> <li> Removed Baselined Fields in Regular Updates - **Schema Change** </li> </ul> | &#x2714; |
+|  Sprint 2018.01A                    |  January 2, 2018   | <ul> <li> Resolved GitHub Issue #207 </li> <li> Added Validations for IT Towers </li> <li> Added Shared Services Identifier "0099" </li> </ul>  | &#x2714; |
+|  Sprint 2018.01B                    |  January 15, 2018  | <ul> <li> Resolved GitHub Issue #222 </li> <li> Resolved GitHub Issue #218 </li> <li> Resolved Error Message Reference to Performance Metrics vs. Contracts </li> <li> Resolved Duplicated Cost Pool Data Response </li> | &#x2714; |
+|  Sprint 2018.01C                    |  January 29, 2018  | | |
+|  Sprint 2018.02A                    |  February 12, 2018 | | |
+|  Sprint 2018.02B                    |  February 26, 2018 | | |
+|  Sprint 2018.03A                    |  March 12, 2018    | | |
+|  Sprint 2018.03B                    |  March 26, 2018    | | |
 
 ## Quick Links to Files
 
