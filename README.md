@@ -63,7 +63,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Agency IT Portfolio Summary Submission Ends  |  January 9, 2018 11:59pm |
 |  Business Cases and Standard Investment Reports Submission Starts  |  January 10, 2018 12:30am |
 |  Business Cases and Standard Investment Reports Submission Ends  |  January 12, 2018 5:00pm |
-|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  February 5, 2018 12:01am |
+|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  February 12, 2018 12:01am |
 
 ## Sprint/Hotfix Deployment Dates
 
@@ -72,7 +72,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2017.12B                    |  December 19, 2017 | <ul> <li> Resolved GitHub Issue #182 </li> <li> Removed Baselined Fields in Regular Updates - **Schema Change** </li> </ul> | &#x2714; |
 |  Sprint 2018.01A                    |  January 2, 2018   | <ul> <li> Resolved GitHub Issue #207 </li> <li> Added Validations for IT Towers </li> <li> Added Shared Services Identifier "0099" </li> <li> **No Schema Changes** </li> </ul>  | &#x2714; |
 |  Sprint 2018.01B                    |  January 15, 2018  | <ul> <li> Resolved GitHub Issue #222 </li> <li> Resolved GitHub Issue #218 </li> <li> Resolved Error Message Reference to Performance Metrics vs. Contracts </li> <li> Resolved Duplicated Cost Pool Data Response </li> <li> **No Schema Changes** </li></ul>| &#x2714; |
- |  Sprint 2018.01C                    |  January 29, 2018  | <ul> <li> Resolved GitHub Issue #122 </li> <li> Enabled Investment Summary Pages </li> <li> Enabled Business Case PDF Links </li> <li> Updates to ITDB Chart Visualizations </li> <li> **No Schema Changes** </li> </ul> | &#x2714; |
+ |  Sprint 2018.01C                    |  January 29, 2018  | <ul> <li> Resolved GitHub Issue #212 </li> <li> Enabled Investment Summary Pages </li> <li> Enabled Business Case PDF Links </li> <li> Updates to ITDB Chart Visualizations </li> <li> **No Schema Changes** </li> </ul> | &#x2714; |
 |  Sprint 2018.02A                    |  February 12, 2018 | | |
 |  Sprint 2018.02B                    |  February 26, 2018 | | |
 |  Sprint 2018.03A                    |  March 12, 2018    | | |
