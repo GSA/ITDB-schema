@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <operations xmlns="http://www.itdashboard.gov/service"
-            xmlns:businessCase-add="urn:us:gov:businessCase-add"
-            xmlns:businessCase-update="urn:us:gov:businessCase-update"
+            xmlns:bC-add="urn:us:gov:businessCase-add"
+            xmlns:bC-upd="urn:us:gov:businessCase-update"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://www.itdashboard.gov/service ../Exchange/serviceRequest.xsd">
   <investmentInformation uniqueInvestmentIdentifier="000-000000000">

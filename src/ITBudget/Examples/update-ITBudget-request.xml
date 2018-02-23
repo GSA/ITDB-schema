@@ -1,265 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns:update-ITBudget-ext="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd">
+<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd">
     <ITBudget:UpdateITBudgetReport>
-        <update-ITBudget-ext:ITPortfolio>
-            <update-ITBudget-ext:UniqueInvestmentID>
-                <update-ITBudget-ext:CurrentUII>024-000002047</update-ITBudget-ext:CurrentUII>
-                <update-ITBudget-ext:InvestmentLineStructure>00</update-ITBudget-ext:InvestmentLineStructure>
-                <update-ITBudget-ext:SharedServicesCategory>00</update-ITBudget-ext:SharedServicesCategory>
-                <update-ITBudget-ext:SharedServicesIdentifier>1234</update-ITBudget-ext:SharedServicesIdentifier>
-            </update-ITBudget-ext:UniqueInvestmentID>
-            <update-ITBudget-ext:InvestmentCharacterization>
-                <update-ITBudget-ext:InvestmentTitle>gurttt</update-ITBudget-ext:InvestmentTitle>
-                <update-ITBudget-ext:InvestmentDescription>Sample Description Diegooo.</update-ITBudget-ext:InvestmentDescription>
-                <update-ITBudget-ext:BureauCode>10</update-ITBudget-ext:BureauCode>
-                <update-ITBudget-ext:PartofITPortfolio>02</update-ITBudget-ext:PartofITPortfolio>
-                <update-ITBudget-ext:InfrastructureManagementCategory>01</update-ITBudget-ext:InfrastructureManagementCategory>
-                <update-ITBudget-ext:MissionArea>01</update-ITBudget-ext:MissionArea>
-                <update-ITBudget-ext:TypeofInvestment>02</update-ITBudget-ext:TypeofInvestment>
-                <update-ITBudget-ext:NationalSecuritySystemsIdentifier>01</update-ITBudget-ext:NationalSecuritySystemsIdentifier>
-                <update-ITBudget-ext:FEAPrimaryBRMService>123</update-ITBudget-ext:FEAPrimaryBRMService>
-            </update-ITBudget-ext:InvestmentCharacterization>
-            <update-ITBudget-ext:InvestmentStatusChange>
-                <update-ITBudget-ext:StatusIdentifier>11</update-ITBudget-ext:StatusIdentifier>
-                <update-ITBudget-ext:AgencyReasonforChange>No change</update-ITBudget-ext:AgencyReasonforChange>
-            </update-ITBudget-ext:InvestmentStatusChange>
-            <update-ITBudget-ext:OandM>
-                <update-ITBudget-ext:PriorYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>10.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>1.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:PriorYear>
-                <update-ITBudget-ext:CurrentYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>20.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>2.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:CurrentYear>
-                <update-ITBudget-ext:BudgetYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>30.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>3.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:BudgetYear>
-            </update-ITBudget-ext:OandM>
-            <update-ITBudget-ext:DME>
-                <update-ITBudget-ext:PriorYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>10.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>1.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:PriorYear>
-                <update-ITBudget-ext:CurrentYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>20.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>2.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:CurrentYear>
-                <update-ITBudget-ext:BudgetYear>
-                    <update-ITBudget-ext:AgencyFundingAmount>30.000000</update-ITBudget-ext:AgencyFundingAmount>
-                    <update-ITBudget-ext:AgencyContributionAmount>3.000000</update-ITBudget-ext:AgencyContributionAmount>
-                </update-ITBudget-ext:BudgetYear>
-            </update-ITBudget-ext:DME>
-            <update-ITBudget-ext:CostPools>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Internal Labor Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total External Labor Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Outside Services Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Hardware Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Software Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Facilities and Power Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Telecom Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Other Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-                <update-ITBudget-ext:CostPool>
-                    <update-ITBudget-ext:CostPoolCategory>Total Internal Services Cost</update-ITBudget-ext:CostPoolCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:CostPool>
-            </update-ITBudget-ext:CostPools>
-            <update-ITBudget-ext:ITTowers>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Data Center Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Compute Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Storage Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Network Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Output Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total End User Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Application Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total Delivery Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total IT Security and Compliance Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-                <update-ITBudget-ext:ITTower>
-                    <update-ITBudget-ext:ITTowerCategory>Total IT Management Cost</update-ITBudget-ext:ITTowerCategory>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:ITTower>
-            </update-ITBudget-ext:ITTowers>
-            <update-ITBudget-ext:FunctionalBusinessSponsorInformation>
-                <update-ITBudget-ext:FunctionalBusinessSponsorName>Test</update-ITBudget-ext:FunctionalBusinessSponsorName>
-                <update-ITBudget-ext:FunctionalBusinessSponsorTitle>Test</update-ITBudget-ext:FunctionalBusinessSponsorTitle>
-            </update-ITBudget-ext:FunctionalBusinessSponsorInformation>
-            <update-ITBudget-ext:CloudComputingAlternativesEvaluation>3</update-ITBudget-ext:CloudComputingAlternativesEvaluation>
-            <update-ITBudget-ext:DataCenterInventory>
-                <update-ITBudget-ext:DataCenterID>a</update-ITBudget-ext:DataCenterID>
-                <update-ITBudget-ext:DataCenterID>b</update-ITBudget-ext:DataCenterID>
-                <update-ITBudget-ext:DataCenterID>c</update-ITBudget-ext:DataCenterID>
-            </update-ITBudget-ext:DataCenterInventory>
-            <update-ITBudget-ext:TotalCloudPaaSIaaSCostCY>0</update-ITBudget-ext:TotalCloudPaaSIaaSCostCY>
-            <update-ITBudget-ext:TotalCloudSaaSCostCY>0</update-ITBudget-ext:TotalCloudSaaSCostCY>
-            <update-ITBudget-ext:TotalOtherManagedServicesCostCY>0</update-ITBudget-ext:TotalOtherManagedServicesCostCY>
-            <update-ITBudget-ext:FundingSourceLineItems>
-                <update-ITBudget-ext:FundingSourceLineItem>
-                    <update-ITBudget-ext:FundingSourceUniqueInvestmentID>
-                        <update-ITBudget-ext:CurrentUII>024-000002047</update-ITBudget-ext:CurrentUII>
-                        <update-ITBudget-ext:FundingSourceInvestmentLineStructure>04</update-ITBudget-ext:FundingSourceInvestmentLineStructure>
-                    </update-ITBudget-ext:FundingSourceUniqueInvestmentID>
-                    <update-ITBudget-ext:FundingCode>029-15-0160</update-ITBudget-ext:FundingCode>
-                    <update-ITBudget-ext:FundingSourceCharacterization>
-                        <update-ITBudget-ext:FundingSourceName>Funding Source Test</update-ITBudget-ext:FundingSourceName>
-                    </update-ITBudget-ext:FundingSourceCharacterization>
-                    <update-ITBudget-ext:OandM>
-                        <update-ITBudget-ext:PriorYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>10.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>1.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:PriorYear>
-                        <update-ITBudget-ext:CurrentYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>20.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>2.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:CurrentYear>
-                        <update-ITBudget-ext:BudgetYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>30.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>3.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:BudgetYear>
-                    </update-ITBudget-ext:OandM>
-                    <update-ITBudget-ext:DME>
-                        <update-ITBudget-ext:PriorYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>10.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>1.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:PriorYear>
-                        <update-ITBudget-ext:CurrentYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>20.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>2.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:CurrentYear>
-                        <update-ITBudget-ext:BudgetYear>
-                            <update-ITBudget-ext:AgencyFundingAmount>30.000000</update-ITBudget-ext:AgencyFundingAmount>
-                            <update-ITBudget-ext:AgencyContributionAmount>3.000000</update-ITBudget-ext:AgencyContributionAmount>
-                        </update-ITBudget-ext:BudgetYear>
-                    </update-ITBudget-ext:DME>
-                </update-ITBudget-ext:FundingSourceLineItem>
-            </update-ITBudget-ext:FundingSourceLineItems>
-        </update-ITBudget-ext:ITPortfolio>
-        <update-ITBudget-ext:DataCenterSpendingSummary>
-            <update-ITBudget-ext:DataCenterLabor>
-                <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-            </update-ITBudget-ext:DataCenterLabor>
-            <update-ITBudget-ext:DataCenterSoftware>
-                <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-            </update-ITBudget-ext:DataCenterSoftware>
-            <update-ITBudget-ext:DataCenterHardware>
-                <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-            </update-ITBudget-ext:DataCenterHardware>
-            <update-ITBudget-ext:DataCenterElectricity>
-                <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-            </update-ITBudget-ext:DataCenterElectricity>
-            <update-ITBudget-ext:DataCenterFacility>
-                <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-            </update-ITBudget-ext:DataCenterFacility>
-        </update-ITBudget-ext:DataCenterSpendingSummary>
-        <update-ITBudget-ext:BudgetAccountSummary>
-            <update-ITBudget-ext:BudgetAccount>
-                <update-ITBudget-ext:FundingCode>a</update-ITBudget-ext:FundingCode>
-                <update-ITBudget-ext:CIOAuthorityAmount>0</update-ITBudget-ext:CIOAuthorityAmount>
-                <update-ITBudget-ext:TotalAgencyFunding>
-                    <update-ITBudget-ext:PriorYearAmount>0</update-ITBudget-ext:PriorYearAmount>
-                    <update-ITBudget-ext:CurrentYearAmount>0</update-ITBudget-ext:CurrentYearAmount>
-                    <update-ITBudget-ext:BudgetYearAmount>0</update-ITBudget-ext:BudgetYearAmount>
-                </update-ITBudget-ext:TotalAgencyFunding>
-            </update-ITBudget-ext:BudgetAccount>
-        </update-ITBudget-ext:BudgetAccountSummary>
-        <update-ITBudget-ext:MessageInformation>
-            <update-ITBudget-ext:AgencyCode>024</update-ITBudget-ext:AgencyCode>
-            <update-ITBudget-ext:PBGCflag>0</update-ITBudget-ext:PBGCflag>
-            <update-ITBudget-ext:DraftIndicator>0</update-ITBudget-ext:DraftIndicator>
-        </update-ITBudget-ext:MessageInformation>
+        <ITPortfolio>
+            <UniqueInvestmentID>
+                <CurrentUII>024-000002047</CurrentUII>
+                <InvestmentLineStructure>00</InvestmentLineStructure>
+                <SharedServicesCategory>00</SharedServicesCategory>
+                <SharedServicesIdentifier>1234</SharedServicesIdentifier>
+            </UniqueInvestmentID>
+            <InvestmentCharacterization>
+                <InvestmentTitle>gurttt</InvestmentTitle>
+                <InvestmentDescription>Sample Description Diegooo.</InvestmentDescription>
+                <BureauCode>10</BureauCode>
+                <PartofITPortfolio>02</PartofITPortfolio>
+                <InfrastructureManagementCategory>01</InfrastructureManagementCategory>
+                <MissionArea>01</MissionArea>
+                <TypeofInvestment>02</TypeofInvestment>
+                <NationalSecuritySystemsIdentifier>01</NationalSecuritySystemsIdentifier>
+                <FEAPrimaryBRMService>123</FEAPrimaryBRMService>
+            </InvestmentCharacterization>
+            <InvestmentStatusChange>
+                <StatusIdentifier>11</StatusIdentifier>
+                <AgencyReasonforChange>No change</AgencyReasonforChange>
+            </InvestmentStatusChange>
+            <OandM>
+                <PriorYear>
+                    <AgencyFundingAmount>10.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>1.000000</AgencyContributionAmount>
+                </PriorYear>
+                <CurrentYear>
+                    <AgencyFundingAmount>20.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>2.000000</AgencyContributionAmount>
+                </CurrentYear>
+                <BudgetYear>
+                    <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>3.000000</AgencyContributionAmount>
+                </BudgetYear>
+            </OandM>
+            <DME>
+                <PriorYear>
+                    <AgencyFundingAmount>10.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>1.000000</AgencyContributionAmount>
+                </PriorYear>
+                <CurrentYear>
+                    <AgencyFundingAmount>20.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>2.000000</AgencyContributionAmount>
+                </CurrentYear>
+                <BudgetYear>
+                    <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                    <AgencyContributionAmount>3.000000</AgencyContributionAmount>
+                </BudgetYear>
+            </DME>
+            <CostPools>
+                <CostPool>
+                    <CostPoolCategory>Total Internal Labor Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total External Labor Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Outside Services Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Hardware Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Software Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Facilities and Power Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Telecom Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Other Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+                <CostPool>
+                    <CostPoolCategory>Total Internal Services Cost</CostPoolCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </CostPool>
+            </CostPools>
+            <ITTowers>
+                <ITTower>
+                    <ITTowerCategory>Total Data Center Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Compute Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Storage Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Network Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Output Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total End User Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Application Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Delivery Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total IT Security and Compliance Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total IT Management Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
+            </ITTowers>
+            <FunctionalBusinessSponsorInformation>
+                <FunctionalBusinessSponsorName>Test</FunctionalBusinessSponsorName>
+                <FunctionalBusinessSponsorTitle>Test</FunctionalBusinessSponsorTitle>
+            </FunctionalBusinessSponsorInformation>
+            <CloudComputingAlternativesEvaluation>3</CloudComputingAlternativesEvaluation>
+            <DataCenterInventory>
+                <DataCenterID>a</DataCenterID>
+                <DataCenterID>b</DataCenterID>
+                <DataCenterID>c</DataCenterID>
+            </DataCenterInventory>
+            <TotalCloudPaaSIaaSCostCY>0</TotalCloudPaaSIaaSCostCY>
+            <TotalCloudSaaSCostCY>0</TotalCloudSaaSCostCY>
+            <TotalOtherManagedServicesCostCY>0</TotalOtherManagedServicesCostCY>
+            <FundingSourceLineItems>
+                <FundingSourceLineItem>
+                    <FundingSourceUniqueInvestmentID>
+                        <CurrentUII>024-000002047</CurrentUII>
+                        <FundingSourceInvestmentLineStructure>04</FundingSourceInvestmentLineStructure>
+                    </FundingSourceUniqueInvestmentID>
+                    <FundingCode>029-15-0160</FundingCode>
+                    <FundingSourceCharacterization>
+                        <FundingSourceName>Funding Source Test</FundingSourceName>
+                    </FundingSourceCharacterization>
+                    <OandM>
+                        <PriorYear>
+                            <AgencyFundingAmount>10.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>1.000000</AgencyContributionAmount>
+                        </PriorYear>
+                        <CurrentYear>
+                            <AgencyFundingAmount>20.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>2.000000</AgencyContributionAmount>
+                        </CurrentYear>
+                        <BudgetYear>
+                            <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>3.000000</AgencyContributionAmount>
+                        </BudgetYear>
+                    </OandM>
+                    <DME>
+                        <PriorYear>
+                            <AgencyFundingAmount>10.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>1.000000</AgencyContributionAmount>
+                        </PriorYear>
+                        <CurrentYear>
+                            <AgencyFundingAmount>20.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>2.000000</AgencyContributionAmount>
+                        </CurrentYear>
+                        <BudgetYear>
+                            <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                            <AgencyContributionAmount>3.000000</AgencyContributionAmount>
+                        </BudgetYear>
+                    </DME>
+                </FundingSourceLineItem>
+            </FundingSourceLineItems>
+        </ITPortfolio>
+        <DataCenterSpendingSummary>
+            <DataCenterLabor>
+                <PriorYearAmount>0</PriorYearAmount>
+                <CurrentYearAmount>0</CurrentYearAmount>
+            </DataCenterLabor>
+            <DataCenterSoftware>
+                <PriorYearAmount>0</PriorYearAmount>
+                <CurrentYearAmount>0</CurrentYearAmount>
+            </DataCenterSoftware>
+            <DataCenterHardware>
+                <PriorYearAmount>0</PriorYearAmount>
+                <CurrentYearAmount>0</CurrentYearAmount>
+            </DataCenterHardware>
+            <DataCenterElectricity>
+                <PriorYearAmount>0</PriorYearAmount>
+                <CurrentYearAmount>0</CurrentYearAmount>
+            </DataCenterElectricity>
+            <DataCenterFacility>
+                <PriorYearAmount>0</PriorYearAmount>
+                <CurrentYearAmount>0</CurrentYearAmount>
+            </DataCenterFacility>
+        </DataCenterSpendingSummary>
+        <BudgetAccountSummary>
+            <BudgetAccount>
+                <FundingCode>a</FundingCode>
+                <CIOAuthorityAmount>0</CIOAuthorityAmount>
+                <TotalAgencyFunding>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </TotalAgencyFunding>
+            </BudgetAccount>
+        </BudgetAccountSummary>
+        <MessageInformation>
+            <AgencyCode>024</AgencyCode>
+            <PBGCflag>0</PBGCflag>
+            <DraftIndicator>0</DraftIndicator>
+        </MessageInformation>
     </ITBudget:UpdateITBudgetReport>
 </ITBudget:ITBudgetReport>
+ 
