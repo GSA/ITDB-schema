@@ -75,7 +75,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  |  Sprint 2018.01C                    |  January 29, 2018  | <ul> <li> Resolved GitHub Issue #212 </li> <li> Enabled Investment Summary Pages </li> <li> Enabled Business Case PDF Links </li> <li> Updates to ITDB Chart Visualizations </li> <li> **No Schema Changes** </li> </ul> | &#x2714; |
 |  Sprint 2018.02A                    |  February 12, 2018 | <ul> <li> Updated verbiage on CIO Evaluation Report validation</li> <li> Display Type 5 and 6 Investments to Public (Individual Investments table, IT Portfolio, and IT Portfolio Funding Sources Feed) </li> <li> Modified SIR Data Feed Names </li> <li> **No Schema Changes** </li></ul> | &#x2714; |
 |  Sprint 2018.02B                    |  February 26, 2018 | <ul><li>Resolved GitHub Issue #224</li><li>Resolved GitHub Issue #232</li><li>Updated CIO Evaluation Warning to Display Correct Number of Investments w/o Rating</li><li>Updated Add Investment Validation Check on UII</li><li>Made Validation of Funding Code in IT Budget More Consistent</li><li>**No Schema Changes**</li></ul>| &#x2714; |
-|  Sprint 2018.03A                    |  March 12, 2018    | | |
+|  Sprint 2018.03A                    |  March 12, 2018    | <ul> <li> Resolved GitHub Issue #220 </li> <li> Fixed validControlNumber Error when Submission has No OMB Control Number Elements </li> <li> Stripped "-ext" from Submission Requests During Upload </li><li> **No Schema Changes** </li> </ul> | &#x2714; |
 |  Sprint 2018.03B                    |  March 26, 2018    | | |
 
 ## Quick Links to Files
