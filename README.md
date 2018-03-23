@@ -29,41 +29,38 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  Guidance Released |  May 12, 2017 |
-|  Finalized target dates based on guidance |  May 12, 2017 |
-|  Published Baseline XSD (v1.8.x)|  May 19, 2017 |
-|  Publish Baseline XSD Plus (v1.8.x)|  May 26, 2017 |
-|  Validation logic development | June 2017  |
-| [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| July 5, 2017|
-|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v1.9.0) shared to vendors    |  July 5, 2017  |
-|  Target Date for [XSD **Plus** Candidate](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19) (v1.9.0)  |  July 31, 2017 |
-|  Final Guidance  and [A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)   |  August 1, 2017 |
-|  2019 UAT Server Delivered with Integrated Validations |  August 4, 2017 |
-  Publish XSD  &  XSD **Plus** (v1.9.7)    |  August 9, 2017  |
-|  Publish Final XSD  &  XSD **Plus** (v1.9.8)    |  August 14, 2017  |
-|  Draft IT Portfolio Pre-submission (Excel Spreadsheet)  |  August 21, 2017 |
-|  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 1 |  August 22, 2017  |
-|  Open 2019 UAT Servers to Agencies for Testing (Validations)    |  August 23, 2017   |
-|  Open 2019 UAT Server Delivered with Complete Integrated Validations Part 2 (Hotfix) |  August 28, 2017  |
-|  2019 IT Portfolio Data Feed available to Agencies    |  September 6, 2017   |
-|  2019 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 28, 2017   |
+|  Guidance Released |  May 11, 2018  |
+|  Finalized target dates based on guidance |  May 11, 2017 |
+|  Published Baseline XSD (v1.9)|  Published |
+|  Publish Baseline XSD Plus (v1.9)|  Published |
+|  Validation logic development | May/June 2018 (Tentative) |
+| [2020 UAT Server Available] | May 28, 2018 (Tentative) |
+|  Target Date for [XSD Candidate] (v2.0.0) shared to vendors    |  May 28, 2018 (Tentative) |
+|  Target Date for [XSD **Plus** Candidate] (v2.0.0)  |  July 13, 2018 (Tentative) |
+|  Final Guidance  and [A-11]  |  Late June 2018 (Tentative) |
+|  2020 UAT Server Delivered with Integrated Validations |  July 20, 2018 (Tentative) |
+  Publish XSD  &  XSD **Plus** (v2.0.x)    |  July 9, 2018 (Tentative) |
+|  Publish Final XSD  &  XSD **Plus** (v2.0.x)    |  July 16, 2018 (Tentative) |
+|  Draft IT Portfolio Pre-submission  |  August 20, 2018 (Tentative) |
+|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 7, 2018 (Tentative)  |
+|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 7, 2018 (Tentative) |
+|  2020 IT Portfolio Data Feed available to Agencies    |  TBD |
+|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  TBD   |
 
 
-## Submission Dates 
+## Submission Dates (Tentative) 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  BY18 Submission Ends  |  August 31, 2017 |
-|  Budget Submission Starts  |  September 5, 2017  9am |
-|  Budget Submission Ends  |  September 11, 2017 10pm  |
-|  Business Case Submission Starts  |  September 11, 2017  6:30pm |
-|  Business Case Submission Ends  |  September 18, 2017 11:59pm |
-|  Standard Investment Reports Submission Starts  |  September 11, 2017  6:30pm |
-|  Standard Investment Reports Submission Ends  |  September 18, 2017 11:59pm |
-|  Agency IT Portfolio Summary Submission Starts  |  January 3, 2018 12:01am |
-|  Agency IT Portfolio Summary Submission Ends  |  January 9, 2018 11:59pm |
-|  Business Cases and Standard Investment Reports Submission Starts  |  January 10, 2018 12:30am |
-|  Business Cases and Standard Investment Reports Submission Ends  |  January 12, 2018 5:00pm |
-|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  February 12, 2018 12:01am |
+|  BY19 Submission Ends  |  TBD |
+|  Pre-Decisional Budget Submission Starts  | TBD |
+|  Pre-Decisional Budget Submission Ends  |  TBD  |
+|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  TBD |
+|  Pre-Decisional BC and SIR Submission Ends  |  TBD |
+|  President's Budget Agency IT Portfolio Summary Submission Starts  |  TBD |
+|  President's Budget Agency IT Portfolio Summary Submission Ends  |  TBD |
+|  President's Budget BC and SIR Submission Starts  |  TBD |
+|  President's Budget BC and SIR Submission Ends  |  TBD |
+|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  TBD |
 
 ## Sprint/Hotfix Deployment Dates
 
