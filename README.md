@@ -30,7 +30,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  Guidance Released |  May 11, 2018  |
-|  Finalized target dates based on guidance |  May 11, 2017 |
+|  Finalized target dates based on guidance |  May 11, 2018 |
 |  Published Baseline XSD (v1.9)|  Published |
 |  Publish Baseline XSD Plus (v1.9)|  Published |
 |  Validation logic development | May/June 2018 (Tentative) |
