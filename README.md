@@ -1,4 +1,3 @@
-
 # ITDB-schema
 This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
  
@@ -24,6 +23,19 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  | Diagram of submission process  | SOON  |
 |  | Archive versions (BY17, BY16, etc) | TBD  |
 
+## Vendor Meetings  
+
+|  Event  |  Date |
+|:-------------|:-------------:|
+| Bi-Monthly Meeting | April 19, 2018 |
+| White Board Session - SIR | April 26, 2018 |
+| Tech Meet and Greet | May 2, 2018 |
+| Bi-Monthly Meeting | May 3, 2018 |
+| White Board Session - Certification Process | May 10, 2018 |
+| Bi-Monthly Meeting | May 17, 2018 |
+| White Board Session - Systems Inventory Report | May 24, 2018 |
+| Bi-Monthly Meeting | May 31, 2018 |
+| White Board Session - Pre Submission | June 7, 2018 |
 
 ## Important Dates 
 
