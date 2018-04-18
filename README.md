@@ -76,7 +76,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.03B                    |  March 26, 2018    |<ul><li>Add FY17 E-Gov Act Reports</li><li>Add Search Feature to Individual Investments Table</li><li>Add SDLC Methodology Highlights Table</li><li>Fix Bug in ITBudget Post Procedure</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.04A                    |  April 9, 2018    |<ul><li>Propose Error Code Prefixes</li><li>Removal of Eliminated Investments from Counts in Investments Highlights Table</li><li>Fix Chrome Data Feed Bug</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.04B                   |  April 23, 2018    |<ul><li>Fix CIO Rating Evaluations Response Not Showing Warnings</li><li>Include Public URLs on Investment Pages</li><li>Fix Agile Activities Missing from Business Case PDFs Bug</li><li>Insert Contracts on Individual Investment Pages</li><li>**No Schema Changes**</li></ul>| |
-|  Sprint 2018.05A                    |  May 7, 2018    | | |
+|  Sprint 2018.05A                    |  May 7, 2018    | <ul><li>Add DCOI Cost Savings Chart</li><li>Insert Contracts on Individual Investment Pages</li><li>Add Error Code Prefixes to Validation Documentation</li><li>Finalize CPIC Vendor GH Page</li><li>Create FY20 Development Branching</li><li>FY20 CPIC Guidance Change Preparations</li><li>**No Schema Changes**</li></ul>| |
 |  Sprint 2018.05B                    |  May 21, 2018    | | |
 |  Sprint 2018.06A                    |  June 4, 2018    | | |
 |  Sprint 2018.06B                    |  June 18, 2018    | | |
