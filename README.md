@@ -25,17 +25,17 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 ## Vendor Meetings  
 
-|  Event  |  Date |
-|:-------------|:-------------:|
-| Bi-Monthly Meeting | April 19, 2018 |
-| White Board Session - SIR | April 26, 2018 |
-| Tech Meet and Greet | May 2, 2018 |
-| Bi-Monthly Meeting | May 3, 2018 |
-| White Board Session - Certification Process | May 10, 2018 |
-| Bi-Monthly Meeting | May 17, 2018 |
-| White Board Session - Systems Inventory Report | May 24, 2018 |
-| Bi-Monthly Meeting | May 31, 2018 |
-| White Board Session - Pre Submission | June 7, 2018 |
+|  Event  |  Date |  Time  |  Location  |
+|:-------------|:-------------:|:-------------:|:-------------:|
+| Bi-Monthly Meeting | April 19, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
+| White Board Session - SIR | April 26, 2018 | 1:30PM to 3:30PM | GSA Room 6113 |
+| Tech Meet and Greet | May 2, 2018 | TBD | TBD |
+| Bi-Monthly Meeting | May 3, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
+| White Board Session - Certification Process | May 10, 2018 | TBD | TBD |
+| Bi-Monthly Meeting | May 17, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
+| White Board Session - Systems Inventory Report | May 24, 2018 | TBD | TBD |
+| Bi-Monthly Meeting | May 31, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
+| White Board Session - Pre Submission | June 7, 2018 | TBD | TBD |
 
 ## Important Dates 
 
