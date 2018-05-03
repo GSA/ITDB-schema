@@ -41,21 +41,20 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  Guidance Released |  May 11, 2018  |
-|  Finalized target dates based on guidance |  May 11, 2018 |
 |  Published Baseline XSD (v1.9)|  Published |
-|  Publish Baseline XSD Plus (v1.9)|  Published |
+|  Published Baseline XSD Plus (v1.9)|  Published |
+|  Guidance Released |  May 11, 2018  |
+|  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
 |  Validation logic development | May/June 2018 (Tentative) |
 | [2020 UAT Server Available] | May 28, 2018 (Tentative) |
 |  Target Date for [XSD Candidate] (v2.0.0) shared to vendors    |  May 28, 2018 (Tentative) |
-|  Target Date for [XSD **Plus** Candidate] (v2.0.0)  |  July 13, 2018 (Tentative) |
 |  Final Guidance  and [A-11]  |  Late June 2018 (Tentative) |
+|  Target Date for Validation & Enrumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 (Tentative) |
+|  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018 (Tentative) |
 |  2020 UAT Server Delivered with Integrated Validations |  July 20, 2018 (Tentative) |
-|  Publish XSD  &  XSD **Plus** (v2.0.x)    |  July 9, 2018 (Tentative) |
-|  Publish Final XSD  &  XSD **Plus** (v2.0.x)    |  July 16, 2018 (Tentative) |
-|  Draft IT Portfolio Pre-submission  |  August 20, 2018 (Tentative) |
 |  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 7, 2018 (Tentative)  |
 |  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 7, 2018 (Tentative) |
+|  Draft IT Portfolio Pre-submission  |  August 20, 2018 (Tentative) |
 |  2020 IT Portfolio Data Feed available to Agencies    |  TBD |
 |  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  TBD   |
 
