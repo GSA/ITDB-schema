@@ -63,15 +63,21 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  BY19 Submission Ends  |  TBD |
-|  Pre-Decisional Budget Submission Starts  | TBD |
-|  Pre-Decisional Budget Submission Ends  |  TBD  |
-|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  TBD |
-|  Pre-Decisional BC and SIR Submission Ends  |  TBD |
-|  President's Budget Agency IT Portfolio Summary Submission Starts  |  TBD |
-|  President's Budget Agency IT Portfolio Summary Submission Ends  |  TBD |
-|  President's Budget BC and SIR Submission Starts  |  TBD |
-|  President's Budget BC and SIR Submission Ends  |  TBD |
+|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 (Tentative) |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 (Tentative) |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 (Tentative)  |
+|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 (Tentative) |
+|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 (Tentative) |
+|  President's Budget Agency IT Portfolio Summary Submission Starts  |  January 2019 (Tentative) |
+|  President's Budget Agency IT Portfolio Summary Submission Ends  |  January 2019 (Tentative) |
+|  President's Budget BC and SIR Submission Starts  |  January 2019 (Tentative) |
+|  President's Budget BC and SIR Submission Ends  |  January 2019 (Tentative) |
 |  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  TBD |
+|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  February 2019 (Tentative) |
+|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  |  February 2019 (Tentative) |
+|  Congressional Justification  BC and SIR Submission Starts  |  February 2019 (Tentative) |
+|  Congressional Justification  BC and SIR Submission Ends  |  February 2019 (Tentative) |
+|  IT Dashboard Data from Congressional Justification  Submission Displays on Public Site  |  TBD |
 
 ## Sprint/Hotfix Deployment Dates
 
