@@ -1,0 +1,14 @@
+@import 'modules/directives';
+@import 'modules/settings';
+
+form > * {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: $font-weight-bold;
+
+  @include breakpoint(s) {
+    text-align: right;
+  }
+}

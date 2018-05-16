@@ -1,0 +1,14 @@
+@import 'modules/directives';
+@import 'modules/settings';
+
+h1 > span {
+  float: right;
+  font-size: $font-size-s;
+  position: relative;
+  top: -4px;
+
+  ui-switch {
+    position: relative;
+    top: 5px;
+  }
+}

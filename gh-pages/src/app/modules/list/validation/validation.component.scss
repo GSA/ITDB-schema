@@ -1,0 +1,8 @@
+@import 'modules/directives';
+@import 'modules/settings';
+
+.form-filter {
+  background-color: $color-dark-header;
+  border-bottom: $border-base;
+  padding: $space-m;
+}

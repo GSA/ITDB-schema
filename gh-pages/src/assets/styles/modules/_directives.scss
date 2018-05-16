@@ -1,0 +1,393 @@
+/*
+  Directives
+  ---------------------
+
+  Table of Contents:
+
+   1. Color Variations function
+   2. Gradient mixin
+   3. Chart Series Colors function
+   4. Breakpoints mixin
+   5. String Replacement function
+   6. Font Face Declaration mixin
+   7. State Colors mixins
+   8. Power function
+   9. Modular Scale Typography function
+  10. Max-Width mixin
+  11. Grid Builder mixin
+  12. Link Underline mixin
+*/
+
+/*
+   1. Color Variations function
+
+      color($key, $luminosity, $alpha)
+
+      Uses the $colors list as defined in _settings.scss (@section 1a).
+
+      The color() function takes three parameters, only the first of which is required. You must
+      pass in the color name ($key) - this will render the base color:
+
+        color(blue) - will render the BASE blue, equivalent to #3871c7 or rgba(56, 113, 199, 1)
+
+      You may pass in an optional brightness variable ($luminosity), which can be any percentage,
+      though it is recommended to use only multiples of ten: 10, 20, 30 ... 80, 90. The higher
+      the number, the brighter the color:
+
+        color(blue, 20) - will render a very DARK blue, equivalent to #162d50 or
+                          rgba(56, 113, 199, 1)
+        color(blue, 50) - will render the BASE blue, equivalent to #3871c7 or
+                          rgba(56, 113, 199, 1)
+        color(blue, 80) - will render a very LIGHT blue, equivalent to #afc6e9 or
+                          rgba(56, 113, 199, 1)
+
+      color(black) and color(white) are special cases in that their brightness is set by
+      definition and cannot be adjusted:
+
+        color(black) - is the same as color(grey, 0), equivalent to #000000 or
+                       rgba(0, 0, 0, 1)
+        color(white) - is the same as color(grey, 100), equivalent to #ffffff or
+                       rgba(255, 255, 255, 1)
+
+      You may pass in an optional opacity variable ($alpha), which can be any percentage, though
+      it is recommended to use only multiples of ten: 10, 20, 30 ... 80, 90. If you want to use
+      $alpha, you MUST also pass a $luminosity — it is recommended to always pass 50 so that you
+      are creating only transparent versions of the BASE color. The higher the number, the more
+      opaque the color:
+
+        color(blue, 50, 20) -  will render a NEARLY TRANSPARENT base blue, equivalent to
+                               rgba(56, 113, 199, 0.2)
+        color(blue, 50, 50) -  will render a HALF TRANSPARENT base blue, equivalent to
+                               rgba(56, 113, 199, 0.5)
+        color(blue, 50, 100) - will render a COMPLETELY OPAQUE base blue, equivalent to
+                               rgba(56, 113, 199, 1)
+
+      Unlike brightness, opacity CAN be set on color(black) and color(white):
+
+        color(black, 0, 20) -   will render a NEARLY TRANSPARENT black equivalent to
+                                rgba(0, 0, 0, 0.2)
+        color(white, 100, 50) - will render a HALF TRANSPARENT white, equivalent to
+                                rgba(255, 255, 255, 0.5)
+*/
+@function color($key: lime, $luminosity: 50, $alpha: 100) {
+  $map: map-get($colors, $key);
+  $hue: map-get($map, hue);
+  $sat: map-get($map, sat);
+  $lum: $luminosity;
+  @if map-has-key($map, lum) {
+    $lum: map-get($map, lum);
+  }
+  $alp: $alpha / 100;
+  $hsla: hsla($hue, $sat, $lum, $alp);
+  @return $hsla;
+}
+
+/*
+   2. Gradient mixin
+
+      gradient($color1, $color2, $color3)
+
+      The gradient() mixin takes up to three parameters, the first of which is a direction, and
+      the others of which are color names defined in $colors list in _settings.scss (@section 1a).
+      The mixin returns a linear gradient as a background-image using the color(s) pased.
+
+      The direction is the direction where your gradient will go. The possible directions are:
+      top, bottom, left, right, top left, top right, bottom left, bottom right.
+
+      If you pass a single color, the mixin will return a gradient from luminosity 30 to
+      luminosity 70.
+
+      If you pass two colors, the mixin will return a gradient from one to the other, both with
+      luminosity 50.
+*/
+@mixin gradient($direction: bottom, $color1: red, $color2: null) {
+  @if $color2 == null {
+    background-image: linear-gradient(
+      to $direction,
+      color($color1, 30),
+      color($color1, 50),
+      color($color1, 70)
+    );
+  } @else {
+    background-image: linear-gradient(to $direction, color($color1), color($color2));
+  }
+}
+
+/*
+   3. Chart Series Colors function
+
+      chart-series($series)
+
+      Uses the $chart-series list as defined in _settings.scss (@section 1b).
+
+      The chart-series() function takes a single required parameter. You must pass in the size
+      name ($series) - this will render the chart color for the named series:
+
+        chart-series(0) - will render the color of the first series
+        chart-series(1) - will render the color of the second series
+        ...
+        chart-series(11) - will render the color of the ninth series
+*/
+@mixin chart-series($series: 0) {
+  @each $chart-series-number, $colors in $chart-series {
+    @if $series == $chart-series-number {
+      border-color: map-get($colors, color);
+      fill: map-get($colors, color);
+
+      &:active,
+      &:focus,
+      &:hover {
+        fill: map-get($colors, hovercolor);
+      }
+
+      em {
+        display: block;
+        padding: $space-xs $space-s;
+        font-style: normal;
+        font-weight: $font-weight-bold;
+        background-color: map-get($colors, color);
+        color: color(white);
+      }
+
+      div {
+        padding: $space-xs $space-s;
+      }
+    }
+  }
+}
+
+/*
+   4. Breakpoints mixin
+
+      @include breakpoint($point)
+
+      The breakpoint() function takes a single required parameter. You must pass in the breakpoint
+      name or a number ($point). If a breakpoint name is passed, the $breakpoints list as
+      defined in _settings.scss (@section 3) is used for a mininum-width. If a number is passed,
+      that number of pixels is used as a minimum-width.
+
+      Ithis will cause any styles between the {} brackets to be applied only to
+      screen sizes wider than the breakpoint passed:
+
+      @include breakpoint(m) {
+        font-size: 18px;
+      }
+
+      ...will set the font-size to '18px' on any screen larger than the medium breakpoint size.
+
+      @include breakpoint(1024) {
+        font-weight: bold;
+      }
+
+      ...will set the font-weight to 'bold' on any screen larger than 1024 pixels wide.
+*/
+@mixin breakpoint($point) {
+  @if type-of($point) == number {
+    @media (min-width: inspect($point) + 'px') {
+      @content;
+    }
+  }
+  @if type-of($point) != number {
+    @each $name, $width in $breakpoints {
+      @if $name == $point {
+        @media (min-width: $width) {
+          @content;
+        }
+      }
+    }
+  }
+}
+
+/*
+   5. String Replacement function
+
+      str-replace($string, $search, $replace)
+
+      The str-replace() function takes three parameters, the first two of which are required. You
+      must pass the text to be modified ($string) and the text you want to replace ($search). The
+      third (optional) parameter is the text you want to insert in place of the $search text
+      ($replace). If the $replace parameter is not passed, the $search text will simply be
+      removed. For example:
+
+      .selector {
+        $string: 'The answer to life, the universe and everything is blah.';
+        content: str-replace($string, 'blah', '42');
+      }
+
+      ...will compile to the following CSS...
+
+      .selector {
+        content: 'The answer to life, the universe and everything is 42.';
+      }
+
+      This function is used in the Font Face Declaration mixin defined and documented in
+      _directives.scss (@section 6).
+*/
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  @return $string;
+}
+
+/*
+   6. Font Face Declaration mixin
+
+      fontdef($family, $type, $weight, $style, $stretch)
+
+      Uses the $font-families list as defined in _settings.scss (@section 5a).
+
+      The fontdef() mixin takes five parameters, the first two of which are required. You must pass
+      the font family name ($family) and font variant name ($variant) to generate a @font-face
+      definition.
+
+      You can also pass an optional $weight [normal | 100 | 200 | ... | 800 | 900], $style
+      [normal | italic], and $stretch [normal | ultra-condensed | extra-condensed | condensed |
+      semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded]. The optional
+      variables will all default to 'normal' if they are not passed. The $stretch variable is
+      currently not used in our design system, but is available for potential future use.
+
+      For example:
+
+      @include font-def(Fira Sans Condensed, semibolditalic, 600, italic, normal);
+
+      ...will compile to the following CSS...
+
+      @font-face {
+        font-family: 'Fira Sans Condensed';
+        src: url('../fonts/firasanscondensed-semibolditalic.woff') format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-stretch: normal;
+      }
+
+      This function is used to generate @font-face declarations in _fonts.scss.
+*/
+@mixin font-def($family, $variant, $weight: normal, $style: normal, $stretch: normal) {
+  @font-face {
+    font-family: '#{$family}';
+    src: url('#{$font-path}/#{str-replace(to-lower-case(inspect($family)), ' ')}-#{$variant}.woff2') format('woff2'),
+         url('#{$font-path}/#{str-replace(to-lower-case(inspect($family)), ' ')}-#{$variant}.woff') format('woff');
+    font-weight: #{$weight};
+    font-style: #{$style};
+    font-stretch: #{$stretch};
+  }
+}
+
+/*
+   7. State Colors mixins
+
+      state-error()
+      state-info()
+      state-neutral()
+      state-success()
+      state-warning()
+
+      Include these to use standard state colors (border-color, background-color, color) on an element.
+*/
+@mixin state-error {
+  border-color: $color-error-border;
+  background-color: $color-error-background;
+  color: $color-error-text;
+}
+
+@mixin state-info {
+  border-color: $color-info-border;
+  background-color: $color-info-background;
+  color: $color-info-text;
+}
+
+@mixin state-neutral {
+  border-color: $color-neutral-border;
+  background-color: $color-neutral-background;
+  color: $color-neutral-text;
+}
+
+@mixin state-success {
+  border-color: $color-success-border;
+  background-color: $color-success-background;
+  color: $color-success-text;
+}
+
+@mixin state-warning {
+  border-color: $color-warning-border;
+  background-color: $color-warning-background;
+  color: $color-warning-text;
+}
+
+/*
+   8. Power function
+
+      pow($number, $exponent)
+*/
+@function pow($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  } @else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+/*
+   9. Modular Scale Typography function
+
+      ms($factor)
+*/
+@function ms($factor: 0) {
+  @return pow($font-scale-ratio, $factor) * 1rem;
+}
+
+/*
+  10. Max-Width mixin
+
+      constrained($max-width)
+*/
+@mixin constrained($max-width: $content-max-width) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  width: 100%;
+}
+
+/*
+  11. Grid Builder mixin
+
+      build-grid()
+*/
+@mixin build-grid() {
+  @each $breakpoint-name, $breakpoint-width in $breakpoints {
+    .grid {
+      @include breakpoint(#{$breakpoint-name}) {
+        grid-template-columns: repeat($grid-columns, 1fr);
+
+        @for $i from 1 through $grid-columns {
+          .g-#{$breakpoint-name}-#{$i} {
+            grid-area: span 1 / span $i;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+  12. Link Underline mixin
+
+      link-underline($color)
+*/
+@mixin link-underline($color) {
+  background-image: linear-gradient(to top,
+    $color 0,
+    $color 100%);
+  background-position: 0 1.15em;
+  background-repeat: repeat-x;
+}

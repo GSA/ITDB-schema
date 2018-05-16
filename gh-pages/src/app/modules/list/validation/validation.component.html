@@ -1,0 +1,38 @@
+<article>
+  <h1>Validations</h1>
+  <div class="form-filter grid grid-gap">
+    <input class="g-m-6 g-l-12 g-xl-3" type="text" name="filter" [(ngModel)]="filter" placeholder="Filter Validations">
+    <select required class="g-m-6 g-l-4 g-xl-3" name="statusFilter" [(ngModel)]="statusFilter">
+      <option value="">All Statuses</option>
+      <option *ngFor="let status of statuses" [ngValue]="status" [innerHTML]="status"></option>
+    </select>
+    <select class="g-m-6 g-l-4 g-xl-3" name="sectionFilter" [(ngModel)]="sectionFilter">
+      <option value="">All Sections</option>
+      <option *ngFor="let section of sections" [ngValue]="section" [innerHTML]="section"></option>
+    </select>
+    <select class="g-m-6 g-l-4 g-xl-3" name="validationTypeFilter" [(ngModel)]="validationTypeFilter">
+      <option value="">All Validation Types</option>
+      <option *ngFor="let validationType of validationTypes" [ngValue]="validationType" [innerHTML]="validationType"></option>
+    </select>
+  </div>
+  <div>
+    <div *ngFor="let validation of validations | filter: filter | filter: statusFilter | filter: sectionFilter | filter: validationTypeFilter; let i = index" [attr.data-index]="i">
+      <section>
+        <a (click)="isOpen[i] = !isOpen[i]"><strong>{{validation["UI"]}}</strong>: {{validation["Validation Description"]}}</a>
+      </section>
+      <aside>
+        <div *ngIf="isOpen[i]">
+          <ul>
+            <li><strong>Status:</strong> <span [innerHTML]="validation['Status']"></span></li>
+            <li><strong>Section:</strong> <span [innerHTML]="validation['Section']"></span></li>
+            <li><strong>Sub-Section:</strong> <span [innerHTML]="validation['Sub-Section']"></span></li>
+            <li><strong>FY19 Field:</strong> <span [innerHTML]="validation['FY19 Field']"></span></li>
+            <li><strong>Loc in Data Dictionary:</strong> <span [innerHTML]="validation['Loc in Data Dictionary']"></span></li>
+            <li><strong>Validation Type:</strong> <span [innerHTML]="validation['Validation Type']"></span></li>
+            <li><strong>Comments:</strong> <span [innerHTML]="validation['Comments']"></span></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</article>

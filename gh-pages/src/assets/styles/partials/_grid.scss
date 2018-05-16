@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+
+  > * {
+    grid-area: span 1 / span $grid-columns;
+  }
+}
+
+.grid-gap {
+  grid-gap: $grid-gap-row $grid-gap-col;
+}
+
+.grid-gap-col {
+  grid-column-gap: $grid-gap-col;
+}
+
+.grid-gap-row {
+  grid-row-gap: $grid-gap-row;
+}
+
+@include build-grid();

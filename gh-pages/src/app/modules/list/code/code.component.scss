@@ -1,0 +1,32 @@
+@import 'modules/directives';
+@import 'modules/settings';
+
+.table:last-child {
+  margin-bottom: $space-l;
+}
+
+.table-responsive tbody td {
+  padding: 0 !important;
+}
+
+tbody tr {
+  &:active,
+  &:focus,
+  &:hover {
+    td {
+      background-color: color(blue, 90);
+    }
+  }
+}
+
+tbody a {
+  background-image: none;
+  display: block;
+  padding: $space-xs $space-s;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $color-base-text;
+  }
+}
