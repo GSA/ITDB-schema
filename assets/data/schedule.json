@@ -1,0 +1,25 @@
+{
+    "wednesday":
+    [
+        "8:45 - Registration",
+        "9:30 - Welcome + special guest",
+        "10:20 - API partners",
+        "11:20 - Hacking",
+        "13:00 - Lunch",
+        "16:00 - Yummy surprise",
+        "19:00 - Dinner"
+    ],
+    "thursday": [
+        "8:15 - Breakfast",
+        "13:00 - Lunch",
+        "14:00 - Hacking stops",
+        "14:15 - Presentations",
+        "16:15 - Done!"
+    ],
+    "friday":
+    [
+        "13:30 - Meet with Dennis",
+        "15:15 - Design & Dev",
+        "15:40 - Presentations start"
+    ]
+}

@@ -1,0 +1,5 @@
+@each $family, $data in $font-families {
+  @each $variant, $weight, $style, $stretch in $data {
+    @include font-def($family, $variant, $weight, $style, $stretch);
+  }
+}

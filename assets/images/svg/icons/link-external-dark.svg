@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" class="link-icon link-icon-external">
+  <title>Link - External</title>
+  <polygon class="color-base" fill="#fff" points="333 333 27 333 27 27 136.8 27 136.8 0 0 0 0 360 360 360 360 223.2 333 223.2 333 333"/>
+  <polygon class="color-highlight" fill="#afc6e9" points="360 165.5 360 0 194.5 0 360 165.5"/>
+  <rect class="color-highlight" fill="#afc6e9" x="160.2" y="160.2" width="39.6" height="39.6"/>
+  <rect class="color-highlight" fill="#afc6e9" x="232.01" y="-14.23" width="56.89" height="227.56" transform="translate(146.67 -155.01) rotate(45)"/>
+</svg>
