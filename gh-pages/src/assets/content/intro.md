@@ -9,7 +9,6 @@ Other resources provided on this site include:
 * [Issue Tracking](/ITDB-schema/#/issues)
 * [Schema](/ITDB-schema/#/schema)
 * [Validations](/ITDB-schema/#/validations)
-* [IT Dashboard Development Team’s JIRA Board](/ITDB-schema/#/jira-board)
 
 ## CPIC Guidance and Submission Instructions
 

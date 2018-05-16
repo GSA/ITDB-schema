@@ -66,10 +66,6 @@ const routes: Routes = [
     component: ValidationComponent
   },
   {
-    path: 'jira-board',
-    component: TicketComponent
-  },
-  {
     path: 'addendums',
     component: AddendumsComponent
   },
