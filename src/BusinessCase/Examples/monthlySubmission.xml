@@ -6,76 +6,6 @@
             xsi:schemaLocation="http://www.itdashboard.gov/service ../Exchange/serviceRequest.xsd">
   <investmentInformation uniqueInvestmentIdentifier="000-000000000">
     <monthlySubmission>
-      <updateContract id="String">
-        <contractId>0</contractId>
-        <agencyContractId>a</agencyContractId>
-        <contractNumber>a</contractNumber>
-        <referencedPIID>a</referencedPIID>
-        <isModularApproach>yes</isModularApproach>
-        <agileDevelopment>yes</agileDevelopment>
-        <contractPurpose>a</contractPurpose>
-        <ITLeaseCategory>1</ITLeaseCategory>
-        <informationSecurityClause>yes</informationSecurityClause>
-        <isActive>deactivated</isActive>
-      </updateContract>
-      <addContract id="String">
-        <agencyContractId>a</agencyContractId>
-        <contractNumber>a</contractNumber>
-        <referencedPIID>a</referencedPIID>
-        <isModularApproach>yes</isModularApproach>
-        <agileDevelopment>yes</agileDevelopment>
-        <contractPurpose>a</contractPurpose>
-        <ITLeaseCategory>1</ITLeaseCategory>
-        <informationSecurityClause>yes</informationSecurityClause>
-      </addContract>
-      <updateAcquisition id="String">
-        <acquisitionId>1</acquisitionId>
-        <agencyAcquisitionId>a</agencyAcquisitionId>
-        <plannedContractDescription>a</plannedContractDescription>
-        <plannedAwardDate>2020-01-01</plannedAwardDate>
-        <solicitationId>a</solicitationId>
-        <lengthOfPlannedSupport>a</lengthOfPlannedSupport>
-        <anticipatedValue>1</anticipatedValue>
-        <isModularApproach>yes</isModularApproach>
-        <agileDevelopment>yes</agileDevelopment>
-        <potentialSources>a</potentialSources>
-        <providerEngagement>a</providerEngagement>
-        <containsITLease>yes</containsITLease>
-        <replacedContracts>
-          <addReplacedContract>
-            <agencyReplacedContractId>a</agencyReplacedContractId>
-            <contractNumber>a</contractNumber>
-            <referencedPIID>1</referencedPIID>
-          </addReplacedContract>
-          <updateReplacedContract id="String">
-            <replacedContractId>a</replacedContractId>
-            <agencyReplacedContractId>a</agencyReplacedContractId>
-            <contractNumber>a</contractNumber>
-            <referencedPIID>1</referencedPIID>
-          </updateReplacedContract>
-        </replacedContracts>
-        <isActive>active</isActive>
-      </updateAcquisition>
-      <addAcquisition>
-        <agencyAcquisitionId>a</agencyAcquisitionId>
-        <plannedContractDescription>a</plannedContractDescription>
-        <plannedAwardDate>2020-01-01</plannedAwardDate>
-        <solicitationId>a</solicitationId>
-        <lengthOfPlannedSupport>a</lengthOfPlannedSupport>
-        <anticipatedValue>1</anticipatedValue>
-        <isModularApproach>yes</isModularApproach>
-        <agileDevelopment>yes</agileDevelopment>
-        <potentialSources>a</potentialSources>
-        <providerEngagement>a</providerEngagement>
-        <containsITLease>yes</containsITLease>
-        <replacedContracts>
-          <addReplacedContract>
-            <agencyReplacedContractId>a</agencyReplacedContractId>
-            <contractNumber>a</contractNumber>
-            <referencedPIID>a</referencedPIID>
-          </addReplacedContract>
-        </replacedContracts>
-      </addAcquisition>
       <addSystem>
         <agencySystemId>a</agencySystemId>
         <systemName>a</systemName>
@@ -157,6 +87,10 @@
           <releaseEverySixMo>no</releaseEverySixMo>
           <releaseEverySixMoComment>a</releaseEverySixMoComment>
           <productionDeploymentDate>1970-01-01</productionDeploymentDate>
+          <fundedBy>TMF</fundedBy>
+          <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
+          <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
+          <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
         </addProjectDetail>
         <addProjectActivities>
           <addProjectActivity>
@@ -164,8 +98,6 @@
             <activityName>a</activityName>
             <activityDescription>a</activityDescription>
             <structureId>String</structureId>
-            <activityType>12</activityType>
-            <criticalPath>yes</criticalPath>
             <plannedStartDate>1970-01-01</plannedStartDate>
             <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
@@ -212,7 +144,6 @@
           <updateProjectActivity>
             <activityId>0</activityId>
             <agencyActivityId>a</agencyActivityId>
-            <criticalPath>yes</criticalPath>
             <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
             <projectedTotalCost>10000</projectedTotalCost>
@@ -225,8 +156,6 @@
             <activityName>a</activityName>
             <activityDescription>a</activityDescription>
             <structureId>String</structureId>
-            <activityType>13</activityType>
-            <criticalPath>yes</criticalPath>
             <plannedStartDate>1970-01-01</plannedStartDate>
             <projectedStartDate>1970-01-01</projectedStartDate>
             <actualStartDate>1970-01-01</actualStartDate>
@@ -296,6 +225,10 @@
             <releaseEverySixMo>no</releaseEverySixMo>
             <releaseEverySixMoComment>a</releaseEverySixMoComment>
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
+            <fundedBy>TMF</fundedBy>
+            <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
+            <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
+            <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
           </reviseAddProjectDetail>
           <reviseAddProjectActivities>
             <reviseAddProjectActivity>
@@ -303,8 +236,6 @@
               <activityName>a</activityName>
               <activityDescription>a</activityDescription>
               <structureId>String</structureId>
-              <activityType>9</activityType>
-              <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
               <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
@@ -352,6 +283,10 @@
             <releaseEverySixMo>yes</releaseEverySixMo>
             <releaseEverySixMoComment>a</releaseEverySixMoComment>
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
+            <fundedBy>TMF</fundedBy>
+            <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
+            <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
+            <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
             <isActive>deactivated</isActive>
           </reviseUpdateProjectDetail>
           <reviseUpdateProjectActivities>
@@ -361,8 +296,6 @@
               <activityName>a</activityName>
               <activityDescription>a</activityDescription>
               <structureId>String</structureId>
-              <activityType>15</activityType>
-              <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
               <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>
@@ -379,8 +312,6 @@
               <activityName>a</activityName>
               <activityDescription>a</activityDescription>
               <structureId>String</structureId>
-              <activityType>9</activityType>
-              <criticalPath>yes</criticalPath>
               <plannedStartDate>1970-01-01</plannedStartDate>
               <projectedStartDate>1970-01-01</projectedStartDate>
               <actualStartDate>1970-01-01</actualStartDate>

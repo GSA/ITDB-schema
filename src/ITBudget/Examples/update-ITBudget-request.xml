@@ -7,6 +7,9 @@
                 <InvestmentLineStructure>00</InvestmentLineStructure>
                 <SharedServicesCategory>00</SharedServicesCategory>
                 <SharedServicesIdentifier>1234</SharedServicesIdentifier>
+                <MissionSupportInvestmentCategories>
+                    <MissionSupportInvestmentCategory>02</MissionSupportInvestmentCategory>
+                </MissionSupportInvestmentCategories>
             </UniqueInvestmentID>
             <InvestmentCharacterization>
                 <InvestmentTitle>gurttt</InvestmentTitle>
@@ -168,6 +171,12 @@
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
+                <ITTower>
+                    <ITTowerCategory>Total Platform Cost</ITTowerCategory>
+                    <PriorYearAmount>0</PriorYearAmount>
+                    <CurrentYearAmount>0</CurrentYearAmount>
+                    <BudgetYearAmount>0</BudgetYearAmount>
+                </ITTower>
             </ITTowers>
             <FunctionalBusinessSponsorInformation>
                 <FunctionalBusinessSponsorName>Test</FunctionalBusinessSponsorName>
@@ -223,29 +232,7 @@
                 </FundingSourceLineItem>
             </FundingSourceLineItems>
         </ITPortfolio>
-        <DataCenterSpendingSummary>
-            <DataCenterLabor>
-                <PriorYearAmount>0</PriorYearAmount>
-                <CurrentYearAmount>0</CurrentYearAmount>
-            </DataCenterLabor>
-            <DataCenterSoftware>
-                <PriorYearAmount>0</PriorYearAmount>
-                <CurrentYearAmount>0</CurrentYearAmount>
-            </DataCenterSoftware>
-            <DataCenterHardware>
-                <PriorYearAmount>0</PriorYearAmount>
-                <CurrentYearAmount>0</CurrentYearAmount>
-            </DataCenterHardware>
-            <DataCenterElectricity>
-                <PriorYearAmount>0</PriorYearAmount>
-                <CurrentYearAmount>0</CurrentYearAmount>
-            </DataCenterElectricity>
-            <DataCenterFacility>
-                <PriorYearAmount>0</PriorYearAmount>
-                <CurrentYearAmount>0</CurrentYearAmount>
-            </DataCenterFacility>
-        </DataCenterSpendingSummary>
-        <BudgetAccountSummary>
+       <BudgetAccountSummary>
             <BudgetAccount>
                 <FundingCode>a</FundingCode>
                 <CIOAuthorityAmount>0</CIOAuthorityAmount>

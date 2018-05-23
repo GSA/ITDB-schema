@@ -161,25 +161,7 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
-    <xsd:complexType name="DataCenterSpendingSummaryType">
-        <xsd:annotation>
-            <xsd:appinfo>
-                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
-            </xsd:appinfo>
-        </xsd:annotation>
-        <xsd:complexContent>
-            <xsd:extension base="s:ComplexObjectType">
-                <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterLabor"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterSoftware"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterHardware"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterElectricity"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterFacility"/>
-                </xsd:sequence>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-    <xsd:complexType name="FunctionalBusinessSponsorInformationType">
+   <xsd:complexType name="FunctionalBusinessSponsorInformationType">
         <xsd:annotation>
             <xsd:appinfo>
                 <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
@@ -303,7 +285,6 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="update-ITBudget-ext:ITPortfolio" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterSpendingSummary" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:BudgetAccountSummary" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:MessageInformation"/>
                 </xsd:sequence>
@@ -368,6 +349,20 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+    <xsd:complexType name="MissionSupportInvestmentCategoriesType">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="ComplexObjectType"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="s:ComplexObjectType">
+                <xsd:sequence>
+                    <xsd:element ref="update-ITBudget-ext:MissionSupportInvestmentCategory" maxOccurs="6"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
     <xsd:complexType name="MessageInformationType">
         <xsd:annotation>
             <xsd:appinfo>
@@ -398,6 +393,7 @@
                     <!-- DEPRECATED? --><xsd:element ref="update-ITBudget-ext:InvestmentLineStructure"/>
                     <xsd:element ref="update-ITBudget-ext:SharedServicesCategory"/>
                     <xsd:element ref="update-ITBudget-ext:SharedServicesIdentifier" minOccurs="0"/>
+                    <xsd:element ref="update-ITBudget-ext:MissionSupportInvestmentCategories"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -462,12 +458,7 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterSpendingSummary" type="update-ITBudget-ext:DataCenterSpendingSummaryType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="CostPool" type="update-ITBudget-ext:CostPoolType">
+   <xsd:element name="CostPool" type="update-ITBudget-ext:CostPoolType">
         <xsd:annotation>
             <xsd:documentation>Element used for Cost Pool line items.</xsd:documentation>
         </xsd:annotation>
@@ -497,42 +488,17 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterElectricity" type="update-ITBudget-ext:AnnualInfrastructureLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="DataCenterFacility" type="update-ITBudget-ext:AnnualInfrastructureLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="DataCenterHardware" type="update-ITBudget-ext:AnnualInfrastructureLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
     <xsd:element name="DataCenterInventory" type="update-ITBudget-ext:DataCenterInventoryType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterID" type="nc:TextType">
+   <xsd:element name="DataCenterID" type="nc:TextType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="DataCenterLabor" type="update-ITBudget-ext:AnnualInfrastructureLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="DataCenterSoftware" type="update-ITBudget-ext:AnnualInfrastructureLineItemType">
-        <xsd:annotation>
-            <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:element name="DME" type="update-ITBudget-ext:AnnualOverallBudgetType">
+   <xsd:element name="DME" type="update-ITBudget-ext:AnnualOverallBudgetType">
         <xsd:annotation>
             <xsd:documentation>Program cost for new investments, changes or modifications to existing systems to improve capability or performance, changes mandated by the Congress or agency leadership, personnel costs for investment management, and direct support. For major IT investments, this amount should equal the sum of the amounts reported for the planning and acquisition plus the associated FTE costs reported in the exhibit 300.</xsd:documentation>
         </xsd:annotation>
@@ -655,6 +621,16 @@
     <xsd:element name="MessageInformation" type="update-ITBudget-ext:MessageInformationType">
         <xsd:annotation>
             <xsd:documentation>Information related not to a particular investment but to the message itself is contained here.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="MissionSupportInvestmentCategories" type="update-ITBudget-ext:MissionSupportInvestmentCategoriesType">
+        <xsd:annotation>
+            <xsd:documentation>Element used for grouping Mission Support Investment Category line items.</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    <xsd:element name="MissionSupportInvestmentCategory" type="ITBudgetFacet:MissionSupportInvestmentCategoryType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="MissionArea" type="ITBudgetFacet:MissionAreaCodeType">

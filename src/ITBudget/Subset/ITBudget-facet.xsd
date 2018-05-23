@@ -422,6 +422,64 @@
       </xsd:enumeration>
     </xsd:restriction>
   </xsd:simpleType>
+  <xsd:simpleType name="MissionSupportInvestmentCategorySimpleType">
+    <xsd:annotation>
+      <xsd:documentation>definition</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="01">
+        <xsd:annotation>
+          <xsd:documentation>Not Applicable</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="02">
+        <xsd:annotation>
+          <xsd:documentation>Financial Management</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="03">
+        <xsd:annotation>
+          <xsd:documentation>Human Resources</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="04">
+        <xsd:annotation>
+          <xsd:documentation>Procurement</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="05">
+        <xsd:annotation>
+          <xsd:documentation>Travel / Transportation</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="06">
+        <xsd:annotation>
+          <xsd:documentation>Grants Management</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="07">
+        <xsd:annotation>
+          <xsd:documentation>Other Inter-Agency Shared Services</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="MissionSupportInvestmentCategoryType">
+    <xsd:annotation>
+      <xsd:documentation>definition</xsd:documentation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/structures/2.0" i:name="Object"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="ITBudgetFacet:MissionSupportInvestmentCategorySimpleType">
+        <xsd:attributeGroup ref="s:SimpleObjectAttributeGroup"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
   <xsd:simpleType name="InfrastructureManagementCategorySimpleType">
     <xsd:annotation>
       <xsd:documentation>definition</xsd:documentation>
@@ -460,6 +518,27 @@
           <xsd:documentation>End User</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="07">
+        <xsd:annotation>
+          <xsd:documentation>Application</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="08">
+        <xsd:annotation>
+          <xsd:documentation>Delivery</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="09">
+        <xsd:annotation>
+          <xsd:documentation>Output</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+      <xsd:enumeration value="10">
+        <xsd:annotation>
+          <xsd:documentation>Platform</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>
+
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:complexType name="InfrastructureManagementCategoryType">
@@ -561,6 +640,11 @@
           <xsd:documentation>This is the total PY/CY/BY IT Management cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
+      <xsd:enumeration value="Total Platform Cost">
+        <xsd:annotation>
+          <xsd:documentation>This is the total PY/CY/BY platform cost associated with and included in this Investment’s total cost.</xsd:documentation>
+        </xsd:annotation>
+      </xsd:enumeration>      
     </xsd:restriction>
   </xsd:simpleType>
   <xsd:complexType name="ITTowerCategoryType">

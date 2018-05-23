@@ -109,49 +109,7 @@
               <businessCase-response:investmentEndYear>1970</businessCase-response:investmentEndYear>
             </businessCase-response:investmentStartEndDates>
             <businessCase-response:changesFromPreviousBudget>a</businessCase-response:changesFromPreviousBudget>
-            <businessCase-response:acquisitionStrategy>
-              <businessCase-response:existingContracts>
-                <businessCase-response:existingContractRow>
-                  <businessCase-response:contractId>0</businessCase-response:contractId>
-                  <businessCase-response:agencyContractId>a</businessCase-response:agencyContractId>
-                  <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                  <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:contractPurpose>yes</businessCase-response:contractPurpose>
-                  <businessCase-response:ITLeaseCategory>1</businessCase-response:ITLeaseCategory>
-                  <businessCase-response:informationSecurityClause>yes</businessCase-response:informationSecurityClause>
-                  <businessCase-response:isActive>active</businessCase-response:isActive>
-                </businessCase-response:existingContractRow>
-              </businessCase-response:existingContracts>
-              <businessCase-response:plannedAcquisitions>
-                <businessCase-response:plannedAcquisitionsRow>
-                  <businessCase-response:acquisitionId>0</businessCase-response:acquisitionId>
-                  <businessCase-response:agencyAcquisitionId>a</businessCase-response:agencyAcquisitionId>
-                  <businessCase-response:plannedContractDescription>a</businessCase-response:plannedContractDescription>
-                  <businessCase-response:plannedAwardDate>1970-01-01</businessCase-response:plannedAwardDate>
-     			  <businessCase-response:solicitationId>a</businessCase-response:solicitationId>
-                  <businessCase-response:lengthOfPlannedSupport>a</businessCase-response:lengthOfPlannedSupport>
-                  <businessCase-response:anticipatedValue>1</businessCase-response:anticipatedValue>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:potentialSources>a</businessCase-response:potentialSources>
-                  <businessCase-response:providerEngagement>a</businessCase-response:providerEngagement>
-                  <businessCase-response:containsITLease>yes</businessCase-response:containsITLease>
-                  <businessCase-response:replacedContracts>
-                    <businessCase-response:replacedContractRow>
-                      <businessCase-response:replacedContractId>a</businessCase-response:replacedContractId>
-                      <businessCase-response:agencyReplacedContractId>a</businessCase-response:agencyReplacedContractId>
-                      <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                      <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                      <businessCase-response:isActive>active</businessCase-response:isActive>
-                    </businessCase-response:replacedContractRow>
-                  </businessCase-response:replacedContracts>
-                  <businessCase-response:isActive>active</businessCase-response:isActive>
-                </businessCase-response:plannedAcquisitionsRow>
-              </businessCase-response:plannedAcquisitions>
-            </businessCase-response:acquisitionStrategy>
-            <businessCase-response:cioRating>
+           <businessCase-response:cioRating>
               <businessCase-response:cioRatingEval>1</businessCase-response:cioRatingEval>
               <businessCase-response:cioComment>a</businessCase-response:cioComment>
             </businessCase-response:cioRating>
@@ -187,6 +145,10 @@
                     <businessCase-response:releaseEverySixMo>yes</businessCase-response:releaseEverySixMo>
                     <businessCase-response:releaseEverySixMoComment>a</businessCase-response:releaseEverySixMoComment>
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
+                    <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
+                    <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
+                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
+                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
                     <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -197,7 +159,6 @@
                       <businessCase-response:activityName>a</businessCase-response:activityName>
                       <businessCase-response:activityDescription>a</businessCase-response:activityDescription>
                       <businessCase-response:structureId>String</businessCase-response:structureId>
-                      <businessCase-response:activityType>1</businessCase-response:activityType>
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:projectedStartDate>1970-01-01</businessCase-response:projectedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
@@ -282,21 +243,7 @@
           <sr:cioComment>a</sr:cioComment>
         </sr:CIORating>
       </sr:getCIORatingResult>
-      <sr:getContractsResult id="String">
-        <sr:contract>
-          <sr:contractId>0</sr:contractId>
-          <sr:agencyContractId>a</sr:agencyContractId>
-          <sr:contractNumber>a</sr:contractNumber>
-          <sr:referencedPIID>a</sr:referencedPIID>
-          <sr:isModularApproach>no</sr:isModularApproach>
-          <sr:agileDevelopment>no</sr:agileDevelopment>
-          <sr:contractPurpose>no</sr:contractPurpose>
-          <sr:ITLeaseCategory>1</sr:ITLeaseCategory>
-          <sr:informationSecurityClause>no</sr:informationSecurityClause>
-          <sr:isActive>active</sr:isActive>
-        </sr:contract>
-      </sr:getContractsResult>
-      <sr:getPerformanceMetricsResult id="String">
+     <sr:getPerformanceMetricsResult id="String">
         <sr:performanceMetric>
           <sr:performanceMetricId>0</sr:performanceMetricId>
           <sr:agencyPerformanceMetricId>a</sr:agencyPerformanceMetricId>
@@ -348,6 +295,10 @@
             <sr:releaseEverySixMo>yes</sr:releaseEverySixMo>
             <sr:releaseEverySixMoComment>a</sr:releaseEverySixMoComment>
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
+            <sr:fundedBy>TMF</sr:fundedBy>
+            <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
+            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
+            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
             <sr:isActive>deactivated</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -358,7 +309,6 @@
               <sr:activityName>a</sr:activityName>
               <sr:activityDescription>a</sr:activityDescription>
               <sr:structureId>String</sr:structureId>
-              <sr:activityType>3</sr:activityType>
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:projectedStartDate>1970-01-01</sr:projectedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
@@ -410,6 +360,10 @@
             <sr:releaseEverySixMo>yes</sr:releaseEverySixMo>
             <sr:releaseEverySixMoComment>a</sr:releaseEverySixMoComment>
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
+            <sr:fundedBy>TMF</sr:fundedBy>
+            <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
+            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
+            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
             <sr:isActive>active</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -420,7 +374,6 @@
               <sr:activityName>a</sr:activityName>
               <sr:activityDescription>a</sr:activityDescription>
               <sr:structureId>String</sr:structureId>
-              <sr:activityType>16</sr:activityType>
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:projectedStartDate>1970-01-01</sr:projectedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
@@ -457,35 +410,7 @@
           </sr:projectActivities>
         </sr:project>
       </sr:getProjectsInProgressResult>
-      <sr:updateContractResult id="String">
-        <sr:contract>
-          <sr:contractId>0</sr:contractId>
-          <sr:agencyContractId>a</sr:agencyContractId>
-          <sr:contractNumber>a</sr:contractNumber>
-          <sr:referencedPIID>a</sr:referencedPIID>
-          <sr:isModularApproach>yes</sr:isModularApproach>
-          <sr:agileDevelopment>no</sr:agileDevelopment>
-          <sr:contractPurpose>no</sr:contractPurpose>
-          <sr:ITLeaseCategory>1</sr:ITLeaseCategory>
-          <sr:informationSecurityClause>no</sr:informationSecurityClause>
-          <sr:isActive>active</sr:isActive>
-        </sr:contract>
-      </sr:updateContractResult>
-      <sr:addContractResult id="String">
-        <sr:contract>
-          <sr:contractId>0</sr:contractId>
-          <sr:agencyContractId>a</sr:agencyContractId>
-          <sr:contractNumber>a</sr:contractNumber>
-          <sr:referencedPIID>a</sr:referencedPIID>
-          <sr:isModularApproach>no</sr:isModularApproach>
-          <sr:agileDevelopment>no</sr:agileDevelopment>
-          <sr:contractPurpose>no</sr:contractPurpose>
-          <sr:ITLeaseCategory>1</sr:ITLeaseCategory>
-          <sr:informationSecurityClause>no</sr:informationSecurityClause>
-          <sr:isActive>active</sr:isActive>
-        </sr:contract>
-      </sr:addContractResult>
-      <sr:addPerformanceMetricResult id="String">
+     <sr:addPerformanceMetricResult id="String">
         <sr:performanceMetric>
           <sr:performanceMetricId>0</sr:performanceMetricId>
           <sr:agencyPerformanceMetricId>a</sr:agencyPerformanceMetricId>
@@ -582,6 +507,10 @@
             <sr:releaseEverySixMo>no</sr:releaseEverySixMo>
             <sr:releaseEverySixMoComment>a</sr:releaseEverySixMoComment>
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
+            <sr:fundedBy>TMF</sr:fundedBy>
+            <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
+            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
+            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
             <sr:isActive>deactivated</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -592,7 +521,6 @@
               <sr:activityName>a</sr:activityName>
               <sr:activityDescription>a</sr:activityDescription>
               <sr:structureId>String</sr:structureId>
-              <sr:activityType>11</sr:activityType>
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:projectedStartDate>1970-01-01</sr:projectedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
@@ -644,6 +572,10 @@
             <sr:releaseEverySixMo>yes</sr:releaseEverySixMo>
             <sr:releaseEverySixMoComment>a</sr:releaseEverySixMoComment>
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
+            <sr:fundedBy>TMF</sr:fundedBy>
+            <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
+            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
+            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
             <sr:isActive>active</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -654,7 +586,6 @@
               <sr:activityName>a</sr:activityName>
               <sr:activityDescription>a</sr:activityDescription>
               <sr:structureId>String</sr:structureId>
-              <sr:activityType>4</sr:activityType>
               <sr:plannedStartDate>1970-01-01</sr:plannedStartDate>
               <sr:projectedStartDate>1970-01-01</sr:projectedStartDate>
               <sr:actualStartDate>1970-01-01</sr:actualStartDate>
@@ -789,48 +720,7 @@
               <businessCase-response:investmentEndYear>1970</businessCase-response:investmentEndYear>
             </businessCase-response:investmentStartEndDates>
             <businessCase-response:changesFromPreviousBudget>a</businessCase-response:changesFromPreviousBudget>
-            <businessCase-response:acquisitionStrategy>
-              <businessCase-response:existingContracts>
-                <businessCase-response:existingContractRow>
-                  <businessCase-response:contractId>0</businessCase-response:contractId>
-                  <businessCase-response:agencyContractId>a</businessCase-response:agencyContractId>
-                  <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                  <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:contractPurpose>no</businessCase-response:contractPurpose>
-                  <businessCase-response:ITLeaseCategory>1</businessCase-response:ITLeaseCategory>
-                  <businessCase-response:informationSecurityClause>no</businessCase-response:informationSecurityClause>
-                  <businessCase-response:isActive>deactivated</businessCase-response:isActive>
-                </businessCase-response:existingContractRow>
-              </businessCase-response:existingContracts>
-              <businessCase-response:plannedAcquisitions>
-                <businessCase-response:plannedAcquisitionsRow>
-                  <businessCase-response:acquisitionId>0</businessCase-response:acquisitionId>
-                  <businessCase-response:agencyAcquisitionId>a</businessCase-response:agencyAcquisitionId>
-                  <businessCase-response:plannedContractDescription>a</businessCase-response:plannedContractDescription>
-                  <businessCase-response:solicitationId>a</businessCase-response:solicitationId>
-                  <businessCase-response:lengthOfPlannedSupport>a</businessCase-response:lengthOfPlannedSupport>
-                  <businessCase-response:anticipatedValue>1</businessCase-response:anticipatedValue>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:potentialSources>a</businessCase-response:potentialSources>
-                  <businessCase-response:providerEngagement>a</businessCase-response:providerEngagement>
-                  <businessCase-response:containsITLease>yes</businessCase-response:containsITLease>
-                  <businessCase-response:replacedContracts>
-                    <businessCase-response:replacedContractRow>
-                      <businessCase-response:replacedContractId>a</businessCase-response:replacedContractId>
-                      <businessCase-response:agencyReplacedContractId>a</businessCase-response:agencyReplacedContractId>
-                      <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                      <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                      <businessCase-response:isActive>active</businessCase-response:isActive>
-                    </businessCase-response:replacedContractRow>
-                  </businessCase-response:replacedContracts>
-                  <businessCase-response:isActive>active</businessCase-response:isActive>
-                </businessCase-response:plannedAcquisitionsRow>
-              </businessCase-response:plannedAcquisitions>
-            </businessCase-response:acquisitionStrategy>
-            <businessCase-response:cioRating>
+           <businessCase-response:cioRating>
               <businessCase-response:cioRatingEval>1</businessCase-response:cioRatingEval>
               <businessCase-response:cioComment>a</businessCase-response:cioComment>
             </businessCase-response:cioRating>
@@ -854,6 +744,10 @@
                     <businessCase-response:releaseEverySixMo>yes</businessCase-response:releaseEverySixMo>
                     <businessCase-response:releaseEverySixMoComment>a</businessCase-response:releaseEverySixMoComment>
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
+                    <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
+                    <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
+                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
+                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -864,7 +758,6 @@
                       <businessCase-response:activityName>a</businessCase-response:activityName>
                       <businessCase-response:activityDescription>a</businessCase-response:activityDescription>
                       <businessCase-response:structureId>String</businessCase-response:structureId>
-                      <businessCase-response:activityType>7</businessCase-response:activityType>
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:projectedStartDate>1970-01-01</businessCase-response:projectedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
@@ -1056,48 +949,7 @@
               <businessCase-response:investmentEndYear>1970</businessCase-response:investmentEndYear>
             </businessCase-response:investmentStartEndDates>
             <businessCase-response:changesFromPreviousBudget>a</businessCase-response:changesFromPreviousBudget>
-            <businessCase-response:acquisitionStrategy>
-              <businessCase-response:existingContracts>
-                <businessCase-response:existingContractRow>
-                  <businessCase-response:contractId>0</businessCase-response:contractId>
-                  <businessCase-response:agencyContractId>a</businessCase-response:agencyContractId>
-                  <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                  <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:contractPurpose>no</businessCase-response:contractPurpose>
-                  <businessCase-response:ITLeaseCategory>1</businessCase-response:ITLeaseCategory>
-                  <businessCase-response:informationSecurityClause>no</businessCase-response:informationSecurityClause>
-                  <businessCase-response:isActive>deactivated</businessCase-response:isActive>
-                </businessCase-response:existingContractRow>
-              </businessCase-response:existingContracts>
-              <businessCase-response:plannedAcquisitions>
-                <businessCase-response:plannedAcquisitionsRow>
-                  <businessCase-response:acquisitionId>0</businessCase-response:acquisitionId>
-                  <businessCase-response:agencyAcquisitionId>a</businessCase-response:agencyAcquisitionId>
-                  <businessCase-response:plannedContractDescription>a</businessCase-response:plannedContractDescription>
-                  <businessCase-response:solicitationId>a</businessCase-response:solicitationId>
-                  <businessCase-response:lengthOfPlannedSupport>a</businessCase-response:lengthOfPlannedSupport>
-                  <businessCase-response:anticipatedValue>1</businessCase-response:anticipatedValue>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:potentialSources>a</businessCase-response:potentialSources>
-                  <businessCase-response:providerEngagement>a</businessCase-response:providerEngagement>
-                  <businessCase-response:containsITLease>yes</businessCase-response:containsITLease>
-                  <businessCase-response:replacedContracts>
-                    <businessCase-response:replacedContractRow>
-                      <businessCase-response:replacedContractId>a</businessCase-response:replacedContractId>
-                      <businessCase-response:agencyReplacedContractId>a</businessCase-response:agencyReplacedContractId>
-                      <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                      <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                      <businessCase-response:isActive>active</businessCase-response:isActive>
-                    </businessCase-response:replacedContractRow>
-                  </businessCase-response:replacedContracts>
-                  <businessCase-response:isActive>active</businessCase-response:isActive>
-                </businessCase-response:plannedAcquisitionsRow>
-              </businessCase-response:plannedAcquisitions>
-            </businessCase-response:acquisitionStrategy>
-            <businessCase-response:cioRating>
+           <businessCase-response:cioRating>
               <businessCase-response:cioRatingEval>1</businessCase-response:cioRatingEval>
               <businessCase-response:cioComment>a</businessCase-response:cioComment>
             </businessCase-response:cioRating>
@@ -1121,6 +973,10 @@
                   <businessCase-response:releaseEverySixMo>yes</businessCase-response:releaseEverySixMo>
                   <businessCase-response:releaseEverySixMoComment>a</businessCase-response:releaseEverySixMoComment>
                   <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
+                  <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
+                  <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
+                  <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
+                  <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
                   <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 </businessCase-response:projectDetail>
                 <businessCase-response:projectActivities>
@@ -1131,7 +987,6 @@
                     <businessCase-response:activityName>a</businessCase-response:activityName>
                     <businessCase-response:activityDescription>a</businessCase-response:activityDescription>
                     <businessCase-response:structureId>String</businessCase-response:structureId>
-                    <businessCase-response:activityType>5</businessCase-response:activityType>
                     <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                     <businessCase-response:projectedStartDate>1970-01-01</businessCase-response:projectedStartDate>
                     <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>
@@ -1312,48 +1167,7 @@
               <businessCase-response:investmentEndYear>1970</businessCase-response:investmentEndYear>
             </businessCase-response:investmentStartEndDates>
             <businessCase-response:changesFromPreviousBudget>a</businessCase-response:changesFromPreviousBudget>
-            <businessCase-response:acquisitionStrategy>
-              <businessCase-response:existingContracts>
-                <businessCase-response:existingContractRow>
-                  <businessCase-response:contractId>0</businessCase-response:contractId>
-                  <businessCase-response:agencyContractId>a</businessCase-response:agencyContractId>
-                  <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                  <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:contractPurpose>no</businessCase-response:contractPurpose>
-                  <businessCase-response:ITLeaseCategory>1</businessCase-response:ITLeaseCategory>
-                  <businessCase-response:informationSecurityClause>no</businessCase-response:informationSecurityClause>
-                  <businessCase-response:isActive>deactivated</businessCase-response:isActive>
-                </businessCase-response:existingContractRow>
-              </businessCase-response:existingContracts>
-              <businessCase-response:plannedAcquisitions>
-                <businessCase-response:plannedAcquisitionsRow>
-                  <businessCase-response:acquisitionId>0</businessCase-response:acquisitionId>
-                  <businessCase-response:agencyAcquisitionId>a</businessCase-response:agencyAcquisitionId>
-                  <businessCase-response:plannedContractDescription>a</businessCase-response:plannedContractDescription>
- 	  			        <businessCase-response:solicitationId>a</businessCase-response:solicitationId>
-                  <businessCase-response:lengthOfPlannedSupport>a</businessCase-response:lengthOfPlannedSupport>
-                  <businessCase-response:anticipatedValue>1</businessCase-response:anticipatedValue>
-                  <businessCase-response:isModularApproach>yes</businessCase-response:isModularApproach>
-                  <businessCase-response:agileDevelopment>yes</businessCase-response:agileDevelopment>
-                  <businessCase-response:potentialSources>a</businessCase-response:potentialSources>
-                  <businessCase-response:providerEngagement>a</businessCase-response:providerEngagement>
-                  <businessCase-response:containsITLease>yes</businessCase-response:containsITLease>
-                  <businessCase-response:replacedContracts>
-                    <businessCase-response:replacedContractRow>
-                      <businessCase-response:replacedContractId>a</businessCase-response:replacedContractId>
-                      <businessCase-response:agencyReplacedContractId>a</businessCase-response:agencyReplacedContractId>
-                      <businessCase-response:contractNumber>a</businessCase-response:contractNumber>
-                      <businessCase-response:referencedPIID>a</businessCase-response:referencedPIID>
-                      <businessCase-response:isActive>active</businessCase-response:isActive>
-                    </businessCase-response:replacedContractRow>
-                  </businessCase-response:replacedContracts>
-                  <businessCase-response:isActive>active</businessCase-response:isActive>
-                </businessCase-response:plannedAcquisitionsRow>
-              </businessCase-response:plannedAcquisitions>
-            </businessCase-response:acquisitionStrategy>
-            <businessCase-response:cioRating>
+           <businessCase-response:cioRating>
               <businessCase-response:cioRatingEval>1</businessCase-response:cioRatingEval>
               <businessCase-response:cioComment>a</businessCase-response:cioComment>
             </businessCase-response:cioRating>
@@ -1377,6 +1191,10 @@
                     <businessCase-response:releaseEverySixMo>no</businessCase-response:releaseEverySixMo>
                     <businessCase-response:releaseEverySixMoComment>a</businessCase-response:releaseEverySixMoComment>
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
+                    <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
+                    <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
+                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
+                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
                     <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -1387,7 +1205,6 @@
                       <businessCase-response:activityName>a</businessCase-response:activityName>
                       <businessCase-response:activityDescription>a</businessCase-response:activityDescription>
                       <businessCase-response:structureId>String</businessCase-response:structureId>
-                      <businessCase-response:activityType>1</businessCase-response:activityType>
                       <businessCase-response:plannedStartDate>1970-01-01</businessCase-response:plannedStartDate>
                       <businessCase-response:projectedStartDate>1970-01-01</businessCase-response:projectedStartDate>
                       <businessCase-response:actualStartDate>1970-01-01</businessCase-response:actualStartDate>

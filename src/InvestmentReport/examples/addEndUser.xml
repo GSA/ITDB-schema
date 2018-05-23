@@ -12,29 +12,7 @@
         <BY>120</BY>
       </investmentCostDetail>
     </investmentCostDetails>
-    <contracts>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>EndUser-Contract-123</agencyContractID>
-        <status>existing</status>
-        <PIID>12345</PIID>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>12345</solicitationID>
-        <!-- Workspace, Mobile Devices, End User Software, Network Printers, Conferencing & AV, IT Helpdesk, Deskside Support -->
-        <contractType>1</contractType>
-        <taskOrderCompletionDate>02/20/2018</taskOrderCompletionDate>
-      </contract>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>EndUser-Contract-234</agencyContractID>
-        <status>future</status>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>05/07/2018</anticipatedAwardDate>
-        <contractType>Workspace</contractType>
-      </contract>
-    </contracts>
-    <projects>
+   <projects>
       <project>
         <operation>add</operation>
         <agencyProjectID>EndUser-Project-123</agencyProjectID>

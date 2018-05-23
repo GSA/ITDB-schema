@@ -88,105 +88,6 @@
       <enumeration value="no"/>
     </restriction>
   </simpleType>
-  <simpleType name="activityType">
-    <restriction base="string">
-      <enumeration value="1">
-        <annotation>
-          <documentation>Conceptualization/Planning</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="2">
-        <annotation>
-          <documentation>Requirements Gathering</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="3">
-        <annotation>
-          <documentation>Design / User Experience (UX)</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="4">
-        <annotation>
-          <documentation>Prototype</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="5">
-        <annotation>
-          <documentation>Development</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="6">
-        <annotation>
-          <documentation>Security Testing</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="7">
-        <annotation>
-          <documentation>Iterative Testing</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="8">
-        <annotation>
-          <documentation>Iterative Release</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="9">
-        <annotation>
-          <documentation>Regression Testing</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="10">
-        <annotation>
-          <documentation>User Acceptance Testing</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="11">
-        <annotation>
-          <documentation>Development Operations (DevOps) / Configuration Management</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="12">
-        <annotation>
-          <documentation>Quality Assurance</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="13">
-        <annotation>
-          <documentation>Production Release</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="14">
-        <annotation>
-          <documentation>Retirement</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="15">
-        <annotation>
-          <documentation>This is not a software development related activity</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="16">
-        <annotation>
-          <documentation>Other</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="Key Deliverable">
-        <annotation>
-          <documentation>Backwards compatability with last year for Response</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="Usable Functionality">
-        <annotation>
-          <documentation>Backwards compatability with last year for Response</documentation>
-        </annotation>
-      </enumeration>
-      <enumeration value="N/A">
-        <annotation>
-          <documentation>Backwards compatability with last year for Response</documentation>
-        </annotation>
-      </enumeration>
-    </restriction>
-  </simpleType>
   <simpleType name="agencyString">
     <restriction base="string">
       <enumeration value="005"/>
@@ -488,6 +389,25 @@
       <enumeration value="5">
         <annotation>
           <documentation>initiate disposal action</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+   <simpleType name="fundedByType">
+    <restriction base="string">
+      <enumeration value="TMF">
+        <annotation>
+          <documentation>Technology Modernization Fund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IT WCF">
+        <annotation>
+          <documentation>IT Modernization Working Capital Fund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="N/A">
+        <annotation>
+          <documentation>Not Applicable</documentation>
         </annotation>
       </enumeration>
     </restriction>

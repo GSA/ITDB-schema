@@ -12,7 +12,6 @@
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
                                         <xs:element name='UII'/>
-                                        <xs:element name='federalRealPropertyProfileID'/>
                                         <xs:element name='description'/>
                                         <xs:element name='POC'/>
                                         <xs:element name='POCEmail'/>
@@ -28,63 +27,56 @@
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <xs:element name='category'/>
                                                     <xs:element name='PY'/>
+                                                    <xs:element name='federalFTENumberPY'/>
+                                                    <xs:element name='contractorFTENumberPY'/>
                                                     <xs:element name='CY'/>
+                                                    <xs:element name='federalFTENumberCY'/>
+                                                    <xs:element name='contractorFTENumberCY'/>
                                                     <xs:element name='BY'/>
+                                                    <xs:element name='federalFTENumberBY'/>
+                                                    <xs:element name='contractorFTENumberBY'/>
                                                 </xs:choice>
                                             </xs:complexType>			
                                         </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name='costsAndCapabilities' minOccurs='0'>
+                            <xs:element name='SOCs' minOccurs='0'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='costAndCapability'>
+                                        <xs:element name='SOC'>
                                             <xs:complexType>
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <xs:element name='operation' type='operation'/>
-                                                    <xs:element name='capabilityID'/>
-                                                    <xs:element name='agencyCapabilityID'/>
-                                                    <xs:element name='capability'/>
-                                                    <xs:element name='purposeOrOutcome'/>
-                                                    <xs:element name='PY'/>
-                                                    <xs:element name='CY'/>
-                                                    <xs:element name='BY'/>
+                                                    <xs:element name='SOCID'/>
+                                                    <xs:element name='agencySOCID'/>
+                                                    <xs:element name='isService'/>
+                                                    <xs:element name='coveredEntities' minOccurs='0'>
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='coveredEntity'/>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name='PYCosts'/>
+                                                    <xs:element name='PYFederalFTE'/>
+                                                    <xs:element name='PYContractorFTE'/>
+                                                    <xs:element name='CYCosts'/>
+                                                    <xs:element name='CYFederalFTE'/>
+                                                    <xs:element name='CYContractorFTE'/>
+                                                    <xs:element name='BYCosts'/>
+                                                    <xs:element name='BYFederalFTE'/>
+                                                    <xs:element name='BYContractorFTE'/>
+                                                    <xs:element name='performanceHours'/>
+                                                    <xs:element name='continuousOperations'/>
+                                                    <xs:element name='serviceProviderType'/>
+                                                    <xs:element name='providerEntity'/>
                                                 </xs:choice>
                                             </xs:complexType>			
                                         </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>       
-                            <xs:element name='contracts' minOccurs='0'>
-                                <xs:complexType>
-                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='contract'>
-                                            <xs:complexType>
-                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                    <xs:element name='operation' type='operation'/>
-                                                    <!-- shared between end user, network and data center -->
-                                                    <xs:element name='contractID'/>
-                                                    <xs:element name='agencyContractID'/>
-                                                    <xs:element name='status'/> <!-- existing || future -->
-                                                    <xs:element name='PIID'/>
-                                                    <xs:element name='solicitationID'/>
-                                                    <xs:element name='acquisitionStrategy'/>
-                                                    <xs:element name='anticipatedAwardDate'/>
-                                                    <xs:element name='taskOrderCompletionDate'/>
-                                                    <!-- end user -->
-                                                    <xs:element name='contractType'/>
-                                                    <!-- network -->
-                                                    <xs:element name='isIPv4Permitted'/>
-                                                    <xs:element name='isIPv6Supported'/>
-                                                    <!-- data center fields -->
-                                                    <xs:element name='isPhysicalDataCenter'/>
-                                                </xs:choice>
-                                            </xs:complexType>
-                                        </xs:element>
-                                    </xs:choice>
-                                </xs:complexType>
-                            </xs:element>
                             <xs:element name='projects' minOccurs='0'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -95,15 +87,55 @@
                                                     <xs:element name='projectID'/>
                                                     <xs:element name='agencyProjectID'/>
                                                     <xs:element name='projectName'/>
-                                                    <xs:element name='description'/>
                                                     <xs:element name='objective'/>
-                                                    <xs:element name='output'/>
-                                                    <xs:element name='startDatePlanned'/>
-                                                    <xs:element name='startDateActual'/>
-                                                    <xs:element name='completionDatePlanned'/>
-                                                    <xs:element name='completionDateActual'/>
-                                                    <xs:element name='totalCostsPlanned'/>
-                                                    <xs:element name='totalCostsActual'/>
+                                                    <xs:element name='projectStartDate'/>
+                                                    <xs:element name='projectCompletionDate'/>
+                                                    <xs:element name='lifeCycleCost'/>
+                                                    <xs:element name='SDLCMethodology'/>
+                                                    <xs:element name='releaseEverySixMo'/>
+                                                    <xs:element name='releaseEverySixMoComment'/>
+                                                    <xs:element name='productionDeploymentDate'/>
+                                                    <xs:element name='fundedBy'/>
+                                                    <xs:element name='commercialSolutionsExplanation'/>
+                                                    <xs:element name='commercialSolutionsJustification'/>
+                                                    <xs:element name='commercialSolutionsCosts'/>
+                                                    <xs:element name='activities' minOccurs='0'> 
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='activity'>
+                                                                    <xs:complexType>
+                                                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                            <xs:element name='operation' type='operation'/>
+                                                                            <xs:element name='isAgile'/>
+                                                                            <xs:element name='activityID'/>
+                                                                            <xs:element name='activityName'/>
+                                                                            <xs:element name='agencyActivityID'/>
+                                                                            <xs:element name='activityDescription'/>
+                                                                            <xs:element name='structureID'/>
+                                                                            <xs:element name='startDatePlanned'/>
+                                                                            <xs:element name='startDateProjected'/>
+                                                                            <xs:element name='startDateActual'/>
+                                                                            <xs:element name='completionDatePlanned'/>
+                                                                            <xs:element name='completionDateProjected'/>
+                                                                            <xs:element name='completionDateActual'/>
+                                                                            <xs:element name='totalCostPlanned'/>
+                                                                            <xs:element name='totalCostProjected'/>
+                                                                            <xs:element name='totalCostActual'/>
+                                                                            <xs:element name='releaseName'/>
+                                                                            <xs:element name='releaseNumber'/>
+                                                                            <xs:element name='releaseDescription'/>
+                                                                            <xs:element name='NPI'/>
+                                                                            <xs:element name='NPE'/>
+                                                                            <xs:element name='NCE'/>
+                                                                            <xs:element name='NCI'/>
+                                                                            <xs:element name='DTC'/>
+                                                                            <xs:element name='DPC'/>
+                                                                        </xs:choice>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                 </xs:choice>
                                             </xs:complexType>
                                         </xs:element>	

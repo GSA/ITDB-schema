@@ -3,7 +3,6 @@
     <operation>add</operation>
     <towerDetails>
       <UII>018-000006008</UII>
-      <federalRealPropertyProfileID>4</federalRealPropertyProfileID>
     </towerDetails>
     <investmentCostDetails>
       <investmentCostDetail>
@@ -13,26 +12,5 @@
         <BY>120</BY>
       </investmentCostDetail>
     </investmentCostDetails>
-    <contracts>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>DataCenter-Contract-123</agencyContractID>
-        <status>existing</status>
-        <PIID>12345</PIID>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>12345</solicitationID>
-        <isPhysicalDataCenter>no</isPhysicalDataCenter>
-        <taskOrderCompletionDate>10/17/2018</taskOrderCompletionDate>
-      </contract>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>DataCenter-Contract-234</agencyContractID>
-        <status>future</status>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>10/17/2017</anticipatedAwardDate>
-        <isPhysicalDataCenter>yes</isPhysicalDataCenter>
-      </contract>
-    </contracts>
-  </tower>
+ </tower>
 </towers>

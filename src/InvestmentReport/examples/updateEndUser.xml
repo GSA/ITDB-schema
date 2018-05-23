@@ -12,49 +12,7 @@
         <BY>220</BY>
       </investmentCostDetail>
     </investmentCostDetails>
-    <contracts>
-      <contract>
-        <operation>update</operation>
-        <contractID>123</contractID>
-        <agencyContractID>EndUser-Contract-123</agencyContractID>
-        <status>existing</status>
-        <PIID>12345</PIID>
-        <acquisitionStrategy>Update contract</acquisitionStrategy>
-        <solicitationID>12345</solicitationID>
-        <contractType>1</contractType>
-        <taskOrderCompletionDate></taskOrderCompletionDate>
-      </contract>
-      <contract>
-        <operation>update</operation>
-        <contractID>234</contractID>
-        <agencyContractID>EndUser-Contract-234</agencyContractID>
-        <status>future</status>
-        <acquisitionStrategy>Update contract</acquisitionStrategy>
-        <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>09/28/2018</anticipatedAwardDate>
-        <contractType>1</contractType>
-      </contract>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>EndUser-Contract-345</agencyContractID>
-        <status>future</status>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>09/27/2018</anticipatedAwardDate>
-        <contractType>1</contractType>
-      </contract>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>EndUser-Contract-543</agencyContractID>
-        <status>existing</status>
-        <PIID>12345</PIID>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>12345</solicitationID>
-        <contractType></contractType>
-        <taskOrderCompletionDate></taskOrderCompletionDate>
-      </contract>
-    </contracts>
-    <projects>
+   <projects>
       <project>
         <operation>update</operation>
         <projectID>123</projectID>

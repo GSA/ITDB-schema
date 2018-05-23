@@ -14,7 +14,6 @@
           </warnings>
         </ErrorsAndWarnings>
         <investmentReportID>2</investmentReportID>
-        <federalRealPropertyProfileID/>
         <POC/>
         <POCEmail/>
         <description/>
@@ -49,50 +48,7 @@
           </ErrorsAndWarnings>
         </investmentCostDetail>
       </investmentCostDetails>
-      <contracts>
-        <contract>
-          <operation>add</operation>
-          <agencyContractID>EndUser-Contract-123</agencyContractID>
-          <status>existing</status>
-          <PIID>12345</PIID>
-          <acquisitionStrategy>Add contract</acquisitionStrategy>
-          <solicitationID>12345</solicitationID>
-          <comment/>
-          <contractType>Workspace</contractType>
-          <isPhysicalDataCenter>no</isPhysicalDataCenter>
-          <isIPv4Permitted>no</isIPv4Permitted>
-          <taskOrderCompletionDate>2018-02-20</taskOrderCompletionDate>
-          <contractID>4898</contractID>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-123.</error>
-            </errors>
-          </ErrorsAndWarnings>
-          <anticipatedAwardDate/>
-          <isIPv6Supported/>
-        </contract>
-        <contract>
-          <operation>add</operation>
-          <agencyContractID>EndUser-Contract-234</agencyContractID>
-          <status>future</status>
-          <acquisitionStrategy>Add contract</acquisitionStrategy>
-          <solicitationID>54321</solicitationID>
-          <anticipatedAwardDate>2018-05-07</anticipatedAwardDate>
-          <contractType/>
-          <contractID>4899</contractID>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-234.</error>
-            </errors>
-          </ErrorsAndWarnings>
-          <PIID/>
-          <taskOrderCompletionDate/>
-          <isIPv4Permitted/>
-          <isIPv6Supported/>
-          <isPhysicalDataCenter/>
-        </contract>
-      </contracts>
-      <projects>
+     <projects>
         <project>
           <operation>add</operation>
           <agencyProjectID>EndUser-Project-123</agencyProjectID>
@@ -181,19 +137,6 @@
         </investmentCostDetail>
         <investmentCostDetail/>
       </investmentCostDetails>
-      <contracts>
-        <contract>
-          <errors>
-            <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-123.</error>
-          </errors>
-        </contract>
-        <contract>
-          <errors>
-            <error>Add operation not allowed. A record already exists for contract with agencyContactID: EndUser-Contract-234.</error>
-          </errors>
-        </contract>
-        <contract/>
-      </contracts>
       <projects>
         <project>
           <errors>

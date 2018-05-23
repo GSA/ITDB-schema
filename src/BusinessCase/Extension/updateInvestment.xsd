@@ -40,7 +40,6 @@
         <element ref="businessCase-update:investmentDetails" minOccurs="0"/>
         <element ref="businessCase-update:lifeCycleCosts" minOccurs="0"/>
         <element ref="businessCase-update:changesFromPreviousBudget" minOccurs="0"/>
-        <element ref="businessCase-update:acquisitionStrategy" minOccurs="0"/>
         <element ref="businessCase-update:cioRating" minOccurs="0"/>
         <element ref="businessCase-update:systemsInventory" minOccurs="0"/>
       </sequence>
@@ -200,15 +199,6 @@
   </element>
 
 
-  <element name="acquisitionStrategy">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:existingContracts" minOccurs="0"/>
-        <element ref="businessCase-update:plannedAcquisitions" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
-
   <complexType name="attachment">
     <sequence>
       <element ref="businessCase-update:title"/>
@@ -228,122 +218,7 @@
         <attribute name="contentType" type="string" use="required"/>
       </extension>
     </simpleContent>
-  </complexType>
-
-  <element name="existingContracts">
-    <complexType>
-      <sequence>
-        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:updateContract"/>
-        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:addContract"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="plannedAcquisitions">
-    <complexType>
-      <sequence>
-        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:updateAcquisition"/>
-        <element minOccurs="0" maxOccurs="unbounded" ref="businessCase-update:addAcquisition"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <complexType name="replacedContractsType">
-    <sequence>
-      <element ref="businessCase-update:updateReplacedContract" minOccurs="0" maxOccurs="unbounded"/>
-      <element ref="businessCase-update:addReplacedContract" minOccurs="0" maxOccurs="unbounded"/>
-    </sequence>
-  </complexType>
-
-  <complexType name="addReplacedContractType">
-    <sequence>
-      <element ref="businessCase-update:agencyReplacedContractId" minOccurs="0"/>
-      <element ref="businessCase-update:contractNumber"/>
-      <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
-    </sequence>
-  </complexType>
-
-  <complexType name="updateReplacedContractType">
-    <sequence>
-      <element ref="businessCase-update:replacedContractId" minOccurs="0"/>
-      <element ref="businessCase-update:agencyReplacedContractId" minOccurs="0"/>
-      <element ref="businessCase-update:contractNumber" minOccurs="0"/>
-      <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
-      <element ref="businessCase-update:isActive" minOccurs="0"/>
-    </sequence>
-  </complexType>
-
-  <element name="addContract">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:agencyContractId" minOccurs="0"/>
-        <element ref="businessCase-update:contractNumber"/>
-        <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
-        <element ref="businessCase-update:isModularApproach"/>
-        <element ref="businessCase-update:agileDevelopment"/>
-        <element ref="businessCase-update:contractPurpose"/>
-        <element ref="businessCase-update:ITLeaseCategory" minOccurs="0"/>
-        <element ref="businessCase-update:informationSecurityClause"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="updateContract">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:contractId" minOccurs="0"/>
-        <element ref="businessCase-update:agencyContractId" minOccurs="0"/>
-        <element ref="businessCase-update:contractNumber" minOccurs="0"/>
-        <element ref="businessCase-update:referencedPIID" minOccurs="0"/>
-        <element ref="businessCase-update:isModularApproach" minOccurs="0"/>
-        <element ref="businessCase-update:agileDevelopment" minOccurs="0"/>
-        <element ref="businessCase-update:contractPurpose" minOccurs="0"/>
-        <element ref="businessCase-update:ITLeaseCategory" minOccurs="0"/>
-        <element ref="businessCase-update:informationSecurityClause" minOccurs="0"/>
-        <element ref="businessCase-update:isActive" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="addAcquisition">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:agencyAcquisitionId" minOccurs="0"/>
-        <element ref="businessCase-update:plannedContractDescription"/>
-        <element ref="businessCase-update:plannedAwardDate"/>
-        <element ref="businessCase-update:solicitationId" minOccurs="0"/>
-        <element ref="businessCase-update:lengthOfPlannedSupport"/>
-        <element ref="businessCase-update:anticipatedValue"/>
-        <element ref="businessCase-update:isModularApproach"/>
-        <element ref="businessCase-update:agileDevelopment"/>
-        <element ref="businessCase-update:potentialSources"/>
-        <element ref="businessCase-update:providerEngagement"/>
-        <element ref="businessCase-update:containsITLease"/>
-        <element ref="businessCase-update:replacedContracts" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="updateAcquisition">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:acquisitionId" minOccurs="0"/>
-        <element ref="businessCase-update:agencyAcquisitionId" minOccurs="0"/>
-        <element ref="businessCase-update:plannedContractDescription" minOccurs="0"/>
-        <element ref="businessCase-update:plannedAwardDate" minOccurs="0"/>
-        <element ref="businessCase-update:solicitationId" minOccurs="0"/>
-        <element ref="businessCase-update:lengthOfPlannedSupport" minOccurs="0"/>
-        <element ref="businessCase-update:anticipatedValue" minOccurs="0"/>
-        <element ref="businessCase-update:isModularApproach" minOccurs="0"/>
-        <element ref="businessCase-update:agileDevelopment" minOccurs="0"/>
-        <element ref="businessCase-update:potentialSources" minOccurs="0"/>
-        <element ref="businessCase-update:providerEngagement" minOccurs="0"/>
-        <element ref="businessCase-update:containsITLease" minOccurs="0"/>
-        <element ref="businessCase-update:replacedContracts" minOccurs="0"/>
-        <element ref="businessCase-update:isActive" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
+</complexType>
 
   <element name="performanceMetrics">
     <complexType>
@@ -466,6 +341,10 @@
         <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
         <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
         <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+        <element ref="businessCase-update:fundedBy" minOccurs="0"/>
+        <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
+        <element ref="businessCase-update:commercialSolutionsExplanation" minOccurs="0"/>
+        <element ref="businessCase-update:commercialSolutionsJustification" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -486,7 +365,6 @@
       <sequence>
         <element ref="businessCase-update:activityId" minOccurs="0"/>
         <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
-        <element ref="businessCase-update:criticalPath" minOccurs="0"/>
         <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
@@ -565,6 +443,10 @@
       <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
       <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
       <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+      <element ref="businessCase-update:fundedBy" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsExplanation" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsJustification" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -588,8 +470,6 @@
       <element ref="businessCase-update:activityName"/>
       <element ref="businessCase-update:activityDescription" minOccurs="0"/>
       <element ref="businessCase-update:structureId"/>
-      <element ref="businessCase-update:activityType" minOccurs="0"/>
-      <element ref="businessCase-update:criticalPath" minOccurs="0"/>
       <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
@@ -647,6 +527,10 @@
       <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
       <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
       <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
+      <element ref="businessCase-update:fundedBy" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsExplanation" minOccurs="0"/>
+      <element ref="businessCase-update:commercialSolutionsJustification" minOccurs="0"/>
       <element ref="businessCase-update:isActive" minOccurs="0"/>
     </sequence>
   </complexType>
@@ -667,8 +551,6 @@
       <element ref="businessCase-update:activityName" minOccurs="0"/>
       <element ref="businessCase-update:activityDescription" minOccurs="0"/>
       <element ref="businessCase-update:structureId" minOccurs="0"/>
-      <element ref="businessCase-update:activityType" minOccurs="0"/>
-      <element ref="businessCase-update:criticalPath" minOccurs="0"/>
       <element ref="businessCase-update:plannedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
       <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
@@ -1011,6 +893,10 @@
   <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType"/>
   <element name="releaseEverySixMoComment" type="businessCase-type:string1000"/>
   <element name="productionDeploymentDate" type="businessCase-type:investmentDateType"/>
+  <element name="fundedBy" type="businessCase-facet:fundedByType"/>
+  <element name="commercialSolutionsCosts" type="businessCase-type:string25"/>
+  <element name="commercialSolutionsExplanation" type="businessCase-type:string1000"/>
+  <element name="commercialSolutionsJustification" type="businessCase-type:string1000"/>
 
   <!-- activity elements -->
   <element name="activityId" type="integer"/>
@@ -1018,8 +904,6 @@
   <element name="activityName" type="businessCase-type:shortTextString"/>
   <element name="activityDescription" type="businessCase-type:longTextString"/>
   <element name="structureId" type="string"/>
-  <element name="activityType" type="businessCase-facet:activityType"/>
-  <element name="criticalPath" type="businessCase-facet:yesNoString"/>
   <element name="plannedStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectedStartDate" type="businessCase-type:investmentDateType" nillable="true"/>
   <element name="actualStartDate" type="businessCase-type:investmentDateType" nillable="true"/>
@@ -1070,25 +954,6 @@
   <element name="binaryObject" abstract="true"/>
   <element substitutionGroup="businessCase-update:binaryObject" name="binaryBase64Object" type="businessCase-update:base64Binary"/>
   <element name="title" type="businessCase-type:shortTextString"/>
-
-  <!-- Planned Acquisition Elements -->
-  <element name="acquisitionId" type="integer"/>
-  <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" nillable="true"/>
-  <element name="plannedContractDescription" type="businessCase-type:string1000"/>
-  <element name="plannedAwardDate" type="businessCase-type:contractDateType"/>
-  <element name="solicitationId" type="businessCase-type:string25"/>
-  <element name="lengthOfPlannedSupport" type="businessCase-type:string20"/>
-  <element name="anticipatedValue" type="businessCase-type:dollarAmount"/>
-  <element name="potentialSources" type="businessCase-type:mediumTextString"/>
-  <element name="providerEngagement" type="businessCase-type:string1000"/>
-  <element name="containsITLease" type="businessCase-facet:yesNoString"/>
-  <element name="replacedContracts" type="businessCase-update:replacedContractsType"/>
-
-  <!-- Replaced Contract Elements -->
-  <element name="addReplacedContract" type="businessCase-update:addReplacedContractType"/>
-  <element name="updateReplacedContract" type="businessCase-update:updateReplacedContractType"/>
-  <element name="replacedContractId" type="businessCase-type:shortTextString"/>
-  <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" nillable="true"/>
 
   <!-- Systems Inventory Elements -->
   <element name="systemId" type="integer"/>

@@ -7,6 +7,9 @@
                 <response-ITBudget-ext:InvestmentLineStructure>00</response-ITBudget-ext:InvestmentLineStructure>
                 <response-ITBudget-ext:SharedServicesCategory>00</response-ITBudget-ext:SharedServicesCategory>
                 <response-ITBudget-ext:SharedServicesIdentifier>1234</response-ITBudget-ext:SharedServicesIdentifier>
+                <response-ITBudget-ext:MissionSupportInvestmentCategories>
+                    <response-ITBudget-ext:MissionSupportInvestmentCategory>02</response-ITBudget-ext:MissionSupportInvestmentCategory>
+                </response-ITBudget-ext:MissionSupportInvestmentCategories>
             </response-ITBudget-ext:UniqueInvestmentID>
             <response-ITBudget-ext:InvestmentCharacterization>
                 <response-ITBudget-ext:InvestmentTitle>a</response-ITBudget-ext:InvestmentTitle>
@@ -168,6 +171,12 @@
                     <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
                     <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
                 </response-ITBudget-ext:ITTower>
+                <response-ITBudget-ext:ITTower>
+                    <response-ITBudget-ext:ITTowerCategory>Total Platform Cost</response-ITBudget-ext:ITTowerCategory>
+                    <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
+                    <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
+                    <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
+                </response-ITBudget-ext:ITTower>
             </response-ITBudget-ext:ITTowers>
             <response-ITBudget-ext:FunctionalBusinessSponsorInformation>
                 <response-ITBudget-ext:FunctionalBusinessSponsorName>Test</response-ITBudget-ext:FunctionalBusinessSponsorName>
@@ -221,29 +230,7 @@
                 </response-ITBudget-ext:FundingSourceLineItem>
             </response-ITBudget-ext:FundingSourceLineItems>
         </response-ITBudget-ext:ITPortfolio>
-        <response-ITBudget-ext:DataCenterSpendingSummary>
-            <response-ITBudget-ext:DataCenterLabor>
-                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
-            </response-ITBudget-ext:DataCenterLabor>
-            <response-ITBudget-ext:DataCenterSoftware>
-                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
-            </response-ITBudget-ext:DataCenterSoftware>
-            <response-ITBudget-ext:DataCenterHardware>
-                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
-            </response-ITBudget-ext:DataCenterHardware>
-            <response-ITBudget-ext:DataCenterElectricity>
-                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
-            </response-ITBudget-ext:DataCenterElectricity>
-            <response-ITBudget-ext:DataCenterFacility>
-                <response-ITBudget-ext:PriorYearAmount>0</response-ITBudget-ext:PriorYearAmount>
-                <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
-            </response-ITBudget-ext:DataCenterFacility>
-        </response-ITBudget-ext:DataCenterSpendingSummary>
-        <response-ITBudget-ext:BudgetAccountSummary>
+       <response-ITBudget-ext:BudgetAccountSummary>
             <response-ITBudget-ext:BudgetAccount>
                 <response-ITBudget-ext:FundingCode>a</response-ITBudget-ext:FundingCode>
                 <response-ITBudget-ext:CIOAuthorityAmount>0</response-ITBudget-ext:CIOAuthorityAmount>

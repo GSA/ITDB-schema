@@ -1,88 +1,112 @@
 <towers>
-  <tower>
-    <operation>add</operation>
-    <towerDetails>
-      <UII>018-999990221</UII>
-      <description>n101</description>
-      <POC>John Doe</POC>
-      <POCEMail>john.doe@agency.gov</POCEMail>
-      <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
-    </towerDetails>
-    <investmentCostDetails>
-      <investmentCostDetail>
-        <category>2</category>
-        <PY>100</PY>
-        <CY>10</CY>
-        <BY>120</BY>
-      </investmentCostDetail>
-      <investmentCostDetail>
-        <category>5</category>
-        <PY>100</PY>
-        <CY>10</CY>
-        <BY>120</BY>
-      </investmentCostDetail>
-    </investmentCostDetails>
-    <contracts>
-      <contract>
+    <tower>
         <operation>add</operation>
-        <agencyContractID>Network-Contract-123</agencyContractID>
-        <status>existing</status>
-        <PIID>12345</PIID>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>12345</solicitationID>
-        <isIPv4Permitted>Yes</isIPv4Permitted>
-        <taskOrderCompletionDate>10/17/1991</taskOrderCompletionDate>
-      </contract>
-      <contract>
-        <operation>add</operation>
-        <agencyContractID>Network-Contract-234</agencyContractID>
-        <status>future</status>
-        <acquisitionStrategy>Add contract</acquisitionStrategy>
-        <solicitationID>54321</solicitationID>
-        <anticipatedAwardDate>MM/DD/YYYY</anticipatedAwardDate>
-        <isIPv6Supported>yes</isIPv6Supported>
-      </contract>
-    </contracts>
-    <projects>
-      <project>
-        <operation>add</operation>
-        <agencyProjectID>Network-Project-123</agencyProjectID>
-        <projectName>Network-Project-123</projectName>
-        <description>Add project</description>
-        <objective>World peace</objective>
-        <output>2</output>
-        <startDatePlanned>10/17/1991</startDatePlanned>
-        <startDateActual>10/17/1991</startDateActual>
-        <completionDatePlanned>10/17/1991</completionDatePlanned>
-        <completionDateActual>10/17/1991</completionDateActual>
-        <totalCostsPlanned>10</totalCostsPlanned>
-        <totalCostsActual>10</totalCostsActual>
-      </project>
-    </projects>
-    <metrics>
-      <metric>
-        <operation>add</operation>
-        <agencyMetricID>Network-Metric-123</agencyMetricID>
-        <description>Add metric</description>
-        <unitOfMeasure>1</unitOfMeasure>
-        <performanceMeasurementCategoryMapping>2</performanceMeasurementCategoryMapping>
-        <agencyBaselineCapability>1</agencyBaselineCapability>
-        <PYTarget>0.5</PYTarget>
-        <CYTarget>0.5</CYTarget>
-        <measurementCondition>over target</measurementCondition>
-        <reportingFrequency>monthly</reportingFrequency>
-        <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
-        <isMetricRetired>No</isMetricRetired>
-        <metricActuals>
-          <metricActual>
-            <operation>add</operation>
-            <agencyMetricActualID>Network-Mertic-123-Actual-123</agencyMetricActualID>
-            <actualResult>4.5</actualResult>
-            <dateOfActualResult>10/17/1991</dateOfActualResult>
-            <comment>Add actual</comment>
-          </metricActual>
-        </metricActuals>
-      </metric>
-    </metrics>
-  </tower>
+        <towerDetails>
+            <UII>018-999990221</UII>
+            <description>n101</description>
+            <POC>John Doe</POC>
+            <POCEMail>john.doe@agency.gov</POCEMail>
+            <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
+        </towerDetails>
+        <investmentCostDetails>
+            <investmentCostDetail>
+                <category>2</category>
+                <PY>100</PY>
+                <CY>10</CY>
+                <BY>120</BY>
+            </investmentCostDetail>
+            <investmentCostDetail>
+                <category>5</category>
+                <PY>100</PY>
+                <CY>10</CY>
+                <BY>120</BY>
+            </investmentCostDetail>
+        </investmentCostDetails>
+        <projects>
+            <project>
+                <operation>add</operation>
+                <agencyProjectID>N123</agencyProjectID>
+                <projectName>Network-Project-123</projectName>
+                <objective>Transition to ipv6</objective>
+                <projectStartDate>10/17/1991</projectStartDate>
+                <projectCompletionDate>10/17/1991</projectCompletionDate>
+                <lifeCycleCost>10</lifeCycleCost>
+                <SDLCMethodology>1</SDLCMethodology>
+                <releaseEverySixMo>No</releaseEverySixMo>
+                <releaseEverySixMoComment>We do not do that.</releaseEverySixMoComment>
+                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
+                <fundedBy>TMF</fundedBy>
+                <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
+                <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
+                <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+                <activities>
+                    <activity>
+                        <operation>add</operation>
+                        <isAgile>N</isAgile>
+                        <agencyActivityID>Activity-123</agencyActivityID>
+                        <activityName>Test Activity</activityName>
+                        <activityDescription>This is a description</activityDescription>
+                        <structureID>N123.1</structureID>
+                        <startDatePlanned></startDatePlanned>
+                        <startDateProjected></startDateProjected>
+                        <startDateActual></startDateActual>
+                        <completionDatePlanned></completionDatePlanned>
+                        <completionDateProjected></completionDateProjected>
+                        <completionDateActual></completionDateActual>
+                        <totalCostPlanned></totalCostPlanned>
+                        <totalCostProjected></totalCostProjected>
+                        <totalCostActual></totalCostActual>
+                    </activity>
+                    <activity>
+                        <operation>add</operation>
+                        <isAgile>Y</isAgile>
+                        <agencyActivityID>Activity-234</agencyActivityID>
+                        <releaseName>Test Agile activity.</releaseName>
+                        <releaseNumber>1</releaseNumber>
+                        <releaseDescription>Test agile description.</releaseDescription>
+                        <NPI>1</NPI>
+                        <NPE>1.2</NPE>
+                        <NCE>1.3</NCE>
+                        <NCI>1</NCI>
+                        <DTC>1.4</DTC>
+                        <DPC>1.5</DPC>
+                        <startDatePlanned></startDatePlanned>
+                        <startDateProjected></startDateProjected>
+                        <startDateActual></startDateActual>
+                        <completionDatePlanned></completionDatePlanned>
+                        <completionDateProjected></completionDateProjected>
+                        <completionDateActual></completionDateActual>
+                        <totalCostPlanned></totalCostPlanned>
+                        <totalCostProjected></totalCostProjected>
+                        <totalCostActual></totalCostActual>
+                    </activity>
+                </activities>
+            </project>
+        </projects>
+        <metrics>
+            <metric>
+                <operation>add</operation>
+                <agencyMetricID>Network-Metric-123</agencyMetricID>
+                <description>Add metric</description>
+                <unitOfMeasure>1</unitOfMeasure>
+                <performanceMeasurementCategoryMapping>2</performanceMeasurementCategoryMapping>
+                <agencyBaselineCapability>1</agencyBaselineCapability>
+                <PYTarget>0.5</PYTarget>
+                <CYTarget>0.5</CYTarget>
+                <measurementCondition>over target</measurementCondition>
+                <reportingFrequency>monthly</reportingFrequency>
+                <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
+                <isMetricRetired>No</isMetricRetired>
+                <metricActuals>
+                    <metricActual>
+                        <operation>add</operation>
+                        <agencyMetricActualID>Network-Mertic-123-Actual-123</agencyMetricActualID>
+                        <actualResult>4.5</actualResult>
+                        <dateOfActualResult>10/17/1991</dateOfActualResult>
+                        <comment>Add actual</comment>
+                    </metricActual>
+                </metricActuals>
+            </metric>
+        </metrics>
+    </tower>
 </towers>

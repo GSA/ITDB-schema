@@ -99,84 +99,7 @@
               <bC-upd:priorYearCostPercentageChangeCY>0</bC-upd:priorYearCostPercentageChangeCY>
             </bC-upd:lifeCycleCosts>
             <bC-upd:changesFromPreviousBudget>a</bC-upd:changesFromPreviousBudget>
-            <bC-upd:acquisitionStrategy>
-              <bC-upd:existingContracts>
-                <bC-upd:updateContract>
-                  <bC-upd:contractId>0</bC-upd:contractId>
-                  <bC-upd:agencyContractId>a</bC-upd:agencyContractId>
-                  <bC-upd:contractNumber>a</bC-upd:contractNumber>
-                  <bC-upd:referencedPIID>a</bC-upd:referencedPIID>
-                  <bC-upd:isModularApproach>no</bC-upd:isModularApproach>
-                  <bC-upd:agileDevelopment>yes</bC-upd:agileDevelopment>
-                  <bC-upd:contractPurpose>String</bC-upd:contractPurpose>
-                  <bC-upd:ITLeaseCategory>1</bC-upd:ITLeaseCategory>
-                  <bC-upd:informationSecurityClause>yes</bC-upd:informationSecurityClause>
-                  <bC-upd:isActive>active</bC-upd:isActive>
-                </bC-upd:updateContract>
-                <bC-upd:addContract>
-                  <bC-upd:agencyContractId>a</bC-upd:agencyContractId>
-                  <bC-upd:contractNumber>a</bC-upd:contractNumber>
-                  <bC-upd:referencedPIID>a</bC-upd:referencedPIID>
-                  <bC-upd:isModularApproach>no</bC-upd:isModularApproach>
-                  <bC-upd:agileDevelopment>yes</bC-upd:agileDevelopment>
-                  <bC-upd:contractPurpose>String</bC-upd:contractPurpose>
-                  <bC-upd:ITLeaseCategory>1</bC-upd:ITLeaseCategory>
-                  <bC-upd:informationSecurityClause>yes</bC-upd:informationSecurityClause>
-                </bC-upd:addContract>
-              </bC-upd:existingContracts>
-              <bC-upd:plannedAcquisitions>
-                <bC-upd:updateAcquisition>
-                  <bC-upd:acquisitionId>1</bC-upd:acquisitionId>
-                  <bC-upd:agencyAcquisitionId>aaaa</bC-upd:agencyAcquisitionId>
-                  <bC-upd:plannedContractDescription>a</bC-upd:plannedContractDescription>
-                  <bC-upd:plannedAwardDate>1970-01-01</bC-upd:plannedAwardDate>
-                  <bC-upd:solicitationId>a</bC-upd:solicitationId>
-                  <bC-upd:lengthOfPlannedSupport>a</bC-upd:lengthOfPlannedSupport>
-                  <bC-upd:anticipatedValue>1</bC-upd:anticipatedValue>
-                  <bC-upd:isModularApproach>yes</bC-upd:isModularApproach>
-                  <bC-upd:agileDevelopment>yes</bC-upd:agileDevelopment>
-                  <bC-upd:potentialSources>a</bC-upd:potentialSources>
-                  <bC-upd:providerEngagement>a</bC-upd:providerEngagement>
-                  <bC-upd:containsITLease>yes</bC-upd:containsITLease>
-                  <bC-upd:replacedContracts>
-                    <bC-upd:updateReplacedContract>
-                      <bC-upd:replacedContractId>1</bC-upd:replacedContractId>
-                      <bC-upd:agencyReplacedContractId>1</bC-upd:agencyReplacedContractId>
-                      <bC-upd:contractNumber>1</bC-upd:contractNumber>
-                      <bC-upd:referencedPIID>1</bC-upd:referencedPIID>
-                      <bC-upd:isActive>active</bC-upd:isActive>
-                    </bC-upd:updateReplacedContract>
-                    <bC-upd:addReplacedContract>
-                      <bC-upd:agencyReplacedContractId>1</bC-upd:agencyReplacedContractId>
-                      <bC-upd:contractNumber>1</bC-upd:contractNumber>
-                      <bC-upd:referencedPIID>1</bC-upd:referencedPIID>
-                    </bC-upd:addReplacedContract>
-                  </bC-upd:replacedContracts>
-                  <bC-upd:isActive>active</bC-upd:isActive>
-                </bC-upd:updateAcquisition>
-                <bC-upd:addAcquisition>
-                  <bC-upd:agencyAcquisitionId>aaa</bC-upd:agencyAcquisitionId>
-                  <bC-upd:plannedContractDescription>a</bC-upd:plannedContractDescription>
-                  <bC-upd:plannedAwardDate>1970-01-01</bC-upd:plannedAwardDate>
-                  <bC-upd:solicitationId>a</bC-upd:solicitationId>
-                  <bC-upd:lengthOfPlannedSupport>a</bC-upd:lengthOfPlannedSupport>
-                  <bC-upd:anticipatedValue>1</bC-upd:anticipatedValue>
-                  <bC-upd:isModularApproach>yes</bC-upd:isModularApproach>
-                  <bC-upd:agileDevelopment>yes</bC-upd:agileDevelopment>
-                   <bC-upd:potentialSources>a</bC-upd:potentialSources>
-                  <bC-upd:providerEngagement>a</bC-upd:providerEngagement>
-                  <bC-upd:containsITLease>no</bC-upd:containsITLease>
-                  <bC-upd:replacedContracts>
-                    <bC-upd:addReplacedContract>
-                      <bC-upd:agencyReplacedContractId>1</bC-upd:agencyReplacedContractId>
-                      <bC-upd:contractNumber>1</bC-upd:contractNumber>
-                      <bC-upd:referencedPIID>1</bC-upd:referencedPIID>
-                    </bC-upd:addReplacedContract>
-                  </bC-upd:replacedContracts>
-                </bC-upd:addAcquisition>
-              </bC-upd:plannedAcquisitions>
-            </bC-upd:acquisitionStrategy>
-            <bC-upd:cioRating>
+           <bC-upd:cioRating>
               <bC-upd:cioRatingEval>1</bC-upd:cioRatingEval>
               <bC-upd:cioComment>a</bC-upd:cioComment>
             </bC-upd:cioRating>
@@ -217,6 +140,10 @@
                     <bC-upd:releaseEverySixMo>yes</bC-upd:releaseEverySixMo>
                     <bC-upd:releaseEverySixMoComment>a</bC-upd:releaseEverySixMoComment>
                     <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
+                    <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
+                    <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
+                    <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
+                    <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
                   </bC-upd:addProjectDetail>
                   <bC-upd:addProjectActivities>
                     <bC-upd:addProjectActivity>
@@ -224,8 +151,6 @@
                       <bC-upd:activityName>a</bC-upd:activityName>
                       <bC-upd:activityDescription>a</bC-upd:activityDescription>
                       <bC-upd:structureId>String</bC-upd:structureId>
-                      <bC-upd:activityType>9</bC-upd:activityType>
-                      <bC-upd:criticalPath>yes</bC-upd:criticalPath>
                       <bC-upd:plannedStartDate>1970-01-01</bC-upd:plannedStartDate>
                       <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                       <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>
@@ -272,7 +197,6 @@
                     <bC-upd:updateProjectActivity>
                       <bC-upd:activityId>0</bC-upd:activityId>
                       <bC-upd:agencyActivityId>a</bC-upd:agencyActivityId>
-                      <bC-upd:criticalPath>yes</bC-upd:criticalPath>
                       <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                       <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>
                       <bC-upd:projectedCompletionDate>1970-01-01</bC-upd:projectedCompletionDate>
@@ -285,8 +209,6 @@
                       <bC-upd:activityName>a</bC-upd:activityName>
                       <bC-upd:activityDescription>a</bC-upd:activityDescription>
                       <bC-upd:structureId>String</bC-upd:structureId>
-                      <bC-upd:activityType>9</bC-upd:activityType>
-                      <bC-upd:criticalPath>yes</bC-upd:criticalPath>
                       <bC-upd:plannedStartDate>1970-01-01</bC-upd:plannedStartDate>
                       <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                       <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>
@@ -358,6 +280,10 @@
                   <bC-upd:releaseEverySixMo>no</bC-upd:releaseEverySixMo>
                   <bC-upd:releaseEverySixMoComment>a</bC-upd:releaseEverySixMoComment>
                   <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
+                  <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
+                  <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
+                  <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
+                  <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
                 </bC-upd:reviseAddProjectDetail>
                 <bC-upd:reviseAddProjectActivities>
                   <bC-upd:reviseAddProjectActivity>
@@ -365,8 +291,6 @@
                     <bC-upd:activityName>a</bC-upd:activityName>
                     <bC-upd:activityDescription>a</bC-upd:activityDescription>
                     <bC-upd:structureId>String</bC-upd:structureId>
-                    <bC-upd:activityType>11</bC-upd:activityType>
-                    <bC-upd:criticalPath>yes</bC-upd:criticalPath>
                     <bC-upd:plannedStartDate>1970-01-01</bC-upd:plannedStartDate>
                     <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                     <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>
@@ -414,6 +338,10 @@
                   <bC-upd:releaseEverySixMo>no</bC-upd:releaseEverySixMo>
                   <bC-upd:releaseEverySixMoComment>a</bC-upd:releaseEverySixMoComment>
                   <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
+                  <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
+                  <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
+                  <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
+                  <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
                   <bC-upd:isActive>active</bC-upd:isActive>
                 </bC-upd:reviseUpdateProjectDetail>
                 <bC-upd:reviseUpdateProjectActivities>
@@ -423,7 +351,6 @@
                     <bC-upd:activityName>a</bC-upd:activityName>
                     <bC-upd:activityDescription>a</bC-upd:activityDescription>
                     <bC-upd:structureId>String</bC-upd:structureId>
-                    <bC-upd:activityType>11</bC-upd:activityType>
                     <bC-upd:plannedStartDate>1970-01-01</bC-upd:plannedStartDate>
                     <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                     <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>
@@ -440,7 +367,6 @@
                     <bC-upd:activityName>a</bC-upd:activityName>
                     <bC-upd:activityDescription>a</bC-upd:activityDescription>
                     <bC-upd:structureId>String</bC-upd:structureId>
-                    <bC-upd:activityType>11</bC-upd:activityType>
                     <bC-upd:plannedStartDate>1970-01-01</bC-upd:plannedStartDate>
                     <bC-upd:projectedStartDate>1970-01-01</bC-upd:projectedStartDate>
                     <bC-upd:actualStartDate>1970-01-01</bC-upd:actualStartDate>

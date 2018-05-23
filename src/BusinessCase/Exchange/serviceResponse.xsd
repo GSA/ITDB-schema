@@ -46,22 +46,13 @@
     <sequence>
       <element name="getInvestmentResult" type="sr:getInvestmentResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getCIORatingResult" type="sr:getCIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="getContractsResult" type="sr:getContractsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getSystemsInventoryResult" type="sr:getSystemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="getAcquisitionsResult" type="sr:getAcquisitionsResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="getreplacedContractsResult" type="sr:getReplacedContractsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getPerformanceMetricsResult" type="sr:getPerformanceMetricsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getInvestmentRisksResult" type="sr:getInvestmentRisksResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getProjectsResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getProjectsInProgressResult" type="sr:getProjectsResultType" minOccurs="0"/>
       <element name="updateSystemResult" type="sr:systemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addSystemResult" type="sr:systemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="updateContractResult" type="sr:contractResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="addContractResult" type="sr:contractResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="updateAcquisitionResult" type="sr:acquisitionResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="addAcquisitionResult" type="sr:acquisitionResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="updateReplacedContractResult" type="sr:replacedContractResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="addReplacedContractResult" type="sr:replacedContractResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addPerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updatePerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
@@ -114,33 +105,6 @@
     <attribute name="id" type="string" use="required"/>
   </complexType>
 
-  <complexType name="getContractsResultType">
-    <sequence>
-      <element name="contract" type="sr:contractType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="getAcquisitionsResultType">
-    <sequence>
-      <element name="acquisition" type="sr:acquisitionType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="getReplacedContractsResultType">
-    <sequence>
-      <element name="acquisition" type="sr:replacedContractType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
   <complexType name="getPerformanceMetricsResultType">
     <sequence>
       <element name="performanceMetric" type="sr:performanceMetricType" maxOccurs="unbounded" minOccurs="0"/>
@@ -153,33 +117,6 @@
   <complexType name="getProjectsResultType">
     <sequence>
       <element name="project" type="sr:projectType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="contractResultType">
-    <sequence>
-      <element name="contract" type="sr:contractType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="acquisitionResultType">
-    <sequence>
-      <element name="acquisition" type="sr:acquisitionType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="replacedContractResultType">
-    <sequence>
-      <element name="replacedContract" type="sr:replacedContractType" minOccurs="0"/>
       <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
       <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
     </sequence>
@@ -254,8 +191,6 @@
   <complexType name="resultType">
     <sequence>
       <element name="CIORating" type="sr:CIORatingType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="contract" type="sr:contractType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="acquisition" type="sr:acquisitionType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="performanceMetric" type="sr:performanceMetricType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="investmentRisk" type="sr:investmentRiskType" maxOccurs="unbounded" minOccurs="0"/>
@@ -347,6 +282,10 @@
       <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
       <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
+      <element name="fundedBy" type="businessCase-facet:fundedByType" minOccurs="0"/>
+      <element name="commercialSolutionsCosts" type="businessCase-type:string25" minOccurs="0"/>
+      <element name="commercialSolutionsExplanation" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsJustification" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
   </complexType>
@@ -366,8 +305,6 @@
       <element name="activityName" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="activityDescription" type="businessCase-type:longTextString" minOccurs="0"/>
       <element name="structureId" type="string" minOccurs="0"/>
-      <element name="activityType" type="businessCase-facet:activityType" minOccurs="0"/>
-      <element name="criticalPath" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="plannedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
@@ -441,68 +378,6 @@
       <element name="analysisConclusion" type="businessCase-facet:analysisConclusionType" minOccurs="0" />    
     </sequence>
   </complexType>
-
-  <complexType name="contractType">
-    <sequence>
-      <element name="contractId" type="integer"/>
-      <element name="agencyContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="contractNumber" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
-      <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="contractPurpose" type="businessCase-type:mediumTextString" minOccurs="0"/>
-      <element name="ITLeaseCategory" type="businessCase-facet:ITLeaseCategoryType" minOccurs="0"/>
-      <element name="informationSecurityClause" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-    </sequence>
-  </complexType>
-
-  <complexType name="acquisitionType">
-    <sequence>
-      <element name="acquisitionId" type="integer"/>
-      <element name="agencyAcquisitionId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="plannedContractDescription" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="plannedAwardDate" type="businessCase-type:contractDateType" minOccurs="0"/>
-      <element name="solicitationId" type="businessCase-type:string25" minOccurs="0"/>
-      <element name="lengthOfPlannedSupport" type="businessCase-type:string20" minOccurs="0"/>
-      <element name="anticipatedValue" type="businessCase-type:dollarAmount" minOccurs="0"/>
-      <element name="isModularApproach" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="agileDevelopment" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="potentialSources" type="businessCase-type:mediumTextString" minOccurs="0"/>
-      <element name="providerEngagement" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="containsITLease" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="replacedContracts" type="sr:replacedContractsResultType" minOccurs="0"/>
-      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-    </sequence>
-  </complexType>
-
-  <complexType name="replacedContractType">
-    <sequence>
-      <element name="replacedContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="contractNumber" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
-      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-    <complexType name="replacedContractsResultType">
-        <sequence>
-            <element name="replacedContractRow" type="sr:replacedContractsRow" minOccurs="0" maxOccurs="unbounded"/>
-        </sequence>
-    </complexType>
-
-    <complexType name="replacedContractsRow">
-        <sequence>
-            <element name="replacedContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
-            <element name="agencyReplacedContractId" type="businessCase-type:shortTextString" minOccurs="0"/>
-            <element name="contractNumber" type="businessCase-type:shortTextString" minOccurs="0"/>
-            <element name="referencedPIID" type="businessCase-type:referencedPIIDType" minOccurs="0"/>
-            <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-        </sequence>
-    </complexType>
-
   <complexType name="investmentDetailsResultType">
     <sequence>
       <element name="uniqueInvestmentIdentifier" type="businessCase-type:investmentIdentifierType"/>
