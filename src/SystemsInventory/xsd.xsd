@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:include schemaLocation="types.xsd"/>
+    <xs:element name='systems'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='system' maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='operation' type='operation'/>
+                            <xs:element name='details' minOccurs='1'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='UII'/>
+                                        <xs:element name='agencySystemsInventoryID'/>
+                                        <xs:element name='systemName'/>
+                                        <xs:element name='averageUsersPerMonth'/>
+                                        <xs:element name='initialOperatingYear'/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='products' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='product'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='operation' type='operation'/>
+                                                    <xs:element name='productID'/>
+                                                    <xs:element name='productAgencyID'/>
+                                                    <xs:element name='productName'/>
+                                                    <xs:element name='vendorName'/>
+                                                    <xs:element name='versionNumber'/>
+                                                    <xs:element name='lastMajorTechRefresh'/>
+                                                    <xs:element name='anticipatedTechRefresh'/>
+                                                    <xs:element name='endOfContractedSupport'/>
+                                                    <xs:element name='productExpectEndOfLife'/>
+                                                    <xs:element name='productFunctions' minOccurs='0'>
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='productFunction'/>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:choice>
+                                            </xs:complexType>			
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>       
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="validateOnlyIndicator" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
