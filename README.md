@@ -29,13 +29,12 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |:-------------|:-------------:|:-------------:|:-------------:|
 | Bi-Monthly Meeting | April 19, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | White Board Session - SIR | April 26, 2018 | 1:30PM to 3:30PM | GSA Room 6213 |
-| Tech Meet and Greet | TBD | TBD | TBD |
 | Bi-Monthly Meeting | May 3, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | White Board Session - Certification Process | May 10, 2018 | 1:30PM to 3:30PM | GSA Room 5007 |
 | Bi-Monthly Meeting | May 17, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| White Board Session - Systems Inventory Report | May 24, 2018 | TBD | TBD |
 | Bi-Monthly Meeting | May 31, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| White Board Session - Pre Submission | June 7, 2018 | TBD | TBD |
+| Tech Meet and Greet | TBD | TBD | TBD |
+| White Board Session - Systems Inventory Report/Contracts Report | TBD | TBD | TBD |
 
 ## Important Dates 
 
@@ -95,9 +94,12 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.04B                   |  April 23, 2018    |<ul><li>Fix CIO Rating Evaluations Response Not Showing Warnings</li><li>Include Public URLs on Investment Pages</li><li>Fix Agile Activities Missing from Business Case PDFs Bug</li><li>Insert Contracts on Individual Investment Pages</li><li>**No Schema Changes**</li></ul>|&#x2714;|
 |  Sprint 2018.04B Hotfix 1                  |  April 25, 2018    | <ul><li>Drupal SA-CORE-2018-004</li><li>**No Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.05A                    |  May 7, 2018    | <ul><li>Add DCOI Cost Savings Chart</li><li>Insert Contracts on Individual Investment Pages</li><li>Add Error Code Prefixes to Validation Documentation</li><li>Finalize CPIC Vendor GH Page</li><li>Create FY20 Development Branching</li><li>FY20 CPIC Guidance Change Preparations</li><li>**No Schema Changes**</li></ul>| &#x2714; |
-|  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes</li></ul> | &#x2714; |
-|  Sprint 2018.06A                    |  June 4, 2018    | | |
-|  Sprint 2018.06B                    |  June 18, 2018    | | |
+|  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
+|  Sprint 2018.06A                    |  June 4, 2018    | <ul><li>FY20 Prep: Create Delivery SIR </li><li>FY20: Update Project Plan and Execution Data Table in Projects</li><li>FY20 Prep: Add Platform as a Tower in AITPS</li><li>FY20 Prep: Update Network Investment Types</li><li>FY20 Prep: Update Mission Support Investment Categories</li><li>FY20 Prep: Create Contracts Report</li><li>FY20 Prep: Update Activity Table in Business Case</li><li>FY20 Prep: Update End User SIR</li><li>**No FY19 Schema Changes**</li></ul>| |
+|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | |
+|  Sprint 2018.07A                    |  July 2, 2018    | | |
+|  Sprint 2018.07B                    |  July 16, 2018    | | |
+|  Sprint 2018.07C                    |  July 30, 2018    | | |
 
 ## Quick Links to Files
 
