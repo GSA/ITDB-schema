@@ -15,6 +15,7 @@ export class CodeComponent implements OnInit {
   ) {}
 
   async getSchemas() {
+
     const schemaCatsObject: any = await this._githubService.getSchemaCats().toPromise();
     if (schemaCatsObject) {
       for (const schemaCat of schemaCatsObject) {

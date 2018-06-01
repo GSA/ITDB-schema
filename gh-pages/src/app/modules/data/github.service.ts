@@ -28,7 +28,8 @@ export class GithubService {
 
   getExamples(schemaCat) {
     const token = this.getToken();
-    const exampleFormat = (schemaCat === 'InvestmentReport') ? '/examples' : '/Examples';
+    const exampleFormat = (['InvestmentReport','ContractsReport','SystemsInventory'].includes(schemaCat)) ? '/examples' : '/Examples';
+    
     return this._http.get(this.githubRoot + this.githubContents + schemaCat + exampleFormat, {
       headers: new HttpHeaders({'Authorization': 'token ' + token})
     });
