@@ -33,8 +33,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | White Board Session - Certification Process | May 10, 2018 | 1:30PM to 3:30PM | GSA Room 5007 |
 | Bi-Monthly Meeting | May 17, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | Bi-Monthly Meeting | May 31, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Tech Meet and Greet | TBD | TBD | TBD |
-| White Board Session - Systems Inventory Report/Contracts Report | TBD | TBD | TBD |
+| White Board Session - Systems Inventory Report/Contracts Report | June 7, 2018 | 1:30PM to 3:30PM | GSA Room 1420 |
+| Tech Meet and Greet | June 21, 2018 | 1:00PM to 3:00PM | GSA Room 2143 |
+
 
 ## Important Dates 
 
@@ -45,8 +46,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Guidance Released |  May 11, 2018  |
 |  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
 |  Validation logic development | May/June 2018 (Tentative) |
-| [2020 UAT Server Available] | May 28, 2018 (Tentative) |
-|  Target Date for [XSD Candidate] (v2.0.0) shared to vendors    |  May 28, 2018 (Tentative) |
+| [2020 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
+|  Target Date for [XSD Candidate] (v2.0.0) shared to vendors    |  June 4, 2018 |
 |  Final Guidance  and [A-11]  |  Late June 2018 (Tentative) |
 |  Target Date for Validation & Enrumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 (Tentative) |
 |  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018 (Tentative) |
@@ -82,22 +83,14 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  Sprint 2017.12B                    |  December 19, 2017 | <ul> <li> Resolved GitHub Issue #182 </li> <li> Removed Baselined Fields in Regular Updates - **Schema Change** </li> </ul> | &#x2714; |
-|  Sprint 2018.01A                    |  January 2, 2018   | <ul> <li> Resolved GitHub Issue #207 </li> <li> Added Validations for IT Towers </li> <li> Added Shared Services Identifier "0099" </li> <li> **No Schema Changes** </li> </ul>  | &#x2714; |
-|  Sprint 2018.01B                    |  January 15, 2018  | <ul> <li> Resolved GitHub Issue #222 </li> <li> Resolved GitHub Issue #218 </li> <li> Resolved Error Message Reference to Performance Metrics vs. Contracts </li> <li> Resolved Duplicated Cost Pool Data Response </li> <li> **No Schema Changes** </li></ul>| &#x2714; |
- |  Sprint 2018.01C                    |  January 29, 2018  | <ul> <li> Resolved GitHub Issue #212 </li> <li> Enabled Investment Summary Pages </li> <li> Enabled Business Case PDF Links </li> <li> Updates to ITDB Chart Visualizations </li> <li> **No Schema Changes** </li> </ul> | &#x2714; |
-|  Sprint 2018.02A                    |  February 12, 2018 | <ul> <li> Updated verbiage on CIO Evaluation Report validation</li> <li> Display Type 5 and 6 Investments to Public (Individual Investments table, IT Portfolio, and IT Portfolio Funding Sources Feed) </li> <li> Modified SIR Data Feed Names </li> <li> **No Schema Changes** </li></ul> | &#x2714; |
-|  Sprint 2018.02B                    |  February 26, 2018 | <ul><li>Resolved GitHub Issue #224</li><li>Resolved GitHub Issue #232</li><li>Updated CIO Evaluation Warning to Display Correct Number of Investments w/o Rating</li><li>Updated Add Investment Validation Check on UII</li><li>Made Validation of Funding Code in IT Budget More Consistent</li><li>**No Schema Changes**</li></ul>| &#x2714; |
-|  Sprint 2018.03A                    |  March 12, 2018    | <ul> <li> Resolved GitHub Issue #220 </li> <li> Fixed validControlNumber Error when Submission has No OMB Control Number Elements </li> <li> Stripped "-ext" from Submission Requests During Upload </li><li> **No Schema Changes** </li> </ul> | &#x2714; |
-|  Sprint 2018.03B                    |  March 26, 2018    |<ul><li>Add FY17 E-Gov Act Reports</li><li>Add Search Feature to Individual Investments Table</li><li>Add SDLC Methodology Highlights Table</li><li>Fix Bug in ITBudget Post Procedure</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.04A                    |  April 9, 2018    |<ul><li>Propose Error Code Prefixes</li><li>Removal of Eliminated Investments from Counts in Investments Highlights Table</li><li>Fix Chrome Data Feed Bug</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.04B                   |  April 23, 2018    |<ul><li>Fix CIO Rating Evaluations Response Not Showing Warnings</li><li>Include Public URLs on Investment Pages</li><li>Fix Agile Activities Missing from Business Case PDFs Bug</li><li>Insert Contracts on Individual Investment Pages</li><li>**No Schema Changes**</li></ul>|&#x2714;|
 |  Sprint 2018.04B Hotfix 1                  |  April 25, 2018    | <ul><li>Drupal SA-CORE-2018-004</li><li>**No Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.05A                    |  May 7, 2018    | <ul><li>Add DCOI Cost Savings Chart</li><li>Insert Contracts on Individual Investment Pages</li><li>Add Error Code Prefixes to Validation Documentation</li><li>Finalize CPIC Vendor GH Page</li><li>Create FY20 Development Branching</li><li>FY20 CPIC Guidance Change Preparations</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.06A                    |  June 4, 2018    | <ul><li>FY20 Prep: Create Delivery SIR </li><li>FY20: Update Project Plan and Execution Data Table in Projects</li><li>FY20 Prep: Add Platform as a Tower in AITPS</li><li>FY20 Prep: Update Network Investment Types</li><li>FY20 Prep: Update Mission Support Investment Categories</li><li>FY20 Prep: Create Contracts Report</li><li>FY20 Prep: Update Activity Table in Business Case</li><li>FY20 Prep: Update End User SIR</li><li>**No FY19 Schema Changes**</li></ul>| |
-|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | |
-|  Sprint 2018.07A                    |  July 2, 2018    | | |
+|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714;|
+|  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | |
 |  Sprint 2018.07B                    |  July 16, 2018    | | |
 |  Sprint 2018.07C                    |  July 30, 2018    | | |
 
