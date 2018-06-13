@@ -15,7 +15,6 @@
               <bC-upd:investmentDescription>a</bC-upd:investmentDescription>
               <bC-upd:returnOnInvestmentDescription>a</bC-upd:returnOnInvestmentDescription>
               <bC-upd:investmentRequirements>test.</bC-upd:investmentRequirements>
-              <bC-upd:programCodeFPI>000-000</bC-upd:programCodeFPI>
               <bC-upd:investmentsEliminatedorReduced>
                 <bC-upd:addInvestmentEliminatedorReduced>
                   <bC-upd:agencyInvestmentEliminatedorReducedID>a</bC-upd:agencyInvestmentEliminatedorReducedID>
@@ -31,6 +30,7 @@
                 </bC-upd:updateInvestmentEliminatedorReduced>
               </bC-upd:investmentsEliminatedorReduced>
               <bC-upd:investmentSharedService>no</bC-upd:investmentSharedService>
+              <bC-upd:plannedSharedService>no</bC-upd:plannedSharedService>
               <bC-upd:investmentPivEnabled>yes</bC-upd:investmentPivEnabled>
               <bC-upd:publicURLs>
                 <bC-upd:publicURL>http://agency.gov</bC-upd:publicURL>
@@ -49,50 +49,50 @@
 			  <bC-upd:planningBudgetaryResourcesPY>10000</bC-upd:planningBudgetaryResourcesPY>
 			  <bC-upd:planningBudgetaryResourcesCY>10000</bC-upd:planningBudgetaryResourcesCY>
 			  <bC-upd:planningBudgetaryResourcesBY>10000</bC-upd:planningBudgetaryResourcesBY>
-			  <bC-upd:planningBudgetaryResourcesBY_1>10000</bC-upd:planningBudgetaryResourcesBY_1>
-			  <bC-upd:planningBudgetaryResourcesBY_2>10000</bC-upd:planningBudgetaryResourcesBY_2>
-			  <bC-upd:planningBudgetaryResourcesBY_3>10000</bC-upd:planningBudgetaryResourcesBY_3>
-			  <bC-upd:planningBudgetaryResourcesBY_4_Beyond>0</bC-upd:planningBudgetaryResourcesBY_4_Beyond>
+			  <bC-upd:planningBudgetaryResourcesFY_1>10000</bC-upd:planningBudgetaryResourcesFY_1>
+			  <bC-upd:planningBudgetaryResourcesFY_2>10000</bC-upd:planningBudgetaryResourcesFY_2>
+			  <bC-upd:planningBudgetaryResourcesFY_3>10000</bC-upd:planningBudgetaryResourcesFY_3>
+			  <bC-upd:planningBudgetaryResourcesFY_4_Beyond>0</bC-upd:planningBudgetaryResourcesFY_4_Beyond>
 			  <bC-upd:dmeBudgetaryResourcesPY-1>0</bC-upd:dmeBudgetaryResourcesPY-1>
 			  <bC-upd:dmeBudgetaryResourcesPY>10000</bC-upd:dmeBudgetaryResourcesPY>
 			  <bC-upd:dmeBudgetaryResourcesCY>10000</bC-upd:dmeBudgetaryResourcesCY>
 			  <bC-upd:dmeBudgetaryResourcesBY>10000</bC-upd:dmeBudgetaryResourcesBY>
-			  <bC-upd:dmeBudgetaryResourcesBY_1>10000</bC-upd:dmeBudgetaryResourcesBY_1>
-			  <bC-upd:dmeBudgetaryResourcesBY_2>10000</bC-upd:dmeBudgetaryResourcesBY_2>
-			  <bC-upd:dmeBudgetaryResourcesBY_3>10000</bC-upd:dmeBudgetaryResourcesBY_3>
-			  <bC-upd:dmeBudgetaryResourcesBY_4_Beyond>0</bC-upd:dmeBudgetaryResourcesBY_4_Beyond>
+			  <bC-upd:dmeBudgetaryResourcesFY_1>10000</bC-upd:dmeBudgetaryResourcesFY_1>
+			  <bC-upd:dmeBudgetaryResourcesFY_2>10000</bC-upd:dmeBudgetaryResourcesFY_2>
+			  <bC-upd:dmeBudgetaryResourcesFY_3>10000</bC-upd:dmeBudgetaryResourcesFY_3>
+			  <bC-upd:dmeBudgetaryResourcesFY_4_Beyond>0</bC-upd:dmeBudgetaryResourcesFY_4_Beyond>
               <bC-upd:dmeGovernmentFTECostsPY-1>0</bC-upd:dmeGovernmentFTECostsPY-1>
               <bC-upd:dmeGovernmentFTECostsPY>10000</bC-upd:dmeGovernmentFTECostsPY>
               <bC-upd:dmeGovernmentFTECostsCY>10000</bC-upd:dmeGovernmentFTECostsCY>
               <bC-upd:dmeGovernmentFTECostsBY>10000</bC-upd:dmeGovernmentFTECostsBY>
-              <bC-upd:dmeGovernmentFTECostsBY_1>10000</bC-upd:dmeGovernmentFTECostsBY_1>
-              <bC-upd:dmeGovernmentFTECostsBY_2>10000</bC-upd:dmeGovernmentFTECostsBY_2>
-              <bC-upd:dmeGovernmentFTECostsBY_3>10000</bC-upd:dmeGovernmentFTECostsBY_3>
-              <bC-upd:dmeGovernmentFTECostsBY_4_Beyond>0</bC-upd:dmeGovernmentFTECostsBY_4_Beyond>
+              <bC-upd:dmeGovernmentFTECostsFY_1>10000</bC-upd:dmeGovernmentFTECostsFY_1>
+              <bC-upd:dmeGovernmentFTECostsFY_2>10000</bC-upd:dmeGovernmentFTECostsFY_2>
+              <bC-upd:dmeGovernmentFTECostsFY_3>10000</bC-upd:dmeGovernmentFTECostsFY_3>
+              <bC-upd:dmeGovernmentFTECostsFY_4_Beyond>0</bC-upd:dmeGovernmentFTECostsFY_4_Beyond>
               <bC-upd:maintenanceBudgetaryResourcesPY-1>0</bC-upd:maintenanceBudgetaryResourcesPY-1>
               <bC-upd:maintenanceBudgetaryResourcesPY>10000</bC-upd:maintenanceBudgetaryResourcesPY>
               <bC-upd:maintenanceBudgetaryResourcesCY>10000</bC-upd:maintenanceBudgetaryResourcesCY>
               <bC-upd:maintenanceBudgetaryResourcesBY>10000</bC-upd:maintenanceBudgetaryResourcesBY>
-              <bC-upd:maintenanceBudgetaryResourcesBY_1>10000</bC-upd:maintenanceBudgetaryResourcesBY_1>
-              <bC-upd:maintenanceBudgetaryResourcesBY_2>10000</bC-upd:maintenanceBudgetaryResourcesBY_2>
-              <bC-upd:maintenanceBudgetaryResourcesBY_3>10000</bC-upd:maintenanceBudgetaryResourcesBY_3>
-              <bC-upd:maintenanceBudgetaryResourcesBY_4_Beyond>0</bC-upd:maintenanceBudgetaryResourcesBY_4_Beyond>
+              <bC-upd:maintenanceBudgetaryResourcesFY_1>10000</bC-upd:maintenanceBudgetaryResourcesFY_1>
+              <bC-upd:maintenanceBudgetaryResourcesFY_2>10000</bC-upd:maintenanceBudgetaryResourcesFY_2>
+              <bC-upd:maintenanceBudgetaryResourcesFY_3>10000</bC-upd:maintenanceBudgetaryResourcesFY_3>
+              <bC-upd:maintenanceBudgetaryResourcesFY_4_Beyond>0</bC-upd:maintenanceBudgetaryResourcesFY_4_Beyond>
               <bC-upd:omdGovernmentFTECostsPY-1>0</bC-upd:omdGovernmentFTECostsPY-1>
               <bC-upd:omdGovernmentFTECostsPY>10000</bC-upd:omdGovernmentFTECostsPY>
               <bC-upd:omdGovernmentFTECostsCY>10000</bC-upd:omdGovernmentFTECostsCY>
               <bC-upd:omdGovernmentFTECostsBY>10000</bC-upd:omdGovernmentFTECostsBY>
-              <bC-upd:omdGovernmentFTECostsBY_1>10000</bC-upd:omdGovernmentFTECostsBY_1>
-              <bC-upd:omdGovernmentFTECostsBY_2>10000</bC-upd:omdGovernmentFTECostsBY_2>
-              <bC-upd:omdGovernmentFTECostsBY_3>10000</bC-upd:omdGovernmentFTECostsBY_3>
-              <bC-upd:omdGovernmentFTECostsBY_4_Beyond>0</bC-upd:omdGovernmentFTECostsBY_4_Beyond>
+              <bC-upd:omdGovernmentFTECostsFY_1>10000</bC-upd:omdGovernmentFTECostsFY_1>
+              <bC-upd:omdGovernmentFTECostsFY_2>10000</bC-upd:omdGovernmentFTECostsFY_2>
+              <bC-upd:omdGovernmentFTECostsFY_3>10000</bC-upd:omdGovernmentFTECostsFY_3>
+              <bC-upd:omdGovernmentFTECostsFY_4_Beyond>0</bC-upd:omdGovernmentFTECostsFY_4_Beyond>
               <bC-upd:governmentFTENumberPY-1>0</bC-upd:governmentFTENumberPY-1>
               <bC-upd:governmentFTENumberPY>0</bC-upd:governmentFTENumberPY>
               <bC-upd:governmentFTENumberCY>0</bC-upd:governmentFTENumberCY>
               <bC-upd:governmentFTENumberBY>0</bC-upd:governmentFTENumberBY>
-              <bC-upd:governmentFTENumberBY_1>0</bC-upd:governmentFTENumberBY_1>
-              <bC-upd:governmentFTENumberBY_2>0</bC-upd:governmentFTENumberBY_2>
-              <bC-upd:governmentFTENumberBY_3>0</bC-upd:governmentFTENumberBY_3>
-              <bC-upd:governmentFTENumberBY_4_Beyond>0</bC-upd:governmentFTENumberBY_4_Beyond>
+              <bC-upd:governmentFTENumberFY_1>0</bC-upd:governmentFTENumberFY_1>
+              <bC-upd:governmentFTENumberFY_2>0</bC-upd:governmentFTENumberFY_2>
+              <bC-upd:governmentFTENumberFY_3>0</bC-upd:governmentFTENumberFY_3>
+              <bC-upd:governmentFTENumberFY_4_Beyond>0</bC-upd:governmentFTENumberFY_4_Beyond>
               <bC-upd:priorYearCostChangePY>10000</bC-upd:priorYearCostChangePY>
               <bC-upd:priorYearCostChangeCY>10000</bC-upd:priorYearCostChangeCY>
               <bC-upd:priorYearCostPercentageChangePY>0</bC-upd:priorYearCostPercentageChangePY>
@@ -525,7 +525,7 @@
                 <bC-upd:investmentRiskId>0</bC-upd:investmentRiskId>
                 <bC-upd:agencyInvestmentRiskId>a</bC-upd:agencyInvestmentRiskId>
                 <bC-upd:investmentRiskName>a</bC-upd:investmentRiskName>
-                <bC-upd:investmentRiskCategory>09</bC-upd:investmentRiskCategory>
+                <bC-upd:investmentRiskArea>09</bC-upd:investmentRiskArea>
                 <bC-upd:investmentRiskProbability>High</bC-upd:investmentRiskProbability>
                 <bC-upd:investmentRiskImpact>Medium</bC-upd:investmentRiskImpact>
                 <bC-upd:investmentRiskMitigationPlan>a</bC-upd:investmentRiskMitigationPlan>
@@ -534,7 +534,7 @@
               <bC-upd:addInvestmentRisk>
                 <bC-upd:agencyInvestmentRiskId>a</bC-upd:agencyInvestmentRiskId>
                 <bC-upd:investmentRiskName>a</bC-upd:investmentRiskName>
-                <bC-upd:investmentRiskCategory>09</bC-upd:investmentRiskCategory>
+                <bC-upd:investmentRiskArea>09</bC-upd:investmentRiskArea>
                 <bC-upd:investmentRiskProbability>High</bC-upd:investmentRiskProbability>
                 <bC-upd:investmentRiskImpact>Medium</bC-upd:investmentRiskImpact>
                 <bC-upd:investmentRiskMitigationPlan>a</bC-upd:investmentRiskMitigationPlan>

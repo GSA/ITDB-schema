@@ -177,6 +177,18 @@
       </xsd:restriction>
     </xsd:simpleContent>
   </xsd:complexType>
+  <xsd:complexType name="Text500Type">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <i:Base i:namespace="http://niem.gov/niem/proxy/xsd/2.0" i:name="string"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:restriction base="niem-xsd:string">
+        <xsd:maxLength value="500"/>
+      </xsd:restriction>
+    </xsd:simpleContent>
+  </xsd:complexType>  
   <xsd:complexType name="Text1000Type">
       <xsd:annotation>
           <xsd:appinfo>

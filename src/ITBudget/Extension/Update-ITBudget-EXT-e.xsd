@@ -34,6 +34,7 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="update-ITBudget-ext:AgencyFundingAmount"/>
+                    <xsd:element ref="update-ITBudget-ext:BudgetAuthorityAgencyFundingAmount" minOccurs="0"/>
                     <xsd:element ref="update-ITBudget-ext:AgencyContributionAmount"/>
                 </xsd:sequence>
             </xsd:extension>
@@ -408,6 +409,11 @@
             <xsd:documentation>Both monetary contributions and fees for services provided by partner agencies to managing partners or shared service providers of multi-agency collaboration.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
+    <xsd:element name="BudgetAuthorityAgencyFundingAmount" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
     <xsd:element name="AgencyFundingAmount" type="nc:AmountType">
         <xsd:annotation>
             <xsd:documentation>Agency's authorized funding for a given investment.</xsd:documentation>
@@ -578,9 +584,9 @@
             <xsd:documentation>A complex element used to contain elements related to describing general attributes about an agency's investment.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
-    <xsd:element name="InvestmentDescription" type="nc:TextType">
+    <xsd:element name="InvestmentDescription" type="nc:Text500Type">
         <xsd:annotation>
-            <xsd:documentation>Short public description (limited to 255 characters) for each investment (major, migration, partner contribution, and non-major). The descriptions should explain the purpose of the investment and what program(s) it supports, including the value to the public. This description should be understandable to someone who is not an expert of the agency. If the investment is part of a multi-agency initiative or part of another business case, please provide description of where that business case is located in the appropriate agency Budget submission (i.e. managing partner UPI). For example, if the investment represents your agency's participation in one of the Presidential initiatives, the description should state that this investment represents your agency's participation in one of the Presidential initiatives and should refer to the UPI of the managing partner's business case (i.e. managing partner UPI).</xsd:documentation>
+            <xsd:documentation>Short public description (limited to 500 characters) for each investment (major, migration, partner contribution, and non-major). The descriptions should explain the purpose of the investment and what program(s) it supports, including the value to the public. This description should be understandable to someone who is not an expert of the agency. If the investment is part of a multi-agency initiative or part of another business case, please provide description of where that business case is located in the appropriate agency Budget submission (i.e. managing partner UPI). For example, if the investment represents your agency's participation in one of the Presidential initiatives, the description should state that this investment represents your agency's participation in one of the Presidential initiatives and should refer to the UPI of the managing partner's business case (i.e. managing partner UPI).</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <xsd:element name="InvestmentLineStructure" type="ITBudgetFacet:InvestmentLineStructureType">

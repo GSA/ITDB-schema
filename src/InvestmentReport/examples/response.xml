@@ -1,159 +1,107 @@
 ﻿<?xml version="1.0"?>
 <InvestmentReportResponse>
-  <towers>
-    <tower>
-      <operation>add</operation>
-      <towerDetails>
-        <UII>000-999990220</UII>
-        <ErrorsAndWarnings>
-          <errors>
-            <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
-          </errors>
-          <warnings>
-            <warning>POC is unexpected for report type 06 and will not be saved.</warning>
-          </warnings>
-        </ErrorsAndWarnings>
-        <investmentReportID>2</investmentReportID>
-        <POC/>
-        <POCEmail/>
-        <description/>
-        <anticipatedEISTransitionDate/>
-      </towerDetails>
-      <investmentCostDetails>
-        <investmentCostDetail>
-          <category>1</category>
-          <PY>100234234234234234234</PY>
-          <CY>1023423423424324243242</CY>
-          <BY>120</BY>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Field PY with value 100234234234234234234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-              <error>Field PY with value 100234234234234234234 is reported in millions and must be less than 10000.</error>
-              <error>Field CY with value 1023423423424324243242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-              <error>Field CY with value 1023423423424324243242 is reported in millions and must be less than 10000.</error>
-            </errors>
-          </ErrorsAndWarnings>
-        </investmentCostDetail>
-        <investmentCostDetail>
-          <category>1</category>
-          <PY>10werw234</PY>
-          <CY>10234we3242</CY>
-          <BY>120</BY>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Field PY with value 10werw234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-              <error>Field CY with value 10234we3242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-              <error>Field CY with value 10234we3242 is reported in millions and must be less than 10000.</error>
-            </errors>
-          </ErrorsAndWarnings>
-        </investmentCostDetail>
-      </investmentCostDetails>
-     <projects>
-        <project>
-          <operation>add</operation>
-          <agencyProjectID>EndUser-Project-123</agencyProjectID>
-          <projectName>EndUser-Project-123</projectName>
-          <description>Add project</description>
-          <startDatePlanned>1991-10-17</startDatePlanned>
-          <startDateActual>1992-01-02</startDateActual>
-          <completionDatePlanned>2021-10-01</completionDatePlanned>
-          <completionDateActual/>
-          <projectID>14621</projectID>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Add operation not allowed. A record already exists for project with agencyProjectID: EndUser-Project-123.</error>
-            </errors>
-          </ErrorsAndWarnings>
-          <objective/>
-          <output/>
-          <totalCostsPlanned/>
-          <totalCostsActual/>
-        </project>
-      </projects>
-      <metrics>
-        <metric>
-          <operation>add</operation>
-          <agencyMetricID>EndUser-Metric-123</agencyMetricID>
-          <description>Add metric</description>
-          <unitOfMeasure>inches</unitOfMeasure>
-          <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
-          <agencyBaselineCapability>2.153</agencyBaselineCapability>
-          <PYTarget>4.5</PYTarget>
-          <CYTarget>4.6</CYTarget>
-          <comment>
-            <comment/>
-            <comment/>
-          </comment>
-          <measurementCondition>Under Target</measurementCondition>
-          <reportingFrequency>Quarterly</reportingFrequency>
-          <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
-          <isMetricRetired>n</isMetricRetired>
-          <metricActuals>
-            <metricActual>
-              <operation>add</operation>
-              <agencyMetricActualID>EndUser-Metric-123-Actual-123</agencyMetricActualID>
-              <actualResult>2</actualResult>
-              <dateOfActualResult>2017-02-01</dateOfActualResult>
-              <comment>Add actual</comment>
-              <metricID>25719</metricID>
-              <metricActualID>177551</metricActualID>
-            </metricActual>
-          </metricActuals>
-          <metricID>25719</metricID>
-          <ErrorsAndWarnings>
-            <errors>
-              <error>Add operation not allowed. A record already exists for metric with agencyMetricID: EndUser-Metric-123.</error>
-            </errors>
-          </ErrorsAndWarnings>
-        </metric>
-      </metrics>
-    </tower>
-  </towers>
-  <response>
-    <tower>
-      <towerDetails>
-        <errors>
-          <error>An Investment Report with UII 000-999990220 already exists. You may not use an add operation for this UII.</error>
-        </errors>
-        <warnings>
-          <warning>POC is unexpected for report type 06 and will not be saved.</warning>
-        </warnings>
-      </towerDetails>
-      <investmentCostDetails>
-        <investmentCostDetail>
-          <errors>
-            <error>Field PY with value 100234234234234234234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-            <error>Field PY with value 100234234234234234234 is reported in millions and must be less than 10000.</error>
-            <error>Field CY with value 1023423423424324243242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-            <error>Field CY with value 1023423423424324243242 is reported in millions and must be less than 10000.</error>
-          </errors>
-        </investmentCostDetail>
-        <investmentCostDetail>
-          <errors>
-            <error>Field PY with value 10werw234 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-            <error>Field CY with value 10234we3242 is an invalid cost format: Only numeric values with decimals can be entered in decimal fields. Up to 12 digits before the decimal and up to 6 digits after the decimal. All entered digits must be between 0 and 9.</error>
-            <error>Field CY with value 10234we3242 is reported in millions and must be less than 10000.</error>
-          </errors>
-        </investmentCostDetail>
-        <investmentCostDetail/>
-      </investmentCostDetails>
-      <projects>
-        <project>
-          <errors>
-            <error>Add operation not allowed. A record already exists for project with agencyProjectID: EndUser-Project-123.</error>
-          </errors>
-        </project>
-        <project/>
-      </projects>
-      <metrics>
-        <metric>
-          <errors>
-            <error>Add operation not allowed. A record already exists for metric with agencyMetricID: EndUser-Metric-123.</error>
-          </errors>
-        </metric>
-        <metric/>
-      </metrics>
-      <status>Submission Failed</status>
-    </tower>
-  </response>
+    <towers>
+        <tower>
+            <operation>add</operation>
+            <towerDetails>
+                <UII>018-999990220</UII>
+            </towerDetails>
+            <investmentCostDetails>
+                <investmentCostDetail>
+                    <category>1</category>
+                    <PY>100.000000</PY>
+                    <CY>10.000000</CY>
+                    <BY>120.000000</BY>
+                </investmentCostDetail>
+                <investmentCostDetail/>
+            </investmentCostDetails>
+            <projects>
+                <project>
+                    <operation>add</operation>
+                    <agencyProjectID>E123</agencyProjectID>
+                    <projectName>Enduser-Project-123</projectName>
+                    <objective>Transition to ipv6</objective>
+                    <projectStartDate>1991-10-17</projectStartDate>
+                    <projectCompletionDate>1991-10-17</projectCompletionDate>
+                    <lifeCycleCost>10.000000</lifeCycleCost>
+                    <SDLCMethodology>1</SDLCMethodology>
+                    <releaseEverySixMo>No</releaseEverySixMo>
+                    <releaseEverySixMoComment>We do not do that.</releaseEverySixMoComment>
+                    <productionDeploymentDate>2013-12-01</productionDeploymentDate>
+                    <fundedBy>TMF</fundedBy>
+                    <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
+                    <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
+                    <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+                    <activities>
+                        <activity>
+                            <operation>add</operation>
+                            <isAgile>N</isAgile>
+                            <agencyActivityID>Activity-123</agencyActivityID>
+                            <activityName>Test Activity</activityName>
+                            <activityDescription>This is a description</activityDescription>
+                            <structureID>E123.1</structureID>
+                            <startDatePlanned/>
+                            <startDateProjected/>
+                            <startDateActual/>
+                            <completionDatePlanned/>
+                            <completionDateProjected/>
+                            <completionDateActual/>
+                            <totalCostPlanned/>
+                            <totalCostProjected/>
+                            <totalCostActual/>
+                            <projectID>15991</projectID>
+                            <activityID>110721</activityID>
+                        </activity>
+                        <activity>
+                            <operation>add</operation>
+                            <isAgile>Y</isAgile>
+                            <agencyActivityID>Activity-234</agencyActivityID>
+                            <releaseName>Test Agile activity.</releaseName>
+                            <releaseNumber>1</releaseNumber>
+                            <releaseDescription>Test agile description.</releaseDescription>
+                            <NPI>1</NPI>
+                            <NPE>1.2</NPE>
+                            <NCE>1.3</NCE>
+                            <NCI>1</NCI>
+                            <DTC>1.4</DTC>
+                            <DPC>1.5</DPC>
+                            <startDatePlanned/>
+                            <startDateProjected/>
+                            <startDateActual/>
+                            <completionDatePlanned/>
+                            <completionDateProjected/>
+                            <completionDateActual/>
+                            <totalCostPlanned/>
+                            <totalCostProjected/>
+                            <totalCostActual/>
+                            <projectID>15991</projectID>
+                            <activityID>110722</activityID>
+                        </activity>
+                        <activity/>
+                    </activities>
+                    <projectID>15991</projectID>
+                </project>
+                <project/>
+            </projects>
+            <status>Submission Successful</status>
+        </tower>
+    </towers>
+    <response>
+        <tower>
+            <towerDetails>
+                <UII>018-999990220</UII>
+            </towerDetails>
+            <investmentCostDetails>
+                <investmentCostDetail/>
+            </investmentCostDetails>
+            <projects>
+                <project/>
+            </projects>
+            <activities>
+                <activity/>
+            </activities>
+            <status>Submission Successful</status>
+        </tower>
+    </response>
 </InvestmentReportResponse>
+

@@ -37,6 +37,7 @@
                 </CurrentYear>
                 <BudgetYear>
                     <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                    <BudgetAuthorityAgencyFundingAmount>30.000000</BudgetAuthorityAgencyFundingAmount>
                     <AgencyContributionAmount>3.000000</AgencyContributionAmount>
                 </BudgetYear>
             </OandM>
@@ -51,6 +52,7 @@
                 </CurrentYear>
                 <BudgetYear>
                     <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                    <BudgetAuthorityAgencyFundingAmount>30.000000</BudgetAuthorityAgencyFundingAmount>
                     <AgencyContributionAmount>3.000000</AgencyContributionAmount>
                 </BudgetYear>
             </DME>
@@ -241,6 +243,7 @@
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </TotalAgencyFunding>
+                <TotalAgencyFundingBYBudgetAuthorityAmount>0</TotalAgencyFundingBYBudgetAuthorityAmount>
             </BudgetAccount>
         </BudgetAccountSummary>
         <MessageInformation>

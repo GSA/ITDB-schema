@@ -265,9 +265,11 @@
   </simpleType>
   <simpleType name="impactType">
     <restriction base="string">
+      <enumeration value="Very Low"/>
       <enumeration value="Low"/>
       <enumeration value="Medium"/>
       <enumeration value="High"/>
+      <enumeration value="Very High"/>
     </restriction>
   </simpleType>
   <simpleType name="contactTypes">

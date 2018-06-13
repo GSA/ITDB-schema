@@ -25,7 +25,6 @@
               </businessCase-response:objectivesOrGoals>
               <businessCase-response:returnOnInvestmentDescription>a</businessCase-response:returnOnInvestmentDescription>
               <businessCase-response:investmentRequirements>a</businessCase-response:investmentRequirements>
-              <businessCase-response:programCodeFPI>000-000</businessCase-response:programCodeFPI>
               <businessCase-response:investmentsEliminatedorReduced>
                 <businessCase-response:investmentEliminatedorReduced>
                   <businessCase-response:investmentEliminatedorReducedID>0</businessCase-response:investmentEliminatedorReducedID>
@@ -36,6 +35,7 @@
                 </businessCase-response:investmentEliminatedorReduced>
               </businessCase-response:investmentsEliminatedorReduced>
               <businessCase-response:investmentSharedService>yes</businessCase-response:investmentSharedService>
+              <businessCase-response:plannedSharedService>yes</businessCase-response:plannedSharedService>
               <businessCase-response:investmentPivEnabled>no</businessCase-response:investmentPivEnabled>
               <businessCase-response:publicURLs>
                 <businessCase-response:publicURL></businessCase-response:publicURL>
@@ -54,51 +54,51 @@
 			  <businessCase-response:planningBudgetaryResourcesPY>10000</businessCase-response:planningBudgetaryResourcesPY>
 			  <businessCase-response:planningBudgetaryResourcesCY>10000</businessCase-response:planningBudgetaryResourcesCY>
 			  <businessCase-response:planningBudgetaryResourcesBY>10000</businessCase-response:planningBudgetaryResourcesBY>
-			  <businessCase-response:planningBudgetaryResourcesBY_1>10000</businessCase-response:planningBudgetaryResourcesBY_1>
-			  <businessCase-response:planningBudgetaryResourcesBY_2>10000</businessCase-response:planningBudgetaryResourcesBY_2>
-			  <businessCase-response:planningBudgetaryResourcesBY_3>10000</businessCase-response:planningBudgetaryResourcesBY_3>
-			  <businessCase-response:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:planningBudgetaryResourcesFY_1>10000</businessCase-response:planningBudgetaryResourcesFY_1>
+			  <businessCase-response:planningBudgetaryResourcesFY_2>10000</businessCase-response:planningBudgetaryResourcesFY_2>
+			  <businessCase-response:planningBudgetaryResourcesFY_3>10000</businessCase-response:planningBudgetaryResourcesFY_3>
+			  <businessCase-response:planningBudgetaryResourcesFY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesFY_4_Beyond>
 			  <businessCase-response:dmeBudgetaryResourcesPY-1>0</businessCase-response:dmeBudgetaryResourcesPY-1>
 			  <businessCase-response:dmeBudgetaryResourcesPY>10000</businessCase-response:dmeBudgetaryResourcesPY>
 			  <businessCase-response:dmeBudgetaryResourcesCY>10000</businessCase-response:dmeBudgetaryResourcesCY>
 			  <businessCase-response:dmeBudgetaryResourcesBY>10000</businessCase-response:dmeBudgetaryResourcesBY>
-			  <businessCase-response:dmeBudgetaryResourcesBY_1>10000</businessCase-response:dmeBudgetaryResourcesBY_1>
-			  <businessCase-response:dmeBudgetaryResourcesBY_2>10000</businessCase-response:dmeBudgetaryResourcesBY_2>
-			  <businessCase-response:dmeBudgetaryResourcesBY_3>10000</businessCase-response:dmeBudgetaryResourcesBY_3>
-			  <businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:dmeBudgetaryResourcesFY_1>10000</businessCase-response:dmeBudgetaryResourcesFY_1>
+			  <businessCase-response:dmeBudgetaryResourcesFY_2>10000</businessCase-response:dmeBudgetaryResourcesFY_2>
+			  <businessCase-response:dmeBudgetaryResourcesFY_3>10000</businessCase-response:dmeBudgetaryResourcesFY_3>
+			  <businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:dmeGovernmentFTECostsPY-1>0</businessCase-response:dmeGovernmentFTECostsPY-1>
               <businessCase-response:dmeGovernmentFTECostsPY>10000</businessCase-response:dmeGovernmentFTECostsPY>
               <businessCase-response:dmeGovernmentFTECostsCY>10000</businessCase-response:dmeGovernmentFTECostsCY>
               <businessCase-response:dmeGovernmentFTECostsBY>10000</businessCase-response:dmeGovernmentFTECostsBY>
-              <businessCase-response:dmeGovernmentFTECostsBY_1>10000</businessCase-response:dmeGovernmentFTECostsBY_1>
-              <businessCase-response:dmeGovernmentFTECostsBY_2>10000</businessCase-response:dmeGovernmentFTECostsBY_2>
-              <businessCase-response:dmeGovernmentFTECostsBY_3>10000</businessCase-response:dmeGovernmentFTECostsBY_3>
-              <businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:dmeGovernmentFTECostsFY_1>10000</businessCase-response:dmeGovernmentFTECostsFY_1>
+              <businessCase-response:dmeGovernmentFTECostsFY_2>10000</businessCase-response:dmeGovernmentFTECostsFY_2>
+              <businessCase-response:dmeGovernmentFTECostsFY_3>10000</businessCase-response:dmeGovernmentFTECostsFY_3>
+              <businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:maintenanceBudgetaryResourcesPY-1>0</businessCase-response:maintenanceBudgetaryResourcesPY-1>
               <businessCase-response:maintenanceBudgetaryResourcesPY>10000</businessCase-response:maintenanceBudgetaryResourcesPY>
               <businessCase-response:maintenanceBudgetaryResourcesCY>10000</businessCase-response:maintenanceBudgetaryResourcesCY>
               <businessCase-response:maintenanceBudgetaryResourcesBY>10000</businessCase-response:maintenanceBudgetaryResourcesBY>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_1>10000</businessCase-response:maintenanceBudgetaryResourcesBY_1>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_2>10000</businessCase-response:maintenanceBudgetaryResourcesBY_2>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_3>10000</businessCase-response:maintenanceBudgetaryResourcesBY_3>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_1>10000</businessCase-response:maintenanceBudgetaryResourcesFY_1>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_2>10000</businessCase-response:maintenanceBudgetaryResourcesFY_2>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_3>10000</businessCase-response:maintenanceBudgetaryResourcesFY_3>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:omdGovernmentFTECostsPY-1>0</businessCase-response:omdGovernmentFTECostsPY-1>
               <businessCase-response:omdGovernmentFTECostsPY>10000</businessCase-response:omdGovernmentFTECostsPY>
               <businessCase-response:omdGovernmentFTECostsCY>10000</businessCase-response:omdGovernmentFTECostsCY>
               <businessCase-response:omdGovernmentFTECostsBY>10000</businessCase-response:omdGovernmentFTECostsBY>
-              <businessCase-response:omdGovernmentFTECostsBY_1>10000</businessCase-response:omdGovernmentFTECostsBY_1>
-              <businessCase-response:omdGovernmentFTECostsBY_2>10000</businessCase-response:omdGovernmentFTECostsBY_2>
-              <businessCase-response:omdGovernmentFTECostsBY_3>10000</businessCase-response:omdGovernmentFTECostsBY_3>
-              <businessCase-response:omdGovernmentFTECostsBY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:omdGovernmentFTECostsFY_1>10000</businessCase-response:omdGovernmentFTECostsFY_1>
+              <businessCase-response:omdGovernmentFTECostsFY_2>10000</businessCase-response:omdGovernmentFTECostsFY_2>
+              <businessCase-response:omdGovernmentFTECostsFY_3>10000</businessCase-response:omdGovernmentFTECostsFY_3>
+              <businessCase-response:omdGovernmentFTECostsFY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:governmentFTENumberPY-1>0</businessCase-response:governmentFTENumberPY-1>
               <businessCase-response:governmentFTENumberPY>0</businessCase-response:governmentFTENumberPY>
               <businessCase-response:governmentFTENumberCY>0</businessCase-response:governmentFTENumberCY>
               <businessCase-response:governmentFTENumberBY>0</businessCase-response:governmentFTENumberBY>
-              <businessCase-response:governmentFTENumberBY_1>0</businessCase-response:governmentFTENumberBY_1>
-              <businessCase-response:governmentFTENumberBY_2>0</businessCase-response:governmentFTENumberBY_2>
+              <businessCase-response:governmentFTENumberFY_1>0</businessCase-response:governmentFTENumberFY_1>
+              <businessCase-response:governmentFTENumberFY_2>0</businessCase-response:governmentFTENumberFY_2>
 
-              <businessCase-response:governmentFTENumberBY_3>0</businessCase-response:governmentFTENumberBY_3>
-              <businessCase-response:governmentFTENumberBY_4_Beyond>0</businessCase-response:governmentFTENumberBY_4_Beyond>
+              <businessCase-response:governmentFTENumberFY_3>0</businessCase-response:governmentFTENumberFY_3>
+              <businessCase-response:governmentFTENumberFY_4_Beyond>0</businessCase-response:governmentFTENumberFY_4_Beyond>
               <businessCase-response:priorYearCostChangePY>10000</businessCase-response:priorYearCostChangePY>
               <businessCase-response:priorYearCostChangeCY>10000</businessCase-response:priorYearCostChangeCY>
               <businessCase-response:priorYearCostPercentageChangePY>0</businessCase-response:priorYearCostPercentageChangePY>
@@ -227,7 +227,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>05</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>05</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>Medium</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>High</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -273,7 +273,7 @@
           <sr:investmentRiskId>0</sr:investmentRiskId>
           <sr:agencyInvestmentRiskId>a</sr:agencyInvestmentRiskId>
           <sr:investmentRiskName>a</sr:investmentRiskName>
-          <sr:investmentRiskCategory>04</sr:investmentRiskCategory>
+          <sr:investmentRiskArea>04</sr:investmentRiskArea>
           <sr:investmentRiskProbability>Medium</sr:investmentRiskProbability>
           <sr:investmentRiskImpact>Low</sr:investmentRiskImpact>
           <sr:investmentRiskMitigationPlan>a</sr:investmentRiskMitigationPlan>
@@ -473,7 +473,7 @@
           <sr:investmentRiskId>0</sr:investmentRiskId>
           <sr:agencyInvestmentRiskId>a</sr:agencyInvestmentRiskId>
           <sr:investmentRiskName>a</sr:investmentRiskName>
-          <sr:investmentRiskCategory>09</sr:investmentRiskCategory>
+          <sr:investmentRiskArea>09</sr:investmentRiskArea>
           <sr:investmentRiskProbability>Low</sr:investmentRiskProbability>
           <sr:investmentRiskImpact>Medium</sr:investmentRiskImpact>
           <sr:investmentRiskMitigationPlan>a</sr:investmentRiskMitigationPlan>
@@ -485,7 +485,7 @@
           <sr:investmentRiskId>0</sr:investmentRiskId>
           <sr:agencyInvestmentRiskId>a</sr:agencyInvestmentRiskId>
           <sr:investmentRiskName>a</sr:investmentRiskName>
-          <sr:investmentRiskCategory>04</sr:investmentRiskCategory>
+          <sr:investmentRiskArea>04</sr:investmentRiskArea>
           <sr:investmentRiskProbability>Medium</sr:investmentRiskProbability>
           <sr:investmentRiskImpact>Medium</sr:investmentRiskImpact>
           <sr:investmentRiskMitigationPlan>a</sr:investmentRiskMitigationPlan>
@@ -640,7 +640,6 @@
               <businessCase-response:returnOnInvestmentDescription>a
               </businessCase-response:returnOnInvestmentDescription>
               <businessCase-response:investmentRequirements>a</businessCase-response:investmentRequirements>
-              <businessCase-response:programCodeFPI>000-000</businessCase-response:programCodeFPI>
               <businessCase-response:investmentsEliminatedorReduced>
                 <businessCase-response:investmentEliminatedorReduced>
                   <businessCase-response:investmentEliminatedorReducedID>0</businessCase-response:investmentEliminatedorReducedID>
@@ -651,6 +650,7 @@
                 </businessCase-response:investmentEliminatedorReduced>
               </businessCase-response:investmentsEliminatedorReduced>
               <businessCase-response:investmentSharedService>no</businessCase-response:investmentSharedService>
+              <businessCase-response:plannedSharedService>no</businessCase-response:plannedSharedService>
               <businessCase-response:investmentPivEnabled>no</businessCase-response:investmentPivEnabled>
               <businessCase-response:publicURLs>
                 <businessCase-response:publicURL>http:://agency.gov</businessCase-response:publicURL>
@@ -666,50 +666,50 @@
 			  <businessCase-response:planningBudgetaryResourcesPY>10000</businessCase-response:planningBudgetaryResourcesPY>
 			  <businessCase-response:planningBudgetaryResourcesCY>10000</businessCase-response:planningBudgetaryResourcesCY>
 			  <businessCase-response:planningBudgetaryResourcesBY>10000</businessCase-response:planningBudgetaryResourcesBY>
-			  <businessCase-response:planningBudgetaryResourcesBY_1>10000</businessCase-response:planningBudgetaryResourcesBY_1>
-			  <businessCase-response:planningBudgetaryResourcesBY_2>10000</businessCase-response:planningBudgetaryResourcesBY_2>
-			  <businessCase-response:planningBudgetaryResourcesBY_3>10000</businessCase-response:planningBudgetaryResourcesBY_3>
-			  <businessCase-response:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:planningBudgetaryResourcesFY_1>10000</businessCase-response:planningBudgetaryResourcesFY_1>
+			  <businessCase-response:planningBudgetaryResourcesFY_2>10000</businessCase-response:planningBudgetaryResourcesFY_2>
+			  <businessCase-response:planningBudgetaryResourcesFY_3>10000</businessCase-response:planningBudgetaryResourcesFY_3>
+			  <businessCase-response:planningBudgetaryResourcesFY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesFY_4_Beyond>
 			  <businessCase-response:dmeBudgetaryResourcesPY-1>0</businessCase-response:dmeBudgetaryResourcesPY-1>
 			  <businessCase-response:dmeBudgetaryResourcesPY>10000</businessCase-response:dmeBudgetaryResourcesPY>
 			  <businessCase-response:dmeBudgetaryResourcesCY>10000</businessCase-response:dmeBudgetaryResourcesCY>
 			  <businessCase-response:dmeBudgetaryResourcesBY>10000</businessCase-response:dmeBudgetaryResourcesBY>
-			  <businessCase-response:dmeBudgetaryResourcesBY_1>10000</businessCase-response:dmeBudgetaryResourcesBY_1>
-			  <businessCase-response:dmeBudgetaryResourcesBY_2>10000</businessCase-response:dmeBudgetaryResourcesBY_2>
-			  <businessCase-response:dmeBudgetaryResourcesBY_3>10000</businessCase-response:dmeBudgetaryResourcesBY_3>
-			  <businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:dmeBudgetaryResourcesFY_1>10000</businessCase-response:dmeBudgetaryResourcesFY_1>
+			  <businessCase-response:dmeBudgetaryResourcesFY_2>10000</businessCase-response:dmeBudgetaryResourcesFY_2>
+			  <businessCase-response:dmeBudgetaryResourcesFY_3>10000</businessCase-response:dmeBudgetaryResourcesFY_3>
+			  <businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:dmeGovernmentFTECostsPY-1>0</businessCase-response:dmeGovernmentFTECostsPY-1>
               <businessCase-response:dmeGovernmentFTECostsPY>10000</businessCase-response:dmeGovernmentFTECostsPY>
               <businessCase-response:dmeGovernmentFTECostsCY>10000</businessCase-response:dmeGovernmentFTECostsCY>
               <businessCase-response:dmeGovernmentFTECostsBY>10000</businessCase-response:dmeGovernmentFTECostsBY>
-              <businessCase-response:dmeGovernmentFTECostsBY_1>10000</businessCase-response:dmeGovernmentFTECostsBY_1>
-              <businessCase-response:dmeGovernmentFTECostsBY_2>10000</businessCase-response:dmeGovernmentFTECostsBY_2>
-              <businessCase-response:dmeGovernmentFTECostsBY_3>10000</businessCase-response:dmeGovernmentFTECostsBY_3>
-              <businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:dmeGovernmentFTECostsFY_1>10000</businessCase-response:dmeGovernmentFTECostsFY_1>
+              <businessCase-response:dmeGovernmentFTECostsFY_2>10000</businessCase-response:dmeGovernmentFTECostsFY_2>
+              <businessCase-response:dmeGovernmentFTECostsFY_3>10000</businessCase-response:dmeGovernmentFTECostsFY_3>
+              <businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:maintenanceBudgetaryResourcesPY-1>0</businessCase-response:maintenanceBudgetaryResourcesPY-1>
               <businessCase-response:maintenanceBudgetaryResourcesPY>10000</businessCase-response:maintenanceBudgetaryResourcesPY>
               <businessCase-response:maintenanceBudgetaryResourcesCY>10000</businessCase-response:maintenanceBudgetaryResourcesCY>
               <businessCase-response:maintenanceBudgetaryResourcesBY>10000</businessCase-response:maintenanceBudgetaryResourcesBY>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_1>10000</businessCase-response:maintenanceBudgetaryResourcesBY_1>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_2>10000</businessCase-response:maintenanceBudgetaryResourcesBY_2>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_3>10000</businessCase-response:maintenanceBudgetaryResourcesBY_3>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_1>10000</businessCase-response:maintenanceBudgetaryResourcesFY_1>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_2>10000</businessCase-response:maintenanceBudgetaryResourcesFY_2>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_3>10000</businessCase-response:maintenanceBudgetaryResourcesFY_3>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:omdGovernmentFTECostsPY-1>0</businessCase-response:omdGovernmentFTECostsPY-1>
               <businessCase-response:omdGovernmentFTECostsPY>10000</businessCase-response:omdGovernmentFTECostsPY>
               <businessCase-response:omdGovernmentFTECostsCY>10000</businessCase-response:omdGovernmentFTECostsCY>
               <businessCase-response:omdGovernmentFTECostsBY>10000</businessCase-response:omdGovernmentFTECostsBY>
-              <businessCase-response:omdGovernmentFTECostsBY_1>10000</businessCase-response:omdGovernmentFTECostsBY_1>
-              <businessCase-response:omdGovernmentFTECostsBY_2>10000</businessCase-response:omdGovernmentFTECostsBY_2>
-              <businessCase-response:omdGovernmentFTECostsBY_3>10000</businessCase-response:omdGovernmentFTECostsBY_3>
-              <businessCase-response:omdGovernmentFTECostsBY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:omdGovernmentFTECostsFY_1>10000</businessCase-response:omdGovernmentFTECostsFY_1>
+              <businessCase-response:omdGovernmentFTECostsFY_2>10000</businessCase-response:omdGovernmentFTECostsFY_2>
+              <businessCase-response:omdGovernmentFTECostsFY_3>10000</businessCase-response:omdGovernmentFTECostsFY_3>
+              <businessCase-response:omdGovernmentFTECostsFY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:governmentFTENumberPY-1>0</businessCase-response:governmentFTENumberPY-1>
               <businessCase-response:governmentFTENumberPY>0</businessCase-response:governmentFTENumberPY>
               <businessCase-response:governmentFTENumberCY>0</businessCase-response:governmentFTENumberCY>
               <businessCase-response:governmentFTENumberBY>0</businessCase-response:governmentFTENumberBY>
-              <businessCase-response:governmentFTENumberBY_1>0</businessCase-response:governmentFTENumberBY_1>
-              <businessCase-response:governmentFTENumberBY_2>0</businessCase-response:governmentFTENumberBY_2>
-              <businessCase-response:governmentFTENumberBY_3>0</businessCase-response:governmentFTENumberBY_3>
-              <businessCase-response:governmentFTENumberBY_4_Beyond>0</businessCase-response:governmentFTENumberBY_4_Beyond>
+              <businessCase-response:governmentFTENumberFY_1>0</businessCase-response:governmentFTENumberFY_1>
+              <businessCase-response:governmentFTENumberFY_2>0</businessCase-response:governmentFTENumberFY_2>
+              <businessCase-response:governmentFTENumberFY_3>0</businessCase-response:governmentFTENumberFY_3>
+              <businessCase-response:governmentFTENumberFY_4_Beyond>0</businessCase-response:governmentFTENumberFY_4_Beyond>
               <businessCase-response:priorYearCostChangePY>10000</businessCase-response:priorYearCostChangePY>
               <businessCase-response:priorYearCostChangeCY>10000</businessCase-response:priorYearCostChangeCY>
               <businessCase-response:priorYearCostPercentageChangePY>0</businessCase-response:priorYearCostPercentageChangePY>
@@ -832,7 +832,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>06</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>06</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>Medium</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>Medium</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -842,7 +842,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>09</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>09</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>High</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>Medium</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -869,7 +869,6 @@
               <businessCase-response:returnOnInvestmentDescription>a
               </businessCase-response:returnOnInvestmentDescription>
               <businessCase-response:investmentRequirements>a</businessCase-response:investmentRequirements>
-              <businessCase-response:programCodeFPI>000-000</businessCase-response:programCodeFPI>
               <businessCase-response:investmentsEliminatedorReduced>
                 <businessCase-response:investmentEliminatedorReduced>
                   <businessCase-response:investmentEliminatedorReducedID>0</businessCase-response:investmentEliminatedorReducedID>
@@ -880,6 +879,7 @@
                 </businessCase-response:investmentEliminatedorReduced>
               </businessCase-response:investmentsEliminatedorReduced>
               <businessCase-response:investmentSharedService>no</businessCase-response:investmentSharedService>
+              <businessCase-response:plannedSharedService>no</businessCase-response:plannedSharedService>
               <businessCase-response:investmentPivEnabled>no</businessCase-response:investmentPivEnabled>
               <businessCase-response:publicURLs>
                 <businessCase-response:publicURL>http:://agency.gov</businessCase-response:publicURL>
@@ -895,50 +895,50 @@
 			  <businessCase-response:planningBudgetaryResourcesPY>10000</businessCase-response:planningBudgetaryResourcesPY>
 			  <businessCase-response:planningBudgetaryResourcesCY>10000</businessCase-response:planningBudgetaryResourcesCY>
 			  <businessCase-response:planningBudgetaryResourcesBY>10000</businessCase-response:planningBudgetaryResourcesBY>
-			  <businessCase-response:planningBudgetaryResourcesBY_1>10000</businessCase-response:planningBudgetaryResourcesBY_1>
-			  <businessCase-response:planningBudgetaryResourcesBY_2>10000</businessCase-response:planningBudgetaryResourcesBY_2>
-			  <businessCase-response:planningBudgetaryResourcesBY_3>10000</businessCase-response:planningBudgetaryResourcesBY_3>
-			  <businessCase-response:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:planningBudgetaryResourcesFY_1>10000</businessCase-response:planningBudgetaryResourcesFY_1>
+			  <businessCase-response:planningBudgetaryResourcesFY_2>10000</businessCase-response:planningBudgetaryResourcesFY_2>
+			  <businessCase-response:planningBudgetaryResourcesFY_3>10000</businessCase-response:planningBudgetaryResourcesFY_3>
+			  <businessCase-response:planningBudgetaryResourcesFY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesFY_4_Beyond>
 			  <businessCase-response:dmeBudgetaryResourcesPY-1>0</businessCase-response:dmeBudgetaryResourcesPY-1>
 			  <businessCase-response:dmeBudgetaryResourcesPY>10000</businessCase-response:dmeBudgetaryResourcesPY>
 			  <businessCase-response:dmeBudgetaryResourcesCY>10000</businessCase-response:dmeBudgetaryResourcesCY>
 			  <businessCase-response:dmeBudgetaryResourcesBY>10000</businessCase-response:dmeBudgetaryResourcesBY>
-			  <businessCase-response:dmeBudgetaryResourcesBY_1>10000</businessCase-response:dmeBudgetaryResourcesBY_1>
-			  <businessCase-response:dmeBudgetaryResourcesBY_2>10000</businessCase-response:dmeBudgetaryResourcesBY_2>
-			  <businessCase-response:dmeBudgetaryResourcesBY_3>10000</businessCase-response:dmeBudgetaryResourcesBY_3>
-			  <businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:dmeBudgetaryResourcesFY_1>10000</businessCase-response:dmeBudgetaryResourcesFY_1>
+			  <businessCase-response:dmeBudgetaryResourcesFY_2>10000</businessCase-response:dmeBudgetaryResourcesFY_2>
+			  <businessCase-response:dmeBudgetaryResourcesFY_3>10000</businessCase-response:dmeBudgetaryResourcesFY_3>
+			  <businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:dmeGovernmentFTECostsPY-1>0</businessCase-response:dmeGovernmentFTECostsPY-1>
               <businessCase-response:dmeGovernmentFTECostsPY>10000</businessCase-response:dmeGovernmentFTECostsPY>
               <businessCase-response:dmeGovernmentFTECostsCY>10000</businessCase-response:dmeGovernmentFTECostsCY>
               <businessCase-response:dmeGovernmentFTECostsBY>10000</businessCase-response:dmeGovernmentFTECostsBY>
-              <businessCase-response:dmeGovernmentFTECostsBY_1>10000</businessCase-response:dmeGovernmentFTECostsBY_1>
-              <businessCase-response:dmeGovernmentFTECostsBY_2>10000</businessCase-response:dmeGovernmentFTECostsBY_2>
-              <businessCase-response:dmeGovernmentFTECostsBY_3>10000</businessCase-response:dmeGovernmentFTECostsBY_3>
-              <businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:dmeGovernmentFTECostsFY_1>10000</businessCase-response:dmeGovernmentFTECostsFY_1>
+              <businessCase-response:dmeGovernmentFTECostsFY_2>10000</businessCase-response:dmeGovernmentFTECostsFY_2>
+              <businessCase-response:dmeGovernmentFTECostsFY_3>10000</businessCase-response:dmeGovernmentFTECostsFY_3>
+              <businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:maintenanceBudgetaryResourcesPY-1>0</businessCase-response:maintenanceBudgetaryResourcesPY-1>
               <businessCase-response:maintenanceBudgetaryResourcesPY>10000</businessCase-response:maintenanceBudgetaryResourcesPY>
               <businessCase-response:maintenanceBudgetaryResourcesCY>10000</businessCase-response:maintenanceBudgetaryResourcesCY>
               <businessCase-response:maintenanceBudgetaryResourcesBY>10000</businessCase-response:maintenanceBudgetaryResourcesBY>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_1>10000</businessCase-response:maintenanceBudgetaryResourcesBY_1>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_2>10000</businessCase-response:maintenanceBudgetaryResourcesBY_2>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_3>10000</businessCase-response:maintenanceBudgetaryResourcesBY_3>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_1>10000</businessCase-response:maintenanceBudgetaryResourcesFY_1>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_2>10000</businessCase-response:maintenanceBudgetaryResourcesFY_2>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_3>10000</businessCase-response:maintenanceBudgetaryResourcesFY_3>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:omdGovernmentFTECostsPY-1>0</businessCase-response:omdGovernmentFTECostsPY-1>
               <businessCase-response:omdGovernmentFTECostsPY>10000</businessCase-response:omdGovernmentFTECostsPY>
               <businessCase-response:omdGovernmentFTECostsCY>10000</businessCase-response:omdGovernmentFTECostsCY>
               <businessCase-response:omdGovernmentFTECostsBY>10000</businessCase-response:omdGovernmentFTECostsBY>
-              <businessCase-response:omdGovernmentFTECostsBY_1>10000</businessCase-response:omdGovernmentFTECostsBY_1>
-              <businessCase-response:omdGovernmentFTECostsBY_2>10000</businessCase-response:omdGovernmentFTECostsBY_2>
-              <businessCase-response:omdGovernmentFTECostsBY_3>10000</businessCase-response:omdGovernmentFTECostsBY_3>
-              <businessCase-response:omdGovernmentFTECostsBY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:omdGovernmentFTECostsFY_1>10000</businessCase-response:omdGovernmentFTECostsFY_1>
+              <businessCase-response:omdGovernmentFTECostsFY_2>10000</businessCase-response:omdGovernmentFTECostsFY_2>
+              <businessCase-response:omdGovernmentFTECostsFY_3>10000</businessCase-response:omdGovernmentFTECostsFY_3>
+              <businessCase-response:omdGovernmentFTECostsFY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:governmentFTENumberPY-1>0</businessCase-response:governmentFTENumberPY-1>
               <businessCase-response:governmentFTENumberPY>0</businessCase-response:governmentFTENumberPY>
               <businessCase-response:governmentFTENumberCY>0</businessCase-response:governmentFTENumberCY>
               <businessCase-response:governmentFTENumberBY>0</businessCase-response:governmentFTENumberBY>
-              <businessCase-response:governmentFTENumberBY_1>0</businessCase-response:governmentFTENumberBY_1>
-              <businessCase-response:governmentFTENumberBY_2>0</businessCase-response:governmentFTENumberBY_2>
-              <businessCase-response:governmentFTENumberBY_3>0</businessCase-response:governmentFTENumberBY_3>
-              <businessCase-response:governmentFTENumberBY_4_Beyond>0</businessCase-response:governmentFTENumberBY_4_Beyond>
+              <businessCase-response:governmentFTENumberFY_1>0</businessCase-response:governmentFTENumberFY_1>
+              <businessCase-response:governmentFTENumberFY_2>0</businessCase-response:governmentFTENumberFY_2>
+              <businessCase-response:governmentFTENumberFY_3>0</businessCase-response:governmentFTENumberFY_3>
+              <businessCase-response:governmentFTENumberFY_4_Beyond>0</businessCase-response:governmentFTENumberFY_4_Beyond>
               <businessCase-response:priorYearCostChangePY>10000</businessCase-response:priorYearCostChangePY>
               <businessCase-response:priorYearCostChangeCY>10000</businessCase-response:priorYearCostChangeCY>
               <businessCase-response:priorYearCostPercentageChangePY>0</businessCase-response:priorYearCostPercentageChangePY>
@@ -1060,7 +1060,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>09</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>09</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>High</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>Medium</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -1087,7 +1087,6 @@
               <businessCase-response:returnOnInvestmentDescription>a
               </businessCase-response:returnOnInvestmentDescription>
               <businessCase-response:investmentRequirements>a</businessCase-response:investmentRequirements>
-              <businessCase-response:programCodeFPI>000-000</businessCase-response:programCodeFPI>
               <businessCase-response:investmentsEliminatedorReduced>
                 <businessCase-response:investmentEliminatedorReduced>
                   <businessCase-response:investmentEliminatedorReducedID>0</businessCase-response:investmentEliminatedorReducedID>
@@ -1098,6 +1097,7 @@
                 </businessCase-response:investmentEliminatedorReduced>
               </businessCase-response:investmentsEliminatedorReduced>
               <businessCase-response:investmentSharedService>no</businessCase-response:investmentSharedService>
+              <businessCase-response:plannedSharedService>no</businessCase-response:plannedSharedService>
               <businessCase-response:investmentPivEnabled>no</businessCase-response:investmentPivEnabled>
               <businessCase-response:publicURLs>
                 <businessCase-response:publicURL>http:://agency.gov</businessCase-response:publicURL>
@@ -1113,50 +1113,50 @@
 			  <businessCase-response:planningBudgetaryResourcesPY>10000</businessCase-response:planningBudgetaryResourcesPY>
 			  <businessCase-response:planningBudgetaryResourcesCY>10000</businessCase-response:planningBudgetaryResourcesCY>
 			  <businessCase-response:planningBudgetaryResourcesBY>10000</businessCase-response:planningBudgetaryResourcesBY>
-			  <businessCase-response:planningBudgetaryResourcesBY_1>10000</businessCase-response:planningBudgetaryResourcesBY_1>
-			  <businessCase-response:planningBudgetaryResourcesBY_2>10000</businessCase-response:planningBudgetaryResourcesBY_2>
-			  <businessCase-response:planningBudgetaryResourcesBY_3>10000</businessCase-response:planningBudgetaryResourcesBY_3>
-			  <businessCase-response:planningBudgetaryResourcesBY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:planningBudgetaryResourcesFY_1>10000</businessCase-response:planningBudgetaryResourcesFY_1>
+			  <businessCase-response:planningBudgetaryResourcesFY_2>10000</businessCase-response:planningBudgetaryResourcesFY_2>
+			  <businessCase-response:planningBudgetaryResourcesFY_3>10000</businessCase-response:planningBudgetaryResourcesFY_3>
+			  <businessCase-response:planningBudgetaryResourcesFY_4_Beyond>0</businessCase-response:planningBudgetaryResourcesFY_4_Beyond>
 			  <businessCase-response:dmeBudgetaryResourcesPY-1>0</businessCase-response:dmeBudgetaryResourcesPY-1>
 			  <businessCase-response:dmeBudgetaryResourcesPY>10000</businessCase-response:dmeBudgetaryResourcesPY>
 			  <businessCase-response:dmeBudgetaryResourcesCY>10000</businessCase-response:dmeBudgetaryResourcesCY>
 			  <businessCase-response:dmeBudgetaryResourcesBY>10000</businessCase-response:dmeBudgetaryResourcesBY>
-			  <businessCase-response:dmeBudgetaryResourcesBY_1>10000</businessCase-response:dmeBudgetaryResourcesBY_1>
-			  <businessCase-response:dmeBudgetaryResourcesBY_2>10000</businessCase-response:dmeBudgetaryResourcesBY_2>
-			  <businessCase-response:dmeBudgetaryResourcesBY_3>10000</businessCase-response:dmeBudgetaryResourcesBY_3>
-			  <businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesBY_4_Beyond>
+			  <businessCase-response:dmeBudgetaryResourcesFY_1>10000</businessCase-response:dmeBudgetaryResourcesFY_1>
+			  <businessCase-response:dmeBudgetaryResourcesFY_2>10000</businessCase-response:dmeBudgetaryResourcesFY_2>
+			  <businessCase-response:dmeBudgetaryResourcesFY_3>10000</businessCase-response:dmeBudgetaryResourcesFY_3>
+			  <businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>0</businessCase-response:dmeBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:dmeGovernmentFTECostsPY-1>0</businessCase-response:dmeGovernmentFTECostsPY-1>
               <businessCase-response:dmeGovernmentFTECostsPY>10000</businessCase-response:dmeGovernmentFTECostsPY>
               <businessCase-response:dmeGovernmentFTECostsCY>10000</businessCase-response:dmeGovernmentFTECostsCY>
               <businessCase-response:dmeGovernmentFTECostsBY>10000</businessCase-response:dmeGovernmentFTECostsBY>
-              <businessCase-response:dmeGovernmentFTECostsBY_1>10000</businessCase-response:dmeGovernmentFTECostsBY_1>
-              <businessCase-response:dmeGovernmentFTECostsBY_2>10000</businessCase-response:dmeGovernmentFTECostsBY_2>
-              <businessCase-response:dmeGovernmentFTECostsBY_3>10000</businessCase-response:dmeGovernmentFTECostsBY_3>
-              <businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:dmeGovernmentFTECostsFY_1>10000</businessCase-response:dmeGovernmentFTECostsFY_1>
+              <businessCase-response:dmeGovernmentFTECostsFY_2>10000</businessCase-response:dmeGovernmentFTECostsFY_2>
+              <businessCase-response:dmeGovernmentFTECostsFY_3>10000</businessCase-response:dmeGovernmentFTECostsFY_3>
+              <businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>0</businessCase-response:dmeGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:maintenanceBudgetaryResourcesPY-1>0</businessCase-response:maintenanceBudgetaryResourcesPY-1>
               <businessCase-response:maintenanceBudgetaryResourcesPY>10000</businessCase-response:maintenanceBudgetaryResourcesPY>
               <businessCase-response:maintenanceBudgetaryResourcesCY>10000</businessCase-response:maintenanceBudgetaryResourcesCY>
               <businessCase-response:maintenanceBudgetaryResourcesBY>10000</businessCase-response:maintenanceBudgetaryResourcesBY>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_1>10000</businessCase-response:maintenanceBudgetaryResourcesBY_1>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_2>10000</businessCase-response:maintenanceBudgetaryResourcesBY_2>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_3>10000</businessCase-response:maintenanceBudgetaryResourcesBY_3>
-              <businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_1>10000</businessCase-response:maintenanceBudgetaryResourcesFY_1>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_2>10000</businessCase-response:maintenanceBudgetaryResourcesFY_2>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_3>10000</businessCase-response:maintenanceBudgetaryResourcesFY_3>
+              <businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>0</businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond>
               <businessCase-response:omdGovernmentFTECostsPY-1>0</businessCase-response:omdGovernmentFTECostsPY-1>
               <businessCase-response:omdGovernmentFTECostsPY>10000</businessCase-response:omdGovernmentFTECostsPY>
               <businessCase-response:omdGovernmentFTECostsCY>10000</businessCase-response:omdGovernmentFTECostsCY>
               <businessCase-response:omdGovernmentFTECostsBY>10000</businessCase-response:omdGovernmentFTECostsBY>
-              <businessCase-response:omdGovernmentFTECostsBY_1>10000</businessCase-response:omdGovernmentFTECostsBY_1>
-              <businessCase-response:omdGovernmentFTECostsBY_2>10000</businessCase-response:omdGovernmentFTECostsBY_2>
-              <businessCase-response:omdGovernmentFTECostsBY_3>10000</businessCase-response:omdGovernmentFTECostsBY_3>
-              <businessCase-response:omdGovernmentFTECostsBY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsBY_4_Beyond>
+              <businessCase-response:omdGovernmentFTECostsFY_1>10000</businessCase-response:omdGovernmentFTECostsFY_1>
+              <businessCase-response:omdGovernmentFTECostsFY_2>10000</businessCase-response:omdGovernmentFTECostsFY_2>
+              <businessCase-response:omdGovernmentFTECostsFY_3>10000</businessCase-response:omdGovernmentFTECostsFY_3>
+              <businessCase-response:omdGovernmentFTECostsFY_4_Beyond>0</businessCase-response:omdGovernmentFTECostsFY_4_Beyond>
               <businessCase-response:governmentFTENumberPY-1>0</businessCase-response:governmentFTENumberPY-1>
               <businessCase-response:governmentFTENumberPY>0</businessCase-response:governmentFTENumberPY>
               <businessCase-response:governmentFTENumberCY>0</businessCase-response:governmentFTENumberCY>
               <businessCase-response:governmentFTENumberBY>0</businessCase-response:governmentFTENumberBY>
-              <businessCase-response:governmentFTENumberBY_1>0</businessCase-response:governmentFTENumberBY_1>
-              <businessCase-response:governmentFTENumberBY_2>0</businessCase-response:governmentFTENumberBY_2>
-              <businessCase-response:governmentFTENumberBY_3>0</businessCase-response:governmentFTENumberBY_3>
-              <businessCase-response:governmentFTENumberBY_4_Beyond>0</businessCase-response:governmentFTENumberBY_4_Beyond>
+              <businessCase-response:governmentFTENumberFY_1>0</businessCase-response:governmentFTENumberFY_1>
+              <businessCase-response:governmentFTENumberFY_2>0</businessCase-response:governmentFTENumberFY_2>
+              <businessCase-response:governmentFTENumberFY_3>0</businessCase-response:governmentFTENumberFY_3>
+              <businessCase-response:governmentFTENumberFY_4_Beyond>0</businessCase-response:governmentFTENumberFY_4_Beyond>
               <businessCase-response:priorYearCostChangePY>10000</businessCase-response:priorYearCostChangePY>
               <businessCase-response:priorYearCostChangeCY>10000</businessCase-response:priorYearCostChangeCY>
               <businessCase-response:priorYearCostPercentageChangePY>0</businessCase-response:priorYearCostPercentageChangePY>
@@ -1279,7 +1279,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>06</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>06</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>Medium</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>Medium</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -1289,7 +1289,7 @@
                 <businessCase-response:investmentRiskId>0</businessCase-response:investmentRiskId>
                 <businessCase-response:agencyInvestmentRiskId>a</businessCase-response:agencyInvestmentRiskId>
                 <businessCase-response:investmentRiskName>a</businessCase-response:investmentRiskName>
-                <businessCase-response:investmentRiskCategory>09</businessCase-response:investmentRiskCategory>
+                <businessCase-response:investmentRiskArea>09</businessCase-response:investmentRiskArea>
                 <businessCase-response:investmentRiskProbability>High</businessCase-response:investmentRiskProbability>
                 <businessCase-response:investmentRiskImpact>Medium</businessCase-response:investmentRiskImpact>
                 <businessCase-response:investmentRiskMitigationPlan>a</businessCase-response:investmentRiskMitigationPlan>
@@ -1312,7 +1312,6 @@
           </sr:objectivesOrGoals>
           <sr:returnOnInvestmentDescription>a</sr:returnOnInvestmentDescription>
           <sr:investmentRequirements>a</sr:investmentRequirements>
-          <sr:programCodeFPI>000-000</sr:programCodeFPI>
           <sr:investmentsEliminatedorReduced>
             <sr:investmentEliminatedorReduced>
               <sr:investmentEliminatedorReducedID>0</sr:investmentEliminatedorReducedID>
@@ -1323,6 +1322,7 @@
             </sr:investmentEliminatedorReduced>
           </sr:investmentsEliminatedorReduced>
           <sr:investmentSharedService>no</sr:investmentSharedService>
+          <sr:plannedSharedService>no</sr:plannedSharedService>
           <sr:investmentPivEnabled>no</sr:investmentPivEnabled>
           <sr:publicURLs>
             <sr:publicURL></sr:publicURL>
@@ -1342,50 +1342,50 @@
 			<sr:planningBudgetaryResourcesPY>10000</sr:planningBudgetaryResourcesPY>
 			<sr:planningBudgetaryResourcesCY>10000</sr:planningBudgetaryResourcesCY>
 			<sr:planningBudgetaryResourcesBY>10000</sr:planningBudgetaryResourcesBY>
-			<sr:planningBudgetaryResourcesBY_1>10000</sr:planningBudgetaryResourcesBY_1>
-			<sr:planningBudgetaryResourcesBY_2>10000</sr:planningBudgetaryResourcesBY_2>
-			<sr:planningBudgetaryResourcesBY_3>10000</sr:planningBudgetaryResourcesBY_3>
-			<sr:planningBudgetaryResourcesBY_4_Beyond>0</sr:planningBudgetaryResourcesBY_4_Beyond>
+			<sr:planningBudgetaryResourcesFY_1>10000</sr:planningBudgetaryResourcesFY_1>
+			<sr:planningBudgetaryResourcesFY_2>10000</sr:planningBudgetaryResourcesFY_2>
+			<sr:planningBudgetaryResourcesFY_3>10000</sr:planningBudgetaryResourcesFY_3>
+			<sr:planningBudgetaryResourcesFY_4_Beyond>0</sr:planningBudgetaryResourcesFY_4_Beyond>
 			<sr:dmeBudgetaryResourcesPY-1>0</sr:dmeBudgetaryResourcesPY-1>
 			<sr:dmeBudgetaryResourcesPY>10000</sr:dmeBudgetaryResourcesPY>
 			<sr:dmeBudgetaryResourcesCY>10000</sr:dmeBudgetaryResourcesCY>
 			<sr:dmeBudgetaryResourcesBY>10000</sr:dmeBudgetaryResourcesBY>
-			<sr:dmeBudgetaryResourcesBY_1>10000</sr:dmeBudgetaryResourcesBY_1>
-			<sr:dmeBudgetaryResourcesBY_2>10000</sr:dmeBudgetaryResourcesBY_2>
-			<sr:dmeBudgetaryResourcesBY_3>10000</sr:dmeBudgetaryResourcesBY_3>
-			<sr:dmeBudgetaryResourcesBY_4_Beyond>0</sr:dmeBudgetaryResourcesBY_4_Beyond>        
+			<sr:dmeBudgetaryResourcesFY_1>10000</sr:dmeBudgetaryResourcesFY_1>
+			<sr:dmeBudgetaryResourcesFY_2>10000</sr:dmeBudgetaryResourcesFY_2>
+			<sr:dmeBudgetaryResourcesFY_3>10000</sr:dmeBudgetaryResourcesFY_3>
+			<sr:dmeBudgetaryResourcesFY_4_Beyond>0</sr:dmeBudgetaryResourcesFY_4_Beyond>        
             <sr:dmeGovernmentFTECostsPY-1>0</sr:dmeGovernmentFTECostsPY-1>
             <sr:dmeGovernmentFTECostsPY>10000</sr:dmeGovernmentFTECostsPY>
             <sr:dmeGovernmentFTECostsCY>10000</sr:dmeGovernmentFTECostsCY>
             <sr:dmeGovernmentFTECostsBY>10000</sr:dmeGovernmentFTECostsBY>
-            <sr:dmeGovernmentFTECostsBY_1>10000</sr:dmeGovernmentFTECostsBY_1>
-            <sr:dmeGovernmentFTECostsBY_2>10000</sr:dmeGovernmentFTECostsBY_2>
-            <sr:dmeGovernmentFTECostsBY_3>10000</sr:dmeGovernmentFTECostsBY_3>
-            <sr:dmeGovernmentFTECostsBY_4_Beyond>0</sr:dmeGovernmentFTECostsBY_4_Beyond>
+            <sr:dmeGovernmentFTECostsFY_1>10000</sr:dmeGovernmentFTECostsFY_1>
+            <sr:dmeGovernmentFTECostsFY_2>10000</sr:dmeGovernmentFTECostsFY_2>
+            <sr:dmeGovernmentFTECostsFY_3>10000</sr:dmeGovernmentFTECostsFY_3>
+            <sr:dmeGovernmentFTECostsFY_4_Beyond>0</sr:dmeGovernmentFTECostsFY_4_Beyond>
             <sr:maintenanceBudgetaryResourcesPY-1>0</sr:maintenanceBudgetaryResourcesPY-1>
             <sr:maintenanceBudgetaryResourcesPY>10000</sr:maintenanceBudgetaryResourcesPY>
             <sr:maintenanceBudgetaryResourcesCY>10000</sr:maintenanceBudgetaryResourcesCY>
             <sr:maintenanceBudgetaryResourcesBY>10000</sr:maintenanceBudgetaryResourcesBY>
-            <sr:maintenanceBudgetaryResourcesBY_1>10000</sr:maintenanceBudgetaryResourcesBY_1>
-            <sr:maintenanceBudgetaryResourcesBY_2>10000</sr:maintenanceBudgetaryResourcesBY_2>
-            <sr:maintenanceBudgetaryResourcesBY_3>10000</sr:maintenanceBudgetaryResourcesBY_3>
-            <sr:maintenanceBudgetaryResourcesBY_4_Beyond>0</sr:maintenanceBudgetaryResourcesBY_4_Beyond>
+            <sr:maintenanceBudgetaryResourcesFY_1>10000</sr:maintenanceBudgetaryResourcesFY_1>
+            <sr:maintenanceBudgetaryResourcesFY_2>10000</sr:maintenanceBudgetaryResourcesFY_2>
+            <sr:maintenanceBudgetaryResourcesFY_3>10000</sr:maintenanceBudgetaryResourcesFY_3>
+            <sr:maintenanceBudgetaryResourcesFY_4_Beyond>0</sr:maintenanceBudgetaryResourcesFY_4_Beyond>
             <sr:omdGovernmentFTECostsPY-1>0</sr:omdGovernmentFTECostsPY-1>
             <sr:omdGovernmentFTECostsPY>10000</sr:omdGovernmentFTECostsPY>
             <sr:omdGovernmentFTECostsCY>10000</sr:omdGovernmentFTECostsCY>
             <sr:omdGovernmentFTECostsBY>10000</sr:omdGovernmentFTECostsBY>
-            <sr:omdGovernmentFTECostsBY_1>10000</sr:omdGovernmentFTECostsBY_1>
-            <sr:omdGovernmentFTECostsBY_2>10000</sr:omdGovernmentFTECostsBY_2>
-            <sr:omdGovernmentFTECostsBY_3>10000</sr:omdGovernmentFTECostsBY_3>
-            <sr:omdGovernmentFTECostsBY_4_Beyond>0</sr:omdGovernmentFTECostsBY_4_Beyond>
+            <sr:omdGovernmentFTECostsFY_1>10000</sr:omdGovernmentFTECostsFY_1>
+            <sr:omdGovernmentFTECostsFY_2>10000</sr:omdGovernmentFTECostsFY_2>
+            <sr:omdGovernmentFTECostsFY_3>10000</sr:omdGovernmentFTECostsFY_3>
+            <sr:omdGovernmentFTECostsFY_4_Beyond>0</sr:omdGovernmentFTECostsFY_4_Beyond>
             <sr:governmentFTENumberPY-1>0</sr:governmentFTENumberPY-1>
             <sr:governmentFTENumberPY>0</sr:governmentFTENumberPY>
             <sr:governmentFTENumberCY>0</sr:governmentFTENumberCY>
             <sr:governmentFTENumberBY>0</sr:governmentFTENumberBY>
-            <sr:governmentFTENumberBY_1>0</sr:governmentFTENumberBY_1>
-            <sr:governmentFTENumberBY_2>0</sr:governmentFTENumberBY_2>
-            <sr:governmentFTENumberBY_3>0</sr:governmentFTENumberBY_3>
-            <sr:governmentFTENumberBY_4_Beyond>0</sr:governmentFTENumberBY_4_Beyond>
+            <sr:governmentFTENumberFY_1>0</sr:governmentFTENumberFY_1>
+            <sr:governmentFTENumberFY_2>0</sr:governmentFTENumberFY_2>
+            <sr:governmentFTENumberFY_3>0</sr:governmentFTENumberFY_3>
+            <sr:governmentFTENumberFY_4_Beyond>0</sr:governmentFTENumberFY_4_Beyond>
             <sr:priorYearCostChangePY>10000</sr:priorYearCostChangePY>
             <sr:priorYearCostChangeCY>10000</sr:priorYearCostChangeCY>
             <sr:priorYearCostPercentageChangePY>0</sr:priorYearCostPercentageChangePY>

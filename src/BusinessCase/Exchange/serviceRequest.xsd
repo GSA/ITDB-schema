@@ -356,10 +356,10 @@
     <sequence>
       <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="investmentRiskName" type="businessCase-type:mediumTextString"/>
-      <element name="investmentRiskCategory" type="businessCase-facet:riskType"/>
+      <element name="investmentRiskArea" type="businessCase-facet:riskType"/>
       <element name="investmentRiskProbability" type="businessCase-facet:impactType"/>
       <element name="investmentRiskImpact" type="businessCase-facet:impactType"/>
-      <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString"/>
+      <element name="investmentRiskMitigationPlan" type="businessCase-type:string1000"/>
     </sequence>
     <attribute name="id" type="string" use="required"/>
   </complexType>
@@ -369,10 +369,10 @@
       <element name="investmentRiskId" type="integer" minOccurs="0"/>
       <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="investmentRiskName" type="businessCase-type:mediumTextString" minOccurs="0"/>
-      <element name="investmentRiskCategory" type="businessCase-facet:riskType" minOccurs="0"/>
+      <element name="investmentRiskArea" type="businessCase-facet:riskType" minOccurs="0"/>
       <element name="investmentRiskProbability" type="businessCase-facet:impactType" minOccurs="0"/>
       <element name="investmentRiskImpact" type="businessCase-facet:impactType" minOccurs="0"/>
-      <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString" minOccurs="0"/>
+      <element name="investmentRiskMitigationPlan" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
     <attribute name="id" type="string" use="required"/>
@@ -704,11 +704,11 @@
     <sequence>
       <element name="investmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>
       <element name="objectivesOrGoals" type="tns:objectivesOrGoalsType" minOccurs="0"/>
-      <element name="returnOnInvestmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="returnOnInvestmentDescription" type="businessCase-type:string3500" minOccurs="0"/>
       <element name="investmentRequirements" type="businessCase-type:longTextString" minOccurs="0"/>
-      <element name="programCodeFPI" type="businessCase-type:programCodeFPIType" minOccurs="0"/>
       <element name="investmentsEliminatedorReduced" type="tns:investmentsEliminatedorReducedType" minOccurs="0"/>
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="plannedSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>
       <element name="ombControlNumbers" type="tns:ombControlNumberType" minOccurs="0"/>
@@ -755,50 +755,50 @@
       <element name="planningBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="planningBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="planningBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="planningBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="planningBudgetaryResourcesFY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesFY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesFY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="planningBudgetaryResourcesFY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>    
+      <element name="dmeBudgetaryResourcesFY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesFY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesFY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>    
       <element name="dmeGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="dmeGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="dmeGovernmentFTECostsBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeGovernmentFTECostsBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeGovernmentFTECostsBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeGovernmentFTECostsBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="dmeGovernmentFTECostsBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="dmeGovernmentFTECostsFY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsFY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsFY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="dmeGovernmentFTECostsFY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="maintenanceBudgetaryResourcesPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="maintenanceBudgetaryResourcesPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="maintenanceBudgetaryResourcesCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="maintenanceBudgetaryResourcesBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="maintenanceBudgetaryResourcesBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="maintenanceBudgetaryResourcesBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="maintenanceBudgetaryResourcesBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="maintenanceBudgetaryResourcesBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesFY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesFY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesFY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="maintenanceBudgetaryResourcesFY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="omdGovernmentFTECostsPY-1" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="omdGovernmentFTECostsPY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="omdGovernmentFTECostsCY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
       <element name="omdGovernmentFTECostsBY" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="omdGovernmentFTECostsBY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="omdGovernmentFTECostsBY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="omdGovernmentFTECostsBY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
-      <element name="omdGovernmentFTECostsBY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
+      <element name="omdGovernmentFTECostsFY_1" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsFY_2" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsFY_3" minOccurs="0" type="businessCase-type:dollarAmount" nillable="true"/>
+      <element name="omdGovernmentFTECostsFY_4_Beyond" minOccurs="0" type="businessCase-type:multiYearDollarType" nillable="true"/>
       <element name="governmentFTENumberPY-1" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
       <element name="governmentFTENumberPY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
       <element name="governmentFTENumberCY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
       <element name="governmentFTENumberBY" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-      <element name="governmentFTENumberBY_1" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-      <element name="governmentFTENumberBY_2" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-      <element name="governmentFTENumberBY_3" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-      <element name="governmentFTENumberBY_4_Beyond" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberFY_1" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberFY_2" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberFY_3" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+      <element name="governmentFTENumberFY_4_Beyond" minOccurs="0" type="businessCase-type:governmentFTENumberType" nillable="true"/>
       <element name="priorYearCostChangePY" minOccurs="0" type="businessCase-type:negativeDollarAmount" nillable="true"/>
       <element name="priorYearCostChangeCY" minOccurs="0" type="businessCase-type:negativeDollarAmount" nillable="true"/>
       <element name="priorYearCostPercentageChangePY" minOccurs="0" type="businessCase-type:ITPercentage" nillable="true"/>

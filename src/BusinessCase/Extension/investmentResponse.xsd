@@ -56,9 +56,9 @@
         <element ref="businessCase-response:objectivesOrGoals" minOccurs="0"/>
         <element ref="businessCase-response:returnOnInvestmentDescription" minOccurs="0"/>
         <element ref="businessCase-response:investmentRequirements" minOccurs="0"/>
-        <element ref="businessCase-response:programCodeFPI" minOccurs="0"/>
         <element ref="businessCase-response:investmentsEliminatedorReduced" minOccurs="0"/>
         <element ref="businessCase-response:investmentSharedService" minOccurs="0"/>
+        <element ref="businessCase-response:plannedSharedService" minOccurs="0"/>
         <element ref="businessCase-response:investmentPivEnabled" minOccurs="0"/>
         <element ref="businessCase-response:publicURLs" minOccurs="0"/>
         <element ref="businessCase-response:ombControlNumbers" minOccurs="0"/>
@@ -140,50 +140,50 @@
         <element ref="businessCase-response:planningBudgetaryResourcesPY" minOccurs="0"/>
         <element ref="businessCase-response:planningBudgetaryResourcesCY" minOccurs="0"/>
         <element ref="businessCase-response:planningBudgetaryResourcesBY" minOccurs="0"/>
-        <element ref="businessCase-response:planningBudgetaryResourcesBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:planningBudgetaryResourcesBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:planningBudgetaryResourcesBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:planningBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:planningBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-response:dmeBudgetaryResourcesPY-1" minOccurs="0"/>
         <element ref="businessCase-response:dmeBudgetaryResourcesPY" minOccurs="0"/>
         <element ref="businessCase-response:dmeBudgetaryResourcesCY" minOccurs="0"/>
         <element ref="businessCase-response:dmeBudgetaryResourcesBY" minOccurs="0"/>
-        <element ref="businessCase-response:dmeBudgetaryResourcesBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:dmeBudgetaryResourcesBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:dmeBudgetaryResourcesBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:dmeBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>      
+        <element ref="businessCase-response:dmeBudgetaryResourcesFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>      
         <element ref="businessCase-response:dmeGovernmentFTECostsPY-1" minOccurs="0"/>
         <element ref="businessCase-response:dmeGovernmentFTECostsPY" minOccurs="0"/>
         <element ref="businessCase-response:dmeGovernmentFTECostsCY" minOccurs="0"/>
         <element ref="businessCase-response:dmeGovernmentFTECostsBY" minOccurs="0"/>
-        <element ref="businessCase-response:dmeGovernmentFTECostsBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:dmeGovernmentFTECostsBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:dmeGovernmentFTECostsBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:dmeGovernmentFTECostsBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:dmeGovernmentFTECostsFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:dmeGovernmentFTECostsFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:dmeGovernmentFTECostsFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:dmeGovernmentFTECostsFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-response:maintenanceBudgetaryResourcesPY-1" minOccurs="0"/>
         <element ref="businessCase-response:maintenanceBudgetaryResourcesPY" minOccurs="0"/>
         <element ref="businessCase-response:maintenanceBudgetaryResourcesCY" minOccurs="0"/>
         <element ref="businessCase-response:maintenanceBudgetaryResourcesBY" minOccurs="0"/>
-        <element ref="businessCase-response:maintenanceBudgetaryResourcesBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:maintenanceBudgetaryResourcesBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:maintenanceBudgetaryResourcesBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:maintenanceBudgetaryResourcesBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:maintenanceBudgetaryResourcesFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:maintenanceBudgetaryResourcesFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:maintenanceBudgetaryResourcesFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:maintenanceBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-response:omdGovernmentFTECostsPY-1" minOccurs="0"/>
         <element ref="businessCase-response:omdGovernmentFTECostsPY" minOccurs="0"/>
         <element ref="businessCase-response:omdGovernmentFTECostsCY" minOccurs="0"/>
         <element ref="businessCase-response:omdGovernmentFTECostsBY" minOccurs="0"/>
-        <element ref="businessCase-response:omdGovernmentFTECostsBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:omdGovernmentFTECostsBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:omdGovernmentFTECostsBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:omdGovernmentFTECostsBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:omdGovernmentFTECostsFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:omdGovernmentFTECostsFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:omdGovernmentFTECostsFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:omdGovernmentFTECostsFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-response:governmentFTENumberPY-1" minOccurs="0"/>
         <element ref="businessCase-response:governmentFTENumberPY" minOccurs="0"/>
         <element ref="businessCase-response:governmentFTENumberCY" minOccurs="0"/>
         <element ref="businessCase-response:governmentFTENumberBY" minOccurs="0"/>
-        <element ref="businessCase-response:governmentFTENumberBY_1" minOccurs="0"/>
-        <element ref="businessCase-response:governmentFTENumberBY_2" minOccurs="0"/>
-        <element ref="businessCase-response:governmentFTENumberBY_3" minOccurs="0"/>
-        <element ref="businessCase-response:governmentFTENumberBY_4_Beyond" minOccurs="0"/>
+        <element ref="businessCase-response:governmentFTENumberFY_1" minOccurs="0"/>
+        <element ref="businessCase-response:governmentFTENumberFY_2" minOccurs="0"/>
+        <element ref="businessCase-response:governmentFTENumberFY_3" minOccurs="0"/>
+        <element ref="businessCase-response:governmentFTENumberFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-response:priorYearCostChangePY" minOccurs="0"/>
         <element ref="businessCase-response:priorYearCostChangeCY" minOccurs="0"/>
         <element ref="businessCase-response:priorYearCostPercentageChangePY" minOccurs="0"/>
@@ -313,7 +313,7 @@
         <element ref="businessCase-response:investmentRiskId"/>
         <element ref="businessCase-response:agencyInvestmentRiskId" minOccurs="0"/>
         <element ref="businessCase-response:investmentRiskName" minOccurs="0"/>
-        <element ref="businessCase-response:investmentRiskCategory" minOccurs="0"/>
+        <element ref="businessCase-response:investmentRiskArea" minOccurs="0"/>
         <element ref="businessCase-response:investmentRiskProbability" minOccurs="0"/>
         <element ref="businessCase-response:investmentRiskImpact" minOccurs="0"/>
         <element ref="businessCase-response:investmentRiskMitigationPlan" minOccurs="0"/>
@@ -491,8 +491,8 @@
   <element name="objectiveOrGoalID" type="integer"/>
   <element name="agencyObjectiveOrGoalID" type="businessCase-type:shortTextString"/>
   <element name="objectiveOrGoal" type="businessCase-type:objectiveOrGoalType"/>
-  <element name="programCodeFPI" type="businessCase-type:programCodeFPIType"/>
   <element name="investmentSharedService" type="businessCase-facet:yesNoString"/>
+  <element name="plannedSharedService" type="businessCase-facet:yesNoString"/>
   <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
   <element name="publicURL" type="businessCase-type:URLString"/>
   <element name="ombControlNumber" type="businessCase-type:longTextString"/>
@@ -505,7 +505,7 @@
   <element name="agencyInvestmentEliminatedorReducedID" type="businessCase-type:shortTextString"/>
   <element name="eliminationReduction" type="businessCase-facet:eliminationReductionType"/>
   <element name="isActive" type="businessCase-facet:isActiveString"/>
-  <element name="returnOnInvestmentDescription" type="businessCase-type:longTextString"/>
+  <element name="returnOnInvestmentDescription" type="businessCase-type:string3500"/>
   <element name="investmentRequirements" type="businessCase-type:longTextString"/>
 
   <element name="contactInformation" type="businessCase-response:contactInformationType"/>
@@ -526,50 +526,50 @@
   <element name="planningBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="planningBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="planningBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="planningBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="planningBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="planningBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="planningBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="planningBudgetaryResourcesFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="planningBudgetaryResourcesFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="dmeBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="dmeBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeBudgetaryResourcesFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeBudgetaryResourcesFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesBY" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="maintenanceBudgetaryResourcesBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="maintenanceBudgetaryResourcesBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="maintenanceBudgetaryResourcesBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="maintenanceBudgetaryResourcesBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="maintenanceBudgetaryResourcesFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="dmeGovernmentFTECostsPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="dmeGovernmentFTECostsPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeGovernmentFTECostsCY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeGovernmentFTECostsBY" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeGovernmentFTECostsBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeGovernmentFTECostsBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeGovernmentFTECostsBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeGovernmentFTECostsBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="dmeGovernmentFTECostsFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="dmeGovernmentFTECostsFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="omdGovernmentFTECostsPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="omdGovernmentFTECostsPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="omdGovernmentFTECostsCY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="omdGovernmentFTECostsBY" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="omdGovernmentFTECostsBY_1" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="omdGovernmentFTECostsBY_2" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="omdGovernmentFTECostsBY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="omdGovernmentFTECostsBY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
+  <element name="omdGovernmentFTECostsFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
+  <element name="omdGovernmentFTECostsFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="governmentFTENumberPY-1" type="businessCase-type:governmentFTENumberType" nillable="true"/>
   <element name="governmentFTENumberPY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
   <element name="governmentFTENumberCY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
   <element name="governmentFTENumberBY" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-  <element name="governmentFTENumberBY_1" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-  <element name="governmentFTENumberBY_2" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-  <element name="governmentFTENumberBY_3" type="businessCase-type:governmentFTENumberType" nillable="true"/>
-  <element name="governmentFTENumberBY_4_Beyond" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberFY_1" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberFY_2" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberFY_3" type="businessCase-type:governmentFTENumberType" nillable="true"/>
+  <element name="governmentFTENumberFY_4_Beyond" type="businessCase-type:governmentFTENumberType" nillable="true"/>
   <element name="priorYearCostChangePY" type="businessCase-type:negativeDollarAmount" nillable="true"/>
   <element name="priorYearCostChangeCY" type="businessCase-type:negativeDollarAmount" nillable="true"/>
   <element name="priorYearCostPercentageChangePY" type="businessCase-type:ITPercentage" nillable="true"/>
@@ -615,7 +615,7 @@
   <element name="investmentRiskId" type="integer"/>
   <element name="agencyInvestmentRiskId" type="businessCase-type:shortTextString"/>
   <element name="investmentRiskName" type="businessCase-type:mediumTextString"/>
-  <element name="investmentRiskCategory" type="businessCase-facet:riskType"/>
+  <element name="investmentRiskArea" type="businessCase-facet:riskType"/>
   <element name="investmentRiskProbability" type="businessCase-facet:impactType"/>
   <element name="investmentRiskImpact" type="businessCase-facet:impactType"/>
   <element name="investmentRiskMitigationPlan" type="businessCase-type:mediumTextString"/>

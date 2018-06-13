@@ -37,6 +37,7 @@
                 </response-ITBudget-ext:CurrentYear>
                 <response-ITBudget-ext:BudgetYear>
                     <response-ITBudget-ext:AgencyFundingAmount>30.000000</response-ITBudget-ext:AgencyFundingAmount>
+                    <response-ITBudget-ext:BudgetAuthorityAgencyFundingAmount>30.000000</response-ITBudget-ext:BudgetAuthorityAgencyFundingAmount>
                     <response-ITBudget-ext:AgencyContributionAmount>3.000000</response-ITBudget-ext:AgencyContributionAmount>
                 </response-ITBudget-ext:BudgetYear>
             </response-ITBudget-ext:OandM>
@@ -51,6 +52,7 @@
                 </response-ITBudget-ext:CurrentYear>
                 <response-ITBudget-ext:BudgetYear>
                     <response-ITBudget-ext:AgencyFundingAmount>30.000000</response-ITBudget-ext:AgencyFundingAmount>
+                    <response-ITBudget-ext:BudgetAuthorityAgencyFundingAmount>30.000000</response-ITBudget-ext:BudgetAuthorityAgencyFundingAmount>
                     <response-ITBudget-ext:AgencyContributionAmount>3.000000</response-ITBudget-ext:AgencyContributionAmount>
                 </response-ITBudget-ext:BudgetYear>
             </response-ITBudget-ext:DME>
@@ -239,6 +241,7 @@
                     <response-ITBudget-ext:CurrentYearAmount>0</response-ITBudget-ext:CurrentYearAmount>
                     <response-ITBudget-ext:BudgetYearAmount>0</response-ITBudget-ext:BudgetYearAmount>
                 </response-ITBudget-ext:TotalAgencyFunding>
+                <response-ITBudget-ext:TotalAgencyFundingBYBudgetAuthorityAmount>0</response-ITBudget-ext:TotalAgencyFundingBYBudgetAuthorityAmount>
             </response-ITBudget-ext:BudgetAccount>
         </response-ITBudget-ext:BudgetAccountSummary>
         <response-ITBudget-ext:MessageInformation>

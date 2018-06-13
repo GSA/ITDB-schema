@@ -60,7 +60,7 @@
         <investmentRiskId>0</investmentRiskId>
         <agencyInvestmentRiskId>a</agencyInvestmentRiskId>
         <investmentRiskName>a</investmentRiskName>
-        <investmentRiskCategory>16</investmentRiskCategory>
+        <investmentRiskArea>16</investmentRiskArea>
         <investmentRiskProbability>Medium</investmentRiskProbability>
         <investmentRiskImpact>Medium</investmentRiskImpact>
         <investmentRiskMitigationPlan>a</investmentRiskMitigationPlan>
@@ -69,7 +69,7 @@
       <addInvestmentRisk id="String">
         <agencyInvestmentRiskId>a</agencyInvestmentRiskId>
         <investmentRiskName>a</investmentRiskName>
-        <investmentRiskCategory>17</investmentRiskCategory>
+        <investmentRiskArea>17</investmentRiskArea>
         <investmentRiskProbability>High</investmentRiskProbability>
         <investmentRiskImpact>High</investmentRiskImpact>
         <investmentRiskMitigationPlan>a</investmentRiskMitigationPlan>
@@ -421,50 +421,50 @@
 			<planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
 			<planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
 			<planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
-			<planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
-			<planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
-			<planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
-			<planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+			<planningBudgetaryResourcesFY_1>10000</planningBudgetaryResourcesFY_1>
+			<planningBudgetaryResourcesFY_2>10000</planningBudgetaryResourcesFY_2>
+			<planningBudgetaryResourcesFY_3>10000</planningBudgetaryResourcesFY_3>
+			<planningBudgetaryResourcesFY_4_Beyond>0</planningBudgetaryResourcesFY_4_Beyond>
 			<dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
 			<dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
 			<dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
 			<dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
-			<dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
-			<dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
-			<dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
-			<dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>          
+			<dmeBudgetaryResourcesFY_1>10000</dmeBudgetaryResourcesFY_1>
+			<dmeBudgetaryResourcesFY_2>10000</dmeBudgetaryResourcesFY_2>
+			<dmeBudgetaryResourcesFY_3>10000</dmeBudgetaryResourcesFY_3>
+			<dmeBudgetaryResourcesFY_4_Beyond>0</dmeBudgetaryResourcesFY_4_Beyond>          
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>
             <dmeGovernmentFTECostsBY>10000</dmeGovernmentFTECostsBY>
-            <dmeGovernmentFTECostsBY_1>10000</dmeGovernmentFTECostsBY_1>
-            <dmeGovernmentFTECostsBY_2>10000</dmeGovernmentFTECostsBY_2>
-            <dmeGovernmentFTECostsBY_3>10000</dmeGovernmentFTECostsBY_3>
-            <dmeGovernmentFTECostsBY_4_Beyond>0</dmeGovernmentFTECostsBY_4_Beyond>
+            <dmeGovernmentFTECostsFY_1>10000</dmeGovernmentFTECostsFY_1>
+            <dmeGovernmentFTECostsFY_2>10000</dmeGovernmentFTECostsFY_2>
+            <dmeGovernmentFTECostsFY_3>10000</dmeGovernmentFTECostsFY_3>
+            <dmeGovernmentFTECostsFY_4_Beyond>0</dmeGovernmentFTECostsFY_4_Beyond>
             <maintenanceBudgetaryResourcesPY-1>0</maintenanceBudgetaryResourcesPY-1>
             <maintenanceBudgetaryResourcesPY>10000</maintenanceBudgetaryResourcesPY>
             <maintenanceBudgetaryResourcesCY>10000</maintenanceBudgetaryResourcesCY>
             <maintenanceBudgetaryResourcesBY>10000</maintenanceBudgetaryResourcesBY>
-            <maintenanceBudgetaryResourcesBY_1>10000</maintenanceBudgetaryResourcesBY_1>
-            <maintenanceBudgetaryResourcesBY_2>10000</maintenanceBudgetaryResourcesBY_2>
-            <maintenanceBudgetaryResourcesBY_3>10000</maintenanceBudgetaryResourcesBY_3>
-            <maintenanceBudgetaryResourcesBY_4_Beyond>0</maintenanceBudgetaryResourcesBY_4_Beyond>
+            <maintenanceBudgetaryResourcesFY_1>10000</maintenanceBudgetaryResourcesFY_1>
+            <maintenanceBudgetaryResourcesFY_2>10000</maintenanceBudgetaryResourcesFY_2>
+            <maintenanceBudgetaryResourcesFY_3>10000</maintenanceBudgetaryResourcesFY_3>
+            <maintenanceBudgetaryResourcesFY_4_Beyond>0</maintenanceBudgetaryResourcesFY_4_Beyond>
             <omdGovernmentFTECostsPY-1>0</omdGovernmentFTECostsPY-1>
             <omdGovernmentFTECostsPY>10000</omdGovernmentFTECostsPY>
             <omdGovernmentFTECostsCY>10000</omdGovernmentFTECostsCY>
             <omdGovernmentFTECostsBY>10000</omdGovernmentFTECostsBY>
-            <omdGovernmentFTECostsBY_1>10000</omdGovernmentFTECostsBY_1>
-            <omdGovernmentFTECostsBY_2>10000</omdGovernmentFTECostsBY_2>
-            <omdGovernmentFTECostsBY_3>10000</omdGovernmentFTECostsBY_3>
-            <omdGovernmentFTECostsBY_4_Beyond>0</omdGovernmentFTECostsBY_4_Beyond>
+            <omdGovernmentFTECostsFY_1>10000</omdGovernmentFTECostsFY_1>
+            <omdGovernmentFTECostsFY_2>10000</omdGovernmentFTECostsFY_2>
+            <omdGovernmentFTECostsFY_3>10000</omdGovernmentFTECostsFY_3>
+            <omdGovernmentFTECostsFY_4_Beyond>0</omdGovernmentFTECostsFY_4_Beyond>
             <governmentFTENumberPY-1>0</governmentFTENumberPY-1>
             <governmentFTENumberPY>0</governmentFTENumberPY>
             <governmentFTENumberCY>0</governmentFTENumberCY>
             <governmentFTENumberBY>0</governmentFTENumberBY>
-            <governmentFTENumberBY_1>0</governmentFTENumberBY_1>
-            <governmentFTENumberBY_2>0</governmentFTENumberBY_2>
-            <governmentFTENumberBY_3>0</governmentFTENumberBY_3>
-            <governmentFTENumberBY_4_Beyond>0</governmentFTENumberBY_4_Beyond>
+            <governmentFTENumberFY_1>0</governmentFTENumberFY_1>
+            <governmentFTENumberFY_2>0</governmentFTENumberFY_2>
+            <governmentFTENumberFY_3>0</governmentFTENumberFY_3>
+            <governmentFTENumberFY_4_Beyond>0</governmentFTENumberFY_4_Beyond>
             <priorYearCostChangePY>10000</priorYearCostChangePY>
             <priorYearCostChangeCY>10000</priorYearCostChangeCY>
             <priorYearCostPercentageChangePY>0</priorYearCostPercentageChangePY>
@@ -490,7 +490,6 @@
         </objectivesOrGoals>
         <returnOnInvestmentDescription>a</returnOnInvestmentDescription>
         <investmentRequirements>a</investmentRequirements>
-        <programCodeFPI>000-000</programCodeFPI>
         <investmentsEliminatedorReduced>
           <addInvestmentEliminatedorReduced>
             <agencyInvestmentEliminatedorReducedID>0</agencyInvestmentEliminatedorReducedID>
@@ -506,6 +505,7 @@
           </updateInvestmentEliminatedorReduced>
         </investmentsEliminatedorReduced>
         <investmentSharedService>no</investmentSharedService>
+        <plannedSharedService>no</plannedSharedService>
         <investmentPivEnabled>yes</investmentPivEnabled>
         <publicURLs>
           <publicURL>http:://agency.gov</publicURL>
@@ -523,50 +523,50 @@
 			<planningBudgetaryResourcesPY>10000</planningBudgetaryResourcesPY>
 			<planningBudgetaryResourcesCY>10000</planningBudgetaryResourcesCY>
 			<planningBudgetaryResourcesBY>10000</planningBudgetaryResourcesBY>
-			<planningBudgetaryResourcesBY_1>10000</planningBudgetaryResourcesBY_1>
-			<planningBudgetaryResourcesBY_2>10000</planningBudgetaryResourcesBY_2>
-			<planningBudgetaryResourcesBY_3>10000</planningBudgetaryResourcesBY_3>
-			<planningBudgetaryResourcesBY_4_Beyond>0</planningBudgetaryResourcesBY_4_Beyond>
+			<planningBudgetaryResourcesFY_1>10000</planningBudgetaryResourcesFY_1>
+			<planningBudgetaryResourcesFY_2>10000</planningBudgetaryResourcesFY_2>
+			<planningBudgetaryResourcesFY_3>10000</planningBudgetaryResourcesFY_3>
+			<planningBudgetaryResourcesFY_4_Beyond>0</planningBudgetaryResourcesFY_4_Beyond>
 			<dmeBudgetaryResourcesPY-1>0</dmeBudgetaryResourcesPY-1>
 			<dmeBudgetaryResourcesPY>10000</dmeBudgetaryResourcesPY>
 			<dmeBudgetaryResourcesCY>10000</dmeBudgetaryResourcesCY>
 			<dmeBudgetaryResourcesBY>10000</dmeBudgetaryResourcesBY>
-			<dmeBudgetaryResourcesBY_1>10000</dmeBudgetaryResourcesBY_1>
-			<dmeBudgetaryResourcesBY_2>10000</dmeBudgetaryResourcesBY_2>
-			<dmeBudgetaryResourcesBY_3>10000</dmeBudgetaryResourcesBY_3>
-			<dmeBudgetaryResourcesBY_4_Beyond>0</dmeBudgetaryResourcesBY_4_Beyond>           
+			<dmeBudgetaryResourcesFY_1>10000</dmeBudgetaryResourcesFY_1>
+			<dmeBudgetaryResourcesFY_2>10000</dmeBudgetaryResourcesFY_2>
+			<dmeBudgetaryResourcesFY_3>10000</dmeBudgetaryResourcesFY_3>
+			<dmeBudgetaryResourcesFY_4_Beyond>0</dmeBudgetaryResourcesFY_4_Beyond>           
             <dmeGovernmentFTECostsPY-1>0</dmeGovernmentFTECostsPY-1>
             <dmeGovernmentFTECostsPY>10000</dmeGovernmentFTECostsPY>
             <dmeGovernmentFTECostsCY>10000</dmeGovernmentFTECostsCY>
             <dmeGovernmentFTECostsBY>10000</dmeGovernmentFTECostsBY>
-            <dmeGovernmentFTECostsBY_1>10000</dmeGovernmentFTECostsBY_1>
-            <dmeGovernmentFTECostsBY_2>10000</dmeGovernmentFTECostsBY_2>
-            <dmeGovernmentFTECostsBY_3>10000</dmeGovernmentFTECostsBY_3>
-            <dmeGovernmentFTECostsBY_4_Beyond>0</dmeGovernmentFTECostsBY_4_Beyond>
+            <dmeGovernmentFTECostsFY_1>10000</dmeGovernmentFTECostsFY_1>
+            <dmeGovernmentFTECostsFY_2>10000</dmeGovernmentFTECostsFY_2>
+            <dmeGovernmentFTECostsFY_3>10000</dmeGovernmentFTECostsFY_3>
+            <dmeGovernmentFTECostsFY_4_Beyond>0</dmeGovernmentFTECostsFY_4_Beyond>
             <maintenanceBudgetaryResourcesPY-1>0</maintenanceBudgetaryResourcesPY-1>
             <maintenanceBudgetaryResourcesPY>10000</maintenanceBudgetaryResourcesPY>
             <maintenanceBudgetaryResourcesCY>10000</maintenanceBudgetaryResourcesCY>
             <maintenanceBudgetaryResourcesBY>10000</maintenanceBudgetaryResourcesBY>
-            <maintenanceBudgetaryResourcesBY_1>10000</maintenanceBudgetaryResourcesBY_1>
-            <maintenanceBudgetaryResourcesBY_2>10000</maintenanceBudgetaryResourcesBY_2>
-            <maintenanceBudgetaryResourcesBY_3>10000</maintenanceBudgetaryResourcesBY_3>
-            <maintenanceBudgetaryResourcesBY_4_Beyond>0</maintenanceBudgetaryResourcesBY_4_Beyond>
+            <maintenanceBudgetaryResourcesFY_1>10000</maintenanceBudgetaryResourcesFY_1>
+            <maintenanceBudgetaryResourcesFY_2>10000</maintenanceBudgetaryResourcesFY_2>
+            <maintenanceBudgetaryResourcesFY_3>10000</maintenanceBudgetaryResourcesFY_3>
+            <maintenanceBudgetaryResourcesFY_4_Beyond>0</maintenanceBudgetaryResourcesFY_4_Beyond>
             <omdGovernmentFTECostsPY-1>0</omdGovernmentFTECostsPY-1>
             <omdGovernmentFTECostsPY>10000</omdGovernmentFTECostsPY>
             <omdGovernmentFTECostsCY>10000</omdGovernmentFTECostsCY>
             <omdGovernmentFTECostsBY>10000</omdGovernmentFTECostsBY>
-            <omdGovernmentFTECostsBY_1>10000</omdGovernmentFTECostsBY_1>
-            <omdGovernmentFTECostsBY_2>10000</omdGovernmentFTECostsBY_2>
-            <omdGovernmentFTECostsBY_3>10000</omdGovernmentFTECostsBY_3>
-            <omdGovernmentFTECostsBY_4_Beyond>0</omdGovernmentFTECostsBY_4_Beyond>
+            <omdGovernmentFTECostsFY_1>10000</omdGovernmentFTECostsFY_1>
+            <omdGovernmentFTECostsFY_2>10000</omdGovernmentFTECostsFY_2>
+            <omdGovernmentFTECostsFY_3>10000</omdGovernmentFTECostsFY_3>
+            <omdGovernmentFTECostsFY_4_Beyond>0</omdGovernmentFTECostsFY_4_Beyond>
             <governmentFTENumberPY-1>0</governmentFTENumberPY-1>
             <governmentFTENumberPY>0</governmentFTENumberPY>
             <governmentFTENumberCY>0</governmentFTENumberCY>
             <governmentFTENumberBY>0</governmentFTENumberBY>
-            <governmentFTENumberBY_1>0</governmentFTENumberBY_1>
-            <governmentFTENumberBY_2>0</governmentFTENumberBY_2>
-            <governmentFTENumberBY_3>0</governmentFTENumberBY_3>
-            <governmentFTENumberBY_4_Beyond>0</governmentFTENumberBY_4_Beyond>
+            <governmentFTENumberFY_1>0</governmentFTENumberFY_1>
+            <governmentFTENumberFY_2>0</governmentFTENumberFY_2>
+            <governmentFTENumberFY_3>0</governmentFTENumberFY_3>
+            <governmentFTENumberFY_4_Beyond>0</governmentFTENumberFY_4_Beyond>
             <priorYearCostChangePY>10000</priorYearCostChangePY>
             <priorYearCostChangeCY>10000</priorYearCostChangeCY>
             <priorYearCostPercentageChangePY>0</priorYearCostPercentageChangePY>

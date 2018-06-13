@@ -9,6 +9,11 @@
 
 <schema xmlns:businessCase-type="urn:us:gov:businessCase-type" targetNamespace="urn:us:gov:businessCase-type"
         version="FY_2016" xmlns="http://www.w3.org/2001/XMLSchema">
+  <simpleType name="string3500">
+    <restriction base="string">
+      <maxLength value="3500"/>
+    </restriction>
+  </simpleType>
   <simpleType name="longTextString">
     <restriction base="string">
       <maxLength value="2500"/>
@@ -160,11 +165,6 @@
   <simpleType name="governmentFTENumberType">
     <restriction base="decimal">
       <pattern value="([0-9]{1,10})?(\.[0-9]{1,2})?"/>
-    </restriction>
-  </simpleType>
-  <simpleType name="programCodeFPIType">
-    <restriction base="string">
-      <pattern value="[0-9]{3}\-[0-9]{3}"/>
     </restriction>
   </simpleType>
 </schema>

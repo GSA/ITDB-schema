@@ -32,6 +32,11 @@
                 <!--<SOCID></SOCID>-->
                 <agencySOCID>SOC2-Service</agencySOCID>
                 <isService>Y</isService>
+                <coveredEntities>
+                    <coveredEntity>018</coveredEntity>
+                    <coveredEntity>007</coveredEntity>
+                    <coveredEntity>91300</coveredEntity>
+                </coveredEntities>
                 <serviceProviderType>Government</serviceProviderType>
                 <providerEntity>007</providerEntity>
                 <PYCosts>10.1</PYCosts>

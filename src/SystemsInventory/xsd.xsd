@@ -13,6 +13,7 @@
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
                                         <xs:element name='UII'/>
                                         <xs:element name='agencySystemsInventoryID'/>
+                                        <xs:element name='systemsInventoryID'/>
                                         <xs:element name='systemName'/>
                                         <xs:element name='averageUsersPerMonth'/>
                                         <xs:element name='initialOperatingYear'/>
@@ -27,7 +28,7 @@
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <xs:element name='operation' type='operation'/>
                                                     <xs:element name='productID'/>
-                                                    <xs:element name='productAgencyID'/>
+                                                    <xs:element name='agencyProductID'/>
                                                     <xs:element name='productName'/>
                                                     <xs:element name='vendorName'/>
                                                     <xs:element name='versionNumber'/>
