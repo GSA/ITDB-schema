@@ -91,17 +91,19 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__modules_core_intro_intro_component__ = __webpack_require__("../../../../../src/app/modules/core/intro/intro.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__modules_list_schedule_schedule_component__ = __webpack_require__("../../../../../src/app/modules/list/schedule/schedule.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__modules_list_issue_issue_component__ = __webpack_require__("../../../../../src/app/modules/list/issue/issue.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__modules_list_code_code_component__ = __webpack_require__("../../../../../src/app/modules/list/code/code.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__modules_list_code_schema_schema_component__ = __webpack_require__("../../../../../src/app/modules/list/code/schema/schema.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__modules_list_validation_validation_component__ = __webpack_require__("../../../../../src/app/modules/list/validation/validation.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__modules_core_addendums_addendums_component__ = __webpack_require__("../../../../../src/app/modules/core/addendums/addendums.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__modules_list_dictionary_dictionary_component__ = __webpack_require__("../../../../../src/app/modules/list/dictionary/dictionary.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__modules_list_issue_issue_component__ = __webpack_require__("../../../../../src/app/modules/list/issue/issue.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__modules_list_code_code_component__ = __webpack_require__("../../../../../src/app/modules/list/code/code.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__modules_list_code_schema_schema_component__ = __webpack_require__("../../../../../src/app/modules/list/code/schema/schema.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__modules_list_validation_validation_component__ = __webpack_require__("../../../../../src/app/modules/list/validation/validation.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__modules_core_addendums_addendums_component__ = __webpack_require__("../../../../../src/app/modules/core/addendums/addendums.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -143,29 +145,33 @@ var routes = [
     {
         path: 'issues/:state',
         pathMatch: 'full',
-        component: __WEBPACK_IMPORTED_MODULE_14__modules_list_issue_issue_component__["a" /* IssueComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_15__modules_list_issue_issue_component__["a" /* IssueComponent */]
     },
     {
         path: 'schema',
         pathMatch: 'full',
-        component: __WEBPACK_IMPORTED_MODULE_15__modules_list_code_code_component__["a" /* CodeComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_16__modules_list_code_code_component__["a" /* CodeComponent */]
     },
     {
         path: 'schema/:schemaCat',
         pathMatch: 'full',
-        component: __WEBPACK_IMPORTED_MODULE_15__modules_list_code_code_component__["a" /* CodeComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_16__modules_list_code_code_component__["a" /* CodeComponent */]
     },
     {
         path: 'schema/:schemaCat/:schema',
-        component: __WEBPACK_IMPORTED_MODULE_16__modules_list_code_schema_schema_component__["a" /* SchemaComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_17__modules_list_code_schema_schema_component__["a" /* SchemaComponent */]
     },
     {
         path: 'validations',
-        component: __WEBPACK_IMPORTED_MODULE_17__modules_list_validation_validation_component__["a" /* ValidationComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_18__modules_list_validation_validation_component__["a" /* ValidationComponent */]
+    },
+    {
+        path: 'dictionary',
+        component: __WEBPACK_IMPORTED_MODULE_14__modules_list_dictionary_dictionary_component__["a" /* DictionaryComponent */]
     },
     {
         path: 'addendums',
-        component: __WEBPACK_IMPORTED_MODULE_18__modules_core_addendums_addendums_component__["a" /* AddendumsComponent */]
+        component: __WEBPACK_IMPORTED_MODULE_19__modules_core_addendums_addendums_component__["a" /* AddendumsComponent */]
     },
     {
         path: '**',
@@ -179,7 +185,7 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__modules_list_code_schema_schema_component__["a" /* SchemaComponent */]
+                __WEBPACK_IMPORTED_MODULE_17__modules_list_code_schema_schema_component__["a" /* SchemaComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -455,7 +461,7 @@ var IntroComponent = /** @class */ (function () {
 /***/ "../../../../../src/app/modules/core/mainnav/mainnav.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header [class.open]=\"navOpen\" role=\"header\">\n  <a routerLink=\"/intro\" class=\"site-name\">CPIC</a>\n  <button (click)=\"navOpen = !navOpen\" class=\"nav-toggle button-ghost\">Menu<span>▾</span></button>\n  <nav role=\"navigation\">\n    <ul id=\"nav\">\n      <li><a routerLink=\"/schedule\" routerLinkActive=\"active\">Schedule</a></li>\n      <li><a routerLink=\"/issues\" routerLinkActive=\"active\">Issues</a></li>\n      <li><a routerLink=\"/schema\" routerLinkActive=\"active\">Schema</a></li>\n      <li><a routerLink=\"/validations\" routerLinkActive=\"active\">Validations</a></li>\n      <li><a routerLink=\"/addendums\" routerLinkActive=\"active\">Guidance Addendums</a></li>\n    </ul>\n  </nav>\n</header>\n"
+module.exports = "<header [class.open]=\"navOpen\" role=\"header\">\n  <a routerLink=\"/intro\" class=\"site-name\">CPIC</a>\n  <button (click)=\"navOpen = !navOpen\" class=\"nav-toggle button-ghost\">Menu<span>▾</span></button>\n  <nav role=\"navigation\">\n    <ul id=\"nav\">\n      <li><a routerLink=\"/schedule\" routerLinkActive=\"active\">Schedule</a></li>\n      <li><a routerLink=\"/issues\" routerLinkActive=\"active\">Issues</a></li>\n      <li><a routerLink=\"/schema\" routerLinkActive=\"active\">Schema</a></li>\n      <li><a routerLink=\"/dictionary\" routerLinkActive=\"active\">Data Dictionary</a></li>\n      <li><a routerLink=\"/validations\" routerLinkActive=\"active\">Validations</a></li>\n      <li><a routerLink=\"/addendums\" routerLinkActive=\"active\">Guidance Addendums</a></li>\n    </ul>\n  </nav>\n</header>\n"
 
 /***/ }),
 
@@ -1118,7 +1124,14 @@ var SchemaComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/modules/list/dictionary/dictionary.component.css":
+/***/ "../../../../../src/app/modules/list/dictionary/dictionary.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<article>\n  <h1>Data Dictionary</h1> \n\n<div>\n<div *ngFor=\"let item of dict; let i = index\" [attr.data-index]=\"i\">\n<section>\n    <a (click)=\"isOpen[i] = !isOpen[i]\"> <span class=\"type\">{{ item['Database Type'] }}</span>  <span>{{ item['XML Elements']}}</span></a>\n</section>\n\n<aside>\n        <div *ngIf=\"isOpen[i]\">\n          <ul>\n            <li>{{item.body}}</li>\n            <li><strong>Guidance:</strong> {{ item['Guidance Section']}}:{{item['Guidance Subsection']}}</li>\n            <li><strong>Example:</strong> {{ item['Example']}}</li>\n            <li><strong>Required:</strong> {{ item['Field Requirement']}}</li>\n            <li><strong>Description:</strong> {{ item['Description'] }}</li>\n            <li><strong>BA Comment:</strong> {{ item['BA Comment'] }}</li>\n          </ul>\n        </div>\n      </aside>\n</div>\n</div>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/modules/list/dictionary/dictionary.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
@@ -1126,7 +1139,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/*\n  Directives\n  ---------------------\n\n  Table of Contents:\n\n   1. Color Variations function\n   2. Gradient mixin\n   3. Chart Series Colors function\n   4. Breakpoints mixin\n   5. String Replacement function\n   6. Font Face Declaration mixin\n   7. State Colors mixins\n   8. Power function\n   9. Modular Scale Typography function\n  10. Max-Width mixin\n  11. Grid Builder mixin\n  12. Link Underline mixin\n*/\n/*\n   1. Color Variations function\n\n      color($key, $luminosity, $alpha)\n\n      Uses the $colors list as defined in _settings.scss (@section 1a).\n\n      The color() function takes three parameters, only the first of which is required. You must\n      pass in the color name ($key) - this will render the base color:\n\n        color(blue) - will render the BASE blue, equivalent to #3871c7 or rgba(56, 113, 199, 1)\n\n      You may pass in an optional brightness variable ($luminosity), which can be any percentage,\n      though it is recommended to use only multiples of ten: 10, 20, 30 ... 80, 90. The higher\n      the number, the brighter the color:\n\n        color(blue, 20) - will render a very DARK blue, equivalent to #162d50 or\n                          rgba(56, 113, 199, 1)\n        color(blue, 50) - will render the BASE blue, equivalent to #3871c7 or\n                          rgba(56, 113, 199, 1)\n        color(blue, 80) - will render a very LIGHT blue, equivalent to #afc6e9 or\n                          rgba(56, 113, 199, 1)\n\n      color(black) and color(white) are special cases in that their brightness is set by\n      definition and cannot be adjusted:\n\n        color(black) - is the same as color(grey, 0), equivalent to #000000 or\n                       rgba(0, 0, 0, 1)\n        color(white) - is the same as color(grey, 100), equivalent to #ffffff or\n                       rgba(255, 255, 255, 1)\n\n      You may pass in an optional opacity variable ($alpha), which can be any percentage, though\n      it is recommended to use only multiples of ten: 10, 20, 30 ... 80, 90. If you want to use\n      $alpha, you MUST also pass a $luminosity — it is recommended to always pass 50 so that you\n      are creating only transparent versions of the BASE color. The higher the number, the more\n      opaque the color:\n\n        color(blue, 50, 20) -  will render a NEARLY TRANSPARENT base blue, equivalent to\n                               rgba(56, 113, 199, 0.2)\n        color(blue, 50, 50) -  will render a HALF TRANSPARENT base blue, equivalent to\n                               rgba(56, 113, 199, 0.5)\n        color(blue, 50, 100) - will render a COMPLETELY OPAQUE base blue, equivalent to\n                               rgba(56, 113, 199, 1)\n\n      Unlike brightness, opacity CAN be set on color(black) and color(white):\n\n        color(black, 0, 20) -   will render a NEARLY TRANSPARENT black equivalent to\n                                rgba(0, 0, 0, 0.2)\n        color(white, 100, 50) - will render a HALF TRANSPARENT white, equivalent to\n                                rgba(255, 255, 255, 0.5)\n*/\n/*\n   2. Gradient mixin\n\n      gradient($color1, $color2, $color3)\n\n      The gradient() mixin takes up to three parameters, the first of which is a direction, and\n      the others of which are color names defined in $colors list in _settings.scss (@section 1a).\n      The mixin returns a linear gradient as a background-image using the color(s) pased.\n\n      The direction is the direction where your gradient will go. The possible directions are:\n      top, bottom, left, right, top left, top right, bottom left, bottom right.\n\n      If you pass a single color, the mixin will return a gradient from luminosity 30 to\n      luminosity 70.\n\n      If you pass two colors, the mixin will return a gradient from one to the other, both with\n      luminosity 50.\n*/\n/*\n   3. Chart Series Colors function\n\n      chart-series($series)\n\n      Uses the $chart-series list as defined in _settings.scss (@section 1b).\n\n      The chart-series() function takes a single required parameter. You must pass in the size\n      name ($series) - this will render the chart color for the named series:\n\n        chart-series(0) - will render the color of the first series\n        chart-series(1) - will render the color of the second series\n        ...\n        chart-series(11) - will render the color of the ninth series\n*/\n/*\n   4. Breakpoints mixin\n\n      @include breakpoint($point)\n\n      The breakpoint() function takes a single required parameter. You must pass in the breakpoint\n      name or a number ($point). If a breakpoint name is passed, the $breakpoints list as\n      defined in _settings.scss (@section 3) is used for a mininum-width. If a number is passed,\n      that number of pixels is used as a minimum-width.\n\n      Ithis will cause any styles between the {} brackets to be applied only to\n      screen sizes wider than the breakpoint passed:\n\n      @include breakpoint(m) {\n        font-size: 18px;\n      }\n\n      ...will set the font-size to '18px' on any screen larger than the medium breakpoint size.\n\n      @include breakpoint(1024) {\n        font-weight: bold;\n      }\n\n      ...will set the font-weight to 'bold' on any screen larger than 1024 pixels wide.\n*/\n/*\n   5. String Replacement function\n\n      str-replace($string, $search, $replace)\n\n      The str-replace() function takes three parameters, the first two of which are required. You\n      must pass the text to be modified ($string) and the text you want to replace ($search). The\n      third (optional) parameter is the text you want to insert in place of the $search text\n      ($replace). If the $replace parameter is not passed, the $search text will simply be\n      removed. For example:\n\n      .selector {\n        $string: 'The answer to life, the universe and everything is blah.';\n        content: str-replace($string, 'blah', '42');\n      }\n\n      ...will compile to the following CSS...\n\n      .selector {\n        content: 'The answer to life, the universe and everything is 42.';\n      }\n\n      This function is used in the Font Face Declaration mixin defined and documented in\n      _directives.scss (@section 6).\n*/\n/*\n   6. Font Face Declaration mixin\n\n      fontdef($family, $type, $weight, $style, $stretch)\n\n      Uses the $font-families list as defined in _settings.scss (@section 5a).\n\n      The fontdef() mixin takes five parameters, the first two of which are required. You must pass\n      the font family name ($family) and font variant name ($variant) to generate a @font-face\n      definition.\n\n      You can also pass an optional $weight [normal | 100 | 200 | ... | 800 | 900], $style\n      [normal | italic], and $stretch [normal | ultra-condensed | extra-condensed | condensed |\n      semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded]. The optional\n      variables will all default to 'normal' if they are not passed. The $stretch variable is\n      currently not used in our design system, but is available for potential future use.\n\n      For example:\n\n      @include font-def(Fira Sans Condensed, semibolditalic, 600, italic, normal);\n\n      ...will compile to the following CSS...\n\n      @font-face {\n        font-family: 'Fira Sans Condensed';\n        src: url('../fonts/firasanscondensed-semibolditalic.woff') format('woff');\n        font-weight: 600;\n        font-style: italic;\n        font-stretch: normal;\n      }\n\n      This function is used to generate @font-face declarations in _fonts.scss.\n*/\n/*\n   7. State Colors mixins\n\n      state-error()\n      state-info()\n      state-neutral()\n      state-success()\n      state-warning()\n\n      Include these to use standard state colors (border-color, background-color, color) on an element.\n*/\n/*\n   8. Power function\n\n      pow($number, $exponent)\n*/\n/*\n   9. Modular Scale Typography function\n\n      ms($factor)\n*/\n/*\n  10. Max-Width mixin\n\n      constrained($max-width)\n*/\n/*\n  11. Grid Builder mixin\n\n      build-grid()\n*/\n/*\n  12. Link Underline mixin\n\n      link-underline($color)\n*/\n/*\n  IT Dashboard Settings\n  ---------------------\n\n  Table of Contents:\n\n   1. Colors\n      a. Base Colors\n      b. Theme Colors\n      c. Chart Series Colors\n   2. Typography\n      a. Font Face Generation Settings\n      b. Font Stacks\n      c. Font Weights\n      d. Font Sizes\n      e. Line Heights\n   3. Spacing\n   4. Borders\n   5. The Grid\n   6. Off-Canvas\n   7. Visualizations\n   8. Transitions\n   9. Shadows\n*/\n/*\n   1. Colors\n\n   a. Base Colors\n      Reference colors in CSS using the color() function defined and documented in\n      assets/styles/modules/_directives.scss (@section 1).\n*/\n/*\n   b. Theme Colors\n*/\n/*\n   c. Chart Series Colors\n      Reference colors in CSS using the chart-series() function defined and documented in\n      assets/styles/modules/_directives.scss (@section 4).\n*/\n/*\n   2. Typography\n\n   a. Font Face Generation Settings\n      Settings used to generate @font-face declarations in fonts.scss and using the font-def()\n      function defined and documented in assets/styles/modules/_directives.scss (@section 6).\n*/\n/*\n   b. Font Stacks\n      Merriweather - https://github.com/EbenSorkin/Merriweather\n      Merriweather was designed by Eben Sorkin of Sorkin Type, a type design foundry based in\n      Western Massachaussets. Merriweather was designed to be a text face that is pleasant to\n      read on screens. It features a very large x-height, slightly condensed letterforms, a\n      mild diagonal stress, sturdy serifs and open forms.\n*/\n/*\n   c. Font Weights\n      We use the Light (300) weight as a base, and the Bold (700) sparingly for headers\n      and emphasis.\n*/\n/*\n   d. Font Sizes\n      Defined here are the available font sizes.\n*/\n/*\n   e. Line Heights\n*/\n/*\n   3. Spacing\n*/\n/*\n   4. Borders\n*/\n/*\n   5. The Grid\n      Settings related to the overall page grid.\n*/\n/*\n   6. Off-Canvas\n*/\n/*\n   7. Visualizations\n*/\n/*\n   8. Transitions\n*/\n/*\n   9. Shadows\n*/\nh1 > span {\n  float: right;\n  font-size: 0.83333333rem;\n  position: relative;\n  top: -4px; }\nh1 > span ui-switch {\n    position: relative;\n    top: 5px; }\n.type {\n  width: 150px;\n  display: inline-block; }\n.form-filter {\n  background-color: #ebf1f9;\n  border-bottom: 1px solid rgba(22, 45, 80, 0.3);\n  padding: 1rem; }\n", ""]);
 
 // exports
 
@@ -1136,19 +1149,13 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "../../../../../src/app/modules/list/dictionary/dictionary.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  dictionary works!\n</p>\n\n<ul>\n  <li>jak</li>\n</ul>\n"
-
-/***/ }),
-
 /***/ "../../../../../src/app/modules/list/dictionary/dictionary.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DictionaryComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_api_service__ = __webpack_require__("../../../../../src/app/modules/data/api.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1159,18 +1166,74 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var DictionaryComponent = /** @class */ (function () {
-    function DictionaryComponent() {
+    function DictionaryComponent(_api) {
+        this._api = _api;
+        this.isOpen = {};
+        this.validations = [];
+        this.statuses = [];
+        this.sections = [];
+        this.validationTypes = [];
     }
+    DictionaryComponent.prototype.titleCase = function (str) {
+        return str.toLowerCase().split(' ').map(function (word) {
+            return word.replace(word[0], word[0].toUpperCase());
+        }).join(' ');
+    };
     DictionaryComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this._api.loadData('./assets/data/datadictionary.json').subscribe(function (results) {
+            /*
+            const itp = results['ITP Valids'];
+            const bc = results['BC Valids'];
+            const bcd = results['BCD Valids'];
+            const vals = itp.concat(bc, bcd);
+      
+      
+      
+            for (let i = 0; i < vals.length; i++) {
+              for (const key of Object.keys(vals[i])) {
+                switch (key) {
+                  case 'Status':
+                    const status = '<status>' + this.titleCase(vals[i][key]) + '</status>';
+                    vals[i][key] = status;
+                    this.statuses.push(status);
+                    break;
+                  case 'Section':
+                    const sectionIT =
+                      (this.titleCase(vals[i][key]) === 'It Portfolio Summary') ? 'IT Portfolio Summary' : this.titleCase(vals[i][key]);
+                    const section = '<sectionName>' + sectionIT + '</sectionName>';
+                    vals[i][key] = section;
+                    this.sections.push(section);
+                    break;
+                  case 'Validation Type':
+                    const validationType = '<validationType>' + this.titleCase(vals[i][key]) + '</validationType>';
+                    vals[i][key] = validationType;
+                    this.validationTypes.push(validationType);
+                    break;
+                }
+              }
+            }
+      
+            this.statusFilter = '';
+            this.sectionFilter = '';
+            this.validationTypeFilter = '';
+            this.statuses = Array.from(new Set(this.statuses)).sort();
+            this.sections = Array.from(new Set(this.sections)).sort();
+            this.validationTypes = Array.from(new Set(this.validationTypes)).sort();
+            */
+            console.log(results['Guidance Data Dictionary']);
+            _this.dict = results['Guidance Data Dictionary'];
+        });
     };
     DictionaryComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-dictionary',
             template: __webpack_require__("../../../../../src/app/modules/list/dictionary/dictionary.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/modules/list/dictionary/dictionary.component.css")]
+            styles: [__webpack_require__("../../../../../src/app/modules/list/dictionary/dictionary.component.scss")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__data_api_service__["a" /* ApiService */]])
     ], DictionaryComponent);
     return DictionaryComponent;
 }());
