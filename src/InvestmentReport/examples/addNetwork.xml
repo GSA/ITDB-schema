@@ -1,12 +1,12 @@
-<towers>
+<towers validateOnlyIndicator="false">
     <tower>
         <operation>add</operation>
         <towerDetails>
             <UII>018-999990221</UII>
             <description>n101</description>
             <POC>John Doe</POC>
-            <POCEMail>john.doe@agency.gov</POCEMail>
-            <anticipatedEISTransitionDate>N/A</anticipatedEISTransitionDate>
+            <POCEmail>netcontact@mail.gov</POCEmail>
+            <anticipatedEISTransitionDate>02/01/2018</anticipatedEISTransitionDate>
         </towerDetails>
         <investmentCostDetails>
             <investmentCostDetail>
@@ -83,6 +83,12 @@
                 </activities>
             </project>
         </projects>
+        <operationalAnalysis>
+            <operation>add</operation>
+            <dateOfAnalysis>10/17/1991</dateOfAnalysis>
+            <analysisResults>This is a text string.</analysisResults>
+            <analysisConclusion>1</analysisConclusion>
+        </operationalAnalysis>
         <metrics>
             <metric>
                 <operation>add</operation>
@@ -100,7 +106,7 @@
                 <metricActuals>
                     <metricActual>
                         <operation>add</operation>
-                        <agencyMetricActualID>Network-Mertic-123-Actual-123</agencyMetricActualID>
+                        <agencyMetricActualID>Network-Metric-123-Actual-123</agencyMetricActualID>
                         <actualResult>4.5</actualResult>
                         <dateOfActualResult>10/17/1991</dateOfActualResult>
                         <comment>Add actual</comment>

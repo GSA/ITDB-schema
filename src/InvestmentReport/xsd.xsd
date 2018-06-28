@@ -142,6 +142,16 @@
                                     </xs:choice>
                                 </xs:complexType>
                             </xs:element>	
+                            <xs:element name='operationalAnalysis' minOccurs='0' maxOccurs='1'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='operation' type='operation'/>
+                                        <xs:element name='dateOfAnalysis'/>
+                                        <xs:element name='analysisResults'/>
+                                        <xs:element name='analysisConclusion'/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name='metrics' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">

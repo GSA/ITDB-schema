@@ -1,4 +1,4 @@
-<towers>
+<towers validateOnlyIndicator="false">
     <tower>
         <operation>update</operation>
         <towerDetails>

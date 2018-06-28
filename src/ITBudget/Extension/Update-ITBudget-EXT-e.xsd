@@ -113,6 +113,7 @@
                     <xsd:element ref="update-ITBudget-ext:FundingCode"/>
                     <xsd:element ref="update-ITBudget-ext:CIOAuthorityAmount"/>
                     <xsd:element ref="update-ITBudget-ext:TotalAgencyFunding"/>
+                    <xsd:element ref="update-ITBudget-ext:TotalAgencyFundingBYBudgetAuthorityAmount"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -459,6 +460,11 @@
             <xsd:documentation>TBD</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
+    <xsd:element name="TotalAgencyFundingBYBudgetAuthorityAmount" type="nc:AmountType">
+        <xsd:annotation>
+            <xsd:documentation>TBD</xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>    
     <xsd:element name="CloudComputingAlternativesEvaluation" type="ITBudgetFacet:CloudComputingAlternativesEvaluationType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>

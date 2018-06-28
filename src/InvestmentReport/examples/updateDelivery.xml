@@ -1,0 +1,83 @@
+<towers validateOnlyIndicator="false">
+    <tower>
+        <operation>update</operation>
+        <towerDetails>
+            <UII>018-999990228</UII>
+        </towerDetails>
+        <investmentCostDetails>
+            <investmentCostDetail>
+                <category>3</category>
+                <PY>200</PY>
+                <federalFTENumberPY>200.00</federalFTENumberPY>
+                <contractorFTENumberPY>100.00</contractorFTENumberPY>
+                <CY>20</CY>
+                <federalFTENumberCY>200.00</federalFTENumberCY>
+                <contractorFTENumberCY>100.00</contractorFTENumberCY>
+                <BY>220</BY>
+                <federalFTENumberBY>200.00</federalFTENumberBY>
+                <contractorFTENumberBY>100.00</contractorFTENumberBY>
+            </investmentCostDetail>
+        </investmentCostDetails>
+        <operationalAnalysis>
+            <operation>update</operation>
+            <dateOfAnalysis>10/17/1991</dateOfAnalysis>
+            <analysisResults>This is a text string.</analysisResults>
+            <analysisConclusion>1</analysisConclusion>
+        </operationalAnalysis>
+        <metrics>
+            <metric>
+                <operation>update</operation>
+                <agencyMetricID>Delivery-Metric-123</agencyMetricID>
+                <description>Update metric</description>
+                <unitOfMeasure>inches</unitOfMeasure>
+                <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+                <agencyBaselineCapability>5.5</agencyBaselineCapability>
+                <PYTarget>4.5</PYTarget>
+                <CYTarget>5.5</CYTarget>
+                <measurementCondition>Over Target</measurementCondition>
+                <reportingFrequency>Monthly</reportingFrequency>
+                <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
+                <isMetricRetired>N</isMetricRetired>
+                <metricActuals>
+                    <metricActual>
+                        <operation>update</operation>
+                        <agencyMetricActualID>Delivery-Metric-123-Actual-123</agencyMetricActualID>
+                        <actualResult>2</actualResult>
+                        <dateOfActualResult></dateOfActualResult>
+                        <comment>Update actual</comment>
+                    </metricActual>
+                    <metricActual>
+                        <operation>add</operation>
+                        <agencyMetricActualID>Delivery-Metric-123-Actual-234</agencyMetricActualID>
+                        <actualResult>2</actualResult>
+                        <dateOfActualResult></dateOfActualResult>
+                        <comment>Add actual</comment>
+                    </metricActual>
+                </metricActuals>
+            </metric>
+            <metric>
+                <operation>add</operation>
+                <agencyMetricID>Delivery-Metric-234</agencyMetricID>
+                <description>Add metric</description>
+                <unitOfMeasure>inches</unitOfMeasure>
+                <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+                <agencyBaselineCapability>6.2</agencyBaselineCapability>
+                <PYTarget>4.5</PYTarget>
+                <CYTarget>4.5</CYTarget>
+                <measurementCondition>Under Target</measurementCondition>
+                <reportingFrequency>Quarterly</reportingFrequency>
+                <agencyObjectiveOrGoal>0</agencyObjectiveOrGoal>
+                <isMetricRetired>N</isMetricRetired>
+                <metricActuals>
+                    <metricActual>
+                        <operation>add</operation>
+                        <agencyMetricActualID>Delivery-Metric-234-Actual-123</agencyMetricActualID>
+                        <actualResult>2</actualResult>
+                        <dateOfActualResult></dateOfActualResult>
+                        <comment>Add actual</comment>
+                    </metricActual>
+                </metricActuals>
+            </metric>
+        </metrics>
+    </tower>
+</towers>
