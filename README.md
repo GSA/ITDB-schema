@@ -1,7 +1,7 @@
 # ITDB-schema
-This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
+This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
  
- * Community members should be able to download the latest [CPIC Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2), XSD and XML files.
+ * Community members should be able to download the latest [CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf), XSD and XML files.
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
@@ -11,17 +11,14 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 | In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
-| 	&#x2714; |  [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf) |  DONE |
-| &#x2714; | [FY19 Guidance]https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf  |  DONE  |
-| &#x2714;  | Baseline XSD Schema   | DONE  |
-| &#x2714;  | Baseline XML Sample Files   | DONE |
-| &#x2714;  | [Baseline Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)   | DONE  |
-| &#x2714;  | [Technical Documents](https://github.com/ombegov/ITDB-schema/tree/master/docs/TechnicalDocumentation)   | DONE  |
-| &#x2714; | [How to submit data to IT Dashboard for FY19](https://github.com/ombegov/ITDB-schema/blob/master/docs/ITDB_Submission_Instructions_v3_25.pdf) | DONE  |
-| &#x2714; | [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | DONE |
-| &#x2714; | [2019 UAT Server Available](https://myuat-2019.itdashboard.gov) **MAX REQ**| DONE |
-|  | Diagram of submission process  | SOON  |
-|  | Archive versions (BY17, BY16, etc) | TBD  |
+| &#x2714; | [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf) |
+| &#x2714; | [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | DONE |
+| &#x2714; | [FY20 UAT Server Available](https://myuat-2020.itdashboard.gov) | DONE |
+| Working Draft | [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx) | July 16, 2018 (Tentative) |
+|  | FY20 Validations | July 16, 2018 (Tentative)|
+|  | FY20 XSD Final| July 16, 2018 (Tentative) |
+|  | FY20 Submission Instructions | July 30, 2018 (Tentative) |
+
 
 ## Vendor Meetings  
 
@@ -41,15 +38,13 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  Published Baseline XSD (v1.9)|  Published |
-|  Published Baseline XSD Plus (v1.9)|  Published |
-|  Guidance Released |  May 11, 2018  |
+|  95% Guidance Released |  May 11, 2018  |
 |  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
-|  Validation logic development | May/June 2018 (Tentative) |
+|  Validation logic development | May/June 2018 |
 | [2020 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
-|  Target Date for [XSD Candidate] (v2.0.0) shared to vendors    |  June 4, 2018 |
-|  Final Guidance  and [A-11]  |  Late June 2018 (Tentative) |
-|  Target Date for Validation & Enrumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 (Tentative) |
+|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
+|  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
+|  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
 |  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018 (Tentative) |
 |  2020 UAT Server Delivered with Integrated Validations |  July 20, 2018 (Tentative) |
 |  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 7, 2018 (Tentative)  |
@@ -89,28 +84,29 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.05A                    |  May 7, 2018    | <ul><li>Add DCOI Cost Savings Chart</li><li>Insert Contracts on Individual Investment Pages</li><li>Add Error Code Prefixes to Validation Documentation</li><li>Finalize CPIC Vendor GH Page</li><li>Create FY20 Development Branching</li><li>FY20 CPIC Guidance Change Preparations</li><li>**No Schema Changes**</li></ul>| &#x2714; |
 |  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.06A                    |  June 4, 2018    | <ul><li>FY20 Prep: Create Delivery SIR </li><li>FY20: Update Project Plan and Execution Data Table in Projects</li><li>FY20 Prep: Add Platform as a Tower in AITPS</li><li>FY20 Prep: Update Network Investment Types</li><li>FY20 Prep: Update Mission Support Investment Categories</li><li>FY20 Prep: Create Contracts Report</li><li>FY20 Prep: Update Activity Table in Business Case</li><li>FY20 Prep: Update End User SIR</li><li>**No FY19 Schema Changes**</li></ul>| &#x2714;|
-|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | |
+|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | |
-|  Sprint 2018.07B                    |  July 16, 2018    | | |
+|  Sprint 2018.07B                    |  July 16, 2018    | <ul><li>FY20: Activity Parent/Child Relationships</li><li>FY20: Project/Activity Variances</li><li>FY20: Delete Operation for Systems/Products</li><li>FY20: Create Contracts Report Data Feed</li><li>FY20: Add Planned Shared Service to Business Case PDF</li><li>FY20: Follow on Tasks for Security SIR</li><li>FY20: Follow on Tasks for Systems Inventory List</li><li>Follow on Tasks for Error Code Prefixes for SIRs and System Inventory List</li></ul>| |
 |  Sprint 2018.07C                    |  July 30, 2018    | | |
 
 ## Quick Links to Files
 
   * **Guidance**
-    * [FY19 Guidance](https://community.max.gov/download/attachments/1206026892/FY19%20IT%20Budget%20Capital%20Planning%20Guidance%20%2895%20Solution%29.pdf?api=v2)
-    * [FY19 Guidance FAQs](https://community.max.gov/download/attachments/1206026892/CPIC%20CoP%20Meeting_20170627.pptx?api=v2)
-    * [FY18 Guidance](https://github.com/ombegov/ITDB-schema/blob/master/docs/TechnicalDocumentation/FY18_Guidance.pdf)
-    * [Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/draftBY19/)
+    * [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)
   * **A11**
-    * [OMB Circular A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc)
+    * [OMB Circular A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc) 
   * **XSD**
-    * [BY19 Draft](https://github.com/ombegov/ITDB-schema/tree/master/draftBY19)
-    * [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src)
+    * [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src)
   * **SAMPLE XML**
-    * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
-* **Validations**    
-  * [Current Validations](https://github.com/ombegov/ITDB-schema/blob/master/docs/validations.md)
+    * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
+    * [Standard Investment Report](https://github.com/ombegov/ITDB-schema/tree/master/src/InvestmentReport/examples)
+    * [CIO Rating](https://github.com/ombegov/ITDB-schema/tree/master/src/CIORating/Examples)
+    * [Contracts Report](https://github.com/ombegov/ITDB-schema/tree/master/src/ContractsReport/examples)
+    * [Systems Inventory List](https://github.com/ombegov/ITDB-schema/tree/master/src/SystemsInventory/examples)
+* **Data Dictionary & Validations** 
+  * [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx)
+  * FY20 Validations (Coming Soon)
   
 ## Asking questions and getting help
 
