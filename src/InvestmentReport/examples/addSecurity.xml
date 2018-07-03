@@ -11,17 +11,16 @@
                 <agencySOCID>SOC1</agencySOCID>
                 <isService>N</isService>
                 <coveredEntities>
-                    <coveredEntity>018</coveredEntity>
-                    <coveredEntity>007</coveredEntity>
                     <coveredEntity>91300</coveredEntity>
+                    <coveredEntity>01815</coveredEntity>
                 </coveredEntities>
-                <PYCosts>10.1</PYCosts>
+                <PYAmount>10.1</PYAmount>
                 <PYFederalFTE>20.1</PYFederalFTE>
                 <PYContractorFTE>30.1</PYContractorFTE>
-                <CYCosts>10.2</CYCosts>
+                <CYAmount>10.2</CYAmount>
                 <CYFederalFTE>20.2</CYFederalFTE>
                 <CYContractorFTE>30.2</CYContractorFTE>
-                <BYCosts>10.3</BYCosts>
+                <BYAmount>10.3</BYAmount>
                 <BYFederalFTE>20.3</BYFederalFTE>
                 <BYContractorFTE>30.3</BYContractorFTE>
                 <performanceHours>12.5</performanceHours>
@@ -33,15 +32,14 @@
                 <agencySOCID>SOC2-Service</agencySOCID>
                 <isService>Y</isService>
                 <coveredEntities>
-                    <coveredEntity>018</coveredEntity>
-                    <coveredEntity>007</coveredEntity>
                     <coveredEntity>91300</coveredEntity>
+                    <coveredEntity>01815</coveredEntity>
                 </coveredEntities>
                 <serviceProviderType>Government</serviceProviderType>
                 <providerEntity>007</providerEntity>
-                <PYCosts>10.1</PYCosts>
-                <CYCosts>10.2</CYCosts>
-                <BYCosts>10.3</BYCosts>
+                <PYAmount>10.1</PYAmount>
+                <CYAmount>10.2</CYAmount>
+                <BYAmount>10.3</BYAmount>
                 <performanceHours>12.5</performanceHours>
                 <continuousOperations>N</continuousOperations>
             </SOC>

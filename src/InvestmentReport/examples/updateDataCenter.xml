@@ -7,9 +7,15 @@
     <investmentCostDetails>
       <investmentCostDetail>
         <category>1</category> <!--data center, cloud, storage, compute-->
-        <PY>100</PY>
-        <CY>10</CY>
-        <BY>120</BY>
+        <PY>200</PY>
+        <CY>20</CY>
+        <BY>220</BY>
+      </investmentCostDetail>
+	  <investmentCostDetail>
+        <category>2</category> <!--data center, cloud, storage, compute-->
+        <PY>300</PY>
+        <CY>30</CY>
+        <BY>330</BY>
       </investmentCostDetail>
     </investmentCostDetails>
  </tower>

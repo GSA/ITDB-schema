@@ -20,37 +20,37 @@
         </investmentCostDetails>
         <operationalAnalysis>
             <operation>update</operation>
-            <dateOfAnalysis>10/17/1991</dateOfAnalysis>
-            <analysisResults>This is a text string.</analysisResults>
-            <analysisConclusion>1</analysisConclusion>
+            <dateOfAnalysis>10/17/2000</dateOfAnalysis>
+            <analysisResults>Update-This is a text string.</analysisResults>
+            <analysisConclusion>2</analysisConclusion>
         </operationalAnalysis>
         <metrics>
             <metric>
                 <operation>update</operation>
                 <agencyMetricID>Delivery-Metric-123</agencyMetricID>
                 <description>Update metric</description>
-                <unitOfMeasure>inches</unitOfMeasure>
-                <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+                <unitOfMeasure>number</unitOfMeasure>
+                <performanceMeasurementCategoryMapping>1</performanceMeasurementCategoryMapping>
                 <agencyBaselineCapability>5.5</agencyBaselineCapability>
-                <PYTarget>4.5</PYTarget>
-                <CYTarget>5.5</CYTarget>
+                <PYTarget>5.5</PYTarget>
+                <CYTarget>5.6</CYTarget>
                 <measurementCondition>Over Target</measurementCondition>
                 <reportingFrequency>Monthly</reportingFrequency>
-                <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>640</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>
                         <operation>update</operation>
                         <agencyMetricActualID>Delivery-Metric-123-Actual-123</agencyMetricActualID>
-                        <actualResult>2</actualResult>
-                        <dateOfActualResult></dateOfActualResult>
+                        <actualResult>1</actualResult>
+                        <dateOfActualResult>02/01/2018</dateOfActualResult>
                         <comment>Update actual</comment>
                     </metricActual>
                     <metricActual>
                         <operation>add</operation>
                         <agencyMetricActualID>Delivery-Metric-123-Actual-234</agencyMetricActualID>
                         <actualResult>2</actualResult>
-                        <dateOfActualResult></dateOfActualResult>
+                        <dateOfActualResult>02/02/2018</dateOfActualResult>
                         <comment>Add actual</comment>
                     </metricActual>
                 </metricActuals>
@@ -66,14 +66,14 @@
                 <CYTarget>4.5</CYTarget>
                 <measurementCondition>Under Target</measurementCondition>
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>0</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>626</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>
                         <operation>add</operation>
                         <agencyMetricActualID>Delivery-Metric-234-Actual-123</agencyMetricActualID>
                         <actualResult>2</actualResult>
-                        <dateOfActualResult></dateOfActualResult>
+                        <dateOfActualResult>02/03/2018</dateOfActualResult>
                         <comment>Add actual</comment>
                     </metricActual>
                 </metricActuals>

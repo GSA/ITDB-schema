@@ -11,82 +11,82 @@
         <investmentCostDetails>
             <investmentCostDetail>
                 <category>2</category>
-                <PY>100</PY>
-                <CY>10</CY>
-                <BY>120</BY>
+                <PY>101</PY>
+                <CY>102</CY>
+                <BY>103</BY>
             </investmentCostDetail>
             <investmentCostDetail>
                 <category>5</category>
-                <PY>100</PY>
-                <CY>10</CY>
-                <BY>120</BY>
+                <PY>201</PY>
+                <CY>202</CY>
+                <BY>203</BY>
             </investmentCostDetail>
         </investmentCostDetails>
         <projects>
             <project>
-                <operation>add</operation>
-                <agencyProjectID>N123</agencyProjectID>
-                <projectName>Network-Project-123</projectName>
-                <objective>Transition to ipv6</objective>
-                <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
-                <lifeCycleCost>10</lifeCycleCost>
-                <SDLCMethodology>1</SDLCMethodology>
-                <releaseEverySixMo>No</releaseEverySixMo>
-                <releaseEverySixMoComment>We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
-                <fundedBy>TMF</fundedBy>
-                <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
-                <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
-                <activities>
-                    <activity>
-                        <operation>add</operation>
-                        <isAgile>N</isAgile>
-                        <agencyActivityID>Activity-123</agencyActivityID>
-                        <activityName>Test Activity</activityName>
-                        <activityDescription>This is a description</activityDescription>
-                        <structureID>N123.1</structureID>
-                        <startDatePlanned></startDatePlanned>
-                        <startDateProjected></startDateProjected>
-                        <startDateActual></startDateActual>
-                        <completionDatePlanned></completionDatePlanned>
-                        <completionDateProjected></completionDateProjected>
-                        <completionDateActual></completionDateActual>
-                        <totalCostPlanned></totalCostPlanned>
-                        <totalCostProjected></totalCostProjected>
-                        <totalCostActual></totalCostActual>
-                    </activity>
-                    <activity>
-                        <operation>add</operation>
-                        <isAgile>Y</isAgile>
-                        <agencyActivityID>Activity-234</agencyActivityID>
-                        <releaseName>Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Test agile description.</releaseDescription>
-                        <NPI>1</NPI>
-                        <NPE>1.2</NPE>
-                        <NCE>1.3</NCE>
-                        <NCI>1</NCI>
-                        <DTC>1.4</DTC>
-                        <DPC>1.5</DPC>
-                        <startDatePlanned></startDatePlanned>
-                        <startDateProjected></startDateProjected>
-                        <startDateActual></startDateActual>
-                        <completionDatePlanned></completionDatePlanned>
-                        <completionDateProjected></completionDateProjected>
-                        <completionDateActual></completionDateActual>
-                        <totalCostPlanned></totalCostPlanned>
-                        <totalCostProjected></totalCostProjected>
-                        <totalCostActual></totalCostActual>
-                    </activity>
-                </activities>
-            </project>
+            <operation>add</operation>
+            <agencyProjectID>Network-Project-123</agencyProjectID>
+            <projectName>Add-Network-Project-123</projectName>
+            <objective>Add-Transition to ipv6</objective>
+            <projectStartDate>10/17/1991</projectStartDate>
+            <projectCompletionDate>10/17/1991</projectCompletionDate>
+            <lifeCycleCost>10</lifeCycleCost>
+            <SDLCMethodology>1</SDLCMethodology>
+            <releaseEverySixMo>No</releaseEverySixMo>
+            <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
+            <productionDeploymentDate>12/1/2013</productionDeploymentDate>
+            <fundedBy>TMF</fundedBy>
+            <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
+            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
+            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <activities>
+                <activity>
+                    <operation>add</operation>
+                    <isAgile>N</isAgile>
+                    <agencyActivityID>Network-Activity-123</agencyActivityID>
+                    <activityName>Add-Test Activity</activityName>
+                    <activityDescription>Add-This is a description</activityDescription>
+                    <structureID>N123.1</structureID>
+                    <startDatePlanned>06-01-2018</startDatePlanned>
+                    <startDateProjected>06-06-2018</startDateProjected>
+                    <startDateActual>06-06-2018</startDateActual>
+                    <completionDatePlanned>09-09-2018</completionDatePlanned>
+                    <completionDateProjected>09-10-2018</completionDateProjected>
+                    <completionDateActual>09-11-2018</completionDateActual>
+                    <totalCostPlanned>23</totalCostPlanned>
+                    <totalCostProjected>24</totalCostProjected>
+                    <totalCostActual>25</totalCostActual>
+                </activity>
+                <activity>
+                    <operation>add</operation>
+                    <isAgile>Y</isAgile>
+                    <agencyActivityID>Network-Activity-234</agencyActivityID>
+                    <releaseName>Add-Test Agile activity.</releaseName>
+                    <releaseNumber>1</releaseNumber>
+                    <releaseDescription>Add-Test agile description.</releaseDescription>
+                    <NPI>1</NPI>
+                    <NPE>1.2</NPE>
+                    <NCE>1.3</NCE>
+                    <NCI>1</NCI>
+                    <DTC>1.4</DTC>
+                    <DPC>1.5</DPC>
+                    <startDatePlanned>10-01-2018</startDatePlanned>
+					<startDateProjected>10-02-2018</startDateProjected>
+                    <startDateActual>10-03-2018</startDateActual>
+                    <completionDatePlanned>10-04-2018</completionDatePlanned>
+					<completionDateProjected>10-05-2018</completionDateProjected>
+                    <completionDateActual>10-06-2018</completionDateActual>
+                    <totalCostPlanned>20</totalCostPlanned>
+					<totalCostProjected>30</totalCostProjected>
+                    <totalCostActual>40</totalCostActual>
+                </activity>
+            </activities>
+        </project>
         </projects>
         <operationalAnalysis>
             <operation>add</operation>
             <dateOfAnalysis>10/17/1991</dateOfAnalysis>
-            <analysisResults>This is a text string.</analysisResults>
+            <analysisResults>Add-This is a text string.</analysisResults>
             <analysisConclusion>1</analysisConclusion>
         </operationalAnalysis>
         <metrics>
@@ -94,21 +94,23 @@
                 <operation>add</operation>
                 <agencyMetricID>Network-Metric-123</agencyMetricID>
                 <description>Add metric</description>
-                <unitOfMeasure>1</unitOfMeasure>
-                <performanceMeasurementCategoryMapping>2</performanceMeasurementCategoryMapping>
-                <agencyBaselineCapability>1</agencyBaselineCapability>
-                <PYTarget>0.5</PYTarget>
-                <CYTarget>0.5</CYTarget>
-                <measurementCondition>over target</measurementCondition>
-                <reportingFrequency>monthly</reportingFrequency>
-                <agencyObjectiveOrGoal>1</agencyObjectiveOrGoal>
-                <isMetricRetired>No</isMetricRetired>
+                <unitOfMeasure>inches</unitOfMeasure>
+                <performanceMeasurementCategoryMapping>3</performanceMeasurementCategoryMapping>
+                <agencyBaselineCapability>2.153</agencyBaselineCapability>
+                <PYTarget>4.5</PYTarget>
+                <CYTarget>4.6</CYTarget>
+                <!-- Over Target, Under Target -->
+                <measurementCondition>Under Target</measurementCondition>
+                <!-- Monthly, Quarterly -->
+                <reportingFrequency>Quarterly</reportingFrequency>
+                <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+                <isMetricRetired>n</isMetricRetired>
                 <metricActuals>
                     <metricActual>
                         <operation>add</operation>
                         <agencyMetricActualID>Network-Metric-123-Actual-123</agencyMetricActualID>
-                        <actualResult>4.5</actualResult>
-                        <dateOfActualResult>10/17/1991</dateOfActualResult>
+                        <actualResult>2</actualResult>
+                        <dateOfActualResult>02/01/2017</dateOfActualResult>
                         <comment>Add actual</comment>
                     </metricActual>
                 </metricActuals>

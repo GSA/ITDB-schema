@@ -58,13 +58,13 @@
                                                             </xs:choice>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name='PYCosts'/>
+                                                    <xs:element name='PYAmount'/>
                                                     <xs:element name='PYFederalFTE'/>
                                                     <xs:element name='PYContractorFTE'/>
-                                                    <xs:element name='CYCosts'/>
+                                                    <xs:element name='CYAmount'/>
                                                     <xs:element name='CYFederalFTE'/>
                                                     <xs:element name='CYContractorFTE'/>
-                                                    <xs:element name='BYCosts'/>
+                                                    <xs:element name='BYAmount'/>
                                                     <xs:element name='BYFederalFTE'/>
                                                     <xs:element name='BYContractorFTE'/>
                                                     <xs:element name='performanceHours'/>

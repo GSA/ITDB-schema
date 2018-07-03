@@ -7,41 +7,58 @@
         <SOCs>
             <SOC>
                 <operation>update</operation>
+                <!--<SOCID></SOCID>-->
                 <agencySOCID>SOC1</agencySOCID>
                 <isService>N</isService>
                 <coveredEntities>
-                    <coveredEntity>018</coveredEntity>
-                    <coveredEntity>007</coveredEntity>
-                    <coveredEntity>91300</coveredEntity>
+                    <coveredEntity>91400</coveredEntity>
+                    <coveredEntity>01840</coveredEntity>
                 </coveredEntities>
-                <PYCosts>10.1</PYCosts>
-                <PYFederalFTE>20.1</PYFederalFTE>
-                <PYContractorFTE>30.1</PYContractorFTE>
-                <CYCosts>10.2</CYCosts>
-                <CYFederalFTE>20.2</CYFederalFTE>
-                <CYContractorFTE>30.2</CYContractorFTE>
-                <BYCosts>10.3</BYCosts>
-                <BYFederalFTE>20.3</BYFederalFTE>
-                <BYContractorFTE>30.3</BYContractorFTE>
-                <performanceHours>12.5</performanceHours>
-                <continuousOperations>N</continuousOperations>
+                <PYAmount>11.1</PYAmount>
+                <PYFederalFTE>21.1</PYFederalFTE>
+                <PYContractorFTE>31.1</PYContractorFTE>
+                <CYAmount>11.2</CYAmount>
+                <CYFederalFTE>21.2</CYFederalFTE>
+                <CYContractorFTE>31.2</CYContractorFTE>
+                <BYAmount>11.3</BYAmount>
+                <BYFederalFTE>21.3</BYFederalFTE>
+                <BYContractorFTE>31.3</BYContractorFTE>
+                <performanceHours>14.5</performanceHours>
+                <continuousOperations>Y</continuousOperations>
             </SOC>
             <SOC>
                 <operation>update</operation>
+                <!--<SOCID></SOCID>-->
                 <agencySOCID>SOC2-Service</agencySOCID>
                 <isService>Y</isService>
                 <coveredEntities>
-                    <coveredEntity>018</coveredEntity>
-                    <coveredEntity>007</coveredEntity>
-                    <coveredEntity>91300</coveredEntity>
+                    <coveredEntity>91400</coveredEntity>
+                    <coveredEntity>01840</coveredEntity>
                 </coveredEntities>
                 <serviceProviderType>Government</serviceProviderType>
                 <providerEntity>018</providerEntity>
-                <PYCosts>10.1</PYCosts>
-                <CYCosts>10.2</CYCosts>
-                <BYCosts>10.3</BYCosts>
-                <performanceHours>12.5</performanceHours>
-                <continuousOperations>N</continuousOperations>
+                <PYAmount>12.1</PYAmount>
+                <CYAmount>12.2</CYAmount>
+                <BYAmount>12.3</BYAmount>
+                <performanceHours>14.5</performanceHours>
+                <continuousOperations>Y</continuousOperations>
+            </SOC>
+			<SOC>
+                <operation>add</operation>
+                <!--<SOCID></SOCID>-->
+                <agencySOCID>SOC3-Service</agencySOCID>
+                <isService>Y</isService>
+                <coveredEntities>
+                    <coveredEntity>91400</coveredEntity>
+                    <coveredEntity>01880</coveredEntity>
+                </coveredEntities>
+                <serviceProviderType>Private</serviceProviderType>
+           <!-- <providerEntity>018</providerEntity> -->
+                <PYAmount>12.1</PYAmount>
+                <CYAmount>12.2</CYAmount>
+                <BYAmount>12.3</BYAmount>
+                <performanceHours>14.5</performanceHours>
+                <continuousOperations>Y</continuousOperations>
             </SOC>
         </SOCs>
     </tower>

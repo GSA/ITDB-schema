@@ -1,3 +1,4 @@
+<!-- Verify validateOnly indicator -->
 <towers validateOnlyIndicator="false">
     <tower>
         <operation>update</operation>
@@ -6,72 +7,123 @@
         </towerDetails>
         <investmentCostDetails>
             <investmentCostDetail>
-                <category>1</category>
-                <PY>200</PY>
-                <CY>20</CY>
-                <BY>220</BY>
+                <category>2</category>
+                <PY>111</PY>
+                <CY>112</CY>
+                <BY>113</BY>
+            </investmentCostDetail>
+            <investmentCostDetail>
+                <category>5</category>
+                <PY>211</PY>
+                <CY>212</CY>
+                <BY>213</BY>
+            </investmentCostDetail>
+			<investmentCostDetail>
+                <category>3</category>
+                <PY>101</PY>
+                <CY>102</CY>
+                <BY>103</BY>
             </investmentCostDetail>
         </investmentCostDetails>
         <projects>
             <project>
-                <operation>update</operation>
-                <agencyProjectID>E123</agencyProjectID>
-                <projectName>Enduser-Project-123</projectName>
-                <objective>Transition to ipv6</objective>
-                <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
-                <lifeCycleCost>10</lifeCycleCost>
-                <SDLCMethodology>1</SDLCMethodology>
-                <releaseEverySixMo>No</releaseEverySixMo>
-                <releaseEverySixMoComment>We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
-                <fundedBy>TMF</fundedBy>
-                <commercialSolutionsCosts>This is a text field 11.</commercialSolutionsCosts>
-                <commercialSolutionsExplanation>This is a text field 12.</commercialSolutionsExplanation>
-                <commercialSolutionsJustification>This is a text field 13.</commercialSolutionsJustification>
-                <activities>
-                    <activity>
-                        <operation>update</operation>
-                        <isAgile>N</isAgile>
-                        <agencyActivityID>Activity-123</agencyActivityID>
-                        <activityName>Test Activity</activityName>
-                        <activityDescription>This is a description</activityDescription>
-                        <structureID>E123.1</structureID>
-                        <startDatePlanned></startDatePlanned>
-                        <startDateProjected></startDateProjected>
-                        <startDateActual></startDateActual>
-                        <completionDatePlanned></completionDatePlanned>
-                        <completionDateProjected></completionDateProjected>
-                        <completionDateActual></completionDateActual>
-                        <totalCostPlanned></totalCostPlanned>
-                        <totalCostProjected></totalCostProjected>
-                        <totalCostActual></totalCostActual>
-                    </activity>
-                    <activity>
-                        <operation>add</operation>
-                        <isAgile>Y</isAgile>
-                        <agencyActivityID>Activity-345</agencyActivityID>
-                        <releaseName>Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Test agile description.</releaseDescription>
-                        <NPI>1</NPI>
-                        <NPE>1.2</NPE>
-                        <NCE>1.3</NCE>
-                        <NCI>1</NCI>
-                        <DTC>1.4</DTC>
-                        <DPC>1.5</DPC>
-                        <startDatePlanned></startDatePlanned>
-                        <startDateProjected></startDateProjected>
-                        <startDateActual></startDateActual>
-                        <completionDatePlanned></completionDatePlanned>
-                        <completionDateProjected></completionDateProjected>
-                        <completionDateActual></completionDateActual>
-                        <totalCostPlanned></totalCostPlanned>
-                        <totalCostProjected></totalCostProjected>
-                        <totalCostActual></totalCostActual>
-                    </activity>
-                </activities>
-            </project>
+            <operation>update</operation>
+            <agencyProjectID>EndUser-Project-123</agencyProjectID>
+            <projectName>Update-EndUser-Project-123</projectName>
+            <objective>Update-Transition to ipv6</objective>
+            <projectStartDate>10/17/1992</projectStartDate>
+            <projectCompletionDate>10/17/1992</projectCompletionDate>
+            <lifeCycleCost>11</lifeCycleCost>
+            <SDLCMethodology>2</SDLCMethodology>
+            <releaseEverySixMo>Yes</releaseEverySixMo>
+            <releaseEverySixMoComment>Update-We do not do that.</releaseEverySixMoComment>
+            <productionDeploymentDate>12/1/2014</productionDeploymentDate>
+            <fundedBy>IT WCF</fundedBy>
+            <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
+            <commercialSolutionsExplanation>Update-This is a text field 2.</commercialSolutionsExplanation>
+            <commercialSolutionsJustification>Update-This is a text field 3.</commercialSolutionsJustification>
+            <activities>
+                <activity>
+                    <operation>update</operation>
+                    <isAgile>N</isAgile>
+                    <agencyActivityID>EndUser-Activity-123</agencyActivityID>
+                    <activityName>Update-Test Activity</activityName>
+                    <activityDescription>Update-This is a description</activityDescription>
+                    <structureID>E123.1</structureID>
+                    <startDatePlanned>06-01-2019</startDatePlanned>
+                    <startDateProjected>06-06-2019</startDateProjected>
+                    <startDateActual>06-06-2019</startDateActual>
+                    <completionDatePlanned>09-09-2019</completionDatePlanned>
+                    <completionDateProjected>09-10-2019</completionDateProjected>
+                    <completionDateActual>09-11-2019</completionDateActual>
+                    <totalCostPlanned>33</totalCostPlanned>
+                    <totalCostProjected>34</totalCostProjected>
+                    <totalCostActual>35</totalCostActual>
+                </activity>
+                <activity>
+                    <operation>add</operation>
+                    <isAgile>Y</isAgile>
+                    <agencyActivityID>EndUser-Activity-567</agencyActivityID>
+                    <releaseName>Add-Test Agile activity.</releaseName>
+                    <releaseNumber>1</releaseNumber>
+                    <releaseDescription>Add-Test agile description.</releaseDescription>
+                    <NPI>2</NPI>
+                    <NPE>2.2</NPE>
+                    <NCE>2.3</NCE>
+                    <NCI>2</NCI>
+                    <DTC>2.4</DTC>
+                    <DPC>2.5</DPC>
+                    <startDatePlanned>11-01-2018</startDatePlanned>
+					<startDateProjected>11-02-2018</startDateProjected>
+                    <startDateActual>11-03-2018</startDateActual>
+                    <completionDatePlanned>11-04-2018</completionDatePlanned>
+					<completionDateProjected>11-05-2018</completionDateProjected>
+                    <completionDateActual>11-06-2018</completionDateActual>
+                    <totalCostPlanned>50</totalCostPlanned>
+					<totalCostProjected>60</totalCostProjected>
+                    <totalCostActual>70</totalCostActual>
+                </activity>
+            </activities>
+        </project>
+		
+		<project>
+            <operation>add</operation>
+            <agencyProjectID>EndUser-Project-234</agencyProjectID>
+            <projectName>Add-EndUser-Project-234</projectName>
+            <objective>Add-Transition to ipv6</objective>
+            <projectStartDate>10/17/1991</projectStartDate>
+            <projectCompletionDate>10/17/1991</projectCompletionDate>
+            <lifeCycleCost>10</lifeCycleCost>
+            <SDLCMethodology>1</SDLCMethodology>
+            <releaseEverySixMo>No</releaseEverySixMo>
+            <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
+            <productionDeploymentDate>12/1/2013</productionDeploymentDate>
+            <fundedBy>TMF</fundedBy>
+            <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
+            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
+            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <activities>
+                <activity>
+                    <operation>add</operation>
+                    <isAgile>N</isAgile>
+                    <agencyActivityID>EndUser-Activity-345</agencyActivityID>
+                    <activityName>Add-Test Activity</activityName>
+                    <activityDescription>Add-This is a description</activityDescription>
+                    <structureID>E123.1</structureID>
+                    <startDatePlanned>06-01-2018</startDatePlanned>
+                    <startDateProjected>06-06-2018</startDateProjected>
+                    <startDateActual>06-06-2018</startDateActual>
+                    <completionDatePlanned>09-09-2018</completionDatePlanned>
+                    <completionDateProjected>09-10-2018</completionDateProjected>
+                    <completionDateActual>09-11-2018</completionDateActual>
+                    <totalCostPlanned>23</totalCostPlanned>
+                    <totalCostProjected>24</totalCostProjected>
+                    <totalCostActual>25</totalCostActual>
+                </activity>
+            </activities>
+        </project>
+		
         </projects>
+        
     </tower>
 </towers>
