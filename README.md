@@ -11,13 +11,13 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 | In Repo  | Object  |  Date Expected |
 |:-------------:|---|---|
-| &#x2714; | [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf) |
-| &#x2714; | [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | DONE |
-| &#x2714; | [FY20 UAT Server Available](https://myuat-2020.itdashboard.gov) | DONE |
-| Working Draft | [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx) | July 16, 2018 (Tentative) |
-|  | FY20 Validations | July 16, 2018 (Tentative)|
-|  | FY20 XSD Final| July 16, 2018 (Tentative) |
-|  | FY20 Submission Instructions | July 30, 2018 (Tentative) |
+| &#x2714; | [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf) | June 29, 2018 |
+| &#x2714; | [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | June 4, 2018|
+| &#x2714; | [FY20 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
+| Working Draft | [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx) | July 16, 2018 | IN PROGRESS |
+|  | FY20 Validations | July 16, 2018 |
+|  | FY20 XSD Final| July 23, 2018 |
+|  | FY20 Submission Instructions | July 30, 2018 |
 
 
 ## Vendor Meetings  
@@ -45,10 +45,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
 |  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
 |  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
-|  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018 (Tentative) |
-|  2020 UAT Server Delivered with Integrated Validations |  July 20, 2018 (Tentative) |
-|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 7, 2018 (Tentative)  |
-|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 7, 2018 (Tentative) |
+|  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018  |
+|  2020 UAT Server Delivered with 95% Integrated Validations |  July 30, 2018  |
+|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 13, 2018 |
+|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 13, 2018 |
 |  Draft IT Portfolio Pre-submission  |  August 20, 2018 (Tentative) |
 |  2020 IT Portfolio Data Feed available to Agencies    |  TBD |
 |  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  TBD   |
@@ -85,9 +85,12 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.06A                    |  June 4, 2018    | <ul><li>FY20 Prep: Create Delivery SIR </li><li>FY20: Update Project Plan and Execution Data Table in Projects</li><li>FY20 Prep: Add Platform as a Tower in AITPS</li><li>FY20 Prep: Update Network Investment Types</li><li>FY20 Prep: Update Mission Support Investment Categories</li><li>FY20 Prep: Create Contracts Report</li><li>FY20 Prep: Update Activity Table in Business Case</li><li>FY20 Prep: Update End User SIR</li><li>**No FY19 Schema Changes**</li></ul>| &#x2714;|
 |  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
-|  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | |
+|  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.07B                    |  July 16, 2018    | <ul><li>FY20: Activity Parent/Child Relationships</li><li>FY20: Project/Activity Variances</li><li>FY20: Delete Operation for Systems/Products</li><li>FY20: Create Contracts Report Data Feed</li><li>FY20: Add Planned Shared Service to Business Case PDF</li><li>FY20: Follow on Tasks for Security SIR</li><li>FY20: Follow on Tasks for Systems Inventory List</li><li>Follow on Tasks for Error Code Prefixes for SIRs and System Inventory List</li></ul>| |
-|  Sprint 2018.07C                    |  July 30, 2018    | | |
+|  Sprint 2018.07C                    |  July 30, 2018    | <ul><li>FY20: Create Submission Confirmation Schema</li><li>FY20: Create Internal Services Cost Pools Validation for Type 04 Investments</li><li>FY20: Update ASP/APG Type to Varchar(11)</li><li>FY20: Update Commercial Solutions Field Names</li><li>FY20: Add Budget Authority Fields to Funding Source Line Items</li><li>FY20: Make Data Center Inventory ID Optional</li><li>FY20: Disallow "N/A" for Planned Contract Acquisitions</li><li>FY20: Remove System Inventory from Business Case</li><li>Help Desk: Resolve GitHub Issue #178</li><li>Help Desk: Fix Bug for Deactivating Retireing Performance Metrics</li></ul> | |
+|  Sprint 2018.08A                    |  August 13, 2018    | | |
+|  Sprint 2018.08B                    |  August 27, 2018    | | |
+|  Sprint 2018.09A                    |  TBD   | | |
 
 ## Quick Links to Files
 
