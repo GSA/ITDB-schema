@@ -109,8 +109,8 @@
     </restriction>
   </simpleType>
   <simpleType name="objectiveOrGoalType">
-    <restriction base="integer">
-      <pattern value="[0-9]{1,6}"/>
+    <restriction base="string">
+      <maxLength value="11"/>
     </restriction>
   </simpleType>
   <simpleType name="phoneNumber">

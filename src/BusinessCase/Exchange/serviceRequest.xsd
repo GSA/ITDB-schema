@@ -279,8 +279,8 @@
       <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="fundedBy" type="businessCase-facet:fundedByType" minOccurs="0"/>
       <element name="commercialSolutionsCosts" type="businessCase-type:string25" minOccurs="0"/>
-      <element name="commercialSolutionsExplanation" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="commercialSolutionsJustification" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsAdoption" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsReasoning" type="businessCase-type:string1000" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -492,8 +492,8 @@
       <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="fundedBy" type="businessCase-facet:fundedByType" minOccurs="0"/>
       <element name="commercialSolutionsCosts" type="businessCase-type:string25" minOccurs="0"/>
-      <element name="commercialSolutionsExplanation" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="commercialSolutionsJustification" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsAdoption" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsReasoning" type="businessCase-type:string1000" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -569,8 +569,8 @@
       <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="fundedBy" type="businessCase-facet:fundedByType" minOccurs="0"/>
       <element name="commercialSolutionsCosts" type="businessCase-type:string25" minOccurs="0"/>
-      <element name="commercialSolutionsExplanation" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="commercialSolutionsJustification" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsAdoption" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="commercialSolutionsReasoning" type="businessCase-type:string1000" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
     </sequence>
   </complexType>

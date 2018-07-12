@@ -38,7 +38,7 @@
                 <measurementCondition>Under Target</measurementCondition>
                 <!-- Monthly, Quarterly -->
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
                 <isMetricRetired>n</isMetricRetired>
                 <metricActuals>
                     <metricActual>

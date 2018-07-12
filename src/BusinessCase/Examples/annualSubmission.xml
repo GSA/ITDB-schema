@@ -142,8 +142,8 @@
                     <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
                     <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
                     <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
-                    <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
-                    <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
+                    <bC-upd:commercialSolutionsAdoption>This is a text field 2.</bC-upd:commercialSolutionsAdoption>
+                    <bC-upd:commercialSolutionsReasoning>This is a text field 3.</bC-upd:commercialSolutionsReasoning>
                   </bC-upd:addProjectDetail>
                   <bC-upd:addProjectActivities>
                     <bC-upd:addProjectActivity>
@@ -282,8 +282,8 @@
                   <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
                   <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
                   <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
-                  <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
-                  <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
+                  <bC-upd:commercialSolutionsAdoption>This is a text field 2.</bC-upd:commercialSolutionsAdoption>
+                  <bC-upd:commercialSolutionsReasoning>This is a text field 3.</bC-upd:commercialSolutionsReasoning>
                 </bC-upd:reviseAddProjectDetail>
                 <bC-upd:reviseAddProjectActivities>
                   <bC-upd:reviseAddProjectActivity>
@@ -340,8 +340,8 @@
                   <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
                   <bC-upd:fundedBy>TMF</bC-upd:fundedBy>
                   <bC-upd:commercialSolutionsCosts>This is a text field 1.</bC-upd:commercialSolutionsCosts>
-                  <bC-upd:commercialSolutionsExplanation>This is a text field 2.</bC-upd:commercialSolutionsExplanation>
-                  <bC-upd:commercialSolutionsJustification>This is a text field 3.</bC-upd:commercialSolutionsJustification>
+                  <bC-upd:commercialSolutionsAdoption>This is a text field 2.</bC-upd:commercialSolutionsAdoption>
+                  <bC-upd:commercialSolutionsReasoning>This is a text field 3.</bC-upd:commercialSolutionsReasoning>
                   <bC-upd:isActive>active</bC-upd:isActive>
                 </bC-upd:reviseUpdateProjectDetail>
                 <bC-upd:reviseUpdateProjectActivities>
@@ -439,7 +439,7 @@
                   <bC-upd:performanceMetricDateofActual>1970-01-01</bC-upd:performanceMetricDateofActual>
                   <bC-upd:performanceMetricComment>a</bC-upd:performanceMetricComment>
                 </bC-upd:addPerformanceMetricActual>
-                <bC-upd:performanceMetricObjectiveOrGoal>123</bC-upd:performanceMetricObjectiveOrGoal>                
+                <bC-upd:performanceMetricObjectiveOrGoal>123SO456</bC-upd:performanceMetricObjectiveOrGoal>                
                 <bC-upd:isClosed>yes</bC-upd:isClosed>
               </bC-upd:reviseAddPerformanceMetric>
               <bC-upd:reviseUpdatePerformanceMetric>
@@ -467,7 +467,7 @@
                   <bC-upd:performanceMetricComment>a</bC-upd:performanceMetricComment>
                   <bC-upd:isActive>deactivated</bC-upd:isActive>
                 </bC-upd:reviseUpdatePerformanceMetricActual>
-                <bC-upd:performanceMetricObjectiveOrGoal>1</bC-upd:performanceMetricObjectiveOrGoal>
+                <bC-upd:performanceMetricObjectiveOrGoal>123SO456</bC-upd:performanceMetricObjectiveOrGoal>
                 <bC-upd:isActive>deactivated</bC-upd:isActive>
                 <bC-upd:isClosed>yes</bC-upd:isClosed>
               </bC-upd:reviseUpdatePerformanceMetric>
@@ -500,7 +500,7 @@
                   <bC-upd:performanceMetricDateofActual>1970-01-01</bC-upd:performanceMetricDateofActual>
                   <bC-upd:performanceMetricComment>a</bC-upd:performanceMetricComment>
                 </bC-upd:addPerformanceMetricActual>
-                <bC-upd:performanceMetricObjectiveOrGoal>1</bC-upd:performanceMetricObjectiveOrGoal>
+                <bC-upd:performanceMetricObjectiveOrGoal>123SO456</bC-upd:performanceMetricObjectiveOrGoal>
                 <bC-upd:isClosed>yes</bC-upd:isClosed>
               </bC-upd:addPerformanceMetric>
               <bC-upd:updatePerformanceMetric>
@@ -516,7 +516,7 @@
                   <bC-upd:performanceMetricDateofActual>1970-01-01</bC-upd:performanceMetricDateofActual>
                   <bC-upd:performanceMetricComment>a</bC-upd:performanceMetricComment>
                 </bC-upd:addPerformanceMetricActual>
-                <bC-upd:performanceMetricObjectiveOrGoal>1</bC-upd:performanceMetricObjectiveOrGoal>
+                <bC-upd:performanceMetricObjectiveOrGoal>123SO456</bC-upd:performanceMetricObjectiveOrGoal>
                 <bC-upd:isClosed>no</bC-upd:isClosed>
               </bC-upd:updatePerformanceMetric>
             </bC-upd:performanceMetrics>

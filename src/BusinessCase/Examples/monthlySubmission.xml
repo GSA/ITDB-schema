@@ -30,7 +30,7 @@
           <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
           <performanceMetricComment>a</performanceMetricComment>
         </addPerformanceMetricActual>
-        <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
+        <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </addPerformanceMetric>
       <updatePerformanceMetric id="String">
@@ -44,7 +44,7 @@
           <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
           <performanceMetricComment>a</performanceMetricComment>
         </addPerformanceMetricActual>
-        <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
+        <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </updatePerformanceMetric>
       <updateCIORating id="String">
@@ -89,8 +89,8 @@
           <productionDeploymentDate>1970-01-01</productionDeploymentDate>
           <fundedBy>TMF</fundedBy>
           <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
-          <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
-          <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+          <commercialSolutionsAdoption>This is a text field 2.</commercialSolutionsAdoption>
+          <commercialSolutionsReasoning>This is a text field 3.</commercialSolutionsReasoning>
         </addProjectDetail>
         <addProjectActivities>
           <addProjectActivity>
@@ -227,8 +227,8 @@
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>This is a text field 3.</commercialSolutionsReasoning>
           </reviseAddProjectDetail>
           <reviseAddProjectActivities>
             <reviseAddProjectActivity>
@@ -285,8 +285,8 @@
             <productionDeploymentDate>1970-01-01</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>This is a text field 3.</commercialSolutionsReasoning>
             <isActive>deactivated</isActive>
           </reviseUpdateProjectDetail>
           <reviseUpdateProjectActivities>
@@ -384,7 +384,7 @@
             <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
             <performanceMetricComment>a</performanceMetricComment>
           </addPerformanceMetricActual>
-          <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
+          <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
           <isClosed>yes</isClosed>
         </reviseAddPerformanceMetric>
         <reviseUpdatePerformanceMetric>
@@ -412,7 +412,7 @@
             <performanceMetricComment>a</performanceMetricComment>
             <isActive>active</isActive>
           </reviseUpdatePerformanceMetricActual>
-          <performanceMetricObjectiveOrGoal>1</performanceMetricObjectiveOrGoal>
+          <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
           <isActive>active</isActive>
           <isClosed>no</isClosed>
         </reviseUpdatePerformanceMetric>

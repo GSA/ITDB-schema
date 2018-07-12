@@ -85,6 +85,7 @@
                                                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                     <xs:element name='operation' type='operation'/>
                                                     <xs:element name='projectID'/>
+                                                    <xs:element name='uniqueProjectID'/>
                                                     <xs:element name='agencyProjectID'/>
                                                     <xs:element name='projectName'/>
                                                     <xs:element name='objective'/>
@@ -96,8 +97,8 @@
                                                     <xs:element name='releaseEverySixMoComment'/>
                                                     <xs:element name='productionDeploymentDate'/>
                                                     <xs:element name='fundedBy'/>
-                                                    <xs:element name='commercialSolutionsExplanation'/>
-                                                    <xs:element name='commercialSolutionsJustification'/>
+                                                    <xs:element name='commercialSolutionsAdoption'/>
+                                                    <xs:element name='commercialSolutionsReasoning'/>
                                                     <xs:element name='commercialSolutionsCosts'/>
                                                     <xs:element name='activities' minOccurs='0'> 
                                                         <xs:complexType>

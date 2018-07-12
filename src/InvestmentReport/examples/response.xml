@@ -30,8 +30,8 @@
                     <productionDeploymentDate>2013-12-01</productionDeploymentDate>
                     <fundedBy>TMF</fundedBy>
                     <commercialSolutionsCosts>This is a text field 1.</commercialSolutionsCosts>
-                    <commercialSolutionsExplanation>This is a text field 2.</commercialSolutionsExplanation>
-                    <commercialSolutionsJustification>This is a text field 3.</commercialSolutionsJustification>
+                    <commercialSolutionsAdoption>This is a text field 2.</commercialSolutionsAdoption>
+                    <commercialSolutionsReasoning>This is a text field 3.</commercialSolutionsReasoning>
                     <activities>
                         <activity>
                             <operation>add</operation>

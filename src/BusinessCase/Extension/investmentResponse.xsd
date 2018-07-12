@@ -364,8 +364,8 @@
         <element ref="businessCase-response:productionDeploymentDate" minOccurs="0"/>
         <element ref="businessCase-response:fundedBy" minOccurs="0"/>
         <element ref="businessCase-response:commercialSolutionsCosts" minOccurs="0"/>
-        <element ref="businessCase-response:commercialSolutionsExplanation" minOccurs="0"/>
-        <element ref="businessCase-response:commercialSolutionsJustification" minOccurs="0"/>
+        <element ref="businessCase-response:commercialSolutionsAdoption" minOccurs="0"/>
+        <element ref="businessCase-response:commercialSolutionsReasoning" minOccurs="0"/>
         <element ref="businessCase-response:isActive" minOccurs="0"/>
       </sequence>
     </complexType>
@@ -635,8 +635,8 @@
   <element name="productionDeploymentDate" type="businessCase-type:investmentDateType"/>
   <element name="fundedBy" type="businessCase-facet:fundedByType"/>
   <element name="commercialSolutionsCosts" type="businessCase-type:string25"/>
-  <element name="commercialSolutionsExplanation" type="businessCase-type:string1000"/>
-  <element name="commercialSolutionsJustification" type="businessCase-type:string1000"/>
+  <element name="commercialSolutionsAdoption" type="businessCase-type:string1000"/>
+  <element name="commercialSolutionsReasoning" type="businessCase-type:string1000"/>
 
   <!-- sub-project / activity elements -->
   <element name="activityId" type="integer"/>

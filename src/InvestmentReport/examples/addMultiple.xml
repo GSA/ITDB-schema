@@ -27,8 +27,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
@@ -127,7 +127,7 @@
                 <measurementCondition>Under Target</measurementCondition>
                 <!-- Monthly, Quarterly -->
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
                 <isMetricRetired>n</isMetricRetired>
                 <metricActuals>
                     <metricActual>
@@ -175,8 +175,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
@@ -260,8 +260,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
@@ -326,7 +326,7 @@
                 <measurementCondition>Under Target</measurementCondition>
                 <!-- Monthly, Quarterly -->
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>1383</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
                 <isMetricRetired>n</isMetricRetired>
                 <metricActuals>
                     <metricActual>

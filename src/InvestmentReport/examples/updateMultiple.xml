@@ -27,8 +27,8 @@
             <productionDeploymentDate>12/1/2014</productionDeploymentDate>
             <fundedBy>IT WCF</fundedBy>
             <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Update-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Update-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>update</operation>
@@ -134,8 +134,8 @@
             <productionDeploymentDate>12/1/2014</productionDeploymentDate>
             <fundedBy>IT WCF</fundedBy>
             <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Update-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Update-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>update</operation>
@@ -194,8 +194,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
@@ -262,8 +262,8 @@
             <productionDeploymentDate>12/1/2014</productionDeploymentDate>
             <fundedBy>IT WCF</fundedBy>
             <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Update-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Update-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>update</operation>
@@ -322,8 +322,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
@@ -364,7 +364,7 @@
                 <CYTarget>5.6</CYTarget>
                 <measurementCondition>Over Target</measurementCondition>
                 <reportingFrequency>Monthly</reportingFrequency>
-                <agencyObjectiveOrGoal>640</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>
@@ -394,7 +394,7 @@
                 <CYTarget>4.5</CYTarget>
                 <measurementCondition>Under Target</measurementCondition>
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>626</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>

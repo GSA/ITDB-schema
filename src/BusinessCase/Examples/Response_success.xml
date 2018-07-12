@@ -147,8 +147,8 @@
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
                     <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
                     <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
-                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
-                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
+                    <businessCase-response:commercialSolutionsAdoption>This is a text field 2.</businessCase-response:commercialSolutionsAdoption>
+                    <businessCase-response:commercialSolutionsReasoning>This is a text field 3.</businessCase-response:commercialSolutionsReasoning>
                     <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -263,7 +263,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>1</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>deactivated</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -297,8 +297,8 @@
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
             <sr:fundedBy>TMF</sr:fundedBy>
             <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
-            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
-            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
+            <sr:commercialSolutionsAdoption>This is a text field 2.</sr:commercialSolutionsAdoption>
+            <sr:commercialSolutionsReasoning>This is a text field 3.</sr:commercialSolutionsReasoning>
             <sr:isActive>deactivated</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -362,8 +362,8 @@
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
             <sr:fundedBy>TMF</sr:fundedBy>
             <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
-            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
-            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
+            <sr:commercialSolutionsAdoption>This is a text field 2.</sr:commercialSolutionsAdoption>
+            <sr:commercialSolutionsReasoning>This is a text field 3.</sr:commercialSolutionsReasoning>
             <sr:isActive>active</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -431,7 +431,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>1</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>active</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -457,7 +457,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>1</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>deactivated</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -509,8 +509,8 @@
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
             <sr:fundedBy>TMF</sr:fundedBy>
             <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
-            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
-            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
+            <sr:commercialSolutionsAdoption>This is a text field 2.</sr:commercialSolutionsAdoption>
+            <sr:commercialSolutionsReasoning>This is a text field 3.</sr:commercialSolutionsReasoning>
             <sr:isActive>deactivated</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -574,8 +574,8 @@
             <sr:productionDeploymentDate>1970-01-01</sr:productionDeploymentDate>
             <sr:fundedBy>TMF</sr:fundedBy>
             <sr:commercialSolutionsCosts>This is a text field 1.</sr:commercialSolutionsCosts>
-            <sr:commercialSolutionsExplanation>This is a text field 2.</sr:commercialSolutionsExplanation>
-            <sr:commercialSolutionsJustification>This is a text field 3.</sr:commercialSolutionsJustification>
+            <sr:commercialSolutionsAdoption>This is a text field 2.</sr:commercialSolutionsAdoption>
+            <sr:commercialSolutionsReasoning>This is a text field 3.</sr:commercialSolutionsReasoning>
             <sr:isActive>active</sr:isActive>
           </sr:projectDetail>
           <sr:projectActivities>
@@ -746,8 +746,8 @@
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
                     <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
                     <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
-                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
-                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
+                    <businessCase-response:commercialSolutionsAdoption>This is a text field 2.</businessCase-response:commercialSolutionsAdoption>
+                    <businessCase-response:commercialSolutionsReasoning>This is a text field 3.</businessCase-response:commercialSolutionsReasoning>
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -822,7 +822,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>1</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>
@@ -975,8 +975,8 @@
                   <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
                   <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
                   <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
-                  <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
-                  <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
+                  <businessCase-response:commercialSolutionsAdoption>This is a text field 2.</businessCase-response:commercialSolutionsAdoption>
+                  <businessCase-response:commercialSolutionsReasoning>This is a text field 3.</businessCase-response:commercialSolutionsReasoning>
                   <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 </businessCase-response:projectDetail>
                 <businessCase-response:projectActivities>
@@ -1050,7 +1050,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>1</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>
@@ -1193,8 +1193,8 @@
                     <businessCase-response:productionDeploymentDate>1970-01-01</businessCase-response:productionDeploymentDate>
                     <businessCase-response:fundedBy>TMF</businessCase-response:fundedBy>
                     <businessCase-response:commercialSolutionsCosts>This is a text field 1.</businessCase-response:commercialSolutionsCosts>
-                    <businessCase-response:commercialSolutionsExplanation>This is a text field 2.</businessCase-response:commercialSolutionsExplanation>
-                    <businessCase-response:commercialSolutionsJustification>This is a text field 3.</businessCase-response:commercialSolutionsJustification>
+                    <businessCase-response:commercialSolutionsAdoption>This is a text field 2.</businessCase-response:commercialSolutionsAdoption>
+                    <businessCase-response:commercialSolutionsReasoning>This is a text field 3.</businessCase-response:commercialSolutionsReasoning>
                     <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                   </businessCase-response:projectDetail>
                   <businessCase-response:projectActivities>
@@ -1269,7 +1269,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>1</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>

@@ -40,8 +40,8 @@
             <productionDeploymentDate>12/1/2014</productionDeploymentDate>
             <fundedBy>IT WCF</fundedBy>
             <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Update-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Update-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>update</operation>
@@ -49,7 +49,7 @@
                     <agencyActivityID>EndUser-Activity-123</agencyActivityID>
                     <activityName>Update-Test Activity</activityName>
                     <activityDescription>Update-This is a description</activityDescription>
-                    <structureID>E123.1</structureID>
+                    <structureID>1.1</structureID>
                     <startDatePlanned>06-01-2019</startDatePlanned>
                     <startDateProjected>06-06-2019</startDateProjected>
                     <startDateActual>06-06-2019</startDateActual>
@@ -100,8 +100,8 @@
             <productionDeploymentDate>12/1/2013</productionDeploymentDate>
             <fundedBy>TMF</fundedBy>
             <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-            <commercialSolutionsExplanation>Add-This is a text field 2.</commercialSolutionsExplanation>
-            <commercialSolutionsJustification>Add-This is a text field 3.</commercialSolutionsJustification>
+            <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
+            <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
             <activities>
                 <activity>
                     <operation>add</operation>
