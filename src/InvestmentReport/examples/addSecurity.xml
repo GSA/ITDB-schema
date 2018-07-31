@@ -8,6 +8,7 @@
             <SOC>
                 <operation>add</operation>
                 <!--<SOCID></SOCID>-->
+                <SOCName>SOCName</SOCName>
                 <agencySOCID>SOC1</agencySOCID>
                 <isService>N</isService>
                 <coveredEntities>

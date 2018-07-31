@@ -46,13 +46,10 @@
     <sequence>
       <element name="getInvestmentResult" type="sr:getInvestmentResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getCIORatingResult" type="sr:getCIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="getSystemsInventoryResult" type="sr:getSystemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getPerformanceMetricsResult" type="sr:getPerformanceMetricsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getInvestmentRisksResult" type="sr:getInvestmentRisksResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getProjectsResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="getProjectsInProgressResult" type="sr:getProjectsResultType" minOccurs="0"/>
-      <element name="updateSystemResult" type="sr:systemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="addSystemResult" type="sr:systemsInventoryResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addPerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updatePerformanceMetricResult" type="sr:performanceMetricResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
@@ -81,15 +78,6 @@
   <complexType name="getCIORatingResultType">
     <sequence>
       <element name="CIORating" type="sr:CIORatingType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
-  <complexType name="getSystemsInventoryResultType">
-    <sequence>
-      <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
       <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
     </sequence>
@@ -141,15 +129,6 @@
     <attribute name="id" type="string" use="required"/>
   </complexType>
 
-  <complexType name="systemsInventoryResultType">
-    <sequence>
-      <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="request" type="tns:operationsOut" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="message" type="sr:messageType" maxOccurs="unbounded" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
-  </complexType>
-
   <complexType name="investmentRiskResultType">
     <sequence>
       <element name="investmentRisk" type="sr:investmentRiskType" maxOccurs="unbounded" minOccurs="0"/>
@@ -191,7 +170,6 @@
   <complexType name="resultType">
     <sequence>
       <element name="CIORating" type="sr:CIORatingType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="systemsInventory" type="sr:systemsInventoryType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="performanceMetric" type="sr:performanceMetricType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="investmentRisk" type="sr:investmentRiskType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="project" type="sr:projectType" maxOccurs="unbounded" minOccurs="0"/>
@@ -356,20 +334,7 @@
       <element name="cioRatingEval" type="businessCase-type:cioRatingType"/>
       <element name="cioComment" type="businessCase-type:longTextString"/>
     </sequence>
-  </complexType>
-
-  <complexType name="systemsInventoryType">
-    <sequence>
-      <element name="systemId" type="integer" minOccurs="0"/>
-      <element name="agencySystemId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="systemName" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="initialOperatingYear" type="businessCase-type:investmentYear" minOccurs="0"/>
-      <element name="techRefreshDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="averageUsersPerMonth" type="integer" minOccurs="0"/>
-      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-    </sequence>
-  </complexType>
+</complexType>
 
   <complexType name="operationalAnalysisType">
     <sequence>

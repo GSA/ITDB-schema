@@ -8,6 +8,7 @@
             <SOC>
                 <operation>update</operation>
                 <!--<SOCID></SOCID>-->
+                <SOCName>NewSOCName</SOCName>
                 <agencySOCID>SOC1</agencySOCID>
                 <isService>N</isService>
                 <coveredEntities>
@@ -29,6 +30,7 @@
             <SOC>
                 <operation>update</operation>
                 <!--<SOCID></SOCID>-->
+                <SOCName>SOC2-Name</SOCName>
                 <agencySOCID>SOC2-Service</agencySOCID>
                 <isService>Y</isService>
                 <coveredEntities>

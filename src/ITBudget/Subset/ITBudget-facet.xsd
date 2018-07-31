@@ -256,47 +256,47 @@
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="Total Internal Labor Cost">
+      <xsd:enumeration value="Total Internal Labor Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY cost represented by the number of government FTEs associated with the Investment.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total External Labor Cost">
+      <xsd:enumeration value="Total External Labor Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY cost for external labor; contractor fees, travel and expenses, associated with this Investment.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Outside Services Cost">
+      <xsd:enumeration value="Total Outside Services Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY cost for outside services including consulting, managed service providers and cloud service providers.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Hardware Cost">
+      <xsd:enumeration value="Total Hardware Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY cost for hardware including expense, lease, maintenance and support, and depreciation and amortization.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Software Cost">
+      <xsd:enumeration value="Total Software Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY cost for software including expense, subscription, maintenance and support, and depreciation and amortization.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Facilities and Power Cost">
+      <xsd:enumeration value="Total Facilities and Power Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BYcost for facilities and power including expense, lease, maintenance and support, and depreciation and amortization.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Telecom Cost">
+      <xsd:enumeration value="Total Telecom Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BYcost for telecom including expense, lease, maintenance and support, and depreciation and amortization.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Other Cost">
+      <xsd:enumeration value="Total Other Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total other cost for PY/CY/BY including miscellaneous or non-standard expenses.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Internal Services Cost">
+      <xsd:enumeration value="Total Internal Services Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY internal services cost for shared services charges received from other internal shared services groups.</xsd:documentation>
         </xsd:annotation>
@@ -590,57 +590,57 @@
       </xsd:appinfo>
     </xsd:annotation>
     <xsd:restriction base="xsd:string">
-      <xsd:enumeration value="Total Data Center Cost">
+      <xsd:enumeration value="Total Data Center Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY data center cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Compute Cost">
+      <xsd:enumeration value="Total Compute Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY compute cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Storage Cost">
+      <xsd:enumeration value="Total Storage Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY storage cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Network Cost">
+      <xsd:enumeration value="Total Network Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY network cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Output Cost">
+      <xsd:enumeration value="Total Output Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY output cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total End User Cost">
+      <xsd:enumeration value="Total End User Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY end user cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Application Cost">
+      <xsd:enumeration value="Total Application Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY application cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Delivery Cost">
+      <xsd:enumeration value="Total Delivery Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY delivery cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total IT Security and Compliance Cost">
+      <xsd:enumeration value="Total IT Security and Compliance Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY security and compliance cost included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total IT Management Cost">
+      <xsd:enumeration value="Total IT Management Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY IT Management cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="Total Platform Cost">
+      <xsd:enumeration value="Total Platform Amount">
         <xsd:annotation>
           <xsd:documentation>This is the total PY/CY/BY platform cost associated with and included in this Investment’s total cost.</xsd:documentation>
         </xsd:annotation>

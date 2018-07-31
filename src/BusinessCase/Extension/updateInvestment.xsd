@@ -41,7 +41,6 @@
         <element ref="businessCase-update:lifeCycleCosts" minOccurs="0"/>
         <element ref="businessCase-update:changesFromPreviousBudget" minOccurs="0"/>
         <element ref="businessCase-update:cioRating" minOccurs="0"/>
-        <element ref="businessCase-update:systemsInventory" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -688,15 +687,6 @@
       <sequence>
         <element ref="businessCase-update:cioRatingEval"/>
         <element ref="businessCase-update:cioComment"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="systemsInventory">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-update:updateSystem" minOccurs="0" maxOccurs="unbounded"/>
-        <element ref="businessCase-update:addSystem" minOccurs="0" maxOccurs="unbounded"/>
       </sequence>
     </complexType>
   </element>

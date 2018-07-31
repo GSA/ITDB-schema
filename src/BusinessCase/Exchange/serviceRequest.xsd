@@ -64,14 +64,7 @@
           </documentation>
         </annotation>
       </element>
-     <element name="getSystemsInventory" type="tns:getInformationType" minOccurs="0">
-        <annotation>
-          <documentation>
-            This operation is used get Systems Inventory.
-          </documentation>
-        </annotation>
-      </element>
-      <element name="getPerformanceMetrics" type="tns:getInformationType" minOccurs="0">
+     <element name="getPerformanceMetrics" type="tns:getInformationType" minOccurs="0">
         <annotation>
           <documentation>
             This operation is used to get Performance Metrics.
@@ -125,20 +118,6 @@
 
   <complexType name="monthlySubmissionType">
     <sequence>
-     <element name="updateSystem" type="tns:updateSystemType" maxOccurs="unbounded" minOccurs="0">
-        <annotation>
-          <documentation>
-            This operation is used update Systems Inventory.
-          </documentation>
-        </annotation>
-      </element>
-      <element name="addSystem" type="tns:addSystemType" maxOccurs="unbounded" minOccurs="0">
-        <annotation>
-          <documentation>
-            This operation is used to add Systems Inventory.
-          </documentation>
-        </annotation>
-      </element>
       <element name="addPerformanceMetric" type="tns:addPerformanceMetricType" maxOccurs="unbounded" minOccurs="0">
         <annotation>
           <documentation>
@@ -217,12 +196,9 @@
     <choice>
       <element name="getInvestment" type="tns:getInformationType"/>
       <element name="getCIORating" type="tns:getInformationType"/>
-      <element name="getSystemsInventory" type="tns:getInformationType"/>
       <element name="getInvestmentRisks" type="tns:getInformationType"/>
       <element name="getProjects" type="tns:getInformationType"/>
       <element name="getProjectsInProgress" type="tns:getInformationType"/>
-      <element name="updateSystem" type="tns:updateSystemType"/>
-      <element name="addSystem" type="tns:addSystemType"/>
       <element name="addPerformanceMetric" type="tns:addPerformanceMetricType"/>
       <element name="updatePerformanceMetric" type="tns:updatePerformanceMetricType"/>
       <element name="updateCIORating" type="tns:updateCIORatingType"/>
@@ -882,31 +858,6 @@
         <attribute name="contentType" type="string" use="required"/>
       </extension>
     </simpleContent>
-  </complexType>
-
-  <complexType name="addSystemType">
-    <sequence>
-      <element name="agencySystemId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="systemName" type="businessCase-type:shortTextString"/>
-      <element name="initialOperatingYear" type="businessCase-type:investmentYear" minOccurs="0"/>
-      <element name="techRefreshDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="averageUsersPerMonth" type="integer" minOccurs="0"/>
-    </sequence>
-  </complexType>
-
-  <complexType name="updateSystemType">
-    <sequence>
-      <element name="systemId" type="integer" minOccurs="0"/>
-      <element name="agencySystemId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="systemName" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="initialOperatingYear" type="businessCase-type:investmentYear" minOccurs="0"/>
-      <element name="techRefreshDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="averageUsersPerMonth" type="integer" minOccurs="0"/>
-      <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
-    </sequence>
-    <attribute name="id" type="string" use="required"/>
   </complexType>
 
   <complexType name="operationalAnalysis">

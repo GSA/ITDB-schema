@@ -6,14 +6,6 @@
             xsi:schemaLocation="http://www.itdashboard.gov/service ../Exchange/serviceRequest.xsd">
   <investmentInformation uniqueInvestmentIdentifier="000-000000000">
     <monthlySubmission>
-      <addSystem>
-        <agencySystemId>a</agencySystemId>
-        <systemName>a</systemName>
-        <initialOperatingYear>1970</initialOperatingYear>
-        <techRefreshDate>1970-01-01</techRefreshDate>
-        <endOfContractedSupportDate>1970-01-01</endOfContractedSupportDate>
-        <averageUsersPerMonth>100</averageUsersPerMonth>
-      </addSystem>
       <addPerformanceMetric>
         <agencyPerformanceMetricId>a</agencyPerformanceMetricId>
         <performanceMetricDescription>a</performanceMetricDescription>
@@ -30,7 +22,7 @@
           <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
           <performanceMetricComment>a</performanceMetricComment>
         </addPerformanceMetricActual>
-        <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
+        <performanceMetricObjectiveOrGoal>018SO18038</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </addPerformanceMetric>
       <updatePerformanceMetric id="String">
@@ -44,7 +36,7 @@
           <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
           <performanceMetricComment>a</performanceMetricComment>
         </addPerformanceMetricActual>
-        <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
+        <performanceMetricObjectiveOrGoal>018SO18038</performanceMetricObjectiveOrGoal>
         <isClosed>no</isClosed>
       </updatePerformanceMetric>
       <updateCIORating id="String">
@@ -384,7 +376,7 @@
             <performanceMetricDateofActual>1970-01-01</performanceMetricDateofActual>
             <performanceMetricComment>a</performanceMetricComment>
           </addPerformanceMetricActual>
-          <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
+          <performanceMetricObjectiveOrGoal>018SO18038</performanceMetricObjectiveOrGoal>
           <isClosed>yes</isClosed>
         </reviseAddPerformanceMetric>
         <reviseUpdatePerformanceMetric>
@@ -412,7 +404,7 @@
             <performanceMetricComment>a</performanceMetricComment>
             <isActive>active</isActive>
           </reviseUpdatePerformanceMetricActual>
-          <performanceMetricObjectiveOrGoal>123SO456</performanceMetricObjectiveOrGoal>
+          <performanceMetricObjectiveOrGoal>018SO18038</performanceMetricObjectiveOrGoal>
           <isActive>active</isActive>
           <isClosed>no</isClosed>
         </reviseUpdatePerformanceMetric>

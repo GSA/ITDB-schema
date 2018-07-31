@@ -113,18 +113,6 @@
               <businessCase-response:cioRatingEval>1</businessCase-response:cioRatingEval>
               <businessCase-response:cioComment>a</businessCase-response:cioComment>
             </businessCase-response:cioRating>
-            <businessCase-response:systemsInventory>
-              <businessCase-response:systemsInventoryRow>
-                <businessCase-response:systemId>0</businessCase-response:systemId>
-                <businessCase-response:agencySystemId>a</businessCase-response:agencySystemId>
-                <businessCase-response:systemName>a</businessCase-response:systemName>
-                <businessCase-response:initialOperatingYear>1970</businessCase-response:initialOperatingYear>
-                <businessCase-response:techRefreshDate>1970-01-01</businessCase-response:techRefreshDate>
-                <businessCase-response:endOfContractedSupportDate>1970-01-01</businessCase-response:endOfContractedSupportDate>
-                <businessCase-response:averageUsersPerMonth>0</businessCase-response:averageUsersPerMonth>
-                <businessCase-response:isActive>active</businessCase-response:isActive>
-              </businessCase-response:systemsInventoryRow>
-            </businessCase-response:systemsInventory>
             <businessCase-response:investmentStatus>a</businessCase-response:investmentStatus>
             <businessCase-response:businessCaseId>0</businessCase-response:businessCaseId>
           </businessCase-response:capitalAssetSummary>
@@ -263,7 +251,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>018SO18038</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>deactivated</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -431,7 +419,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>018SO18038</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>active</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -457,7 +445,7 @@
               <sr:isActive>active</sr:isActive>
             </sr:performanceMetricActual>
           </sr:PerformanceMetricActuals>
-          <sr:performanceMetricObjectiveOrGoal>123SO456</sr:performanceMetricObjectiveOrGoal>
+          <sr:performanceMetricObjectiveOrGoal>018SO18038</sr:performanceMetricObjectiveOrGoal>
           <sr:isActive>deactivated</sr:isActive>
           <sr:isClosed>no</sr:isClosed>
         </sr:performanceMetric>
@@ -822,7 +810,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>018SO18038</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>
@@ -1050,7 +1038,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>018SO18038</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>
@@ -1269,7 +1257,7 @@
                     <businessCase-response:isActive>active</businessCase-response:isActive>
                   </businessCase-response:performanceMetricActual>
                 </businessCase-response:performanceMetricActuals>
-                <businessCase-response:performanceMetricObjectiveOrGoal>123SO456</businessCase-response:performanceMetricObjectiveOrGoal>
+                <businessCase-response:performanceMetricObjectiveOrGoal>018SO18038</businessCase-response:performanceMetricObjectiveOrGoal>
                 <businessCase-response:isActive>deactivated</businessCase-response:isActive>
                 <businessCase-response:isClosed>no</businessCase-response:isClosed>
               </businessCase-response:performanceMetric>

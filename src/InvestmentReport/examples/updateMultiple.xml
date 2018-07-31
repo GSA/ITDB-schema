@@ -364,7 +364,7 @@
                 <CYTarget>5.6</CYTarget>
                 <measurementCondition>Over Target</measurementCondition>
                 <reportingFrequency>Monthly</reportingFrequency>
-                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>018SO18038</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>
@@ -394,7 +394,7 @@
                 <CYTarget>4.5</CYTarget>
                 <measurementCondition>Under Target</measurementCondition>
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>123SO456</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>018SO18038</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>

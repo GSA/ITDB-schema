@@ -1,4 +1,4 @@
-<contractsReports>
+<contractsReports validateOnlyIndicator="false">
     <contractsReport>
         <operation>delete</operation>
         <details>

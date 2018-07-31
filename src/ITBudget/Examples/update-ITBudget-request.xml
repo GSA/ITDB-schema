@@ -58,55 +58,55 @@
             </DME>
             <CostPools>
                 <CostPool>
-                    <CostPoolCategory>Total Internal Labor Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Internal Labor Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total External Labor Cost</CostPoolCategory>
+                    <CostPoolCategory>Total External Labor Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Outside Services Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Outside Services Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Hardware Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Hardware Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Software Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Software Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Facilities and Power Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Facilities and Power Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Telecom Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Telecom Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Other Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Other Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </CostPool>
                 <CostPool>
-                    <CostPoolCategory>Total Internal Services Cost</CostPoolCategory>
+                    <CostPoolCategory>Total Internal Services Amount</CostPoolCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
@@ -114,67 +114,67 @@
             </CostPools>
             <ITTowers>
                 <ITTower>
-                    <ITTowerCategory>Total Data Center Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Data Center Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Compute Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Compute Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Storage Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Storage Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Network Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Network Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Output Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Output Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total End User Cost</ITTowerCategory>
+                    <ITTowerCategory>Total End User Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Application Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Application Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Delivery Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Delivery Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total IT Security and Compliance Cost</ITTowerCategory>
+                    <ITTowerCategory>Total IT Security and Compliance Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total IT Management Cost</ITTowerCategory>
+                    <ITTowerCategory>Total IT Management Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
                 </ITTower>
                 <ITTower>
-                    <ITTowerCategory>Total Platform Cost</ITTowerCategory>
+                    <ITTowerCategory>Total Platform Amount</ITTowerCategory>
                     <PriorYearAmount>0</PriorYearAmount>
                     <CurrentYearAmount>0</CurrentYearAmount>
                     <BudgetYearAmount>0</BudgetYearAmount>
@@ -214,6 +214,7 @@
                         </CurrentYear>
                         <BudgetYear>
                             <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                            <BudgetAuthorityAgencyFundingAmount>30.000000</BudgetAuthorityAgencyFundingAmount>
                             <AgencyContributionAmount>3.000000</AgencyContributionAmount>
                         </BudgetYear>
                     </OandM>
@@ -228,6 +229,7 @@
                         </CurrentYear>
                         <BudgetYear>
                             <AgencyFundingAmount>30.000000</AgencyFundingAmount>
+                            <BudgetAuthorityAgencyFundingAmount>30.000000</BudgetAuthorityAgencyFundingAmount>
                             <AgencyContributionAmount>3.000000</AgencyContributionAmount>
                         </BudgetYear>
                     </DME>

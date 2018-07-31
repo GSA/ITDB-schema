@@ -50,6 +50,7 @@
                                                     <xs:element name='operation' type='operation'/>
                                                     <xs:element name='SOCID'/>
                                                     <xs:element name='agencySOCID'/>
+                                                    <xs:element name='SOCName' minOccurs='0'/>
                                                     <xs:element name='isService'/>
                                                     <xs:element name='coveredEntities' minOccurs='0'>
                                                         <xs:complexType>

@@ -42,7 +42,6 @@
         <element ref="businessCase-response:investmentStartEndDates" minOccurs="0"/>
         <element ref="businessCase-response:changesFromPreviousBudget" minOccurs="0"/>
         <element ref="businessCase-response:cioRating" minOccurs="0"/>
-        <element ref="businessCase-response:systemsInventory" minOccurs="0"/>
         <element ref="businessCase-response:investmentStatus" minOccurs="0"/>
         <element ref="businessCase-response:businessCaseId" minOccurs="0"/>
       </sequence>
@@ -450,30 +449,7 @@
     </complexType>
   </element>
 
-  <element name="systemsInventory">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-response:systemsInventoryRow" maxOccurs="unbounded"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="systemsInventoryRow">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-response:systemId"/>
-        <element ref="businessCase-response:agencySystemId" minOccurs="0"/>
-        <element ref="businessCase-response:systemName" minOccurs="0"/>
-        <element ref="businessCase-response:initialOperatingYear" minOccurs="0"/>
-        <element ref="businessCase-response:techRefreshDate" minOccurs="0"/>
-        <element ref="businessCase-response:endOfContractedSupportDate" minOccurs="0"/>
-        <element ref="businessCase-response:averageUsersPerMonth" minOccurs="0"/>
-        <element ref="businessCase-response:isActive" minOccurs="0"/>
-      </sequence>
-    </complexType>
-  </element>
-
-  <element name="operationalAnalysis">
+    <element name="operationalAnalysis">
     <complexType>
       <sequence>
         <element ref="businessCase-response:dateOfAnalysis" minOccurs="0"/>
