@@ -520,17 +520,17 @@
       </xsd:enumeration>
       <xsd:enumeration value="07">
         <xsd:annotation>
-          <xsd:documentation>Application</xsd:documentation>
+          <xsd:documentation>Output</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
       <xsd:enumeration value="08">
         <xsd:annotation>
-          <xsd:documentation>Delivery</xsd:documentation>
+          <xsd:documentation>Application</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
       <xsd:enumeration value="09">
         <xsd:annotation>
-          <xsd:documentation>Output</xsd:documentation>
+          <xsd:documentation>Delivery</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
       <xsd:enumeration value="10">
