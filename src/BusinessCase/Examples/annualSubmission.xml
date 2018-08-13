@@ -172,6 +172,10 @@
                     <bC-upd:releaseEverySixMo>no</bC-upd:releaseEverySixMo>
                     <bC-upd:releaseEverySixMoComment>a</bC-upd:releaseEverySixMoComment>
                     <bC-upd:productionDeploymentDate>1970-01-01</bC-upd:productionDeploymentDate>
+                    <bC-upd:fundedBy>IT WCF</bC-upd:fundedBy>
+                    <bC-upd:commercialSolutionsCosts>2.0</bC-upd:commercialSolutionsCosts>
+                    <bC-upd:commercialSolutionsAdoption>This is a text field 4.</bC-upd:commercialSolutionsAdoption>
+                    <bC-upd:commercialSolutionsReasoning>This is a text field 5.</bC-upd:commercialSolutionsReasoning>
                   </bC-upd:updateProjectDetail>
                   <bC-upd:updateProjectActivities>
                     <bC-upd:updateProjectActivity>

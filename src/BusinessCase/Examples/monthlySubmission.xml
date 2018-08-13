@@ -131,6 +131,10 @@
           <releaseEverySixMo>no</releaseEverySixMo>
           <releaseEverySixMoComment>a</releaseEverySixMoComment>
           <productionDeploymentDate>1970-01-01</productionDeploymentDate>
+          <fundedBy>IT WCF</fundedBy>
+          <commercialSolutionsCosts>2.0</commercialSolutionsCosts>
+          <commercialSolutionsAdoption>This is a text field 4.</commercialSolutionsAdoption>
+          <commercialSolutionsReasoning>This is a text field 5.</commercialSolutionsReasoning>
         </updateProjectDetail>
         <updateProjectActivities>
           <updateProjectActivity>
