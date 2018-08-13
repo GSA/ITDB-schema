@@ -147,7 +147,6 @@
                             <xs:element name='operationalAnalysis' minOccurs='0' maxOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                        <xs:element name='operation' type='operation'/>
                                         <xs:element name='dateOfAnalysis'/>
                                         <xs:element name='analysisResults'/>
                                         <xs:element name='analysisConclusion'/>

@@ -108,7 +108,6 @@
             </investmentCostDetail>
         </investmentCostDetails>
         <operationalAnalysis>
-            <operation>add</operation>
             <dateOfAnalysis>10/17/1991</dateOfAnalysis>
             <analysisResults>Add-This is a text string.</analysisResults>
             <analysisConclusion>1</analysisConclusion>
@@ -307,7 +306,6 @@
         </project>
         </projects>
         <operationalAnalysis>
-            <operation>add</operation>
             <dateOfAnalysis>10/17/1991</dateOfAnalysis>
             <analysisResults>Add-This is a text string.</analysisResults>
             <analysisConclusion>1</analysisConclusion>

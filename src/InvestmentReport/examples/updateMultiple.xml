@@ -347,7 +347,6 @@
 		
         </projects>
         <operationalAnalysis>
-            <operation>update</operation>
             <dateOfAnalysis>10/17/2000</dateOfAnalysis>
             <analysisResults>Update-This is a text string.</analysisResults>
             <analysisConclusion>2</analysisConclusion>
