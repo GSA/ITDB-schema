@@ -16,8 +16,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714; | [FY20 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
 | Working Draft | [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx) | August 22, 2018 | IN PROGRESS |
 | Working Draft | [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx) | August 22, 2018 |
-| Working Draft | FY20 XSD Final| August 22, 2018 |
-| Working Draft | [FY20 Submission Instructions](https://github.com/ombegov/ITDB-schema/blob/master/ITDB_Submission_Instructions_v4_0.pdf) | August 22, 2018 |
+| &#x2714; | [FY20 XSD Final](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)| August 22, 2018 |
+| &#x2714; | [FY20 Submission Instructions](https://github.com/ombegov/ITDB-schema/blob/master/ITDB_Submission_Instructions_v4_0.pdf) | August 22, 2018 |
 
 
 ## Vendor Meetings  
@@ -49,14 +49,14 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
 |  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
 |  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
-|  Publish Final XSD  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018  |
+|  Publish [Final XSD](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018  |
 |  2020 UAT Server Delivered with 95% Integrated Validations |  July 30, 2018  |
 |  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 13, 2018 |
 |  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 13, 2018 |
-|  Draft IT Portfolio Pre-submission  |  August 20, 2018 (Tentative) |
+|  Draft IT Portfolio Pre-submission  |  August 20, 2018 |
 |  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  2020 IT Portfolio Data Feed available to Agencies    |  TBD |
-|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  TBD   |
+|  2020 IT Portfolio Data Feed available to Agencies    |  September 10, 2018 |
+|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 10, 2018   |
 
 
 ## Submission Dates (Tentative) 
@@ -64,11 +64,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |:-------------|:-------------:|
 |  BY19 Submission Ends  |  August 31, 2018 |
 |  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 (Tentative) |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 (Tentative) |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 (Tentative)  |
-|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 (Tentative) |
-|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 (Tentative) |
+|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
+|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
+|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
 |  President's Budget Agency IT Portfolio Summary Submission Starts  |  January 2019 (Tentative) |
 |  President's Budget Agency IT Portfolio Summary Submission Ends  |  January 2019 (Tentative) |
 |  President's Budget BC and SIR Submission Starts  |  January 2019 (Tentative) |
@@ -94,9 +94,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
 |  Sprint 2018.07B                    |  July 16, 2018    | <ul><li>FY20: Activity Parent/Child Relationships</li><li>FY20: Project/Activity Variances</li><li>FY20: Delete Operation for Systems/Products</li><li>FY20: Create Contracts Report Data Feed</li><li>FY20: Add Planned Shared Service to Business Case PDF</li><li>FY20: Follow on Tasks for Security SIR</li><li>FY20: Follow on Tasks for Systems Inventory List</li><li>Follow on Tasks for Error Code Prefixes for SIRs and System Inventory List</li></ul>| &#x2714; |
 |  Sprint 2018.07C                    |  July 30, 2018    | <ul><li>FY20: Create Submission Confirmation Schema</li><li>FY20: Create Internal Services Cost Pools Validation for Type 04 Investments</li><li>FY20: Update ASP/APG Type to Varchar(11)</li><li>FY20: Update Commercial Solutions Field Names</li><li>FY20: Add Budget Authority Fields to Funding Source Line Items</li><li>FY20: Make Data Center Inventory ID Optional</li><li>FY20: Disallow "N/A" for Planned Contract Acquisitions</li><li>FY20: Remove System Inventory from Business Case</li><li>Help Desk: Resolve GitHub Issue #178</li><li>Help Desk: Fix Bug for Deactivating Retireing Performance Metrics</li></ul> | &#x2714; |
-|  Sprint 2018.08A                    |  August 13, 2018    | <ul><li>FY20:Add SIL Validations</li><li>Add Validation for Planned Acquisitions</li><li>FY20:Add Submission Confirmation Validations</li><li>FY20:Fix Covered Entity Singular Array Error</li><li>FY20:Fix IMC for Delivery, Application, and Output SIRs</li><li>FY20:FY19 to FY20 Data Migration in UAT</li></ul> | |
-|  Sprint 2018.08B                    |  August 27, 2018    | <ul><li>Update Projects and Activities Data Feeds</li><li>FY20:Follow On:Create Submission Confirmation Page</li><li>Implment Project/Activity Validations for SIRs</li><li>FY20:Add Missing Children to UpdateProjectDetailType Node</li><li>Update Structure ID for Child Activities when Structure ID is Updated in Current Activity</li></ul> | |
-|  Sprint 2018.09A                    |  TBD   | | |
+|  Sprint 2018.08A                    |  August 12, 2018    | <ul><li>FY20:Add SIL Validations</li><li>Add Validation for Planned Acquisitions</li><li>FY20:Add Submission Confirmation Validations</li><li>FY20:Fix Covered Entity Singular Array Error</li><li>FY20:Fix IMC for Delivery, Application, and Output SIRs</li><li>FY20:FY19 to FY20 Data Migration in UAT</li></ul> | &#x2714; |
+|  Sprint 2018.08A.Hotfix.1           |  August 14, 2018    | <ul><li>Resolve GitHub Issue #289</li></ul> | &#x2714;  |
+|  Sprint 2018.08B                    |  August 20, 2018    | <ul><li>Update Projects and Activities Data Feeds</li><li>FY20:Follow On:Create Submission Confirmation Page</li><li>Implment Project/Activity Validations for SIRs</li><li>FY20:Add Missing Children to UpdateProjectDetailType Node</li><li>Update Structure ID for Child Activities when Structure ID is Updated in Current Activity</li></ul> | &#x2714; |
+|  Sprint 2018.09A                    | TBD | <ul><li>Enable Locking of Windows via Submission Confirmation</li><li>Implement 000522-SIR Validation</li><li>Implement 000538-SIR Validation</li><li>Implement 000405-SIR Validation</li><li>Implement 000554-SIR Validation</li><li>Implement 000889-SIR Validation</li><li>Implement 000890-SIR Validation</li><li>Implement 000891-SIR Validation</li><li>Update IT Portfolio Cost Pools Towers Data Feed</li></ul> | |
 
 ## Quick Links to Files
 
@@ -105,7 +106,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
   * **A11**
     * [OMB Circular A-11](https://www.whitehouse.gov/omb/circulars_a11_current_year_a11_toc) 
   * **XSD**
-    * [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src)
+    * [FY20 XSD Final](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)
   * **SAMPLE XML**
     * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
     * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
@@ -113,6 +114,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
     * [CIO Rating](https://github.com/ombegov/ITDB-schema/tree/master/src/CIORating/Examples)
     * [Contracts Report](https://github.com/ombegov/ITDB-schema/tree/master/src/ContractsReport/examples)
     * [Systems Inventory List](https://github.com/ombegov/ITDB-schema/tree/master/src/SystemsInventory/examples)
+    * [Submission Confirmation](https://github.com/ombegov/ITDB-schema/tree/master/src/SubmissionConfirmation/examples)
 * **Data Dictionary & Validations** 
   * [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20DataDictionaryEnumerations.xlsx)
   * [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx)
