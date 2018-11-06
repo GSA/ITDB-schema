@@ -205,7 +205,7 @@
         <element ref="businessCase-add:performanceMetricDescription"/>
         <element ref="businessCase-add:performanceMetricUOM"/>
         <element ref="businessCase-add:performanceMetricCategory"/>
-        <element ref="businessCase-add:performanceMetricBaselineCapability"/>
+        <element ref="businessCase-add:performanceMetricBaselineCapability" minOccurs="0"/>
         <element ref="businessCase-add:performanceMetricPYTarget" minOccurs="0"/>
         <element ref="businessCase-add:performanceMetricCYTarget"/>
         <element ref="businessCase-add:performanceMetricCondition"/>
