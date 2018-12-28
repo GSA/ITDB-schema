@@ -37,6 +37,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | Bi-Monthly Meeting | August 30, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | Bi-Monthly Meeting | September 6, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | Bi-Monthly Meeting | September 13, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
+| Passback Submission Prep Meeting | December 18, 2018 | 1:00PM to 2:00PM | NEOB Room 9047, Conference Dial In Available |
 
 ## Important Dates 
 
@@ -69,10 +70,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
 |  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
 |  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
-|  President's Budget Agency IT Portfolio Summary Submission Starts  |  January 2019 (Tentative) |
-|  President's Budget Agency IT Portfolio Summary Submission Ends  |  January 2019 (Tentative) |
-|  President's Budget BC and SIR Submission Starts  |  January 2019 (Tentative) |
-|  President's Budget BC and SIR Submission Ends  |  January 2019 (Tentative) |
+|  President's Budget Agency IT Portfolio Summary Submission Starts  |  January 8, 2019 |
+|  President's Budget Agency IT Portfolio Summary Submission Ends  |  January 11, 2019 |
+|  President's Budget BC and SIR Submission Starts  |  January 14, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
+|  President's Budget BC and SIR Submission Ends  |  January 18, 2019 |
 |  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  TBD |
 |  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  February 2019 (Tentative) |
 |  Congressional Justification  Agency IT Portfolio Summary Submission Ends  |  February 2019 (Tentative) |
@@ -84,21 +85,16 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  Sprint 2018.04A                    |  April 9, 2018    |<ul><li>Propose Error Code Prefixes</li><li>Removal of Eliminated Investments from Counts in Investments Highlights Table</li><li>Fix Chrome Data Feed Bug</li><li>**No Schema Changes**</li></ul>| &#x2714; |
-|  Sprint 2018.04B                   |  April 23, 2018    |<ul><li>Fix CIO Rating Evaluations Response Not Showing Warnings</li><li>Include Public URLs on Investment Pages</li><li>Fix Agile Activities Missing from Business Case PDFs Bug</li><li>Insert Contracts on Individual Investment Pages</li><li>**No Schema Changes**</li></ul>|&#x2714;|
-|  Sprint 2018.04B Hotfix 1                  |  April 25, 2018    | <ul><li>Drupal SA-CORE-2018-004</li><li>**No Schema Changes**</li></ul> | &#x2714; |
-|  Sprint 2018.05A                    |  May 7, 2018    | <ul><li>Add DCOI Cost Savings Chart</li><li>Insert Contracts on Individual Investment Pages</li><li>Add Error Code Prefixes to Validation Documentation</li><li>Finalize CPIC Vendor GH Page</li><li>Create FY20 Development Branching</li><li>FY20 CPIC Guidance Change Preparations</li><li>**No Schema Changes**</li></ul>| &#x2714; |
-|  Sprint 2018.05B                    |  May 21, 2018    | <ul><li>FY20 Prep: Create Application SIR</li><li>FY20 Prep: Update Security & Compliance SIR</li><li>FY20 Prep: Eliminate Mission Delivery & Management Support Area Field from AITPS</li><li>FY20 Prep: Update Business Case Fields</li><li>FY20 Prep: Add Field to Categorize Part 2 Investments</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
-|  Sprint 2018.06A                    |  June 4, 2018    | <ul><li>FY20 Prep: Create Delivery SIR </li><li>FY20: Update Project Plan and Execution Data Table in Projects</li><li>FY20 Prep: Add Platform as a Tower in AITPS</li><li>FY20 Prep: Update Network Investment Types</li><li>FY20 Prep: Update Mission Support Investment Categories</li><li>FY20 Prep: Create Contracts Report</li><li>FY20 Prep: Update Activity Table in Business Case</li><li>FY20 Prep: Update End User SIR</li><li>**No FY19 Schema Changes**</li></ul>| &#x2714;|
-|  Sprint 2018.06B                    |  June 18, 2018    | <ul><li>FY20 Prep: Update Investment Risk Table</li><li>FY20 Prep: Update Life Cycle Costs Table</li><li>FY20 Prep: Add DME and O&M Budget Authority Fields</li><li>FY20 Prep: Add Total Agency Funding Budget Authority Field to Budget Accounts Summary</li><li>FY20 Prep: Modify Character Limits and Formats on Existing Fields</li><li>FY20 Prep: Remove IT Portfolio Validation Limiting Data Center ID to 1 input</li><li>FY20 Prep: Implement Error Code Prefixes on IT Portfolio Validations</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
-|  Sprint 2018.07A                    |  July 2, 2018    | <ul><li>FY20: Implement Error Code Prefixes</li><li>FY20: Create System Inventory List</li><li>FY20: Create Delete Operation for Contracts Report</li><li>FY20: Create Operational Analysis Data Table and Procedures</li><li>FY20: Update FY20 Example Files</li><li>**No FY19 Schema Changes**</li></ul> | &#x2714; |
-|  Sprint 2018.07B                    |  July 16, 2018    | <ul><li>FY20: Activity Parent/Child Relationships</li><li>FY20: Project/Activity Variances</li><li>FY20: Delete Operation for Systems/Products</li><li>FY20: Create Contracts Report Data Feed</li><li>FY20: Add Planned Shared Service to Business Case PDF</li><li>FY20: Follow on Tasks for Security SIR</li><li>FY20: Follow on Tasks for Systems Inventory List</li><li>Follow on Tasks for Error Code Prefixes for SIRs and System Inventory List</li></ul>| &#x2714; |
-|  Sprint 2018.07C                    |  July 30, 2018    | <ul><li>FY20: Create Submission Confirmation Schema</li><li>FY20: Create Internal Services Cost Pools Validation for Type 04 Investments</li><li>FY20: Update ASP/APG Type to Varchar(11)</li><li>FY20: Update Commercial Solutions Field Names</li><li>FY20: Add Budget Authority Fields to Funding Source Line Items</li><li>FY20: Make Data Center Inventory ID Optional</li><li>FY20: Disallow "N/A" for Planned Contract Acquisitions</li><li>FY20: Remove System Inventory from Business Case</li><li>Help Desk: Resolve GitHub Issue #178</li><li>Help Desk: Fix Bug for Deactivating Retireing Performance Metrics</li></ul> | &#x2714; |
-|  Sprint 2018.08A                    |  August 12, 2018    | <ul><li>FY20:Add SIL Validations</li><li>Add Validation for Planned Acquisitions</li><li>FY20:Add Submission Confirmation Validations</li><li>FY20:Fix Covered Entity Singular Array Error</li><li>FY20:Fix IMC for Delivery, Application, and Output SIRs</li><li>FY20:FY19 to FY20 Data Migration in UAT</li></ul> | &#x2714; |
-|  Sprint 2018.08A.Hotfix.1           |  August 14, 2018    | <ul><li>Resolve GitHub Issue #289</li></ul> | &#x2714;  |
-|  Sprint 2018.08B                    |  August 20, 2018    | <ul><li>Update Projects and Activities Data Feeds</li><li>FY20:Follow On:Create Submission Confirmation Page</li><li>Implment Project/Activity Validations for SIRs</li><li>FY20:Add Missing Children to UpdateProjectDetailType Node</li><li>Update Structure ID for Child Activities when Structure ID is Updated in Current Activity</li></ul> | &#x2714; |
 |  Sprint 2018.09A                    | August 31, 2018 | <ul><li>Enable Locking of Windows via Submission Confirmation</li><li>Implement 000522-SIR Validation</li><li>Implement 000538-SIR Validation</li><li>Implement 000405-SIR Validation</li><li>Implement 000554-SIR Validation</li><li>Implement 000889-SIR Validation</li><li>Implement 000890-SIR Validation</li><li>Implement 000891-SIR Validation</li><li>Update IT Portfolio Cost Pools Towers Data Feed</li></ul> | &#x2714; |
-Sprint 2018.09B                    | September 7, 2018 | <ul><li>Fix for GitHub Issue #311</li><li>Fix for GitHub Issue #324</li><li>Modify 000214-ITP to permit zeroes of all types</li><li>Add Content to Submission Confirmation Page</li><li>FY19 to FY20 Cutover Activities</li></ul> |  |
+|  Sprint 2018.09B                    | September 7, 2018 | <ul><li>Fix for GitHub Issue #311</li><li>Fix for GitHub Issue #324</li><li>Modify 000214-ITP to permit zeroes of all types</li><li>Add Content to Submission Confirmation Page</li><li>FY19 to FY20 Cutover Activities</li></ul> | &#x2714; |
+|  Sprint 2018.09C                    | September 24, 2018 | <ul><li>Disable Public Display of Investment Types 05 and 06</li><li>Disable Security Costs and Capabilities Feed</li><li>Make SILs and Product Feeds Unavailable to the Public</li></ul> | &#x2714;  |
+|  Sprint 2018.10A                   | October 3, 2018 | <ul><li>Create Security SIR Data Feed</li><li>Resolve GitHub Issue #307</li><li>Remove Acquisitions from MITBC Response File</li><li>Enable Public Access to Data Feeds</li><li>Resolve Bugs where Contracts Report Not Getting Updated</li<li>Update Data Centers in Data Dictionary</li></ul> | &#x2714; |
+|  Sprint 2018.10B                   | October 19, 2018 | <ul><li>Resolve GitHub Issue #292</li><li>Resolve Help Desk Issues Reporting Internal Server Errors</li><li>Make itdashboard.gov point to myit-2020.itdashboard.gov</li><li>Add Functional/Business Sponsor Fields to IT Portfolio Data Feed</li></ul> | &#x2714; |
+|  Sprint 2018.11A                   | November 5, 2018 | <ul><li>Resolve GitHub Issue #277</li><li>Modify Error Message for 000216-BSC</li><li>Remove Invalid Categories from investmentCostDetails</li><li>Make Performance Metric Baseline Capability Optional in addInvestment</li><li>Fix Typo in Error Message 000093-ITP</li></ul> | &#x2714; |
+|  Sprint 2018.11B                   | November 19, 2018 | <ul><li>Perform Drupal Upgrade</li><li>Resolve GitHub Issue #286</li><li>Resolve GitHub Issue #318</li><li>Add Contracts Report and SILs to Submission Status Page</li><li>Update ASO/APG Table with New Data from Performance.Gov</li></ul> | &#x2714; |
+|  Sprint 2018.12A                   | December 11, 2018 | <ul><li>Create Submission Status Endpoint for Vendors</li><li>Add Data Filter to Individual Investments Table</li><li>Fix Bug Where XML Request Type is Stored with Incorrect Values</li><li>Remove Cost Details Fields that Don't Apply in Get Response</li></ul> | &#x2714; |
+|  Sprint 2018.12B                   | December 24, 2018 | <ul><li>Add Contract PIIDs to Investment Summary Page</li><li>Add Validation for 100% IT Spending for IT Towers by Investment</li><li>Resolve Error When Trying to Delete Multiple SIRs</li><li>Make Product Name Not Requred When Deleting SILs</li></ul> | &#x2714; |
+|  Sprint 2018.12C                   | December 27, 2018 | <ul><li>Resolve Download Errors for EGov Act Reports</li><li>Make Validation for 100% IT Spending for IT Towers by Investment a Warning</li><li>Update Emails to Point to ITDB-Support@gsa.gov</li></ul> | &#x2714;|
 
 ## Quick Links to Files
 
@@ -133,7 +129,7 @@ We recommend the following format for submitting issues:
   * **Description of Issue:** Describe your issue here
   * **Associated Links:** Put internal and external links to resources or data related to this issue here
 
-When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [itdashboardsupport@omb.eop.gov](mailto:itdashboardsupport@omb.eop.gov). 
+When submitting issues on GitHub, do not include any sensitive data. If you have questions or issues pertaining to agency specific data, please directly contact [itdb-support@gsa.gov](mailto:itdb-support@gsa.gov). 
 
 Below you will find documentation outlining the GitHub Issue Process:
   * [Issue Work Flow](https://github.com/ombegov/ITDB-schema/blob/master/GitHubFlowChart2.jpg)
