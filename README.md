@@ -38,6 +38,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | Bi-Monthly Meeting | September 6, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | Bi-Monthly Meeting | September 13, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
 | Passback Submission Prep Meeting | December 18, 2018 | 1:00PM to 2:00PM | NEOB Room 9047, Conference Dial In Available |
+| Passback Submission Vendor Call 1| February 12, 2018 | 1:00PM to 2:00PM | GSA Room 4232, Conference Dial In Available |
 
 ## Important Dates 
 
@@ -70,15 +71,15 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
 |  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
 |  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
-|  President's Budget Agency IT Portfolio Summary Submission Starts  |  January 8, 2019 |
-|  President's Budget Agency IT Portfolio Summary Submission Ends  |  January 11, 2019 |
-|  President's Budget BC and SIR Submission Starts  |  January 14, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
-|  President's Budget BC and SIR Submission Ends  |  January 18, 2019 |
+|  President's Budget Agency IT Portfolio Summary Submission Starts  |  February 12, 2019 |
+|  President's Budget Agency IT Portfolio Summary Submission Ends  |  February 19, 2019 |
+|  President's Budget BC and SIR Submission Starts  |  February 13, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
+|  President's Budget BC and SIR Submission Ends  |  March 8, 2019 |
 |  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  TBD |
-|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  February 2019 (Tentative) |
-|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  |  February 2019 (Tentative) |
-|  Congressional Justification  BC and SIR Submission Starts  |  February 2019 (Tentative) |
-|  Congressional Justification  BC and SIR Submission Ends  |  February 2019 (Tentative) |
+|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  TBD |
+|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | TBD |
+|  Congressional Justification  BC and SIR Submission Starts  |  TBD |
+|  Congressional Justification  BC and SIR Submission Ends  |  TBD|
 |  IT Dashboard Data from Congressional Justification  Submission Displays on Public Site  |  TBD |
 
 ## Sprint/Hotfix Deployment Dates
