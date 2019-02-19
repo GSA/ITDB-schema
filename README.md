@@ -97,6 +97,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Sprint 2018.12B                   | December 24, 2018 | <ul><li>Add Contract PIIDs to Investment Summary Page</li><li>Add Validation for 100% IT Spending for IT Towers by Investment</li><li>Resolve Error When Trying to Delete Multiple SIRs</li><li>Make Product Name Not Requred When Deleting SILs</li></ul> | &#x2714; |
 |  Sprint 2018.12C                   | December 27, 2018 | <ul><li>Resolve Download Errors for EGov Act Reports</li><li>Make Validation for 100% IT Spending for IT Towers by Investment a Warning</li><li>Update Emails to Point to ITDB-Support@gsa.gov</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A                   | February 12, 2019 | <ul><li>Production Defect: Unable to add multiple systems to the same investment</li><li>Production Defect: Unable to delete SIR performance metrics from the IT Dashboard</li><li>Production Defect: Unable to delete SOCs from the IT Dashboard</li><li>Production Defect: Updating systems with no identifiers</li></ul> | &#x2714;|
+|  GSA Deployment v2019.02.A Hotfix 1                   | February 18, 2019 | <ul><li>Production Defect: SIL Get File OMB assigned identifiers disabled</li><li>Production Defect: Unable to update multiple products</li></ul> | &#x2714;|
 
 ## Quick Links to Files
 
