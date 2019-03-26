@@ -20,26 +20,6 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714; | [FY20 Submission Instructions](https://github.com/ombegov/ITDB-schema/blob/master/ITDB_Submission_Instructions_v4_0.pdf) | August 22, 2018 |
 
 
-## Vendor Meetings  
-
-|  Event  |  Date |  Time  |  Location  |
-|:-------------|:-------------:|:-------------:|:-------------:|
-| Bi-Monthly Meeting | April 19, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| White Board Session - SIR | April 26, 2018 | 1:30PM to 3:30PM | GSA Room 6213 |
-| Bi-Monthly Meeting | May 3, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| White Board Session - Certification Process | May 10, 2018 | 1:30PM to 3:30PM | GSA Room 5007 |
-| Bi-Monthly Meeting | May 17, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Bi-Monthly Meeting | May 31, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| White Board Session - Systems Inventory Report/Contracts Report | June 7, 2018 | 1:30PM to 3:30PM | GSA Room 1420 |
-| Tech Meet and Greet | June 21, 2018 | 1:00PM to 3:00PM | GSA Room 2143 |
-| Bi-Monthly Meeting | August 16, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Bi-Monthly Meeting | August 23, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Bi-Monthly Meeting | August 30, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Bi-Monthly Meeting | September 6, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Bi-Monthly Meeting | September 13, 2018 | 1:30PM to 2:30PM | NEOB Room 9276, Conference Dial In Available |
-| Passback Submission Prep Meeting | December 18, 2018 | 1:00PM to 2:00PM | NEOB Room 9047, Conference Dial In Available |
-| Passback Submission Vendor Call 1| February 12, 2018 | 1:00PM to 2:00PM | GSA Room 4232, Conference Dial In Available |
-
 ## Important Dates 
 
 |  Event  |  Date |
@@ -75,12 +55,10 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  President's Budget Agency IT Portfolio Summary Submission Ends  |  February 19, 2019 |
 |  President's Budget BC and SIR Submission Starts  |  February 13, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
 |  President's Budget BC and SIR Submission Ends  |  March 8, 2019 |
-|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  TBD |
-|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  TBD |
-|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | TBD |
-|  Congressional Justification  BC and SIR Submission Starts  |  TBD |
-|  Congressional Justification  BC and SIR Submission Ends  |  TBD|
-|  IT Dashboard Data from Congressional Justification  Submission Displays on Public Site  |  TBD |
+|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  March 18, 2019 |
+|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  March 18, 2019 |
+|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | April 5, 2019 |
+
 
 ## Sprint/Hotfix Deployment Dates
 
