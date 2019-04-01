@@ -20,28 +20,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 | &#x2714; | [FY20 Submission Instructions](https://github.com/ombegov/ITDB-schema/blob/master/ITDB_Submission_Instructions_v4_0.pdf) | August 22, 2018 |
 
 
-## Important Dates 
-
-|  Event  |  Date |
-|:-------------|:-------------:|
-|  95% Guidance Released |  May 11, 2018  |
-|  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
-|  Validation logic development | May/June 2018 |
-| [2020 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
-|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
-|  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
-|  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
-|  Publish [Final XSD](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018|
-|  2020 UAT Server Delivered with 95% Integrated Validations |  July 30, 2018  |
-|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 13, 2018 |
-|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 13, 2018 |
-|  Draft IT Portfolio Pre-submission  |  August 20, 2018 |
-|  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  2020 IT Portfolio Data Feed available to Agencies    |  September 10, 2018 |
-|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 10, 2018   |
-
-
-## Submission Dates (Tentative) 
+## Submission Dates FY 2020 
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  BY19 Submission Ends  |  August 31, 2018 |
@@ -97,6 +76,28 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 * **Data Dictionary & Validations** 
   * [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Data%20Dictionary%20%26%20Enumerations.xlsx)
   * [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx)
+  
+
+## Important Pre-Submission Dates FY 2020 
+
+|  Event  |  Date |
+|:-------------|:-------------:|
+|  95% Guidance Released |  May 11, 2018  |
+|  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
+|  Validation logic development | May/June 2018 |
+| [2020 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
+|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
+|  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
+|  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
+|  Publish [Final XSD](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018|
+|  2020 UAT Server Delivered with 95% Integrated Validations |  July 30, 2018  |
+|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 13, 2018 |
+|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 13, 2018 |
+|  Draft IT Portfolio Pre-submission  |  August 20, 2018 |
+|  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
+|  2020 IT Portfolio Data Feed available to Agencies    |  September 10, 2018 |
+|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 10, 2018   |
+  
   
 ## Asking questions and getting help
 
