@@ -7,55 +7,33 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
 
-## Repo Deliverables
 
-| In Repo  | Object  |  Date Expected |
-|:-------------:|---|---|
-| &#x2714; | [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf) | June 29, 2018 |
-| &#x2714; | [FY20 XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) | June 4, 2018|
-| &#x2714; | [FY20 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
-| &#x2714; | [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Data%20Dictionary%20%26%20Enumerations.xlsx) | September 5, 2018 | IN PROGRESS |
-| &#x2714; | [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx) | September 5, 2018 |
-| &#x2714; | [FY20 XSD Final](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)| August 22, 2018 |
-| &#x2714; | [FY20 Submission Instructions](https://github.com/ombegov/ITDB-schema/blob/master/ITDB_Submission_Instructions_v4_0.pdf) | August 22, 2018 |
-
-
-## Submission Dates FY 2020 
-|  Event  |  Date |
-|:-------------|:-------------:|
-|  BY19 Submission Ends  |  August 31, 2018 |
-|  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
-|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
-|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
-|  President's Budget Agency IT Portfolio Summary Submission Starts  |  February 12, 2019 |
-|  President's Budget Agency IT Portfolio Summary Submission Ends  |  February 19, 2019 |
-|  President's Budget BC and SIR Submission Starts  |  February 13, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
-|  President's Budget BC and SIR Submission Ends  |  March 8, 2019 |
-|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  March 18, 2019 |
-|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  March 18, 2019 |
-|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | April 5, 2019 |
-
-
-## Sprint/Hotfix Deployment Dates
+## Last 5 Sprint/Hotfix Deployment Dates
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  Sprint 2018.09A                    | August 31, 2018 | <ul><li>Enable Locking of Windows via Submission Confirmation</li><li>Implement 000522-SIR Validation</li><li>Implement 000538-SIR Validation</li><li>Implement 000405-SIR Validation</li><li>Implement 000554-SIR Validation</li><li>Implement 000889-SIR Validation</li><li>Implement 000890-SIR Validation</li><li>Implement 000891-SIR Validation</li><li>Update IT Portfolio Cost Pools Towers Data Feed</li></ul> | &#x2714; |
-|  Sprint 2018.09B                    | September 7, 2018 | <ul><li>Fix for GitHub Issue #311</li><li>Fix for GitHub Issue #324</li><li>Modify 000214-ITP to permit zeroes of all types</li><li>Add Content to Submission Confirmation Page</li><li>FY19 to FY20 Cutover Activities</li></ul> | &#x2714; |
-|  Sprint 2018.09C                    | September 24, 2018 | <ul><li>Disable Public Display of Investment Types 05 and 06</li><li>Disable Security Costs and Capabilities Feed</li><li>Make SILs and Product Feeds Unavailable to the Public</li></ul> | &#x2714;  |
-|  Sprint 2018.10A                   | October 3, 2018 | <ul><li>Create Security SIR Data Feed</li><li>Resolve GitHub Issue #307</li><li>Remove Acquisitions from MITBC Response File</li><li>Enable Public Access to Data Feeds</li><li>Resolve Bugs where Contracts Report Not Getting Updated</li<li>Update Data Centers in Data Dictionary</li></ul> | &#x2714; |
-|  Sprint 2018.10B                   | October 19, 2018 | <ul><li>Resolve GitHub Issue #292</li><li>Resolve Help Desk Issues Reporting Internal Server Errors</li><li>Make itdashboard.gov point to myit-2020.itdashboard.gov</li><li>Add Functional/Business Sponsor Fields to IT Portfolio Data Feed</li></ul> | &#x2714; |
-|  Sprint 2018.11A                   | November 5, 2018 | <ul><li>Resolve GitHub Issue #277</li><li>Modify Error Message for 000216-BSC</li><li>Remove Invalid Categories from investmentCostDetails</li><li>Make Performance Metric Baseline Capability Optional in addInvestment</li><li>Fix Typo in Error Message 000093-ITP</li></ul> | &#x2714; |
-|  Sprint 2018.11B                   | November 19, 2018 | <ul><li>Perform Drupal Upgrade</li><li>Resolve GitHub Issue #286</li><li>Resolve GitHub Issue #318</li><li>Add Contracts Report and SILs to Submission Status Page</li><li>Update ASO/APG Table with New Data from Performance.Gov</li></ul> | &#x2714; |
-|  Sprint 2018.12A                   | December 11, 2018 | <ul><li>Create Submission Status Endpoint for Vendors</li><li>Add Data Filter to Individual Investments Table</li><li>Fix Bug Where XML Request Type is Stored with Incorrect Values</li><li>Remove Cost Details Fields that Don't Apply in Get Response</li></ul> | &#x2714; |
-|  Sprint 2018.12B                   | December 24, 2018 | <ul><li>Add Contract PIIDs to Investment Summary Page</li><li>Add Validation for 100% IT Spending for IT Towers by Investment</li><li>Resolve Error When Trying to Delete Multiple SIRs</li><li>Make Product Name Not Requred When Deleting SILs</li></ul> | &#x2714; |
-|  Sprint 2018.12C                   | December 27, 2018 | <ul><li>Resolve Download Errors for EGov Act Reports</li><li>Make Validation for 100% IT Spending for IT Towers by Investment a Warning</li><li>Update Emails to Point to ITDB-Support@gsa.gov</li></ul> | &#x2714;|
+|  OMB Sprint 2018.12C                   | December 27, 2018 | <ul><li>Resolve Download Errors for EGov Act Reports</li><li>Make Validation for 100% IT Spending for IT Towers by Investment a Warning</li><li>Update Emails to Point to ITDB-Support@gsa.gov</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A                   | February 12, 2019 | <ul><li>Production Defect: Unable to add multiple systems to the same investment</li><li>Production Defect: Unable to delete SIR performance metrics from the IT Dashboard</li><li>Production Defect: Unable to delete SOCs from the IT Dashboard</li><li>Production Defect: Updating systems with no identifiers</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A Hotfix 1                   | February 18, 2019 | <ul><li>Production Defect: SIL Get File OMB assigned identifiers disabled</li><li>Production Defect: Unable to update multiple products</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A Data Change                   | March 13, 2019 | <ul><li>Change Request: Flipped a Budget Code from inactive to active.</li><li>Production Defect: Concatenated PIID truncation at 500 characters</li></ul> | &#x2714;|
+|  GSA Deployment v2019.04.A                   | March 13, 2019 | <ul><li>Production Defect: Business Case PDFs/HTML Header mismatch with the 2020 Guidance lettering system</li><li>Maintenance Update: Updated Drupal and related libraries</li></ul> | &#x2714;|
+
+
+## Pre-Submission Dates FY 2021 
+
+|  Event  |  Date |
+|:-------------|:-------------:|
+|  95% Guidance Released |  TBD  |
+|  FY 2021 Data Dictionary Release Date | TBD |
+|  FY 2021 Validations Document Release Date | TBD |
+|  FY 2021 Submission Instructions Release Date  |  TBD |
+|  FY 2021 XSD Release Date |  TBD |
+|  FY 2021 UAT Site Released to Vendors   |  TBD |
+|  FY 2021 UAT Site Released to Agencies   |  TBD |
+|  Draft IT Portfolio Submissions  |  TBD |
+|  IT Dashboard 'Go Dark' Period  |  TBD |
+|  FY 2021 Pre-Decisional Submissions   |  TBD |
+
 
 ## Quick Links to Files
 
@@ -78,25 +56,24 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
   * [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx)
   
 
-## Important Pre-Submission Dates FY 2020 
-
+## Submission Dates FY 2020 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  95% Guidance Released |  May 11, 2018  |
-|  Finalized target dates based on guidance (for XSD, Sample Files, Validations, and UAT) |  May 11, 2018 |
-|  Validation logic development | May/June 2018 |
-| [2020 UAT Server Available](https://myuat-2020.itdashboard.gov) | June 4, 2018 |
-|  Target Date for [XSD Candidate](https://github.com/ombegov/ITDB-schema/tree/master/src) (v2.0.0) shared to vendors    |  June 4, 2018 |
-|  [Final Guidance  and A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)  |  June 29, 2018 
-|  Target Date for Validation & Enumerations Candidate shared to vendors (v2.0.0)  |  July 13, 2018 |
-|  Publish [Final XSD](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)  &  Validations & Enumerations (v2.0.x)    |  July 16, 2018|
-|  2020 UAT Server Delivered with 95% Integrated Validations |  July 30, 2018  |
-|  Open 2020 UAT Server Delivered with Complete Integrated Validations |  August 13, 2018 |
-|  Open 2020 UAT Servers to Agencies for Testing (Validations)    |  August 13, 2018 |
-|  Draft IT Portfolio Pre-submission  |  August 20, 2018 |
+|  BY19 Submission Ends  |  August 31, 2018 |
 |  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  2020 IT Portfolio Data Feed available to Agencies    |  September 10, 2018 |
-|  2020 Business Case & Standard Investment Report Data Feeds available to Agencies    |  September 10, 2018   |
+|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 |
+|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
+|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
+|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
+|  President's Budget Agency IT Portfolio Summary Submission Starts  |  February 12, 2019 |
+|  President's Budget Agency IT Portfolio Summary Submission Ends  |  February 19, 2019 |
+|  President's Budget BC and SIR Submission Starts  |  February 13, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
+|  President's Budget BC and SIR Submission Ends  |  March 8, 2019 |
+|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  March 18, 2019 |
+|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  March 18, 2019 |
+|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | April 5, 2019 |
+
   
   
 ## Asking questions and getting help
