@@ -12,11 +12,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  OMB Sprint 2018.12C                   | December 27, 2018 | <ul><li>Resolve Download Errors for EGov Act Reports</li><li>Make Validation for 100% IT Spending for IT Towers by Investment a Warning</li><li>Update Emails to Point to ITDB-Support@gsa.gov</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A                   | February 12, 2019 | <ul><li>Production Defect: Unable to add multiple systems to the same investment</li><li>Production Defect: Unable to delete SIR performance metrics from the IT Dashboard</li><li>Production Defect: Unable to delete SOCs from the IT Dashboard</li><li>Production Defect: Updating systems with no identifiers</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A Hotfix 1                   | February 18, 2019 | <ul><li>Production Defect: SIL Get File OMB assigned identifiers disabled</li><li>Production Defect: Unable to update multiple products</li></ul> | &#x2714;|
 |  GSA Deployment v2019.02.A Data Change                   | March 13, 2019 | <ul><li>Change Request: Flipped a Budget Code from inactive to active.</li><li>Production Defect: Concatenated PIID truncation at 500 characters</li></ul> | &#x2714;|
-|  GSA Deployment v2019.04.A                   | March 13, 2019 | <ul><li>Production Defect: Business Case PDFs/HTML Header mismatch with the 2020 Guidance lettering system</li><li>Maintenance Update: Updated Drupal and related libraries</li></ul> | &#x2714;|
+|  GSA Deployment v2019.04.A                   | April 4, 2019 | <ul><li>Production Defect: Business Case PDFs/HTML Header mismatch with the 2020 Guidance lettering system</li><li>Maintenance Update: Updated Drupal and related libraries</li></ul> | &#x2714;|
+|  GSA Deployment v2019.04.B/C                   | April 18, 2019 | <ul><li>Production Defect: Life Cycle Costs Data Feed FY + 3 pulling incorrect data</li><li>Production Defect: Part 03 Data masked within four Data Feeds</li></ul> | &#x2714;|
 
 
 ## Pre-Submission Dates FY 2021 
