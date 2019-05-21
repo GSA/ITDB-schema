@@ -73,6 +73,8 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  March 18, 2019 |
 |  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  March 18, 2019 |
 |  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | April 5, 2019 |
+|  Mid-Session Review Agency IT Portfolio Summary Submission Starts  |  June 24, 2019 |
+|  Mid-Session Review Agency IT Portfolio Summary Submission Ends  | June 28, 2019 |
 
   
   
