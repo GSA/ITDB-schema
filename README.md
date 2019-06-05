@@ -23,7 +23,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |
 |:-------------|:-------------:|
-|  95% Guidance Released |  TBD  |
+|  95% Guidance Released |  June 5, 2019  |
 |  FY 2021 Data Dictionary Release Date | TBD |
 |  FY 2021 Validations Document Release Date | TBD |
 |  FY 2021 Submission Instructions Release Date  |  TBD |
