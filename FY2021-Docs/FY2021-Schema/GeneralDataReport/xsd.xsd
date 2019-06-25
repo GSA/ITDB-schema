@@ -1,11 +1,59 @@
-<!--Contracts Report Only-->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:include schemaLocation="./types.xsd"/>
     <xs:element name="generalDataReport">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="deploymentReport" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="operation" type='operationDeploymentReport' minOccurs="1" />
+                            <xs:element name="details" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="UII" type="UII" minOccurs="1" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Activities" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Activity" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="projectActivityID" minOccurs="0" />
+                                                    <xs:element name="activityID" minOccurs="0" />
+                                                    <xs:element name="agencyActivityID" minOccurs="0" />
+                                                    <xs:element name="agencyProjectActivityID" minOccurs="0" />
+                                                    <xs:element name="reportsReleases" type="yesNoType" minOccurs="0" />
+                                                    <xs:element name="multipleReleases" type="yesNoType" minOccurs="0" />
+                                                    <xs:element name="releasesToProd">
+                                                        <xs:complexType>
+                                                            <xs:all>
+                                                                <xs:element name="date" maxOccurs="3" />
+                                                            </xs:all>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="releasesToTest">
+                                                        <xs:complexType>
+                                                            <xs:all>
+                                                                <xs:element name="date" maxOccurs="3" />
+                                                            </xs:all>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="rollbackPercentage" minOccurs = "0" />
+                                                    <xs:element name="releaseCadence" minOccurs = "0" />
+                                                    <xs:element name="userEngagement" minOccurs = "0" />
+                                                    <xs:element name="releaseReview" type="releaseReview" minOccurs = "0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="contractsReport" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:all>
