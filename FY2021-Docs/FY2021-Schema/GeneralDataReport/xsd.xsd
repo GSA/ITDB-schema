@@ -36,7 +36,6 @@
                         </xs:all>
                     </xs:complexType>
                 </xs:element>
-
                 <xs:element name="deploymentReport" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:all>
@@ -55,10 +54,7 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="projectActivityID" minOccurs="0" />
-                                                    <xs:element name="activityID" minOccurs="0" />
-                                                    <xs:element name="agencyActivityID" minOccurs="0" />
                                                     <xs:element name="agencyProjectActivityID" minOccurs="0" />
-                                                    <xs:element name="reportsReleases" type="yesNoType" minOccurs="0" />
                                                     <xs:element name="multipleReleases" type="yesNoType" minOccurs="0" />
                                                     <xs:element name="releasesToProd">
                                                         <xs:complexType>
