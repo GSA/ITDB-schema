@@ -1,9 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:include schemaLocation="./types.xsd"/>
-    <xs:element name="generalDataReport">
+    <xs:element name="generalDataReports">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="contractsReport" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="operation" type='operation' minOccurs="1" />
+                            <xs:element name="details" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="UII" type="UII" minOccurs="1" />
+                                        <xs:element name="reportsContracts" type="yesNoType" minOccurs="0" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Contracts" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Contract" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="operation" type="operation"/>
+                                                    <xs:element name="contractID" type="contractID" minOccurs="0" />
+                                                    <xs:element name="agencyContractID" type="agencyContractID" minOccurs="0" />
+                                                    <xs:element name="PIID" type="PIID" minOccurs="0" />
+                                                    <xs:element name="referencePIID" type="PIID" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+
                 <xs:element name="deploymentReport" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:all>
@@ -37,14 +70,14 @@
                                                     <xs:element name="releasesToTest">
                                                         <xs:complexType>
                                                             <xs:all>
-                                                                <xs:element name="date" maxOccurs="3" />
+                                                                <xs:element name="date1" maxOccurs="3" />
                                                             </xs:all>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="rollbackPercentage" minOccurs = "0" />
-                                                    <xs:element name="releaseCadence" minOccurs = "0" />
-                                                    <xs:element name="userEngagement" minOccurs = "0" />
-                                                    <xs:element name="releaseReview" type="releaseReview" minOccurs = "0" />
+                                                    <xs:element name="rollbackPercentage" minOccurs="0" />
+                                                    <xs:element name="releaseCadence" minOccurs="0" />
+                                                    <xs:element name="userEngagement" minOccurs="0" />
+                                                    <xs:element name="releaseReview" type="largeTextArea" minOccurs = "0" />
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
@@ -53,30 +86,29 @@
                             </xs:element>
                         </xs:all>
                     </xs:complexType>
-                </xs:element>
-                <xs:element name="contractsReport" minOccurs="0" maxOccurs="unbounded">
+                </xs:element>      
+                <xs:element name="risksReport" minOccurs="0" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:all>
-                            <xs:element name="operation" type='operation' minOccurs="1" />
+                            <xs:element name="operation" type='operationRisksReport' minOccurs="1" />
                             <xs:element name="details" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="UII" type="UII" minOccurs="1" />
-                                        <xs:element name="reportsContracts" type="yesNoType" minOccurs="0" />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="Contracts" minOccurs="0">
+                            <xs:element name="Risks" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Contract" minOccurs="1" maxOccurs="unbounded">
+                                        <xs:element name="Risk" minOccurs="1" maxOccurs="13">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="operation" type="operation"/>
-                                                    <xs:element name="contractID" type="contractID" minOccurs="0" />
-                                                    <xs:element name="agencyContractID" type="agencyContractID" minOccurs="0" />
-                                                    <xs:element name="PIID" type="PIID" minOccurs="0" />
-                                                    <xs:element name="referencePIID" type="PIID" minOccurs="0" />
+                                                    <xs:element name="riskArea" type="integer"/>
+                                                    <xs:element name="isActive" type="yesNoType" minOccurs="0" />
+                                                    <xs:element name="riskProbability" type="integer" minOccurs="0" />
+                                                    <xs:element name="riskImpact" type="integer" minOccurs="0" />
+                                                    <xs:element name="mitigationPlan" type="largeTextArea" minOccurs="0" />
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
