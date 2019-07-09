@@ -24,11 +24,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  Event  |  Date |
 |:-------------|:-------------:|
 |  95% Guidance Released |  June 5, 2019  |
-|  FY 2021 Data Dictionary Release Date | TBD |
-|  FY 2021 Validations Document Release Date | TBD |
-|  FY 2021 Submission Instructions Release Date  |  TBD |
-|  FY 2021 XSD Release Date |  TBD |
-|  FY 2021 UAT Site Released to Vendors   |  TBD |
+|  FY 2021 Data Dictionary Release Date | June 21, 2019 |
+|  FY 2021 Validations Document Release Date | July 9, 2019 |
+|  FY 2021 Submission Instructions Release Date  |  Late July 2019 |
+|  FY 2021 XSD Release Date |  Rolling Release |
+|  FY 2021 UAT Site Released to Vendors   |  Mid-to-Late July 2019 |
 |  FY 2021 UAT Site Released to Agencies   |  TBD |
 |  Draft IT Portfolio Submissions  |  TBD |
 |  IT Dashboard 'Go Dark' Period  |  TBD |
