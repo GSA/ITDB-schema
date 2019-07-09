@@ -1,7 +1,7 @@
 # ITDB-schema
-This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
+This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2019/07/FY-2021-IT-Budget-Guidance.pdf), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
  
- * Community members should be able to download the latest [CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf), XSD and XML files.
+ * Community members should be able to download the latest [CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2019/07/FY-2021-IT-Budget-Guidance.pdf), XSD and XML files.
  * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
  * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
