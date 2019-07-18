@@ -56,14 +56,14 @@
                                                     <xs:element name="projectActivityID" minOccurs="0" />
                                                     <xs:element name="agencyProjectActivityID" minOccurs="0" />
                                                     <xs:element name="multipleReleases" type="yesNoType" minOccurs="0" />
-                                                    <xs:element name="releasesToProd">
+                                                    <xs:element name="releasesToProd" minOccurs="0">
                                                         <xs:complexType>
                                                             <xs:all>
                                                                 <xs:element name="date" maxOccurs="3" />
                                                             </xs:all>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="releasesToTest">
+                                                    <xs:element name="releasesToTest" minOccurs="0">
                                                         <xs:complexType>
                                                             <xs:all>
                                                                 <xs:element name="date1" maxOccurs="3" />
