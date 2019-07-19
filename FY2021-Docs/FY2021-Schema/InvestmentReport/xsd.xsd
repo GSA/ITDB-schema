@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:include schemaLocation="types.xsd"/>
+    <xs:element name='towers'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name='tower' maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name='operation' type='operation'/>
+                            <xs:element name='towerDetails' minOccurs='1'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='UII'/>
+                                        <xs:element name='description'/>
+                                        <xs:element name='POC'/>
+                                        <xs:element name='POCEmail'/>
+                                        <xs:element name='anticipatedEISTransitionDate'/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='investmentCostDetails' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='investmentCostDetail'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='category'/>
+                                                    <xs:element name='PY'/>
+                                                    <xs:element name='federalFTENumberPY'/>
+                                                    <xs:element name='contractorFTENumberPY'/>
+                                                    <xs:element name='CY'/>
+                                                    <xs:element name='federalFTENumberCY'/>
+                                                    <xs:element name='contractorFTENumberCY'/>
+                                                    <xs:element name='BY'/>
+                                                    <xs:element name='federalFTENumberBY'/>
+                                                    <xs:element name='contractorFTENumberBY'/>
+                                                </xs:choice>
+                                            </xs:complexType>			
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='SOCs' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='SOC'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='operation' type='operation'/>
+                                                    <xs:element name='SOCID'/>
+                                                    <xs:element name='agencySOCID'/>
+                                                    <xs:element name='SOCName' minOccurs='0'/>
+                                                    <xs:element name='isService'/>
+                                                    <xs:element name='coveredEntities' minOccurs='0'>
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='coveredEntity'/>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name='PYAmount'/>
+                                                    <xs:element name='PYFederalFTE'/>
+                                                    <xs:element name='PYContractorFTE'/>
+                                                    <xs:element name='CYAmount'/>
+                                                    <xs:element name='CYFederalFTE'/>
+                                                    <xs:element name='CYContractorFTE'/>
+                                                    <xs:element name='BYAmount'/>
+                                                    <xs:element name='BYFederalFTE'/>
+                                                    <xs:element name='BYContractorFTE'/>
+                                                    <xs:element name='performanceHours'/>
+                                                    <xs:element name='continuousOperations'/>
+                                                    <xs:element name='serviceProviderType'/>
+                                                    <xs:element name='providerEntity'/>
+                                                </xs:choice>
+                                            </xs:complexType>			
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>       
+                            <xs:element name='projects' minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='project'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='operation' type='operation'/>
+                                                    <xs:element name='projectID'/>
+                                                    <xs:element name='uniqueProjectID'/>
+                                                    <xs:element name='agencyProjectID'/>
+                                                    <xs:element name='projectName'/>
+                                                    <xs:element name='projectGoal'/>
+                                                    <xs:element name='projectStartDate'/>
+                                                    <xs:element name='projectCompletionDate'/>
+                                                    <xs:element name='lifeCycleCost'/>
+                                                    <xs:element name='softwareProject'/>
+													<xs:element name='newOrExistingMetric'/>
+													<xs:element name='existingMetric' minOccurs='0'> 
+													    <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="1">
+                                                                <xs:element name='metricID'/>
+																<xs:element name='agencyMetricID'/>
+															</xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+													<xs:element name='newMetric' minOccurs='0'> 
+													    <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="1">
+                                                                <xs:element name='description'/>
+																<xs:element name='unitOfMeasure'/>
+																<xs:element name='measurementCondition'/>
+															</xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+													<xs:element name='deploymentTarget'/>
+                                                    <xs:element name='activities' minOccurs='0'> 
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='activity'>
+                                                                    <xs:complexType>
+                                                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                            <xs:element name='operation' type='operation'/>
+                                                                            <xs:element name='isAgile'/>
+                                                                            <xs:element name='activityID'/>
+                                                                            <xs:element name='activityName'/>
+                                                                            <xs:element name='agencyActivityID'/>
+                                                                            <xs:element name='activityDescription'/>
+                                                                            <xs:element name='structureID'/>
+                                                                            <xs:element name='startDatePlanned'/>
+                                                                            <xs:element name='startDateProjected'/>
+                                                                            <xs:element name='startDateActual'/>
+                                                                            <xs:element name='completionDatePlanned'/>
+                                                                            <xs:element name='completionDateProjected'/>
+                                                                            <xs:element name='completionDateActual'/>
+                                                                            <xs:element name='totalCostPlanned'/>
+                                                                            <xs:element name='totalCostProjected'/>
+                                                                            <xs:element name='totalCostActual'/>
+                                                                        </xs:choice>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>	
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>	
+                            <xs:element name='operationalAnalysis' minOccurs='0' maxOccurs='1'>
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='dateOfAnalysis'/>
+                                        <xs:element name='analysisResults'/>
+                                        <xs:element name='analysisConclusion'/>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name='metrics' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
+                                <xs:complexType>
+                                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                        <xs:element name='metric'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='operation' type='operation'/>
+                                                    <!-- standard fields -->
+                                                    <xs:element name='metricID'/>
+                                                    <xs:element name='agencyMetricID'/>
+                                                    <xs:element name='description'/>
+                                                    <xs:element name='unitOfMeasure'/>
+                                                    <xs:element name='performanceMeasurementCategoryMapping'/>
+                                                    <xs:element name='agencyBaselineCapability'/>
+                                                    <xs:element name='PYTarget'/>
+                                                    <xs:element name='CYTarget'/>
+                                                    <xs:element name='measurementCondition'/>
+                                                    <xs:element name='reportingFrequency'/>
+                                                    <xs:element name='agencyObjectiveOrGoal'/>
+                                                    <xs:element name='isMetricRetired'/>
+                                                    <xs:element name='metricActuals' minOccurs='0'> <!-- will have to alter for datacenter if not standardized according to guidance -->
+                                                        <xs:complexType>
+                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name='metricActual'>
+                                                                    <xs:complexType>
+                                                                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                                            <xs:element name='operation' type='operation'/>
+                                                                            <!-- standard fields -->
+                                                                            <xs:element name='metricActualID'/>
+                                                                            <xs:element name='agencyMetricActualID'/>
+                                                                            <xs:element name='actualResult'/>
+                                                                            <xs:element name='dateOfActualResult'/>
+                                                                            <xs:element name='comment'/>
+                                                                        </xs:choice>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:choice>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>	
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>					
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="validateOnlyIndicator" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
