@@ -9,21 +9,21 @@
         <Contracts>
             <Contract>
                 <operation>add</operation>
-                <agencyContractID>100</agencyContractID>-->
+                <agencyContractID>100</agencyContractID>
                 <PIID>new PIID</PIID>
-               <referencePIID>reference PIID</referencePIID>
+                <referencePIID>reference PIID</referencePIID>
             </Contract>
-			<Contract>
+            <Contract>
                 <operation>update</operation>
-				<contractID>201</contractID>
-                <agencyContractID>200</agencyContractID>-->
+                <contractID>201</contractID>
+                <agencyContractID>200</agencyContractID>
                 <PIID>update PIID 2</PIID>
-               <referencePIID>reference PIID 2</referencePIID>
+                <referencePIID>reference PIID 2</referencePIID>
             </Contract>
-			<Contract>
+            <Contract>
                 <operation>delete</operation>
-				<contractID>301</contractID>
-                <agencyContractID>300</agencyContractID>-->
+                <contractID>301</contractID>
+                <agencyContractID>300</agencyContractID>
             </Contract>
         </Contracts>
     </contractsReport>
