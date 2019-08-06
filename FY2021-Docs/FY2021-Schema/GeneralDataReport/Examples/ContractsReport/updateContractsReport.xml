@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generalDataReports validateOnlyIndicator="false">
+    <contractsReport>
+        <operation>update</operation>
+        <details>
+            <UII>000-000000000</UII>
+            <reportsContracts>yes</reportsContracts>
+        </details>
+        <Contracts>
+            <Contract>
+                <operation>add</operation>
+                <agencyContractID>100</agencyContractID>-->
+                <PIID>new PIID</PIID>
+               <referencePIID>reference PIID</referencePIID>
+            </Contract>
+			<Contract>
+                <operation>update</operation>
+				<contractID>201</contractID>
+                <agencyContractID>200</agencyContractID>-->
+                <PIID>update PIID 2</PIID>
+               <referencePIID>reference PIID 2</referencePIID>
+            </Contract>
+			<Contract>
+                <operation>delete</operation>
+				<contractID>301</contractID>
+                <agencyContractID>300</agencyContractID>-->
+            </Contract>
+        </Contracts>
+    </contractsReport>
+</generalDataReports>
