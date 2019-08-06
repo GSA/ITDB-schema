@@ -9,7 +9,7 @@
         <Contracts>
             <Contract>
                 <operation>add</operation>
-                <agencyContractID>100</agencyContractID>-->
+                <agencyContractID>100</agencyContractID>
                 <PIID>new PIID</PIID>
                <referencePIID>reference PIID</referencePIID>
             </Contract>
