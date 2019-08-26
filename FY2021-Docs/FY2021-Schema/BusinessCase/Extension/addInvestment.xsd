@@ -2,6 +2,7 @@
 
 <!--
    Copyright 2009-2011 United States Government.
+
    This software is licensed under the GNU General Public License
    version 2 (see the file LICENSE for details)
 -->
@@ -27,6 +28,7 @@
       <sequence>
         <element ref="businessCase-add:capitalAssetSummary"/>
         <element ref="businessCase-add:performanceMeasureReport" minOccurs="0"/>
+        <element ref="businessCase-add:addProjectMetric" minOccurs="0" maxOccurs="unbounded"/>
       </sequence>
     </complexType>
   </element>
@@ -53,8 +55,7 @@
         <element ref="businessCase-add:investmentsEliminatedorReduced" minOccurs="0"/>
         <element ref="businessCase-add:investmentSharedService"/>
         <element ref="businessCase-add:plannedSharedService"/>
-        <element ref="businessCase-add:investmentPivEnabled"/>
-        <element ref="businessCase-add:ombControlNumbers" minOccurs="0"/> 
+        <element ref="businessCase-add:ombControlNumbers" minOccurs="0"/>
         <element ref="businessCase-add:pmDetails"/>
       </sequence>
     </complexType>
@@ -66,6 +67,7 @@
         <element ref="businessCase-add:projectFundingPlan" minOccurs="0"/>
         <element ref="businessCase-add:operationalAnalysis" minOccurs="0"/>
         <element ref="businessCase-add:performanceMetrics" minOccurs="0"/>
+        <!--<element ref="businessCase-add:investmentRisks" minOccurs="0"/>-->
       </sequence>
     </complexType>
   </element>
@@ -207,7 +209,7 @@
         <element ref="businessCase-add:performancePeriodicity"/>
         <element ref="businessCase-add:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-add:performanceMetricObjectiveOrGoal"/>
-        <element ref="businessCase-add:isClosed"/>
+        <element ref="businessCase-add:isClosed" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -222,6 +224,27 @@
       </sequence>
     </complexType>
   </element>
+
+  <!--<element name="investmentRisks">
+    <complexType>
+      <sequence>
+        <element maxOccurs="unbounded" ref="businessCase-add:addInvestmentRisk"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="addInvestmentRisk">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-add:agencyInvestmentRiskId" minOccurs="0"/>
+        <element ref="businessCase-add:investmentRiskName"/>
+        <element ref="businessCase-add:investmentRiskArea"/>
+        <element ref="businessCase-add:investmentRiskProbability"/>
+        <element ref="businessCase-add:investmentRiskImpact"/>
+        <element ref="businessCase-add:investmentRiskMitigationPlan"/>
+      </sequence>
+    </complexType>
+  </element>-->
 
   <element name="projectFundingPlan">
     <complexType>
@@ -243,9 +266,11 @@
     <complexType>
       <sequence>
         <element ref="businessCase-add:agencyProjectId" minOccurs="0"/>
-        <element ref="businessCase-add:addProjectDetail"/>
-		<element ref="businessCase-add:addProjectMetric"/>
-        <element ref="businessCase-add:addProjectActivities"/>
+        <element ref="businessCase-add:addProjectDetail" minOccurs="0"/>
+        <element ref="businessCase-add:addProjectMetric" minOccurs="0"/>
+        <element ref="businessCase-add:addProjectActivities" minOccurs="0"/>
+        <element ref="businessCase-add:performanceMetricId" minOccurs="0"/>
+        <element ref="businessCase-add:agencyPerformanceMetricId" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -255,31 +280,22 @@
       <sequence>
         <element ref="businessCase-add:uniqueProjectId"/>
         <element ref="businessCase-add:projectName"/>
-		<element ref="businessCase-add:projectGoal"/>
+        <element ref="businessCase-add:projectGoal"/>
         <element ref="businessCase-add:projectStartDate"/>
         <element ref="businessCase-add:projectCompletionDate"/>
         <element ref="businessCase-add:projectLifeCycleCost"/>
-		<element ref="businessCase-add:softwareProject"/>
+        <element ref="businessCase-add:softwareProject"/>
       </sequence>
     </complexType>
   </element>
-  
-    <element name="addProjectMetric">
+
+  <element name="addProjectMetric">
     <complexType>
       <sequence>
-	    <element ref="businessCase-add:newOrExisting"/>
-        <element ref="businessCase-add:existingMetric" minOccurs = "0"/>
-        <element ref="businessCase-add:newMetric" minOccurs = "0"/>
-		<element ref="businessCase-add:deploymentTarget"/>
-      </sequence>
-    </complexType>
-  </element>
-  
-  <element name="existingMetric">
-    <complexType>
-      <sequence>
-        <element ref="businessCase-add:performanceMetricID" minOccurs = "0"/>
-        <element ref="businessCase-add:agencyPerformanceMetricID" minOccurs = "0"/>
+        <element ref="businessCase-add:newOrExisting"/>
+        <element ref="businessCase-add:newMetric" minOccurs="0"/>
+        <element ref="businessCase-add:existingMetric" minOccurs="0"/>
+        <element ref="businessCase-add:deploymentTarget"/>
       </sequence>
     </complexType>
   </element>
@@ -287,18 +303,27 @@
   <element name="newMetric">
     <complexType>
       <sequence>
-        <element ref="businessCase-add:description"/>
-        <element ref="businessCase-add:unitOfMeasure"/>
-		<element ref="businessCase-add:measurementCondition"/>
+        <element ref="businessCase-add:description" minOccurs="0"/>
+        <element ref="businessCase-add:unitOfMeasure" minOccurs="0"/>
+        <element ref="businessCase-add:measurementCondition" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
   
-
+  <element name="existingMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-add:metricID" minOccurs="0"/>
+        <element ref="businessCase-add:agencyMetricID" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+  
   <element name="addProjectActivities">
     <complexType>
       <sequence>
         <element ref="businessCase-add:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+        <element ref="businessCase-add:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
       </sequence>
     </complexType>
   </element>
@@ -317,6 +342,34 @@
         <element ref="businessCase-add:projectedCompletionDate" minOccurs="0"/>
         <element ref="businessCase-add:actualCompletionDate" minOccurs="0"/>
         <element ref="businessCase-add:plannedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-add:projectedTotalCost" minOccurs="0"/>
+        <element ref="businessCase-add:actualTotalCost" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+
+
+  <element name="addAgileProjectActivity">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-add:agencyActivityId" minOccurs="0"/>
+        <element ref="businessCase-add:releaseName"/>
+        <element ref="businessCase-add:releaseNumber"/>
+        <element ref="businessCase-add:releaseDescription"/>
+        <element ref="businessCase-add:NPI"/>
+        <element ref="businessCase-add:NPE"/>
+        <element ref="businessCase-add:NCE" minOccurs="0"/>
+        <element ref="businessCase-add:NCI" minOccurs="0"/>
+        <element ref="businessCase-add:DTC" minOccurs="0"/>
+        <element ref="businessCase-add:DPC" minOccurs="0"/>
+        <element ref="businessCase-add:plannedStartDate"/>
+        <element ref="businessCase-add:projectedStartDate" minOccurs="0"/>
+        <element ref="businessCase-add:actualStartDate" minOccurs="0"/>
+        <element ref="businessCase-add:plannedCompletionDate"/>
+        <element ref="businessCase-add:projectedCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-add:actualCompletionDate" minOccurs="0"/>
+        <element ref="businessCase-add:plannedTotalCost"/>
         <element ref="businessCase-add:projectedTotalCost" minOccurs="0"/>
         <element ref="businessCase-add:actualTotalCost" minOccurs="0"/>
       </sequence>
@@ -348,6 +401,14 @@
       <sequence>
         <element ref="businessCase-add:cioRatingEval"/>
         <element ref="businessCase-add:cioComment"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="publicURLs">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-add:publicURL" maxOccurs="unbounded"/>
       </sequence>
     </complexType>
   </element>
@@ -392,17 +453,18 @@
       </sequence>
     </complexType>
   </element>
-  
-  <!--UPDATES Required Here-->
 
   <element name="agency" type="businessCase-facet:agencyString"/>
   <element name="uniqueInvestmentIdentifier" type="businessCase-type:investmentIdentifierType"/>
+  <element name="investmentDescription" type="businessCase-type:longTextString"/>
   <element name="objectivesOrGoals" type="businessCase-add:objectivesOrGoalsType"/>
   <element name="addObjectiveOrGoal" type="businessCase-add:addObjectiveOrGoalType"/>
   <element name="agencyObjectiveOrGoalID" type="businessCase-type:shortTextString"/>
   <element name="objectiveOrGoal" type="businessCase-type:objectiveOrGoalType"/>
   <element name="investmentSharedService" type="businessCase-facet:yesNoString"/>
   <element name="plannedSharedService" type="businessCase-facet:yesNoString"/>
+  <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
+  <element name="publicURL" type="businessCase-type:URLString"/>
   <element name="ombControlNumber" type="businessCase-type:shortTextString"/>  
   <element name="pmName" type="businessCase-type:shortTextString"/>
   <element name="pmEmail" type="businessCase-type:shortTextString"/>
@@ -412,6 +474,7 @@
   <element name="UII" type="businessCase-type:investmentIdentifierType"/>
   <element name="eliminationReduction" type="businessCase-facet:eliminationReductionType"/>
   <element name="returnOnInvestmentDescription" type="businessCase-type:string3500"/>
+  <element name="investmentRequirements" type="businessCase-type:longTextString"/>
 
   <element name="addContactInformation" type="businessCase-add:contactInformationType"/>
   <element name="agencyContactId" type="businessCase-type:shortTextString"/>
@@ -489,8 +552,13 @@
   <element name="cioComment" type="businessCase-type:longTextString"/>
   <element name="agencyContractId" type="businessCase-type:shortTextString"/>
 
+  <element name="referencedPIID" type="businessCase-type:referencedPIIDType"/>
+  <element name="isModularApproach" type="businessCase-facet:yesNoString"/>
+  <element name="agileDevelopment" type="businessCase-facet:yesNoString"/>
 
+  <element name="performanceMetricID" type="businessCase-type:shortTextString"/>
   <element name="agencyPerformanceMetricId" type="businessCase-type:shortTextString"/>
+
   <element name="performanceMetricDescription" type="businessCase-type:mediumTextString"/>
   <element name="performanceMetricUOM" type="businessCase-type:string50"/>
   <element name="performanceMetricCategory" type="businessCase-facet:metricCategoryTypes"/>
@@ -517,14 +585,16 @@
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
-  <element name="softwareProject" type="businessCase-type:string10"/>
-  <element name="newOrExisting" type="businessCase-type:shortTextString"/>
-  <element name="deploymentTarget" type="businessCase-type:metricUnitType"/>
-  <element name="performanceMetricID" type="shortTextString"/>
-  <element name="agencyPerformanceMetricID" type="shortTextString"/>
-  <element name="description" type="businessCase-type:mediumTextString"/>
-  <element name="unitOfMeasure" type="businessCase-type:string50"/>
-  <element name="measurementCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="softwareProject" type="businessCase-type:shortTextString"/>
+  
+  <!-- projectMetric elements -->
+  <element name="newOrExisting" type="businessCase-type:longTextString"/>
+  <element name="deploymentTarget" type="businessCase-type:longTextString"/>
+  <element name="description" type="businessCase-type:longTextString"/>
+  <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
+  <element name="measurementCondition" type="businessCase-type:longTextString"/>
+  <element name="metricID" type="businessCase-type:identifiers"/>
+  <element name="agencyMetricID" type="businessCase-type:identifiers"/>
 
   <!-- activity elements -->
   <element name="agencyActivityId" type="businessCase-type:shortTextString"/>
@@ -541,6 +611,16 @@
   <element name="projectedCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="actualCompletionDate" type="businessCase-type:investmentDateType"/>
 
+  <!-- agile activity elements -->
+  <element name="releaseName" type="businessCase-type:shortTextString"/>
+  <element name="releaseNumber" type="businessCase-type:string50"/>
+  <element name="releaseDescription" type="businessCase-type:longTextString"/>
+  <element name="NPI" type="businessCase-type:agileSprints"/>
+  <element name="NPE" type="businessCase-type:agileEpics"/>
+  <element name="NCE" type="businessCase-type:agileEpics"/>
+  <element name="NCI" type="businessCase-type:agileSprints"/>
+  <element name="DTC" type="businessCase-type:agileContributors"/>
+  <element name="DPC" type="businessCase-type:agileContributors"/>
 
   <!-- Investment Document Elements -->
   <element name="binaryObject" abstract="true"/>
@@ -549,4 +629,13 @@
   <element name="title" type="businessCase-type:shortTextString"/>
 
 
+  <!-- Systems Inventory Elements -->
+  <element name="agencySystemId" type="businessCase-type:shortTextString" nillable="true"/>
+  <element name="systemName" type="businessCase-type:shortTextString"/>
+  <element name="initialOperatingYear" type="businessCase-type:investmentYear"/>
+  <element name="techRefreshDate" type="businessCase-type:investmentDateType"/>
+  <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType"/>
+  <element name="averageUsersPerMonth" type="integer"/>
+  <element name="performanceMetricId" type="integer"/>
+  <element name="isClosed" type="businessCase-facet:yesNoString"/>
 </schema>
