@@ -37,7 +37,7 @@
     </xs:simpleType>
 
     <xs:simpleType name="agencyContractID">
-         <xs:restriction base="xs:string">
+        <xs:restriction base="xs:string">
             <xs:minLength value="1" />
             <xs:maxLength value="250"/>
         </xs:restriction>
@@ -48,13 +48,22 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="get"/>
             <xs:enumeration value="add"/>
+            <xs:enumeration value="update"/>
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:simpleType name="releaseReview">
-         <xs:restriction base="xs:string">
-            <xs:minLength value="1" />
-            <xs:maxLength value="1000"/>
+    <xs:simpleType name="textArea">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="60000"/>
         </xs:restriction>
     </xs:simpleType>
+
+    <xs:simpleType name="smallInteger">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="250" />
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
 </xs:schema>
