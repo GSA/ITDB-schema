@@ -190,7 +190,7 @@
                         <newOrExisting>new</newOrExisting>
                         <newMetric>
                             <description>sprint defects</description>
-                            <UnitOfMeasure>defects</unitOfMeasure>
+                            <unitOfMeasure>defects</unitOfMeasure>
                             <measurementCondition>under target</measurementCondition>
                         </newMetric>
                         <deploymentTarget>1</deploymentTarget>
