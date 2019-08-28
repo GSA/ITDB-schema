@@ -36,7 +36,7 @@
                                                     <xs:element name='federalFTENumberBY'/>
                                                     <xs:element name='contractorFTENumberBY'/>
                                                 </xs:choice>
-                                            </xs:complexType>			
+                                            </xs:complexType>
                                         </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
@@ -73,11 +73,11 @@
                                                     <xs:element name='serviceProviderType'/>
                                                     <xs:element name='providerEntity'/>
                                                 </xs:choice>
-                                            </xs:complexType>			
+                                            </xs:complexType>
                                         </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
-                            </xs:element>       
+                            </xs:element>
                             <xs:element name='projects' minOccurs='0'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -89,31 +89,19 @@
                                                     <xs:element name='uniqueProjectID'/>
                                                     <xs:element name='agencyProjectID'/>
                                                     <xs:element name='projectName'/>
-                                                    <xs:element name='projectGoal'/>
+                                                    <xs:element name='projectGoal'/> 
                                                     <xs:element name='projectStartDate'/>
                                                     <xs:element name='projectCompletionDate'/>
                                                     <xs:element name='lifeCycleCost'/>
                                                     <xs:element name='softwareProject'/>
-													<xs:element name='newOrExistingMetric'/>
-													<xs:element name='existingMetric' minOccurs='0'> 
-													    <xs:complexType>
-                                                            <xs:choice minOccurs="0" maxOccurs="1">
-                                                                <xs:element name='metricID'/>
-																<xs:element name='agencyMetricID'/>
-															</xs:choice>
-                                                        </xs:complexType>
-                                                    </xs:element>
-													<xs:element name='newMetric' minOccurs='0'> 
-													    <xs:complexType>
-                                                            <xs:choice minOccurs="0" maxOccurs="1">
-                                                                <xs:element name='description'/>
-																<xs:element name='unitOfMeasure'/>
-																<xs:element name='measurementCondition'/>
-															</xs:choice>
-                                                        </xs:complexType>
-                                                    </xs:element>
-													<xs:element name='deploymentTarget'/>
-                                                    <xs:element name='activities' minOccurs='0'> 
+                                                    <xs:element name='newOrExisting'/>
+                                                    <xs:element name='description'/>
+                                                    <xs:element name='unitOfMeasure'/>
+                                                    <xs:element name='measurementCondition'/>
+                                                    <xs:element name='metricID'/>
+                                                    <xs:element name='agencyMetricID'/>
+                                                    <xs:element name='deploymentTarget'/>
+                                                    <xs:element name='activities' minOccurs='0'>
                                                         <xs:complexType>
                                                             <xs:choice minOccurs="0" maxOccurs="unbounded">
                                                                 <xs:element name='activity'>
@@ -143,10 +131,10 @@
                                                     </xs:element>
                                                 </xs:choice>
                                             </xs:complexType>
-                                        </xs:element>	
+                                        </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
-                            </xs:element>	
+                            </xs:element>
                             <xs:element name='operationalAnalysis' minOccurs='0' maxOccurs='1'>
                                 <xs:complexType>
                                     <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -197,10 +185,10 @@
                                                     </xs:element>
                                                 </xs:choice>
                                             </xs:complexType>
-                                        </xs:element>	
+                                        </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
-                            </xs:element>					
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
