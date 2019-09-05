@@ -157,7 +157,7 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:DataCenterID" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:DataCenterID" minOccurs="0" maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -219,6 +219,7 @@
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
                     <xsd:element ref="response-ITBudget-ext:CurrentUII" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:FundingSourceInvestmentLineStructure" minOccurs="0" maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -322,7 +323,7 @@
                     <xsd:element ref="response-ITBudget-ext:publicUrls" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:OandM" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:DME" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="resposne-ITBudget-ext:CostPools" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:CostPools" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:ITTowers" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:FunctionalBusinessSponsorInformation" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:CloudComputingAlternativesEvaluation" minOccurs="0" maxOccurs="unbounded"/>
@@ -345,7 +346,7 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:ITTower" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:ITTower" maxOccurs="unbounded"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -392,7 +393,7 @@
         <xsd:complexContent>
             <xsd:extension base="s:ComplexObjectType">
                 <xsd:sequence>
-                    <xsd:element ref="update-ITBudget-ext:MissionSupportInvestmentCategory" maxOccurs="6"/>
+                    <xsd:element ref="response-ITBudget-ext:MissionSupportInvestmentCategory" maxOccurs="6"/>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
@@ -426,6 +427,7 @@
                 <xsd:sequence>
                     <xsd:element ref="response-ITBudget-ext:CurrentUII" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:PriorUII" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="response-ITBudget-ext:InvestmentLineStructure" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:SharedServicesCategory" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:SharedServicesIdentifier" minOccurs="0" maxOccurs="unbounded"/>
                     <xsd:element ref="response-ITBudget-ext:MissionSupportInvestmentCategories" minOccurs="0" maxOccurs="unbounded"/>
@@ -534,13 +536,9 @@
         </xsd:annotation>
     </xsd:element>
 
-    <xsd:element name="DataCenterID" type="niem-core:TextType">
+    <xsd:element name="DataCenterID" type="nc:TextType">
         <xsd:annotation>
             <xsd:documentation>TBD</xsd:documentation>
-        </xsd:annotation>
-    </xsd:element>
-    <xsd:annotation>
-        <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
 </xsd:element>
 <xsd:element name="DME" type="response-ITBudget-ext:AnnualOverallBudgetType">
@@ -573,12 +571,17 @@
     <xsd:documentation>This is the three (3) digit code that indicates the predominant business function served by the Investment (not necessarily the mission/business of the Agency)</xsd:documentation>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="plannedAcquisitions" type="nc:plannedAcquisitionsType">
+<xsd:element name="plannedAcquisitions" type="ITBudgetFacet:YesNoCodeType">
 <xsd:annotation>
     <xsd:documentation> plannedAcquisitions </xsd:documentation>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="FunctionalBusinessSponsorInformation" type="response-ITBudget-ext:FunctionalBusinessSponsorInformationType">
+<xsd:element name="pivEnabled" type="ITBudgetFacet:YesNoCodeType">
+    <xsd:annotation>
+        <xsd:documentation>Unique Investment Identifier is a persistent numeric code applied to an investment that allows the identification and tracking of an investment across multiple fiscal years of an agency's investment portfolio. The unique investment identifier is composed of a 3-digit agency code concatenated with a 9-digit unique investment number generated by the agency. Some 9-digit numbers are reserved for OMB to assign and may not be assigned by agencies.</xsd:documentation>
+    </xsd:annotation>
+</xsd:element>
+    <xsd:element name="FunctionalBusinessSponsorInformation" type="response-ITBudget-ext:FunctionalBusinessSponsorInformationType">
 <xsd:annotation>
     <xsd:documentation>A complex element used to contain elements regarding Functional/Business Sponsor Information</xsd:documentation>
 </xsd:annotation>
@@ -653,7 +656,7 @@
     <xsd:documentation>A complex object that includes information about an investment status change, including its type and a description of the change.</xsd:documentation>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="publicUrls" type="response-ITBudget-ext:publicUrlsChangeType">
+<xsd:element name="publicUrls" type="response-ITBudget-ext:publicUrlsType">
 <xsd:annotation>
     <xsd:documentation>New field for public urls.</xsd:documentation>
 </xsd:annotation>
@@ -678,7 +681,7 @@
     <xsd:documentation>Element used for defining IT Tower categories.</xsd:documentation>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="ITTowers" type="reponse-ITBudget-ext:ITTowersType">
+<xsd:element name="ITTowers" type="response-ITBudget-ext:ITTowersType">
 <xsd:annotation>
     <xsd:documentation>Element used for grouping IT Tower line items.</xsd:documentation>
 </xsd:annotation>
@@ -763,7 +766,7 @@
     <xsd:documentation>A code list used to describe how an investment has changed. It can have values of 1 through 8 were 8 is none. The values represent: (0) None. (1) Downgraded to non-major because it does not fit the criteria for Major investment in FY 2012, or because of insufficient activities or funding. (2) In budget year, this consolidated investment is no longer included in Major Investments, due to the split up into separate component investments. (3) In budget year, this investment is no longer a major investment, due to consolidation of activities into another investment. (4) Investment was subject to agency-wide realignment of the IT portfolio. (5) Investment was retired. (6) Investment was eliminated. (7) Upgraded to a major investment. (8) Other.</xsd:documentation>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="url" type="ITBudgetFacet:urlType">
+<xsd:element name="url" type="nc:TextType">
 <xsd:annotation>
     <xsd:documentation>URLs that go under Public URls</xsd:documentation>
 </xsd:annotation>
