@@ -12,71 +12,21 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  GSA Deployment v2019.04.B/C                   | April 18, 2019 | <ul><li>Production Defect: Life Cycle Costs Data Feed FY + 3 pulling incorrect data</li><li>Production Defect: Part 03 Data masked within four Data Feeds</li></ul> | &#x2714;|
-|  GSA Deployment v2019.05.A                   | May 3, 2019 | <ul><li>Production Defect: Unauthenticated users can access Part 03 Investment Summary Pages</li><li>Production Defect: Part 03 Investments excluded from Investment Listing Table</li><li>Change Request: Implemented Conditional Press Feedback Form on IT Dashboard</li><li>Maintenance Update: Updated Drupal and related libraries</li></ul> | &#x2714;|
-|  GSA Deployment v2019.06.A                   | June 5, 2019 | <ul><li>Change Request: Adjusted Padding Surrounding CIO Photos</li><li>Maintenance Update: Updated Drupal and related libraries</li></ul> | &#x2714;|
-|  GSA Deployment v2019.06.B                   | June 21, 2019 | <ul><li>Change Request: Updated DCOI Optimization Page Layout and Data</li></ul> | &#x2714;|
-|  GSA Deployment v2019.06.B Data Change                   | June 26, 2019 | <ul><li>Change Request: Updated DCOI Page Data</li></ul> | &#x2714;|
+|  GSA Deployment v2019.10.B.2                  | October 24, 2019 | <ul><li>DCOI JSON Update</li></ul> | &#x2714;|
+|  GSA Deployment v2019.10.B.3                 | October 27, 2019 | <ul><li>2020 Environment Data Feed Updates</li></ul> | &#x2714;|
+|  GSA Deployment v2019.11.B                  | November 27, 2019 | <ul><li>Deployment Report Stored Procedure Update</li><li>Project Deletion Update</li></ul> | &#x2714;|
+|  GSA Deployment v2019.12.A                  | December 11, 2019 | <ul><li>Data Center Statistics Update</li></ul> | &#x2714;|
+|  GSA Deployment v2019.12.A.2                  | December 17, 2019 | <ul><li>GSA ATO Update</li><li>Data Center Statistics Update</li></ul> | &#x2714;|
 
 
-## Pre-Submission Dates FY 2021 
+## President's Budget Submission Dates FY 2021 
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
-|  95% Guidance Released |  June 5, 2019  | &#x2714;|
-|  FY 2021 Data Dictionary Release Date | June 21, 2019 | &#x2714;|
-|  FY 2021 Validations Document Release Date | July 9, 2019 | &#x2714;|
-|  FY 2021 Submission Instructions Release Date  |  Late July 2019 |
-|  FY 2021 XSD Release Date |  Rolling Release |
-|  FY 2021 UAT Site Released to Vendors   |  Mid-to-Late July 2019 |
-|  FY 2021 UAT Site Released to Agencies   |  TBD |
-|  Draft IT Portfolio Submissions  |  TBD |
-|  IT Dashboard 'Go Dark' Period  |  TBD |
-|  FY 2021 Pre-Decisional Submissions   |  TBD |
-
-
-## Quick Links to Files
-
-  * **Guidance**
-    * [FY20 Guidance](https://www.whitehouse.gov/wp-content/uploads/2018/06/fy-2020-it-budget-guidance.pdf)
-  * **A11**
-    * [OMB Circular A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf) 
-  * **XSD**
-    * [FY20 XSD Final](https://github.com/ombegov/ITDB-schema/tree/v2.0.8)
-  * **SAMPLE XML**
-    * [ITBudget](https://github.com/ombegov/ITDB-schema/tree/master/src/ITBudget/Examples)
-    * [Business Case](https://github.com/ombegov/ITDB-schema/tree/master/src/BusinessCase/Examples)
-    * [Standard Investment Report](https://github.com/ombegov/ITDB-schema/tree/master/src/InvestmentReport/examples)
-    * [CIO Rating](https://github.com/ombegov/ITDB-schema/tree/master/src/CIORating/Examples)
-    * [Contracts Report](https://github.com/ombegov/ITDB-schema/tree/master/src/ContractsReport/examples)
-    * [Systems Inventory List](https://github.com/ombegov/ITDB-schema/tree/master/src/SystemsInventory/examples)
-    * [Submission Confirmation](https://github.com/ombegov/ITDB-schema/tree/master/src/SubmissionConfirmation/examples)
-* **Data Dictionary & Validations** 
-  * [FY20 Data Dictionary](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Data%20Dictionary%20%26%20Enumerations.xlsx)
-  * [FY20 Validations](https://github.com/ombegov/ITDB-schema/blob/master/BY20%20Application%20Validations.xlsx)
-  
-
-## Submission Dates FY 2020 
-|  Event  |  Date |
-|:-------------|:-------------:|
-|  BY19 Submission Ends  |  August 31, 2018 |
-|  IT Dashboard 'Go Dark' Period  |  September 1, 2018 through September 9, 2018 |
-|  Draft Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | August 20, 2018 |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Starts  | September 10, 2018 |
-|  Pre-Decisional Budget Agency IT Portfolio Summary Submission Ends  |  September 14, 2018 |
-|  Pre-Decisional Business Case (BC) and Standard Investment Report (SIR) Submission Starts  |  September 11, 2018 |
-|  Pre-Decisional BC and SIR Submission Ends  |  September 21, 2018 |
-|  President's Budget Agency IT Portfolio Summary Submission Starts  |  February 12, 2019 |
-|  President's Budget Agency IT Portfolio Summary Submission Ends  |  February 19, 2019 |
-|  President's Budget BC and SIR Submission Starts  |  February 13, 2019 (AITPD submissions are open immediately following a completed AITPS Submission Confirmation) |
-|  President's Budget BC and SIR Submission Ends  |  March 8, 2019 |
-|  IT Dashboard Data from President's Budget Submission Displays on Public Site  |  March 18, 2019 |
-|  Congressional Justification Agency IT Portfolio Summary Submission Starts  |  March 18, 2019 |
-|  Congressional Justification  Agency IT Portfolio Summary Submission Ends  | April 5, 2019 |
-|  Mid-Session Review Agency IT Portfolio Summary Submission Starts  |  June 24, 2019 |
-|  Mid-Session Review Agency IT Portfolio Summary Submission Ends  | June 28, 2019 |
-
-  
+|  AITPS Window Opens |  January 7, 2020 01:00 AM EST |
+|  AITPD Window Opens | January 7, 2020 01:00 AM EST | 
+|  AITPS Winodow Closes | January 9, 2020 4:59 PM EST | 
+|  AITPD Window Closese  |  January 16, 2020 4:59 PM EST |
   
 ## Asking questions and getting help
 
