@@ -19,7 +19,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  GSA Deployment v2019.12.A.2                  | December 17, 2019 | <ul><li>GSA ATO Update</li><li>Data Center Statistics Update</li></ul> | &#x2714;|
 
 
-## Important Dates for the BY 2021 President's Budget Submission1 
+## Important Dates for the BY 2021 President's Budget Submission 
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
