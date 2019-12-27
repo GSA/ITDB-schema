@@ -23,6 +23,9 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
+|  Validations Patch on UAT and Production |  December 27, 2019 |
+|  Project Name, Activity Name, and Activity Description Baselined on UAT |  December 30, 2019 |
+|  Project Name, Activity Name, and Activity Description Baselined on Production |  January 3, 2020 |
 |  AITPS Window Opens |  January 7, 2020 01:00 AM EST |
 |  AITPD Window Opens | January 7, 2020 01:00 AM EST | 
 |  AITPS Winodow Closes | January 9, 2020 4:59 PM EST | 
