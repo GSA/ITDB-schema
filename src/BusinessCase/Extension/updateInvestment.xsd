@@ -2,8 +2,7 @@
 
 <!-- 
    Copyright 2009-2011 United States Government. 
-
-   This software is licensed under the GNU General Public License 
+   This software is licensed under the GNU General Public License
    version 2 (see the file LICENSE for details)
 -->
 
@@ -48,15 +47,15 @@
   <element name="investmentDetails">
     <complexType>
       <sequence>
-        <element ref="businessCase-update:investmentDescription" minOccurs="0"/>
+        <!--<element ref="businessCase-update:investmentDescription" minOccurs="0"/>-->
         <element ref="businessCase-update:objectivesOrGoals" minOccurs="0"/>
         <element ref="businessCase-update:returnOnInvestmentDescription" minOccurs="0"/>
-        <element ref="businessCase-update:investmentRequirements" minOccurs="0"/>
+        <!--<element ref="businessCase-update:investmentRequirements" minOccurs="0"/>-->
         <element ref="businessCase-update:investmentsEliminatedorReduced" minOccurs="0"/>
         <element ref="businessCase-update:investmentSharedService" minOccurs="0"/>
         <element ref="businessCase-update:plannedSharedService" minOccurs="0"/>
-        <element ref="businessCase-update:investmentPivEnabled" minOccurs="0"/>
-        <element ref="businessCase-update:publicURLs" minOccurs="0"/>
+        <!--<element ref="businessCase-update:investmentPivEnabled" minOccurs="0"/>
+        <element ref="businessCase-update:publicURLs" minOccurs="0"/>-->
         <element ref="businessCase-update:ombControlNumbers" minOccurs="0"/>
         <element ref="businessCase-update:pmDetails" minOccurs="0"/>
       </sequence>
@@ -70,7 +69,7 @@
         <element ref="businessCase-update:reviseInvestment" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:operationalAnalysis" minOccurs="0"/>
         <element ref="businessCase-update:performanceMetrics" minOccurs="0"/>
-        <element ref="businessCase-update:investmentRisks" minOccurs="0"/>
+        <!-- REMOVE <element ref="businessCase-update:investmentRisks" minOccurs="0"/>-->
       </sequence>
     </complexType>
   </element>
@@ -130,7 +129,7 @@
         <element ref="businessCase-update:dmeBudgetaryResourcesFY_1" minOccurs="0"/>
         <element ref="businessCase-update:dmeBudgetaryResourcesFY_2" minOccurs="0"/>
         <element ref="businessCase-update:dmeBudgetaryResourcesFY_3" minOccurs="0"/>
-        <element ref="businessCase-update:dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>      
+        <element ref="businessCase-update:dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-update:dmeGovernmentFTECostsPY-1" minOccurs="0"/>
         <element ref="businessCase-update:dmeGovernmentFTECostsPY" minOccurs="0"/>
         <element ref="businessCase-update:dmeGovernmentFTECostsCY" minOccurs="0"/>
@@ -217,7 +216,7 @@
         <attribute name="contentType" type="string" use="required"/>
       </extension>
     </simpleContent>
-</complexType>
+  </complexType>
 
   <element name="performanceMetrics">
     <complexType>
@@ -328,6 +327,7 @@
         <element ref="businessCase-update:projectId" minOccurs="0"/>
         <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
         <element ref="businessCase-update:updateProjectDetail" minOccurs="0"/>
+        <element ref="businessCase-update:updateProjectMetric" minOccurs="0"/>
         <element ref="businessCase-update:updateProjectActivities" minOccurs="0"/>
       </sequence>
     </complexType>
@@ -336,14 +336,39 @@
   <element name="updateProjectDetail">
     <complexType>
       <sequence>
-        <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
-        <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
-        <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
-        <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
-        <element ref="businessCase-update:fundedBy" minOccurs="0"/>
-        <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
-        <element ref="businessCase-update:commercialSolutionsAdoption" minOccurs="0"/>
-        <element ref="businessCase-update:commercialSolutionsReasoning" minOccurs="0"/>
+        <element ref="businessCase-update:projectName" minOccurs="0"/>
+        <element ref="businessCase-update:projectGoal" minOccurs="0"/>
+        <element ref="businessCase-update:softwareProject" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="updateProjectMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:newOrExisting"  minOccurs="0"/>
+        <element ref="businessCase-update:newMetric" minOccurs="0"/>
+        <element ref="businessCase-update:existingMetric" minOccurs="0"/>
+        <element ref="businessCase-update:deploymentTarget" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="newMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:description" minOccurs="0"/>
+        <element ref="businessCase-update:unitOfMeasure" minOccurs="0"/>
+        <element ref="businessCase-update:measurementCondition" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="existingMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-update:metricID" minOccurs="0"/>
+        <element ref="businessCase-update:agencyMetricID" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -353,8 +378,8 @@
       <sequence>
         <element ref="businessCase-update:updateProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
         <element ref="businessCase-update:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-        <element ref="businessCase-update:updateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-        <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+        <!-- REMOVE <element ref="businessCase-update:updateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+             REMOVE <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>-->
       </sequence>
     </complexType>
   </element>
@@ -364,6 +389,8 @@
       <sequence>
         <element ref="businessCase-update:activityId" minOccurs="0"/>
         <element ref="businessCase-update:agencyActivityId" minOccurs="0"/>
+        <element ref="businessCase-update:activityName" minOccurs="0"/>
+        <element ref="businessCase-update:activityDescription" minOccurs="0"/>
         <element ref="businessCase-update:projectedStartDate" minOccurs="0"/>
         <element ref="businessCase-update:actualStartDate" minOccurs="0"/>
         <element ref="businessCase-update:projectedCompletionDate" minOccurs="0"/>
@@ -397,7 +424,7 @@
       </sequence>
     </complexType>
   </element>
-  
+
   <element name="reviseInvestment">
     <complexType>
       <sequence>
@@ -413,11 +440,12 @@
       <attribute name="id" type="string" use="required"/>
     </complexType>
   </element>
- 
+
   <complexType name="addProjectType">
     <sequence>
       <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
       <element ref="businessCase-update:addProjectDetail"/>
+      <element ref="businessCase-update:addProjectMetric"/>
       <element ref="businessCase-update:addProjectActivities"/>
     </sequence>
   </complexType>
@@ -426,40 +454,58 @@
     <sequence>
       <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
       <element ref="businessCase-update:reviseAddProjectDetail"/>
+      <element ref="businessCase-update:reviseAddProjectMetric"/>
       <element ref="businessCase-update:reviseAddProjectActivities"/>
     </sequence>
   </complexType>
 
   <complexType name="reviseAddProjectDetailType">
     <sequence>
-      <element ref="businessCase-update:uniqueProjectId"/>
+      <element ref="businessCase-update:uniqueProjectId" minOccurs="0"/>
       <element ref="businessCase-update:projectName"/>
-      <element ref="businessCase-update:objectivesExpectedOutcomes"/>
-      <element ref="businessCase-update:projectStartDate"/>
-      <element ref="businessCase-update:projectCompletionDate"/>
-      <element ref="businessCase-update:projectLifeCycleCost"/>
-      <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
-      <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
-      <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
-      <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
-      <element ref="businessCase-update:fundedBy" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsAdoption" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsReasoning" minOccurs="0"/>
+      <element ref="businessCase-update:projectGoal"/>
+      <element ref="businessCase-update:projectStartDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectCompletionDate" minOccurs="0"/>
+      <element ref="businessCase-update:projectLifeCycleCost" minOccurs="0"/>
+      <element ref="businessCase-update:softwareProject"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseAddProjectMetricType">
+    <sequence>
+      <element ref="businessCase-update:newOrExisting"/>
+      <element ref="businessCase-update:newMetric" minOccurs="0"/>
+      <element ref="businessCase-update:existingMetric" minOccurs="0"/>
+      <element ref="businessCase-update:deploymentTarget"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="newMetric">
+    <sequence>
+      <element ref="businessCase-update:description" minOccurs="0"/> <!-- add minOccurs-->
+      <element ref="businessCase-update:unitOfMeasure" minOccurs="0"/> <!-- add minOccurs-->
+      <element ref="businessCase-update:measurementCondition" minOccurs="0"/> <!-- add minOccurs-->
+    </sequence>
+  </complexType>
+
+  <complexType name="existingMetric">
+    <sequence>
+      <element ref="businessCase-update:metricID" minOccurs="0"/> <!-- add minOccurs-->
+      <element ref="businessCase-update:agencyMetricID" minOccurs="0"/> <!-- add minOccurs-->
     </sequence>
   </complexType>
 
   <complexType name="addProjectActivitiesType">
     <sequence>
       <element ref="businessCase-update:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-      <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- REMOVE <element ref="businessCase-update:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>-->
     </sequence>
   </complexType>
 
   <complexType name="reviseAddProjectActivitiesType">
     <sequence>
       <element ref="businessCase-update:reviseAddProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-      <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- REMOVE  <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>-->
     </sequence>
   </complexType>
 
@@ -510,6 +556,7 @@
       <element ref="businessCase-update:projectId" minOccurs="0"/>
       <element ref="businessCase-update:agencyProjectId" minOccurs="0"/>
       <element ref="businessCase-update:reviseUpdateProjectDetail" minOccurs="0"/>
+      <element ref="businessCase-update:reviseUpdateProjectMetric" minOccurs="0"/>
       <element ref="businessCase-update:reviseUpdateProjectActivities" minOccurs="0"/>
     </sequence>
   </complexType>
@@ -518,19 +565,21 @@
     <sequence>
       <element ref="businessCase-update:uniqueProjectId" minOccurs="0"/>
       <element ref="businessCase-update:projectName" minOccurs="0"/>
-      <element ref="businessCase-update:objectivesExpectedOutcomes" minOccurs="0"/>
+      <element ref="businessCase-update:projectGoal" minOccurs="0"/>
       <element ref="businessCase-update:projectStartDate" minOccurs="0"/>
       <element ref="businessCase-update:projectCompletionDate" minOccurs="0"/>
       <element ref="businessCase-update:projectLifeCycleCost" minOccurs="0"/>
-      <element ref="businessCase-update:SDLCmethodology" minOccurs="0"/>
-      <element ref="businessCase-update:releaseEverySixMo" minOccurs="0"/>
-      <element ref="businessCase-update:releaseEverySixMoComment" minOccurs="0"/>
-      <element ref="businessCase-update:productionDeploymentDate" minOccurs="0"/>
-      <element ref="businessCase-update:fundedBy" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsCosts" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsAdoption" minOccurs="0"/>
-      <element ref="businessCase-update:commercialSolutionsReasoning" minOccurs="0"/>
+      <element ref="businessCase-update:softwareProject" minOccurs="0"/>
       <element ref="businessCase-update:isActive" minOccurs="0"/>
+    </sequence>
+  </complexType>
+
+  <complexType name="reviseUpdateProjectMetricType">
+    <sequence>
+      <element ref="businessCase-update:newOrExisting"  minOccurs="0"/>
+      <element ref="businessCase-update:newMetric" minOccurs="0"/>
+      <element ref="businessCase-update:existingMetric" minOccurs="0"/>
+      <element ref="businessCase-update:deploymentTarget" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -538,8 +587,8 @@
     <sequence>
       <element ref="businessCase-update:reviseUpdateProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
       <element ref="businessCase-update:reviseAddProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-      <element ref="businessCase-update:reviseUpdateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-      <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+      <!-- REMOVE <element ref="businessCase-update:reviseUpdateAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
+           REMOVE <element ref="businessCase-update:reviseAddAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>-->
     </sequence>
   </complexType>
 
@@ -631,7 +680,7 @@
       <element ref="businessCase-update:investmentStartEndDates" minOccurs="0"/>
     </sequence>
   </complexType>
-  
+
   <element name="investmentStartEndDates">
     <complexType>
       <sequence>
@@ -640,7 +689,7 @@
       </sequence>
     </complexType>
   </element>
- 
+
   <complexType name="addInvestmentEliminatedorReducedType">
     <sequence>
       <element ref="businessCase-update:agencyInvestmentEliminatedorReducedID" minOccurs="0"/>
@@ -875,18 +924,20 @@
   <element name="agencyProjectId" type="businessCase-type:shortTextString"/>
   <element name="uniqueProjectId" type="businessCase-type:string10"/>
   <element name="projectName" type="businessCase-type:shortTextString"/>
-  <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString"/>
+  <element name="projectGoal" type="businessCase-type:shortTextString"/>
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
-  <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType"/>
-  <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType"/>
-  <element name="releaseEverySixMoComment" type="businessCase-type:string1000"/>
-  <element name="productionDeploymentDate" type="businessCase-type:investmentDateType"/>
-  <element name="fundedBy" type="businessCase-facet:fundedByType"/>
-  <element name="commercialSolutionsCosts" type="businessCase-type:string25"/>
-  <element name="commercialSolutionsAdoption" type="businessCase-type:string1000"/>
-  <element name="commercialSolutionsReasoning" type="businessCase-type:string1000"/>
+  <element name="softwareProject" type="businessCase-type:shortTextString"/>
+
+  <!-- projectMetric elements -->
+  <element name="newOrExisting" type="businessCase-type:longTextString"/>
+  <element name="deploymentTarget" type="businessCase-type:longTextString"/>
+  <element name="description" type="businessCase-type:longTextString"/>
+  <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
+  <element name="measurementCondition" type="businessCase-type:longTextString"/>
+  <element name="metricID" type="businessCase-type:identifiers"/>
+  <element name="agencyMetricID" type="businessCase-type:identifiers"/>
 
   <!-- activity elements -->
   <element name="activityId" type="integer"/>
@@ -921,11 +972,13 @@
   <element name="reviseComments" type="string"/>
   <element name="reviseAddProject" type="businessCase-update:reviseAddProjectType"/>
   <element name="reviseAddProjectDetail" type="businessCase-update:reviseAddProjectDetailType"/>
+  <element name="reviseAddProjectMetric" type="businessCase-update:reviseAddProjectMetricType"/>
   <element name="reviseAddProjectActivities" type="businessCase-update:reviseAddProjectActivitiesType"/>
   <element name="reviseAddProjectActivity" type="businessCase-update:reviseAddProjectActivityType"/>
   <element name="reviseAddAgileProjectActivity" type="businessCase-update:reviseAddAgileProjectActivityType"/>
   <element name="reviseUpdateProject" type="businessCase-update:reviseUpdateProjectType"/>
   <element name="reviseUpdateProjectDetail" type="businessCase-update:reviseUpdateProjectDetailType"/>
+  <element name="reviseUpdateProjectMetric" type="businessCase-update:reviseUpdateProjectMetricType"/>
   <element name="reviseUpdateProjectActivities" type="businessCase-update:reviseUpdateProjectActivitiesType"/>
   <element name="reviseUpdateProjectActivity" type="businessCase-update:reviseUpdateProjectActivityType"/>
   <element name="reviseUpdateAgileProjectActivity" type="businessCase-update:reviseUpdateAgileProjectActivityType"/>
@@ -937,6 +990,7 @@
   <!-- Project elements -->
   <element name="addProject" type="businessCase-update:addProjectType"/>
   <element name="addProjectDetail" type="businessCase-update:reviseAddProjectDetailType"/>
+  <element name="addProjectMetric" type="businessCase-update:reviseAddProjectMetricType"/>
   <element name="addProjectActivities" type="businessCase-update:addProjectActivitiesType"/>
   <element name="addProjectActivity" type="businessCase-update:reviseAddProjectActivityType"/>
   <element name="addAgileProjectActivity" type="businessCase-update:reviseAddAgileProjectActivityType"/>
@@ -953,5 +1007,4 @@
   <element name="techRefreshDate" type="businessCase-type:investmentDateType"/>
   <element name="endOfContractedSupportDate" type="businessCase-type:investmentDateType"/>
   <element name="averageUsersPerMonth" type="integer"/>
-
 </schema>

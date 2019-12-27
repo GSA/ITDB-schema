@@ -1,0 +1,24 @@
+<towers validateOnlyIndicator="false">
+    <tower>
+        <operation>update</operation>
+        <towerDetails>
+            <UII>018-999990228</UII>
+        </towerDetails>
+         <metrics>
+            <metric>
+                <operation>update</operation>
+                <agencyMetricID>Delivery-Metric-123</agencyMetricID>
+                 <metricActuals>
+                    <metricActual>
+                        <operation>delete</operation>
+                        <agencyMetricActualID>Delivery-Metric-123-Actual-123</agencyMetricActualID>
+                     </metricActual>
+                </metricActuals>
+            </metric>
+			<metric>
+                <operation>delete</operation>
+                <agencyMetricID>Delivery-Metric-234</agencyMetricID>
+            </metric>
+        </metrics>
+    </tower>
+</towers>

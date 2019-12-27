@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Copyright 2009-2011 United States Government. 
+
+   This software is licensed under the GNU General Public License 
+   version 2 (see the file LICENSE for details)
+-->
+
+<schema xmlns:businessCase-facet="urn:us:gov:businessCase-facet" targetNamespace="urn:us:gov:businessCase-facet"
+        version="FY_2016" xmlns="http://www.w3.org/2001/XMLSchema">
+  <simpleType name="reviseOptionType">
+    <restriction base="string">
+      <enumeration value="Rebaseline - significant changes in funding level or availability of fund"/>
+      <enumeration value="Rebaseline - significant change in contracting"/>
+      <enumeration value="Rebaseline - scope and objectives evolve due to incremental or iterative system development"/>
+      <enumeration value="Rebaseline - current baseline is no longer useful as a management tool"/>
+      <enumeration value="Rebaseline - other reason consistent with agency policy and M-10-27"/>
+      <enumeration value="Replan - adding or modifying detail within the overall cost and schedule goals"/>
+      <enumeration value="Correction"/>
+      <enumeration value="Correction - Metrics Only"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="projectManagerQualification">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>FAC-P/PM(DAWIA-3)- Senior</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>FAC-P/PM(DAWIA-2)- Mid-Level</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>FAC-P/PM(DAWIA-1)- Entry Level</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>Other certification with 4 or more years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>Other certification with between 2 and 4 years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="6">
+        <annotation>
+          <documentation>Other certification with less than two years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="7">
+        <annotation>
+          <documentation>No certification, but with 4 or more years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="8">
+        <annotation>
+          <documentation>No certification, but with between 2 and 4 years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="9">
+        <annotation>
+          <documentation>No certification, but with less than two years PM experience (within the last five years)
+          </documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="prmConditionTypes">
+    <restriction base="string">
+      <enumeration value="Over target"/>
+      <enumeration value="Under target"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="yesNoString">
+    <restriction base="string">
+      <enumeration value="yes"/>
+      <enumeration value="no"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="agencyString">
+    <restriction base="string">
+      <enumeration value="005"/>
+      <enumeration value="006"/>
+      <enumeration value="007"/>
+      <enumeration value="009"/>
+      <enumeration value="010"/>
+      <enumeration value="011"/>
+      <enumeration value="012"/>
+      <enumeration value="014"/>
+      <enumeration value="015"/>
+      <enumeration value="016"/>
+      <enumeration value="018"/>
+      <enumeration value="019"/>
+      <enumeration value="020"/>
+      <enumeration value="021"/>
+      <enumeration value="023"/>
+      <enumeration value="024"/>
+      <enumeration value="025"/>
+      <enumeration value="026"/>
+      <enumeration value="027"/>
+      <enumeration value="028"/>
+      <enumeration value="029"/>
+      <enumeration value="184"/>
+      <enumeration value="202"/>
+      <enumeration value="393"/>
+      <enumeration value="422"/>
+      <enumeration value="429"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="isActiveString">
+    <restriction base="string">
+      <enumeration value="active"/>
+      <enumeration value="deactivated"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="contractOrTaskType">
+    <restriction base="string">
+      <enumeration value="Cost No Fee"/>
+      <enumeration value="Fixed Price with Economic Price Adjustment"/>
+      <enumeration value="Cost Plus Award Fee"/>
+      <enumeration value="Combination (two or more)"/>
+      <enumeration value="Firm Fixed Price"/>
+      <enumeration value="Fixed Price Level of Effort"/>
+      <enumeration value="Labor Hours"/>
+      <enumeration value="Cost Plus Incentive"/>
+      <enumeration value="Fixed Price Award Fee"/>
+      <enumeration value="Cost Plus Fixed Fee"/>
+      <enumeration value="Order Dependent (IDV only)"/>
+      <enumeration value="Fixed Price Redetermination"/>
+      <enumeration value="Time and Materials"/>
+      <enumeration value="Fixed Price Incentive"/>
+      <enumeration value="Cost Sharing"/>
+      <enumeration value="Other (none of the above)"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="measureReportingFrequencyType">
+    <restriction base="string">
+      <enumeration value="Monthly"/>
+      <enumeration value="Quarterly"/>
+      <enumeration value="Semi-Annual"/>
+      <enumeration value="Annual"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="eliminationReductionType">
+    <restriction base="string">
+      <enumeration value="to be eliminated"/>
+      <enumeration value="to be reduced"/>
+    </restriction>
+  </simpleType>
+
+  <simpleType name="riskType">
+    <restriction base="string">
+      <enumeration value="01">
+        <annotation>
+          <documentation>schedule</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="02">
+        <annotation>
+          <documentation>initial costs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="03">
+        <annotation>
+          <documentation>life-cycle costs</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="04">
+        <annotation>
+          <documentation>technical obsolescence</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="05">
+        <annotation>
+          <documentation>feasibility</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="06">
+        <annotation>
+          <documentation>reliability of systems</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="07">
+        <annotation>
+          <documentation>dependencies and interoperability between this investment and others</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="08">
+        <annotation>
+          <documentation>surety (asset protection) considerations</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="09">
+        <annotation>
+          <documentation>risk of creating a monopoly for future procurements</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="10">
+        <annotation>
+          <documentation>capability of agency to manage the investment</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="11">
+        <annotation>
+          <documentation>overall risk of investment failure</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="12">
+        <annotation>
+          <documentation>organizational and change management</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="13">
+        <annotation>
+          <documentation>business</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="14">
+        <annotation>
+          <documentation>data/info</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="15">
+        <annotation>
+          <documentation>technology</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="16">
+        <annotation>
+          <documentation>strategic</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="17">
+        <annotation>
+          <documentation>security</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="18">
+        <annotation>
+          <documentation>privacy</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="19">
+        <annotation>
+          <documentation>project resources</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="20">
+        <annotation>
+          <documentation>records management</documentation>
+        </annotation>
+      </enumeration>    </restriction>
+  </simpleType>
+  <simpleType name="impactType">
+    <restriction base="string">
+      <enumeration value="Very Low"/>
+      <enumeration value="Low"/>
+      <enumeration value="Medium"/>
+      <enumeration value="High"/>
+      <enumeration value="Very High"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="contactTypes">
+    <restriction base="string">
+      <enumeration value="ITProgramManager"/>
+      <enumeration value="BusinessProcessOwnerOrSME"/>
+      <enumeration value="ContractSpecialist"/>
+      <enumeration value="ITSpecialist"/>
+      <enumeration value="SecuritySpecialist"/>
+      <enumeration value="Other"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="SDLCmethodologyType">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>Waterfall</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>Iterative: Incremental, Spiral, Agile</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Not Primarily a Software Development Project</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+  <simpleType name="metricCategoryTypes">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>Customer Satisfaction (Process Results)</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>Strategic and Business Results</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Financial Performance</documentation>
+        </annotation>
+      </enumeration>
+       <enumeration value="4">
+        <annotation>
+          <documentation>Innovation</documentation>
+        </annotation>
+      </enumeration>
+      </restriction>
+  </simpleType>
+  <simpleType name="yesNoNAType">
+    <restriction base="string">
+      <enumeration value="yes"/>
+      <enumeration value="no"/>
+      <enumeration value="n/a"/>
+    </restriction>
+  </simpleType>
+  <simpleType name="ITLeaseCategoryType">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>Lease-purchase without substantial private risk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>Lease-purchase with substantial private risk</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>Capital lease</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>Operating lease</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>Other</documentation>
+        </annotation>
+      </enumeration>
+     <enumeration value="6">
+        <annotation>
+          <documentation>Not Applicable</documentation>
+        </annotation>
+      </enumeration>
+     </restriction>
+  </simpleType>
+   <simpleType name="analysisConclusionType">
+    <restriction base="string">
+      <enumeration value="1">
+        <annotation>
+          <documentation>continue as is</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="2">
+        <annotation>
+          <documentation>initiate remediation action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="3">
+        <annotation>
+          <documentation>initiate innovation action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="4">
+        <annotation>
+          <documentation>initiate modernization/replacement action</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="5">
+        <annotation>
+          <documentation>initiate disposal action</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+   <simpleType name="fundedByType">
+    <restriction base="string">
+      <enumeration value="TMF">
+        <annotation>
+          <documentation>Technology Modernization Fund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="IT WCF">
+        <annotation>
+          <documentation>IT Modernization Working Capital Fund</documentation>
+        </annotation>
+      </enumeration>
+      <enumeration value="N/A">
+        <annotation>
+          <documentation>Not Applicable</documentation>
+        </annotation>
+      </enumeration>
+    </restriction>
+  </simpleType>
+</schema>

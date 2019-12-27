@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="operation">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="add"/>
+            <xs:enumeration value="update"/>
+            <xs:enumeration value="get"/>
+            <xs:enumeration value="delete"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="UII">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{3}\-[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="yesNoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[Yy][Ee][Ss]"/>
+            <xs:pattern value="[Nn][Oo]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="PIID">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="500"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="contractID">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{1,11}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="agencyContractID">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="250"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Deployment Report  -->
+    <xs:simpleType name="operationDeploymentReport">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="get"/>
+            <xs:enumeration value="add"/>
+            <xs:enumeration value="update"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="textArea">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="60000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="smallInteger">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="250" />
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
