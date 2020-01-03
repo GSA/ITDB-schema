@@ -17,6 +17,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |  GSA Deployment v2019.12.A                  | December 11, 2019 | <ul><li>Data Center Statistics Update</li></ul> | &#x2714;|
 |  GSA Deployment v2019.12.A.2                  | December 17, 2019 | <ul><li>GSA ATO Update</li><li>Data Center Statistics Update</li></ul> | &#x2714;|
 |  GSA Deployment v2019.12.B                  | December 27, 2019 | <ul><li>Business Case Project-Metric Validation Updates</li><li>Character Count Validations Update</li></ul> | &#x2714;|
+|  GSA Deployment v2020.A                  | January 3, 2020 | <ul><li>Project Name, Activity Name, and Activity Description Baseline Update</li></ul> | &#x2714;|
 
 ## Important Dates for the BY 2021 President's Budget Submission 
 
@@ -24,7 +25,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 |:-------------|:-------------:|:---:|
 |  Validations Patch on UAT and Production |  December 27, 2019 | &#x2714;|
 |  Project Name, Activity Name, and Activity Description Baselined on UAT |  December 30, 2019 | &#x2714;|
-|  Project Name, Activity Name, and Activity Description Baselined on Production |  January 3, 2020 |
+|  Project Name, Activity Name, and Activity Description Baselined on Production |  January 3, 2020 | &#x2714;|
 |  AITPS Window Opens |  January 10, 2020 01:00 AM EST |
 |  AITPD Window Opens | January 10, 2020 01:00 AM EST | 
 |  AITPS Winodow Closes | January 13, 2020 4:59 PM EST | 
