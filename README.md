@@ -12,7 +12,6 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  GSA Deployment v2019.10.B.3                 | October 27, 2019 | <ul><li>2020 Environment Data Feed Updates</li></ul> | &#x2714;|
 |  GSA Deployment v2019.11.B                  | November 27, 2019 | <ul><li>Deployment Report Stored Procedure Update</li><li>Project Deletion Update</li></ul> | &#x2714;|
 |  GSA Deployment v2019.12.A                  | December 11, 2019 | <ul><li>Data Center Statistics Update</li></ul> | &#x2714;|
 |  GSA Deployment v2019.12.A.2                  | December 17, 2019 | <ul><li>GSA ATO Update</li><li>Data Center Statistics Update</li></ul> | &#x2714;|
