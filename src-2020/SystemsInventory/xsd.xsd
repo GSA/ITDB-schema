@@ -15,7 +15,15 @@
                                         <xs:element name='agencySystemsInventoryID'/>
                                         <xs:element name='systemsInventoryID'/>
                                         <xs:element name='systemName'/>
-                                        <xs:element name='averageUsersPerMonth'/>
+                                        <xs:element name='SUIC'/>
+                                        <xs:element name='systemFunctions' minOccurs='0'>
+                                            <xs:complexType>
+                                                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name='systemFunction'/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name='customDeveloped'/>
                                         <xs:element name='initialOperatingYear'/>
                                     </xs:choice>
                                 </xs:complexType>
@@ -34,21 +42,13 @@
                                                     <xs:element name='versionNumber'/>
                                                     <xs:element name='lastMajorTechRefresh'/>
                                                     <xs:element name='anticipatedTechRefresh'/>
-                                                    <xs:element name='endOfContractedSupport'/>
                                                     <xs:element name='productExpectEndOfLife'/>
-                                                    <xs:element name='productFunctions' minOccurs='0'>
-                                                        <xs:complexType>
-                                                            <xs:choice minOccurs="0" maxOccurs="unbounded">
-                                                                <xs:element name='productFunction'/>
-                                                            </xs:choice>
-                                                        </xs:complexType>
-                                                    </xs:element>
                                                 </xs:choice>
-                                            </xs:complexType>			
+                                            </xs:complexType>
                                         </xs:element>
                                     </xs:choice>
                                 </xs:complexType>
-                            </xs:element>       
+                            </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

@@ -44,6 +44,11 @@
       <maxLength value="50"/>
     </restriction>
   </simpleType>
+  <simpleType name="string100">
+    <restriction base="string">
+      <maxLength value="100"/>
+    </restriction>
+  </simpleType>
   <simpleType name="mediumTextString">
     <restriction base="string">
       <maxLength value="500"/>
@@ -110,7 +115,7 @@
   </simpleType>
   <simpleType name="objectiveOrGoalType">
     <restriction base="string">
-      <maxLength value="11"/>
+      <maxLength value="20"/>
     </restriction>
   </simpleType>
   <simpleType name="phoneNumber">

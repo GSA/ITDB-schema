@@ -1,0 +1,65 @@
+<generalDataReports validateOnlyIndicator="false"> <!--Shift from an Investment Type driven approach to a data driven approach-->
+    <deploymentReport>
+        <operation>add</operation><!--save a place for a GET operation-->
+        <details>
+            <UII>018-000003116</UII>
+        </details>
+        <Activities>
+            <Activity>
+                <projectActivityID>10056</projectActivityID> <!-- USER assinged from Activities table non-system generated-->
+                <agencyProjectActivityID>abc678</agencyProjectActivityID>  <!--either activityID or agencyActivityID is required-->
+                <reportsReleases>Yes</reportsReleases>
+                <multipleReleases>Yes</multipleReleases>
+                <releasesToProd>
+                    <date1>11/23/2018</date1>
+                    <date2>11/24/2018</date2>
+                    <date3>11/25/2018</date3>
+                </releasesToProd>
+                <releasesToTest>
+                    <date1>12/23/2018</date1>
+                    <date2>12/24/2018</date2>
+                    <date3>12/25/2018</date3>
+                </releasesToTest>
+                <rollbackPercentage>0.20</rollbackPercentage>
+                <releaseCadence>3</releaseCadence>
+                <userEngagement></userEngagement>
+                <releaseReview>1000 char Text Box Here</releaseReview>
+            </Activity>
+            <Activity>
+                <activityID>10057</activityID> <!--either activityID or agencyActivityID is required-->
+                <agencyActivityID>901</agencyActivityID>
+                <reportsReleases>Yes</reportsReleases>
+                <multipleReleases>Yes</multipleReleases>
+                <releasesToProd>
+                    <date1>12/13/2018</date1>
+                    <date2>12/14/2018</date2>
+                    <date3>12/15/2018</date3>
+                </releasesToProd>
+                <releasesToTest>
+                    <date1>10/23/2018</date1>
+                    <date2>10/24/2018</date2>
+                    <date3>10/25/2018</date3>
+                </releasesToTest>
+                <rollbackPercentage>0.20</rollbackPercentage>
+                <releaseCadence>3</releaseCadence>
+                <userEngagement>1</userEngagement>
+                <releaseReview>1000 char Text Box Here</releaseReview>
+            </Activity>
+        </Activities>
+    </deploymentReport>
+    <contractsReport>
+        <operation>add</operation>
+        <details>
+            <UII>018-000003116</UII>
+            <reportsContracts>yes</reportsContracts>
+        </details>
+        <Contracts>
+            <Contract>
+                <operation>add</operation>
+                <!--<agencyContractID>99</agencyContractID>-->
+                <PIID>12345678</PIID>
+                <referencePIID>abcd</referencePIID>
+            </Contract>
+        </Contracts>
+    </contractsReport>
+</generalDataReports>

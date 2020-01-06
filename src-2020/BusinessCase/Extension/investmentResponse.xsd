@@ -51,15 +51,15 @@
   <element name="investmentDetails">
     <complexType>
       <sequence>
-        <element ref="businessCase-response:investmentDescription" minOccurs="0"/>
+        <!--<element ref="businessCase-response:investmentDescription" minOccurs="0"/>-->
         <element ref="businessCase-response:objectivesOrGoals" minOccurs="0"/>
         <element ref="businessCase-response:returnOnInvestmentDescription" minOccurs="0"/>
-        <element ref="businessCase-response:investmentRequirements" minOccurs="0"/>
+        <!--<element ref="businessCase-response:investmentRequirements" minOccurs="0"/>-->
         <element ref="businessCase-response:investmentsEliminatedorReduced" minOccurs="0"/>
         <element ref="businessCase-response:investmentSharedService" minOccurs="0"/>
         <element ref="businessCase-response:plannedSharedService" minOccurs="0"/>
-        <element ref="businessCase-response:investmentPivEnabled" minOccurs="0"/>
-        <element ref="businessCase-response:publicURLs" minOccurs="0"/>
+        <!--<element ref="businessCase-response:investmentPivEnabled" minOccurs="0"/>
+        <element ref="businessCase-response:publicURLs" minOccurs="0"/>-->
         <element ref="businessCase-response:ombControlNumbers" minOccurs="0"/>
         <element ref="businessCase-response:pmDetails" minOccurs="0"/>
       </sequence>
@@ -343,6 +343,7 @@
         <element ref="businessCase-response:projectId"/>
         <element ref="businessCase-response:agencyProjectId" minOccurs="0"/>
         <element ref="businessCase-response:projectDetail" minOccurs="0"/>
+        <element ref="businessCase-response:projectMetric" minOccurs="0"/>
         <element ref="businessCase-response:projectActivities" minOccurs="0"/>
       </sequence>
     </complexType>
@@ -353,19 +354,41 @@
       <sequence>
         <element ref="businessCase-response:uniqueProjectId"/>
         <element ref="businessCase-response:projectName" minOccurs="0"/>
-        <element ref="businessCase-response:objectivesExpectedOutcomes" minOccurs="0"/>
+        <element ref="businessCase-response:projectGoal" minOccurs="0"/>
         <element ref="businessCase-response:projectStartDate" minOccurs="0"/>
         <element ref="businessCase-response:projectCompletionDate" minOccurs="0"/>
         <element ref="businessCase-response:projectLifeCycleCost" minOccurs="0"/>
-        <element ref="businessCase-response:SDLCmethodology" minOccurs="0"/>
-        <element ref="businessCase-response:releaseEverySixMo" minOccurs="0"/>
-        <element ref="businessCase-response:releaseEverySixMoComment" minOccurs="0"/>
-        <element ref="businessCase-response:productionDeploymentDate" minOccurs="0"/>
-        <element ref="businessCase-response:fundedBy" minOccurs="0"/>
-        <element ref="businessCase-response:commercialSolutionsCosts" minOccurs="0"/>
-        <element ref="businessCase-response:commercialSolutionsAdoption" minOccurs="0"/>
-        <element ref="businessCase-response:commercialSolutionsReasoning" minOccurs="0"/>
-        <element ref="businessCase-response:isActive" minOccurs="0"/>
+        <element ref="businessCase-response:softwareProject" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+
+  <element name="projectMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-response:newOrExisting" minOccurs="0"/>
+        <element ref="businessCase-response:newMetric" minOccurs="0"/>
+        <element ref="businessCase-response:existingMetric" minOccurs="0"/>
+        <element ref="businessCase-response:deploymentTarget" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+  
+  <element name="newMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-response:description" minOccurs="0"/>
+        <element ref="businessCase-response:unitOfMeasure" minOccurs="0"/>
+        <element ref="businessCase-response:measurementCondition" minOccurs="0"/>
+      </sequence>
+    </complexType>
+  </element>
+  
+  <element name="existingMetric">
+    <complexType>
+      <sequence>
+        <element ref="businessCase-response:metricID" minOccurs="0"/>
+        <element ref="businessCase-response:agencyMetricID" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -601,19 +624,21 @@
   <element name="agencyProjectId" type="businessCase-type:shortTextString"/>
   <element name="uniqueProjectId" type="businessCase-type:string10"/>
   <element name="projectName" type="businessCase-type:shortTextString"/>
-  <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString"/>
+  <element name="projectGoal" type="businessCase-type:shortTextString"/>
+  <element name="softwareProject" type="businessCase-facet:yesNoString"/>
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
-  <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType"/>
-  <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType"/>
-  <element name="releaseEverySixMoComment" type="businessCase-type:string1000"/>
-  <element name="productionDeploymentDate" type="businessCase-type:investmentDateType"/>
-  <element name="fundedBy" type="businessCase-facet:fundedByType"/>
-  <element name="commercialSolutionsCosts" type="businessCase-type:string25"/>
-  <element name="commercialSolutionsAdoption" type="businessCase-type:string1000"/>
-  <element name="commercialSolutionsReasoning" type="businessCase-type:string1000"/>
 
+  <!-- projectMetric elements -->
+  <element name="newOrExisting" type="businessCase-type:longTextString"/>
+  <element name="deploymentTarget" type="businessCase-type:longTextString"/>
+  <element name="description" type="businessCase-type:longTextString"/>
+  <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
+  <element name="measurementCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="metricID" type="integer"/>
+  <element name="agencyMetricID" type="businessCase-type:shortTextString"/>
+  
   <!-- sub-project / activity elements -->
   <element name="activityId" type="integer"/>
   <element name="agencyActivityId" type="businessCase-type:shortTextString"/>

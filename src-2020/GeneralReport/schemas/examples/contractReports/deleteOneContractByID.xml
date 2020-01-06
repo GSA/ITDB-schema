@@ -1,0 +1,15 @@
+<generalDataReports validateOnlyIndicator="false">
+    <contractsReport>
+        <operation>delete</operation>
+        <details>
+            <UII>{{uii}}</UII>
+            <reportsContracts>yes</reportsContracts>
+        </details>
+        <Contracts>
+            <Contract>
+                <operation>delete</operation>
+                <agencyContractID>99</agencyContractID>
+            </Contract>
+        </Contracts>
+    </contractsReport>
+</generalDataReports>
