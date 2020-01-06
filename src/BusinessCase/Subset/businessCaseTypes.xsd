@@ -167,4 +167,9 @@
       <pattern value="([0-9]{1,10})?(\.[0-9]{1,2})?"/>
     </restriction>
   </simpleType>
+  <simpleType name="identifiers">
+    <restriction base="decimal">
+      <pattern value="([0-9]{1,10})"/>
+    </restriction>
+  </simpleType>
 </schema>

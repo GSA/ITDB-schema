@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generalDataReports validateOnlyIndicator="true">
+   <deploymentReport>
+      <operation>get</operation>
+      <details>
+         <UII>000-00000000</UII>
+      </details>
+   </deploymentReport>
+</generalDataReports>

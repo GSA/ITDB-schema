@@ -244,6 +244,7 @@
       <element name="projectId" type="integer"/>
       <element name="agencyProjectId" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="projectDetail" type="sr:projectDetailType" minOccurs="0"/>
+      <element name="projectMetric" type="sr:projectMetricType" minOccurs="0"/>
       <element name="projectActivities" type="sr:projectActivitiesType" minOccurs="0"/>
     </sequence>
   </complexType>
@@ -252,19 +253,36 @@
     <sequence>
       <element name="uniqueProjectId" type="businessCase-type:string10"/>
       <element name="projectName" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="objectivesExpectedOutcomes" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="projectGoal" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="projectStartDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectCompletionDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
       <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount" minOccurs="0"/>
-      <element name="SDLCmethodology" type="businessCase-facet:SDLCmethodologyType" minOccurs="0"/>
-      <element name="releaseEverySixMo" type="businessCase-facet:yesNoNAType" minOccurs="0"/>
-      <element name="releaseEverySixMoComment" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="productionDeploymentDate" type="businessCase-type:investmentDateType" minOccurs="0"/>
-      <element name="fundedBy" type="businessCase-facet:fundedByType" minOccurs="0"/>
-      <element name="commercialSolutionsCosts" type="businessCase-type:string25" minOccurs="0"/>
-      <element name="commercialSolutionsAdoption" type="businessCase-type:string1000" minOccurs="0"/>
-      <element name="commercialSolutionsReasoning" type="businessCase-type:string1000" minOccurs="0"/>
+      <element name="softwareProject" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="isActive" type="businessCase-facet:isActiveString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="projectMetricType">
+    <sequence>
+      <element name="newOrExisting" type="businessCase-type:shortTextString"/>
+      <element name="newMetric" type="sr:newMetricType" minOccurs="0"/>
+      <element name="existingMetric" type="sr:existingMetricType" minOccurs="0"/>
+      <element name="deploymentTarget" type="businessCase-type:longTextString" minOccurs="0"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="newMetricType">
+    <sequence>
+      <element name="description" type="businessCase-type:longTextString" minOccurs="0"/>
+      <element name="unitOfMeasure" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="measurementCondition" type="businessCase-facet:prmConditionTypes" minOccurs="0"/>
+    </sequence>
+  </complexType>
+  
+  <complexType name="existingMetricType">
+    <sequence>
+      <element name="metricID" type="integer" minOccurs="0"/>
+      <element name="agencyMetricID" type="businessCase-type:shortTextString" minOccurs="0"/>
     </sequence>
   </complexType>
 
@@ -346,15 +364,15 @@
   <complexType name="investmentDetailsResultType">
     <sequence>
       <element name="uniqueInvestmentIdentifier" type="businessCase-type:investmentIdentifierType"/>
-      <element name="investmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>
+      <!--<element name="investmentDescription" type="businessCase-type:longTextString" minOccurs="0"/>-->
       <element name="objectivesOrGoals" type="sr:objectivesOrGoalsType" minOccurs="0"/>
       <element name="returnOnInvestmentDescription" type="businessCase-type:string3500" minOccurs="0"/>
-      <element name="investmentRequirements" type="businessCase-type:longTextString" minOccurs="0"/>
+      <!--<element name="investmentRequirements" type="businessCase-type:longTextString" minOccurs="0"/>-->
       <element name="investmentsEliminatedorReduced" type="sr:investmentsEliminatedorReducedType" minOccurs="0"/>
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="plannedSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="publicURLs" type="sr:publicURLsType" minOccurs="0"/>
+      <!--<element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
+      <element name="publicURLs" type="sr:publicURLsType" minOccurs="0"/>-->
       <element name="ombControlNumbers" type="sr:ombControlNumberType" minOccurs="0"/>
       <element name="pmDetails" type="sr:pmDetailsType" minOccurs="0"/>
       <element name="investmentStartEndDates" minOccurs="0">

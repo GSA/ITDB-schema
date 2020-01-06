@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ITBudget:ITBudgetOMBResponse xmlns:ITBudget="urn:us:gov:ITBudget" xmlns:response-ITBudget-ext="urn:us:gov:response-ITBudget-ext">
     <ITBudget:SuccessResponse>
         <response-ITBudget-ext:ITPortfolio>
             <response-ITBudget-ext:UniqueInvestmentID>
                 <response-ITBudget-ext:CurrentUII>024-000002047</response-ITBudget-ext:CurrentUII>
-                <response-ITBudget-ext:InvestmentLineStructure>00</response-ITBudget-ext:InvestmentLineStructure>
+                <response-ITBudget-ext:PriorUII>024-000002047</response-ITBudget-ext:PriorUII>
                 <response-ITBudget-ext:SharedServicesCategory>00</response-ITBudget-ext:SharedServicesCategory>
                 <response-ITBudget-ext:SharedServicesIdentifier>1234</response-ITBudget-ext:SharedServicesIdentifier>
                 <response-ITBudget-ext:MissionSupportInvestmentCategories>
@@ -21,11 +21,17 @@
                 <response-ITBudget-ext:TypeofInvestment>02</response-ITBudget-ext:TypeofInvestment>
                 <response-ITBudget-ext:NationalSecuritySystemsIdentifier>01</response-ITBudget-ext:NationalSecuritySystemsIdentifier>
                 <response-ITBudget-ext:FEAPrimaryBRMService>123</response-ITBudget-ext:FEAPrimaryBRMService>
+                <response-ITBudget-ext:plannedAcquisitions>1</response-ITBudget-ext:plannedAcquisitions>
+                <response-ITBudget-ext:pivEnabled>1</response-ITBudget-ext:pivEnabled>
             </response-ITBudget-ext:InvestmentCharacterization>
             <response-ITBudget-ext:InvestmentStatusChange>
                 <response-ITBudget-ext:StatusIdentifier>11</response-ITBudget-ext:StatusIdentifier>
                 <response-ITBudget-ext:AgencyReasonforChange>No change</response-ITBudget-ext:AgencyReasonforChange>
             </response-ITBudget-ext:InvestmentStatusChange>
+            <response-ITBudget-ext:publicURLs>
+                <response-ITBudget-ext:publicURL>https://www.investment-url-123.gov/</response-ITBudget-ext:publicURL>
+                <response-ITBudget-ext:publicURL>https://www.investment-url-xyz.gov/</response-ITBudget-ext:publicURL>
+            </response-ITBudget-ext:publicURLs>
             <response-ITBudget-ext:OandM>
                 <response-ITBudget-ext:PriorYear>
                     <response-ITBudget-ext:AgencyFundingAmount>10.000000</response-ITBudget-ext:AgencyFundingAmount>
@@ -195,7 +201,6 @@
                 <response-ITBudget-ext:FundingSourceLineItem>
                     <response-ITBudget-ext:FundingSourceUniqueInvestmentID>
                         <response-ITBudget-ext:CurrentUII>024-000002047</response-ITBudget-ext:CurrentUII>
-                        <response-ITBudget-ext:FundingSourceInvestmentLineStructure>04</response-ITBudget-ext:FundingSourceInvestmentLineStructure>
                     </response-ITBudget-ext:FundingSourceUniqueInvestmentID>
                     <response-ITBudget-ext:FundingCode>029-15-0160</response-ITBudget-ext:FundingCode>
                     <response-ITBudget-ext:FundingSourceCharacterization>

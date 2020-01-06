@@ -24,18 +24,16 @@
                 <agencyProjectID>EndUser-Project-123</agencyProjectID>
                 <uniqueProjectID>1</uniqueProjectID>
                 <projectName>Add-EndUser-Project-123</projectName>
-                <objective>Add-Transition to ipv6</objective>
+                <projectGoal>The Goal</projectGoal>
                 <projectStartDate>10/17/1991</projectStartDate>
                 <projectCompletionDate>10/17/1991</projectCompletionDate>
                 <lifeCycleCost>10</lifeCycleCost>
-                <SDLCMethodology>1</SDLCMethodology>
-                <releaseEverySixMo>No</releaseEverySixMo>
-                <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
-                <fundedBy>TMF</fundedBy>
-                <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
+                <softwareProject>no</softwareProject>
+                <newOrExisting>new</newOrExisting>
+                <description></description>
+                <unitOfMeasure></unitOfMeasure>
+                <measurementCondition>over target</measurementCondition>
+                <deploymentTarget>Good</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>add</operation>
@@ -58,15 +56,6 @@
                         <operation>add</operation>
                         <isAgile>Y</isAgile>
                         <agencyActivityID>EndUser-Activity-234</agencyActivityID>
-                        <releaseName>Add-Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Add-Test agile description.</releaseDescription>
-                        <NPI>1</NPI>
-                        <NPE>1.2</NPE>
-                        <NCE>1.3</NCE>
-                        <NCI>1</NCI>
-                        <DTC>1.4</DTC>
-                        <DPC>1.5</DPC>
                         <startDatePlanned>10-01-2018</startDatePlanned>
                         <startDateProjected>10-02-2018</startDateProjected>
                         <startDateActual>01-03-2018</startDateActual>
