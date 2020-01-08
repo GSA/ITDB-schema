@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-   Copyright 2009-2011 United States Government.
-   This software is licensed under the GNU General Public License
-   version 2 (see the file LICENSE for details)
--->
+        <!--
+           Copyright 2009-2011 United States Government.
+
+           This software is licensed under the GNU General Public License
+           version 2 (see the file LICENSE for details)
+        -->
 
 <schema xmlns:businessCase-add="urn:us:gov:businessCase-add"
         targetNamespace="urn:us:gov:businessCase-add"
@@ -114,7 +115,7 @@
         <element ref="businessCase-add:dmeBudgetaryResourcesFY_1" minOccurs="0"/>
         <element ref="businessCase-add:dmeBudgetaryResourcesFY_2" minOccurs="0"/>
         <element ref="businessCase-add:dmeBudgetaryResourcesFY_3" minOccurs="0"/>
-        <element ref="businessCase-add:dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>      
+        <element ref="businessCase-add:dmeBudgetaryResourcesFY_4_Beyond" minOccurs="0"/>
         <element ref="businessCase-add:dmeGovernmentFTECostsPY-1" minOccurs="0"/>
         <element ref="businessCase-add:dmeGovernmentFTECostsPY" minOccurs="0"/>
         <element ref="businessCase-add:dmeGovernmentFTECostsCY" minOccurs="0"/>
@@ -183,7 +184,7 @@
         <attribute name="contentType" type="string" use="required"/>
       </extension>
     </simpleContent>
-</complexType>
+  </complexType>
 
   <element name="performanceMetrics">
     <complexType>
@@ -206,7 +207,7 @@
         <element ref="businessCase-add:performanceMetricCondition"/>
         <element ref="businessCase-add:performancePeriodicity"/>
         <element ref="businessCase-add:addPerformanceMetricActual" minOccurs="0" maxOccurs="unbounded"/>
-        <element ref="businessCase-add:performanceMetricObjectiveOrGoal" minOccurs="0"/>
+        <element ref="businessCase-add:performanceMetricObjectiveOrGoal"/>
         <element ref="businessCase-add:isClosed" minOccurs="0"/>
       </sequence>
     </complexType>
@@ -230,6 +231,7 @@
       </sequence>
     </complexType>
   </element>
+
   <element name="addInvestmentRisk">
     <complexType>
       <sequence>
@@ -263,9 +265,9 @@
     <complexType>
       <sequence>
         <element ref="businessCase-add:agencyProjectId" minOccurs="0"/>
-        <element ref="businessCase-add:addProjectDetail"/>
-        <element ref="businessCase-add:addProjectMetric"/>
-        <element ref="businessCase-add:addProjectActivities"/>
+        <element ref="businessCase-add:addProjectDetail" />
+        <element ref="businessCase-add:addProjectMetric" minOccurs="0"/>
+        <element ref="businessCase-add:addProjectActivities" minOccurs="0"/>
       </sequence>
     </complexType>
   </element>
@@ -294,7 +296,7 @@
       </sequence>
     </complexType>
   </element>
-  
+
   <element name="newMetric">
     <complexType>
       <sequence>
@@ -304,7 +306,7 @@
       </sequence>
     </complexType>
   </element>
-  
+
   <element name="existingMetric">
     <complexType>
       <sequence>
@@ -313,12 +315,12 @@
       </sequence>
     </complexType>
   </element>
-  
+
   <element name="addProjectActivities">
     <complexType>
       <sequence>
         <element ref="businessCase-add:addProjectActivity" minOccurs="0" maxOccurs="unbounded"/>
-        <!-- REMOVE <element ref="businessCase-add:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>--> 
+        <!--<element ref="businessCase-add:addAgileProjectActivity" minOccurs="0" maxOccurs="unbounded"/>-->
       </sequence>
     </complexType>
   </element>
@@ -407,7 +409,7 @@
       </sequence>
     </complexType>
   </element>
- 
+
   <element name="ombControlNumbers">
     <complexType>
       <sequence>
@@ -460,7 +462,7 @@
   <element name="plannedSharedService" type="businessCase-facet:yesNoString"/>
   <element name="investmentPivEnabled" type="businessCase-facet:yesNoString"/>
   <element name="publicURL" type="businessCase-type:URLString"/>
-  <element name="ombControlNumber" type="businessCase-type:shortTextString"/>  
+  <element name="ombControlNumber" type="businessCase-type:shortTextString"/>
   <element name="pmName" type="businessCase-type:shortTextString"/>
   <element name="pmEmail" type="businessCase-type:shortTextString"/>
   <element name="pmQualifications" type="businessCase-facet:projectManagerQualification"/>
@@ -480,7 +482,7 @@
   <element name="contactNumber" type="businessCase-type:phoneNumber" nillable="true"/>
   <element name="contactNumberExt" type="businessCase-type:phoneExtension" nillable="true"/>
   <element name="contactEmail" type="businessCase-type:shortTextString"/>
-  
+
   <element name="planningBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="planningBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="planningBudgetaryResourcesCY" type="businessCase-type:dollarAmount" nillable="true"/>
@@ -496,7 +498,7 @@
   <element name="dmeBudgetaryResourcesFY_1" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeBudgetaryResourcesFY_2" type="businessCase-type:dollarAmount" nillable="true"/>
   <element name="dmeBudgetaryResourcesFY_3" type="businessCase-type:dollarAmount" nillable="true"/>
-  <element name="dmeBudgetaryResourcesFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/> 
+  <element name="dmeBudgetaryResourcesFY_4_Beyond" type="businessCase-type:multiYearDollarType" nillable="true"/>
 
   <element name="maintenanceBudgetaryResourcesPY-1" type="businessCase-type:multiYearDollarType" nillable="true"/>
   <element name="maintenanceBudgetaryResourcesPY" type="businessCase-type:dollarAmount" nillable="true"/>
@@ -575,26 +577,26 @@
   <!-- project elements -->
   <element name="agencyProjectId" type="businessCase-type:shortTextString"/>
   <element name="uniqueProjectId" type="businessCase-type:string10"/>
-  <element name="projectName" type="businessCase-type:shortTextString"/>
+  <element name="projectName" type="businessCase-type:string100"/>
   <element name="projectGoal" type="businessCase-type:shortTextString"/>
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
-  <element name="softwareProject" type="businessCase-type:shortTextString"/>
-  
+  <element name="softwareProject" type="businessCase-facet:yesNoString"/>
+
   <!-- projectMetric elements -->
   <element name="newOrExisting" type="businessCase-type:longTextString"/>
   <element name="deploymentTarget" type="businessCase-type:longTextString"/>
   <element name="description" type="businessCase-type:longTextString"/>
   <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
-  <element name="measurementCondition" type="businessCase-type:longTextString"/>
-  <element name="metricID" type="businessCase-type:identifiers"/>
-  <element name="agencyMetricID" type="businessCase-type:identifiers"/>
+  <element name="measurementCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="metricID" type="integer"/>
+  <element name="agencyMetricID" type="businessCase-type:shortTextString"/>
 
   <!-- activity elements -->
   <element name="agencyActivityId" type="businessCase-type:shortTextString"/>
-  <element name="activityName" type="businessCase-type:shortTextString"/>
-  <element name="activityDescription" type="businessCase-type:longTextString"/>
+  <element name="activityName" type="businessCase-type:string100"/>
+  <element name="activityDescription" type="businessCase-type:shortTextString"/>
   <element name="structureId" type="string"/>
   <element name="plannedStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectedStartDate" type="businessCase-type:investmentDateType"/>

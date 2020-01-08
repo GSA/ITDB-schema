@@ -4,7 +4,7 @@
         <ITPortfolio>
             <UniqueInvestmentID>
                 <CurrentUII>024-000002047</CurrentUII>
-                <PriorUII>024-000002047</PriorUII>
+                <InvestmentLineStructure>00</InvestmentLineStructure>
                 <SharedServicesCategory>00</SharedServicesCategory>
                 <SharedServicesIdentifier>1234</SharedServicesIdentifier>
                 <MissionSupportInvestmentCategories>
@@ -12,26 +12,20 @@
                 </MissionSupportInvestmentCategories>
             </UniqueInvestmentID>
             <InvestmentCharacterization>
-                <InvestmentTitle>a</InvestmentTitle>
-                <InvestmentDescription>Sample Description.</InvestmentDescription>
+                <InvestmentTitle>gurttt</InvestmentTitle>
+                <InvestmentDescription>Sample Description Diegooo.</InvestmentDescription>
                 <BureauCode>10</BureauCode>
                 <PartofITPortfolio>02</PartofITPortfolio>
                 <InfrastructureManagementCategory>01</InfrastructureManagementCategory>
                 <MissionArea>01</MissionArea>
                 <TypeofInvestment>02</TypeofInvestment>
                 <NationalSecuritySystemsIdentifier>01</NationalSecuritySystemsIdentifier>
-                <FEAPrimaryBRMService>123</FEAPrimaryBRMService>  
-                <plannedAcquisitions>1</plannedAcquisitions> 
-                <pivEnabled>1</pivEnabled>
+                <FEAPrimaryBRMService>123</FEAPrimaryBRMService>
             </InvestmentCharacterization>
             <InvestmentStatusChange>
                 <StatusIdentifier>11</StatusIdentifier>
                 <AgencyReasonforChange>No change</AgencyReasonforChange>
             </InvestmentStatusChange>
-            <publicURLs>
-                <publicURL>https://www.investment-url-123.gov/</publicURL>
-                <publicURL>https://www.investment-url-xyz.gov/</publicURL>
-            <publicURLs>
             <OandM>
                 <PriorYear>
                     <AgencyFundingAmount>10.000000</AgencyFundingAmount>
@@ -203,6 +197,7 @@
                 <FundingSourceLineItem>
                     <FundingSourceUniqueInvestmentID>
                         <CurrentUII>024-000002047</CurrentUII>
+                        <FundingSourceInvestmentLineStructure>04</FundingSourceInvestmentLineStructure>
                     </FundingSourceUniqueInvestmentID>
                     <FundingCode>029-15-0160</FundingCode>
                     <FundingSourceCharacterization>
@@ -260,3 +255,4 @@
         </MessageInformation>
     </ITBudget:UpdateITBudgetReport>
 </ITBudget:ITBudgetReport>
+ 
