@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generalDataReports validateOnlyIndicator="true">
+   <deploymentReport>
+      <operation>update</operation>
+      <details>
+         <UII>000-00000000</UII>
+      </details>
+      <Activities>
+            <Activity>
+                <projectActivityID>20</projectActivityID>
+				<agencyProjectActivityID>21</agencyProjectActivityID>
+                <multipleReleases>yes</multipleReleases>
+            	<releasesToProd>
+                    <date>2019-02-09</date>
+                    <date>02/15/2020</date>
+                    <date>02/31/2020</date>
+                </releasesToProd>
+                <releasesToTest>
+                    <date>02/12/2020</date>
+                    <date>02/30/2019</date>
+                    <date>05/10/2019</date>
+                </releasesToTest>
+                <rollbackPercentage>0.05</rollbackPercentage>
+                <releaseCadence>4</releaseCadence>
+                <userEngagement>1</userEngagement>
+                <releaseReview>1000char</releaseReview>
+            </Activity>
+        </Activities>
+   </deploymentReport>
+</generalDataReports>
