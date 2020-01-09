@@ -195,6 +195,7 @@
     <choice>
       <element name="getInvestment" type="tns:getInformationType"/>
       <element name="getCIORating" type="tns:getInformationType"/>
+      <element name="getInvestmentRisks" type="tns:getInformationType"/>
       <element name="getProjects" type="tns:getInformationType"/>
       <element name="getProjectsInProgress" type="tns:getInformationType"/>
       <element name="addPerformanceMetric" type="tns:addPerformanceMetricType"/>

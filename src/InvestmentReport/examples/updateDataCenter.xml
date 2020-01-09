@@ -12,7 +12,7 @@
         <BY>220</BY>
       </investmentCostDetail>
 	  <investmentCostDetail>
-        <category>3</category> <!--data center, cloud, storage, compute-->
+        <category>2</category> <!--data center, cloud, storage, compute-->
         <PY>300</PY>
         <CY>30</CY>
         <BY>330</BY>

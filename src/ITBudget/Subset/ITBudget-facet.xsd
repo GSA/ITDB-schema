@@ -960,11 +960,6 @@
           <xsd:documentation>E-Gov initiatives or an individual agency's participation in one of the E-Gov initiatives</xsd:documentation>
         </xsd:annotation>
       </xsd:enumeration>
-      <xsd:enumeration value="36">
-        <xsd:annotation>
-          <xsd:documentation>SSPs (and their customers) previously designated by Treasury’s FIT and OPM’s HRLoB as well as any providers designated by the USSM.</xsd:documentation>
-        </xsd:annotation>
-      </xsd:enumeration>
       <xsd:enumeration value="48">
         <xsd:annotation>
           <xsd:documentation>Any Multi-Agency (Inter- or Intra-Agency) collaboration or an individual Agency’s participation in one of these initiatives. This includes shared services not officially designated by USSM and excludes E-Gov/LoB initiatives and USSM designated shared services.</xsd:documentation>
