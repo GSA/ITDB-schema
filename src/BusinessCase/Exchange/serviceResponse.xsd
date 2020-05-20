@@ -55,7 +55,7 @@
       <element name="updateCIORatingResult" type="sr:CIORatingResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="addInvestmentRiskResult" type="sr:investmentRiskResultType" maxOccurs="unbounded" minOccurs="0"/>
-      <element name="addProjectResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
+      <element name="reviseAddInvestmentProjectResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateProjectResult" type="sr:getProjectsResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="reviseInvestmentResult" type="sr:getInvestmentResultType" maxOccurs="unbounded" minOccurs="0"/>
       <element name="updateInvestmentResult" type="sr:getInvestmentResultType" maxOccurs="unbounded" minOccurs="0"/>
