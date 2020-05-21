@@ -365,7 +365,7 @@
                     <sr:cioComment>a</sr:cioComment>
                 </sr:CIORating>
             </sr:updateCIORatingResult>
-            <sr:addProjectResult id="String">
+            <sr:reviseAddInvestmentProjectResult id="String">
                 <sr:project>
                     <sr:projectId>0</sr:projectId>
                     <sr:agencyProjectId>a</sr:agencyProjectId>
@@ -409,7 +409,7 @@
                         </sr:projectActivity>
                     </sr:projectActivities>
                 </sr:project>
-            </sr:addProjectResult>
+            </sr:reviseAddInvestmentProjectResult>
             <sr:updateProjectResult id="String">
                 <sr:project>
                     <sr:projectId>0</sr:projectId>
