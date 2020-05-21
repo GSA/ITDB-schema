@@ -7,7 +7,6 @@
       <getInvestment id="String"/>
       <getCIORating id="String"/>
       <getPerformanceMetrics id="String"/>
-      <getInvestmentRisks id="String"/>
       <getProjects id="String"/>
       <getProjectsInProgress id="String"/>
     </getInformation>
