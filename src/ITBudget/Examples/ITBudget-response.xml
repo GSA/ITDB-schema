@@ -4,7 +4,6 @@
         <response-ITBudget-ext:ITPortfolio>
             <response-ITBudget-ext:UniqueInvestmentID>
                 <response-ITBudget-ext:CurrentUII>024-000002047</response-ITBudget-ext:CurrentUII>
-                <response-ITBudget-ext:InvestmentLineStructure>00</response-ITBudget-ext:InvestmentLineStructure>
                 <response-ITBudget-ext:SharedServicesCategory>00</response-ITBudget-ext:SharedServicesCategory>
                 <response-ITBudget-ext:SharedServicesIdentifier>1234</response-ITBudget-ext:SharedServicesIdentifier>
                 <response-ITBudget-ext:MissionSupportInvestmentCategories>
@@ -195,7 +194,6 @@
                 <response-ITBudget-ext:FundingSourceLineItem>
                     <response-ITBudget-ext:FundingSourceUniqueInvestmentID>
                         <response-ITBudget-ext:CurrentUII>024-000002047</response-ITBudget-ext:CurrentUII>
-                        <response-ITBudget-ext:FundingSourceInvestmentLineStructure>04</response-ITBudget-ext:FundingSourceInvestmentLineStructure>
                     </response-ITBudget-ext:FundingSourceUniqueInvestmentID>
                     <response-ITBudget-ext:FundingCode>029-15-0160</response-ITBudget-ext:FundingCode>
                     <response-ITBudget-ext:FundingSourceCharacterization>
@@ -234,7 +232,7 @@
                 </response-ITBudget-ext:FundingSourceLineItem>
             </response-ITBudget-ext:FundingSourceLineItems>
         </response-ITBudget-ext:ITPortfolio>
-       <response-ITBudget-ext:BudgetAccountSummary>
+        <response-ITBudget-ext:BudgetAccountSummary>
             <response-ITBudget-ext:BudgetAccount>
                 <response-ITBudget-ext:FundingCode>a</response-ITBudget-ext:FundingCode>
                 <response-ITBudget-ext:CIOAuthorityAmount>0</response-ITBudget-ext:CIOAuthorityAmount>

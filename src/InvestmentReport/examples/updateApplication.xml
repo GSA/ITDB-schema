@@ -17,18 +17,13 @@
                 <operation>update</operation>
                 <agencyProjectID>A123</agencyProjectID>
                 <projectName>Update-Application-Project-123</projectName>
-                <objective>Update-Transition to ipv6</objective>
+                <projectGoal>Update-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1992</projectStartDate>
-                <projectCompletionDate>10/17/1992</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>11</lifeCycleCost>
-                <SDLCMethodology>2</SDLCMethodology>
-                <releaseEverySixMo>Yes</releaseEverySixMo>
-                <releaseEverySixMoComment>Update-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2014</productionDeploymentDate>
-                <fundedBy>IT WCF</fundedBy>
-                <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
+                <softwareProject>yes</softwareProject>
+                <description>description</description>
+                <deploymentTarget>10</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>update</operation>
@@ -51,15 +46,6 @@
                         <operation>add</operation>
                         <isAgile>Y</isAgile>
                         <agencyActivityID>Activity-567</agencyActivityID>
-                        <releaseName>Add-Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Add-Test agile description.</releaseDescription>
-                        <NPI>2</NPI>
-                        <NPE>2.2</NPE>
-                        <NCE>2.3</NCE>
-                        <NCI>2</NCI>
-                        <DTC>2.4</DTC>
-                        <DPC>2.5</DPC>
                         <startDatePlanned>11-01-2018</startDatePlanned>
                         <startDateProjected>11-02-2018</startDateProjected>
                         <startDateActual>01-03-2018</startDateActual>

@@ -33,19 +33,18 @@
             <project>
                 <operation>update</operation>
                 <agencyProjectID>Network-Project-123</agencyProjectID>
+                <uniqueProjectID>1</uniqueProjectID>
                 <projectName>Update-Network-Project-123</projectName>
-                <objective>Update-Transition to ipv6</objective>
+                <projectGoal>Update-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1992</projectStartDate>
-                <projectCompletionDate>10/17/1992</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>11</lifeCycleCost>
-                <SDLCMethodology>2</SDLCMethodology>
-                <releaseEverySixMo>Yes</releaseEverySixMo>
-                <releaseEverySixMoComment>Update-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2014</productionDeploymentDate>
-                <fundedBy>IT WCF</fundedBy>
-                <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
+                <softwareProject>yes</softwareProject>
+                <newOrExisting>new</newOrExisting>
+                <description>description</description>
+                <unitOfMeasure>description</unitOfMeasure>
+                <measurementCondition>Over target</measurementCondition>
+                <deploymentTarget>target</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>update</operation>
@@ -68,15 +67,6 @@
                         <operation>add</operation>
                         <isAgile>Y</isAgile>
                         <agencyActivityID>Network-Activity-567</agencyActivityID>
-                        <releaseName>Add-Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Add-Test agile description.</releaseDescription>
-                        <NPI>2</NPI>
-                        <NPE>2.2</NPE>
-                        <NCE>2.3</NCE>
-                        <NCI>2</NCI>
-                        <DTC>2.4</DTC>
-                        <DPC>2.5</DPC>
                         <startDatePlanned>11-01-2018</startDatePlanned>
                         <startDateProjected>11-02-2018</startDateProjected>
                         <startDateActual>05-03-2018</startDateActual>
@@ -89,24 +79,21 @@
                     </activity>
                 </activities>
             </project>
-
             <project>
                 <operation>add</operation>
                 <agencyProjectID>Network-Project-234</agencyProjectID>
                 <projectName>Add-Network-Project-234</projectName>
-                <objective>Add-Transition to ipv6</objective>
+                <projectGoal>Add-Transition to ipv6</projectGoal>
                 <uniqueProjectID>2</uniqueProjectID>
                 <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>10</lifeCycleCost>
-                <SDLCMethodology>1</SDLCMethodology>
-                <releaseEverySixMo>No</releaseEverySixMo>
-                <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
-                <fundedBy>TMF</fundedBy>
-                <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
+                <softwareProject>yes</softwareProject>
+                <newOrExisting>new</newOrExisting>
+                <description>description</description>
+                <unitOfMeasure>description</unitOfMeasure>
+                <measurementCondition>Over target</measurementCondition>
+                <deploymentTarget>target</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>add</operation>
@@ -127,7 +114,6 @@
                     </activity>
                 </activities>
             </project>
-
         </projects>
         <operationalAnalysis>
             <dateOfAnalysis>10/17/2000</dateOfAnalysis>
