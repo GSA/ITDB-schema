@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<SystemsInventoryListResponse>
+    <systems>
+        <system>
+            <operation>add</operation>
+            <details>
+                <UII>018-000006000</UII>
+                <agencySystemsInventoryID>250 Chars Here</agencySystemsInventoryID>
+                <systemName>250 Name</systemName>
+                <averageUsersPerMonth>120</averageUsersPerMonth>
+                <initialOperatingYear>1999</initialOperatingYear>
+                <ErrorsAndWarnings>
+                    <errors>
+                        <error>A Systems Inventory List with UII 018-000006000 and agencySystemsInventoryID='250 Chars Here' already exists. You may not use an add operation for this UII.</error>
+                    </errors>
+                </ErrorsAndWarnings>
+            </details>
+            <products>
+                <product>
+                    <operation>add</operation>
+                    <agencyProductID>250 Char Agency ID</agencyProductID>
+                    <productName>250 Char Product Name</productName>
+                    <vendorName>250 Char Vendor Name</vendorName>
+                    <versionNumber>1.1.0</versionNumber>
+                    <lastMajorTechRefresh>12-2012</lastMajorTechRefresh>
+                    <anticipatedTechRefresh>01-2013</anticipatedTechRefresh>
+                    <endOfContractedSupport>11-2019</endOfContractedSupport>
+                    <productExpectEndOfLife>N/A</productExpectEndOfLife>
+                    <productFunctions>
+                        <productFunction>FFM.010</productFunction>
+                        <productFunction>FFM.020</productFunction>
+                        <productFunction>FFM.030</productFunction>
+                    </productFunctions>
+                    <productID>1</productID>
+                    <ErrorsAndWarnings>
+                        <errors>
+                            <error>Add operation not allowed. A record already exists for product with agencyProductID: 250 Char Agency ID.</error>
+                        </errors>
+                    </ErrorsAndWarnings>
+                </product>
+                <product/>
+            </products>
+            <status>Submission Failed</status>
+        </system>
+    </systems>
+    <response>
+        <system>
+            <details>
+                <errors>
+                    <error>A Systems Inventory List with UII 018-000006000 and agencySystemsInventoryID='250 Chars Here' already exists. You may not use an add operation for this UII.</error>
+                </errors>
+                <UII>018-000006000</UII>
+            </details>
+            <products>
+                <product>
+                    <errors>
+                        <error>Add operation not allowed. A record already exists for product with agencyProductID: 250 Char Agency ID.</error>
+                    </errors>
+                </product>
+                <product/>
+            </products>
+            <status>Submission Failed</status>
+        </system>
+    </response>
+</SystemsInventoryListResponse>
+

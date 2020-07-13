@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operations xmlns="http://www.itdashboard.gov/service"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.itdashboard.gov/service ../Exchange/serviceRequest.xsd">
+  <cioRatingInformation uniqueInvestmentIdentifier="000-000000000">
+    <getInformation>
+      <getCIORating id="String"/>
+    </getInformation>
+  </cioRatingInformation>
+</operations>

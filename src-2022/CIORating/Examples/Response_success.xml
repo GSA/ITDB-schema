@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sr:operationResults xmlns="http://www.itdashboard.gov/service"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:sr="http://www.itdashboard.gov/serviceResponse"
+                     xsi:schemaLocation="http://www.itdashboard.gov/serviceResponse ../Exchange/serviceResponse.xsd">
+  <sr:investment uniqueInvestmentIdentifier="000-000000000">
+    <sr:success>
+      <sr:getCIORatingResult id="String">
+        <sr:CIORating>
+          <sr:cioRatingEval>1</sr:cioRatingEval>
+          <sr:cioComment>a</sr:cioComment>
+        </sr:CIORating>
+      </sr:getCIORatingResult>
+      <sr:setCIORatingResult id="String">
+        <sr:CIORating>
+          <sr:cioRatingEval>1</sr:cioRatingEval>
+          <sr:cioComment>a</sr:cioComment>
+        </sr:CIORating>
+      </sr:setCIORatingResult>
+      <sr:message>String</sr:message>
+    </sr:success>
+  </sr:investment>
+</sr:operationResults>
+
+<!-- test -->

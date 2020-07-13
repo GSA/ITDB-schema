@@ -1,0 +1,13 @@
+<contractsReports validateOnlyIndicator="false">
+    <contractsReport>
+        <operation>add</operation>
+        <details>
+            <UII>018-000006000</UII>
+            <PIIDs>
+                <PIID>12345678</PIID>
+                <PIID>23456789</PIID>
+            </PIIDs>
+            <plannedAcquisitions>Yes</plannedAcquisitions>
+        </details>
+    </contractsReport>
+</contractsReports>
