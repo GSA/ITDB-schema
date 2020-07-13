@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operations xmlns="http://www.itdashboard.gov/service"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.itdashboard.gov/service ../Exchange/serviceRequest.xsd"
+            validateOnlyIndicator="false">
+  <cioRatingInformation uniqueInvestmentIdentifier="000-00000000000">
+    <monthlySubmission>
+        <setCIORating id="String">
+            <cioRatingEval>1</cioRatingEval>
+            <cioComment>CIO Rating Comment Monthly</cioComment>
+        </setCIORating>
+    </monthlySubmission>
+  </cioRatingInformation>
+</operations>

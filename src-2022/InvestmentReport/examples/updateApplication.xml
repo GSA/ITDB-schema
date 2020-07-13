@@ -1,0 +1,77 @@
+<towers validateOnlyIndicator="false">
+    <tower>
+        <operation>update</operation>
+        <towerDetails>
+            <UII>018-999990227</UII>
+        </towerDetails>
+        <investmentCostDetails>
+            <investmentCostDetail>
+                <category>3</category>
+                <PY>200</PY>
+                <CY>20</CY>
+                <BY>220</BY>
+            </investmentCostDetail>
+        </investmentCostDetails>
+        <projects>
+            <project>
+                <operation>update</operation>
+                <agencyProjectID>A123</agencyProjectID>
+                <projectName>Update-Application-Project-123</projectName>
+                <objective>Update-Transition to ipv6</objective>
+                <projectStartDate>10/17/1992</projectStartDate>
+                <projectCompletionDate>10/17/1992</projectCompletionDate>
+                <lifeCycleCost>11</lifeCycleCost>
+                <SDLCMethodology>2</SDLCMethodology>
+                <releaseEverySixMo>Yes</releaseEverySixMo>
+                <releaseEverySixMoComment>Update-We do not do that.</releaseEverySixMoComment>
+                <productionDeploymentDate>12/1/2014</productionDeploymentDate>
+                <fundedBy>IT WCF</fundedBy>
+                <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
+                <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
+                <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
+                <activities>
+                    <activity>
+                        <operation>update</operation>
+                        <isAgile>N</isAgile>
+                        <agencyActivityID>Activity-123</agencyActivityID>
+                        <activityName>Update-Test Activity</activityName>
+                        <activityDescription>Update-This is a description</activityDescription>
+                        <structureID>1.1</structureID>
+                        <startDatePlanned>06-01-2019</startDatePlanned>
+                        <startDateProjected>06-06-2019</startDateProjected>
+                        <startDateActual>06-06-2018</startDateActual>
+                        <completionDatePlanned>09-09-2019</completionDatePlanned>
+                        <completionDateProjected>09-10-2019</completionDateProjected>
+                        <completionDateActual>09-11-2019</completionDateActual>
+                        <totalCostPlanned>33</totalCostPlanned>
+                        <totalCostProjected>34</totalCostProjected>
+                        <totalCostActual>35</totalCostActual>
+                    </activity>
+                    <activity>
+                        <operation>add</operation>
+                        <isAgile>Y</isAgile>
+                        <agencyActivityID>Activity-567</agencyActivityID>
+                        <releaseName>Add-Test Agile activity.</releaseName>
+                        <releaseNumber>1</releaseNumber>
+                        <releaseDescription>Add-Test agile description.</releaseDescription>
+                        <NPI>2</NPI>
+                        <NPE>2.2</NPE>
+                        <NCE>2.3</NCE>
+                        <NCI>2</NCI>
+                        <DTC>2.4</DTC>
+                        <DPC>2.5</DPC>
+                        <startDatePlanned>11-01-2018</startDatePlanned>
+                        <startDateProjected>11-02-2018</startDateProjected>
+                        <startDateActual>01-03-2018</startDateActual>
+                        <completionDatePlanned>11-04-2018</completionDatePlanned>
+                        <completionDateProjected>11-05-2018</completionDateProjected>
+                        <completionDateActual>11-06-2018</completionDateActual>
+                        <totalCostPlanned>50</totalCostPlanned>
+                        <totalCostProjected>60</totalCostProjected>
+                        <totalCostActual>70</totalCostActual>
+                    </activity>
+                </activities>
+            </project>
+        </projects>
+    </tower>
+</towers>

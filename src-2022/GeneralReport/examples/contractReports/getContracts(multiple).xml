@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generalDataReports validateOnlyIndicator="false">
+   <contractsReport>
+      <operation>get</operation>
+      <details>
+         <UII>018-000003116</UII>
+      </details>
+   </contractsReport>
+   <contractsReport>
+      <operation>get</operation>
+      <details>
+         <UII>018-000003116</UII>
+      </details>
+   </contractsReport>
+</generalDataReports>

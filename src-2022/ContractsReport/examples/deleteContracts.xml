@@ -1,0 +1,12 @@
+<contractsReports validateOnlyIndicator="false">
+    <contractsReport>
+        <operation>delete</operation>
+        <details>
+            <UII>018-000006000</UII>
+            <PIIDs>
+                <PIID>12345678</PIID>
+                <PIID>23456789</PIID>
+            </PIIDs>
+        </details>
+    </contractsReport>
+</contractsReports>

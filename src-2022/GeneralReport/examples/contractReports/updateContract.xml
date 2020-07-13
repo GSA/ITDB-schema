@@ -1,0 +1,24 @@
+<generalDataReports validateOnlyIndicator="false">
+    <contractsReport>
+        <operation>update</operation>
+        <details>
+            <UII>018-000003116</UII>
+            <reportsContracts>yes</reportsContracts>
+        </details>
+        <Contracts>
+            <Contract>
+                <operation>update</operation>
+                <contractID>7</contractID>
+                <agencyContractID>99</agencyContractID>
+                <PIID>000</PIID>
+                <referencePIID>abcd</referencePIID>
+            </Contract>
+            <Contract>
+                <operation>update</operation>
+                <!--<agencyContractID>99</agencyContractID>-->
+                <PIID>999</PIID>
+                <referencePIID>abcd</referencePIID>
+            </Contract>
+        </Contracts>
+    </contractsReport>
+</generalDataReports>

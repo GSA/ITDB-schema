@@ -1,0 +1,39 @@
+<!-- Verify validateOnly indicator -->
+<towers validateOnlyIndicator="false">
+    <tower>
+        <operation>update</operation>
+        <towerDetails>
+           <UII>018-999990221</UII>
+        </towerDetails>    
+        <projects>
+            <project>
+            <operation>update</operation>
+            <agencyProjectID>Network-Project-123</agencyProjectID>
+            
+            <activities>
+                <activity>
+                    <operation>delete</operation>
+                    <agencyActivityID>Network-Activity-123</agencyActivityID>
+                </activity>
+            </activities>
+        </project>
+        </projects>
+        
+        <metrics>
+            <metric>
+                <operation>update</operation>
+                <agencyMetricID>Network-Metric-123</agencyMetricID>
+                <metricActuals>
+                    <metricActual>
+                        <operation>delete</operation>
+                        <agencyMetricActualID>Network-Metric-123-Actual-123</agencyMetricActualID>
+                    </metricActual>
+                </metricActuals>
+            </metric>
+            <metric>
+                <operation>delete</operation>
+                <agencyMetricID>Network-Metric-234</agencyMetricID>
+            </metric>
+        </metrics>
+    </tower>
+</towers>
