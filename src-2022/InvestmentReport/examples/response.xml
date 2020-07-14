@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+?<?xml version="1.0"?>
 <InvestmentReportResponse>
     <towers>
         <tower>
@@ -26,28 +26,21 @@
             </investmentCostDetails>
             <projects>
                 <project>
-                    <operation>add</operation>
-                    <agencyProjectID>Network-Project-123</agencyProjectID>
+                    <operation>add</operation>                            
                     <uniqueProjectID>1</uniqueProjectID>
+                    <agencyProjectID>Network-Project-123</agencyProjectID>
                     <projectName>Add-Network-Project-123</projectName>
-                    <objective>Add-Transition to ipv6</objective>
+                    <projectGoal>Add-Transition to ipv6</projectGoal>
                     <projectStartDate>1991-10-17</projectStartDate>
                     <projectCompletionDate>1991-10-17</projectCompletionDate>
-                    <lifeCycleCost>10.000000</lifeCycleCost>
-                    <SDLCMethodology>1</SDLCMethodology>
-                    <releaseEverySixMo>No</releaseEverySixMo>
-                    <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
-                    <productionDeploymentDate>2013-12-01</productionDeploymentDate>
-                    <fundedBy>TMF</fundedBy>
-                    <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-                    <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
-                    <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
+                    <lifeCycleCost>10.000000</lifeCycleCost>    
+                    <softwareProject>yes</softwareProject>
                     <activities>
                         <activity>
                             <operation>add</operation>
                             <isAgile>N</isAgile>
+                            <activityName>Add-Test Activity</activityName>   
                             <agencyActivityID>Network-Activity-123</agencyActivityID>
-                            <activityName>Add-Test Activity</activityName>
                             <activityDescription>Add-This is a description</activityDescription>
                             <structureID>1.1</structureID>
                             <startDatePlanned>2018-06-01</startDatePlanned>
@@ -65,18 +58,9 @@
                         </activity>
                         <activity>
                             <operation>add</operation>
-                            <isAgile>Y</isAgile>
+                            <isAgile>N</isAgile>
+                            <activityName>Add-Test Activity2</activityName>  
                             <agencyActivityID>Network-Activity-234</agencyActivityID>
-                            <activityName>Add-Test Activity2</activityName>
-                            <releaseName>Add-Test Agile activity.</releaseName>
-                            <releaseNumber>1</releaseNumber>
-                            <releaseDescription>Add-Test agile description.</releaseDescription>
-                            <NPI>1</NPI>
-                            <NPE>1.2</NPE>
-                            <NCE>1.3</NCE>
-                            <NCI>1</NCI>
-                            <DTC>1.4</DTC>
-                            <DPC>1.5</DPC>
                             <startDatePlanned>2018-10-01</startDatePlanned>
                             <startDateProjected>2018-10-02</startDateProjected>
                             <startDateActual>2018-07-03</startDateActual>
@@ -143,8 +127,8 @@
             <SOCs>
                  <SOC>
                    <operation>add</operation>
-                   <SOCName>SOCName</SOCName>
                    <agencySOCID>SOC1</agencySOCID>
+                   <SOCName>SOCName</SOCName>
                    <isService>N</isService>
                    <coveredEntities>
                      <coveredEntity>91300</coveredEntity>
@@ -206,12 +190,6 @@
                     <warnings>
                         <warning>000418-SIR: Project activity planned completion date 2018-10-04 cannot be a date after project completion date 1991-10-17.</warning>
                         <warning>000565-SIR: Project activity actual completion date 2018-10-06 is a future date. Actual completion date must be a date equal to or less than today's date.</warning>
-                    </warnings>
-                </activity>
-                <activity>
-                    <warnings>
-                        <warning>000555-SIR: Agile Activity table cannot be used if project SDLC is '1'.</warning>
-                        <warning>000555-SIR: Agile Activity table cannot be used if project SDLC is '1'.</warning>
                     </warnings>
                 </activity>
             </activities>
