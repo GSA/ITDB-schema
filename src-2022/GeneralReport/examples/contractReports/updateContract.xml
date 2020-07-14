@@ -8,13 +8,14 @@
         <Contracts>
             <Contract>
                 <operation>update</operation>
-                <contractID>7</contractID>
+                <!--<contractID>7</contractID>-->
                 <agencyContractID>99</agencyContractID>
                 <PIID>000</PIID>
                 <referencePIID>abcd</referencePIID>
             </Contract>
             <Contract>
-                <operation>update</operation>
+                <operation>update</operation>  
+                <contractID>7</contractID>
                 <!--<agencyContractID>99</agencyContractID>-->
                 <PIID>999</PIID>
                 <referencePIID>abcd</referencePIID>

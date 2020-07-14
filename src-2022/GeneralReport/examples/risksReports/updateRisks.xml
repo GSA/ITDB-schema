@@ -29,7 +29,7 @@
 			</Risk>
 			<Risk>
                 <riskArea>4</riskArea>
-				<!--<isActive>yes</isActive>-->
+				<isActive>yes</isActive>
 				<riskProbability>2</riskProbability>
 				<riskImpact>3</riskImpact>
 				<mitigationPlan>test</mitigationPlan>
