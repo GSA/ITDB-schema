@@ -28,15 +28,17 @@
                 <agencyProjectID>Network-Project-123</agencyProjectID>
                 <uniqueProjectID>1</uniqueProjectID>
                 <projectName>Update-Network-Project-123</projectName>
+                <projectGoal>Add-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1999</projectStartDate>
-                <projectCompletionDate>10/17/2020</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate> 
                 <lifeCycleCost>1000</lifeCycleCost>
+                <softwareProject>yes</softwareProject>
                 <activities>
                     <activity>
                         <operation>update</operation>
                         <isAgile>N</isAgile>
                         <agencyActivityID>Network-Activity-123</agencyActivityID>
-                        <activityName>Update-Test Activity</activityName>
+                        <activityName>Update-Test Activity</activityName>  
                         <activityDescription>Update-This is a description</activityDescription>
                         <structureID>1.1</structureID>
                         <startDatePlanned>07-01-2018</startDatePlanned>
