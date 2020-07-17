@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd">
+<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd" validateOnlyIndicator="true">
     <ITBudget:UpdateITBudgetReport>
         <ITPortfolio>
             <UniqueInvestmentID>
                 <CurrentUII>024-000002047</CurrentUII>
-                <InvestmentLineStructure>00</InvestmentLineStructure>
                 <SharedServicesCategory>00</SharedServicesCategory>
                 <SharedServicesIdentifier>1234</SharedServicesIdentifier>
                 <MissionSupportInvestmentCategories>
@@ -197,7 +196,6 @@
                 <FundingSourceLineItem>
                     <FundingSourceUniqueInvestmentID>
                         <CurrentUII>024-000002047</CurrentUII>
-                        <FundingSourceInvestmentLineStructure>04</FundingSourceInvestmentLineStructure>
                     </FundingSourceUniqueInvestmentID>
                     <FundingCode>029-15-0160</FundingCode>
                     <FundingSourceCharacterization>
@@ -236,7 +234,7 @@
                 </FundingSourceLineItem>
             </FundingSourceLineItems>
         </ITPortfolio>
-       <BudgetAccountSummary>
+        <BudgetAccountSummary>
             <BudgetAccount>
                 <FundingCode>a</FundingCode>
                 <CIOAuthorityAmount>0</CIOAuthorityAmount>
@@ -255,4 +253,3 @@
         </MessageInformation>
     </ITBudget:UpdateITBudgetReport>
 </ITBudget:ITBudgetReport>
- 

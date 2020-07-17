@@ -1,136 +1,76 @@
-<!-- Verify validateOnly indicator -->
-<towers validateOnlyIndicator="false">
+<towers validateOnlyIndicator="true">
     <tower>
         <operation>update</operation>
         <towerDetails>
-            <UII>018-999990221</UII>
-            <description>Update-n101</description>
-            <POC>Update John Doe</POC>
-            <POCEmail>updatenetcontact@mail.gov</POCEmail>
-            <anticipatedEISTransitionDate>12/05/2017</anticipatedEISTransitionDate>
+            <UII>000-000000000</UII>
+            <description>n103</description>
+            <POC>Ryan Test</POC>
+            <POCEmail>newcontact@mail.gov</POCEmail>
+            <anticipatedEISTransitionDate>08/01/2018</anticipatedEISTransitionDate>
         </towerDetails>
         <investmentCostDetails>
             <investmentCostDetail>
                 <category>2</category>
-                <PY>111</PY>
-                <CY>112</CY>
-                <BY>113</BY>
+                <PY>201</PY>
+                <CY>302</CY>
+                <BY>403</BY>
             </investmentCostDetail>
             <investmentCostDetail>
                 <category>5</category>
-                <PY>211</PY>
-                <CY>212</CY>
-                <BY>213</BY>
-            </investmentCostDetail>
-            <investmentCostDetail>
-                <category>3</category>
-                <PY>101</PY>
-                <CY>102</CY>
-                <BY>103</BY>
+                <PY>501</PY>
+                <CY>602</CY>
+                <BY>703</BY>
             </investmentCostDetail>
         </investmentCostDetails>
         <projects>
             <project>
-                <operation>update</operation>
+                <operation>delete</operation>
                 <agencyProjectID>Network-Project-123</agencyProjectID>
+                <uniqueProjectID>1</uniqueProjectID>
                 <projectName>Update-Network-Project-123</projectName>
-                <objective>Update-Transition to ipv6</objective>
-                <projectStartDate>10/17/1992</projectStartDate>
-                <projectCompletionDate>10/17/1992</projectCompletionDate>
-                <lifeCycleCost>11</lifeCycleCost>
-                <SDLCMethodology>2</SDLCMethodology>
-                <releaseEverySixMo>Yes</releaseEverySixMo>
-                <releaseEverySixMoComment>Update-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2014</productionDeploymentDate>
-                <fundedBy>IT WCF</fundedBy>
-                <commercialSolutionsCosts>Update-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Update-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Update-This is a text field 3.</commercialSolutionsReasoning>
+                <projectGoal>Add-Transition to ipv6</projectGoal>
+                <projectStartDate>10/17/1999</projectStartDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate> 
+                <lifeCycleCost>1000</lifeCycleCost>
+                <softwareProject>yes</softwareProject>
                 <activities>
                     <activity>
                         <operation>update</operation>
                         <isAgile>N</isAgile>
                         <agencyActivityID>Network-Activity-123</agencyActivityID>
-                        <activityName>Update-Test Activity</activityName>
+                        <activityName>Update-Test Activity</activityName>  
                         <activityDescription>Update-This is a description</activityDescription>
                         <structureID>1.1</structureID>
-                        <startDatePlanned>06-01-2018</startDatePlanned>
-                        <startDateProjected>06-06-2018</startDateProjected>
-                        <startDateActual>06-06-2018</startDateActual>
-                        <completionDatePlanned>09-09-2019</completionDatePlanned>
-                        <completionDateProjected>09-10-2019</completionDateProjected>
-                        <completionDateActual>09-11-2019</completionDateActual>
-                        <totalCostPlanned>33</totalCostPlanned>
-                        <totalCostProjected>34</totalCostProjected>
-                        <totalCostActual>35</totalCostActual>
+                        <startDatePlanned>07-01-2018</startDatePlanned>
+                        <startDateProjected>07-06-2018</startDateProjected>
+                        <startDateActual>07-06-2018</startDateActual>
+                        <completionDatePlanned>10-09-2018</completionDatePlanned>
+                        <completionDateProjected>10-10-2018</completionDateProjected>
+                        <completionDateActual>10-11-2018</completionDateActual>
+                        <totalCostPlanned>203</totalCostPlanned>
+                        <totalCostProjected>204</totalCostProjected>
+                        <totalCostActual>250</totalCostActual>
                     </activity>
                     <activity>
                         <operation>add</operation>
                         <isAgile>Y</isAgile>
                         <agencyActivityID>Network-Activity-567</agencyActivityID>
-                        <releaseName>Add-Test Agile activity.</releaseName>
-                        <releaseNumber>1</releaseNumber>
-                        <releaseDescription>Add-Test agile description.</releaseDescription>
-                        <NPI>2</NPI>
-                        <NPE>2.2</NPE>
-                        <NCE>2.3</NCE>
-                        <NCI>2</NCI>
-                        <DTC>2.4</DTC>
-                        <DPC>2.5</DPC>
-                        <startDatePlanned>11-01-2018</startDatePlanned>
-                        <startDateProjected>11-02-2018</startDateProjected>
-                        <startDateActual>05-03-2018</startDateActual>
-                        <completionDatePlanned>11-04-2018</completionDatePlanned>
-                        <completionDateProjected>11-05-2018</completionDateProjected>
-                        <completionDateActual>11-06-2018</completionDateActual>
-                        <totalCostPlanned>50</totalCostPlanned>
-                        <totalCostProjected>60</totalCostProjected>
-                        <totalCostActual>70</totalCostActual>
+                        <activityName>Add-Test Activity2</activityName>
+                        <startDatePlanned>10-01-2018</startDatePlanned>
+                        <startDateProjected>10-02-2018</startDateProjected>
+                        <startDateActual>07-03-2018</startDateActual>
+                        <completionDatePlanned>10-04-2018</completionDatePlanned>
+                        <completionDateProjected>10-05-2018</completionDateProjected>
+                        <completionDateActual>10-06-2018</completionDateActual>
+                        <totalCostPlanned>20</totalCostPlanned>
+                        <totalCostProjected>30</totalCostProjected>
+                        <totalCostActual>40</totalCostActual>
                     </activity>
                 </activities>
             </project>
-
-            <project>
-                <operation>add</operation>
-                <agencyProjectID>Network-Project-234</agencyProjectID>
-                <projectName>Add-Network-Project-234</projectName>
-                <objective>Add-Transition to ipv6</objective>
-                <uniqueProjectID>2</uniqueProjectID>
-                <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
-                <lifeCycleCost>10</lifeCycleCost>
-                <SDLCMethodology>1</SDLCMethodology>
-                <releaseEverySixMo>No</releaseEverySixMo>
-                <releaseEverySixMoComment>Add-We do not do that.</releaseEverySixMoComment>
-                <productionDeploymentDate>12/1/2013</productionDeploymentDate>
-                <fundedBy>TMF</fundedBy>
-                <commercialSolutionsCosts>Add-This is a text field 1.</commercialSolutionsCosts>
-                <commercialSolutionsAdoption>Add-This is a text field 2.</commercialSolutionsAdoption>
-                <commercialSolutionsReasoning>Add-This is a text field 3.</commercialSolutionsReasoning>
-                <activities>
-                    <activity>
-                        <operation>add</operation>
-                        <isAgile>N</isAgile>
-                        <agencyActivityID>Network-Activity-345</agencyActivityID>
-                        <activityName>Add-Test Activity</activityName>
-                        <activityDescription>Add-This is a description</activityDescription>
-                        <structureID>2.1</structureID>
-                        <startDatePlanned>06-01-2018</startDatePlanned>
-                        <startDateProjected>06-06-2018</startDateProjected>
-                        <startDateActual>06-06-2018</startDateActual>
-                        <completionDatePlanned>09-09-2018</completionDatePlanned>
-                        <completionDateProjected>09-10-2018</completionDateProjected>
-                        <completionDateActual>09-11-2018</completionDateActual>
-                        <totalCostPlanned>23</totalCostPlanned>
-                        <totalCostProjected>24</totalCostProjected>
-                        <totalCostActual>25</totalCostActual>
-                    </activity>
-                </activities>
-            </project>
-
         </projects>
         <operationalAnalysis>
-            <dateOfAnalysis>10/17/2000</dateOfAnalysis>
+            <dateOfAnalysis>10/17/2018</dateOfAnalysis>
             <analysisResults>Update-This is a text string.</analysisResults>
             <analysisConclusion>2</analysisConclusion>
         </operationalAnalysis>
@@ -176,7 +116,7 @@
                 <CYTarget>4.5</CYTarget>
                 <measurementCondition>Under Target</measurementCondition>
                 <reportingFrequency>Quarterly</reportingFrequency>
-                <agencyObjectiveOrGoal>015APG18037</agencyObjectiveOrGoal>
+                <agencyObjectiveOrGoal>018SO18038</agencyObjectiveOrGoal>
                 <isMetricRetired>N</isMetricRetired>
                 <metricActuals>
                     <metricActual>

@@ -1,6 +1,6 @@
 <generalDataReports validateOnlyIndicator="false">
     <contractsReport>
-        <operation>delete</operation>
+        <operation>update</operation>
         <details>
             <UII>{{uii}}</UII>
             <reportsContracts>yes</reportsContracts>

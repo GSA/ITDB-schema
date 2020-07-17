@@ -3,11 +3,17 @@
         <operation>update</operation>
         <details>
             <UII>018-000006000</UII>
+            <SUIC>333-7777777-4444</SUIC>
             <agencySystemsInventoryID>250 Chars Here</agencySystemsInventoryID>
             <!--        <systemsInventoryID>250 Chars Here</systemsInventoryID> -->
             <systemName>250 Name Longer</systemName>
-            <averageUsersPerMonth>121</averageUsersPerMonth>
             <initialOperatingYear>2000</initialOperatingYear>
+            <customDeveloped>No</customDeveloped>
+            <systemFunctions>
+                <systemFunction>FFM.010</systemFunction>
+                <systemFunction>FFM.020</systemFunction>
+                <systemFunction>FFM.030</systemFunction>
+            </systemFunctions>
         </details>
         <products>
             <product>
@@ -19,12 +25,7 @@
                 <versionNumber>1.1.0</versionNumber>
                 <lastMajorTechRefresh>01-2012</lastMajorTechRefresh>
                 <anticipatedTechRefresh>01-2013</anticipatedTechRefresh>
-                <endOfContractedSupport>01-2019</endOfContractedSupport>
                 <productExpectEndOfLife>01-1991</productExpectEndOfLife>
-                <productFunctions>
-                    <productFunction>FFM.010</productFunction>
-                    <productFunction>FFM.020</productFunction>
-                </productFunctions>
             </product>
         </products>
     </system>

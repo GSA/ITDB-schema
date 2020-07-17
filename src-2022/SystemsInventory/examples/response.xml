@@ -4,11 +4,14 @@
         <system>
             <operation>add</operation>
             <details>
-                <UII>018-000006000</UII>
+                <UII>018-000006000</UII>  
+                <SUIC>333-7777777-4444</SUIC>
                 <agencySystemsInventoryID>250 Chars Here</agencySystemsInventoryID>
                 <systemName>250 Name</systemName>
-                <averageUsersPerMonth>120</averageUsersPerMonth>
-                <initialOperatingYear>1999</initialOperatingYear>
+                <initialOperatingYear>1999</initialOperatingYear> 
+                <customDeveloped>No</customDeveloped>
+                <systemFunctions>FFM.010|FFM.020|FFM.030</systemFunctions>
+                <systemsInventoryID>1111</systemsInventoryID>
                 <ErrorsAndWarnings>
                     <errors>
                         <error>A Systems Inventory List with UII 018-000006000 and agencySystemsInventoryID='250 Chars Here' already exists. You may not use an add operation for this UII.</error>
@@ -24,13 +27,7 @@
                     <versionNumber>1.1.0</versionNumber>
                     <lastMajorTechRefresh>12-2012</lastMajorTechRefresh>
                     <anticipatedTechRefresh>01-2013</anticipatedTechRefresh>
-                    <endOfContractedSupport>11-2019</endOfContractedSupport>
                     <productExpectEndOfLife>N/A</productExpectEndOfLife>
-                    <productFunctions>
-                        <productFunction>FFM.010</productFunction>
-                        <productFunction>FFM.020</productFunction>
-                        <productFunction>FFM.030</productFunction>
-                    </productFunctions>
                     <productID>1</productID>
                     <ErrorsAndWarnings>
                         <errors>
@@ -63,4 +60,3 @@
         </system>
     </response>
 </SystemsInventoryListResponse>
-
