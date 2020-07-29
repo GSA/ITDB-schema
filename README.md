@@ -8,27 +8,27 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
 
 
-## Last 5 Sprint/Hotfix Deployment Dates
+## Last BY 2022 UAT Sprint/Hotfix Deployment Dates
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
-|  GSA Deployment v2019.12.B.1                  | December 27, 2019 | <ul><li>Business Case Project-Metric Validation Updates</li><li>Character Count Validations Update</li></ul> | &#x2714;|
-|  GSA Deployment v2020.1.A.1                  | January 3, 2020 | <ul><li>Project Name, Activity Name, and Activity Description Baseline Update</li></ul> | &#x2714;|
-|  GSA Deployment v2020.1.A.1.1                  | January 13, 2020 | <ul><li>Deployment Report Time Period Update</li></ul> | &#x2714;|
-|  GSA Deployment v2020.1.A.1.2                  | January 15, 2020 | <ul><li>Risks Report and Contracts Report Time Period Update</li><li>SIL Database Character Length Update</li></ul> | &#x2714;|
-|  GSA Deployment v2020.2.A.1                  | February 6, 2020 | <ul><li>IT Dashboard Go-Live Data Feed Updates</li><li>Business Case PDF Updates</li></ul> | &#x2714;|
+|  GSA Deployment v20202.07.A                 | July 13, 2020 | <ul><li>BY 2022 Code Launch on UAT</li></ul> | &#x2714;|
+|  GSA Deployment v2020.1.A.1                  | July 23, 2020 | <ul><li>SIR Activity Deletion Update</li></ul> | &#x2714;|
 
-## Important Dates for the BY 2021 President's Budget Submission 
+## Important Dates for the BY 2022 Pre-Decisional Budget Submission 
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
-|  Validations Patch on UAT and Production |  December 27, 2019 | &#x2714;|
-|  Project Name, Activity Name, and Activity Description Baselined on UAT |  December 30, 2019 | &#x2714;|
-|  Project Name, Activity Name, and Activity Description Baselined on Production |  January 3, 2020 | &#x2714;|
-|  AITPS Window Opens |  January 10, 2020 01:00 AM EST | &#x2714;|
-|  AITPD Window Opens | January 10, 2020 01:00 AM EST | &#x2714;|
-|  AITPS Window Closes | January 13, 2020 4:59 PM EST | &#x2714;|
-|  AITPD Window Closes  |  January 21, 2020 4:59 PM EST | &#x2714;|
+|  BY 2022 Guidance Release |  TBD | |
+|  BY 2022 UAT Environement Launch | July 13, 2020 | &#x2714;|
+|  BY 2022 UAT Schema Update | July 13, 2020 | &#x2714;|
+|  BY 2022 Submission Instructions, Schema Examples, and Validations Documenation Release | July 17, 2020 | &#x2714;|
+|  BY 2021 Production Environement Freeze |  August 31, 2020 | |
+|  BY 2022 Production Environement Launch |  Pending Guidance Release | |
+|  AITPS Window Opens |  Pending Guidance Release | |
+|  AITPD Window Opens |  Pending Guidance Release | |
+|  AITPS Window Closes |  Pending Guidance Release | |
+|  AITPD Window Closes  |  Pending Guidance Release | |
   
 ## Asking questions and getting help
 
@@ -73,9 +73,6 @@ If you see no changes, then the last version of the file is the latest version o
 
 <br>
  
-### I'm having issues downloading Data Feeds with Chrome?
-
-This is a known issue. Please use IE, Firefox or Safari to download Data Feeds.
 
 
 
