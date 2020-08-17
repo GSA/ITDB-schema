@@ -19,12 +19,17 @@
                 <response-ITBudget-ext:MissionArea>01</response-ITBudget-ext:MissionArea>
                 <response-ITBudget-ext:TypeofInvestment>02</response-ITBudget-ext:TypeofInvestment>
                 <response-ITBudget-ext:NationalSecuritySystemsIdentifier>01</response-ITBudget-ext:NationalSecuritySystemsIdentifier>
-                <response-ITBudget-ext:FEAPrimaryBRMService>123</response-ITBudget-ext:FEAPrimaryBRMService>
+                <response-ITBudget-ext:FEAPrimaryBRMService>123</response-ITBudget-ext:FEAPrimaryBRMService> 
+                <response-ITBudget-ext:plannedAcquisitions>1</response-ITBudget-ext:plannedAcquisitions>
+                <response-ITBudget-ext:pivEnabled>1</response-ITBudget-ext:pivEnabled>
             </response-ITBudget-ext:InvestmentCharacterization>
             <response-ITBudget-ext:InvestmentStatusChange>
                 <response-ITBudget-ext:StatusIdentifier>11</response-ITBudget-ext:StatusIdentifier>
                 <response-ITBudget-ext:AgencyReasonforChange>No change</response-ITBudget-ext:AgencyReasonforChange>
-            </response-ITBudget-ext:InvestmentStatusChange>
+            </response-ITBudget-ext:InvestmentStatusChange> 
+            <response-ITBudget-ext:publicUrls>
+                <response-ITBudget-ext:url>http:://agency.gov</response-ITBudget-ext:url>
+            </response-ITBudget-ext:publicUrls>
             <response-ITBudget-ext:OandM>
                 <response-ITBudget-ext:PriorYear>
                     <response-ITBudget-ext:AgencyFundingAmount>10.000000</response-ITBudget-ext:AgencyFundingAmount>
