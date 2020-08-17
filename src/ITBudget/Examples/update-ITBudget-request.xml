@@ -19,12 +19,17 @@
                 <MissionArea>01</MissionArea>
                 <TypeofInvestment>02</TypeofInvestment>
                 <NationalSecuritySystemsIdentifier>01</NationalSecuritySystemsIdentifier>
-                <FEAPrimaryBRMService>123</FEAPrimaryBRMService>
+                <FEAPrimaryBRMService>123</FEAPrimaryBRMService> 
+                <plannedAcquisitions>1</plannedAcquisitions>
+                <pivEnabled>1</pivEnabled>
             </InvestmentCharacterization>
             <InvestmentStatusChange>
                 <StatusIdentifier>11</StatusIdentifier>
                 <AgencyReasonforChange>No change</AgencyReasonforChange>
             </InvestmentStatusChange>
+            <publicUrls>
+                <url>http:://agency.gov</url>
+            </publicUrls>
             <OandM>
                 <PriorYear>
                     <AgencyFundingAmount>10.000000</AgencyFundingAmount>

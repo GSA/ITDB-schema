@@ -306,10 +306,6 @@
                 </investmentsEliminatedorReduced>
                 <investmentSharedService>no</investmentSharedService>
                 <plannedSharedService>no</plannedSharedService>
-                <investmentPivEnabled>yes</investmentPivEnabled>
-                <publicURLs>
-                    <publicURL>http:://agency.gov</publicURL>
-                </publicURLs>
                 <ombControlNumbers>
                     <ombControlNumber>0000-0000</ombControlNumber>
                 </ombControlNumbers>
