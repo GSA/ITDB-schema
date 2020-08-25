@@ -578,7 +578,7 @@
 
   <complexType name="reviseUpdateProjectMetricType">
     <sequence>
-      <element name="newOrExisting" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="newOrExisting" type="businessCase-type:shortTextString"/>
       <element name="newMetric" type="tns:reviseUpdateNewMetricType" minOccurs="0"/>
       <element name="existingMetric" type="tns:reviseUpdateExistingMetricType" minOccurs="0"/>
       <element name="deploymentTarget" type="businessCase-type:longTextString" minOccurs="0"/>
@@ -667,7 +667,7 @@
   <complexType name="updateProjectDetailType">
     <sequence>
       <element name="uniqueProjectId" type="businessCase-type:string10" minOccurs="0"/>
-      <element name="projectName" type="businessCase-type:string100" minOccurs="0"/>
+      <!--<element name="projectName" type="businessCase-type:string100" minOccurs="0"/>-->
       <element name="projectGoal" type="businessCase-type:shortTextString" minOccurs="0"/>
       <element name="softwareProject" type="businessCase-facet:yesNoString" minOccurs="0"/>
     </sequence>
@@ -675,7 +675,7 @@
 
   <complexType name="updateProjectMetricType">
     <sequence>
-      <element name="newOrExisting" type="businessCase-type:shortTextString" minOccurs="0"/>
+      <element name="newOrExisting" type="businessCase-type:shortTextString"/>
       <element name="newMetric" type="tns:updateNewMetricType" minOccurs="0"/>
       <element name="existingMetric" type="tns:updateExistingMetricType" minOccurs="0"/>
       <element name="deploymentTarget" type="businessCase-type:longTextString" minOccurs="0"/>
@@ -708,8 +708,9 @@
     <sequence>
       <element name="activityId" type="integer" minOccurs="0"/>
       <element name="agencyActivityId" type="businessCase-type:shortTextString" minOccurs="0"/>
-      <element name="activityName" type="businessCase-type:string100" minOccurs="0"/>
-      <element name="activityDescription" type="businessCase-type:shortTextString" minOccurs="0"/>
+<!--      <element name="activityName" type="businessCase-type:string100" minOccurs="0"/>
+      <element name="activityDescription" type="businessCase-type:shortTextString" minOccurs="0"/>-->
+      <element name="structureId" type="string" minOccurs="0"/>
       <element name="projectedStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="actualStartDate" type="businessCase-type:investmentDateType" minOccurs="0" nillable="true"/>
       <element name="projectedTotalCost" type="businessCase-type:dollarAmount" minOccurs="0" nillable="true"/>
@@ -757,8 +758,8 @@
       <element name="investmentsEliminatedorReduced" type="tns:investmentsEliminatedorReducedType" minOccurs="0"/>
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="plannedSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <!--  <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>  -->
+<!--      <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>-->
+<!--      <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>-->
       <element name="ombControlNumbers" type="tns:ombControlNumberType" minOccurs="0"/>
       <element name="pmDetails" type="tns:pmDetailsType" minOccurs="0"/>
       <element name="updateFundingDetails" type="tns:updateFundingDetailsType" minOccurs="0"/>

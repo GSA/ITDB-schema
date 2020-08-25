@@ -765,8 +765,8 @@
       <element name="investmentsEliminatedorReduced" type="tns:investmentsEliminatedorReducedType" minOccurs="0"/>
       <element name="investmentSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
       <element name="plannedSharedService" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <!--  <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>
-      <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>  -->
+<!--      <element name="investmentPivEnabled" type="businessCase-facet:yesNoString" minOccurs="0"/>-->
+<!--      <element name="publicURLs" type="tns:publicURLsType" minOccurs="0"/>-->
       <element name="ombControlNumbers" type="tns:ombControlNumberType" minOccurs="0"/>
       <element name="pmDetails" type="tns:pmDetailsType" minOccurs="0"/>
       <element name="updateFundingDetails" type="tns:updateFundingDetailsType" minOccurs="0"/>
