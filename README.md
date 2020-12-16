@@ -8,7 +8,7 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
 
 
-## Recent BY 2022 UAT Sprint/Hotfix Deployment
+## Recent IT Dashboard Deployments
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
