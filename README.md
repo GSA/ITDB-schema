@@ -12,12 +12,11 @@ This repository is supplied by OMB for the CPIC Community. It's purpose is to ac
 
 |  Event  |  Date |  Highlights | Deployed |
 |:-------------:|---|--------|:---:|
+| v2021.01.A.FY22.1.1          | January 21, 2021 | <ul><li>Linked BY 2022 Guidance on the Submission Confirmation Page, Added “Required” text to the Report Required column for the SIR Table, Added “Required” text to the Report Required column for the Contracts Report table </li></ul> | &#x2714;|
 | v2021.01.A.FY22.1.0             | January 15, 2021 | <ul><li>Updates to Submission Confirmation Page, Enabling the deletion of Reference PIID Data </li></ul> | &#x2714;|
 |  v2020.12.A.FY21.1.3 and v2020.12.A.FY22.1.2              | December 15, 2020 | <ul><li>DCOI & Cost Savings</li></ul> | &#x2714;|
 |  v2020.12.A.FY22.1.0, v2020.11.B.FY20.1.0, v2020.11.B.FY21.1.0, v2020.11.B.FY22.1.1                | December 2, 2020 | <ul><li>Routine Maintenance</li></ul> | &#x2714;|
 |  v2020.11.B.FY22.1.0               | November 24, 2020 | <ul><li>FY 2022 Business Case PDFs, Add Active System Function Codes, Remove Inactive Ricks from Risks Report Data Feed</li></ul> | &#x2714;|
-| v2020.10.B.FY22.1.0                | October 22, 2020 | <ul><li>Add logic for Contracts Report Update Operation</li></ul> | &#x2714;|
-
 
 ## Important Dates for the BY 2022 Pre-Decisional Budget Submission 
 
