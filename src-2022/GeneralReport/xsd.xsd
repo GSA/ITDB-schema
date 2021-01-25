@@ -27,7 +27,7 @@
                                                     <xs:element name="contractID" type="contractID" minOccurs="0" />
                                                     <xs:element name="agencyContractID" type="agencyContractID" minOccurs="0" />
                                                     <xs:element name="PIID" type="PIID" minOccurs="0" />
-                                                    <xs:element name="referencePIID" type="PIID" minOccurs="0" />
+                                                    <xs:element name="referencePIID" type="referencePIID" minOccurs="0" />
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
