@@ -30,6 +30,13 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="referencePIID">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="0" />
+            <xs:maxLength value="500"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:simpleType name="contractID">
         <xs:restriction base="xs:integer">
             <xs:pattern value="[0-9]{1,11}"/>
