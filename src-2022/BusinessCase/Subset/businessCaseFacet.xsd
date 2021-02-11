@@ -2,7 +2,6 @@
 
 <!-- 
    Copyright 2009-2011 United States Government. 
-
    This software is licensed under the GNU General Public License 
    version 2 (see the file LICENSE for details)
 -->
@@ -84,7 +83,9 @@
   </simpleType>
   <simpleType name="yesNoString">
     <restriction base="string">
+      <enumeration value="Yes"/>
       <enumeration value="yes"/>
+      <enumeration value="No"/>
       <enumeration value="no"/>
     </restriction>
   </simpleType>
