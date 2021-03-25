@@ -9623,47 +9623,7 @@
             "minLength": 3,
             "maxLength": 3,
             "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes.<details><summary><b>Validations</b></summary><ul><li>This value should be of type {{ type }}.</li><li>One of the following Length errors: <br/> 1) This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.. <br/> 2) This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.. <br/> 3) Required and must be 3 digit long. <br/> 4) This value does not match the expected {{ charset }} charset.. <br/></li></ul></details>"
-          },
-          "sponsorName": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Name<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li></ul></details>"
-          },
-          "sponsorTitle": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Title<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li></ul></details>"
-          },
-          "cloudComputingEvaluation": {
-            "type": "number",
-            "format": "integer",
-            "enum": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "example": 1,
-            "description": "Cloud Computing Alternatives Evaluation - 1 digit - 1, 2, 3, 4, 5, or 6\nThis specifies whether, as of the date of the submission, the Investment, or a component\nof the Investment, is leveraging, considering, migrating or posing as a candidate\nfor cloud computing. All Investments are required to answer this question\nregardless of the overall life cycle stage of the Investment, as operational\nInvestments should consider cloud computing alternatives during or as a result\nof an operational analysis. Select one of the following answers:\n\n- 1: This Investment or a portion of this Investment is leveraging cloud computing.\n- 2: This Investment is migrating to the cloud.\n- 3: This Investment is considering cloud computing.\n- 4: Cloud computing has NOT been considered.\n- 5: Cloud computing is NOT applicable for any portion of this Investment.\n- 6: Cloud computing has been considered but was not selected.\n\nNote: For Funding Transfer Investments (Investment Type “04”), this field does\nnot need to be completed.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>The value you selected is not a valid choice.</li></ul></details>"
-          },
-          "dataCenterInventoryId": {
-            "type": "string",
-            "format": "string",
-            "description": "Data Center Inventory ID\nThe unique identifier (or list of the identifiers) for any relevant data centers\nfrom your agency’s data center inventory, which is submitted to OMB on a\nquarterly basis in conjunction with the Integrated Data Collection (IDC)."
-          },
-          "plannedAcquisitions": {
-            "type": "string",
-            "format": "string",
-            "enum": [
-              "Yes",
-              "No"
-            ],
-            "example": "Yes",
-            "description": "Indicate whether the Investment is planning to award a contract in the next 12\nmonths. This includes awarding new contracts or renewing an existing expiring\ncontract; this does not include exercising an option year.<details><summary><b>Validations</b></summary><ul><li>The value you selected is not a valid choice.</li></ul></details>"
-          },
-          "isRetired": {
+          },"isRetired": {
             "type": "bool",
             "example": false,
             "description": "Boolean indicating if the document has been retired"
@@ -9961,45 +9921,6 @@
             "maxLength": 3,
             "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
           },
-          "sponsorName": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Name"
-          },
-          "sponsorTitle": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Title"
-          },
-          "cloudComputingEvaluation": {
-            "type": "number",
-            "format": "integer",
-            "enum": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "example": 1,
-            "description": "Cloud Computing Alternatives Evaluation - 1 digit - 1, 2, 3, 4, 5, or 6\nThis specifies whether, as of the date of the submission, the Investment, or a component\nof the Investment, is leveraging, considering, migrating or posing as a candidate\nfor cloud computing. All Investments are required to answer this question\nregardless of the overall life cycle stage of the Investment, as operational\nInvestments should consider cloud computing alternatives during or as a result\nof an operational analysis. Select one of the following answers:\n\n- 1: This Investment or a portion of this Investment is leveraging cloud computing.\n- 2: This Investment is migrating to the cloud.\n- 3: This Investment is considering cloud computing.\n- 4: Cloud computing has NOT been considered.\n- 5: Cloud computing is NOT applicable for any portion of this Investment.\n- 6: Cloud computing has been considered but was not selected.\n\nNote: For Funding Transfer Investments (Investment Type “04”), this field does\nnot need to be completed."
-          },
-          "dataCenterInventoryId": {
-            "type": "string",
-            "format": "string",
-            "description": "Data Center Inventory ID\nThe unique identifier (or list of the identifiers) for any relevant data centers\nfrom your agency’s data center inventory, which is submitted to OMB on a\nquarterly basis in conjunction with the Integrated Data Collection (IDC)."
-          },
-          "plannedAcquisitions": {
-            "type": "string",
-            "format": "string",
-            "enum": [
-              "Yes",
-              "No"
-            ],
-            "example": "Yes",
-            "description": "Indicate whether the Investment is planning to award a contract in the next 12\nmonths. This includes awarding new contracts or renewing an existing expiring\ncontract; this does not include exercising an option year."
-          },
           "isMasked": {
             "type": "bool",
             "example": true,
@@ -10073,10 +9994,7 @@
           "partOfAITPS",
           "standardIdCategory",
           "investmentType",
-          "nssId",
-          "sponsorName",
-          "sponsorTitle",
-          "cloudComputingEvaluation"
+          "nssId"
         ]
       },
       "Services:jsonld-read": {
@@ -10311,45 +10229,6 @@
             "maxLength": 3,
             "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
           },
-          "sponsorName": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Name"
-          },
-          "sponsorTitle": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Title"
-          },
-          "cloudComputingEvaluation": {
-            "type": "number",
-            "format": "integer",
-            "enum": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "example": 1,
-            "description": "Cloud Computing Alternatives Evaluation - 1 digit - 1, 2, 3, 4, 5, or 6\nThis specifies whether, as of the date of the submission, the Investment, or a component\nof the Investment, is leveraging, considering, migrating or posing as a candidate\nfor cloud computing. All Investments are required to answer this question\nregardless of the overall life cycle stage of the Investment, as operational\nInvestments should consider cloud computing alternatives during or as a result\nof an operational analysis. Select one of the following answers:\n\n- 1: This Investment or a portion of this Investment is leveraging cloud computing.\n- 2: This Investment is migrating to the cloud.\n- 3: This Investment is considering cloud computing.\n- 4: Cloud computing has NOT been considered.\n- 5: Cloud computing is NOT applicable for any portion of this Investment.\n- 6: Cloud computing has been considered but was not selected.\n\nNote: For Funding Transfer Investments (Investment Type “04”), this field does\nnot need to be completed."
-          },
-          "dataCenterInventoryId": {
-            "type": "string",
-            "format": "string",
-            "description": "Data Center Inventory ID\nThe unique identifier (or list of the identifiers) for any relevant data centers\nfrom your agency’s data center inventory, which is submitted to OMB on a\nquarterly basis in conjunction with the Integrated Data Collection (IDC)."
-          },
-          "plannedAcquisitions": {
-            "type": "string",
-            "format": "string",
-            "enum": [
-              "Yes",
-              "No"
-            ],
-            "example": "Yes",
-            "description": "Indicate whether the Investment is planning to award a contract in the next 12\nmonths. This includes awarding new contracts or renewing an existing expiring\ncontract; this does not include exercising an option year."
-          },
           "isMasked": {
             "type": "bool",
             "example": true,
@@ -10411,10 +10290,7 @@
           "partOfAITPS",
           "standardIdCategory",
           "investmentType",
-          "nssId",
-          "sponsorName",
-          "sponsorTitle",
-          "cloudComputingEvaluation"
+          "nssId"
         ]
       },
       "Services:jsonld-readItem_readItemSubRes": {
@@ -10653,45 +10529,6 @@
             "maxLength": 3,
             "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
           },
-          "sponsorName": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Name"
-          },
-          "sponsorTitle": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Title"
-          },
-          "cloudComputingEvaluation": {
-            "type": "number",
-            "format": "integer",
-            "enum": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "example": 1,
-            "description": "Cloud Computing Alternatives Evaluation - 1 digit - 1, 2, 3, 4, 5, or 6\nThis specifies whether, as of the date of the submission, the Investment, or a component\nof the Investment, is leveraging, considering, migrating or posing as a candidate\nfor cloud computing. All Investments are required to answer this question\nregardless of the overall life cycle stage of the Investment, as operational\nInvestments should consider cloud computing alternatives during or as a result\nof an operational analysis. Select one of the following answers:\n\n- 1: This Investment or a portion of this Investment is leveraging cloud computing.\n- 2: This Investment is migrating to the cloud.\n- 3: This Investment is considering cloud computing.\n- 4: Cloud computing has NOT been considered.\n- 5: Cloud computing is NOT applicable for any portion of this Investment.\n- 6: Cloud computing has been considered but was not selected.\n\nNote: For Funding Transfer Investments (Investment Type “04”), this field does\nnot need to be completed."
-          },
-          "dataCenterInventoryId": {
-            "type": "string",
-            "format": "string",
-            "description": "Data Center Inventory ID\nThe unique identifier (or list of the identifiers) for any relevant data centers\nfrom your agency’s data center inventory, which is submitted to OMB on a\nquarterly basis in conjunction with the Integrated Data Collection (IDC)."
-          },
-          "plannedAcquisitions": {
-            "type": "string",
-            "format": "string",
-            "enum": [
-              "Yes",
-              "No"
-            ],
-            "example": "Yes",
-            "description": "Indicate whether the Investment is planning to award a contract in the next 12\nmonths. This includes awarding new contracts or renewing an existing expiring\ncontract; this does not include exercising an option year."
-          },
           "rebaseLines": {
             "type": "array",
             "readOnly": true,
@@ -10767,10 +10604,7 @@
           "partOfAITPS",
           "standardIdCategory",
           "investmentType",
-          "nssId",
-          "sponsorName",
-          "sponsorTitle",
-          "cloudComputingEvaluation"
+          "nssId"
         ]
       },
       "Services:jsonld-write": {
@@ -11006,45 +10840,6 @@
             "maxLength": 3,
             "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes.<details><summary><b>Validations</b></summary><ul><li>This value should be of type {{ type }}.</li><li>One of the following Length errors: <br/> 1) This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.. <br/> 2) This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.. <br/> 3) Required and must be 3 digit long. <br/> 4) This value does not match the expected {{ charset }} charset.. <br/></li></ul></details>"
           },
-          "sponsorName": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Name"
-          },
-          "sponsorTitle": {
-            "type": "string",
-            "format": "string",
-            "description": "Functional/Business Sponsor Title"
-          },
-          "cloudComputingEvaluation": {
-            "type": "number",
-            "format": "integer",
-            "enum": [
-              1,
-              2,
-              3,
-              4,
-              5,
-              6
-            ],
-            "example": 1,
-            "description": "Cloud Computing Alternatives Evaluation - 1 digit - 1, 2, 3, 4, 5, or 6\nThis specifies whether, as of the date of the submission, the Investment, or a component\nof the Investment, is leveraging, considering, migrating or posing as a candidate\nfor cloud computing. All Investments are required to answer this question\nregardless of the overall life cycle stage of the Investment, as operational\nInvestments should consider cloud computing alternatives during or as a result\nof an operational analysis. Select one of the following answers:\n\n- 1: This Investment or a portion of this Investment is leveraging cloud computing.\n- 2: This Investment is migrating to the cloud.\n- 3: This Investment is considering cloud computing.\n- 4: Cloud computing has NOT been considered.\n- 5: Cloud computing is NOT applicable for any portion of this Investment.\n- 6: Cloud computing has been considered but was not selected.\n\nNote: For Funding Transfer Investments (Investment Type “04”), this field does\nnot need to be completed.<details><summary><b>Validations</b></summary><ul><li>The value you selected is not a valid choice.</li></ul></details>"
-          },
-          "dataCenterInventoryId": {
-            "type": "string",
-            "format": "string",
-            "description": "Data Center Inventory ID\nThe unique identifier (or list of the identifiers) for any relevant data centers\nfrom your agency’s data center inventory, which is submitted to OMB on a\nquarterly basis in conjunction with the Integrated Data Collection (IDC)."
-          },
-          "plannedAcquisitions": {
-            "type": "string",
-            "format": "string",
-            "enum": [
-              "Yes",
-              "No"
-            ],
-            "example": "Yes",
-            "description": "Indicate whether the Investment is planning to award a contract in the next 12\nmonths. This includes awarding new contracts or renewing an existing expiring\ncontract; this does not include exercising an option year.<details><summary><b>Validations</b></summary><ul><li>The value you selected is not a valid choice.</li></ul></details>"
-          },
           "isRetired": {
             "type": "bool",
             "example": false,
@@ -11071,10 +10866,7 @@
           "partOfAITPS",
           "standardIdCategory",
           "investmentType",
-          "nssId",
-          "sponsorName",
-          "sponsorTitle",
-          "cloudComputingEvaluation"
+          "nssId"
         ]
       }
     },
