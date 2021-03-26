@@ -9620,9 +9620,6 @@
             "format": "string",
             "example": "",
             "description": "Baseline fields include:\n\n- isRetired\n\nA valid rebaseLineId is required if your are modifying baseline fields.<details><summary><b>Validations</b></summary><ul><li>The rebaseLineId you submitted is invalid: {{rebaseLineId}}. A rebaseLineId must exist and be associated with your agency: {{agency_code}}</li></ul></details>"
-          },
-          "id": {
-            "description": "<details><summary><b>Validations</b></summary><ul><li>Property '{{ value }}' already exists in IT Collect.\n     *     Please use a different value.</li></ul></details>"
           }
         }
       },
