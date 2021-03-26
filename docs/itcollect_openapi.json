@@ -5981,7 +5981,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-05-13",
-            "description": "The planned start date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "The planned start date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -5990,7 +5990,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-07-30",
-            "description": "The planned completion date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "The planned completion date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -5999,7 +5999,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-06-15",
-            "description": "If the activity has not yet started, enter the current projected start date (YYYY-MM-DD) of\nthe activity.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "If the activity has not yet started, enter the current projected start date (YYYY-MM-DD) of\nthe activity.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6008,7 +6008,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-08-19",
-            "description": "If the activity has not yet completed, enter the current planned completion date (YYYY-MM-DD)\nof the activity.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "If the activity has not yet completed, enter the current planned completion date (YYYY-MM-DD)\nof the activity.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6017,7 +6017,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-06-15",
-            "description": "When the activity starts, enter the actual start date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "When the activity starts, enter the actual start date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6026,7 +6026,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-08-21",
-            "description": "When the activity ends, enter the actual completion date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "When the activity ends, enter the actual completion date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6226,10 +6226,8 @@
           "description",
           "plannedStartDate",
           "projectedStartDate",
-          "actualStartDate",
           "plannedEndDate",
           "projectedEndDate",
-          "actualEndDate",
           "plannedTotalCost",
           "projectedTotalCost",
           "structureId"
@@ -6394,8 +6392,6 @@
           "plannedEndDate",
           "projectedStartDate",
           "projectedEndDate",
-          "actualStartDate",
-          "actualEndDate",
           "plannedTotalCost",
           "projectedTotalCost",
           "structureId"
@@ -6440,7 +6436,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-05-13",
-            "description": "The planned start date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "The planned start date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6449,7 +6445,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-07-30",
-            "description": "The planned completion date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "The planned completion date (YYYY-MM-DD) for the activity. This is a baseline field.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6458,7 +6454,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-06-15",
-            "description": "If the activity has not yet started, enter the current projected start date (YYYY-MM-DD) of\nthe activity.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "If the activity has not yet started, enter the current projected start date (YYYY-MM-DD) of\nthe activity.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6467,7 +6463,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-08-19",
-            "description": "If the activity has not yet completed, enter the current planned completion date (YYYY-MM-DD)\nof the activity.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "If the activity has not yet completed, enter the current planned completion date (YYYY-MM-DD)\nof the activity.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6476,7 +6472,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-06-15",
-            "description": "When the activity starts, enter the actual start date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "When the activity starts, enter the actual start date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6485,7 +6481,7 @@
             "type": "string",
             "format": "date",
             "example": "2022-08-21",
-            "description": "When the activity ends, enter the actual completion date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "When the activity ends, enter the actual completion date (YYYY-MM-DD) here.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -6527,8 +6523,6 @@
           "plannedEndDate",
           "projectedStartDate",
           "projectedEndDate",
-          "actualStartDate",
-          "actualEndDate",
           "plannedTotalCost",
           "projectedTotalCost",
           "structureId"
@@ -8325,7 +8319,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-08-15",
-            "description": "Planned start date [YYYY-MM-DD] of in-progress projects or planned start of projects that have not\nyet begun (may be before the current FY or activities listed in Table C.2). Modifying this field via PUT or\nPATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "Planned start date [YYYY-MM-DD] of in-progress projects or planned start of projects that have not\nyet begun (may be before the current FY or activities listed in Table C.2). Modifying this field via PUT or\nPATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -8334,7 +8328,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-11-20",
-            "description": "Planned date [YYYY-MM-DD] of completion of in-progress projects or actual completion date of projects\nthat have been completed (may be after BY or completion date of activities listed in activities Table C.2).\nModifying this field via PUT or PATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "Planned date [YYYY-MM-DD] of completion of in-progress projects or actual completion date of projects\nthat have been completed (may be after BY or completion date of activities listed in activities Table C.2).\nModifying this field via PUT or PATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value should not be blank.</li><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -8802,7 +8796,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-08-15",
-            "description": "Planned start date [YYYY-MM-DD] of in-progress projects or planned start of projects that have not\nyet begun (may be before the current FY or activities listed in Table C.2). Modifying this field via PUT or\nPATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "Planned start date [YYYY-MM-DD] of in-progress projects or planned start of projects that have not\nyet begun (may be before the current FY or activities listed in Table C.2). Modifying this field via PUT or\nPATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -8811,7 +8805,7 @@
             "type": "string",
             "format": "date",
             "example": "2020-11-20",
-            "description": "Planned date [YYYY-MM-DD] of completion of in-progress projects or actual completion date of projects\nthat have been completed (may be after BY or completion date of activities listed in activities Table C.2).\nModifying this field via PUT or PATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li><li>ActivityCompletionDate</li></ul></details>",
+            "description": "Planned date [YYYY-MM-DD] of completion of in-progress projects or actual completion date of projects\nthat have been completed (may be after BY or completion date of activities listed in activities Table C.2).\nModifying this field via PUT or PATCH operations will require a rebaseLineId.<details><summary><b>Validations</b></summary><ul><li>This value is not a valid date.</li><li>The project's Start Date cannot exceed the Completion Date. The Start Date is \"%startDate%\". The End Date is \"%endDate%\" </li></ul></details>",
             "externalDocs": {
               "url": "http://schema.org/Date"
             }
@@ -9616,14 +9610,7 @@
               "type": "string"
             }
           },
-          "serviceArea": {
-            "type": "string",
-            "format": "numeric",
-            "example": "001",
-            "minLength": 3,
-            "maxLength": 3,
-            "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes.<details><summary><b>Validations</b></summary><ul><li>This value should be of type {{ type }}.</li><li>One of the following Length errors: <br/> 1) This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.. <br/> 2) This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.. <br/> 3) Required and must be 3 digit long. <br/> 4) This value does not match the expected {{ charset }} charset.. <br/></li></ul></details>"
-          },"isRetired": {
+            "isRetired": {
             "type": "bool",
             "example": false,
             "description": "Boolean indicating if the document has been retired"
@@ -9912,14 +9899,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "serviceArea": {
-            "type": "string",
-            "format": "numeric",
-            "example": "001",
-            "minLength": 3,
-            "maxLength": 3,
-            "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
           },
           "isMasked": {
             "type": "bool",
@@ -10221,14 +10200,6 @@
               "type": "string"
             }
           },
-          "serviceArea": {
-            "type": "string",
-            "format": "numeric",
-            "example": "001",
-            "minLength": 3,
-            "maxLength": 3,
-            "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
-          },
           "isMasked": {
             "type": "bool",
             "example": true,
@@ -10520,14 +10491,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "serviceArea": {
-            "type": "string",
-            "format": "numeric",
-            "example": "001",
-            "minLength": 3,
-            "maxLength": 3,
-            "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes."
           },
           "rebaseLines": {
             "type": "array",
@@ -10831,14 +10794,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "serviceArea": {
-            "type": "string",
-            "format": "numeric",
-            "example": "001",
-            "minLength": 3,
-            "maxLength": 3,
-            "description": "Primary service area (string) - 3 digit code\nThis is the three digit code that indicates the predominant business function\nserved by the Investment (not necessarily the Agency’s mission/business).\nBRM version 3.1 contains the current mapping codes.<details><summary><b>Validations</b></summary><ul><li>This value should be of type {{ type }}.</li><li>One of the following Length errors: <br/> 1) This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.. <br/> 2) This value is too long. It should have {{ limit }} character or less.|This value is too long. It should have {{ limit }} characters or less.. <br/> 3) Required and must be 3 digit long. <br/> 4) This value does not match the expected {{ charset }} charset.. <br/></li></ul></details>"
           },
           "isRetired": {
             "type": "bool",
