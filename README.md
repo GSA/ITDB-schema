@@ -1,37 +1,28 @@
-# ITDB-schema
-This repository is supplied by OMB for the CPIC Community. It's purpose is to act as a distribution point of CPIC Guidance schema files and also to act as as collaborative forum for reviewing proposed schema changes. Here CPIC developers can find the latest [OMB CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2019/07/FY-2021-IT-Budget-Guidance.pdf), XSD files, and their respective sample XML submission files, all of which will allow them to validate the structure of their own XML submission files. Our goals are as follow:
+# IT Collect-schema
+The IT Dashboard team aims to build a modern API that acts as the center-piece of a modular IT data reporting ecosystem. This Github repository is supplied by GSA for the CPIC Community in support of this new modernized API, known as IT Collect. Here CPIC developers can find the latest OMB CPIC Guidance and the API Schema specs that show the direction of IT Collect data architecture. The repository’s aim is to provide real-time updates to the IT Collect API. It will serve as living documentation of the latest changes. This repository also contains information related to the IT Dashboard environment, which will remain active until the launch of IT Collect. 
  
- * Community members should be able to download the latest [CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2019/07/FY-2021-IT-Budget-Guidance.pdf), XSD and XML files.
- * As changes are made by OMB developers, the XSD and sample XML files will be automatically updated.
+ * Community members should be able to download the latest [BY 2022 CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2020/11/FY22ITBudget_CapitalPlanningGuidance.pdf), and the [BY 2023 Submission Overview](https://itdashboard.gov/drupal/sites/itdb/files/BY_2023_IT_Collect_Submission%20_Overview.pdf).
+ * Community members should be able to view the latest [IT Collect API Schema](https://gsa.github.io/ITDB-schema/).
+ * As changes are made by IT Collect developers, the Open API spec will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
- * Members of this repository may fork and create pull requests of this code base if they wish to suggest changes to the schema or later submit additional XML test files.
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
 
+## IT Collect Documents
+IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs](https://github.com/GSA/ITDB-schema/tree/master/IT%20Collect%20Docs) folder in this repository. You can expect existing documents to be updated and new guides to be uploaded occasionally. We will communicate new document releases with the vendor community.
 
-## Recent IT Dashboard Deployments
-
-|  Event  |  Date |  Highlights | Deployed |
-|:-------------:|---|--------|:---:|
-| v2021.01.A.FY22.1.1          | January 21, 2021 | <ul><li>Linked BY 2022 Guidance on the Submission Confirmation Page, Added “Required” text to the Report Required column for the SIR Table, Added “Required” text to the Report Required column for the Contracts Report table </li></ul> | &#x2714;|
-| v2021.01.A.FY22.1.0             | January 15, 2021 | <ul><li>Updates to Submission Confirmation Page, Enabling the deletion of Reference PIID Data </li></ul> | &#x2714;|
-|  v2020.12.A.FY21.1.3 and v2020.12.A.FY22.1.2              | December 15, 2020 | <ul><li>DCOI & Cost Savings</li></ul> | &#x2714;|
-|  v2020.12.A.FY22.1.0, v2020.11.B.FY20.1.0, v2020.11.B.FY21.1.0, v2020.11.B.FY22.1.1                | December 2, 2020 | <ul><li>Routine Maintenance</li></ul> | &#x2714;|
-|  v2020.11.B.FY22.1.0               | November 24, 2020 | <ul><li>FY 2022 Business Case PDFs, Add Active System Function Codes, Remove Inactive Ricks from Risks Report Data Feed</li></ul> | &#x2714;|
-
-## Important Dates for the BY 2022 Pre-Decisional Budget Submission 
+## Important Dates for the BY 2023 Pre-Decisional Budget Submission 
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
-|  BY 2022 Guidance Release |  TBD | |
-|  BY 2022 UAT Environement Launch | July 13, 2020 | &#x2714;|
-|  BY 2022 UAT Schema Update | July 13, 2020 | &#x2714;|
-|  BY 2022 Submission Instructions, Schema Examples, and Validations Documenation Release | July 17, 2020 | &#x2714;|
-|  BY 2021 Production Environement Freeze |  August 31, 2020 | |
-|  BY 2022 Production Environement Launch |  Pending Guidance Release | |
-|  AITPS Window Opens |  Pending Guidance Release | |
-|  AITPD Window Opens |  Pending Guidance Release | |
-|  AITPS Window Closes |  Pending Guidance Release | |
-|  AITPD Window Closes  |  Pending Guidance Release | |
+|  BY 2023 Guidance Release |  TBD | |
+|  BY 2023 Submission Overview Document | June 15, 2021 | &#x2714;|
+|  BY 2023 Draft Pre-Decisional Cycle Schema | April 30, 2021 | &#x2714;|
+|  BY 2023 Final Pre-Decisoinal Cycle Schema | June 30, 2021 | |
+|  BY 2022 IT Dashboard Production Environement Freeze |  August 31, 2021 | |
+|  BY 2023 IT Collect Production Environement Launch |  Pending Guidance Release | |
+|  BY 2023 Submission Window Opens |  Pending Guidance Release | |
+|  BY 2023 Pre-Decisional Cycle Funding Lock Due |  Pending Guidance Release | |
+
   
 ## Asking questions and getting help
 
@@ -51,13 +42,6 @@ When submitting issues on GitHub, do not include any sensitive data. If you have
 Below you will find documentation outlining the GitHub Issue Process:
   * [Issue Work Flow](https://github.com/ombegov/ITDB-schema/blob/master/GitHubFlowChart2.jpg)
   * [Issue Review Process](https://github.com/ombegov/ITDB-schema/blob/master/GitHub_Flow-v2.jpg)
-
-
-## Contributing to the Repo
-
-If you are interested in making modifications to the code in our repo please fork this repo. Once you have implemented your changes, please do a pull request. Once we receive the pull request, we will review the suggested list of changes and update the status. Track the status of your pull request here: [Pull Requests](https://github.com/ombegov/ITDB-schema/pulls).
-
-
 
 ## FAQ
 ### How do I view releases/weekly changes to files?
