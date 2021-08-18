@@ -1,7 +1,7 @@
 # IT Collect-schema
 The IT Dashboard team aims to build a modern API that acts as the center-piece of a modular IT data reporting ecosystem. This Github repository is supplied by GSA for the CPIC Community in support of this new modernized API, known as IT Collect. Here CPIC developers can find the latest OMB CPIC Guidance and the API Schema specs that show the direction of IT Collect data architecture. The repository’s aim is to provide real-time updates to the IT Collect API. It will serve as living documentation of the latest changes. This repository also contains information related to the IT Dashboard environment, which will remain active until the launch of IT Collect. 
  
- * Community members should be able to download the latest [BY 2022 CPIC Guidance](https://www.whitehouse.gov/wp-content/uploads/2020/11/FY22ITBudget_CapitalPlanningGuidance.pdf), and the [BY 2023 Submission Overview](https://itdashboard.gov/drupal/sites/itdb/files/BY_2023_IT_Collect_Submission%20_Overview.pdf).
+ * Community members should be able to download the latest [BY 2023 A-11 Section 55](https://www.whitehouse.gov/wp-content/uploads/2018/06/s55.pdf), and the [BY 2023 Submission Overview](https://itdashboard.gov/drupal/sites/itdb/files/BY_2023_IT_Collect_Submission%20_Overview.pdf).
  * Community members should be able to view the latest [IT Collect API Schema](https://gsa.github.io/ITDB-schema/).
  * As changes are made by IT Collect developers, the Open API spec will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
@@ -14,14 +14,14 @@ IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs]
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
-|  BY 2023 Guidance Release |  TBD | |
+|  BY 2023 A-11 Release |  August 6, 2021 | &#x2714; |
 |  BY 2023 Submission Overview Document | June 15, 2021 | &#x2714;|
 |  BY 2023 Draft Pre-Decisional Cycle Schema | April 30, 2021 | &#x2714;|
-|  BY 2023 Final Pre-Decisoinal Cycle Schema | June 30, 2021 | |
+|  BY 2023 Final Pre-Decisoinal Cycle Schema | June 30, 2021 | &#x2714; |
 |  BY 2022 IT Dashboard Production Environement Freeze |  August 31, 2021 | |
-|  BY 2023 IT Collect Production Environement Launch |  Pending Guidance Release | |
-|  BY 2023 Submission Window Opens |  Pending Guidance Release | |
-|  BY 2023 Pre-Decisional Cycle Funding Lock Due |  Pending Guidance Release | |
+|  BY 2023 IT Collect Production Environement Launch |  September 1, 2021 | |
+|  BY 2023 Submission Window Opens |  September 16, 2021 | |
+|  BY 2023 Pre-Decisional Cycle Funding Lock Due |  September 30, 2021 | |
 
   
 ## Asking questions and getting help
