@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "IT Collect",
-    "version": "0.0.5-beta",
+    "version": "0.0.6-beta",
       "description": "IT Collect will utilize the OAuth2 Authorization framework to authenticate vendor client\napplications to start using our APIs. A walk-through of client configuration for Postman is\noutlined below. All current documentation and application features are currently undergoing\ndevelopment.\n\nAs part of your vendor application you will need to authenticate via an OAuth 2.0 compatible\nclient library using the Authorization Code Grant Type. Once a token is received from the\nIT Collect OAuth server it will need to be included as part of an HTTP Request Header for\nsubsequent requests to API endpoints. CURL Example:\n\n```console\ncurl -X GET \"http://itcollect-url-tbd/v1/services\"  -H  \"Authorization: Bearer YOUR-TOKEN-HERE\" -H  \"accept: application/ld+json\"\n```\n\n#### Prerequisites\n- Request an OAuth 2 identifier and secret from IT Collect team.\n- Request a sandbox user account.\n- Provider IT Collect with an OAuth 2.0 compatible callback URL\n\n#### Postman\n\n[Postman](https://www.postman.com/) is an API Client that you can use for communication\nwith IT Collect.\n\n#### Vendor Steps\n\n1. Create a new Postman Collection and import the OpenAPI spec\n\n2. Edit the Collection\n\n3. Switch to the Authorization tab and select `OAuth 2.0`\n\n4. Click the \"Get New Access Token\" button leaving Header Prefix as `Bearer`.\n\n| Setting | Value |\n| ------------- | ------------- |\n| Token Name | Bearer |\n| Grant Type | Authorization Code |\n| * Callback URL | https://app.getpostman.com/oauth2/callback |\n| * Authorize using browser | Yes, enable this option |\n| Auth URL (TBD) | https://dev-itcollect-oauth.itcollect.domain/oauth/authorize |\n| Access Token URL (TBD) | https://dev-itcollect-oauth.itcollect.domain.com/oauth/token |\n| Client ID | *{Request from IT Collect}* |\n| Client Secret | *{Request from IT Collect}* |\n| * State |  |\n| Client Authentication | Send client credentials in body |\n\n> * Callback URL: Vendor application callback URL.  Will depend on individual vendor\nimplementation.  Must be provided to IT Collect team prior to implementation.\n> * Authorize using browser: This option is specific to PostMan and is required for PIV\ncards to be used by Login.gov. PostMan cannot read PIVs so a browser is required for this\nstep.\n> * State: This is an optional parameter, leave blank in Postman, but you may provide a\nstate in your vendor application. You may use this as CSRF protection mechanism or to\nassist in maintaining a state such as a session key.\n\n5. Click \"Request Token\"\n\n6. Login using either your sandbox user account or your login.gov account (see below).\n\nYou should now have an access token suitable for defining the HTTP Authorization Header.\n\n#### Login.gov PIV card\n\nPIV (Personal Identity Verification) cards testing steps\n\n1. Once the browser window has opened (you may need to allow popups in your browse for this\ndomain) click \"Login with Login.gov\"\n\n2. Provide your Login.gov credentials using either your PIV access card or username and\npassword credentials.\n\nYou should now have an access token suitable for defining in the HTTP Authorization Header.\n\n# Authentication\n\n<!-- ReDoc-Inject: <security-definitions> -->",
       "x-logo": {
       "url": "images/logo-gsa.svg",
@@ -1591,7 +1591,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Bureaus resource updated",
+                        "description": "Bureaus resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -2169,7 +2169,7 @@
                         }
                     },
                     "204": {
-                        "description": "Bureaus resource successfully deleted",
+                        "description": "Bureaus resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -4727,7 +4727,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "CioAuthority resource updated",
+                        "description": "CioAuthority resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -5305,7 +5305,7 @@
                         }
                     },
                     "204": {
-                        "description": "CioAuthority resource successfully deleted",
+                        "description": "CioAuthority resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -7759,7 +7759,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "FundingSources resource updated",
+                        "description": "FundingSources resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -8332,7 +8332,7 @@
                         }
                     },
                     "204": {
-                        "description": "FundingSources resource successfully deleted",
+                        "description": "FundingSources resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -10796,7 +10796,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Rebaseline resource updated",
+                        "description": "Rebaseline resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -11374,7 +11374,7 @@
                         }
                     },
                     "204": {
-                        "description": "Rebaseline resource successfully deleted",
+                        "description": "Rebaseline resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -12850,6 +12850,24 @@
                 "description": "Retrieves the collection of Services resources.",
                 "parameters": [
                     {
+                        "name": "isMasked",
+                        "in": "query",
+                        "description": "Shows data that is masked, data that is not masked or all data.",
+                        "required": false,
+                        "deprecated": false,
+                        "allowEmptyValue": false,
+                        "schema": {
+                            "type": "bool",
+                            "enum": [
+                                true,
+                                false
+                            ]
+                        },
+                        "style": "form",
+                        "explode": false,
+                        "allowReserved": false
+                    },
+                    {
                         "name": "page",
                         "in": "query",
                         "description": "The collection page number",
@@ -13932,7 +13950,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Services resource updated",
+                        "description": "Services resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -16625,7 +16643,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "CioRating resource updated",
+                        "description": "CioRating resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -17215,7 +17233,7 @@
                         }
                     },
                     "204": {
-                        "description": "CioRating resource successfully deleted",
+                        "description": "CioRating resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -19783,7 +19801,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Contract resource updated",
+                        "description": "Contract resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -20373,7 +20391,7 @@
                         }
                     },
                     "204": {
-                        "description": "Contract resource successfully deleted",
+                        "description": "Contract resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -21983,6 +22001,20 @@
                         "allowReserved": false
                     },
                     {
+                        "name": "isMasked",
+                        "in": "query",
+                        "description": "",
+                        "required": false,
+                        "deprecated": false,
+                        "allowEmptyValue": true,
+                        "schema": {
+                            "type": "boolean"
+                        },
+                        "style": "form",
+                        "explode": false,
+                        "allowReserved": false
+                    },
+                    {
                         "name": "lastModified[lastModified]",
                         "in": "query",
                         "description": "",
@@ -23045,7 +23077,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Ledger resource updated",
+                        "description": "Ledger resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -25775,7 +25807,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "OperationalAnalysis resource updated",
+                        "description": "OperationalAnalysis resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -26365,7 +26397,7 @@
                         }
                     },
                     "204": {
-                        "description": "OperationalAnalysis resource successfully deleted",
+                        "description": "OperationalAnalysis resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -27921,6 +27953,20 @@
                         "style": "form",
                         "explode": false,
                         "allowReserved": false
+                    },
+                    {
+                        "name": "isMasked",
+                        "in": "query",
+                        "description": "",
+                        "required": false,
+                        "deprecated": false,
+                        "allowEmptyValue": true,
+                        "schema": {
+                            "type": "boolean"
+                        },
+                        "style": "form",
+                        "explode": false,
+                        "allowReserved": false
                     }
                 ],
                 "deprecated": false
@@ -28933,7 +28979,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Projects resource updated",
+                        "description": "Projects resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -29523,7 +29569,7 @@
                         }
                     },
                     "204": {
-                        "description": "Projects resource successfully deleted",
+                        "description": "Projects resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -32139,7 +32185,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Activity resource updated",
+                        "description": "Activity resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -32741,7 +32787,7 @@
                         }
                     },
                     "204": {
-                        "description": "Activity resource successfully deleted",
+                        "description": "Activity resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -35276,7 +35322,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "SharedServicesIds resource updated",
+                        "description": "SharedServicesIds resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -35854,7 +35900,7 @@
                         }
                     },
                     "204": {
-                        "description": "SharedServicesIds resource successfully deleted",
+                        "description": "SharedServicesIds resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -38318,7 +38364,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "SubmissionControl resource updated",
+                        "description": "SubmissionControl resource replaced",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -38896,7 +38942,7 @@
                         }
                     },
                     "204": {
-                        "description": "SubmissionControl resource successfully deleted",
+                        "description": "SubmissionControl resource deleted",
                         "content": {
                             "application/ld+json": {
                                 "schema": {
@@ -40074,7 +40120,6 @@
                         }
                     },
                     "lowestLevel": {
-                        "readOnly": true,
                         "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
                         "type": "boolean"
                     },
@@ -40123,7 +40168,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity-read": {
@@ -40295,7 +40341,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity-readItem_readItemSubRes_supService": {
@@ -40419,6 +40466,10 @@
                             "type": "string"
                         }
                     },
+                    "lowestLevel": {
+                        "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
+                        "type": "boolean"
+                    },
                     "created": {
                         "type": "string",
                         "format": "timestamp",
@@ -40463,7 +40514,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity-read_create": {
@@ -40635,7 +40687,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity-read_readItem": {
@@ -40807,7 +40860,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity-write": {
@@ -40823,7 +40877,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ],
                 "properties": {
                     "activityName": {
@@ -40927,6 +40982,10 @@
                         "format": "string",
                         "example": "",
                         "description": "Baseline fields include:\n\n- plannedStartDate\n- plannedEndDate\n- plannedTotalCost\n\nA valid rebaseLineId is required if your are modifying baseline fields."
+                    },
+                    "lowestLevel": {
+                        "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
+                        "type": "boolean"
                     }
                 }
             },
@@ -41058,7 +41117,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld": {
@@ -41230,7 +41290,6 @@
                         }
                     },
                     "lowestLevel": {
-                        "readOnly": true,
                         "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
                         "type": "boolean"
                     },
@@ -41279,7 +41338,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld-read": {
@@ -41486,7 +41546,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld-readItem_readItemSubRes_supService": {
@@ -41645,6 +41706,10 @@
                             "type": "string"
                         }
                     },
+                    "lowestLevel": {
+                        "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
+                        "type": "boolean"
+                    },
                     "created": {
                         "type": "string",
                         "format": "timestamp",
@@ -41689,7 +41754,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld-read_create": {
@@ -41896,7 +41962,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld-read_readItem": {
@@ -42103,7 +42170,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "Activity.jsonld-write": {
@@ -42119,7 +42187,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ],
                 "properties": {
                     "@context": {
@@ -42258,6 +42327,10 @@
                         "format": "string",
                         "example": "",
                         "description": "Baseline fields include:\n\n- plannedStartDate\n- plannedEndDate\n- plannedTotalCost\n\nA valid rebaseLineId is required if your are modifying baseline fields."
+                    },
+                    "lowestLevel": {
+                        "description": "A boolean indicating whether or not this Activity is at the \"lowest level\" as defined by the\nstructureId",
+                        "type": "boolean"
                     }
                 }
             },
@@ -42424,7 +42497,8 @@
                     "projectedEndDate",
                     "plannedTotalCost",
                     "projectedTotalCost",
-                    "structureId"
+                    "structureId",
+                    "lowestLevel"
                 ]
             },
             "AuditDoc-read_readItem_rebaseline-readItem": {
@@ -42868,13 +42942,6 @@
                         "readOnly": true,
                         "type": "string"
                     },
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -42931,13 +42998,6 @@
                 "description": "",
                 "additionalProperties": false,
                 "properties": {
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -42994,13 +43054,6 @@
                 "description": "",
                 "additionalProperties": false,
                 "properties": {
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -43113,13 +43166,6 @@
                 "description": "",
                 "additionalProperties": false,
                 "properties": {
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -43215,13 +43261,6 @@
                         "readOnly": true,
                         "type": "string"
                     },
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -43285,13 +43324,6 @@
                     "@type": {
                         "readOnly": true,
                         "type": "string"
-                    },
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
                     },
                     "bureauCode": {
                         "type": "string",
@@ -43383,13 +43415,6 @@
                     "@type": {
                         "readOnly": true,
                         "type": "string"
-                    },
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
                     },
                     "bureauCode": {
                         "type": "string",
@@ -43573,13 +43598,6 @@
                         "readOnly": true,
                         "type": "string"
                     },
-                    "agencyId": {
-                        "type": "string",
-                        "format": "alphanumeric",
-                        "minLength": 1,
-                        "maxLength": 64,
-                        "description": "A unique identifier for the document provided by the submitting user."
-                    },
                     "bureauCode": {
                         "type": "string",
                         "format": "number",
@@ -43666,6 +43684,13 @@
                     "agency": {
                         "type": "string"
                     },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
+                    },
                     "created": {
                         "type": "string",
                         "format": "timestamp",
@@ -43738,6 +43763,13 @@
                     "agency": {
                         "type": "string"
                     },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
+                    },
                     "created": {
                         "type": "string",
                         "format": "timestamp",
@@ -43809,6 +43841,13 @@
                     },
                     "agency": {
                         "type": "string"
+                    },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
                     },
                     "created": {
                         "type": "string",
@@ -43984,6 +44023,13 @@
                     "agency": {
                         "type": "string"
                     },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
+                    },
                     "created": {
                         "type": "string",
                         "format": "timestamp",
@@ -44063,6 +44109,13 @@
                     },
                     "agency": {
                         "type": "string"
+                    },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
                     },
                     "created": {
                         "type": "string",
@@ -44170,6 +44223,13 @@
                     },
                     "agency": {
                         "type": "string"
+                    },
+                    "isMasked": {
+                        "type": "bool",
+                        "example": true,
+                        "readOnly": true,
+                        "description": "A readonly boolean indicating whether the document is masked from the public.",
+                        "default": true
                     },
                     "created": {
                         "type": "string",
@@ -51771,7 +51831,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "created": {
@@ -51816,7 +51876,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects-read": {
@@ -51998,7 +52059,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects-readItem_readItemSubRes_supService": {
@@ -52158,7 +52220,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects-read_create": {
@@ -52340,7 +52403,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects-read_readItem": {
@@ -52529,7 +52593,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects-write": {
@@ -52542,7 +52607,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ],
                 "properties": {
                     "projectId": {
@@ -52744,7 +52810,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld": {
@@ -52943,7 +53010,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "created": {
@@ -52988,7 +53055,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld-read": {
@@ -53178,7 +53246,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld-readItem_readItemSubRes_supService": {
@@ -53373,7 +53442,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld-read_create": {
@@ -53590,7 +53660,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld-read_readItem": {
@@ -53814,7 +53885,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "Projects.jsonld-write": {
@@ -53827,7 +53899,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ],
                 "properties": {
                     "@context": {
@@ -54099,7 +54172,8 @@
                     "projectGoal",
                     "startDate",
                     "endDate",
-                    "totalCost"
+                    "totalCost",
+                    "softwareProject"
                 ]
             },
             "ProjectsFeed.jsonld-projectsFeed_read": {
@@ -54379,7 +54453,7 @@
                         "description": "Stores change fields",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "created": {
@@ -55054,7 +55128,7 @@
                         "description": "Stores change fields",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "created": {
@@ -55922,6 +55996,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -56112,7 +56187,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "cioRatings": {
@@ -56121,7 +56196,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "ledgers": {
@@ -56129,7 +56204,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "user": {
@@ -56143,7 +56218,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "operationalAnalysis": {
@@ -56152,7 +56227,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     }
                 },
@@ -56324,6 +56399,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -56688,6 +56764,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -57030,6 +57107,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -57344,6 +57422,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -57604,6 +57683,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -57956,6 +58036,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -58146,7 +58227,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "cioRatings": {
@@ -58155,7 +58236,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "ledgers": {
@@ -58163,7 +58244,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "user": {
@@ -58177,7 +58258,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     },
                     "operationalAnalysis": {
@@ -58186,7 +58267,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "format": "string"
+                            "format": "iri-reference"
                         }
                     }
                 },
@@ -58393,6 +58474,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -58792,6 +58874,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -59142,6 +59225,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -59491,6 +59575,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -59786,6 +59871,7 @@
                                 "maxLength": 4
                             }
                         ],
+                        "pattern": "^(.*(^(0|[1-9][0-9]*)$).*)$",
                         "type": "digit",
                         "format": "string",
                         "example": "0024",
@@ -61938,8 +62024,8 @@
                 "description": "The web-based Api-Platform UI is an API client hosted by IT Collect. Browse to https://itcollect.tbd.domain/oauth/token\n\n1) Click the \"Authorize\" button in the top-right\n\n2) Enter your Client ID and Secret.\n\n3) Click \"Authorize\"\n\n4) Login using either your sandbox user account.",
                 "flows": {
                     "authorizationCode": {
-                        "authorizationUrl": "https://itcollect.tbd.domain/oauth/authorize",
-                        "tokenUrl": "https://itcollect.tbd.domain/oauth/token",
+                        "authorizationUrl": "http://itcollect.tbd.domain/oauth/authorize",
+                        "tokenUrl": "http://itcollect.tbd.domain/oauth/token",
                         "scopes": {}
                     }
                 }
