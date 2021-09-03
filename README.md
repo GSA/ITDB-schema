@@ -18,7 +18,7 @@ IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs]
 |  BY 2023 Submission Overview Document | June 15, 2021 | &#x2714;|
 |  BY 2023 Draft Pre-Decisional Cycle Schema | April 30, 2021 | &#x2714;|
 |  BY 2023 Final Pre-Decisoinal Cycle Schema | June 30, 2021 | &#x2714; |
-|  BY 2022 IT Dashboard Production Environement Freeze |  August 31, 2021 | |
+|  BY 2022 IT Dashboard Production Environement Freeze |  August 31, 2021 | &#x2714;|
 |  BY 2023 IT Collect Production Environement Launch |  September 1, 2021 | |
 |  BY 2023 Submission Window Opens |  September 16, 2021 | |
 |  BY 2023 Pre-Decisional Cycle Funding Lock Due |  September 30, 2021 | |
