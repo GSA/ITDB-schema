@@ -1,7 +1,7 @@
 # IT Collect-schema
 This Github repository is supplied by GSA for the IT Portfolio Management (ITPfM) Community in support of modernized IT Collect API. Here ITPfM developers can find the latest ITPfM policy Guidance and the API Schema specs that show the direction of IT Collect data architecture. The repository’s aim is to provide real-time updates to the IT Collect API. It will serve as living documentation of the latest changes.  
  
- * Community members should be able to download the latest [BY 2023 A-11 Section 55](https://www.whitehouse.gov/wp-content/uploads/2018/06/s55.pdf), and the [BY 2023 Submission Overview](https://itdashboard.gov/drupal/sites/itdb/files/BY_2023_IT_Collect_Submission%20_Overview.pdf).
+ * Community members should be able to download the latest [BY 2023 A-11 Section 55](https://www.whitehouse.gov/wp-content/uploads/2018/06/s55.pdf), and the [BY 2024 Submission Overview](https://www.itdashboard.gov/document-search).
  * Community members should be able to view the latest [IT Collect BY 2024 ITPfM Draft API Schema](https://gsa.github.io/ITDB-schema/).
  * As changes are made by IT Collect developers, the Open API spec will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
@@ -16,10 +16,12 @@ IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs]
 |:-------------|:-------------:|:---:|
 |  BY 2024 Draft ITPfM Submission Schema | April 29, 2022 | &#x2714;|
 |  BY 2024 Draft ITPfM Submission Technical Addendum | May 4, 2022 | &#x2714;|
-|  BY 2024 Submission Overview Document | May 18, 2022 | |
-|  BY 2024 95% ITPfM Submission Schema | Late May, 2022 | |
-|  BY 2024 ITPfM Vendor Submission Candidate |  Mid June, 2022 | |
-|  BY 2024 Pre-Decisional ITPfM Submission Cycle |  September, 2022 | |
+|  BY 2024 Submission Overview Document | May 18, 2022 | &#x2714;|
+|  BY 2024 v1 ITPfM Submission Schema | June 1, 2022 | &#x2714;|
+|  BY 2024 ITPfM Vendor Submission Candidate Release | June 23, 2022 | &#x2714;|
+|  BY 2024 Pre-Decisional ITPfM Submissions Open |  September 15, 2022 | |
+|  BY 2024 Pre-Decisional Funding Locks Due |  September 29, 2022 | |
+|  BY 2024 Projects, Performance Metrics, and Investment Risk Data Due |  October 27, 2022 | |
 
   
 ## Asking questions and getting help
