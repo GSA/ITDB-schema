@@ -10,7 +10,7 @@ This Github repository is supplied by GSA for the IT Portfolio Management (ITPfM
 ## IT Collect Documents
 IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs](https://github.com/GSA/ITDB-schema/tree/master/IT%20Collect%20Docs) folder in this repository. You can expect existing documents to be updated and new guides to be uploaded occasionally. We will communicate new document releases with the vendor community.
 
-## Important Dates for the BY 2024 Budget Submission s
+## Important Dates for the BY 2024 Budget Submissions
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
