@@ -10,7 +10,7 @@ This Github repository is supplied by GSA for the IT Portfolio Management (ITPfM
 ## IT Collect Documents
 IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs](https://github.com/GSA/ITDB-schema/tree/master/IT%20Collect%20Docs) folder in this repository. You can expect existing documents to be updated and new guides to be uploaded occasionally. We will communicate new document releases with the vendor community.
 
-## Important Dates for the BY 2023 Pre-Decisional Budget Submission 
+## Important Dates for the BY 2024 Budget Submission s
 
 |  Event  |  Date | Released |
 |:-------------|:-------------:|:---:|
@@ -22,7 +22,9 @@ IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs]
 |  BY 2024 ITPfM UAT Environment Release | August 15, 2022 | &#x2714;|
 |  BY 2024 Pre-Decisional ITPfM Submissions Open |  September 15, 2022 | &#x2714;|
 |  BY 2024 Pre-Decisional Funding Locks Due |  September 29, 2022 | &#x2714;|
-|  BY 2024 Projects, Performance Metrics, and Investment Risk Data Due |  October 27, 2022 | |
+|  BY 2024 Projects, Performance Metrics, and Investment Risk Data Due |  October 27, 2022 | &#x2714;|
+|  BY 2024 President's Budget ITPfM Submissions Open |  February 16, 2023 | |
+|  BY 2024 President's Budget Funding Locks Due |  March 2, 2023 | |
 
   
 ## Asking questions and getting help
