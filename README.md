@@ -23,7 +23,7 @@ IT Collect How-To Guides and FAQ documents can be found in the [IT Collect Docs]
 |  BY 2024 Pre-Decisional ITPfM Submissions Open |  September 15, 2022 | &#x2714;|
 |  BY 2024 Pre-Decisional Funding Locks Due |  September 29, 2022 | &#x2714;|
 |  BY 2024 Projects, Performance Metrics, and Investment Risk Data Due |  October 27, 2022 | &#x2714;|
-|  BY 2024 President's Budget ITPfM Submissions Open |  February 16, 2023 | |
+|  BY 2024 President's Budget ITPfM Submissions Open |  February 16, 2023 | &#x2714; |
 |  BY 2024 President's Budget Funding Locks Due |  March 2, 2023 | |
 
   
