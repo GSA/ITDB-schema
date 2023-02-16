@@ -1,0 +1,387 @@
+bureauName,agencyCode,bureauCode
+Senate,001,05
+House of Representatives,001,10
+Joint Items,001,11
+Capitol Police,001,13
+Office of Congressional Workplace Rights,001,12
+Congressional Budget Office,001,14
+Architect of the Capitol,001,15
+Botanic Garden,001,18
+Library of Congress,001,25
+Government Publishing Office,001,30
+Government Accountability Office,001,35
+United States Tax Court,001,40
+Legislative Branch Boards and Commissions,001,45
+Legislative Branch Boards and Commissions,001,45
+Judicial Branch,002,00
+Supreme Court of the United States,002,05
+United States Court of Appeals for the Federal Circuit,002,07
+United States Court of International Trade,002,15
+"Courts of Appeals, District Courts, and Other Judicial Services",002,25
+Administrative Office of the United States Courts,002,26
+Federal Judicial Center,002,30
+Judicial Retirement Funds,002,35
+United States Sentencing Commission,002,39
+Department of Agriculture,005,00
+Office of the Secretary,005,03
+Executive Operations,005,04
+Office of Chief Information Officer,005,12
+Office of Chief Financial Officer,005,14
+Office of Civil Rights,005,07
+Hazardous Materials Management,005,16
+Buildings and Facilities,005,19
+Office of Inspector General,005,08
+Office of the General Counsel,005,10
+Economic Research Service,005,13
+National Agricultural Statistics Service,005,15
+Agricultural Research Service,005,18
+National Institute of Food and Agriculture,005,20
+Animal and Plant Health Inspection Service,005,32
+Food Safety and Inspection Service,005,35
+"Grain Inspection, Packers and Stockyards Administration",005,37
+Agricultural Marketing Service,005,45
+Farm Production and Conservation,005,25
+Risk Management Agency,005,47
+Farm Service Agency,005,49
+Natural Resources Conservation Service,005,53
+Rural Development,005,55
+Rural Housing Service,005,63
+Rural Business-Cooperative Service,005,65
+Rural Utilities Service,005,60
+Foreign Agricultural Service,005,68
+Food and Nutrition Service,005,84
+Forest Service,005,96
+Department of Commerce,006,00
+Departmental Management,006,05
+Economic Development Administration,006,06
+Bureau of the Census,006,07
+Bureau of Economic Analysis,006,08
+International Trade Administration,006,25
+Bureau of Industry and Security,006,30
+Minority Business Development Agency,006,40
+National Oceanic and Atmospheric Administration,006,48
+U.S. Patent and Trademark Office,006,51
+National Technical Information Service,006,54
+National Institute of Standards and Technology,006,55
+National Telecommunications and Information Administration,006,60
+Department of Defense--Military Programs,007,00
+Military Personnel,007,05
+Operation and Maintenance,007,10
+International Reconstruction and Other Assistance,007,12
+Procurement,007,15
+"Research, Development, Test, and Evaluation",007,20
+Military Construction,007,25
+Family Housing,007,30
+Revolving and Management Funds,007,40
+Allowances,007,45
+Trust Funds,007,55
+Department of Education,018,00
+Office of Elementary and Secondary Education,018,10
+Office of Innovation and Improvement,018,12
+Office of English Language Acquisition,018,15
+Office of Special Education and Rehabilitative Services,018,20
+"Office of Career, Technical, and Adult Education",018,30
+Office of Postsecondary Education,018,40
+Office of Federal Student Aid,018,45
+Institute of Education Sciences,018,50
+Departmental Management,018,80
+Disaster Education Recovery,018,85
+Department of Energy,019,00
+National Nuclear Security Administration,019,05
+Environmental and Other Defense Activities,019,10
+Energy Programs,019,20
+Power Marketing Administration,019,50
+Departmental Administration,019,60
+Department of Health and Human Services,009,00
+Food and Drug Administration,009,10
+Health Resources and Services Administration,009,15
+Indian Health Service,009,17
+Centers for Disease Control and Prevention,009,20
+National Institutes of Health,009,25
+Substance Abuse and Mental Health Services Administration,009,30
+Agency for Healthcare Research and Quality,009,33
+Centers for Medicare and Medicaid Services,009,38
+Administration for Children and Families,009,70
+Administration for Community Living,009,75
+Departmental Management,009,90
+Program Support Center,009,91
+Office of the Inspector General,009,92
+Department of Homeland Security,024,00
+Office of the Secretary and Executive Management,024,10
+Management Directorate,024,15
+Analysis and Operations,024,18
+Office of the Inspector General,024,20
+U.S. Customs and Border Protection,024,58
+U.S. Immigration and Customs Enforcement,024,55
+Transportation Security Administration,024,45
+United States Coast Guard,024,60
+United States Secret Service,024,40
+Cybersecurity and Infrastructure Security Agency,024,65
+Office of Health Affairs,024,68
+Federal Emergency Management Agency,024,70
+Citizenship and Immigration Services,024,30
+Federal Law Enforcement Training Center,024,49
+Science and Technology,024,80
+Countering Weapons of Mass Destruction Office,024,85
+Department of Housing and Urban Development,025,00
+Public and Indian Housing Programs,025,03
+Community Planning and Development,025,06
+Housing Programs,025,09
+Housing Supply,025,10
+Government National Mortgage Association,025,12
+Policy Development and Research,025,28
+Fair Housing and Equal Opportunity,025,29
+Office of Lead Hazard Control and Healthy Homes,025,32
+Management and Administration,025,35
+Department of the Interior,010,00
+Bureau of Land Management,010,04
+Bureau of Ocean Energy Management,010,06
+Bureau of Safety and Environmental Enforcement,010,22
+Office of Surface Mining Reclamation and Enforcement,010,08
+Bureau of Reclamation,010,10
+Central Utah Project,010,11
+United States Geological Survey,010,12
+United States Fish and Wildlife Service,010,18
+National Park Service,010,24
+Bureau of Indian Affairs,010,76
+Bureau of Indian Education,010,77
+Departmental Offices,010,84
+Insular Affairs,010,85
+Office of the Solicitor,010,86
+Office of Inspector General,010,88
+Office of the Special Trustee for American Indians,010,90
+Bureau of Trust Funds Administration,010,78
+National Indian Gaming Commission,010,92
+Department-Wide Programs,010,95
+Department of Justice,011,00
+General Administration,011,03
+United States Parole Commission,011,04
+Legal Activities and U.S. Marshals,011,05
+National Security Division,011,08
+Radiation Exposure Compensation,011,06
+Interagency Law Enforcement,011,07
+Federal Bureau of Investigation,011,10
+Drug Enforcement Administration,011,12
+"Bureau of Alcohol, Tobacco, Firearms, and Explosives",011,14
+Federal Prison System,011,20
+Office of Justice Programs,011,21
+Department of Labor,012,00
+Employment and Training Administration,012,05
+Employee Benefits Security Administration,012,11
+Pension Benefit Guaranty Corporation,012,12
+Office of Workers' Compensation Programs,012,15
+Wage and Hour Division,012,16
+Office of Federal Contract Compliance Programs,012,22
+Office of Labor Management Standards,012,23
+Occupational Safety and Health Administration,012,18
+Mine Safety and Health Administration,012,19
+Bureau of Labor Statistics,012,20
+Departmental Management,012,25
+Department of State,014,00
+Department of State,014,00
+Administration of Foreign Affairs,014,05
+International Organizations and Conferences,014,10
+International Commissions,014,15
+Other,014,25
+Other,014,25
+International Assistance Programs,184,00
+Millennium Challenge Corporation,184,03
+International Security Assistance,184,05
+Multilateral Assistance,184,10
+Agency for International Development,184,15
+Overseas Private Investment Corporation,184,20
+Trade and Development Agency,184,25
+United States International Development Finance Corporation,184,22
+Peace Corps,184,35
+Inter-American Foundation,184,40
+African Development Foundation,184,50
+International Monetary Programs,184,60
+Military Sales Program,184,70
+Foreign Assistance Program Allowances,184,95
+Department of Transportation,021,00
+Office of the Secretary,021,04
+Federal Aviation Administration,021,12
+Federal Highway Administration,021,15
+Federal Motor Carrier Safety Administration,021,17
+National Highway Traffic Safety Administration,021,18
+Federal Railroad Administration,021,27
+Federal Transit Administration,021,36
+Saint Lawrence Seaway Development Corporation,021,40
+Pipeline and Hazardous Materials Safety Administration,021,50
+Office of Inspector General,021,56
+Surface Transportation Board,021,61
+Maritime Administration,021,70
+Department of the Treasury,015,00
+Departmental Offices,015,05
+Financial Crimes Enforcement Network,015,04
+Fiscal Service,015,12
+Federal Financing Bank,015,11
+Alcohol and Tobacco Tax and Trade Bureau,015,13
+Bureau of Engraving and Printing,015,20
+United States Mint,015,25
+Internal Revenue Service,015,45
+Comptroller of the Currency,015,57
+Interest on the Public Debt,015,60
+Department of Veterans Affairs,029,00
+Veterans Health Administration,029,15
+Benefits Programs,029,25
+Departmental Administration,029,40
+Corps of Engineers--Civil Works,202,00
+Military Retirement,200,05
+Retiree Health Care,200,07
+Educational Benefits,200,10
+American Battle Monuments Commission,200,15
+Armed Forces Retirement Home,200,20
+Cemeterial Expenses,200,25
+"Forest and Wildlife Conservation, Military Reservations",200,30
+Selective Service System,200,45
+Other Defense Civil Programs,200,00
+Environmental Protection Agency,020,00
+The White House,100,05
+Executive Residence at the White House,100,10
+Special Assistance to the President and the Official Residence of the Vice President,100,15
+Council of Economic Advisers,100,20
+Council on Environmental Quality and Office of Environmental Quality,100,25
+National Security Council and Homeland Security Council,100,35
+Office of the National Cyber Director,100,37
+Office of Administration,100,50
+Office of Management and Budget,100,55
+Office of National Drug Control Policy,100,60
+Office of Science and Technology Policy,100,65
+National Space Council,100,40
+Office of the United States Trade Representative,100,70
+Unanticipated Needs,100,95
+General Services Administration,023,00
+Real Property Activities,023,05
+Supply and Technology Activities,023,10
+General Activities,023,30
+National Aeronautics and Space Administration,026,00
+National Science Foundation,422,00
+Office of Personnel Management,027,00
+Small Business Administration,028,00
+Social Security Administration,016,00
+400 Years of African-American History Commission,247,00
+Access Board,310,00
+Administrative Conference of the United States,302,00
+Advisory Council on Historic Preservation,306,00
+Alyce Spotted Bear and Walter Soboleff Commission on Native Children,545,00
+Appalachian Regional Commission,309,00
+Barry Goldwater Scholarship and Excellence in Education Foundation,313,00
+Bureau of Consumer Financial Protection,581,00
+Central Intelligence Agency,316,00
+Chemical Safety and Hazard Investigation Board,510,00
+Commission of Fine Arts,323,00
+Commission on Civil Rights,326,00
+Commission on Combating Synthetic Opioid Trafficking,256,00
+Committee for Purchase from People who are Blind or Severely Disabled,338,00
+Commodity Futures Trading Commission,339,00
+Consumer Product Safety Commission,343,00
+Corporation for National and Community Service,485,00
+Corporation for Public Broadcasting,344,00
+Council of the Inspectors General on Integrity and Efficiency,542,00
+Court Services and Offender Supervision Agency for the District of Columbia,511,00
+Defense Nuclear Facilities Safety Board,347,00
+Delta Regional Authority,517,00
+Denali Commission,513,00
+District of Columbia Courts,349,10
+District of Columbia Courts,349,10
+District of Columbia General and Special Payments,349,30
+Election Assistance Commission,525,00
+Equal Employment Opportunity Commission,350,00
+Export-Import Bank of the United States,351,00
+Farm Credit Administration,352,00
+Farm Credit System Insurance Corporation,355,00
+Federal Communications Commission,356,00
+Deposit Insurance,357,20
+FSLIC Resolution,357,30
+Orderly Liquidation,357,35
+FDIC Office of Inspector General,357,40
+Federal Drug Control Programs,154,00
+Federal Election Commission,360,00
+Federal Financial Institutions Examination Council,362,10
+Federal Financial Institutions Examination Council Appraisal Subcommittee,362,20
+Federal Housing Finance Agency,537,00
+Federal Labor Relations Authority,365,00
+Federal Maritime Commission,366,00
+Federal Mediation and Conciliation Service,367,00
+Federal Mine Safety and Health Review Commission,368,00
+Federal Permitting Improvement Council,473,00
+Federal Trade Commission,370,00
+Gulf Coast Ecosystem Restoration Council,586,00
+Harry S Truman Scholarship Foundation,372,00
+Independent Payment Advisory Board,578,00
+Indian Law and Order Commission,584,00
+Institute of American Indian and Alaska Native Culture and Arts Development,373,00
+Institute of Museum and Library Services,474,00
+Intelligence Community Management Account,467,00
+International Trade Commission,378,00
+James Madison Memorial Fellowship Foundation,381,00
+Japan-United States Friendship Commission,382,00
+Legal Services Corporation,385,00
+Marine Mammal Commission,387,00
+Merit Systems Protection Board,389,00
+Military Compensation and Retirement Modernization Commission,479,00
+Morris K. Udall and Stewart L. Udall Foundation,487,00
+National Archives and Records Administration,393,00
+National Capital Planning Commission,394,00
+"National Commission on Military, National, and Public Service",236,00
+National Commission on Military Aviation Safety,246,00
+National Council on Disability,413,00
+National Credit Union Administration,415,00
+National Endowment for the Arts,417,00
+National Endowment for the Humanities,418,00
+National Labor Relations Board,420,00
+National Mediation Board,421,00
+National Railroad Passenger Corporation Office of Inspector General,575,00
+National Security Commission on Artificial Intelligence,245,00
+National Transportation Safety Board,424,00
+Neighborhood Reinvestment Corporation,428,00
+Northern Border Regional Commission,573,00
+Nuclear Regulatory Commission,429,00
+Nuclear Waste Technical Review Board,431,00
+Occupational Safety and Health Review Commission,432,00
+Office of Government Ethics,434,00
+Office of Navajo and Hopi Indian Relocation,435,00
+Office of Special Counsel,436,00
+Office of the Federal Coordinator for Alaska Natural Gas Transportation,534,00
+Other Commissions and Boards,505,00
+Other Commissions and Boards,505,00
+Patient-Centered Outcomes Research Trust Fund,579,00
+Postal Service,440,00
+Presidio Trust,512,00
+Privacy and Civil Liberties Oversight Board,535,00
+Public Buildings Reform Board,290,00
+Public Defender Service for the District of Columbia,587,00
+Puerto Rico Oversight Board,328,00
+Railroad Retirement Board,446,00
+Recovery Act Accountability and Transparency Board,539,00
+Securities and Exchange Commission,449,00
+Smithsonian Institution,452,00
+Southeast Crescent Regional Commission,574,00
+Southwest Border Regional Commission,569,00
+State Justice Institute,453,00
+Surface Transportation Board,472,00
+Tennessee Valley Authority,455,00
+United States Agency for Global Media,514,00
+United States Court of Appeals for Veterans Claims,345,00
+United States Enrichment Corporation Fund,486,00
+United States Holocaust Memorial Museum,456,00
+United States Institute of Peace,458,00
+United States Interagency Council on Homelessness,376,00
+Vietnam Education Foundation,519,00
+Affordable Housing Program,530,00
+Corporation for Travel Promotion,580,00
+Electric Reliability Organization,531,00
+Federal Retirement Thrift Investment Board,369,00
+Medical Center Research Organizations,185,00
+National Association of Registered Agents and Brokers,543,00
+National Oilheat Research Alliance,544,00
+Public Company Accounting Oversight Board,526,00
+Securities Investor Protection Corporation,576,00
+Standard Setting Body,527,00
+United Mine Workers of America Benefit Funds,476,00
+Federal National Mortgage Association,915,00
+Federal Home Loan Mortgage Corporation,914,00
+Federal Home Loan Bank System,913,00
+Farm Credit System,912,00
+Financing Vehicles and the Board of Governors of the Federal Reserve,920,00
