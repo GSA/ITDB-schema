@@ -22,11 +22,18 @@ agencyId,TMF Initiative,agencyCode
 022,PERM Visa Modernization,012
 023,Login.gov,023
 050,Critical Infrastructure Cyber Protection,007
-051,Identity Credential Access Management (ICAM) Moder...,025
 052,Project Campfire,184
 053,Website and Digital Modernization,027
 054,Personal Data Security for Public Benefits Processing,016
 055,Secure Cloud National Intelligence Sharing,015
+057,Critical Infrastructure Cyber Protection (Army),007
+059,Identity Credential Access Management (ICAM) Modernization for FHA Connection,025
+063,Improving Mission Support with Modernized Applications,021
+064,Securing Public Health Information with Mature Zero Trust,009
+065,Digitizing Records for Easier Public Access,010
+066,Enhancing Security of DOL Data and Applications,012
+067,Securing Data Availability and Integrity,020
+068,Digitizing Forms and Personalizing Experiences for Better Veterans Benefits Management and Customer Support,029
 099,Zero Trust Architecture,184
 024,N/A,005
 025,N/A,006
