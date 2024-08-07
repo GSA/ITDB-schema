@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>IT Collect-By-2025 API Documentation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        redoc {
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div id="main">
+    <div class="container">
+        <script src="https://cdn.jsdelivr.net/npm/redoc@2.0.0-rc.58/bundles/redoc.standalone.js"></script>
+        <script>
+            Redoc.init(
+                "itcollect_openapi.json",
+                {hideLoading: true},
+                document.querySelector('#main>div.container'),
+                function() {
+                    document.querySelector('div>a[href="https://github.com/Redocly/redoc"]').style='display: none;'
+                });
+        </script>
+    </div>
+</div>
+</body>
+
+</html>
