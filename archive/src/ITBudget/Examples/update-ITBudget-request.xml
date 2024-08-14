@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd">
+<ITBudget:ITBudgetReport xmlns:ITBudget="urn:us:gov:ITBudget" xmlns="urn:us:gov:update-ITBudget-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:ITBudget ../Exchange/ITBudget-Agency-Report-x.xsd" validateOnlyIndicator="true">
     <ITBudget:UpdateITBudgetReport>
         <ITPortfolio>
             <UniqueInvestmentID>
                 <CurrentUII>024-000002047</CurrentUII>
-                <PriorUII>024-000002047</PriorUII>
                 <SharedServicesCategory>00</SharedServicesCategory>
                 <SharedServicesIdentifier>1234</SharedServicesIdentifier>
                 <MissionSupportInvestmentCategories>
@@ -12,26 +11,25 @@
                 </MissionSupportInvestmentCategories>
             </UniqueInvestmentID>
             <InvestmentCharacterization>
-                <InvestmentTitle>a</InvestmentTitle>
-                <InvestmentDescription>Sample Description.</InvestmentDescription>
+                <InvestmentTitle>gurttt</InvestmentTitle>
+                <InvestmentDescription>Sample Description Diegooo.</InvestmentDescription>
                 <BureauCode>10</BureauCode>
                 <PartofITPortfolio>02</PartofITPortfolio>
                 <InfrastructureManagementCategory>01</InfrastructureManagementCategory>
                 <MissionArea>01</MissionArea>
                 <TypeofInvestment>02</TypeofInvestment>
                 <NationalSecuritySystemsIdentifier>01</NationalSecuritySystemsIdentifier>
-                <FEAPrimaryBRMService>123</FEAPrimaryBRMService>  
-                <plannedAcquisitions>1</plannedAcquisitions> 
+                <FEAPrimaryBRMService>123</FEAPrimaryBRMService> 
+                <plannedAcquisitions>1</plannedAcquisitions>
                 <pivEnabled>1</pivEnabled>
             </InvestmentCharacterization>
             <InvestmentStatusChange>
                 <StatusIdentifier>11</StatusIdentifier>
                 <AgencyReasonforChange>No change</AgencyReasonforChange>
             </InvestmentStatusChange>
-            <publicURLs>
-                <publicURL>https://www.investment-url-123.gov/</publicURL>
-                <publicURL>https://www.investment-url-xyz.gov/</publicURL>
-            <publicURLs>
+            <publicUrls>
+                <url>http:://agency.gov</url>
+            </publicUrls>
             <OandM>
                 <PriorYear>
                     <AgencyFundingAmount>10.000000</AgencyFundingAmount>
@@ -241,7 +239,7 @@
                 </FundingSourceLineItem>
             </FundingSourceLineItems>
         </ITPortfolio>
-       <BudgetAccountSummary>
+        <BudgetAccountSummary>
             <BudgetAccount>
                 <FundingCode>a</FundingCode>
                 <CIOAuthorityAmount>0</CIOAuthorityAmount>

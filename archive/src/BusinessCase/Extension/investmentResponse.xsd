@@ -625,7 +625,7 @@
   <element name="uniqueProjectId" type="businessCase-type:string10"/>
   <element name="projectName" type="businessCase-type:shortTextString"/>
   <element name="projectGoal" type="businessCase-type:shortTextString"/>
-  <element name="softwareProject" type="businessCase-type:shortTextString"/>
+  <element name="softwareProject" type="businessCase-facet:yesNoString"/>
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
@@ -635,9 +635,9 @@
   <element name="deploymentTarget" type="businessCase-type:longTextString"/>
   <element name="description" type="businessCase-type:longTextString"/>
   <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
-  <element name="measurementCondition" type="businessCase-type:longTextString"/>
-  <element name="metricID" type="businessCase-type:identifiers"/>
-  <element name="agencyMetricID" type="businessCase-type:identifiers"/>
+  <element name="measurementCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="metricID" type="integer"/>
+  <element name="agencyMetricID" type="businessCase-type:shortTextString"/>
   
   <!-- sub-project / activity elements -->
   <element name="activityId" type="integer"/>

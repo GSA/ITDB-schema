@@ -1,0 +1,22 @@
+<towers validateOnlyIndicator="false">
+  <tower>
+    <operation>update</operation>
+    <towerDetails>
+      <UII>018-000006008</UII>
+    </towerDetails>
+    <investmentCostDetails>
+      <investmentCostDetail>
+        <category>1</category> <!--data center, cloud, storage, compute-->
+        <PY>200</PY>
+        <CY>20</CY>
+        <BY>220</BY>
+      </investmentCostDetail>
+	  <investmentCostDetail>
+        <category>3</category> <!--data center, cloud, storage, compute-->
+        <PY>300</PY>
+        <CY>30</CY>
+        <BY>330</BY>
+      </investmentCostDetail>
+    </investmentCostDetails>
+ </tower>
+</towers>
