@@ -33,17 +33,18 @@
             <project>
                 <operation>update</operation>
                 <agencyProjectID>Network-Project-123</agencyProjectID>
+                <uniqueProjectID>1</uniqueProjectID>
                 <projectName>Update-Network-Project-123</projectName>
-                <projectGoal>The goal</projectGoal>
+                <projectGoal>Update-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1992</projectStartDate>
-                <projectCompletionDate>10/17/1992</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>11</lifeCycleCost>
                 <softwareProject>yes</softwareProject>
                 <newOrExisting>new</newOrExisting>
-                <description>Put description here</description>
-                <unitOfMeasure>Mghz</unitOfMeasure>
-                <measurementCondition>under target</measurementCondition>
-                <deploymentTarget>Good</deploymentTarget>
+                <description>description</description>
+                <unitOfMeasure>description</unitOfMeasure>
+                <measurementCondition>Over target</measurementCondition>
+                <deploymentTarget>target</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>update</operation>
@@ -78,21 +79,21 @@
                     </activity>
                 </activities>
             </project>
-
             <project>
                 <operation>add</operation>
                 <agencyProjectID>Network-Project-234</agencyProjectID>
                 <projectName>Add-Network-Project-234</projectName>
-                <projectGoal>The goal</projectGoal>
+                <projectGoal>Add-Transition to ipv6</projectGoal>
                 <uniqueProjectID>2</uniqueProjectID>
                 <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>10</lifeCycleCost>
-                <softwareProject>no</softwareProject>
-                <newOrExisting>existing</newOrExisting>
-                <metricID></metricID>
-                <agencyMetricID>Network-Metric-123</agencyMetricID>
-                <deploymentTarget>Good</deploymentTarget>
+                <softwareProject>yes</softwareProject>
+                <newOrExisting>new</newOrExisting>
+                <description>description</description>
+                <unitOfMeasure>description</unitOfMeasure>
+                <measurementCondition>Over target</measurementCondition>
+                <deploymentTarget>target</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>add</operation>
@@ -113,7 +114,6 @@
                     </activity>
                 </activities>
             </project>
-
         </projects>
         <operationalAnalysis>
             <dateOfAnalysis>10/17/2000</dateOfAnalysis>

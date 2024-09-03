@@ -256,7 +256,7 @@
                     <xsd:element ref="update-ITBudget-ext:TypeofInvestment"/>
                     <xsd:element ref="update-ITBudget-ext:NationalSecuritySystemsIdentifier"/>
                     <xsd:element ref="update-ITBudget-ext:FEAPrimaryBRMService"/>
-                    <xsd:element ref="update-ITBudget-ext:plannedAcquisitions"/> <!--NEW-->
+                    <xsd:element ref="update-ITBudget-ext:plannedAcquisitions" minOccurs="0"/> <!--NEW-->
                     <xsd:element ref="update-ITBudget-ext:pivEnabled" minOccurs="0"/> <!--NEW-->
                 </xsd:sequence>
             </xsd:extension>

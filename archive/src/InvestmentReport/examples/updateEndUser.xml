@@ -30,16 +30,11 @@
                 <operation>update</operation>
                 <agencyProjectID>EndUser-Project-123</agencyProjectID>
                 <projectName>Update-EndUser-Project-123</projectName>
-                <projectGoal>The project goal</projectGoal>
+                <projectGoal>Update-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1992</projectStartDate>
                 <projectCompletionDate>10/17/1992</projectCompletionDate>
                 <lifeCycleCost>11</lifeCycleCost>
-                <softwareProject>no</softwareProject>
-                <newOrExisting>new</newOrExisting>
-                <description>Put description here</description>
-                <unitOfMeasure>Percent</unitOfMeasure>
-                <measurementCondition>over target</measurementCondition>
-                <deploymentTarget>Good</deploymentTarget>
+                <softwareProject>yes</softwareProject>
                 <activities>
                     <activity>
                         <operation>update</operation>
@@ -74,22 +69,16 @@
                     </activity>
                 </activities>
             </project>
-
             <project>
                 <operation>add</operation>
                 <agencyProjectID>EndUser-Project-234</agencyProjectID>
                 <projectName>Add-EndUser-Project-234</projectName>
-                <projectGoal>The project goal</projectGoal>
+                <projectGoal>Add-Transition to ipv6</projectGoal>
                 <uniqueProjectID>E123</uniqueProjectID>
                 <projectStartDate>10/17/1991</projectStartDate>
-                <projectCompletionDate>10/17/1991</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>10</lifeCycleCost>
-                <softwareProject>no</softwareProject>
-                <newOrExisting>new</newOrExisting>
-                <description>Put description here</description>
-                <unitOfMeasure>Percent</unitOfMeasure>
-                <measurementCondition>over target</measurementCondition>
-                <deploymentTarget>Good</deploymentTarget>
+                <softwareProject>yes</softwareProject>
                 <activities>
                     <activity>
                         <operation>add</operation>
@@ -110,8 +99,6 @@
                     </activity>
                 </activities>
             </project>
-
         </projects>
-
     </tower>
 </towers>

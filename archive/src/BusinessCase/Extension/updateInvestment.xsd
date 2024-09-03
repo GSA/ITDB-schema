@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
-   Copyright 2009-2011 United States Government. 
-   This software is licensed under the GNU General Public License
-   version 2 (see the file LICENSE for details)
--->
+        <!--
+           Copyright 2009-2011 United States Government.
+           This software is licensed under the GNU General Public License
+           version 2 (see the file LICENSE for details)
+        -->
 
 <schema targetNamespace="urn:us:gov:businessCase-update"
         xmlns:businessCase-type="urn:us:gov:businessCase-type"
@@ -923,27 +923,27 @@
   <element name="projectId" type="integer"/>
   <element name="agencyProjectId" type="businessCase-type:shortTextString"/>
   <element name="uniqueProjectId" type="businessCase-type:string10"/>
-  <element name="projectName" type="businessCase-type:shortTextString"/>
+  <element name="projectName" type="businessCase-type:string100"/>
   <element name="projectGoal" type="businessCase-type:shortTextString"/>
   <element name="projectStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectCompletionDate" type="businessCase-type:investmentDateType"/>
   <element name="projectLifeCycleCost" type="businessCase-type:dollarAmount"/>
-  <element name="softwareProject" type="businessCase-type:shortTextString"/>
+  <element name="softwareProject" type="businessCase-facet:yesNoString"/>
 
   <!-- projectMetric elements -->
   <element name="newOrExisting" type="businessCase-type:longTextString"/>
   <element name="deploymentTarget" type="businessCase-type:longTextString"/>
   <element name="description" type="businessCase-type:longTextString"/>
   <element name="unitOfMeasure" type="businessCase-type:shortTextString"/>
-  <element name="measurementCondition" type="businessCase-type:longTextString"/>
-  <element name="metricID" type="businessCase-type:identifiers"/>
-  <element name="agencyMetricID" type="businessCase-type:identifiers"/>
+  <element name="measurementCondition" type="businessCase-facet:prmConditionTypes"/>
+  <element name="metricID" type="integer"/>
+  <element name="agencyMetricID" type="businessCase-type:shortTextString"/>
 
   <!-- activity elements -->
   <element name="activityId" type="integer"/>
   <element name="agencyActivityId" type="businessCase-type:shortTextString"/>
-  <element name="activityName" type="businessCase-type:shortTextString"/>
-  <element name="activityDescription" type="businessCase-type:longTextString"/>
+  <element name="activityName" type="businessCase-type:string100"/>
+  <element name="activityDescription" type="businessCase-type:shortTextString"/>
   <element name="structureId" type="string"/>
   <element name="plannedStartDate" type="businessCase-type:investmentDateType"/>
   <element name="projectedStartDate" type="businessCase-type:investmentDateType" nillable="true"/>

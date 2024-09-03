@@ -17,15 +17,13 @@
                 <operation>update</operation>
                 <agencyProjectID>A123</agencyProjectID>
                 <projectName>Update-Application-Project-123</projectName>
-                <projectGoal>The project goal</projectGoal>
+                <projectGoal>Update-Transition to ipv6</projectGoal>
                 <projectStartDate>10/17/1992</projectStartDate>
-                <projectCompletionDate>10/17/1992</projectCompletionDate>
+                <projectCompletionDate>10/17/2020</projectCompletionDate>
                 <lifeCycleCost>11</lifeCycleCost>
-                <newOrExisting>new</newOrExisting>
-                <description>Put description here</description>
-                <unitOfMeasure>Percent</unitOfMeasure>
-                <measurementCondition>over target</measurementCondition>
-                <deploymentTarget>Good</deploymentTarget>
+                <softwareProject>yes</softwareProject>
+                <description>description</description>
+                <deploymentTarget>10</deploymentTarget>
                 <activities>
                     <activity>
                         <operation>update</operation>
