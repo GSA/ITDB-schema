@@ -2,8 +2,8 @@
 This Github repository is supplied by GSA for the IT Portfolio Management (ITPfM) Community in support of modernized IT Collect API. Here ITPfM developers can find the latest ITPfM policy Guidance and the API Schema specs that show the direction of IT Collect data architecture. The repository’s aim is to provide real-time updates to the IT Collect API. It will serve as living documentation of the latest changes.  
  
  * Community members should be able to download the latest [A-11 Section 55](https://www.whitehouse.gov/wp-content/uploads/2018/06/s55.pdf), and find the BY 2025 Submission Overview on the [IT Dashboard](https://www.itdashboard.gov).
- * Community members should be able to view the [IT Collect BY 2025 ITPfM API Schema](https://gsa.github.io/ITDB-schema/cpic-by-2025/docs/index.html).
- * Community members should be able to view the former [IT Collect BY 2024 ITPfM API Schema](https://gsa.github.io/ITDB-schema/).
+ * Community members should be able to view the [IT Collect BY 2026 ITPfM API Schema] (https://gsa.github.io/ITDB-schema/cpic-by-2026/docs/index.html).
+ * Community members should be able to view the former [IT Collect BY 2025 ITPfM API Schema](https://gsa.github.io/ITDB-schema/cpic-by-2025/docs/index.html).
  * As changes are made by IT Collect developers, the Open API spec will be automatically updated.
  * Members of this repository receive alerts when files are updated, assuming they subscribe to GitHub notifications.
  * A core team will monitor this repository for issues, questions and pull requests and will respond as issues and questions are raised and changes are proposed.
