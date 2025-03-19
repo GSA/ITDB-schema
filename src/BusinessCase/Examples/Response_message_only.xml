@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sr:operationResults validateOnlyIndicator="true" xmlns:sr="http://www.itdashboard.gov/serviceResponse">
-  <sr:messages>
-    <sr:message xpath="String" level="info">String</sr:message>
-  </sr:messages>
-</sr:operationResults>
