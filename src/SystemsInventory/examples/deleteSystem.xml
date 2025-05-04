@@ -1,9 +1,0 @@
-<systems validateOnlyIndicator="false">
-    <system>
-        <operation>delete</operation>
-        <details>
-            <UII>018-000006000</UII>
-            <agencySystemsInventoryID>250 Chars Here</agencySystemsInventoryID>
-        </details>
-    </system>
-</systems>

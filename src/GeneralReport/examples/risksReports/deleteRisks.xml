@@ -1,8 +1,0 @@
-<generalDataReports validateOnlyIndicator="true">
-    <risksReport>
-        <operation>delete</operation>
-        <details>
-            <UII>{{uii}}</UII>
-        </details>
-    </risksReport>
-</generalDataReports>
