@@ -49149,7 +49149,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               },
               "application/json": {
@@ -49424,7 +49424,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               }
             }
@@ -49874,7 +49874,7 @@
           }
         },
         "summary": "Creates a Services resource.",
-        "description": "Creates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
+        "description": "Creates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
         "parameters": [
           {
             "name": "ITCOLLECT-VALIDATE-ONLY",
@@ -50170,7 +50170,7 @@
                     "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                   }
                 },
-                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
               }
             },
             "application/json": {
@@ -50445,7 +50445,7 @@
                     "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                   }
                 },
-                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
               }
             }
           },
@@ -51052,7 +51052,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               },
               "application/json": {
@@ -51327,7 +51327,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               }
             }
@@ -51777,7 +51777,7 @@
           }
         },
         "summary": "Replaces the Services resource.",
-        "description": "Replaces the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
+        "description": "Replaces the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
         "parameters": [
           {
             "name": "agencyId",
@@ -52084,7 +52084,7 @@
                     "description": "Baseline fields include:\n\n- isRetired (when un-retiring a Service i.e. setting isRetired to `false` when `true`)\n\nA valid rebaseLineId is required if your are modifying baseline fields.<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>The rebaseLineId you submitted is invalid. A rebaseLineId must exist and be associated with your agency</li></ul></details>"
                   }
                 },
-                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
               }
             },
             "properties": {
@@ -52643,7 +52643,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               },
               "application/json": {
@@ -52918,7 +52918,7 @@
                       "description": "<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>One of the following Length errors: <br/> 1) This value is too short. It should have 1 character or more.. <br/> 2) This value is too long. It should have 64 characters or less.. <br/> 3) This value does not match the expected UTF-8 charset.. <br/></li><li>This value may be only alphanumeric characters</li><li>Property <span style='color:#D41F1C;'>agencyId</span> with value <span style='color:#D41F1C;'>{{ value }}</span> is already in use.  The property <span style='color:#D41F1C;'>agencyId</span> must be unique.</li></ul></details>"
                     }
                   },
-                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                  "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
                 }
               }
             }
@@ -53368,7 +53368,7 @@
           }
         },
         "summary": "Updates the Services resource.",
-        "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
+        "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>",
         "parameters": [
           {
             "name": "agencyId",
@@ -53675,7 +53675,7 @@
                     "description": "Baseline fields include:\n\n- isRetired (when un-retiring a Service i.e. setting isRetired to `false` when `true`)\n\nA valid rebaseLineId is required if your are modifying baseline fields.<details><summary style='cursor: pointer; font-size: 12px;'><b>Validations</b></summary><ul style='font-size: 12px'><li>The rebaseLineId you submitted is invalid. A rebaseLineId must exist and be associated with your agency</li></ul></details>"
                   }
                 },
-                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>Property systemId with value <span style='color:#D41F1C;'>{{ systemIdCDM }}</span> is already in use. The SystemIdCDM array cannot have duplicate values.</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
+                "description": "Updates the Services resource.<details><summary style='cursor: pointer'><b style='font-size: 14px'>Validations</b></summary><ul style='font-size: 13px;'><li>The provided SystemId (value) doesn't exist in the active CDM System Ids list</li><li>The provided bureau code <span style='color:#D41F1C;'>{{ bureauCode }}</span> is not an active bureau code for agency <span style='color:#D41F1C;'>{{ agencyCode }}</span></li><ul></details>"
               }
             },
             "properties": {
