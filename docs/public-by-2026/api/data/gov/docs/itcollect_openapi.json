@@ -3,7 +3,7 @@
   "info": {
       "title": "ITCollect Public By 2026 Api",
     "version": "0.1-beta",
-      "description": "<div>The IT Dashboard team aims to build a modern API that acts as the center-piece of a modular IT data reporting ecosystem. This OpenAPI spec shows the initial direction of ITCollect Public data architecture for budget year 2024, and it is aimed at providing real-time updates to the IT Collect Public By 2024 API. It will serve as living documentation of the latest changes.</div></br><div>In order to access ITCollect Public Api, Please fill out the below form to obtain an authorization key</div></br><div id='apidatagov_signup'>Loading signup form...</div>",
+      "description": "<div>The IT Dashboard team aims to build a modern API that acts as the center-piece of a modular IT data reporting ecosystem. This OpenAPI spec shows the initial direction of ITCollect Public data architecture for budget year 2026, and it is aimed at providing real-time updates to the IT Collect Public By 2026 API. It will serve as living documentation of the latest changes.</div></br><div>In order to access ITCollect Public Api, Please fill out the below form to obtain an authorization key</div></br><div id='apidatagov_signup'>Loading signup form...</div>",
       "x-logo": {
       "url": "images/logo-gsa.svg",
       "backgroundColor": "#FFFFFF",
