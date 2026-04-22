@@ -1,5 +1,3 @@
-# IT Dashboard.gov
-
 ### Streamlining IT Investment Reporting
 *Message from the Office of Management and Budget, Office of the Federal Chief Information Officer*
 
