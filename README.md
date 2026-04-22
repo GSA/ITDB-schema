@@ -13,7 +13,6 @@ In your service,
 US Federal Chief Information Officer
 Office of Management & Budget
 Executive Office of the President
-<img width="468" height="280" alt="image" src="https://github.com/user-attachments/assets/ff4c9bc9-698b-464e-b607-9887f0c512d7" />
 
 
 
