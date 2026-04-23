@@ -6,9 +6,10 @@ We are taking action to simplify IT investment reporting – focusing on core st
 
 If agencies have any questions, please reach out to your assigned Desk Officer within OMB’s Office of the Federal CIO.
 
-$\color{red}{\text{----------------------------------------------------------------------------------------------------------------------------------------------}}$\
-$\color{red}{\text{The Content Below is Available for Historical Reference Only // Do Not Follow Any of the Actions Below}}$\
-$\color{red}{\text{----------------------------------------------------------------------------------------------------------------------------------------------}}$\
+$\color{red}{\text{----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------}}$
+<p align="center">$\color{red}{\text{The Content Below is Available for Historical Reference Only // Do Not Follow Any of the Actions Below}}$</p>
+
+$\color{red}{\text{----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------}}$
 ***Last Updated on September 2, 2025***
 
 # About the GitHub Repository
